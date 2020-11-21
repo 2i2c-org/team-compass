@@ -1,8 +1,4 @@
-# 2i2c strategy and goals
-
-This page describes some of the high-level goals and strategy that 2i2c is currently pursuing. These generally span multiple projects as well as several months.
-
-## Strategic plan
+# Strategy and goals
 
 The 2i2c strategic plan is a combination of active and aspirational priorities that help us get closer to achieving our organizational mission. These are roughly broken down into **Objectives and Key Results** across four categories, associated with the [mission of 2i2c](https://2i2c.org/#what-we-do):
 
@@ -14,7 +10,7 @@ The 2i2c strategic plan is a combination of active and aspirational priorities t
 Each [2i2c project](projects.md) should work towards accomplishing one or more of these goals. Note that there are no deadlines yet associated with these goals, as 2i2c is still in the process of defining its organizational structure and cadence.
 
 (strategy:research)=
-### Interactive computing in research
+## Interactive computing in research
 
 * Support the Pangeo project
   * 2i2c team members regularly contribute to Pangeo core infrastructure
@@ -27,7 +23,7 @@ Each [2i2c project](projects.md) should work towards accomplishing one or more o
   * A hub and sustainability model is developed for supporting new research communities with Pangeo-like needs
 
 (strategy:education)=
-### Interactive computing in education
+## Interactive computing in education
 
 * Support for large institutional hub infrastructure
   * Run at least 2 pilots for institutions with a heterogeneous user base (AKA, not for a specific project)
@@ -49,7 +45,7 @@ Each [2i2c project](projects.md) should work towards accomplishing one or more o
   * Sustainability model for smaller or under-resourced institutions
 
 (strategy:open-source)=
-### Supporting open source communities
+## Supporting open source communities
 
 * 2i2c team guidelines for supporting open source
   * Identify major open source tools we direct 2i2c resources towards
@@ -60,7 +56,7 @@ Each [2i2c project](projects.md) should work towards accomplishing one or more o
   * Commits, contributions in issues/PRs, community work, major development efforts, etc
 
 (strategy:organizational)=
-### Organizational
+## Organizational
 
 * Lay an organizational foundation
   * Document organizational practices and key information
