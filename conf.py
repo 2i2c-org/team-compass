@@ -63,3 +63,4 @@ html_theme_options = {
     "extra_navbar": "",
 }
 panels_add_bootstrap_css = False
+myst_deflist_enable = True

@@ -6,6 +6,7 @@
 about
 get-started
 practices
+roles
 ```
 
 ```{toctree}
