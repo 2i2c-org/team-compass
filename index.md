@@ -5,6 +5,7 @@
 :caption: Team Information
 about
 get-started
+practices
 ```
 
 ```{toctree}

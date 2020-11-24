@@ -60,5 +60,6 @@ html_theme_options = {
     "repository_url": "https://github.com/2i2c-org/handbook",
     "use_repository_button": True,
     "use_edit_page_button": True,
+    "extra_navbar": "",
 }
 panels_add_bootstrap_css = False
