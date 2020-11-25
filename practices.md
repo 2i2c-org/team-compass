@@ -16,6 +16,8 @@ The folder is organized into a few top-level folders that *should* be relatively
 
 2i2c uses [the Handbook Projects page](projects.md) to keep track of the major projects that it is working on. That page has links to the location of project-specific to-do lists, deliverables, etc.
 
+More organization-specific discussion and items we track can also be found in [the private 2i2c `meta` repository](https://github.com/2i2c-org/meta).
+
 Generally speaking the daily specifics of activity on a project are recorded *outside* of the handbook, as they are more dynamic. The important thing is that the handbook make it clear *where* to find this information, and that the information is kept up-to-date for all.
 
 ## Team Conversation
