@@ -55,6 +55,19 @@ You are *encouraged* but not *required* to take part in conversation on Slack.
 
 4. **Update often**. Err on the side of updating the team more often than not.  Nobody should be surprised when something gets done - especially nothing major. Your work should be as transparent to others as possible!
 
+
+## Marketing and communication
+
+There are three main ways that 2i2c communicates with the outside world:
+
+- Twitter: [@2i2c_org](https://twitter.com/2i2c_org)
+  - Currently, there is nobody activately monitoring the Twitter account. We use it to post links to blog posts or major announcements in the newsletter.
+- Newsletter: [using Mailchimp](https://mailchimp.com/)
+  - Users sign up to the newsletter via our landing page's contact form at [2i2c.org#contact](https://2i2c.org#contact). Email addresses are imported into Mailchimp for the newsletter.
+- Blog: [2i2c.org/blog]
+  - The blog is managed by our [Hugo website repository](https://github.com/2i2c-org/2i2c.github.io). All new posts are automatically sent to the mailing list on a weekly basis.
+
+
 ## Terminology
 
 Here are some helpful terms that we use at 2i2c.
