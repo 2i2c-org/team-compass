@@ -38,5 +38,4 @@ jobs:
       if: ${{ github.event_name == 'push' }}
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./_build/html
-        cname: 2i2c.org/pilot
+        publish_dir: ./_build/dirhtml
