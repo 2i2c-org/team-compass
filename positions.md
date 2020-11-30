@@ -1,4 +1,4 @@
-# Roles and Salaries
+# Positions and Salaries
 
 This document represents the positions and salary levels that 2i2c uses. They are inspired by the hiring/salary structure of several tech companies[^job-refs].
 
@@ -15,7 +15,7 @@ For example, **Open Source Infrastructure Engineer L2 - S3**.
 Here is a quick breakdown of this terminology and structure:
 
 Role
-: Roles are specific areas of focus and skills in 2i2c. The expectations and focus-areas within that role are set by Levels and Steps.
+: Positions are specific areas of focus and skills in 2i2c. The expectations and focus-areas within that role are set by Levels and Steps.
 
 Levels
 : Levels are large and distinct jumps in terms of area knowledge, role complexity and overall scope. Higher levels generally mean less-oversight and more autonomy, higher expectations of quality, more work on design / strategy than implementation, etc.
@@ -23,9 +23,9 @@ Levels
 Steps
 : Four steps are housed within each level and are meant to mark smaller milestones of growth in terms of ownership and initiative, as well as experience in the current role. These are generally not part of public materials, but are
 
-## Roles at 2i2c
+## Positions at 2i2c
 
-Below is a list of roles that 2i2c currently uses.
+Below is a list of positions that 2i2c currently uses.
 
 ### Open Source Infrastructure Engineer
 
