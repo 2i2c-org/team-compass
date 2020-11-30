@@ -8,6 +8,7 @@ get-started
 practices
 positions
 sre
+reference
 ```
 
 ```{toctree}
