@@ -69,15 +69,43 @@ There are three main ways that 2i2c communicates with the outside world:
 - Blog: [2i2c.org/blog]
   - The blog is managed by our [Hugo website repository](https://github.com/2i2c-org/2i2c.github.io). All new posts are automatically sent to the mailing list on a weekly basis.
 
+## Slack
 
-## Terminology
+### Who is invited to the Slack?
 
-Here are some helpful terms that we use at 2i2c.
+Currently, anyone who is interested can join the 2i2c Slack. Initially this is people that mentioned they would like to join via our blog post. Any Slack member is welcome to send an invite link to another person that would like to join.
 
-```{glossary}
-Single Source of Truth
-  Remote teams and open communities need to balance information across team members, and ensure that everyone is on the same page. For this reason, it is recommended to adopt a "single source of truth" for anything important [^sst1]. This is an authoritative source that everyone can look to in order to know the current status and plan for anything we do at 2i2c.
+### Private vs. Public rooms in the Slack
+
+There are a mix of private and public rooms in the Slack. In general, conversations about projects, development, etc should be in public rooms. **Most conversation in the 2i2c Slack should be in public channels**.
+
+We'll create private rooms for a few specific topics that probably warrant private conversation. By default, we'll start with:
+
+- `#partnerships` - to discuss new partnerships with 2i2c
+- `#recruiting` - to discuss hiring with 2i2c
+
+and eventually
+
+- `#sales` - to discuss new sales leads etc
+
+Conversation about more sensitive topics like *pursuing* collaborations, sales, etc should be in a private room until it's appropriate to start discussing in public channels. By default, all 2i2c staff, key volunteers, and founders will have access to all private rooms (it is only the "friends of 2i2c" and users that do not have access).
+
+### Code of Conduct
+
+2i2c is still in the process of creating its Code of Conduct, so it does not have a 2i2c-specific CoC to apply to the Slack. In the meantime, all members of the 2i2c Slack must abide by the [NumFocus Code of Conduct](https://numfocus.org/code-of-conduct) guidelines. If you wish to report a violation of this code of conduct in the 2i2c Slack, send an email to [`conduct@2i2c.org`](mailto:conduct@2i2c.org).
+
+```{warning}
+This section will be updated once 2i2c defines its own CoC and reporting infrastructure.
 ```
+
+### What rooms to use?
+
+We try to keep the number of rooms to a minimum, and only add new rooms if it really feels necessary (e.g. if we keep having "off topic" conversations about the same topic in one room). Over time, we can revisit the Slack rooms that we use, and add / prune as needed.
+
+### Bots
+
+We use the [GitHub bots])(https://slack.github.com/) to track github issues that are relevant to Slack channels, and explore more integrations in the future. In general we should only use the bot to mirror comments if a repository is *obviously always relevant* to a channel. Otherwise, only mirror comments that are *tagged with a particular label* (e.g. `#recruiting`).
+
 
 [^sst1]: **References for Single Source of Truth**: For a few examples, see [this Bitergia post](https://blog.bitergia.com/2020/08/25/why-ospo-teams-need-a-single-source-of-truth/) and [the GitLab SSOT section](https://about.gitlab.com/handbook/values/#single-source-of-truth).
 
