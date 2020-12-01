@@ -104,7 +104,7 @@ We try to keep the number of rooms to a minimum, and only add new rooms if it re
 
 ### Bots
 
-We use the [GitHub bots])(https://slack.github.com/) to track github issues that are relevant to Slack channels, and explore more integrations in the future. In general we should only use the bot to mirror comments if a repository is *obviously always relevant* to a channel. Otherwise, only mirror comments that are *tagged with a particular label* (e.g. `#recruiting`).
+We use the [GitHub bots](https://slack.github.com/) to track github issues that are relevant to Slack channels, and explore more integrations in the future. In general we should only use the bot to mirror comments if a repository is *obviously always relevant* to a channel. Otherwise, only mirror comments that are *tagged with a particular label* (e.g. `#recruiting`).
 
 
 [^sst1]: **References for Single Source of Truth**: For a few examples, see [this Bitergia post](https://blog.bitergia.com/2020/08/25/why-ospo-teams-need-a-single-source-of-truth/) and [the GitLab SSOT section](https://about.gitlab.com/handbook/values/#single-source-of-truth).
