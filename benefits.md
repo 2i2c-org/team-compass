@@ -25,7 +25,7 @@ Currently 2i2c does not have a limit on the number of days you may take off each
 
 ### How to let the team know you're taking off
 
-2i2c uses a Google Calendar to track major events and dates. If you're planning to take time off, as soon as possible **mark these days on your Google Calendar** and **ping the 2i2c team in Slack**.
+2i2c uses a Google Calendar to track major events and dates. If you're planning to take time off, as soon as possible **mark these days on your Google Calendar** and **tell the rest of the 2i2c team in Slack**.
 
 ### 2i2c holidays
 
