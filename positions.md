@@ -36,7 +36,7 @@ This role focuses on infrastructure that supports interactive computing. It inte
 
 The director of engineering sets the technical strategy for 2i2c, as well as leads major technical initiatives for 2i2c infrastructure. Development work should be focused on architectural design and major infrastructure changes. This role defines the technical direction of 2i2c’s development efforts, and interfaces with 2i2c engineers to guide development in this direction.
 
-
+(position:director)=
 ### Director of 2i2c
 
 This role is the director of 2i2c. They oversee strategy, execution, and fundraising at 2i2c. They also ensure that 2i2c engineers are empowered to execute on their responsibilities, and thrive in their positions.

@@ -7,6 +7,7 @@ about
 get-started
 practices
 positions
+people
 benefits
 sre
 reference
