@@ -25,7 +25,7 @@ Discuss your desired time off enough in advance for the team to plan around it. 
 
 ### Use the Calendar to let the team know you're taking off
 
-2i2c uses a Google Calendar to track major events and dates. Once you've gotten approval from [the 2i2c Director](position:director), **mark these days on your Google Calendar** with the title `VACATION` and **ping the 2i2c team in Slack**.
+2i2c uses a Google Calendar to track major events and dates. Once you've gotten approval from [the 2i2c Director](position:director), **mark these days on your Google Calendar** with the title `VACATION` and **tell the rest of the 2i2c team in Slack**.
 
 ### 2i2c holidays
 
