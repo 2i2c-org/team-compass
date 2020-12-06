@@ -17,21 +17,22 @@ For employees based in the US, 2i2c will make contributions to a retirement acco
 First and foremost, 2i2c fosters a culture of healthy balance between work and life.
 All 2i2c employees should take the time they need to thrive - this will both make you happier and benefit 2i2c in the long run.
 
-Currently 2i2c does not have a limit on the number of days you may take off each year. We recommend that all 2i2c team members **take at least 15 days** (3 weeks) annually (pro-rated if you started work mid-way through the year).
-
-Before planning time off, ask the team to make sure there aren't any major dates that we'll need team members for, and get approval from the Director of 2i2c. In the future, we aim to be more flexible with PTO, but will use this process while the team is very small.
-
-Discuss your desired time off enough in advance for the team to plan around it. This should roughly scale with how long you'd like to take off (e.g., for just a day or two, let everyone know the week before, to take off several weeks, let us know a month in advance, etc).
+- Currently 2i2c does not have a limit on the number of days you may take off each year. 
+- We recommend that all 2i2c team members **take at least 15 days** (3 weeks) annually (pro-rated if you started work mid-way through the year).
+- Before planning time off, get approval from the Director of 2i2c to make sure there aren't any major dates that we'll need team members for.
+  - In the future, we aim to be more flexible with PTO, but will use this process while the team is very small.
+- Discuss your desired time off enough in advance for the team to plan around it. This should roughly scale with how long you'd like to take off (e.g., for just a day or two, let everyone know the week before, to take off several weeks, let us know a month in advance, etc).
+- This time is separate from holidays that you choose to celebrate, and outside of sick/personal days, bereavement/compassionate leave, and family leave.
 
 ### Use the Calendar to let the team know you're taking off
 
-2i2c uses a Google Calendar to track major events and dates. Once you've gotten approval from [the 2i2c Director](position:director), **mark these days on your Google Calendar** with the title `VACATION` and **tell the rest of the 2i2c team in Slack**.
+2i2c uses a Google Calendar to track major events and dates. Once you've gotten approval from the 2i2c Director, **mark these days on your Google Calendar** with the title `VACATION` and **tell the rest of the 2i2c team in Slack**.
 
 ### 2i2c holidays
 
-2i2c is a fully remote team, and as such we recognize holidays based on your home country rather than standardizing on US holidays. You should take the time to be with those around you when your community has time off.
+2i2c is a fully remote team, and as such we recognize holidays based on your home country. You should take the time to be with those around you when your community has time off.
 
-Mark your 2i2c Google Calendar with any nationally-recognized holidays in your country of residence.
+Mark your 2i2c Google Calendar with any nationally-recognized holidays in your country of residence. Use the `HOLIDAY` title for the event on your calendar.
 
 2i2c recognizes the following paid leave holidays:
 
@@ -41,3 +42,7 @@ Mark your 2i2c Google Calendar with any nationally-recognized holidays in your c
 ### Sick and personal leave
 
 2i2c team members should always prioritize their own well-being and health. If for any reason you must take a leave for personal reasons, you are encouraged to do so. Just make sure that you let the team know about your plans. If you expect this to be longer than a few weeks, get in touch with the Director of 2i2c in order to plan for your absence.
+
+### Inspiration
+
+2i2c's PTO policy is inspired by several other remote organizations. In particular, [Buffer](https://buffer.com/resources/employees-take-vacation/), [GitLab](https://about.gitlab.com/handbook/paid-time-off/), and [BaseCamp](https://basecamp.com/handbook/08-benefits-and-perks#paid-time-off).
