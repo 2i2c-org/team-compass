@@ -58,6 +58,7 @@ html_static_path = ['_static']
 show_navbar_depth = 3
 html_theme_options = {
     "repository_url": "https://github.com/2i2c-org/handbook",
+    "repository_branch": "main",
     "use_repository_button": True,
     "use_edit_page_button": True,
     "extra_navbar": "",
