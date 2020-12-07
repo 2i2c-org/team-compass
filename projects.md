@@ -6,6 +6,12 @@ These are active projects that 2i2c is currently working on.
 Any time that you're asked to give a new email address for something related to your 2i2c work, use your 2i2c email address as a default. For example, if you're adding 2i2c team members as admin users to a hub with Google OAuth, use their 2i2c email addresses.
 ```
 
+Here is a list of active projects:
+
+```{contents}
+:depth: 2
+```
+
 ## Starting a new project?
 
 A new project should be created for anything with a specific scope and set of deliverables that spans a reasonably long amount of time (e.g., something that will spawn multiple issues or to-do items). 2i2c projects should all feed into the [2i2c organizational strategy and goals](strategy.md).
@@ -18,7 +24,6 @@ We should document the following things:
 2. **Define the project's strategic goal**. What is the overarching purpose for working on this project? How does it fit in with the overarching [strategic goals of 2i2c](strategy.md)?
 3. **Key Outcomes**. What are some concrete outcomes that we wish to get from this project? What are things we can use to define success?
 4. **Project Information** What's the "source of truth" for this project? Where does project management and tracking take place? Where do we track progress? What about to-do items? Where does communication happen around this project? (e.g., in a GitHub repository, in Slack, in a Google doc).
-5. **Project Shepherds**. Who ensures that this project is running smoothly, hitting its goals, and unblocking people?
 
 ## University of Toronto pilot hub
 
@@ -38,14 +43,9 @@ Use this pilot to learn about what needs a large, heterogeneous university like 
 
 Project management for this collaboration is in two locations:
 
-- [**The deployment repository**](https://github.com/utoronto-2i2c/jupyterhub-deploy) has further information about these deployments.
-- **Microsoft teams**. This collaboration is using the Microsoft Teams account with U. Toronto. If you're working on this deployment, ask for MS Teams access in the Slack.
+- Project management: [the deployment repository](https://github.com/utoronto-2i2c/jupyterhub-deploy) has further information about these deployments.
+- Communication: **Microsoft teams**. This collaboration is using the Microsoft Teams account with U. Toronto. If you're working on this deployment, ask for MS Teams access in the Slack.
 
-### Project Shepherds
-
-- Chris Holdgraf
-- Yuvi Panda
-- Jim Colliander
 
 (projects:hubs-for-all)=
 ## Hubs for All infrastructure pilot
@@ -64,13 +64,9 @@ The goal of this project is to get 2i2c closer to offering lightweight, "self-se
 
 Project management for this collaboration is in two locations:
 
-- [JupyterHubs deploy repository](https://github.com/2i2c-org/pilot-hubs)
-- [Pilot documentation](https://github.com/2i2c-org/pilot)
-
-### Project Shepherds
-
-- Chris Holdgraf
-- Yuvi Panda
+- Project management in two locations:
+  - [JupyterHubs deploy repository](https://github.com/2i2c-org/pilot-hubs)
+  - [Pilot documentation](https://github.com/2i2c-org/pilot)
 
 ## Educational self-serve pilots
 
@@ -90,16 +86,10 @@ The main goal of these pilots is to learn more about how smaller organizations u
 
 ### Project Information
 
-Most project management for these hubs takes place in the same place as the Pilot Hubs repositories:
+- Project Management:
+  - [JupyterHubs deploy repository](https://github.com/2i2c-org/pilot-hubs)
+  - [Pilot documentation](https://github.com/2i2c-org/pilot)
 
-- [JupyterHubs deploy repository](https://github.com/2i2c-org/pilot-hubs)
-- [Pilot documentation](https://github.com/2i2c-org/pilot)
-
-### Project Shepherds
-
-- Chris Holdgraf
-- Yuvi Panda
-- Cathryn Carson
 
 ## Pan-foo hubs pilots
 
@@ -127,10 +117,9 @@ There are currently two organizations for which we are deploying these hubs, and
 
 The [Farallon Institute](http://www.faralloninstitute.org/) is a research institute associated with NASA, they are running a Pangeo-like hub for their community.
 
-All project management and support for this hub is in these two locations:
-
-- [GitHub repository for hub deployments](https://github.com/2i2c-org/pangeo-hubs)
-- [Gitter channel](https://gitter.im/pangeo-data/FI-hub)
+- project management:
+  - [GitHub repository for hub deployments](https://github.com/2i2c-org/pangeo-hubs)
+  - [Gitter channel](https://gitter.im/pangeo-data/FI-hub)
 
 #### Catalyst Cooperative
 
@@ -138,13 +127,7 @@ The [Catalyst Cooperative](https://catalyst.coop/) is a cooperative consultancy 
 
 Currently, we are working with this team via the Pilot Hubs, though we expect to move them to a dedicated hub if they wish to pursue the collaboration further.
 
-- [JupyterHubs deploy repository](https://github.com/2i2c-org/pilot-hubs)
-- [Pilot documentation](https://github.com/2i2c-org/pilot)
-
-### Project Shepherds
-
-- Chris Holdgraf
-- Yuvi Panda
+- Project management: [Meta issue for collaboration](https://github.com/2i2c-org/meta/issues/80)
 
 ## Jupyter Meets the Earth and Pangeo
 
@@ -168,18 +151,9 @@ The key outcomes for this project are largely defined by the Pangeo community, a
 
 ### Project Information
 
-Conversation and deliverables for the Jupyter Meets the Earth grant are in [the `jupyter-earth` repository](https://github.com/pangeo-data/jupyter-earth).
+- Project management: [the `jupyter-earth` repository](https://github.com/pangeo-data/jupyter-earth)
+- Meeting notes and updates: [the `jupyter-earth` meeting google doc](https://docs.google.com/document/d/1Od-7_FK1M9kLUkTiSMvAl2tmMwRJEdh-EySCMx5kndg/edit)
 
-Broader Pangeo conversation and engagement happen in [the Pangeo GitHub repository](https://github.com/pangeo-data/pangeo).
-
-### Project Shepherds
-
-- Ryan Abernathy
-- Fernando Perez
-- Lindsey Heagy
-- Erik Sundell
-- Chris Holdgraf
-- Yuvi Panda
 
 ## Jupyter Book development
 
@@ -199,8 +173,7 @@ Jupyter Book has potential uses in both research and educational hubs, and impro
 
 ### Project Information
 
-Most project discussion takes place in [github repositories in the `executablebooks/` organization](https://github.com/executablebooks) and project-wide conversations and discussion happen in [the `meta` repository](https://github.com/executablebooks/meta).
-
-### Project Shepherds
-
-- Chris Holdgraf
+- Project management:  [github repositories in the `executablebooks/` organization](https://github.com/executablebooks)
+- Project-wide conversations and discussion:
+  - [the `meta` repository](https://github.com/executablebooks/meta)
+  - the EBP slack (ask if you'd like an invite)
