@@ -2,22 +2,27 @@
 
 ```{toctree}
 :hidden:
-:caption: Team Information
+:caption: 2i2c Information
 about
+positions
+reference
+```
+```{toctree}
+:caption: Team Information
+
 get-started
 practices
-positions
 people
 benefits
 sre
-reference
+projects
 ```
 
 ```{toctree}
 :hidden:
-:caption: Strategy
-strategy
+:caption: Projects and Strategy
 projects
+strategy
 ```
 
 ## How to use the handbook
