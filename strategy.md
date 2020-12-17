@@ -1,79 +1,39 @@
 # Strategy and goals
 
-The 2i2c strategic plan is a combination of active and aspirational priorities that help us get closer to achieving our organizational mission. These are roughly broken down into **Objectives and Key Results** across four categories, associated with the [mission of 2i2c](https://2i2c.org/#what-we-do):
+The 2i2c strategic plan is a combination of active and aspirational priorities that help us get closer to achieving our organizational mission. These are broken down into **strategic goals and objects for each**, with links to projects that feed into these objectives. There are four categories, associated with the [mission of 2i2c](https://2i2c.org/#what-we-do):
 
-- [Interactive Computing in Research](strategy:research)
-- [Supporting Interactive Computing in Education](strategy:education)
-- [Supporting Open Source Communities for Interactive Computing](strategy:open-source)
-- [Organizational and operational goals](strategy:organizational)
+- {badge}`research,badge-primary`: Interactive Computing in Research
+- {badge}`education, badge-secondary`: Supporting Interactive Computing in Education
+- {badge}`open-source, badge-info`: Supporting Open Source Communities for Interactive Computing
+- {badge}`organization, badge-success`: Organizational and operational goals
 
 Each [2i2c project](projects.md) should work towards accomplishing one or more of these goals. Note that there are no deadlines yet associated with these goals, as 2i2c is still in the process of defining its organizational structure and cadence.
 
-(strategy:research)=
-## Interactive computing in research
 
-* Support the Pangeo project
-  * 2i2c team members regularly contribute to Pangeo core infrastructure
-  * Pangeo community members report stability and general positive experiences running Pangeo infrastructure
-* Extend Pan-foo computing models to new communities
-  * Adapt Pangeo infrastructure and deployments for at least 2 new research communities
-  * Pangeo-specific patterns and infrastructure are generalized to be domain-agnostic
-  * Documentation for reccomendations using 2i2c Hub infrastructure for Pan-foo projects
-* Sustaining research hub infrastructure
-  * A hub and sustainability model is developed for supporting new research communities with Pangeo-like needs
+## Build an organizational and business model
 
-(strategy:education)=
-## Interactive computing in education
+A core offering of 2i2c is to act as a **service provider** and **development partner** for hire. This means that we need to define business objectives, pricing and growth models, and products that are useful and sustainable for both 2i2c and our potential customers.
 
-* Support for large institutional hub infrastructure
-  * Run at least 2 pilots for institutions with a heterogeneous user base (AKA, not for a specific project)
-  * Identify development opportunities to improve the use of hubs for large and diverse educational users (e.g., multiple courses, departments, etc)
-  * Conversion from pilot hubs to paid hubs for 2-3 large institutions
+* {ref}`projects:organization-building`
+* {ref}`projects:product-building`
 
-* Support for smaller / lesser-resourced institutions
-  * Hubs for All that is sustainable and scalable
-  * Pilot hubs for several of these kinds of organizations
-  * Conversion from pilot hubs to paid hubs for 5-10 smaller institutions
+## Support the pan-foo model for research and extend the Pangeo project
 
-* Improving technology for education with JupyterHub
-  * Development towards LMS integration (e.g. OpenEdX, Canvas, etc)
-  * Grading infrastructure or guidelines
-  * Recommended documentation for educational use cases on 2i2c Hubs
+The Pangeo Project is a core partner of 2i2c, and one of our strategic goals is to build on its success in other research fields. We aim to learn more about the infrastructure deployments for Pangeo in order to understand how to diversify and scale its model sustainably.
 
-* Sustaining educational hubs
-  * Sustainability model for large institutional hubs
-  * Sustainability model for smaller or under-resourced institutions
+- {ref}`projects:panfoo-pilots`
+- {ref}`projects:jmte-pangeo`
 
-(strategy:open-source)=
-## Supporting open source communities
 
-* 2i2c team guidelines for supporting open source
-  * Identify major open source tools we direct 2i2c resources towards
-  * Create an "Open source support" plan to highlight these projects and our contributions
-  * Create a 2i2c policy for upstreaming and supporting open source communities (e.g. % time spent, reporting back OS contribs, etc)
-* Core support for key OS tools
-  * Documented contributions across all 2i2c engineers for key OS projects.
-  * Commits, contributions in issues/PRs, community work, major development efforts, etc
+## Support educational hubs for large and small institutions
 
-(strategy:organizational)=
-## Organizational
+We'll need to be able to deploy hub infrastructure that meets the needs of many kinds of institutions, and our first steps will be to deploy hub pilots for them. This will help us prototype technology and learn more about their use-cases. Ultimately it will lead to us being able to sustainably serve these communities with hub infrastructure.
 
-* Lay an organizational foundation
-  * Document organizational practices and key information
-  * External-facing materials, website, etc
-  * Staff early projects
+- {ref}`projects:utoronto-hub`
+- {ref}`projects:hubs-for-all`
 
-* Define team and organization processes
-  * Communications processes
-  * Project management and documentation processes
-  * Strategic prioritization processes
+## Support open source communities
 
-* Sustainability for 2i2c staff
-  * At least 2 years of funding for leadership and an engineering team
-  * Sustainability and growth models for hub offerings
+In addition to 2i2c-specific projects, we also see the health of the open source ecosystem underlying our stack to be a key strategic goal. We have an ongoing "project" to provide support to key communities in this space, and occasionally have more specific projects to work on.
 
-* Grow partnerships with key organizations
-  * Cloud providers
-  * Non-profits to collaborate with
-  * Funding institutions that may be interested in support 2i2c projects
-  * Key research or education institutions
+- {ref}`projects:open-source`

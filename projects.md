@@ -25,10 +25,52 @@ We should document the following things:
 3. **Key Outcomes**. What are some concrete outcomes that we wish to get from this project? What are things we can use to define success?
 4. **Project Information** What's the "source of truth" for this project? Where does project management and tracking take place? Where do we track progress? What about to-do items? Where does communication happen around this project? (e.g., in a GitHub repository, in Slack, in a Google doc).
 
+(projects:organization-building)=
+## Organization-building
+
+As 2i2c is quite young, a major first step will be to build out our organizational infrastruture, team processes, and culture.
+
+### Strategic Goal
+
+Building a good organizational and team structure is an important first step in being successful for the next 3 / 6 / 12 / 24 months.
+
+### Key outcomes
+
+- Team members understand the goals and mission of the organization, and are aligned with them
+- Team members understand how their role and workstreams fit into those goals
+- We have healthy practices in communication and information-sharing
+- We follow best-practices at remote teamwork and inclusivity
+- We have a process to improve our team practices moving forward
+
+### Project information
+
+- Most information for this one uses [issues with the {badge}`strategy,badge-danger` badge](https://github.com/2i2c-org/meta/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3Astrategy).
+
+(projects:product-building)=
+## Business model and product design
+
+First and foremost, 2i2c is meant to be a sustinable organization that generates revenue through services that it provides to others. We must define what these services are (SaaS, support, development, etc), how users may access them (one-off collaborations, web-forms, umbrella grants, etc), and what pricing model we wish to follow (e.g., hourly rates, tiered products and support, etc).
+
+### Strategic goal
+
+Defining a specific set of products and pricing will allow us to engage new collaborators (or customers) in a more structured fashion with less time and labor associated with it. It will also give us something concrete that begin iterating on as we continue working towards sustainability.
+
+### Key outcomes
+
+- We have a publicly-defined menu of options for how others can access hub infrastructure via 2i2c
+- These options have prices attached to them, and those prices are flexible enough to be attractive for the variety of organizations we wish to fund
+- We have a financial model that predicts 2i2c revenue over time using these options as input
+- We have decision-making mechanisms for when to grow the 2i2c team
+
+### Project Information
+
+- [this google folder](https://drive.google.com/drive/folders/1HEEfyT2h_fKeqKdsz9Ftiw9Be1Uj48D6?usp=sharing) has most information and brainstorms regarding this project
+- [this github issue](https://github.com/2i2c-org/meta/issues/94) also has several relevant links and discussion points
+
+(projects:utoronto-hub)=
 ## University of Toronto pilot hub
 
-### Summary
-A pilot educational hub for the University of Toronto. It will serve several educators in the university, including both Python and R users. This is a fairly vanilla JupyterHub setup but we will add modest customizations for the Toronto team.
+ pilot educational hub for the University of Toronto. It will serve several educators in the university, including both Python and R users. This is a fairly vanilla JupyterHub setup but we will add modest customizations for the Toronto team.
 
 ### Strategic Goal
 Use this pilot to learn about what needs a large, heterogeneous university like Toronto has, and use this to help build a sustainability model for 2i2c serving [large educational institutions](strategy:education).
@@ -50,15 +92,19 @@ Project management for this collaboration is in two locations:
 (projects:hubs-for-all)=
 ## Hubs for All infrastructure pilot
 
-### Summary
-This is pilot infrastructure to minimize the human toil needed to deploy lightweight JupyterHub infrastructure with a standardized computing environment.
+his is pilot infrastructure to minimize the human toil needed to deploy lightweight JupyterHub infrastructure with a standardized computing environment. Some of these are via a collaboration with UC Berkeley's Division of Data Science and Society, while others are connections we have made on our own.
 
 ### Strategic Goal
 The goal of this project is to get 2i2c closer to offering lightweight, "self-serve" hub infrastructure that requires minimal oversight and operation from 2i2c (and thus, lowers 2i2c's costs to providing this infrastructure). It will help make 2i2c hubs more affordable and [usable for smaller educational organizations](strategy:education).
 
+Another strategic goal is to begin building bridges to educational institutions that would benefit from lightweight hub infrastructure, with the goal of strengthening these connections in the future.
+
 ### Key Outcomes
 
 - JupyterHub deployment that is self-serve, can generate multiple hubs in a scalable fashion, meets the majority of educational needs for our users, and requires minimal human intervention.
+- Interviews and feedback from hub users about their experiences
+- Understanding of the financial perspective of hub users that can feed into a sustainability model for self-serve hubs
+- Satisfied users of these hubs that convert into paying hub customers
 
 ### Project Information
 
@@ -68,32 +114,9 @@ Project management for this collaboration is in two locations:
   - [JupyterHubs deploy repository](https://github.com/2i2c-org/pilot-hubs)
   - [Pilot documentation](https://github.com/2i2c-org/pilot)
 
-## Educational self-serve pilots
 
-### Summary
-
-In conjunction with [](projects:hubs-for-all), we are running several pilot hubs for educational institutions that we are connected with. Some of these are via a collaboration with UC Berkeley's Division of Data Science and Society, while others are connections we have made on our own.
-
-### Strategic Goal
-
-The main goal of these pilots is to learn more about how smaller organizations use hub infrastructure for education, as well as to build connections to these institutions to help grow our reach in the educational space.
-
-### Key Outcomes
-
-- Interviews and feedback from hub users about their experiences
-- Understanding of the financial perspective of hub users that can feed into a sustainability model for self-serve hubs
-- Satisfied users of these hubs that convert into paying hub customers
-
-### Project Information
-
-- Project Management:
-  - [JupyterHubs deploy repository](https://github.com/2i2c-org/pilot-hubs)
-  - [Pilot documentation](https://github.com/2i2c-org/pilot)
-
-
+(projects:panfoo-pilots)=
 ## Pan-foo hubs pilots
-
-### Summary
 
 We are deploying several customized JupyterHubs for research communities that are related to the Pangeo project. These will generally be a bit more hands-on than the "self-serve" JupyterHub infrastructure.
 
@@ -129,9 +152,8 @@ Currently, we are working with this team via the Pilot Hubs, though we expect to
 
 - Project management: [Meta issue for collaboration](https://github.com/2i2c-org/meta/issues/80)
 
-## Jupyter Meets the Earth and Pangeo
-
-### Summary
+(projects:jmte-pangeo)=
+## Dev/ops for Jupyter Meets the Earth and Pangeo
 
 The Pangeo project has considerable needs in both operating and developing hub infrastructure for their community. We are collaborating with them to provide both daily operations of their hubs, as well as help them in evolvin and improving their infrastructure to better-suit their scientific mission.
 
@@ -154,26 +176,16 @@ The key outcomes for this project are largely defined by the Pangeo community, a
 - Project management: [the `jupyter-earth` repository](https://github.com/pangeo-data/jupyter-earth)
 - Meeting notes and updates: [the `jupyter-earth` meeting google doc](https://docs.google.com/document/d/1Od-7_FK1M9kLUkTiSMvAl2tmMwRJEdh-EySCMx5kndg/edit)
 
+(projects:open-source)=
+## Open source support
 
-## Jupyter Book development
+One of 2i2c's core missions is to support open communities and tools that underlie the infrastructure that we deploy. Here we list open source projects that we are devoting particular attention to. This means that "official 2i2c work" can include doing maintenance, feature building, and engagement within these projects / communities.
 
-### Summary
+[Jupyter Book](https://jupyterbook.org)
+: An open source tool for building online interactive books in the Jupyter ecosystem. It has uses in both research and education. We are helping lead major development efforts on Jupyter Book in partnership with ANU via a Sloan Foundation grant.
 
-Jupyter Book is an open source tool for building online interactive books in the Jupyter ecosystem. It has uses in both research and education. We are helping lead major development efforts on Jupyter Book in partnership with ANU via a Sloan Foundation grant.
+The [JupyterHub project](https://jupyter.org/hub)
+: supports a variety of technology projects that facilitate access, customization, and deployment of *shared infrastructure for interactive computing*.
 
-### Strategic Goal
-
-Jupyter Book has potential uses in both research and educational hubs, and improving the Jupyter Book experience and technology will make it more attractive for users of 2i2c Hubs that wish to use Jupyter Book integrations.
-
-### Key Outcomes
-
-- Achieve the deliverables set out in the original Jupyter Book grant
-- Improve Jupyter Book's usefulness for educational or research use-cases
-- Learn about how Jupyter Book could be used for research publishing, with the goal of integrating it i nto 2i2c Hubs
-
-### Project Information
-
-- Project management:  [github repositories in the `executablebooks/` organization](https://github.com/executablebooks)
-- Project-wide conversations and discussion:
-  - [the `meta` repository](https://github.com/executablebooks/meta)
-  - the EBP slack (ask if you'd like an invite)
+[Jupyter-wide support](https://jupyter.org)
+: In addition to the more focused projects listed above, the Jupyter Project also has a variety of project-wide initiatives and communities that we also support. For example, the [community forum](https://discourse.jupyter.org) or the [governance refactoring process](https://discourse.jupyter.org/c/meta/governance/23).

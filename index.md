@@ -9,7 +9,7 @@ reference
 ```
 ```{toctree}
 :caption: Team Information
-
+:hidden:
 get-started
 practices
 sre
@@ -18,9 +18,9 @@ projects
 
 ```{toctree}
 :hidden:
-:caption: Projects and Strategy
-projects
+:caption: Roadmap
 strategy
+projects
 ```
 
 ## How to use the handbook
