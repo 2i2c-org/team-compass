@@ -1,8 +1,8 @@
 # Team practices
 
-## The 2i2c handbook
+## The 2i2c team compass
 
-The primary {term}`source of truth <Single Source of Truth>` for information about 2i2c and its teams is the [2i2c Handbook](https://2i2c.org/handbook). This contains information for new and current 2i2c team members, as well as the latest information about the status of various projects (or pointers to where you should look).
+The primary {term}`source of truth <Single Source of Truth>` for information about 2i2c and its teams is the [Team Compass](https://2i2c.org/team-compass). This contains information for new and current 2i2c team members, as well as the latest information about the status of various projects (or pointers to where you should look).
 
 ## General organizational information / documents / brainstorms
 
@@ -14,11 +14,11 @@ The folder is organized into a few top-level folders that *should* be relatively
 
 ## Todos, project plans and management
 
-2i2c uses [the Handbook Projects page](projects.md) to keep track of the major projects that it is working on. That page has links to the location of project-specific to-do lists, deliverables, etc.
+2i2c uses [the Team Compass Projects page](projects.md) to keep track of the major projects that it is working on. That page has links to the location of project-specific to-do lists, deliverables, etc.
 
 More organization-specific discussion and items we track can also be found in [the private 2i2c `meta` repository](https://github.com/2i2c-org/meta).
 
-Generally speaking the daily specifics of activity on a project are recorded *outside* of the handbook, as they are more dynamic. The important thing is that the handbook make it clear *where* to find this information, and that the information is kept up-to-date for all.
+Generally speaking the daily specifics of activity on a project are recorded *outside* of the team compass, as they are more dynamic. The important thing is that the team compass make it clear *where* to find this information, and that the information is kept up-to-date for all.
 
 ## Team Conversation
 
@@ -49,7 +49,7 @@ You are *encouraged* but not *required* to take part in conversation on Slack.
 
 2i2c is a remote-first organization, and believes strongly in following practices that are inclusive, participatory, and collaborative. It has team members spread out over many time zones working on a variety of projects. There are many guides and tips for working remotely[^remote-work1], and we've tried to distill a few key components for our workflows:
 
-1. **Have a single source of truth**. For any information or projects in 2i2c, there should be one source of truth. Any conflicting information will defer to this source of truth, and it should be updated first and often. The default source of truth is this handbook, unless otherwise specified.
+1. **Have a single source of truth**. For any information or projects in 2i2c, there should be one source of truth. Any conflicting information will defer to this source of truth, and it should be updated first and often. The default source of truth is this team compass, unless otherwise specified.
 
 2. **Document everything**. Documentation is the most important tool for coordinating and distributing information across remote teams. It is crucial that 2i2c team members document all relevant information about their projects, what they are working on, etc.
 

@@ -17,7 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = '2i2c Handbook'
+project = '2i2c Team Compass'
 copyright = '2020, 2i2c'
 author = '2i2c'
 
@@ -48,7 +48,7 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 #
 html_theme = 'sphinx_book_theme'
 
-html_title = "The 2i2c Handbook"
+html_title = "The 2i2c Team Compass"
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
@@ -57,7 +57,7 @@ html_static_path = ['_static']
 
 show_navbar_depth = 3
 html_theme_options = {
-    "repository_url": "https://github.com/2i2c-org/handbook",
+    "repository_url": "https://github.com/2i2c-org/team-compass",
     "repository_branch": "main",
     "use_repository_button": True,
     "use_edit_page_button": True,
