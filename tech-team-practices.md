@@ -1,4 +1,4 @@
-# Staff sync practices
+# Tech team internal coordination process
 
 As a totally distributed team, it is important to have team practices that give one another insight into what we're working on, identify opportunities to collaborate, and un-block one another. This page describes some of the practices that we adopt towards these goals.
 
@@ -28,7 +28,7 @@ Every two weeks we synchronize our team goals and practices. Here's how to condu
 1. **Create an issue in the [`team-compass`](https://github.com/2i2c-org/team-compass)**. This is where we'll keep track of the "to-do" for the team sync.
 2. **Clean up [the HackMD](https://hackmd.io/i2Siurp1TkmPYgn3ZgxFQw?both) for the sync**. We'll use [this HackMD](https://hackmd.io/i2Siurp1TkmPYgn3ZgxFQw?both) to run the team sync. At the top is a set of questions to answer, and we can We'll initially use the HackMD to give responses. You can create it from the following template:
 3. **Team members give their responses**. You can copy/paste the template, and then give your responses below. You shouldn't feel forced to add content if you can't think of anything, use it as much as is useful. 
-4. **We'll leave the HackMD open for 48hrs**. That should give enough time for those of us across many time zones to response.
+4. **We'll leave the HackMD open for 48hrs**, not counting weekends or holidays. That should give enough time for those of us across many time zones to respond.
 5. **Merge into the [dev team sync notes](team/meetings/index.md)**. This is where we'll store our sync notes for each team sync, and refer to them later.
 
 ## What about stuff that shouldn't be public?
