@@ -14,6 +14,7 @@ get-started
 practices
 sre
 projects
+tech-team-coordination
 team/sync/2020
 ```
 
