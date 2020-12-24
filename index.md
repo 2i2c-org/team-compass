@@ -14,6 +14,7 @@ get-started
 practices
 sre
 projects
+team/sync/2020
 ```
 
 ```{toctree}
