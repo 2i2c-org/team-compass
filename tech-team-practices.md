@@ -22,7 +22,7 @@ We want to do this with high efficiency so that people can quickly get on the sa
 
 ## Bi-weekly team syncs
 
-Every two weeks we synchronize our team goals and practices. Here's how to conduct a team sync.
+By-weekly team syncs happen **every other Monday**. They are a way to synchronize our team goals and practices. Here's how to conduct a team sync.
 
 1. **Create an issue in the [`team-compass`](https://github.com/2i2c-org/team-compass)**. This is where we'll keep track of the "to-do" for the team sync.
 2. **Clean up [the HackMD](https://hackmd.io/i2Siurp1TkmPYgn3ZgxFQw?both) for the sync**. We'll use [this HackMD](https://hackmd.io/i2Siurp1TkmPYgn3ZgxFQw?both) to run the team sync. At the top is a set of questions to answer, and we can We'll initially use the HackMD to give responses. You can create it from the following template:
