@@ -29,7 +29,7 @@ Someone should have sent you a message with your 2i2c email address. You can use
 
 ### Google Drive
 
-Your 2i2c email address will get you access to a Google Drive that contains documents, brainstorms, and other assets that aren't fit for the 2i2c Handbook. You can log into the Google Drive by going to `drive.google.com` and adding a new account using your `@2i2c.org` address and password.
+Your 2i2c email address will get you access to a Google Drive that contains documents, brainstorms, and other assets that aren't fit for the 2i2c Team Compass. You can log into the Google Drive by going to `drive.google.com` and adding a new account using your `@2i2c.org` address and password.
 
 ### GitHub Access
 
