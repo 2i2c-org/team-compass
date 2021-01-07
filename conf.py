@@ -63,5 +63,10 @@ html_theme_options = {
     "use_edit_page_button": True,
     "extra_navbar": "",
 }
+myst_enable_extensions = [
+    "colon_fence",
+    "deflist",
+    "linkify",
+]
+
 panels_add_bootstrap_css = False
-myst_deflist_enable = True
