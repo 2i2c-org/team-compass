@@ -13,9 +13,14 @@ reference
 get-started
 practices
 sre
+```
+
+```{toctree}
+:caption: Team Coordination
+:hidden:
+team/tech/coordination
 projects
-tech-team-coordination
-team/sync/2020
+team/tech/sync/index
 ```
 
 ```{toctree}
