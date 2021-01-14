@@ -45,26 +45,6 @@ As a part of the triage process, we'll send a lead a link to this questionnaire.
 Once someone or a team is interested in 2i2c, we should do the following things:
 
 1. Set up a short meeting (or email if they prefer) to understand their general use-case and needs. If they seem like they're in-scope for 2i2c, proceed with the next steps.
-2. Create a new GitHub issue called {guilabel}`<lead-name> - <short-title>` and add the following content to it:
-   
-   ```md
-   # Background
-
-   <background information about this collaboration>
-
-   # ToDo
-
-   - [ ] Sent [the leads questionnaire](https://docs.google.com/forms/d/1KHw-4Wdyoofv-6CENeiOSbnC62LKdx55QTcZmXQVkkc/edit?usp=sharing)
-   - [ ] Questionnaire response link: <link to their response>
-   - [ ] In-scope for 2i2c?
-   - [ ] Leads folder: <link to folder here>
-   - [ ] Budget: <link to budget here>
-   - [ ] Statement of Work: <link to SOW here>
-   - [ ] Customer agreed to work with 2i2c
-   - [ ] Funding procured
-   - [ ] Contract written
-   - [ ] Infrastructure links: <link to where deployment information exists>
-   - [ ] Work has started (move to `customers/` tag)
-   ```
+2. Create a new GitHub issue for the lead [by using this issue template](https://github.com/2i2c-org/meta/issues/new?assignees=&labels=lead&template=new-lead.md&title=%5BLead+org+%2F+Lead+person%5D+-+%5BLead+title%5D)
 3. Follow the steps in that issue
 4. When work has officially begun on the lead (they have procured funding for and have signed the contract), move their folder to `customers/` and replace the {guilabel}`lead` tag with the {guilabel}`customer` tag.
