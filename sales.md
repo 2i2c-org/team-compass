@@ -1,4 +1,4 @@
-# The leads and sales process
+# Sales and running hubs process
 
 2i2c pursues new collaborations and contracts via following-up on leads for those who may be interested in 2i2c services.
 This page has information to help guide this process.
@@ -22,8 +22,8 @@ The [`MANIAC-T` framework](https://xxiibrands.com/sales/qualify-your-sales-leads
 ### Each lead gets an issue
 
 We use a GitHub issue to track the progress of each lead (created when we are reasonably sure the lead is worth following-up on). 
-We track leads in issues within the [`meta/` GitHub repository](https://github.com/2i2c-org/meta), using the {guilabel}`lead` tag.
-We keep a high-level view of all leads [at this project board](https://github.com/2i2c-org/meta/projects/2).
+We track leads in issues within the [`hubs/` GitHub repository](https://github.com/2i2c-org/hubs), using the {guilabel}`lead` tag.
+We keep a high-level view of all leads [at this project board](https://github.com/2i2c-org/hubs/projects/1).
 
 ### Each lead gets a folder
 
@@ -45,6 +45,16 @@ As a part of the triage process, we'll send a lead a link to this questionnaire.
 Once someone or a team is interested in 2i2c, we should do the following things:
 
 1. Set up a short meeting (or email if they prefer) to understand their general use-case and needs. If they seem like they're in-scope for 2i2c, proceed with the next steps.
-2. Create a new GitHub issue for the lead [by using this issue template](https://github.com/2i2c-org/meta/issues/new?assignees=&labels=lead&template=new-lead.md&title=%5BLead+org+%2F+Lead+person%5D+-+%5BLead+title%5D)
+2. Create a new GitHub issue for the lead [by using this issue template](https://github.com/2i2c-org/hubs/issues/new?assignees=&labels=lead&template=new-lead.md&title=%5BLead+org+%2F+Lead+person%5D+-+%5BLead+title%5D)
 3. Follow the steps in that issue
 4. When work has officially begun on the lead (they have procured funding for and have signed the contract), move their folder to `customers/` and replace the {guilabel}`lead` tag with the {guilabel}`customer` tag.
+
+## Once the hub is running
+
+To keep track of the 2i2c Hub infrastructure that we run, we also use [the `2i2c-org/hubs/` repository](https://github.com/2i2c-org/hubs).
+
+Once a hub is running for a given lead, take these steps:
+
+1. Add a `hub:<hub-type>` label to it.
+2. Update the top-level comment of the issue with relevant information about where the hub is located and configured.
+3. Move the hub to `running-hubs` column of [the sales project board](https://github.com/2i2c-org/hubs/projects/1).
