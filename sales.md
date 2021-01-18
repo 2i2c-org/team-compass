@@ -1,4 +1,4 @@
-# Sales and running hubs process
+# Leads, sales, and hubs process
 
 2i2c pursues new collaborations and contracts via following-up on leads for those who may be interested in 2i2c services.
 This page has information to help guide this process.
