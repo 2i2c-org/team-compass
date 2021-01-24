@@ -28,7 +28,6 @@ team/tech/sync/index
 :hidden:
 :caption: Roadmap
 strategy
-projects
 ```
 
 ## How to use the team compass
