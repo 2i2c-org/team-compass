@@ -32,8 +32,10 @@ Here are some helpful terms that we use at 2i2c.
 
 ```{glossary}
 Single Source of Truth
+SST
   Remote teams and open communities need to balance information across team members, and ensure that everyone is on the same page. For this reason, it is recommended to adopt a "single source of truth" for anything important [^sst1]. This is an authoritative source that everyone can look to in order to know the current status and plan for anything we do at 2i2c.
 
+International Computer Science Institute
 ICSI
   The [International Computer Science Institute](http://www.icsi.berkeley.edu/) is the parent organization of 2i2c and its fiscal sponsor. It is a non-profit organization dedicated to fostering international collaboration in computer science, based out of Berkeley, CA. All employees of 2i2c are employees of ICSI.
 ```
