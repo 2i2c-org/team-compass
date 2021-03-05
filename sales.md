@@ -1,10 +1,63 @@
-# The leads and sales process
+# Leads, sales, and hubs process
 
 2i2c pursues new collaborations and contracts via following-up on leads for those who may be interested in 2i2c services.
 This page has information to help guide this process.
 
+## Overview of workflow
+
+We use two repositories to track leads / customers
+: - [**`2i2c-org/leads`**](https://github.com/2i2c-org/leads). Information about all leads and sales that might lead to a new contract or sub-award.
+  - [**`2i2c-org/pilot-hubs`**](https://github.com/2i2c-org/pilot-hubs). Information about *currently running hub deployments* to keep track of our running hubs and divide responsibility between them.
+
+See the [`pilot-hubs/` operations guide](pi:operate:team-process) for more information on the technical side of setting up a hub.
+
+
+### Lead generation and triage
+
+Creating a lead
+: Often people will contact us just to ask questions and learn more. When they show obvious interest in working with 2i2c, they are now a lead. [**Create an issue in `leads/`**](https://github.com/2i2c-org/leads/issues/new?assignees=&labels=lead&template=new-lead.md&title=%5BLead+org+%2F+Lead+person%5D+-+%5BLead+title%5D) and follow the checklist in that issue to follow-up. (a short overview is below)
+
+Each lead gets an issue
+: We use [issues in the `leads/` repository](https://github.com/2i2c-org/leads/issues) to track the progress of each lead. [Use this issue template](https://github.com/2i2c-org/leads/issues/new?assignees=&labels=service%3Ahub&template=new-hub-service.md&title=%5BLead+org+%2F+Lead+person%5D+-+%5BLead+title%5D) for new "hub as a service" leads. Follow the instructions in the template.
+
+Leads each have a stage on the project board
+: We keep a high-level view of all leads [at this project board](https://github.com/2i2c-org/leads/projects/1). This board gives an overview of where we are in the follow-up process for each lead.
+
+Each lead gets a Drive folder
+: Once we create any kind of asset attached to a lead (e.g., a budget, SOW, or notes from a meeting), create a folder for them. These exist in [the `sales/leads/` folder of the 2i2c Google Drive](https://drive.google.com/drive/folders/1zBXL0X3S28W6iNAshBMaXF7gSpvnXa83?usp=sharing).
+
+### Converting leads into sales
+
+The leads questionnaire helps triage and estimate work
+: We gather the most structured and useful information for our leads using [the leads generation questionnaire](https://docs.google.com/forms/d/1KHw-4Wdyoofv-6CENeiOSbnC62LKdx55QTcZmXQVkkc/edit?usp=sharing). This should have questions that allow us to gather the information noted in [](sales:questions-to-answer).
+
+Use the pricing assets to quote a price
+: See the [issue template for lead generation](https://github.com/2i2c-org/leads/issues/new?assignees=&labels=service%3Ahub&template=new-hub-service.md&title=%5BLead+org+%2F+Lead+person%5D+-+%5BLead+title%5D) for links to these documents.
+
+  :::{warning}
+  Once we quote an actual price for somebody, it is time to start looping our contracts   and administration team into the conversation. This process is still undefined, and   this section should be added once we understand it.
+  :::
+
+Once a customer agrees to work with us at a price, begin the contracting process
+: After a lead agrees to work with us, they become a customer. We must coordinate with our contracts team to generate a contract for them, and potentially set ourselves up as a vendor in their system. Once this is finished, we can start sending monthly invoices.
+
+  :::{admonition} To Do
+  :class: warning
+  We need to define the contract / vendorization process with our contracts team and the customer organization.
+  :::
+
+### Converting sales into hubs
+
+Each hub gets an issue
+: We use [issues in the `pilot-hubs/` repository](https://github.com/2i2c-org/hubs/issues) with the [{guilabel}`Hub` label](https://github.com/2i2c-org/pilot-hubs/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3AHub) to track the progress of each hub we are running.
+
+The New Hub generation process
+: Follow the [process defined in the `pilot-hubs` repo](pi:operate:team-process) in creating a new hub for a lead. This will then track the operation and maintenance of the hub.
+
+## Tips and FAQs
+
 (sales:questions-to-answer)=
-## Questions to answer
+### When to decide to work with a lead
 
 To decide whether we should continue engaging with a particular lead, we need to know whether they are in-scope for our mission and likely to be able to successfully collaborate with us.
 The [`MANIAC-T` framework](https://xxiibrands.com/sales/qualify-your-sales-leads-with-maniac-t/) can be helpful in coming to a decision. Here is a short description of these guideilnes:
@@ -17,34 +70,6 @@ The [`MANIAC-T` framework](https://xxiibrands.com/sales/qualify-your-sales-leads
 * **Competition**. What alternative options are they considering? e.g., other organizations, internal approaches, or deciding to do nothing?
 * **Timeline**. What does the buying process look like for this prospect? E.g., finalizing a contract, or receiving a sub-award.
 
-## Location of information for leads / customers
+## Resources for running the hub
 
-### Each lead gets an issue
-
-We use a GitHub issue to track the progress of each lead (created when we are reasonably sure the lead is worth following-up on). 
-We track leads in issues within the [`meta/` GitHub repository](https://github.com/2i2c-org/meta), using the {guilabel}`lead` tag.
-We keep a high-level view of all leads [at this project board](https://github.com/2i2c-org/meta/projects/2).
-
-### Each lead gets a folder
-
-We create a folder for each lead / customer. These exist in the `sales/` folder of the 2i2c Google Drive.
-
-- The [`leads/` folder](https://drive.google.com/drive/folders/1zBXL0X3S28W6iNAshBMaXF7gSpvnXa83?usp=sharing) contains information about prospective customers.
-- The [`customers/` folder](https://drive.google.com/drive/folders/1UNmsJAiJTsb8hxCM1RJjFU_plnuOm-bC?usp=sharing) contains information about those who are paying us for services.
-
-These folders will have all relevant materials for that specific lead (e.g., a budget, statement of work, any documents they've sent us, etc).
-
-### The leads questionnaire
-
-We gather the most structured and useful information for our leads using [the leads generation questionnaire](https://docs.google.com/forms/d/1KHw-4Wdyoofv-6CENeiOSbnC62LKdx55QTcZmXQVkkc/edit?usp=sharing). This should have questions that allow us to gather the information noted in [](sales:questions-to-answer).
-
-As a part of the triage process, we'll send a lead a link to this questionnaire. Their responses should be linked in the GitHub issue for that lead.
-
-## Checklist for new leads
-
-Once someone or a team is interested in 2i2c, we should do the following things:
-
-1. Set up a short meeting (or email if they prefer) to understand their general use-case and needs. If they seem like they're in-scope for 2i2c, proceed with the next steps.
-2. Create a new GitHub issue for the lead [by using this issue template](https://github.com/2i2c-org/meta/issues/new?assignees=&labels=lead&template=new-lead.md&title=%5BLead+org+%2F+Lead+person%5D+-+%5BLead+title%5D)
-3. Follow the steps in that issue
-4. When work has officially begun on the lead (they have procured funding for and have signed the contract), move their folder to `customers/` and replace the {guilabel}`lead` tag with the {guilabel}`customer` tag.
+See [the team SRE guide](sre.md) for our resources and process around running a hub.
