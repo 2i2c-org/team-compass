@@ -17,9 +17,6 @@ See the [`pilot-hubs/` operations guide](pi:operate:team-process) for more infor
 Creating a lead
 : Often people will contact us just to ask questions and learn more. When they show obvious interest in working with 2i2c, they are now a lead. [**Create an issue in `leads/`**](https://github.com/2i2c-org/leads/issues/new?assignees=&labels=lead&template=new-lead.md&title=%5BLead+org+%2F+Lead+person%5D+-+%5BLead+title%5D) and follow the checklist in that issue to follow-up. (a short overview is below)
 
-Each lead gets an issue
-: We use [issues in the `leads/` repository](https://github.com/2i2c-org/leads/issues) to track the progress of each lead. [Use this issue template](https://github.com/2i2c-org/leads/issues/new?assignees=&labels=service%3Ahub&template=new-hub-service.md&title=%5BLead+org+%2F+Lead+person%5D+-+%5BLead+title%5D) for new "hub as a service" leads. Follow the instructions in the template.
-
 Leads each have a stage on the project board
 : We keep a high-level view of all leads [at this project board](https://github.com/2i2c-org/leads/projects/1). This board gives an overview of where we are in the follow-up process for each lead.
 
