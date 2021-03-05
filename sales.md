@@ -3,6 +3,14 @@
 2i2c pursues new collaborations and contracts via following-up on leads for those who may be interested in 2i2c services.
 This page has information to help guide this process.
 
+## Location of sales assets and documents
+
+Here are some locations of common documents used in the sales process (other than the repositories described below).
+
+- [The Sales folder in Google Drive](https://drive.google.com/drive/u/0/folders/1DEjtQ_hBw2Qae02_oe9UaGmRMYIkzJla) - contains all folders and information that cover the sales and contracting process.
+- [The leads folder in Google Drive](https://drive.google.com/drive/folders/1zBXL0X3S28W6iNAshBMaXF7gSpvnXa83?usp=sharing) - contains a folder for each lead that 2i2c is currently engaging.
+- [The sales assets folder in Google Drive](https://drive.google.com/drive/folders/1aMZILBmFSTYBSB9EwyV5wRpcuprM06dJ?usp=sharing) - contains all templates, email copy, stationery, etc that is useful in 2i2c sales.
+
 ## Overview of workflow
 
 We use two repositories to track leads / customers
