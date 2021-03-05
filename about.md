@@ -16,4 +16,4 @@ You can find more information about 2i2c's current team in the [About page of it
 
 ## What is 2i2c's legal designation?
 
-2i2c a project of [The International Computer Science Institute](http://www.icsi.berkeley.edu/) (ICSI), a 501(c)(3) non-profit organization. It acts independently of ICSI, though collaborates with it and relies on it for administrative duties. All 2i2c employees are technically employed by ICSI.
+2i2c is a non-profit initiative that is housed by [The International Computer Science Institute](http://www.icsi.berkeley.edu/) (ICSI), a 501(c)(3) non-profit organization.
