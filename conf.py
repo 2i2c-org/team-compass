@@ -68,5 +68,9 @@ myst_enable_extensions = [
     "deflist",
     "linkify",
 ]
+intersphinx_mapping = {
+    "pi": ('https://2i2c.org/pilot', None),
+    "ph": ('https://2i2c.org/pilot-hubs', None)
+}
 
 panels_add_bootstrap_css = False
