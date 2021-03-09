@@ -17,6 +17,13 @@ sre
 ```
 
 ```{toctree}
+:caption: 2i2c Culture
+:hidden:
+culture/code-of-conduct
+culture/social-rules
+```
+
+```{toctree}
 :caption: Team Coordination
 :hidden:
 team/tech/coordination
