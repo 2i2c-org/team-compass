@@ -2,7 +2,7 @@
 name: "🙌 Team sync"
 about: Syncronize the team's goals and actions
 labels: team-sync
-title: "Team Sync - [DATE]"
+title: "Team Sync - {{ date | date('dddd, MMMM Do') }}"
 ---
 
 This is a 2i2c Tech Team sync 🎉🎉🎉! This is a way for 2i2c Team Members to triage work, point out issues that require attention, and make sure we are working well as a team.
