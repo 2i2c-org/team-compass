@@ -10,7 +10,7 @@ Every Monday, the 2i2c Hub Operations team conducts a team sync to get on the sa
 
 1. **Create an issue using [the team sync issue template](https://github.com/2i2c-org/team-compass/issues/new?assignees=&labels=team-sync&template=team-sync.md)**. This issue is our space to discuss, update, and sync.
 2. **Team members give their responses**. You can copy/paste the template, and then give your responses in comments to the issue. You shouldn't feel forced to add content if you can't think of anything, use it as much as is useful.
-3. **Discuss and agree on next steps for 48hrs**. The goal is to ensure that important issues have somebody paying attention to them, and that team members are supported in the goals they work towards. After 48 hours, we'll close the issue.
+3. **Discuss and agree on next steps throughout the day**. The goal is to ensure that important issues have somebody paying attention to them, and that team members are supported in the goals they work towards. At the end of the day we'll close the issue.
 
 
 ```{note}
