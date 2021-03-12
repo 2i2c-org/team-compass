@@ -1,5 +1,5 @@
 # From https://github.com/JasonEtco/create-an-issue
-name: Create an issue on push
+name: Open a weekly team sync issue
 on:
   schedule:
   # Run every monday at 00:00

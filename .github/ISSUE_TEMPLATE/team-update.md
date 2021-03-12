@@ -5,7 +5,7 @@ labels: team-sync
 title: "Team Sync - {{ date | date('dddd, MMMM Do') }}"
 ---
 
-This is a 2i2c Tech Team sync 🎉🎉🎉! This is a way for 2i2c Team Members to triage work, point out issues that require attention, and make sure we are working well as a team.
+This is a @2i2c-org/tech-team sync 🎉🎉🎉! This is a way for 2i2c Team Members to triage work, point out issues that require attention, and make sure we are working well as a team.
 
 ### Team Goals
 
@@ -30,7 +30,7 @@ _Copy and paste these questions below, and answer them as you wish!_
 - So-and-so helped me out a lot with XXX...
 - Thanks for Jo's work on the XXX repo...
 
-**Updates from last two weeks ✔ **
+**Updates from last week ✔ **
 - I worked towards goal: <link-to-goal>
 - I merged issues XYZ
 - I had a meeting with ABC
