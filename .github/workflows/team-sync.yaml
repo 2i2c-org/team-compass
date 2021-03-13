@@ -4,6 +4,9 @@ on:
   schedule:
   # Run every monday at 00:00
   - cron: "0 0 * * 1"
+
+  workflow_dispatch:
+
 jobs:
   open-sync-issue:
     runs-on: ubuntu-latest

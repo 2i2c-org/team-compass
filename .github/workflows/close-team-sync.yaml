@@ -4,12 +4,6 @@ on:
   schedule:
   # Run every tuesday at 08:00 (which is Midnight California time)
   - cron: "00 08 * * 2"
-  
-  workflow_dispatch:
-    inputs:
-      name:
-        description: 'Ignore this!'
-        default: '2i2c is great!'
 
 jobs:
   close-sync-issue:
