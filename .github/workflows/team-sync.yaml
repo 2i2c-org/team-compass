@@ -24,5 +24,7 @@ jobs:
         pip install -r .github/sync-requirements.txt
 
     - name: Post sync md
+      env:
+        GHAPI_TOKEN: ${{ secrets.API_TOKEN }}
       run: |
         python scripts/post-team-sync.py

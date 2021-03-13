@@ -20,6 +20,9 @@ from IPython.display import Markdown
 from textwrap import dedent
 from datetime import date
 from ghapi.actions import github_token
+import os
+
+token = github_token() if "GHAPI_TOKEN" not in os.environ else os.environ["API_TOKEN"]
 
 # %%
 # Initialize the GH API and our markdown
