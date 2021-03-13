@@ -15,11 +15,23 @@ See the [Team Goal label](https://github.com/2i2c-org/pilot-hubs/issues?q=is%3Ai
 
 These issues require attention quickly:
 
-{GENERATE PROGRAMMATICALLY OR ADD HERE BY HAND}
+**New Hubs**: _The [Needs Hub issues](https://github.com/2i2c-org/pilot-hubs/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%22Needs+Hub%22) are new hubs that need deployments._
+
+{{INSERT NEW HUBS ISSUES HERE}}
+
+**Needs Triage**: _The [Needs Triage issues](https://github.com/2i2c-org/pilot/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3Aneeds%3Atriage) require an initial assessment and labeling._
+
+{{INSERT NEEDS TRIAGE ISSUES HERE}}
+
+**Priority Issues**: _The [Priority Label issues](https://github.com/2i2c-org/pilot-hubs/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3Apriority) are important and should be given attention over other issues._
+
+{{INSERT PRIORITY ISSUES HERE}}
 
 ### Team Updates
 
-Please respond to this issue with your team update! That means anyone on the @2i2c-org/tech-team. Use the template below for your update.
+Please respond to this issue with your team update! That means anyone on the @2i2c-org/tech-team. You shouldn't feel forced to add content if you can't think of anything, use it as much as is useful.
+
+Use the template below for your update.
 
 _Copy and paste these questions below, and answer them as you wish!_
 
