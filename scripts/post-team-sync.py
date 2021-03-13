@@ -28,7 +28,6 @@ token = github_token() if "ACCESS_TOKEN" not in os.environ else os.environ["ACCE
 # %%
 # Initialize the GH API and our markdown
 api = GhApi(token=token)
-md = ""
 
 # %% [markdown]
 # # Base template
@@ -50,7 +49,7 @@ template = "---".join(template.split("---")[2:]).strip()
 # %%
 issues = api.issues.list_for_repo("2i2c-org", "pilot-hubs", labels="Needs Hub")
 if issues:
-    new_hubs = "\n".join([f"* [{issue.title}]({issue.url})" for issue in issues])+ "\n\n"
+    new_hubs = "\n".join([f"* [{issue.title}]({issue.html_url})" for issue in issues])+ "\n\n"
 else:
     new_hubs = "No new hubs to deploy! 🎉\n\n"
 template = template.replace(
@@ -64,7 +63,7 @@ template = template.replace(
 # %%
 issues = api.issues.list_for_repo("2i2c-org", "pilot", labels="needs:triage")
 if issues:
-    needs_triage = "\n".join([f"* [{issue.title}]({issue.url})" for issue in issues])+ "\n\n"
+    needs_triage = "\n".join([f"* [{issue.title}]({issue.html_url})" for issue in issues])+ "\n\n"
 else:
     needs_triage = "No issues need triage! 🎉\n\n"
     
@@ -79,7 +78,7 @@ template = template.replace(
 # %%
 issues = api.issues.list_for_repo("2i2c-org", "pilot-hubs", labels="priority")
 if issues:
-    priority = "\n".join([f"* [{issue.title}]({issue.url})" for issue in issues])+ "\n\n"
+    priority = "\n".join([f"* [{issue.title}]({issue.html_url})" for issue in issues])+ "\n\n"
 else:
     priority = "\nNo priority issues to tackle! 🎉\n\n"
     
