@@ -19,10 +19,11 @@ from ghapi.all import GhApi
 from IPython.display import Markdown
 from textwrap import dedent
 from datetime import date
+from ghapi.actions import github_token
 
 # %%
 # Initialize the GH API and our markdown
-api = GhApi()
+api = GhApi(token=github_token())
 md = ""
 
 # %% [markdown]
