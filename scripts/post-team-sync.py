@@ -27,7 +27,7 @@ token = github_token() if "ACCESS_TOKEN" not in os.environ else os.environ["ACCE
 
 # %%
 # Initialize the GH API and our markdown
-api = GhApi(token=github_token())
+api = GhApi(token=token)
 md = ""
 
 # %% [markdown]
