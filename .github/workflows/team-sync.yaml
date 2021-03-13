@@ -25,6 +25,6 @@ jobs:
 
     - name: Post sync md
       env:
-        GHAPI_TOKEN: ${{ secrets.GHAPI_TOKEN }}
+        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
       run: |
         python scripts/post-team-sync.py
