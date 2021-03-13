@@ -1,3 +1,2 @@
-nbclient
 ghapi
 ipython

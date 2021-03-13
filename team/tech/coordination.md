@@ -8,9 +8,15 @@ As a totally distributed team, it is important to have team practices that give 
 
 Every Monday, the 2i2c Hub Operations team conducts a team sync to get on the same page and coordinate their work for the week.
 
-1. **Create an issue using [the team sync issue template](https://github.com/2i2c-org/team-compass/issues/new?assignees=&labels=team-sync&template=team-sync.md)**. This issue is our space to discuss, update, and sync.
+A GitHub Action will automatically create a new Team Sync issue at the beginning of each Monday.
+This action uses [this issue template](https://github.com/2i2c-org/team-compass/blob/main/.github/ISSUE_TEMPLATE/team-update.md) and inserts currently open/actionable issues before creating the sync issue.
+It uses [this Python/ipynb script to generate the issue](https://github.com/2i2c-org/team-compass/blob/main/scripts/post-team-sync.py).
+
+Here is the process for our team syncs.
+
+1. **On Mondays new issue is created automatically**. This issue is our space to discuss, update, and sync.
 2. **Team members give their responses**. You can copy/paste the template, and then give your responses in comments to the issue. You shouldn't feel forced to add content if you can't think of anything, use it as much as is useful.
-3. **Discuss and agree on next steps throughout the day**. The goal is to ensure that important issues have somebody paying attention to them, and that team members are supported in the goals they work towards. At the end of the day we'll close the issue.
+3. **Discuss and agree on next steps throughout the day**. The goal is to ensure that important issues have somebody paying attention to them, and that team members are supported in the goals they work towards. At the end of the day the issue is automatically closed.
 
 
 ```{note}

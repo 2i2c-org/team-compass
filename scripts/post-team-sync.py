@@ -22,6 +22,7 @@ from datetime import date
 from ghapi.actions import github_token
 import os
 
+# On GitHub Actions "ACCESS_TOKEN" should be a personal access token with r/w permissions to *other* repos
 token = github_token() if "ACCESS_TOKEN" not in os.environ else os.environ["ACCESS_TOKEN"]
 
 # %%
@@ -30,56 +31,71 @@ api = GhApi(token=github_token())
 md = ""
 
 # %% [markdown]
-# # New Hubs
-
-# %%
-issues = api.issues.list_for_repo("2i2c-org", "pilot-hubs", labels="Needs Hub")
-md += "**New Hubs**: _The [Needs Hub issues](https://github.com/2i2c-org/pilot-hubs/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%22Needs+Hub%22) are new hubs that need deployments._\n"
-if issues:
-    md += "\n".join([f"* [{issue.title}]({issue.url})" for issue in issues])+ "\n\n"
-else:
-    md += "No new hubs to deploy! 🎉\n\n"
-
-# %% [markdown]
-# # Needs Triage
-
-# %%
-issues = api.issues.list_for_repo("2i2c-org", "pilot", labels="needs:triage")
-md += "**Needs Triage**: _The [Needs Triage issues](https://github.com/2i2c-org/pilot/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3Aneeds%3Atriage) require an initial assessment and labeling._\n"
-if issues:
-    md += "\n".join([f"* [{issue.title}]({issue.url})" for issue in issues])+ "\n\n"
-else:
-    md += "No issues need triage! 🎉\n\n"
-
-# %% [markdown]
-# # Priority issues
-
-# %%
-issues = api.issues.list_for_repo("2i2c-org", "pilot-hubs", labels="priority")
-md += "**Priority Issues**: _The [Priority Label issues](https://github.com/2i2c-org/pilot-hubs/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3Apriority) are important and should be given attention over other issues._\n"
-if issues:
-    md += "\n".join([f"* [{issue.title}]({issue.url})" for issue in issues])+ "\n\n"
-else:
-    md += "\nNo priority issues to tackle! 🎉\n\n"
-
-# %% [markdown]
-# # Display for demo
-
-# %%
-Markdown(md)
-
-# %% [markdown]
-# # Create an issue
+# # Base template
+# The base template is defined here: https://github.com/2i2c-org/team-compass/blob/main/.github/ISSUE_TEMPLATE/team-update.md
+# It has placeholders for lists of issues, and these will be automatically filled in below, then a new issue will be created.
 
 # %%
 # Grab our issue template
 from base64 import b64decode
 template = api.repos.get_content("2i2c-org", "team-compass", ".github/ISSUE_TEMPLATE/team-update.md")
 template = b64decode(template.content).decode("utf-8")
-template = template.replace("{GENERATE PROGRAMMATICALLY OR ADD HERE BY HAND}", md)
 
 # This removes the header bracketed by ---
 template = "---".join(template.split("---")[2:]).strip()
+
+# %% [markdown]
+# # New Hubs
+
+# %%
+issues = api.issues.list_for_repo("2i2c-org", "pilot-hubs", labels="Needs Hub")
+if issues:
+    new_hubs = "\n".join([f"* [{issue.title}]({issue.url})" for issue in issues])+ "\n\n"
+else:
+    new_hubs = "No new hubs to deploy! 🎉\n\n"
+template = template.replace(
+    "{{INSERT NEW HUBS ISSUES HERE}}",
+    new_hubs
+)
+
+# %% [markdown]
+# # Needs Triage
+
+# %%
+issues = api.issues.list_for_repo("2i2c-org", "pilot", labels="needs:triage")
+if issues:
+    needs_triage = "\n".join([f"* [{issue.title}]({issue.url})" for issue in issues])+ "\n\n"
+else:
+    needs_triage = "No issues need triage! 🎉\n\n"
+    
+template = template.replace(
+    "{{INSERT NEEDS TRIAGE ISSUES HERE}}",
+    needs_triage
+)
+
+# %% [markdown]
+# # Priority issues
+
+# %%
+issues = api.issues.list_for_repo("2i2c-org", "pilot-hubs", labels="priority")
+if issues:
+    priority = "\n".join([f"* [{issue.title}]({issue.url})" for issue in issues])+ "\n\n"
+else:
+    priority = "\nNo priority issues to tackle! 🎉\n\n"
+    
+template = template.replace(
+    "{{INSERT PRIORITY ISSUES HERE}}",
+    priority
+)
+
+# %% [markdown]
+# # Display for demo
+
+# %%
+Markdown(template)
+
+# %% [markdown]
+# # Create an issue
 
 # %%
 # Now create an issue with this content
