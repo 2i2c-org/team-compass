@@ -2,6 +2,22 @@
 
 As a totally distributed team, it is important to have team practices that give one another insight into what we're working on, identify opportunities to collaborate, and un-block one another. This page describes some of the practices that we adopt towards these goals.
 
+
+(coordination:team-syncs)=
+## Weekly team syncs
+
+Every Monday, the 2i2c Hub Operations team conducts a team sync to get on the same page and coordinate their work for the week.
+
+1. **Create an issue using [the team sync issue template](https://github.com/2i2c-org/team-compass/issues/new?assignees=&labels=team-sync&template=team-sync.md)**. This issue is our space to discuss, update, and sync.
+2. **Team members give their responses**. You can copy/paste the template, and then give your responses in comments to the issue. You shouldn't feel forced to add content if you can't think of anything, use it as much as is useful.
+3. **Discuss and agree on next steps throughout the day**. The goal is to ensure that important issues have somebody paying attention to them, and that team members are supported in the goals they work towards. At the end of the day we'll close the issue.
+
+
+```{note}
+While these syncs happen once a week, the process of communicating with team members and working on goals / issues / etc can be dynamic and constantly updating.
+The syncs are just to get everyone on the same page.
+```
+
 ## Our goals
 
 Here are the goals we optimize for in organizing our team coordination practices.
@@ -43,23 +59,6 @@ When opening a new issue in the 2i2c `pilot-hubs/` repository, first check if it
 
 We keep track of team goals via the [{guilabel}`goal` label in GitHub](https://github.com/2i2c-org/pilot-hubs/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3Agoal).
 
-
-(coordination:team-syncs)=
-## Bi-weekly team syncs
-
-Every other Monday, the 2i2c Hub Operations team conducts a team sync to get on the same page and coordinate their work for the week.
-
-1. **Create an issue in the [`team-compass`](https://github.com/2i2c-org/team-compass)**. This is where we'll keep track of the "to-do" for the team sync.
-2. **Clean up [the HackMD](https://hackmd.io/i2Siurp1TkmPYgn3ZgxFQw?both) for the sync**. We'll use [this HackMD](https://hackmd.io/i2Siurp1TkmPYgn3ZgxFQw?both) to run the team sync. At the top is a set of questions to answer, and we can We'll initially use the HackMD to give responses. You can create it from the following template:
-3. **Team members give their responses**. You can copy/paste the template, and then give your responses below. You shouldn't feel forced to add content if you can't think of anything, use it as much as is useful.
-4. **We'll leave the HackMD open for 48hrs**, not counting weekends or holidays. That should give enough time for those of us across many time zones to respond.
-5. **Merge into the [dev team sync notes](sync/index.md)**. This is where we'll store our sync notes for each team sync, and refer to them later.
-  
-
-```{note}
-While these syncs happen every two weeks, the process of communicating with team members and working on goals / issues / etc can be dynamic and constantly updating.
-The syncs are just to get everyone on the same page.
-```
 
 ## What about stuff that shouldn't be public?
 

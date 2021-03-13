@@ -1,0 +1,16 @@
+# From https://github.com/marketplace/actions/close-matching-issues
+name: Close a weekly team sync issue
+on:
+  schedule:
+  # Run every tuesday at 08:00 (which is Midnight California time)
+  - cron: "00 08 * * 2"
+  workflow_dispatch:
+  
+jobs:
+  close-sync-issue:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lee-dohm/close-matching-issues@v2
+        with:
+          query: 'label:team-sync'
+          token: ${{ secrets.GITHUB_TOKEN }}
