@@ -4,6 +4,8 @@ on:
   schedule:
   # Run every tuesday at 08:00 (which is Midnight California time)
   - cron: "00 08 * * 2"
+  workflow_dispatch:
+  
 jobs:
   close-sync-issue:
     runs-on: ubuntu-latest
