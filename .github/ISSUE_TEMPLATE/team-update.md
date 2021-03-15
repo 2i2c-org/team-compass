@@ -40,7 +40,7 @@ _Copy and paste these questions below, and answer them as you wish!_
 - So-and-so helped me out a lot with XXX...
 - Thanks for Jo's work on the XXX repo...
 
-**Updates from last week ✔ **
+**Updates from last week ✔**
 - I worked towards goal: <link-to-goal>
 - I merged issues XYZ
 - I had a meeting with ABC
