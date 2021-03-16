@@ -37,7 +37,7 @@ Maliciousness towards other community members
 : deliberately attempting to make others feel bad, name-calling, singling out others for derision or exclusion. For example, telling someone they’re not a real programmer or that they don’t belong at 2i2c.
 
 Being especially unpleasant
-: for example, if we’ve received reports from multiple 2i2c users, team members, or collaborators of annoying, rude, or especially distracting behavior.
+: for example, if we’ve received reports from multiple 2i2c users, team members, or collaborators of agitating, rude, or especially distracting behavior over an extended period of time.
 
 ## Scope
 
@@ -47,15 +47,20 @@ In addition, the 2i2c community and experience often extends outside those space
 
 The 2i2c Code of Conduct does not apply to users of any hubs that we manage on behalf of other organizations, though we encourage leaders in those communities to adopt a Code of Conduct for their hub infrastructure. The Code of Conduct **does** apply to any 2i2c Team Member that is acting in a community's hub.
 
+:::{important}
 When in doubt, please {ref}`report <coc:reporting>` unacceptable behavior to us. If someone’s behavior outside of a 2i2c space makes you feel unsafe at 2i2c, that is absolutely relevant and actionable for us.
-
+:::
 
 ## Enforcement
 
 We’ve categorized unacceptable behavior into abuse and unwelcoming behavior in the section above.
 
-If we witness or receive a report about abusive behavior, we will contact the perpetrator to have a conversation with them and verify what has transpired, and they will be removed from the 2i2c community. Their Slack account will be deactivated, and permissions will be removed from any 2i2c-related repositories. They will not be welcome in any physical or digital spaces covered by the 2i2c Code of Conduct.
+If we witness or receive a report about abusive behavior, we will contact the perpetrator to have a conversation with them and verify what has transpired. We will [follow this response protocol](response-protocol.md).
 
+If we verify abusive behavior, they will be removed from the 2i2c community. Their Slack account will be deactivated, and permissions will be removed from any 2i2c-related repositories. They will not be welcome in any physical or digital spaces covered by the 2i2c Code of Conduct.
+
+If we verify unwelcome, but non-abusive behavior, we will have a conversation with the person so they understand the expectation that they not repeat the behavior a second time. See [the follow-up protocol for more information](coc:reporting:follow-up).
+ 
 [This is the protocol](response-protocol.md) that 2i2c Directors and Steering Council members will use to respond to reports of code of conduct violations.
 
 (coc:reporting)=
@@ -73,7 +78,7 @@ If you see a violation of our code of conduct, please [report it to the 2i2c Exe
 
 ### Where and how to report
 
-Please report all code of conduct violations using [our reporting form](https://docs.google.com/forms/d/e/1FAIpQLSeKFuoghGzftqqgaa0xllZyocdUJsWZmoSaFFlerimg4n_Y8A/viewform?usp=sf_link). This is a short Google Form that will be sent to the Executive Director.
+Please report all code of conduct violations using [our reporting form](https://docs.google.com/forms/d/e/1FAIpQLSeKFuoghGzftqqgaa0xllZyocdUJsWZmoSaFFlerimg4n_Y8A/viewform?usp=sf_link). This is a short Google Form that will be sent to the Executive Director. If you prefer, you may also [email the Executive Director directly](mailto:director@2i2c.org).
 
 If you would rather discuss the matter in person with a team member, send a direct message in the 2i2c Slack, or email a Steering Council member to schedule a time to talk.
 
@@ -93,7 +98,7 @@ In addition to having a code of conduct, we have four lightweight [social rules]
 
 The enforcement provisions in this code of conduct do not apply to the social rules. We won't give you a strong warning or expel you from the 2i2c community just for breaking a social rule.
 
-If you have any questions about any part of the code of conduct or social rules, please reach out to any 2i2c team member.
+If you have any questions about any part of the code of conduct or social rules, please reach out to [any 2i2c team member](https://2i2c.org/about/#our-team).
 
 
 ## How we developed the code of conduct
@@ -113,7 +118,7 @@ Instead of filling out a code of conduct violation report, please contact law en
 
 ### Getting help
 
-If you or someone else at 2i2c is struggling and needs help, don’t hesitate to reach out to the 2i2c Directors and Steering Council members in person or over email.
+If you or someone else at 2i2c is struggling and needs help, don’t hesitate to reach out to the [2i2c Director](mailto:director@2i2c.org) and [Steering Council members](https://2i2c.org/about/#steering-council) in person or over email.
 
 ## License
 

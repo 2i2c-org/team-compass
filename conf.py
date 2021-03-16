@@ -72,5 +72,6 @@ intersphinx_mapping = {
     "pi": ('https://2i2c.org/pilot', None),
     "ph": ('https://2i2c.org/pilot-hubs', None)
 }
+myst_url_schemes = ["http", "https", "mailto", "ftp"]
 
 panels_add_bootstrap_css = False

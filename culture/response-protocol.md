@@ -15,6 +15,7 @@ Within two business days of receiving an email alert, the director will:
 * We’ll ask any follow-up questions we need to better understand the situation
 * We’ll confirm that we can contact the accused individual
 
+(coc:reporting:follow-up)=
 ## Follow up with the community member who violated our code of conduct
 
 * We will reach out to the community member over email, let them know that we’ve received a report of a code of conduct violation, and invite them to speak to us about the incident in person if possible, over video chat if not.
