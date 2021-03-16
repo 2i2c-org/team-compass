@@ -75,7 +75,7 @@ The social rules aren’t for punishing people. They help make RC a pleasant env
 
 ## Code of conduct
 
-The social rules don’t cover harassment or discrimination. For that, we have a separate [code of conduct](https://www.recurse.com/code-of-conduct) enforced by the RC faculty. All members of the RC community are expected to abide by our code of conduct.
+The social rules don’t cover harassment or discrimination. For that, we have a separate [code of conduct](https://www.recurse.com/code-of-conduct) enforced by the 2i2c team members. All members of the 2i2c community are expected to abide by our code of conduct.
 
 
 [^1]: As far as we know, [Miguel de Icaza](https://tirania.org/) coined the term _well-actually_.
