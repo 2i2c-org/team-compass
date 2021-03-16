@@ -70,7 +70,7 @@ There’s another part of _no subtle -isms:_ If you see racism, sexism, etc. out
 
 The social rules are lightweight. You should not be afraid of breaking a social rule. These are things that everyone does, and breaking one doesn’t make you a bad person. If someone says, "hey, you just feigned surprise," or "that’s subtly sexist," don’t worry. Just apologize, reflect for a second, and move on.
 
-The social rules aren’t for punishing people. They help make RC a pleasant environment where you are free to be yourself, tackle things outside your comfort zone, and focus on programming.
+The social rules aren’t for punishing people. They help make 2i2c a pleasant environment where you are free to be yourself, tackle things outside your comfort zone, and focus on programming.
 
 
 ## Code of conduct
