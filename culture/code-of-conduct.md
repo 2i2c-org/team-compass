@@ -91,7 +91,7 @@ In some cases we may decide to share an update about a major incident with 2i2c 
 
 In addition to having a code of conduct, we have four lightweight [social rules](social-rules.md). The social rules are different and separate from the code of conduct. They help us create a better learning environment by giving names to counterproductive behavior and acting as a release valve so that frustration doesn't build up over time. We understand and anticipate people to unintentionally break the social rules from time to time. Doing this doesn't make you a bad person or a bad community member. When this happens, it's not a big deal. Just apologize and move on.
 
-The enforcement provisions in this code of conduct do not apply to the social rules. We definitely won't give you a strong warning or expel you from the 2i2c community just for breaking a social rule.
+The enforcement provisions in this code of conduct do not apply to the social rules. We won't give you a strong warning or expel you from the 2i2c community just for breaking a social rule.
 
 If you have any questions about any part of the code of conduct or social rules, please reach out to any 2i2c team member.
 
