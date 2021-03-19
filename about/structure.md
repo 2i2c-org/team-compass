@@ -1,6 +1,6 @@
 # Structure and governance of 2i2c
 
-2i2c is an initiative dedicated to supporting open infrastructure in interactive computing for research and education, as well as the open source communities that underlie this infrastructure. Its host organization is {ref}`structure:icsi`.
+2i2c is an organization dedicated to supporting open infrastructure in interactive computing for research and education, as well as the open source communities that underlie this infrastructure. Its host organization is {ref}`structure:icsi`.
 
 This page describes the major organizational structures of 2i2c, and how they relate to governance and operations.
 
@@ -13,11 +13,11 @@ This page describes the major organizational structures of 2i2c, and how they re
 
 The Steering Council defines the mission, vision, and values of 2i2c. It also sets the strategic direction and priorities for 2i2c. The Steering Council provides oversight to the Executive Director of 2i2c and the Operations Team.
 
-The Steering Council makes decisions via consensus, and is restricted by the legal obligations and policies of ICSI. It uses the following process for these decisions:
+The Steering Council makes decisions via consensus (all members voting in the affirmative), and is restricted by the legal obligations and policies of ICSI. It uses the following process for these decisions:
 
 * Open an issue in the `meta/` GitHub repository using [the {guilabel}`decision` template](https://github.com/2i2c-org/meta/issues/new?assignees=&labels=decision&template=decision.md&title=%7B%7B+Decision+Summary+%7D%7D).
 * Have conversation around the decision in that issue. This may happen in the issue directly, or in ancillary issues, meetings, etc that are relevant. The decision issue should link to these relevant spaces.
-* Once everybody has voted, note the decision in the issue and close it.
+* Once everybody has voted, if all vote in favor, then the vote passes. If anyone votes against, the vote does not pass. Either way, note the decision in the issue, close it, and take necessary action.
 
 :::{seealso}
 The current Steering Council is [listed on the 2i2c website](https://2i2c.org/about/#steering-council).
