@@ -26,6 +26,12 @@ For-profit companies with interesting histories that we should avoid becoming.
 
 - [Ithaka](https://en.wikipedia.org/wiki/Ithaka_Harbors) - is a non-profit organizations that provides scholarly services for the academic community.
 
+## Documentation
+
+Here are a few excellent guides for writing good documentation:
+
+- [The Divio documentation framework](https://docs.gitlab.com/ee/development/documentation/structure.html
+- [GitLab's documentation structure](https://documentation.divio.com/)
 
 ## Terminology
 
