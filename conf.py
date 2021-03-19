@@ -68,7 +68,7 @@ myst_enable_extensions = [
     "deflist",
     "linkify",
 ]
-myst_url_schemes = ["https:", "http:", "ftp:"]
+myst_url_schemes = ["https", "http", "ftp", "mailto"]
 intersphinx_mapping = {
     "pi": ('https://2i2c.org/pilot', None),
     "ph": ('https://2i2c.org/pilot-hubs', None)
