@@ -4,6 +4,7 @@
 :hidden:
 :caption: 2i2c Information
 about
+about/structure
 positions
 reference
 ```

@@ -6,6 +6,10 @@ This page contains information about the 2i2c organization and community.
 
 Your best place to learn about 2i2c's values is to check out [the About pages](https://2i2c.org/about/) on the 2i2c website. Those give an idea for the kind of organization that 2i2c strives to be, and the impact that it wishes to have on the world.
 
+## 2i2c's structure and governance
+
+Check out [](about/structure.md) for more information about this.
+
 ## Where is 2i2c located?
 
 While 2i2c is housed under the [International Computer Science Institute](https://icsi.berkeley.edu), located in Berkeley, CA, 2i2c team members are distributed across the globe and 2i2c claims no formal physical center. All of its work is done online.
