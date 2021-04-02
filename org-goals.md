@@ -107,4 +107,4 @@ We plan to evolve our own organization and practices as the landscape around us 
 
 ## What is our organizational roadmap?
 
-The best place to learn about our next plans for the organization is here: [](strategy.md).
+The best place to learn about our next plans for the organization is here: [](about/strategy.md).

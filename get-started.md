@@ -1,8 +1,8 @@
-# Getting started at 2i2c
+# Get started at 2i2c
 
 This is a guide and checklist for new team members of 2i2c to get oriented, and to make sure that you're set up with all the resources you need to start contributing!
 
-## Checklist
+## Onboarding a new member
 
 First and foremost, these are the things that should be completed to consider a new person "onboarded". When a new team member joins,
 
@@ -46,10 +46,6 @@ Your 2i2c email address will get you access to a Google Drive that contains docu
 2i2c has a number of cloud accounts that it uses to create and operate its infrastructure. You should have access to the cloud accounts for any projects that you expect to work on. This includes Google Cloud, Microsoft Azure, and Amazon Web Services. The specific project might depend on what you’re working on, so check with the team to make sure you have the right access.
 
 
-## Team practices and information
-
-Check out [the team practices page](practices.md) to get an idea for how the 2i2c team collaborates and communicates.
-
 ## What projects is 2i2c working on?
 
-Check out the [projects page](projects.md) for more information about the projects that 2i2c is working on.
+Check out the [projects page](reference/projects.md) for more information about the projects that 2i2c is working on.

@@ -1,4 +1,4 @@
-# About 2i2c
+# Basic information about 2i2c
 
 This page contains information about the 2i2c organization and community.
 
