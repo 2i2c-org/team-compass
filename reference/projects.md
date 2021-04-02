@@ -1,8 +1,10 @@
 # Active Projects at 2i2c
 
-## Educational Hubs
+:::{warning}
+This is an outdated list of the projects we currently work on.
+However, we are leaving it here until we complete our current project roadmapping process.
+:::
 
-(projects:organization-building)=
 ## Organization-building
 
 As 2i2c is quite young, a major first step will be to build out our organizational infrastruture, team processes, and culture.

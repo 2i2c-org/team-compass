@@ -1,4 +1,4 @@
-# Where is information located
+# Where information is located
 
 ## General organizational information / documents / brainstorms
 

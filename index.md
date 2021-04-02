@@ -1,37 +1,67 @@
 # The 2i2c Team Compass
 
+This Team Compass is a guide for team members of 2i2c to navigate our organization and community.
+It is the {term}`source of truth <Single Source of Truth>` for information about 2i2c.
+
+## How to use the team compass
+
+2i2c team members should document everything relevant to operating the organization in the 2i2c team compass, and give it precedence over all other kinds of documentation unless explicitly stated otherwise in the team compass.
+
+**The Team Compass is the source of truth!**
+
+Any information that is in this team compass should be considered the **source of truth** for 2i2c. Its information should be complete and updated frequently.
+
+If you see information here that is out of date, please propose an edit in [the team compass repository](https://github.com/2i2c-org/team-compass).
+
+See below for a brief overview of each section of the Team Compass, or browse the sections to the left on your own.
+
+## Team Practices
+
+Information about working with the 2i2c team, understanding our processes and projects, and generally getting oriented.
 
 ```{toctree}
-:caption: Team Information
-:maxdepth: 2
+:caption: Team Practices
+:maxdepth: 1
 get-started
 practices/info-location
+practices/expectations
 practices/communication
 practices/coordination
 practices/team-compass
 reference/projects
 ```
 
+## Managed JupyterHub Service
+
+The Managed JupyterHub Service is a special ongoing project of 2i2c.
+This section contains information about the service, as well as ongoing updates about where information is stored.
 
 ```{toctree}
 :caption: Managed JupyterHub Service
-:maxdepth: 2
+:maxdepth: 1
 managed-hubs/about
 managed-hubs/pricing
 managed-hubs/sales
-managed-hubs/sre
 ```
 
+## Team Reference
+
+Contains information about the 2i2c team and our projects, and some useful resources to learn more.
+
 ```{toctree}
-:maxdepth: 2
+:maxdepth: 1
 :caption: Team Reference
 reference/inspiration
 reference/terminology
 meetings/eng/index
 ```
 
+## About 2i2c
+
+Information about the broader 2i2c organization, as well as its mission and structure.
+
 ```{toctree}
-:maxdepth: 2
+:maxdepth: 1
 :caption: About 2i2c
 
 about
@@ -39,21 +69,3 @@ about/structure
 about/strategy
 positions
 ```
-
-This Team Compass is a guide for team members of 2i2c to navigate our organization and community.
-It is the {term}`source of truth <Single Source of Truth>` for information about 2i2c.
-
-
-## How to use the team compass
-
-As a general rule, 2i2c team members should document everything relevant to operating the organization in the 2i2c team compass, and give it precedence over all other kinds of documentation unless explicitly stated otherwise in the team compass.
-
-Use it for both high- and low-level things - this book describes the culture, aspirations, operations, and activities of 2i2c at any moment in time. It should have enough information for any newcomer or team member to get up-to-speed with any question they may have about 2i2c.
-
-The team compass should not be the *only* place for information in 2i2c, but it should contain pointers to other sources of truth, updates, etc as needed. For example, it should not contain much project-specific information as this is better suited for project repositories, but it should have information about *where to find* information for any given project.
-
-## This is the source of truth
-
-Any information that is in this team compass should be considered the **source of truth** for 2i2c. Its information should be complete and updated frequently.
-
-If you see information here that is out of date, please propose an edit in [the team compass repository](https://github.com/2i2c-org/team-compass).

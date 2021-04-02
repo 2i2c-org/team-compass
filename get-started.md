@@ -2,7 +2,7 @@
 
 This is a guide and checklist for new team members of 2i2c to get oriented, and to make sure that you're set up with all the resources you need to start contributing!
 
-## Onboarding a new member
+## Onboard checklist for new members
 
 First and foremost, these are the things that should be completed to consider a new person "onboarded". When a new team member joins,
 

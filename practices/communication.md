@@ -1,5 +1,5 @@
 
-# How we communicate with one another
+# How we communicate
 
 ## Formal and project communication
 
