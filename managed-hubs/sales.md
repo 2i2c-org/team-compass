@@ -17,8 +17,6 @@ We use two repositories to track leads / customers
 : - [**`2i2c-org/leads`**](https://github.com/2i2c-org/leads). Information about all leads and sales that might lead to a new contract or sub-award.
   - [**`2i2c-org/pilot-hubs`**](https://github.com/2i2c-org/pilot-hubs). Information about *currently running hub deployments* to keep track of our running hubs and divide responsibility between them.
 
-See the [`pilot-hubs/` operations guide](pi:operate:team-process) for more information on the technical side of setting up a hub.
-
 
 ### Lead generation and triage
 
@@ -57,7 +55,7 @@ Each hub gets an issue
 : We use [issues in the `pilot-hubs/` repository](https://github.com/2i2c-org/hubs/issues) with the [{guilabel}`Hub` label](https://github.com/2i2c-org/pilot-hubs/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3AHub) to track the progress of each hub we are running.
 
 The New Hub generation process
-: Follow the [process defined in the `pilot-hubs` repo](pi:operate:team-process) in creating a new hub for a lead. This will then track the operation and maintenance of the hub.
+: Follow the [process defined in the `pilot-hubs` repo](https://pilot-hubs.2i2c.org) in creating a new hub for a lead. This will then track the operation and maintenance of the hub.
 
 ## Tips and FAQs
 
