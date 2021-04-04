@@ -1,88 +1,79 @@
 # Active Projects at 2i2c
 
-:::{warning}
-This is an outdated list of the projects we currently work on.
-However, we are leaving it here until we complete our current project roadmapping process.
+:::{note}
+You can also find a list of projects [on the 2i2c website](https://2i2c.org/projects/),
+but this page is the source of truth.
 :::
 
-## Organization-building
+Projects are focused work that 2i2c conducts over a long-ish period of time.
+Each project has the following things:
 
-As 2i2c is quite young, a major first step will be to build out our organizational infrastruture, team processes, and culture.
+1. A name / description
+2. A key goal
+3. Project board (where is the high-level view of the project?)
+4. Project information (where to find meeting notes, discussion, etc)
 
-### Strategic Goal
+Below is a list of active projects for 2i2c.
 
-Building a good organizational and team structure is an important first step in being successful for the next 3 / 6 / 12 / 24 months.
+## 2i2c organizational launch
 
-### Key outcomes
+Build out the early organizational structure and plan of 2i2c.
 
-- Team members understand the goals and mission of the organization, and are aligned with them
-- Team members understand how their role and workstreams fit into those goals
-- We have healthy practices in communication and information-sharing
-- We follow best-practices at remote teamwork and inclusivity
-- We have a process to improve our team practices moving forward
+Key Goal
+: 2i2c has a documented structure, governance, and plan for growth.
 
-### Project information
+Project Board
+: [This Monday board](https://icsi-company.monday.com/boards/1141124891)
 
-- Most information for this one uses [issues with the {badge}`strategy,badge-danger` badge](https://github.com/2i2c-org/meta/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3Astrategy).
+Project Information
+: Many of the issues in the [2i2c meta repository](https://github.com/2i2c-org/meta/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc) touch on this, though we hope to phase out the use of these issues as "to-dos".
 
+## Launch of the Managed JupyterHub Service
 
-(projects:panfoo-pilots)=
-## Pan-foo hubs pilots
+The Managed JupyterHub Service is an ongoing special project, with the goal of sustaining itself and providing JupyterHub infrastructure to others in research and education. This project is to launc the early prototypes of the service.
 
-We are deploying several customized JupyterHubs for research communities that are related to the Pangeo project. These will generally be a bit more hands-on than the "self-serve" JupyterHub infrastructure.
+Key goal
+: We have a pipeline for selling and automatically serving one JupyterHub.
 
-### Strategic Goal
+Project board
+: [This Monday board](https://icsi-company.monday.com/boards/1150936841)
 
-Our primary goal for these pilots is to learn how we can adapt the Pangeo infrastructure model to new use-cases, and to find patterns and technology that we can make easier to replicate and maintain. We also wish to have some research use-cases under our belt to better-understand their needs, and to make inroads into some research communities.
-
-### Key outcomes
-
-- Technology and documentation for deploying a Pangeo-style hub infrastructure with minimal toil and maintenance
-- Documentation about the "pan-foo" model and the tools that it uses
-- Feedback from our hub users about their experience, both good and bad.
-- An understanding of financial perspective from hub users and their institutions that can fit into a sustainability model.
-- Institutional buy-in and conversions to paying customers.
-
-### Project Information
-
-There are currently two organizations for which we are deploying these hubs, and these are being managed in two different places.
-
-#### Farallon Institute
-
-The [Farallon Institute](http://www.faralloninstitute.org/) is a research institute associated with NASA, they are running a Pangeo-like hub for their community.
-
-- project management:
-  - [GitHub repository for hub deployments](https://github.com/2i2c-org/pangeo-hubs)
-  - [Gitter channel](https://gitter.im/pangeo-data/FI-hub)
-
-#### Catalyst Cooperative
-
-The [Catalyst Cooperative](https://catalyst.coop/) is a cooperative consultancy and advocacy group for climate change policy. They curate several large datasets and wish to provide easy interactive computing access to these datasets.
-
-Currently, we are working with this team via the Pilot Hubs, though we expect to move them to a dedicated hub if they wish to pursue the collaboration further.
-
-- Project management: [Meta issue for collaboration](https://github.com/2i2c-org/meta/issues/80)
+Project information
+: Most conversation and tasks are tracked in the [`pilot-hubs` issues](https://github.com/2i2c-org/pilot-hubs/issues).
 
 (projects:jmte-pangeo)=
-## Dev/ops for Jupyter Meets the Earth and Pangeo
+## Pangeo Hub Infrastructure development
 
 The Pangeo project has considerable needs in both operating and developing hub infrastructure for their community. We are collaborating with them to provide both daily operations of their hubs, as well as help them in evolvin and improving their infrastructure to better-suit their scientific mission.
 
-### Strategic Goal
+Key goal
+: **TODO** - we have not yet created goals for this project.
 
-Pangeo is a key partner of 2i2c and has collaborated with 2i2c founders for many years - it is a standard-bearer for science in the cloud, and an opportunity for 2i2c to both learn from and support their use-cases. We hope to use this partnership to both move Pangeo closer to sustainability, as well as to highlight how 2i2c infrastructure can be used for large-scale scientific analysis and communities. It is also an opportunity to support a scientific use-case that is within the mission of 2i2c's research goals.
+Project board
+: **TODO** - we have not yet created a project board.
 
-### Key Outcomes
+## Jupyter Meets the Earth
 
-The key outcomes for this project are largely defined by the Pangeo community, as this will be an ongoing engagement. That said, we have a few core goals for 2i2c:
+Jupyter Meets the Earth is an NSF EarthCube project to develop Jupyter infrastructure in service of the earth sciences.
 
-- Meet the deliverables from the NSF JMTE grant
-- Improve JupyterHub technology for research through this collaboration
-- Minimize toil and maintenance costs for deploying Pangeo-like hubs
-- Learn more about the Pangeo deployments and document them so we can replicate them easily
-- Make the Pangeo community happy with their collaboration with 2i2c. Convert this into an ongoing relationship of development support.
+Key goal
+: **TODO**: We do not have a key goal for the project
 
-### Project Information
+Project Board
+: [This Monday board](https://icsi-company.monday.com/boards/1177578957)
 
-- Project management: [the `jupyter-earth` repository](https://github.com/pangeo-data/jupyter-earth)
-- Meeting notes and updates: [the `jupyter-earth` meeting google doc](https://docs.google.com/document/d/1Od-7_FK1M9kLUkTiSMvAl2tmMwRJEdh-EySCMx5kndg/edit)
+Project Information
+: The [`jupyter-earth` repository](https://github.com/pangeo-data/jupyter-earth) has information and issues about this grant (including non-JupyterHub deliverables).
+
+## Jupyter Book development
+
+The Executable Books Project is an international collaboration to build open source tools that facilitate publishing computational narratives using the Jupyter ecosystem.
+
+Key Goal
+: Create a pipeline for authoring and publishing interactive books from computational content.
+
+Project Board
+: **TODO** - we have not yet created a project board.
+
+Project Information
+: The [`meta/` repository](https://github.com/executablebooks/meta) contains high-level conversation and strategy in the project. Most project planning and execution is carried out in the issues in `executablebooks/` repositories.

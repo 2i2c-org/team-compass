@@ -1,4 +1,4 @@
-# Update the team compass
+# How to update the team compass
 
 The Team Compass should be updated frequently as information about 2i2c changes.
 Do not hesitate to propose a change!

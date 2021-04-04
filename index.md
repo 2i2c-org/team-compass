@@ -65,6 +65,7 @@ Information about the broader 2i2c organization, as well as its mission and stru
 :caption: About 2i2c
 
 about
+about/team
 about/structure
 about/strategy
 positions
