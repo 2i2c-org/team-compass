@@ -23,9 +23,11 @@ Here's a quick summary:
 * The [Active Development Backlog](coordination:active-backlog) contains lists of **tasks** that we are currently working on. This defines 2i2c's current activity.
 
 (coordination:project-backlog)=
-### Project Backlog
+### Project Backlogs
 
-The 2i2c Projects Backlog is defined [at this GitHub Projects Board](https://github.com/orgs/2i2c-org/projects/7). This contains all of the deliverables across our projects that we wish to work on quickly. These are organized into a few columns, representing the _state_ of each deliverable:
+The Project Backlog contains all of the deliverables across our projects that we wish to work on quickly.
+These are organized into a few columns, representing the _state_ of each deliverable.
+Here is a common column structure:
 
 - {guilabel}`Needs Discussion/Refinement`: Deliverables that are high-priority but un-refined. Our goal should be having discussion and doing research in order to get these deliverables ready for work.
 - {guilabel}`Ready to Work`: Deliverables that are well-scoped and have a clear path forward, and are thus ready to implement. As deliverables in {guilabel}`In progress` are completed, we should replace them with deliverables from this column. Generally speaking, deliverables near the top have higher priority than those at the bottom.
@@ -34,9 +36,14 @@ The 2i2c Projects Backlog is defined [at this GitHub Projects Board](https://git
 - {guilabel}`Done`: Deliverables that have been completed. We should close these issues and celebrate the improvements that we have made!
 
 :::{note}
-In general, there should be only two or three deliverables per team member on this board.
+In general, there should be only two or three deliverables per team member, per column on this board.
 It should not become so heavily-populated that it is hard to keep track of deliverables!
 :::
+
+There are two Project Backlogs at 2i2c:
+
+- The [2i2c Development Projects Backlog](https://github.com/orgs/2i2c-org/projects/7) contains deliverables for our development-focused projects.
+- The [Organizatipnal Project Backlog](https://github.com/2i2c-org/meta/projects/6?fullscreen=true) contains deliverables that are organization-wide and not related to development.
 
 (coordination:deliverables)=
 ### Deliverables
@@ -62,8 +69,7 @@ The important thing is that we always have a list of high-quality deliverables r
 (coordination:active-backlog)=
 ### Active Development Backlog
 
-The 2i2c Active Development Backlog is defined [at this GitHub Projects Board](https://github.com/orgs/2i2c-org/projects/5).
-It contains the collection of **Tasks** that the team is currently working on.
+The [Active Development Backlog](https://github.com/orgs/2i2c-org/projects/5) contains the collection of **Tasks** that the team is currently working on.
 Tasks are actions that are needed to accomplish some deliverable.
 These tasks are generated from the deliverables on the Projects Backlog.
 They define a “to do” list of tasks to complete on a day-to-day basis.
@@ -75,6 +81,8 @@ The Active Development Backlog is broken down into these columns:
 - {guilabel}`In progress` A task that a team member is currently working towards. When you move a task to In progress, indicate that you are working on it (either by adding your username to the card, or “assigning yourself” in the issue/PR associated with it.
 - {guilabel}`Needs review` Tasks that have an implementation that require feedback from others. For example, reviews for pull requests.
 - {guilabel}`Done` Tasks that are complete! When you move a task here, make sure to update any relevant deliverables.
+
+There is one Active Development Backlog defined [at this GitHub Projects Board](https://github.com/orgs/2i2c-org/projects/5).
 
 (coordination:tasks)=
 ### Tasks
