@@ -20,7 +20,7 @@ Here's a quick summary:
 * [Deliverables](coordination:active-backlog) are discrete units of value that we bring to others. To be ready for work, they should be scoped properly, with enough information to complete them (e.g., a set of [tasks](coordination:tasks)).
 * The [Project Backlog](coordination:project-backlog) contains lists of **deliverables** that we are currently working towards across all of the 2i2c projects. Deliverables on the Project Backlog define our team priorities at any moment.
 * [Tasks](coordination:tasks) are concrete actions to take, and should be accomplishable in a single work session by one person.
-* The [Active Development Backlog](coordination:active-backlog) contains lists of **tasks** that we are currently working on. This defines 2i2c's current activity.
+* The [Activity Backlog](coordination:active-backlog) contains lists of **tasks** that we are currently working on. This defines 2i2c's current activity.
 
 (coordination:project-backlog)=
 ### Project Backlogs
@@ -67,14 +67,14 @@ All team members are expected to participate in issue refinement, though the mor
 The important thing is that we always have a list of high-quality deliverables ready to work towards.
 
 (coordination:active-backlog)=
-### Active Development Backlog
+### Activity Backlog
 
-The [Active Development Backlog](https://github.com/orgs/2i2c-org/projects/5) contains the collection of **Tasks** that the team is currently working on.
+The [Activity Backlog](https://github.com/orgs/2i2c-org/projects/5) contains the collection of **Tasks** that the team is currently working on.
 Tasks are actions that are needed to accomplish some deliverable.
 These tasks are generated from the deliverables on the Projects Backlog.
 They define a “to do” list of tasks to complete on a day-to-day basis.
 
-The Active Development Backlog is broken down into these columns:
+The Activity Backlog is broken down into these columns:
 
 - {guilabel}`To Do` Tasks that are ready to be worked on. Roughly speaking, tasks higher on the list are of higher priority.
 - {guilabel}`Needs Discussion` Tasks that require some team discussion around _implementation_. If there are higher-level discussions about the deliverable itself, perhaps the deliverable is not yet ready to be worked on.
@@ -82,14 +82,14 @@ The Active Development Backlog is broken down into these columns:
 - {guilabel}`Needs review` Tasks that have an implementation that require feedback from others. For example, reviews for pull requests.
 - {guilabel}`Done` Tasks that are complete! When you move a task here, make sure to update any relevant deliverables.
 
-There is one Active Development Backlog defined [at this GitHub Projects Board](https://github.com/orgs/2i2c-org/projects/5).
+There is one Activity Backlog defined [at this GitHub Projects Board](https://github.com/orgs/2i2c-org/projects/5).
 
 (coordination:tasks)=
 ### Tasks
 
 Deliverables of sufficient complexity are broken down into _tasks_. Tasks should be completable by a single person in less than one day (generally, completable with a few hours of focused work at most). Make sure to attach a link between your deliverable and its tasks (e.g., by adding links to issues in the deliverable’s “to do” checklist)
 
-Tasks are generally encoded as checklist items in a deliverable, then added to the Active Development Backlog when the deliverable is being worked on.
+Tasks are generally encoded as checklist items in a deliverable, then added to the Activity Backlog when the deliverable is being worked on.
 
 Here’s an example of a deliverable with a few tasks:
 
