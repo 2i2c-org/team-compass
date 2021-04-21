@@ -47,7 +47,7 @@ Decide if they are in-scope
 
 ### Negotiation stage
 
-The negotiation stage is where we understand a bit more about what the lead needs and whether we'll be able to provide it. For example, do they want something really custom that goes beyond our standard Managed Hub distributions? If so, they might better as a "development lead" rather than a "managed service lead".
+The negotiation stage is where we understand a bit more about what the lead needs and whether we'll be able to provide it. For example, do they want something really custom that goes beyond our standard Managed Hub distributions? If so, they might be a "development lead" rather than a "managed service lead".
 
 Create a quote
 : Create a lead-specific copy of the [pricing sheet template](https://docs.google.com/spreadsheets/d/10Gxufgmiuhq2Up69a6NdQoRs0xgKOi1Jts66wwiqF50/edit#gid=832336436) as well as the [price quote template](https://docs.google.com/document/d/1wxIKBzx0pYYVHWK6hnyYIvGRWpifU9vSHUI3ExWN8DI/edit?usp=sharing). Using the pricing sheet, and the answers from their questionnaire, create a price quote for them about the service.
