@@ -31,7 +31,7 @@ Here is a common column structure:
 
 - {guilabel}`Needs Discussion/Refinement`: Deliverables that are high-priority but un-refined. Our goal should be having discussion and doing research in order to get these deliverables ready for work.
 - {guilabel}`Ready to Work`: Deliverables that are well-scoped and have a clear path forward, and are thus ready to implement. As deliverables in {guilabel}`In progress` are completed, we should replace them with deliverables from this column. Generally speaking, deliverables near the top have higher priority than those at the bottom.
-- {guilabel}`In progress`: Deliverables that we are currently working towards. This means that we should be generating [Tasks](coordination:tasks) in our [Active Development Board](https://github.com/orgs/2i2c-org/projects/5) to complete this deliverable (more on this below).
+- {guilabel}`In progress`: Deliverables that we are currently working towards. This means that we should be generating [Tasks](coordination:tasks) in our [Activity Backlog](https://github.com/orgs/2i2c-org/projects/5) to complete this deliverable (more on this below).
 - {guilabel}`Blocked/Waiting`: Deliverables for which we are waiting for some action that is out of our team's immediate control.
 - {guilabel}`Done`: Deliverables that have been completed. We should close these issues and celebrate the improvements that we have made!
 
