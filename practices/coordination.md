@@ -17,7 +17,7 @@ We want to do this with high efficiency so that people can quickly get on the sa
 This section describes how our development team carries out its planning and day-to-day work.
 Here's a quick summary:
 
-* [Deliverables](coordination:active-backlog) are discrete units of value that we bring to others. To be ready for work, they should be scoped properly, with enough information to complete them (e.g., a set of [tasks](coordination:tasks)).
+* [Deliverables](coordination:deliverables) are discrete units of value that we bring to others. To be ready for work, they should be scoped properly, with enough information to complete them (e.g., a set of [tasks](coordination:tasks)).
 * The [Project Backlog](coordination:project-backlog) contains lists of **deliverables** that we are currently working towards across all of the 2i2c projects. Deliverables on the Project Backlog define our team priorities at any moment.
 * [Tasks](coordination:tasks) are concrete actions to take, and should be accomplishable in a single work session by one person.
 * The [Activity Backlog](coordination:active-backlog) contains lists of **tasks** that we are currently working on. This defines 2i2c's current activity.
