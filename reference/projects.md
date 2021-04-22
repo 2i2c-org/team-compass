@@ -32,30 +32,8 @@ The Managed JupyterHub Service is an ongoing special project, with the goal of s
 
 **Tracking deliverables**
 
-Here's [a link to a table of currently-running hub deployment repositories](https://docs.google.com/spreadsheets/d/1cy10fLUhlXG3M_TLRdqinETQ6h0puEi8ovBYHDTu3Z0/edit?usp=sharing). The issues in those repositories contain the deliverables for each.
-
-In addition, here's a view of that table for quick reference:
-
-<div class="full-width">
-
-```{csv-table}
-:header-rows: 1
-:file: ../tmp/hub-table.csv
-```
-
-</div>
-
-<!-- DataTables to make the table above look nice -->
-<link rel="stylesheet"
-    href="https://cdn.datatables.net/1.10.24/css/jquery.dataTables.min.css">
-<script type="text/javascript" src="https://cdn.datatables.net/1.10.24/js/jquery.dataTables.min.js"></script>
-
-<script>
-$(document).ready( function () {
-    $('table').DataTable();
-} );
-</script>
-
+See the [](hubs.md) page for information about the hub infrastructure we currently manage.
+The issues in those repositories contain the deliverables for each.
 
 (projects:jmte-pangeo)=
 ## Pangeo Hub Infrastructure development

@@ -80,7 +80,45 @@ panels_add_bootstrap_css = False
 import pandas as pd
 from pathlib import Path
 
+# Pull list of hub repositories
 hub_table = "https://docs.google.com/spreadsheets/d/e/2PACX-1vTpwlQL0Moz-ej-ADNfc6JTxfTje5GBQD1o0DE66atYi2ulWan3leEiCC20epzTyHVWIdomxp9Jt70D/pub?gid=0&single=true&output=csv"
 df = pd.read_csv(hub_table)
 Path("tmp").mkdir(exist_ok=True)
-df.to_csv("tmp/hub-table.csv", index=None)
+path_table = Path("tmp/repo-deploy-table.csv")
+if not path_table.exists():
+    df.to_csv(path_table, index=None)
+
+# Pull latest list of communities served by pilot-hubs/
+import requests
+from yaml import safe_load
+
+yaml_list = [
+    "https://raw.githubusercontent.com/2i2c-org/pilot-hubs/master/config/hubs/2i2c.cluster.yaml",
+    "https://raw.githubusercontent.com/2i2c-org/pilot-hubs/master/config/hubs/cloudbank.cluster.yaml",
+    "https://raw.githubusercontent.com/2i2c-org/pilot-hubs/master/config/hubs/paleohack.cluster.yaml",
+]
+hub_list = []
+for cluster_url in yaml_list:
+    resp = requests.get(cluster_url)
+    cluster = safe_load(resp.text)
+    for hub in cluster['hubs']:
+        config = hub['config']
+        # Config is sometimes nested
+        if 'base-hub' in config:
+            hub_config = config['base-hub']['jupyterhub']
+        else:
+            hub_config = config['jupyterhub']
+        # Domain can be a list
+        if isinstance(hub['domain'], list):
+            hub['domain'] = hub['domain'][0]
+
+        hub_list.append({
+            'name': hub_config['homepage']['templateVars']['org']['name'],
+            'domain': f"[{hub['domain']}](https://{hub['domain']})",  
+            "id": hub['name'],
+            "template": hub['template'],
+        })
+df = pd.DataFrame(hub_list)
+path_table = Path("tmp/hub-table.csv")
+if not path_table.exists():
+    df.to_csv(path_table, index=None)
