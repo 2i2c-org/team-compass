@@ -17,19 +17,6 @@ More organization-specific discussion and items we track can also be found in [t
 Generally speaking the daily specifics of activity on a project are recorded *outside* of the team compass, as they are more dynamic. The important thing is that the team compass make it clear *where* to find this information, and that the information is kept up-to-date for all.
 
 
-## Tips for working remotely
-
-2i2c is a remote-first organization, and believes strongly in following practices that are inclusive, participatory, and collaborative. It has team members spread out over many time zones working on a variety of projects. There are many guides and tips for working remotely[^remote-work1], and we've tried to distill a few key components for our workflows:
-
-1. **Have a single source of truth**. For any information or projects in 2i2c, there should be one source of truth. Any conflicting information will defer to this source of truth, and it should be updated first and often. The default source of truth is this team compass, unless otherwise specified.
-
-2. **Document everything**. Documentation is the most important tool for coordinating and distributing information across remote teams. It is crucial that 2i2c team members document all relevant information about their projects, what they are working on, etc.
-
-3. **Broadcast updates in multiple places**. Different people have different preferred methods of engagement and communication on 2i2c projects. For this reason, don't assume that posting an update or question in a single location will reach everybody that you wish to reach. Do not hesitate to post questions or ask for feedback in multiple places (e.g., GitHub, Slack, or even email). However, try to keep information in a single place to have a single source of truth.
-
-4. **Update often**. Err on the side of updating the team more often than not.  Nobody should be surprised when something gets done - especially nothing major. Your work should be as transparent to others as possible!
-
-
 ## Marketing and communication
 
 There are three main ways that 2i2c communicates with the outside world:
