@@ -43,7 +43,7 @@ It should not become so heavily-populated that it is hard to keep track of deliv
 There are two Project Backlogs at 2i2c:
 
 - The [2i2c Development Projects Backlog](https://github.com/orgs/2i2c-org/projects/7) contains deliverables for our development-focused projects.
-- The [Organizatipnal Project Backlog](https://github.com/2i2c-org/meta/projects/6?fullscreen=true) contains deliverables that are organization-wide and not related to development.
+- The [Organizational Project Backlog](https://github.com/2i2c-org/meta/projects/6?fullscreen=true) contains deliverables that are organization-wide and not related to development.
 
 (coordination:deliverables)=
 ### Deliverables
