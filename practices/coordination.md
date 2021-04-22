@@ -50,7 +50,7 @@ There are two Project Backlogs at 2i2c:
 
 Deliverables represent incremental amounts of value we can deliver to a particular stakeholder, and should be completable in a week or two. 
 
-Most issues in our repositories are deliverables, in varying states of readiness. When a deliverable is first created, it may lack information, be improperly scoped, or have an unclear path to implementation. We improve this through _issue refinement_ (see below).
+Most issues in our repositories are deliverables, in varying states of readiness. When a deliverable is first created, it may lack information, be improperly scoped, or have an unclear path to implementation. We improve this through _deliverable refinement_ (see below).
 
 A deliverable is ready to work (and can thus be added to the Project Backlog) when it has the following properties (adapted from the [INVEST methodology](https://agileforall.com/new-to-agile-invest-in-good-user-stories/)).
 
@@ -63,7 +63,7 @@ A deliverable is ready to work (and can thus be added to the Project Backlog) wh
 
 _Deliverable Refinement_ is the process of improving the scoping, context, and structure of our Deliverables issues so that they are ready for us to work on them. When a deliverable is created, it may not have all of the information needed to take the next step. Adding that information is the goal of Deliverable Refinement.
 
-All team members are expected to participate in issue refinement, though the more experience and higher-level you are, the more you should be contributing to this process.
+All team members are expected to participate in deliverable refinement, though the more experience and higher-level you are, the more you should be contributing to this process.
 The important thing is that we always have a list of high-quality deliverables ready to work towards.
 
 (coordination:active-backlog)=
@@ -77,7 +77,7 @@ They define a “to do” list of tasks to complete on a day-to-day basis.
 The Activity Backlog is broken down into these columns:
 
 - {guilabel}`Needs Discussion/Refinement` Tasks that require some team discussion around _implementation_. If there are higher-level discussions about the deliverable itself, perhaps the deliverable is not yet ready to be worked on.
-- {guilabel}`To Do` Tasks that are ready to be worked on. Roughly speaking, tasks higher on the list are of higher priority.
+- {guilabel}`Ready to Work` Tasks that are ready to be worked on. Roughly speaking, tasks higher on the list are of higher priority.
 - {guilabel}`In progress` A task that a team member is currently working towards. When you move a task to In progress, indicate that you are working on it (either by adding your username to the card, or “assigning yourself” in the issue/PR associated with it.
 - {guilabel}`Needs review` Tasks that have an implementation that require feedback from others. For example, reviews for pull requests.
 - {guilabel}`Done` Tasks that are complete! When you move a task here, make sure to update any relevant deliverables.
@@ -87,7 +87,7 @@ There is one Activity Backlog defined [at this GitHub Projects Board](https://gi
 (coordination:tasks)=
 ### Tasks
 
-Deliverables of sufficient complexity are broken down into _tasks_. Tasks should be completable by a single person in less than one day (generally, completable with a few hours of focused work at most). Make sure to attach a link between your deliverable and its tasks (e.g., by adding links to issues in the deliverable’s “to do” checklist)
+Deliverables of sufficient complexity are broken down into _tasks_. Tasks should be completable by a single person in less than one day (generally, completable with a few hours of focused work at most). Make sure to attach a link between your deliverable and its tasks (e.g., by adding links to issues in the deliverable’s "tasks" checklist)
 
 Tasks are generally encoded as checklist items in a deliverable, then added to the Activity Backlog when the deliverable is being worked on.
 
