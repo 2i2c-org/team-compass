@@ -76,8 +76,8 @@ They define a “to do” list of tasks to complete on a day-to-day basis.
 
 The Activity Backlog is broken down into these columns:
 
+- {guilabel}`Needs Discussion/Refinement` Tasks that require some team discussion around _implementation_. If there are higher-level discussions about the deliverable itself, perhaps the deliverable is not yet ready to be worked on.
 - {guilabel}`To Do` Tasks that are ready to be worked on. Roughly speaking, tasks higher on the list are of higher priority.
-- {guilabel}`Needs Discussion` Tasks that require some team discussion around _implementation_. If there are higher-level discussions about the deliverable itself, perhaps the deliverable is not yet ready to be worked on.
 - {guilabel}`In progress` A task that a team member is currently working towards. When you move a task to In progress, indicate that you are working on it (either by adding your username to the card, or “assigning yourself” in the issue/PR associated with it.
 - {guilabel}`Needs review` Tasks that have an implementation that require feedback from others. For example, reviews for pull requests.
 - {guilabel}`Done` Tasks that are complete! When you move a task here, make sure to update any relevant deliverables.
