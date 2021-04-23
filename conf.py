@@ -97,7 +97,7 @@ import os
 
 # Grab the latest list of clusters defined in pilot-hubs/
 api = GhApi(os.environ.get("ACCESS_TOKEN"))
-clusters = api.repos.get_content("2i2c-org", "pilot-hubs", "config/hubs/")
+clusters = api.repos.get_content("2i2c-org", "pilot-hubs", "config/hubs")
 hub_list = []
 for cluster_info in clusters:
     if "schema" in cluster_info['name']:
