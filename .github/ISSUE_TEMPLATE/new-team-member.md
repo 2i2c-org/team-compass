@@ -27,7 +27,7 @@ Follow the checklist below to onboard a new team member!
 
 **Permissions**
 
-- [ ] Add to appropriate Cloud projects
+- [ ] Add to appropriate Google Cloud projects
 - [ ] Add to appropriate AWS projects
 - [ ] Add to appropriate Azure projects
 - [ ] NameCheap administration privileges to `2i2c.org` and `2i2c.cloud`
