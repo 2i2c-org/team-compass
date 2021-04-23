@@ -15,6 +15,10 @@ If you see information here that is out of date, please propose an edit in [the 
 
 See below for a brief overview of each section of the Team Compass, or browse the sections to the left on your own.
 
+:::{seealso}
+For help navigating the team compass, see [](start:team-compass).
+:::
+
 ## Team Practices
 
 Information about working with the 2i2c team, understanding our processes and projects, and generally getting oriented.
@@ -28,7 +32,6 @@ practices/expectations
 practices/communication
 practices/coordination
 practices/team-compass
-reference/projects
 ```
 
 ## Managed JupyterHub Service
@@ -51,6 +54,8 @@ Contains information about the 2i2c team and our projects, and some useful resou
 ```{toctree}
 :maxdepth: 1
 :caption: Team Reference
+reference/projects
+reference/hubs
 reference/inspiration
 reference/terminology
 meetings/eng/index

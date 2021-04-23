@@ -1,79 +1,66 @@
 # Active Projects at 2i2c
 
-:::{note}
-You can also find a list of projects [on the 2i2c website](https://2i2c.org/projects/),
-but this page is the source of truth.
-:::
-
 Projects are focused work that 2i2c conducts over a long-ish period of time.
-Each project has the following things:
+They describe the major pieces work that drive our daily activities.
+
+In general, projects should have:
 
 1. A name / description
-2. A key goal
-3. Project board (where is the high-level view of the project?)
-4. Project information (where to find meeting notes, discussion, etc)
+2. A location where deliverables and tasks are being tracked.
+
+:::{seealso}
+For more information about our workflow around projects and deliverables, see [](../practices/coordination.md).
+:::
 
 Below is a list of active projects for 2i2c.
 
 ## 2i2c organizational launch
 
-Build out the early organizational structure and plan of 2i2c.
+As 2i2c is quite young, it must first build an organizational foundation for itself.
+This is an ongoing effort to define structure, process, and governance of 2i2c so that it can grow and execute on its mission.
 
-Key Goal
-: 2i2c has a documented structure, governance, and plan for growth.
+**Tracking deliverables**
 
-Project Board
-: [This Monday board](https://icsi-company.monday.com/boards/1141124891)
+There are a few places to track this project:
 
-Project Information
-: Many of the issues in the [2i2c meta repository](https://github.com/2i2c-org/meta/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc) touch on this, though we hope to phase out the use of these issues as "to-dos".
+- [Issues in the 2i2c meta repository](https://github.com/2i2c-org/meta/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc) often contain actionable items towards this project.
+- The [organizational projects backlog](https://github.com/2i2c-org/meta/projects/6?fullscreen=true) contains a list of deliverables we are currently working towards.
 
 ## Launch of the Managed JupyterHub Service
 
-The Managed JupyterHub Service is an ongoing special project, with the goal of sustaining itself and providing JupyterHub infrastructure to others in research and education. This project is to launc the early prototypes of the service.
+The Managed JupyterHub Service is an ongoing special project, with the goal of sustaining itself and providing JupyterHub infrastructure to others in research and education.
 
-Key goal
-: We have a pipeline for selling and automatically serving one JupyterHub.
+**Tracking deliverables**
 
-Project board
-: [This Monday board](https://icsi-company.monday.com/boards/1150936841)
-
-Project information
-: Most conversation and tasks are tracked in the [`pilot-hubs` issues](https://github.com/2i2c-org/pilot-hubs/issues).
+See the [](hubs.md) page for information about the hub infrastructure we currently manage.
+The issues in those repositories contain the deliverables for each.
 
 (projects:jmte-pangeo)=
 ## Pangeo Hub Infrastructure development
 
-The Pangeo project has considerable needs in both operating and developing hub infrastructure for their community. We are collaborating with them to provide both daily operations of their hubs, as well as help them in evolvin and improving their infrastructure to better-suit their scientific mission.
+The Pangeo project has considerable needs in both operating and developing hub infrastructure for their community.
+We are collaborating with them to provide both daily operations of their hubs, as well as help them in evolvin and improving their infrastructure to better-suit their scientific mission.
 
-Key goal
-: **TODO** - we have not yet created goals for this project.
+**Tracking deliverables**
 
-Project board
-: **TODO** - we have not yet created a project board.
+This project is just beginning, and currently does not have a location to track its deliverables.
+However, you can find discussion of general Pangeo activity in [the Pangeo repository](https://github.com/pangeo-data/pangeo).
 
 ## Jupyter Meets the Earth
 
 Jupyter Meets the Earth is an NSF EarthCube project to develop Jupyter infrastructure in service of the earth sciences.
 
-Key goal
-: **TODO**: We do not have a key goal for the project
+**Tracking deliverables**
 
-Project Board
-: [This Monday board](https://icsi-company.monday.com/boards/1177578957)
-
-Project Information
-: The [`jupyter-earth` repository](https://github.com/pangeo-data/jupyter-earth) has information and issues about this grant (including non-JupyterHub deliverables).
+The [`pangeo-data/jupyter-earth` repository](https://github.com/pangeo-data/jupyter-earth) contains deliverables for this project. Look for [the {guilabel}`🏷 JupyterHub` label](https://github.com/pangeo-data/jupyter-earth/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%22%3Alabel%3A+JupyterHub%22).
 
 ## Jupyter Book development
 
 The Executable Books Project is an international collaboration to build open source tools that facilitate publishing computational narratives using the Jupyter ecosystem.
+Its activities are split across a variety of repositories in the [`executablebooks/` organization](https://github.com/executablebooks).
 
-Key Goal
-: Create a pipeline for authoring and publishing interactive books from computational content.
+**Tracking deliverables**
 
-Project Board
-: **TODO** - we have not yet created a project board.
-
-Project Information
-: The [`meta/` repository](https://github.com/executablebooks/meta) contains high-level conversation and strategy in the project. Most project planning and execution is carried out in the issues in `executablebooks/` repositories.
+- The [`meta/` repository](https://github.com/executablebooks/meta) contains high-level conversation and strategy in the project. Most project planning and execution is carried out in the issues in `executablebooks/` repositories.
+- The [`jupyter-book` repository](https://github.com/executablebooks) contains many issues that are the best place to get started finding things of interest to work on.
+- The [`executablebooks` feature voting board](https://executablebooks.org/en/latest/feature-vote.html) contains a table of issues users have "voted" for. It is a good guide for prioritizing work.
