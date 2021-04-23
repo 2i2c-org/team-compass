@@ -95,15 +95,18 @@ from ghapi.all import GhApi
 from base64 import b64decode
 import os
 
+# Grab the latest list of clusters defined in pilot-hubs/
 api = GhApi(os.environ.get("ACCESS_TOKEN"))
 clusters = api.repos.get_content("2i2c-org", "pilot-hubs", "config/hubs/")
 hub_list = []
 for cluster_info in clusters:
     if "schema" in cluster_info['name']:
         continue
+    # For each cluster, grab it's YAML w/ the config for each hub
     yaml = api.repos.get_content("2i2c-org", "pilot-hubs", cluster_info['path'])
     cluster = safe_load(b64decode(yaml['content']).decode())
 
+    # For each hub in cluster, grab its metadata and add it to the list
     for hub in cluster['hubs']:
         config = hub['config']
         # Config is sometimes nested
