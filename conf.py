@@ -91,16 +91,18 @@ if not path_table.exists():
 # Pull latest list of communities served by pilot-hubs/
 import requests
 from yaml import safe_load
+from ghapi.all import GhApi
+from base64 import b64decode
 
-yaml_list = [
-    "https://raw.githubusercontent.com/2i2c-org/pilot-hubs/master/config/hubs/2i2c.cluster.yaml",
-    "https://raw.githubusercontent.com/2i2c-org/pilot-hubs/master/config/hubs/cloudbank.cluster.yaml",
-    "https://raw.githubusercontent.com/2i2c-org/pilot-hubs/master/config/hubs/paleohack.cluster.yaml",
-]
+api = GhApi()
+clusters = api.repos.get_content("2i2c-org", "pilot-hubs", "config/hubs/")
 hub_list = []
-for cluster_url in yaml_list:
-    resp = requests.get(cluster_url)
-    cluster = safe_load(resp.text)
+for cluster_info in clusters:
+    if "schema" in cluster_info['name']:
+        continue
+    yaml = api.repos.get_content("2i2c-org", "pilot-hubs", cluster_info['path'])
+    cluster = safe_load(b64decode(yaml['content']).decode())
+
     for hub in cluster['hubs']:
         config = hub['config']
         # Config is sometimes nested
