@@ -96,7 +96,7 @@ from base64 import b64decode
 import os
 
 # Grab the latest list of clusters defined in pilot-hubs/
-api = GhApi(os.environ.get("ACCESS_TOKEN"))
+api = GhApi(token="GITHUB_TOKEN")
 clusters = api.repos.get_content("2i2c-org", "pilot-hubs", "config/hubs")
 hub_list = []
 for cluster_info in clusters:
