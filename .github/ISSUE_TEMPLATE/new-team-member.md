@@ -6,22 +6,24 @@ title: "Onboarding <name>"
 ---
 
 Onboarding champion: `@<INSERT HANDLE>`
+Person's name: `<INSERT NAME>`
 
 # Onboarding checklist
 
 Follow the checklist below to onboard a new team member!
 
+**Accounts**
+
+- [ ] (if a 2i2c staff member) Make a `@2i2c.org` GMail account for them.
+- [ ] Add to [the proper GitHub team](https://github.com/orgs/2i2c-org/teams/2i2c-team)
+- [ ] Add to [the proper Slack group](https://2i2c.slack.com/admin/user_groups)
+
 **Communication**
 
 - [ ] Send them a link to the [Getting started docs](https://team-compass.2i2c.org/en/latest/get-started.html)
 - [ ] Send them a link to the [2i2c Google Drive](https://drive.google.com/drive/folders/1ABxxSFycGfCzQc9czfwer_dat-GVi4jw?usp=sharing)
-- [ ] Schedule an onboarding meeting
-
-**Accounts**
-
-- [ ] Make email account
-- [ ] Add to [the proper GitHub team](https://github.com/orgs/2i2c-org/teams/2i2c-team)
-- [ ] Add to [the proper Slack group](https://2i2c.slack.com/admin/user_groups)
+  - [ ] If they will not have a `@2i2c.org` address, manually add them to the drive.
+- [ ] Schedule an onboarding meeting for after they've read through the docs
 
 **Permissions**
 
@@ -33,7 +35,7 @@ Follow the checklist below to onboard a new team member!
 **External**
 
 - [ ] Add to [2i2c website](https://2i2c.org/about/)
-- [ ] Tweet about their arrival
+- [ ] Tweet about their arrival!
 
 **Wrap up**
 

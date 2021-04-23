@@ -29,6 +29,8 @@ jobs:
 
     # Build the book
     - name: Build the site
+      env:
+        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
       run: |
         make dirhtml
 

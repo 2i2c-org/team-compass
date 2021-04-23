@@ -2,6 +2,12 @@
 
 This is a guide and checklist for new team members of 2i2c to get oriented, and to make sure that you're set up with all the resources you need to start contributing!
 
+:::{admonition} A note about staff vs. non-staff
+The information here (and in the Team Compass) applies to anybody that is "on the 2i2c team".
+That means both staff at ICSI, as well as non-staff team members that may work in other institutions.
+However, there may be some steps here that are only relevant to ICSI staff.
+:::
+
 (start:team-compass)=
 ## Navigating the team compass
 

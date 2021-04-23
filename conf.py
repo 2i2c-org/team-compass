@@ -93,8 +93,9 @@ import requests
 from yaml import safe_load
 from ghapi.all import GhApi
 from base64 import b64decode
+import os
 
-api = GhApi()
+api = GhApi(os.environ.get("ACCESS_TOKEN"))
 clusters = api.repos.get_content("2i2c-org", "pilot-hubs", "config/hubs/")
 hub_list = []
 for cluster_info in clusters:
