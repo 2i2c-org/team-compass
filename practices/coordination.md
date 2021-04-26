@@ -63,7 +63,7 @@ A deliverable is ready to work (and can thus be added to the Project Backlog) wh
 
 _Deliverable Refinement_ is the process of improving the scoping, context, and structure of our Deliverables issues so that they are ready for us to work on them. When a deliverable is created, it may not have all of the information needed to take the next step. Adding that information is the goal of Deliverable Refinement.
 
-All team members are expected to participate in deliverable refinement, though the more experience and higher-level you are, the more you should be contributing to this process.
+All team members are expected to participate in deliverable refinement, though the more experienced and higher-level you are, the more you should be contributing to this process.
 The important thing is that we always have a list of high-quality deliverables ready to work towards.
 
 Here's a small table that explains how to decide whether deliverables issues should be put in a project backlog:
