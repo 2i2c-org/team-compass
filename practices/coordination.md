@@ -12,48 +12,109 @@ Here are the goals we optimize for in organizing our team coordination practices
 
 We want to do this with high efficiency so that people can quickly get on the same page and focus efforts around decision-making and collaboration. We also wish to do it in a 💯 remote-friendly way since we are split across many different time-zones.
 
+## Team development workflow
 
-## Projects and deliverables are our main units of work
+This section describes how our development team carries out its planning and day-to-day work.
+Here's a quick summary:
 
-A new project should be created for anything with a specific scope and set of deliverables that spans a reasonably long amount of time. 2i2c projects should all feed into the [2i2c organizational strategy and goals](../about/strategy.md).
+* [Deliverables](coordination:deliverables) are discrete units of value that we bring to others. To be ready for work, they should be scoped properly, with enough information to complete them (e.g., a set of [tasks](coordination:tasks)).
+* The [Project Backlog](coordination:project-backlog) contains lists of **deliverables** that we are currently working towards across all of the 2i2c projects. Deliverables on the Project Backlog define our team priorities at any moment.
+* [Tasks](coordination:tasks) are concrete actions to take, and should be accomplishable in a single work session by one person.
+* The [Activity Backlog](coordination:active-backlog) contains lists of **tasks** that we are currently working on. This defines 2i2c's current activity.
 
-Each project should have the following things:
+(coordination:project-backlog)=
+### Project Backlogs
 
-1. **Summarize the project**. What is the overarching scope and deverables for the project? Who is it in collaboration with? How does it fit in with the overarching [strategic goals of 2i2c](../about/strategy.md)?
-2. **Define the project's key goal**. What is the one key goal to accomplish with this project?
-3. **A {term}`Source of Truth`**.  Where does project management and tracking take place? Where do we track progress? What about to-do items? Where does communication happen around this project? (e.g., in a GitHub repository, in Slack, in a Google doc).
-4. **A collection of deliverables**. What are the deliverables that must exist in order to complete the project? These can start off more abstract, but over time they should become more concrete, and ultimately, lead to actionable tasks.
+The Project Backlog contains all of the deliverables across our projects that we wish to work on quickly.
+These are organized into a few columns, representing the _state_ of each deliverable.
+Here is a common column structure:
+
+- {guilabel}`Needs Discussion/Refinement`: Deliverables that are high-priority but un-refined. Our goal should be having discussion and doing research in order to get these deliverables ready for work.
+- {guilabel}`Ready to Work`: Deliverables that are well-scoped and have a clear path forward, and are thus ready to implement. As deliverables in {guilabel}`In progress` are completed, we should replace them with deliverables from this column. Generally speaking, deliverables near the top have higher priority than those at the bottom.
+- {guilabel}`In progress`: Deliverables that we are currently working towards. This means that we should be generating [Tasks](coordination:tasks) in our [Activity Backlog](https://github.com/orgs/2i2c-org/projects/5) to complete this deliverable (more on this below).
+- {guilabel}`Blocked/Waiting`: Deliverables for which we are waiting for some action that is out of our team's immediate control.
+- {guilabel}`Done`: Deliverables that have been completed. We should close these issues and celebrate the improvements that we have made!
 
 :::{note}
-Deliverables are generally written as **user stories** - that is, with a particular user in mind, and a particular outcome they want to see.
-For example, "As a 2i2c Hub User, I want to install a package on my own."
-Deliverables should be accomplishable in one or two sprints, and may have many tasks associated with them.
+In general, there should be only two or three deliverables per team member, per column on this board.
+It should not become so heavily-populated that it is hard to keep track of deliverables!
 :::
 
-## Tasks are steps to complete a deliverable
+There are two Project Backlogs at 2i2c:
 
-In order to meet a deliverable, we need to take a set of actions, called **Tasks**.
-Tasks are verbs, not outcomes, and they should be extremely concrete and obvious what needs to be done.
-In addition, they should be accomplishable in one setting.
+- The [2i2c Development Projects Backlog](https://github.com/orgs/2i2c-org/projects/7) contains deliverables for our development-focused projects.
+- The [Organizational Project Backlog](https://github.com/2i2c-org/meta/projects/6?fullscreen=true) contains deliverables that are organization-wide and not related to development.
 
-Tasks are the things that 2i2c team members *plan to do* in a sprint.
-This helps keep our actions concrete, while still working towards a deliverable.
+(coordination:deliverables)=
+### Deliverables
 
-### Keeping track of our goals
+Deliverables represent incremental amounts of value we can deliver to a particular stakeholder, and should be completable in a week or two. 
 
-:::{warning}
-We are considering phasing out team goals, and simply using **Projects** and **Deliverables** as described above.
+Most issues in our repositories are deliverables, in varying states of readiness. When a deliverable is first created, it may lack information, be improperly scoped, or have an unclear path to implementation. We improve this through _deliverable refinement_ (see below).
+
+A deliverable is ready to work (and can thus be added to the Project Backlog) when it has the following properties (adapted from the [INVEST methodology](https://agileforall.com/new-to-agile-invest-in-good-user-stories/)).
+
+- **Have a short title and description:** Deliverables should be glanceable and have enough context that the reader can quickly understand the scope.
+- **Have one or more [user stories](https://www.atlassian.com/agile/project-management/user-stories):** User stories should define who benefits from the deliverable, and why they want it.
+- **Have completion criteria:** We have clear completion criteria for this deliverable to denote it as “done”.
+- **Have tasks to complete it**: Deliverables should have a set of tasks, which are actions needed to complete the deliverable.
+
+#### How refinement happens
+
+_Deliverable Refinement_ is the process of improving the scoping, context, and structure of our Deliverables issues so that they are ready for us to work on them. When a deliverable is created, it may not have all of the information needed to take the next step. Adding that information is the goal of Deliverable Refinement.
+
+All team members are expected to participate in deliverable refinement, though the more experienced and higher-level you are, the more you should be contributing to this process.
+The important thing is that we always have a list of high-quality deliverables ready to work towards.
+
+Here's a small table that explains how to decide whether deliverables issues should be put in a project backlog:
+
+:::{list-table}
+- -
+  - Needs more information
+  - Ready for working
+- - Low priority
+  - Stays in issues
+  - Put in {guilabel}`Ready to work`
+- - High Priority
+  - Manually put in \
+    {guilabel}`Needs Discussion/Refinement`
+  - Put in {guilabel}`Ready to work`
 :::
 
-Team goals are high-level goals (AKA, there's no single action that will "complete" them) and span a longer period of time.
-Goals generally contain pointers to other issues / PRs / discussions where the work of more specific tasks is getting done.
-You should regularly communicate with other team members about which goals you're focusing on (e.g., via Slack, GitHub Issues, or via the [](coordination:team-syncs))
+(coordination:active-backlog)=
+### Activity Backlog
 
-:::{tip}
-When opening a new issue in the 2i2c `pilot-hubs/` repository, first check if it would be better to add it to the to-do list of a pre-existing goal.
-:::
+The [Activity Backlog](https://github.com/orgs/2i2c-org/projects/5) contains the collection of **Tasks** that the team is currently working on.
+Tasks are actions that are needed to accomplish some deliverable.
+These tasks are generated from the deliverables on the Projects Backlog.
+They define a “to do” list of tasks to complete on a day-to-day basis.
 
-We keep track of team goals via the [{guilabel}`goal` label in GitHub](https://github.com/2i2c-org/pilot-hubs/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3Agoal).
+The Activity Backlog is broken down into these columns:
+
+- {guilabel}`Needs Discussion/Refinement` Tasks that require some team discussion around _implementation_. If there are higher-level discussions about the deliverable itself, perhaps the deliverable is not yet ready to be worked on.
+- {guilabel}`Ready to Work` Tasks that are ready to be worked on. Roughly speaking, tasks higher on the list are of higher priority.
+- {guilabel}`In progress` A task that a team member is currently working towards. When you move a task to In progress, indicate that you are working on it (either by adding your username to the card, or “assigning yourself” in the issue/PR associated with it.
+- {guilabel}`Needs review` Tasks that have an implementation that require feedback from others. For example, reviews for pull requests.
+- {guilabel}`Done` Tasks that are complete! When you move a task here, make sure to update any relevant deliverables.
+
+There is one Activity Backlog defined [at this GitHub Projects Board](https://github.com/orgs/2i2c-org/projects/5).
+
+(coordination:tasks)=
+### Tasks
+
+Deliverables of sufficient complexity are broken down into _tasks_. Tasks should be completable by a single person in less than one day (generally, completable with a few hours of focused work at most). Make sure to attach a link between your deliverable and its tasks (e.g., by adding links to issues in the deliverable’s "tasks" checklist)
+
+Tasks are generally encoded as checklist items in a deliverable, then added to the Activity Backlog when the deliverable is being worked on.
+
+Here’s an example of a deliverable with a few tasks:
+
+- **Deliverable:** Side notes in Jupyter Books. \
+  **User story**: _As a book author, I want to be able to create “aside” content that does not break up the narrative flow of my text._ \
+  **Tasks:**
+    - Create design doc for directive name and general API
+    - PR to prototype functionality and documentation
+    - Add tests and QA
+    - Final approval + merge
 
 (coordination:team-syncs)=
 ## Weekly team syncs
@@ -66,18 +127,11 @@ It uses [this Python/ipynb script to generate the issue](https://github.com/2i2c
 
 Here is the process for our team syncs.
 
-1. **On Mondays new issue is created automatically**. This issue is our space to discuss, update, and sync.
+1. **On Mondays a new issue is created automatically**. This issue is our space to discuss, update, and sync.
 2. **Team members give their responses**. You can copy/paste the template, and then give your responses in comments to the issue. You shouldn't feel forced to add content if you can't think of anything, use it as much as is useful.
 3. **Discuss and agree on next steps throughout the day**. The goal is to ensure that important issues have somebody paying attention to them, and that team members are supported in the tasks they work towards. At the end of the day the issue is automatically closed.
-
 
 ```{note}
 While these syncs happen once a week, the process of communicating with team members and working on tasks / deliverables can be dynamic and constantly updating.
 The syncs are just to get everyone on the same page.
 ```
-
-
-
-## What about stuff that shouldn't be public?
-
-For technical and infrastructure development, we should default to public. However, if something should *not* be public, mark it as-such in the HackMD and it won't be included in the public notes.
