@@ -31,7 +31,7 @@ Here is a common column structure:
 
 - {guilabel}`Needs Discussion/Refinement`: Deliverables that are high-priority but un-refined. Our goal should be having discussion and doing research in order to get these deliverables ready for work.
 - {guilabel}`Ready to Work`: Deliverables that are well-scoped and have a clear path forward, and are thus ready to implement. As deliverables in {guilabel}`In progress` are completed, we should replace them with deliverables from this column. Generally speaking, deliverables near the top have higher priority than those at the bottom.
-- {guilabel}`In progress`: Deliverables that we are currently working towards. This means that we should be generating [Tasks](coordination:tasks) in our [Activity Backlog](https://github.com/2i2c-org/team-compass/projects/1?fullscreen=true) to complete this deliverable (more on this below).
+- {guilabel}`In progress`: Deliverables that we are currently working towards. This means that we should be generating [Tasks](coordination:tasks) in our [Activity Backlog](https://github.com/orgs/2i2c-org/projects/5?fullscreen=true) to complete this deliverable (more on this below).
 - {guilabel}`Blocked/Waiting`: Deliverables for which we are waiting for some action that is out of our team's immediate control.
 - {guilabel}`Done`: Deliverables that have been completed. We should close these issues and celebrate the improvements that we have made!
 
@@ -42,8 +42,8 @@ It should not become so heavily-populated that it is hard to keep track of deliv
 
 There are two Project Backlogs at 2i2c:
 
-- The [2i2c Development Projects Backlog](https://github.com/2i2c-org/team-compass/projects/2?fullscreen=true) contains deliverables for our development-focused projects.
-- The [Organizational Project Backlog](https://github.com/2i2c-org/meta/projects/6?fullscreen=true) contains deliverables that are organization-wide and not related to development.
+- The [2i2c Development Projects Backlog](https://github.com/orgs/2i2c-org/projects/7?fullscreen=true) contains deliverables for our development-focused projects.
+- The [Organizational Project Backlog](https://github.com/orgs/2i2c-org/projects/8?fullscreen=true) contains deliverables that are organization-wide and not related to development.
 
 (coordination:deliverables)=
 ### Deliverables
@@ -85,7 +85,7 @@ Here's a small table that explains how to decide whether deliverables issues sho
 (coordination:active-backlog)=
 ### Activity Backlog
 
-The [Activity Backlog](https://github.com/2i2c-org/team-compass/projects/1?fullscreen=true) contains the collection of **Tasks** that the team is currently working on.
+The [Activity Backlog](https://github.com/orgs/2i2c-org/projects/5?fullscreen=true) contains the collection of **Tasks** that the team is currently working on.
 Tasks are actions that are needed to accomplish some deliverable.
 These tasks are generated from the deliverables on the Projects Backlog.
 They define a “to do” list of tasks to complete on a day-to-day basis.
@@ -98,7 +98,7 @@ The Activity Backlog is broken down into these columns:
 - {guilabel}`Needs review` Tasks that have an implementation that require feedback from others. For example, reviews for pull requests.
 - {guilabel}`Done` Tasks that are complete! When you move a task here, make sure to update any relevant deliverables.
 
-There is one Activity Backlog defined [at this GitHub Projects Board](https://github.com/2i2c-org/team-compass/projects/1?fullscreen=true).
+There is one Activity Backlog defined [at this GitHub Projects Board](https://github.com/orgs/2i2c-org/projects/5?fullscreen=true).
 
 (coordination:tasks)=
 ### Tasks
