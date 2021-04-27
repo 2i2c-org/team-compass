@@ -17,71 +17,65 @@
 # %%
 from ghapi.all import GhApi
 from IPython.display import Markdown
-from textwrap import dedent
 from datetime import date
 from ghapi.actions import github_token
 import os
-
-# On GitHub Actions "ACCESS_TOKEN" should be a personal access token with r/w permissions to *other* repos
-token = github_token() if "ACCESS_TOKEN" not in os.environ else os.environ["ACCESS_TOKEN"]
-
-# %%
-# Initialize the GH API and our markdown
-api = GhApi(token=token)
-
-# %% [markdown]
-# # Base template
-# The base template is defined here: https://github.com/2i2c-org/team-compass/blob/main/.github/ISSUE_TEMPLATE/team-update.md
-# It has placeholders for lists of issues, and these will be automatically filled in below, then a new issue will be created.
-
-# %%
-# Grab our issue template
-from base64 import b64decode
-template = api.repos.get_content("2i2c-org", "team-compass", ".github/ISSUE_TEMPLATE/team-update.md")
-template = b64decode(template.content).decode("utf-8")
-
-# This removes the header bracketed by ---
-template = "---".join(template.split("---")[2:]).strip()
-
-# %% [markdown]
-# # New Hubs
-
-# %%
-issues = api.issues.list_for_repo("2i2c-org", "pilot-hubs", labels="Needs Hub")
-if issues:
-    new_hubs = "\n".join([f"* [{issue.title}]({issue.html_url})" for issue in issues])+ "\n\n"
-else:
-    new_hubs = "No new hubs to deploy! 🎉\n\n"
-template = template.replace(
-    "{{INSERT NEW HUBS ISSUES HERE}}",
-    new_hubs
-)
-
-# %% [markdown]
-# # Needs Triage
-
-# %%
-issues = api.issues.list_for_repo("2i2c-org", "pilot", labels="needs:triage")
-if issues:
-    needs_triage = "\n".join([f"* [{issue.title}]({issue.html_url})" for issue in issues])+ "\n\n"
-else:
-    needs_triage = "No issues need triage! 🎉\n\n"
-    
-template = template.replace(
-    "{{INSERT NEEDS TRIAGE ISSUES HERE}}",
-    needs_triage
-)
+from pathlib import Path
 
 # %% [markdown]
 # # Priority issues
 
 # %%
-issues = api.issues.list_for_repo("2i2c-org", "pilot-hubs", labels="priority")
-if issues:
-    priority = "\n".join([f"* [{issue.title}]({issue.html_url})" for issue in issues])+ "\n\n"
+# On GitHub Actions "ACCESS_TOKEN" should be a personal access token with r/w permissions to *other* repos
+token = github_token() if "ACCESS_TOKEN" not in os.environ else os.environ["ACCESS_TOKEN"]
+
+# Initialize the GH API and our markdown
+api = GhApi(token=token)
+
+# %%
+# Grab Ready to Work cards that point to issues of high priority
+boards = api.projects.list_for_org("2i2c-org")
+priority_labels = ['prio: high', 'priority']
+
+priority_issues = []
+for board in boards:
+    if "Activity" in board.name:
+        continue
+    columns = api.projects.list_columns(board['id'])
+    for column in columns:
+        if any(ii in column['name'].lower() for ii in ("in progress", "ready to work")):
+            for card in api.projects.list_cards(column['id']):
+                if "content_url" in card:
+                    _, org, repo, _, num = card.content_url.rsplit('/', 4)
+                    issue = api.issues.get(org, repo, num)
+                    for prio_label in priority_labels:
+                        if any(prio_label in issue_label['name'] for issue_label in issue['labels']):
+                            priority_issues.append(issue)
+
+# %% [markdown]
+# # Update the template
+#
+# Update our team sync issue template with some priority issues.
+
+# %%
+# Read in our issue template
+if '__file__' not in globals():
+    curdir = Path(os.getcwd())
 else:
-    priority = "\nNo priority issues to tackle! 🎉\n\n"
-    
+    curdir = Path(__file__).parent
+template = curdir.joinpath("..", ".github", "ISSUE_TEMPLATE", "team-update.md").read_text()
+
+# This removes the header bracketed by ---
+template = "---".join(template.split("---")[2:]).strip()
+
+# Replace our priority issues
+md = [f"* [**{issue.title}**]({issue.html_url})" for issue in priority_issues]
+if md:
+    priority = "\n".join(md)
+else:
+    priority = "\nNo priority issues should be prioritized over others! 🎉\n\n"
+
+
 template = template.replace(
     "{{INSERT PRIORITY ISSUES HERE}}",
     priority
