@@ -58,7 +58,7 @@ for board in boards:
 # Update our team sync issue template with some priority issues.
 
 # %%
-# Read in our issue template
+# Read in our issue template (using `__file__` check to see if we are not running interactively)
 if '__file__' not in globals():
     curdir = Path(os.getcwd())
 else:
