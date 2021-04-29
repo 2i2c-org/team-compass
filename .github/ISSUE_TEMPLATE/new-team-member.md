@@ -30,6 +30,7 @@ Follow the checklist below to onboard a new team member!
 - [ ] Add to appropriate Google Cloud projects
 - [ ] Add to appropriate AWS projects
 - [ ] Add to appropriate Azure projects
+- [ ] Add to the [auth0 2i2c tenant](https://manage.auth0.com/dashboard/us/2i2c/tenant/admins)
 - [ ] NameCheap administration privileges to `2i2c.org` and `2i2c.cloud`
 
 **External**
