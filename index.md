@@ -31,6 +31,7 @@ practices/info-location
 practices/expectations
 practices/communication
 practices/coordination
+practices/github-conventions
 practices/team-compass
 ```
 
