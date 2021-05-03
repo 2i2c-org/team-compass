@@ -7,6 +7,11 @@ This page describes team
 There are a few issue labels that we use to provide key metadata in our issues.
 These are added to all `2i2c-org/` repositories, and share the same meaning across each.
 
+:::{note}
+- Only **Issue Type** is required for all issues.
+- Repositories may define their own labels in addition to the ones described here for a given category, unless otherwise noted.
+:::
+
 ### Issue Type
 
 **REQUIRED**
