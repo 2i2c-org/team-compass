@@ -18,27 +18,4 @@ In addition, here's a view of that table for quick reference:
 
 ## Running JupyterHubs
 
-Below is a list of communities that we currently serve via the central [`pilot-hubs/` repository](https://github.com/2i2c-org/pilot-hubs).
-
-<div class="full-width">
-
-```{csv-table}
-:header-rows: 1
-:file: ../tmp/hub-table.csv
-```
-
-</div>
-
-
-
-<!-- DataTables to make the table above look nice -->
-<link rel="stylesheet"
-      href="https://cdn.datatables.net/1.10.24/css/jquery.dataTables.min.css">
-<script type="text/javascript" 
-        src="https://cdn.datatables.net/1.10.24/js/jquery.dataTables.min.js"></script>
-
-<script>
-$(document).ready( function () {
-    $('table').DataTable();
-} );
-</script>
+For a list of communities that we currently serve via the central [`pilot-hubs/` repository](https://github.com/2i2c-org/pilot-hubs), see [the `pilot-hubs/` documentation](https://pilot-hubs.2i2c.org/en/latest/reference/hubs.html).
