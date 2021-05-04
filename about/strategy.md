@@ -1,30 +1,56 @@
 # Strategy and goals
 
-The 2i2c strategic plan is a combination of active and aspirational priorities that help us get closer to achieving our organizational mission. These are broken down into **strategic goals and objects for each**, with links to projects that feed into these objectives. There are four categories, associated with the [mission of 2i2c](https://2i2c.org/#what-we-do):
+Our Strategic Plan is a combination of active and aspirational priorities that help us get closer to achieving our organizational mission. These are broken down into **strategic goals and objects for each**. The [major projects of 2i2c](../reference/projects.md) should all feed into this strategy.
 
-- {badge}`research,badge-primary`: Interactive Computing in Research
-- {badge}`education, badge-secondary`: Supporting Interactive Computing in Education
-- {badge}`open-source, badge-info`: Supporting Open Source Communities for Interactive Computing
-- {badge}`organization, badge-success`: Organizational and operational goals
+Currently, 2i2c's Strategic Plan consists of a 1-year "bootstrap strategy".
+Our primary goal is to build a foundation for 2i2c and clarify out strategy and objectives for the coming years.
+This plan was created by the Founding Team of 2i2c [and is located here](https://docs.google.com/document/d/13uxWKWMMAdvM-knC5fMOj8tP_HQVvijIIE9jZgTItX4/edit?usp=sharing).
+This page is a summary and synthesis of the ideas in that document.
 
-Each [2i2c project](../reference/projects.md) should work towards accomplishing one or more of these goals. Note that there are no deadlines yet associated with these goals, as 2i2c is still in the process of defining its organizational structure and cadence.
+The following objectives should be accomplished by **October of 2021**.
 
+## Build a foundation for 2i2c's operations
 
-## Build an organizational and business model
+**Rationale:**
 
-A core offering of 2i2c is to act as a **service provider** and **development partner** for hire. This means that we need to define business objectives, pricing and growth models, and products that are useful and sustainable for both 2i2c and our potential customers.
+2i2c needs an organizational home, structure, and governing body in order to begin exploring how it can best-accomplish its mission.
+It also needs resources that can fund people's time to begin work.
+ 
+**Objectives:**
 
+- 2i2c has an organizational home that can sign contracts, hold liability, and administer our operations.
+- 2i2c has a governing body and rules for governance.
+- 2i2c has organizational funding for core staff for at least a year.
+- 2i2c has hired core staff for its first year of operations
+- 2i2c has organizational structure to handle both its engineering and the business operations.
+- 2i2c has a clearly-defined Mission, Vision, and Values.
+- 2i2c has a strategic plan for the next 1-3 years.
 
-## Support the pan-foo model for research and extend the Pangeo project
+## Launch the Managed JupyterHubs pilot
 
-The Pangeo Project is a core partner of 2i2c, and one of our strategic goals is to build on its success in other research fields. We aim to learn more about the infrastructure deployments for Pangeo in order to understand how to diversify and scale its model sustainably.
+**Rationale:**
 
+One of 2i2c's goals is to serve the research and education community through Managed Services that utilize infrastructure for interactive computing.
+It will take some exploration and learning to understand how to best-design these services.
+As a start, we wish to launch a **Managed JupyterHubs** service, and will begin with a pilot to explore this model.
+ 
+**Objectives:**
 
-## Support educational hubs for large and small institutions
+- 2i2c manages JupyterHubs for at least two institutions.
+- 2i2c manages more lightweight, community-specific JupyterHubs for several smaller groups in research and education.
+- 2i2c manages a "generic" JupyterHub that is not tied to any single institution or group.
+- 2i2c has a beta-level business model for the first iteration of our Managed JupyterHub service.
+- 2i2c has built relationships with cloud providers that facilitate our ability to serve these hubs to our users.
 
-We'll need to be able to deploy hub infrastructure that meets the needs of many kinds of institutions, and our first steps will be to deploy hub pilots for them. This will help us prototype technology and learn more about their use-cases. Ultimately it will lead to us being able to sustainably serve these communities with hub infrastructure.
+## Launch major collaborations
 
+**Rationale:**
 
-## Support open source communities
+2i2c wishes to conduct focused development in collaboration with others in research and education.
+We wish to engage in several major projects that will support infrastructure that aligns with our mission, and that also feeds into our Managed JupyterHub service.
 
-In addition to 2i2c-specific projects, we also see the health of the open source ecosystem underlying our stack to be a key strategic goal. We have an ongoing "project" to provide support to key communities in this space, and occasionally have more specific projects to work on.
+**Objectives:**
+
+- 2i2c has launched a project around serving educational hub infrastructure to under-served educational institutions.
+- 2i2c has launched a project to provide infrastructure development and support for the earth sciences community.
+- 2i2c has made significant contributions across several open source communities that are related to the infrastructure it serves.
