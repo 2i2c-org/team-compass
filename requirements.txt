@@ -3,4 +3,3 @@ myst-parser[linkify]
 sphinx-copybutton
 sphinx-panels
 pandas
-ghapi
