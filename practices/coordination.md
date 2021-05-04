@@ -145,12 +145,28 @@ The 2i2c team uses [a shared Google Calendar](https://calendar.google.com/calend
 Everyone at 2i2c has access to it, and has the ability to add events to this calendar.
 
 **Use the Calendar to let the team know you're taking time off**.
-To do so, add an event to this calendar with a title like the following:
+Here are the reasons that you might do so:
+
+**Personal Time Off**: If you're taking personal time off (e.g., vacation, holidays, personal leave, etc), add an event to this calendar with a title to let others know you'll be away.
+
+For example:
 
 ```
 AWAY: <your name> - <optional reason>
 ```
 
-This should be done for any reason that you think you'll be away - vacation, holidays, personal leave, etc.
+**Reduced time**: If you expect to be on **reduced time** for an extended period, please use the calendar for this as well.
 
-In addition, please add any national holidays for your location of residence if you expect that you (or others in your location) may take time off for this as well.
+For example:
+
+```
+REDUCED: <your name> - <optional reason>
+```
+
+**Holidays**: Please add any national holidays for your location of residence if you expect that you (or others in your location) may take time off for this as well.
+
+For example:
+
+```
+HOLIDAY: <holiday name>
+```
