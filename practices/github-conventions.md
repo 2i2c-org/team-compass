@@ -1,6 +1,6 @@
 # GitHub repository conventions
 
-This page describes team 
+This page describes the use of GitHub Issue labels across the repositories within the 2i2c organization. 
 
 ## Issue labels
 
