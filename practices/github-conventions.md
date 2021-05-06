@@ -51,5 +51,5 @@ Here are some example tags:
 
 - {badge}`🏷: documentation,badge-warning`: related to documentation in a repository
 - {badge}`🏷: CI/CD,badge-warning`: related to continuous integration/deployment
-- {badge}`🏷: documentation,badge-warning`: related to data access functionality
+- {badge}`🏷: data access,badge-warning`: related to data access functionality
 - {badge}`🏷: hub admin,badge-warning`: related to hub administrator functionality
