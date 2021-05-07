@@ -17,12 +17,12 @@ Follow the checklist below to onboard a new team member!
 - [ ] (if a 2i2c staff member) Make a `@2i2c.org` GMail account for them.
 - [ ] Add to [the proper GitHub team](https://github.com/orgs/2i2c-org/teams/2i2c-team)
 - [ ] Add to [the proper Slack group](https://2i2c.slack.com/admin/user_groups)
+- [ ] Add them to the proper Google group in our Google Admin space.
 
 **Communication**
 
 - [ ] Send them a link to the [Getting started docs](https://team-compass.2i2c.org/en/latest/get-started.html)
 - [ ] Send them a link to the [2i2c Google Drive](https://drive.google.com/drive/folders/1ABxxSFycGfCzQc9czfwer_dat-GVi4jw?usp=sharing)
-  - [ ] If they will not have a `@2i2c.org` address, manually add them to the drive.
 - [ ] Schedule an onboarding meeting for after they've read through the docs
 
 **Permissions**
