@@ -4,7 +4,7 @@
 
 We also have some organizational documents in a shared Google folder called "2i2c". Your 2i2c address will give you access to this folder (or if you do not have access, please request it!):
 
-[https://drive.google.com/drive/folders/1BOC1AuqvQOcAlHAYkHsjbSbLQdkseujO?usp=sharing](https://drive.google.com/drive/folders/1BOC1AuqvQOcAlHAYkHsjbSbLQdkseujO?usp=sharing)
+[https://drive.google.com/drive/folders/1ABxxSFycGfCzQc9czfwer_dat-GVi4jw?usp=sharing](https://drive.google.com/drive/folders/1ABxxSFycGfCzQc9czfwer_dat-GVi4jw?usp=sharing)
 
 The folder is organized into a few top-level folders that *should* be relatively self-explanatory, but don't hesitate to ask for a quick guide.
 
