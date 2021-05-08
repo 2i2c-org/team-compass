@@ -19,6 +19,7 @@ from ghapi.all import GhApi
 from IPython.display import Markdown
 from datetime import date
 from ghapi.actions import github_token
+from yaml import safe_load
 import os
 from pathlib import Path
 
@@ -63,10 +64,13 @@ if '__file__' not in globals():
     curdir = Path(os.getcwd())
 else:
     curdir = Path(__file__).parent
-template = curdir.joinpath("..", ".github", "ISSUE_TEMPLATE", "team-update.md").read_text()
 
-# This removes the header bracketed by ---
-template = "---".join(template.split("---")[2:]).strip()
+# Load in the template and split out the metadata vs. text
+template = curdir.joinpath("..", ".github", "ISSUE_TEMPLATE", "team-update.md").read_text()
+metadata, template = template.strip('---').split('---', 1)
+metadata = safe_load(metadata)
+if not isinstance(metadata['labels'], list):
+    metadata['labels'] = [metadata['labels']]
 
 # Replace our priority issues
 md = [f"* [**{issue.title}**]({issue.html_url})" for issue in priority_issues]
@@ -92,6 +96,6 @@ Markdown(template)
 
 # %%
 # Now create an issue with this content
-resp = api.issues.create("2i2c-org", "team-compass", title=f"Team Sync - {date.today():%b %d, %Y}", body=template, labels=["team-sync"])
+resp = api.issues.create("2i2c-org", "team-compass", title=f"Team Sync - {date.today():%b %d, %Y}", body=template, labels=metadata['labels'])
 url = f"https://github.com/{resp.url.split('repos/')[-1]}"
 print(f"Finished posting team sync to {url} !")
