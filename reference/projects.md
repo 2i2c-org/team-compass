@@ -32,8 +32,9 @@ The Managed JupyterHub Service is an ongoing special project, with the goal of s
 
 **Tracking deliverables**
 
-See the [](hubs.md) page for information about the hub infrastructure we currently manage.
-The issues in those repositories contain the deliverables for each.
+Since most of the [hubs we run](https://pilot-hubs.2i2c.org/en/latest/reference/hubs.html) are
+managed out of the [2i2c-org/pilot-hubs](https://github.com/2i2c-org/pilot-hubs) repository,
+deliverables are tracked in that repository as well.
 
 (projects:jmte-pangeo)=
 ## Pangeo Hub Infrastructure development

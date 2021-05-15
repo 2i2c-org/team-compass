@@ -56,7 +56,6 @@ Contains information about the 2i2c team and our projects, and some useful resou
 :maxdepth: 1
 :caption: Team Reference
 reference/projects
-reference/hubs
 reference/inspiration
 reference/terminology
 meetings/eng/index
