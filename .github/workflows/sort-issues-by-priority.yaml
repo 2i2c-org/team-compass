@@ -1,9 +1,8 @@
-# From https://github.com/JasonEtco/create-an-issue
-name: Open a weekly team sync issue
+name: Sort our project cards based on priority label
 on:
   schedule:
-  # Run every monday at 00:00
-  - cron: "0 0 * * 1"
+  # Run every day
+  - cron: "0 1 * * *"
 
   workflow_dispatch:
 
@@ -23,8 +22,8 @@ jobs:
       run: |
         pip install -r .github/requirements.txt
 
-    - name: Post sync md
+    - name: Sort issues
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
       run: |
-        python scripts/post-team-sync.py
+        python scripts/sort-issues.py
