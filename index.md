@@ -55,6 +55,7 @@ Contains information about the 2i2c team and our projects, and some useful resou
 ```{toctree}
 :maxdepth: 1
 :caption: Team Reference
+code-of-conduct/index
 reference/projects
 reference/hubs
 reference/inspiration
