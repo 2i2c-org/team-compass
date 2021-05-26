@@ -69,7 +69,7 @@ def sort_cards(column, sort_labels, api):
     )
 
     # Loop through the sorted cards (in reverse so we move the last label first) and move them to the top
-    for card in cards_sorted[::-1]:
+    for card in reversed(cards_sorted):
         api.projects.move_card(card["id"], position="top")
         print(f"\t\tMoved card {card['id']} to top")
 
