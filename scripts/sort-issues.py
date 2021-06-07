@@ -80,6 +80,8 @@ for project in api.projects.list_for_org("2i2c-org"):
 
     columns = api.projects.list_columns(project["id"])
     for column in columns:
+        # columns aren't just named `archive` or `done`,
+        # so we just want to know if `archive` or `done` is somewhere in the column name
         if any(ii in column["name"].lower() for ii in ["archive", "done"]):
             continue
         print(f"\tSorting column {column['name']}")
