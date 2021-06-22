@@ -68,4 +68,4 @@ We use the [GitHub bots](https://slack.github.com/) to track github issues that 
 
 [^sst1]: **References for Single Source of Truth**: For a few examples, see [this Bitergia post](https://blog.bitergia.com/2020/08/25/why-ospo-teams-need-a-single-source-of-truth/) and [the GitLab SSOT section](https://about.gitlab.com/handbook/values/#single-source-of-truth).
 
-[^remote-work1]: **References for Remote Work**: [The GitLab remote work guide](https://about.gitlab.com/company/culture/all-remote/guide/), [the future of work is written](https://increment.com/remote/future-of-work-is-written/), [RFCs as a management tool](https://buriti.ca/6-lessons-i-learned-while-implementing-technical-rfcs-as-a-management-tool-34687dbf46cb)
+[^distributed-work1]: **References for Distributed Work**: [The GitLab remote work guide](https://about.gitlab.com/company/culture/all-remote/guide/), [the future of work is written](https://increment.com/remote/future-of-work-is-written/), [RFCs as a management tool](https://buriti.ca/6-lessons-i-learned-while-implementing-technical-rfcs-as-a-management-tool-34687dbf46cb)
