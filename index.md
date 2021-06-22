@@ -58,6 +58,7 @@ Contains information about the 2i2c team and our projects, and some useful resou
 code-of-conduct/index
 reference/projects
 reference/hubs
+reference/calendar
 reference/inspiration
 reference/terminology
 meetings/eng/index
