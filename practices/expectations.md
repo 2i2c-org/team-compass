@@ -13,13 +13,13 @@ We are currently working on a Code of Conduct for 2i2c, but until it is complete
 ### Be communicative
 
 First and foremost, be communicative to other team members.
-2i2c is a remote-first organization, and it is crucial that we are open and up-front with one another.
+2i2c is a distributed organization, and it is crucial that we are open and up-front with one another.
 If there's any doubt, don't hesitate to ask someone, ideally in a public channel.
 If you are wondering whether somebody else needs to know something, assume that they do and tell them.
 
-### Be proactive 
+### Be proactive
 
-We are a remote-first organization, and this means that it is crucial that we work together to identify how to make the most impact.
+We are a distributed organization, and this means that it is crucial that we work together to identify how to make the most impact.
 2i2c generally do a combination of development, operations, and support for the infrastructure and projects that we work on.
 
 What you work on will depend on your role and potentially your funding source, but the important thing is that you are proactive in working with other team members to identify what you should work on next.

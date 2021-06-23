@@ -67,13 +67,13 @@ You can use this to begin participating in our daily activities and find out wha
 
 Check out the [projects page](reference/projects.md) for more information about the projects that 2i2c is working on.
 
-## Tips for working remotely
+## Tips for distributed working
 
-2i2c is a remote-first organization, and believes strongly in following practices that are inclusive, participatory, and collaborative. It has team members spread out over many time zones working on a variety of projects. There are many guides and tips for working remotely[^remote-work1], and we've tried to distill a few key components for our workflows:
+2i2c is a distributed organization, and believes strongly in following practices that are inclusive, participatory, and collaborative. It has team members spread out over many time zones working on a variety of projects. There are many guides and tips for distributed working[^distributed-work1], and we've tried to distill a few key components for our workflows:
 
 1. **Have a single source of truth**. For any information or projects in 2i2c, there should be one source of truth. Any conflicting information will defer to this source of truth, and it should be updated first and often. The default source of truth is this team compass, unless otherwise specified.
 
-2. **Document everything**. Documentation is the most important tool for coordinating and distributing information across remote teams. It is crucial that 2i2c team members document all relevant information about their projects, what they are working on, etc.
+2. **Document everything**. Documentation is the most important tool for coordinating and distributing information across distributed teams. It is crucial that 2i2c team members document all relevant information about their projects, what they are working on, etc.
 
 3. **Broadcast updates in multiple places**. Different people have different preferred methods of engagement and communication on 2i2c projects. For this reason, don't assume that posting an update or question in a single location will reach everybody that you wish to reach. Do not hesitate to post questions or ask for feedback in multiple places (e.g., GitHub, Slack, or even email). However, try to keep information in a single place to have a single source of truth.
 
