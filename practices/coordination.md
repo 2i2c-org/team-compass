@@ -48,7 +48,7 @@ There are two Project Backlogs at 2i2c:
 (coordination:deliverables)=
 ### Deliverables
 
-Deliverables represent incremental amounts of value we can deliver to a particular stakeholder, and should be completable in a week or two. 
+Deliverables represent incremental amounts of value we can deliver to a particular stakeholder, and should be completable in a week or two.
 
 Most issues in our repositories are deliverables, in varying states of readiness. When a deliverable is first created, it may lack information, be improperly scoped, or have an unclear path to implementation. We improve this through _deliverable refinement_ (see below).
 
@@ -136,6 +136,15 @@ Here is the process for our team syncs.
 While these syncs happen once a week, the process of communicating with team members and working on tasks / deliverables can be dynamic and constantly updating.
 The syncs are just to get everyone on the same page.
 ```
+
+## Monthly team meetings
+
+The 2i2c Team meets the **first Monday of each month** for two hours.
+This is an opportunity to speak face-to-face, discuss major issues and work items, and coordinate around our major next steps.
+
+We use [this HackMD for our team meeting notes and agenda](https://hackmd.io/Y5SBMxV7R6CMqzeTXgm5kA).
+
+See the [Team Calendar page](team/calendar) for information about when and where the meetings are held.
 
 ## Taking time off
 

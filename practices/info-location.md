@@ -26,7 +26,7 @@ There are three main ways that 2i2c communicates with the outside world:
 - Newsletter: [using Mailchimp](https://mailchimp.com/)
   - Users sign up to the newsletter via our landing page's contact form at [2i2c.org#contact](https://2i2c.org#contact). Email addresses are imported into Mailchimp for the newsletter.
 - Blog: [2i2c.org/blog]
-  - The blog is managed by our [Hugo website repository](https://github.com/2i2c-org/2i2c.github.io). All new posts are automatically sent to the mailing list on a weekly basis.
+  - The blog is managed by our [Hugo website repository](https://github.com/2i2c-org/2i2c-org.github.io). All new posts are automatically sent to the mailing list on a weekly basis.
 
 ## Slack
 
@@ -68,4 +68,4 @@ We use the [GitHub bots](https://slack.github.com/) to track github issues that 
 
 [^sst1]: **References for Single Source of Truth**: For a few examples, see [this Bitergia post](https://blog.bitergia.com/2020/08/25/why-ospo-teams-need-a-single-source-of-truth/) and [the GitLab SSOT section](https://about.gitlab.com/handbook/values/#single-source-of-truth).
 
-[^remote-work1]: **References for Remote Work**: [The GitLab remote work guide](https://about.gitlab.com/company/culture/all-remote/guide/), [the future of work is written](https://increment.com/remote/future-of-work-is-written/), [RFCs as a management tool](https://buriti.ca/6-lessons-i-learned-while-implementing-technical-rfcs-as-a-management-tool-34687dbf46cb)
+[^distributed-work1]: **References for Distributed Work**: [The GitLab remote work guide](https://about.gitlab.com/company/culture/all-remote/guide/), [the future of work is written](https://increment.com/remote/future-of-work-is-written/), [RFCs as a management tool](https://buriti.ca/6-lessons-i-learned-while-implementing-technical-rfcs-as-a-management-tool-34687dbf46cb)

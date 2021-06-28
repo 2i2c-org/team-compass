@@ -18,7 +18,7 @@
 # -- Project information -----------------------------------------------------
 
 project = '2i2c Team Compass'
-copyright = '2020, 2i2c'
+copyright = '2021, 2i2c'
 author = '2i2c'
 
 

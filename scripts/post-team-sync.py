@@ -28,7 +28,9 @@ from pathlib import Path
 
 # %%
 # On GitHub Actions "ACCESS_TOKEN" should be a personal access token with r/w permissions to *other* repos
-token = github_token() if "ACCESS_TOKEN" not in os.environ else os.environ["ACCESS_TOKEN"]
+token = (
+    github_token() if "ACCESS_TOKEN" not in os.environ else os.environ["ACCESS_TOKEN"]
+)
 
 # Initialize the GH API and our markdown
 api = GhApi(token=token)
@@ -36,21 +38,24 @@ api = GhApi(token=token)
 # %%
 # Grab Ready to Work cards that point to issues of high priority
 boards = api.projects.list_for_org("2i2c-org")
-priority_labels = ['prio: high', 'priority']
+priority_labels = ["prio: high", "priority"]
 
 priority_issues = []
 for board in boards:
     if "Activity" in board.name:
         continue
-    columns = api.projects.list_columns(board['id'])
+    columns = api.projects.list_columns(board["id"])
     for column in columns:
-        if any(ii in column['name'].lower() for ii in ("in progress", "ready to work")):
-            for card in api.projects.list_cards(column['id']):
+        if any(ii in column["name"].lower() for ii in ("in progress", "ready to work")):
+            for card in api.projects.list_cards(column["id"]):
                 if "content_url" in card:
-                    _, org, repo, _, num = card.content_url.rsplit('/', 4)
+                    _, org, repo, _, num = card.content_url.rsplit("/", 4)
                     issue = api.issues.get(org, repo, num)
                     for prio_label in priority_labels:
-                        if any(prio_label in issue_label['name'] for issue_label in issue['labels']):
+                        if any(
+                            prio_label in issue_label["name"]
+                            for issue_label in issue["labels"]
+                        ):
                             priority_issues.append(issue)
 
 # %% [markdown]
@@ -60,17 +65,19 @@ for board in boards:
 
 # %%
 # Read in our issue template (using `__file__` check to see if we are not running interactively)
-if '__file__' not in globals():
+if "__file__" not in globals():
     curdir = Path(os.getcwd())
 else:
     curdir = Path(__file__).parent
 
 # Load in the template and split out the metadata vs. text
-template = curdir.joinpath("..", ".github", "ISSUE_TEMPLATE", "team-update.md").read_text()
-metadata, template = template.strip('---').split('---', 1)
+template = curdir.joinpath(
+    "..", ".github", "ISSUE_TEMPLATE", "team-update.md"
+).read_text()
+metadata, template = template.strip("---").split("---", 1)
 metadata = safe_load(metadata)
-if not isinstance(metadata['labels'], list):
-    metadata['labels'] = [metadata['labels']]
+if not isinstance(metadata["labels"], list):
+    metadata["labels"] = [metadata["labels"]]
 
 # Replace our priority issues
 md = [f"* [**{issue.title}**]({issue.html_url})" for issue in priority_issues]
@@ -80,10 +87,7 @@ else:
     priority = "\nNo priority issues should be prioritized over others! 🎉\n\n"
 
 
-template = template.replace(
-    "{{INSERT PRIORITY ISSUES HERE}}",
-    priority
-)
+template = template.replace("{{INSERT PRIORITY ISSUES HERE}}", priority)
 
 # %% [markdown]
 # # Display for demo
@@ -96,6 +100,12 @@ Markdown(template)
 
 # %%
 # Now create an issue with this content
-resp = api.issues.create("2i2c-org", "team-compass", title=f"Team Sync - {date.today():%b %d, %Y}", body=template, labels=metadata['labels'])
+resp = api.issues.create(
+    "2i2c-org",
+    "team-compass",
+    title=f"Team Sync - {date.today():%b %d, %Y}",
+    body=template,
+    labels=metadata["labels"],
+)
 url = f"https://github.com/{resp.url.split('repos/')[-1]}"
 print(f"Finished posting team sync to {url} !")
