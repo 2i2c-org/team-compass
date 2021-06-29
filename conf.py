@@ -75,15 +75,3 @@ intersphinx_mapping = {
 }
 
 panels_add_bootstrap_css = False
-
-# -- Custom scripts -----------------------------------------
-import pandas as pd
-from pathlib import Path
-
-# Pull list of hub repositories
-hub_table = "https://docs.google.com/spreadsheets/d/e/2PACX-1vTpwlQL0Moz-ej-ADNfc6JTxfTje5GBQD1o0DE66atYi2ulWan3leEiCC20epzTyHVWIdomxp9Jt70D/pub?gid=0&single=true&output=csv"
-df = pd.read_csv(hub_table)
-Path("tmp").mkdir(exist_ok=True)
-path_table = Path("tmp/repo-deploy-table.csv")
-if not path_table.exists():
-    df.to_csv(path_table, index=None)

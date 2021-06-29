@@ -13,12 +13,11 @@ We are also building a sales and support pipeline around this infrasturcture.
 **Infrastructure and development** happens in [the `pilot-hubs/` repository](https://github.com/2i2c-org/pilot-hubs).
 This is both the deployment infrastructure for the 2i2c JupyterHubs, as well as documentation and team coordination around developing and running them.
 
-**Running JupyterHubs** are tracked as issues in the `pilot-hubs/` repository.
-When a new hub is created, [create a new GitHub issue for the hub](https://github.com/2i2c-org/pilot-hubs/issues/new) using the "New Hub" template.
-This issue is a "meta" issue that tracks the state of this hub over time.
-These issues serve both as a "Source of Truth" of information about the hub, as well as a place for conversation around operating that hub.
-
 **User Documentation** is located in [the `pilot/` repository](https://github.com/2i2c-org/pilot). This contains user-facing information about the Pilot Hubs, such as how they can add/remove users, update their environment, get support, etc.
+
+## A list of running JupyterHubs
+
+We keep a table with all of our currently-running JupyterHubs at this location: [List of Running JupyterHubs](https://pilot-hubs.2i2c.org/en/latest/reference/hubs.html).
 
 ## Other project information
 
