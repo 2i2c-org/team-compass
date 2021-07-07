@@ -60,6 +60,7 @@ reference/projects
 reference/calendar
 reference/inspiration
 reference/terminology
+reference/cloud-access
 meetings/eng/index
 ```
 
