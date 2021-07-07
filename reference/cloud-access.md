@@ -34,9 +34,9 @@ The canonical list of GCP projects we have access to is maintained
 
 ## AWS Access
 
-Each 2i2c engineer should get an [IAM User Account](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users.html)
+Each 2i2c engineer should get an individual [IAM User Account](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users.html)
 in every AWS account we have access to. This should have the broadest
-set of permissions as well, and the same permissions for everyone.
+set of permissions as well, and the same set of permissions for everyone.
 
 The canonical list of AWS accounts we have access to is maintained
 [in this google sheet](https://docs.google.com/spreadsheets/d/1NSaAKLG2_njXxs6JlGUAhSWeHONz9QSGLVwEK790IZo/edit#gid=537065664)
