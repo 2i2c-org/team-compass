@@ -20,7 +20,8 @@ On Google Cloud, we have a [2i2c organization](https://console.cloud.google.com/
 that contains some projects we are fully responsible for. Access
 to *all* projects in this organization can be granted by
 adding the user to the group `gcp-organization-admins@2i2c.org`
-in the [Google Workspace Admin dashboard](https://admin.google.com/ac/users).
+in the [Google Workspace Admin dashboard](https://admin.google.com/ac/users)
+(available only to admins of the 2i2c.org Google Workspace account).
 Note that this option is only available for engineers with a `@2i2c.org`
 account.
 
