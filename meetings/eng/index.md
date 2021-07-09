@@ -1,4 +1,4 @@
-# Archive of Engineering Team Sync Notes
+# Team Meetings
 
 In early iterations of 2i2c, we manually added team sync notes to this team compass.
 We now keep track of team syncs in GitHub Issues, but leave these notes here as a historical reference.
