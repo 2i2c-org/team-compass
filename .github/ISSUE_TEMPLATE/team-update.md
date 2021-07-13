@@ -37,7 +37,7 @@ _Copy and paste the template below, and answer questions as you wish!_
 - I worked towards deliverable: <link-to-deliverable>
 - I had a meeting with ABC
 
-**What I'm up to next ⬜**
+**What I'm up to next ➡️**
 - I'd like to focus on deliverable <link-to-deliverable>
 - I'm answering user questions this week
 
