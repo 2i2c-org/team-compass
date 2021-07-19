@@ -1,8 +1,8 @@
 ---
 name: "📅 Team Meeting"
 about: Plan a team meeting.
-labels: "team-sync"
-title: "Team Meeting: <MMMMM YYYY>"
+labels: "type: team-sync"
+title: "Team Meeting: <MONTH YYYY>"
 ---
 
 This is a planning issue for our next team meeting! See below for information about the meeting and next steps.
