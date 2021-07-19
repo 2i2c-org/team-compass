@@ -50,11 +50,6 @@ html_theme = 'sphinx_book_theme'
 
 html_title = "The 2i2c Team Compass"
 
-# Add any paths that contain custom static files (such as style sheets) here,
-# relative to this directory. They are copied after the builtin static files,
-# so a file named "default.css" will overwrite the builtin "default.css".
-html_static_path = ['_static']
-
 show_navbar_depth = 3
 html_theme_options = {
     "repository_url": "https://github.com/2i2c-org/team-compass",
