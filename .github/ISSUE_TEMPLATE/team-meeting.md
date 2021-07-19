@@ -28,8 +28,8 @@ _Links to follow up issues below_
 _Steps to take to have the meeting._
 
 - [ ] Have the meeting
-- [ ] Open up any issues or discussions as-needed to follow up
-- [ ] Cut notes out of HackMD and add to the Team Compass: 
+- [ ] Open up any follow-up issues or discussions and link above
+- [ ] Cut notes out of HackMD and add to the Team Compass: <PR link here> 
 - [ ] Update HackMD information for next month's meeting
 - [ ] Create a GitHub issue for next month's meeting
 - [ ] Meeting complete! 🎉 
