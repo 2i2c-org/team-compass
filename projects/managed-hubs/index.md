@@ -1,4 +1,4 @@
-# The Managed JupyterHub Service
+# Managed JupyterHub Service
 
 The Managed JupyterHub Service is a special project that is run by 2i2c.
 It is an ongoing service, and thus is less development-oriented than projects that are funded by grants and collaborations.
