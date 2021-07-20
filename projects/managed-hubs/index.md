@@ -15,6 +15,8 @@ This is both the deployment infrastructure for the 2i2c JupyterHubs, as well as 
 
 **User Documentation** is located in [the `pilot/` repository](https://github.com/2i2c-org/pilot). This contains user-facing information about the Pilot Hubs, such as how they can add/remove users, update their environment, get support, etc.
 
+**Information about the Managed Hubs Pilot** is located within sub-sections below.
+
 ## A list of running JupyterHubs
 
 We keep a table with all of our currently-running JupyterHubs at this location: [List of Running JupyterHubs](https://pilot-hubs.2i2c.org/en/latest/reference/hubs.html).
@@ -27,4 +29,5 @@ We keep a table with all of our currently-running JupyterHubs at this location: 
 ```{toctree}
 pricing.md
 sales.md
+roles.md
 ```
