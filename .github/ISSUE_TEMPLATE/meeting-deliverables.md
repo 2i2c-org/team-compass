@@ -7,7 +7,7 @@ title: "Deliverables Review Meeting: <YYYY-MM-DD>"
 
 # 2i2c Deliverables Review meeting
 
-This is a one-hour recurring meeting every two weeks on **Monday at 8AM Pacific time** (here's [**a timezone converter**](https://arewemeetingyet.com/Los%20Angeles/2000-01-01/08:00/2i2c%20Team%20Meeting#eyJ1cmwiOiJodHRwczovL2hhY2ttZC5pby9ZNVNCTXhWN1I2Q01xemVUWGdtNWtBIn0=), ignore the date!).
+This is a **30 minute** recurring meeting every two weeks on **Monday at 8AM Pacific time** (here's [**a timezone converter**](https://arewemeetingyet.com/Los%20Angeles/2000-01-01/08:00/2i2c%20Team%20Meeting#eyJ1cmwiOiJodHRwczovL2hhY2ttZC5pby9ZNVNCTXhWN1I2Q01xemVUWGdtNWtBIn0=), ignore the date!).
 
 Our goal is to synchronize the team on the most important things to work on, and to divide work between one another so we know what to work on next.
 
@@ -27,7 +27,7 @@ _(5m) Quick review of [Activity Backlog](https://github.com/orgs/2i2c-org/projec
 
 ### Major deliverables
 
-_(40m) Overview major work items in our [Development Backlog](https://github.com/orgs/2i2c-org/projects/7?fullscreen=true)._
+_(20m) Overview major work items in our [Development Backlog](https://github.com/orgs/2i2c-org/projects/7?fullscreen=true)._
 
 - [ ] Discuss any high-priority items that need refinement.
 - [ ] Each 2i2c team member knows the next two things that they'll work on.
@@ -35,7 +35,7 @@ _(40m) Overview major work items in our [Development Backlog](https://github.com
 
 ### Support steward transfer
 
-_(10m) Transition support steward roles to the next team member._
+_(5m) Transition support steward roles to the next team member._
 
 - [ ] Preview support steward describes major support issues that have come up (with links to relevant issues)
 - [ ] Open issue for next Support Steward.
