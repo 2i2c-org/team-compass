@@ -1,6 +1,6 @@
 # Strategy and goals
 
-Our Strategic Plan is a combination of active and aspirational priorities that help us get closer to achieving our organizational mission. These are broken down into **strategic goals and objects for each**. The [major projects of 2i2c](../reference/projects.md) should all feed into this strategy.
+Our Strategic Plan is a combination of active and aspirational priorities that help us get closer to achieving our organizational mission. These are broken down into **strategic goals and objects for each**. The [major projects of 2i2c](../projects/index.md) should all feed into this strategy.
 
 Currently, 2i2c's Strategic Plan consists of a 1-year "bootstrap strategy".
 Our primary goal is to build a foundation for 2i2c and clarify out strategy and objectives for the coming years.

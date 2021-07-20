@@ -24,4 +24,7 @@ We keep a table with all of our currently-running JupyterHubs at this location: 
 - [this google folder](https://drive.google.com/drive/folders/1HEEfyT2h_fKeqKdsz9Ftiw9Be1Uj48D6?usp=sharing) has most information and brainstorms regarding this project
 - [this github issue](https://github.com/2i2c-org/meta/issues/94) also has several relevant links and discussion points
 
-
+```{toctree}
+pricing.md
+sales.md
+```

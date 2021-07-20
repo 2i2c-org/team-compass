@@ -24,7 +24,7 @@ We are a distributed organization, and this means that it is crucial that we wor
 
 What you work on will depend on your role and potentially your funding source, but the important thing is that you are proactive in working with other team members to identify what you should work on next.
 
-Read [](coordination.md) and the other documentation in this guide to understand how the 2i2c team coordinates amongst one another.
+Read [](index.md) and the other documentation in this guide to understand how the 2i2c team coordinates amongst one another.
 
 ## Engineering Team Practices
 
@@ -32,15 +32,15 @@ These team practices are relevant for the engineering team at 2i2c.
 
 ### Participate in the team workflow
 
-The 2i2c Engineering Team has [a team coordination workflow here](coordination.md).
+The 2i2c Engineering Team has [a team coordination workflow here](index.md).
 You are expected to participate in this workflow with other members of the team.
 
 ### Participate in the following activities
 
 If you're an engineer at 2i2c, plan to do a combination of these things:
 
-1. **Development for the [Managed JupyterHub Service](../managed-hubs/about.md).** This is a collection of JupyterHubs that we run for various customers/communities in research/education. We are constantly updating and improving this infrastructure!
-2. **Operation for the [Managed JupyterHub Service](../managed-hubs/about.md).** In addition to developing the infrastructure, we also operate it and provide support. We try to divide this work so that we share the responsibility of operation and support.
+1. **Development for the [Managed JupyterHub Service](../projects/managed-hubs/index.md).** This is a collection of JupyterHubs that we run for various customers/communities in research/education. We are constantly updating and improving this infrastructure!
+2. **Operation for the [Managed JupyterHub Service](../projects/managed-hubs/index.md).** In addition to developing the infrastructure, we also operate it and provide support. We try to divide this work so that we share the responsibility of operation and support.
 3. **Focused development in collaboration research and education communities.** In addition to running infrastructure, we also collaborate around specific projects, usually involving tools in the Jupyter ecosystem. You may work with researchers in improving their tool, or building something new for another group's project.
 4. **Outreach, teaching, and community-building.** In addition to technical work, we also encourage 2i2c team members to make interactive computing more accessible and powerful for others via outreach, particularly for under-served communities.
 5. **Open source development and support.** We run all of our infrastructure on open source tools - usually from communities for which we are not the sole leader. It is crucial that we participate in these communities and support them in addition to doing 2i2c-specific work.

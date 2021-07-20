@@ -15,53 +15,49 @@ If you see information here that is out of date, please propose an edit in [the 
 
 See below for a brief overview of each section of the Team Compass, or browse the sections to the left on your own.
 
-:::{seealso}
-For help navigating the team compass, see [](start:team-compass).
-:::
+(start:team-compass)=
+## Navigate the team compass
+
+This repository acts as a knowledge base and a "Source of Truth" for everything at 2i2c.
+It is regularly updated as our team processes, structure, and information changes.
+There is a *lot* of information in the team compass, so here is a quick primer on where to look next.
+
+To **get started with the 2i2c Team**, read [the Team Practices chapter](practices/index.md).
+
+In addition, the other sections on this page contain pointers to other useful sources of information for 2i2c.
+
+## Code of Conduct
+
+The Code of Conduct defines the expectations that we have for behavior for anyone participating in a 2i2c space, as well as the process we'll follow if others do not meet these expectations.
+
+```{toctree}
+:maxdepth: 2
+code-of-conduct/index
+```
 
 ## Team Practices
 
 Information about working with the 2i2c team, understanding our processes and projects, and generally getting oriented.
 
 ```{toctree}
-:caption: Team Practices
+:caption: Team Information
 :maxdepth: 1
 get-started
-practices/info-location
+about/team
 practices/expectations
-practices/communication
-practices/coordination
-practices/github-conventions
-practices/team-compass
-```
-
-## Managed JupyterHub Service
-
-The Managed JupyterHub Service is a special ongoing project of 2i2c.
-This section contains information about the service, as well as ongoing updates about where information is stored.
-
-```{toctree}
-:caption: Managed JupyterHub Service
-:maxdepth: 1
-managed-hubs/about
-managed-hubs/pricing
-managed-hubs/sales
-```
-
-## Team Reference
-
-Contains information about the 2i2c team and our projects, and some useful resources to learn more.
-
-```{toctree}
-:maxdepth: 1
-:caption: Team Reference
-code-of-conduct/index
-reference/projects
-reference/calendar
-reference/inspiration
-reference/terminology
-reference/cloud-access
+practices/index
 meetings/eng/index
+reference/calendar
+```
+
+## Major Projects
+
+Information about major efforts currently underway at 2i2c.
+
+```{toctree}
+:caption: 2i2c Projects
+projects/index
+projects/managed-hubs/index
 ```
 
 ## About 2i2c
@@ -73,8 +69,8 @@ Information about the broader 2i2c organization, as well as its mission and stru
 :caption: About 2i2c
 
 about
-about/team
 about/structure
 about/strategy
 positions
+reference/index
 ```

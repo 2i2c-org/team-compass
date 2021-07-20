@@ -1,6 +1,7 @@
-# Active Projects at 2i2c
+# Major Projects at 2i2c
 
 Projects are focused work that 2i2c conducts over a long-ish period of time.
+They are generally done in collaboration with other communities or organizations.
 They describe the major pieces work that drive our daily activities.
 
 In general, projects should have:
@@ -9,10 +10,9 @@ In general, projects should have:
 2. A location where deliverables and tasks are being tracked.
 
 :::{seealso}
-For more information about our workflow around projects and deliverables, see [](../practices/coordination.md).
+The Managed JupyterHub Service is a special ongoing project of 2i2c.
+See [](managed-hubs/index.md) for information about it.
 :::
-
-Below is a list of active projects for 2i2c.
 
 ## 2i2c organizational launch
 

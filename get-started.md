@@ -8,23 +8,6 @@ That means both staff at ICSI, as well as non-staff team members that may work i
 However, there may be some steps here that are only relevant to ICSI staff.
 :::
 
-(start:team-compass)=
-## Navigating the team compass
-
-This repository acts as a knowledge base and a "Source of Truth" for everything at 2i2c.
-It is regularly updated as our team processes, structure, and information changes.
-There is a *lot* of information in the team compass, so here is a quick primer on where to look next.
-
-To **get started with the 2i2c Team**, see the sections below:
-
-- [](practices/info-location.md) - an overview of where different kinds of information is stored for 2i2c (e.g., what things are stored in Google Drive, what things in GitHub, etc)
-- [](practices/expectations.md) - what practices you are expected to abide by while working with the 2i2c team.
-- [](practices/communication.md) - the various channels that the 2i2c teams use for communication, and what kinds of conversation happens in each channel.
-- [](practices/coordination.md) - the team workflow that we use in carrying out projects and daily activities.
-- [](practices/team-compass.md) - how to update the team compass itself.
-
-In addition, the other sections on this page contain pointers to other useful sources of information for 2i2c.
-
 ## Onboarding process
 
 New 2i2c team members are onboarded in order to make sure that the following conditions are met:
@@ -60,12 +43,12 @@ The following sections describe some things that should be met in order to onboa
 
 ## What are we working on right now?
 
-The [2i2c team coordination page](practices/coordination.md) has information about our daily workflow.
+The [Team Development Workflow page](coordination:development) has information about our daily workflow.
 You can use this to begin participating in our daily activities and find out what everyone is working on.
 
 ## What major projects is 2i2c working on?
 
-Check out the [projects page](reference/projects.md) for more information about the projects that 2i2c is working on.
+Check out the [projects page](projects/index.md) for more information about the projects that 2i2c is working on.
 
 ## Tips for distributed working
 
@@ -78,3 +61,39 @@ Check out the [projects page](reference/projects.md) for more information about 
 3. **Broadcast updates in multiple places**. Different people have different preferred methods of engagement and communication on 2i2c projects. For this reason, don't assume that posting an update or question in a single location will reach everybody that you wish to reach. Do not hesitate to post questions or ask for feedback in multiple places (e.g., GitHub, Slack, or even email). However, try to keep information in a single place to have a single source of truth.
 
 4. **Update often**. Err on the side of updating the team more often than not.  Nobody should be surprised when something gets done - especially nothing major. Your work should be as transparent to others as possible!
+
+
+## Where information is located
+
+### General organizational information / documents / brainstorms
+
+We also have some organizational documents in a shared Google folder called "2i2c". Your 2i2c address will give you access to this folder (or if you do not have access, please request it!):
+
+[https://drive.google.com/drive/folders/1ABxxSFycGfCzQc9czfwer_dat-GVi4jw?usp=sharing](https://drive.google.com/drive/folders/1ABxxSFycGfCzQc9czfwer_dat-GVi4jw?usp=sharing)
+
+The folder is organized into a few top-level folders that *should* be relatively self-explanatory, but don't hesitate to ask for a quick guide.
+
+### Todos, project plans and management
+
+2i2c uses [the Projects page](../projects/index.md) to keep track of the major projects that it is working on. That page has links to the location of project-specific to-do lists, deliverables, etc.
+
+More organization-specific discussion and items we track can also be found in [the private 2i2c `meta` repository](https://github.com/2i2c-org/meta).
+
+Generally speaking the daily specifics of activity on a project are recorded *outside* of the team compass, as they are more dynamic. The important thing is that the team compass make it clear *where* to find this information, and that the information is kept up-to-date for all.
+
+
+## Marketing and communication
+
+There are three main ways that 2i2c communicates with the outside world:
+
+- Twitter: [@2i2c_org](https://twitter.com/2i2c_org)
+  - Currently, there is nobody activately monitoring the Twitter account. We use it to post links to blog posts or major announcements in the newsletter.
+- Newsletter: [using Mailchimp](https://mailchimp.com/)
+  - Users sign up to the newsletter via our landing page's contact form at [2i2c.org#contact](https://2i2c.org#contact). Email addresses are imported into Mailchimp for the newsletter.
+- Blog: [2i2c.org/blog]
+  - The blog is managed by our [Hugo website repository](https://github.com/2i2c-org/2i2c-org.github.io). All new posts are automatically sent to the mailing list on a weekly basis.
+
+
+[^sst1]: **References for Single Source of Truth**: For a few examples, see [this Bitergia post](https://blog.bitergia.com/2020/08/25/why-ospo-teams-need-a-single-source-of-truth/) and [the GitLab SSOT section](https://about.gitlab.com/handbook/values/#single-source-of-truth).
+
+[^distributed-work1]: **References for Distributed Work**: [The GitLab remote work guide](https://about.gitlab.com/company/culture/all-remote/guide/), [the future of work is written](https://increment.com/remote/future-of-work-is-written/), [RFCs as a management tool](https://buriti.ca/6-lessons-i-learned-while-implementing-technical-rfcs-as-a-management-tool-34687dbf46cb)

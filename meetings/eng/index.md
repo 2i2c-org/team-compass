@@ -1,9 +1,7 @@
-# Team Meetings
+# Team Meeting Archive
 
-In early iterations of 2i2c, we manually added team sync notes to this team compass.
-We now keep track of team syncs in GitHub Issues, but leave these notes here as a historical reference.
-
-Check the pages below for team sync notes.
+The 2i2c Team tries to have occasional meetings where everyone is present at once.
+This allows us to connect with each other more directly, to discuss important issues that are hard to discuss asynchronously, and to just get a chance to see one another's face :-)
 
 ```{toctree}
 :maxdepth: 2

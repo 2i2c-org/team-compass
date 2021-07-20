@@ -27,7 +27,7 @@ You can find more information about 2i2c's current team in the [About page of it
 
 2i2c does several kinds of things:
 
-- **Manage Infrastructure as a Service** for research and education, using 100% open source infrastructure, and that [respect a customer's right to replicate](https://2i2c.org/right-to-replicate). Currently, this is done via [Managed JupyterHub Distributions](managed-hubs/about.md).
+- **Manage Infrastructure as a Service** for research and education, using 100% open source infrastructure, and that [respect a customer's right to replicate](https://2i2c.org/right-to-replicate). Currently, this is done via [Managed JupyterHub Distributions](projects/managed-hubs/index.md).
 - **Develop and maintain** open infrastructure and open-source tools that underlie these services.
 - **Provide technical collaboration** with researchers and educators on focused projects.
 - **Provide guidance and strategic assistance** to organizations trying to navigate their decisions around cloud and open-source infrastructure.
