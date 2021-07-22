@@ -7,7 +7,7 @@ title: "Deliverables Review Meeting: <YYYY-MM-DD>"
 
 # 2i2c Deliverables Review meeting
 
-This is a **30 minute** recurring meeting every two weeks on **Monday at 8:30AM Pacific time** (here's [**a timezone converter**](https://arewemeetingyet.com/Los%20Angeles/2000-01-01/08:30/2i2c%20Team%20Meeting#eyJ1cmwiOiJodHRwczovL2hhY2ttZC5pby9ZNVNCTXhWN1I2Q01xemVUWGdtNWtBIn0=), ignore the date!).
+This is a **30 minute** recurring meeting every two weeks on **Tuesday at 8:00AM Pacific time** (here's [**a timezone converter**](https://arewemeetingyet.com/Los%20Angeles/2000-01-01/08:00/2i2c%20Team%20Meeting#eyJ1cmwiOiJodHRwczovL2hhY2ttZC5pby9ZNVNCTXhWN1I2Q01xemVUWGdtNWtBIn0=), ignore the date!).
 
 Our goal is to synchronize the team on the most important things to work on, and to divide work between one another so we know what to work on next.
 
@@ -21,7 +21,7 @@ _Follow the agenda below, checking boxes as we complete each step._
 ### Activity Backlog
 _(5m) Quick review of [Activity Backlog](https://github.com/orgs/2i2c-org/projects/5?fullscreen=true) to let team members signal-boost if needed._
 
-- [ ] Quick team report on what they're up to right now, where they could use help.
+- [ ] Team members signal-boost latest team sync items if they wish.
 - [ ] Note items that 2i2c team members wish to highlight for review.
 - [ ] Note important upcoming dates for the team.
 
