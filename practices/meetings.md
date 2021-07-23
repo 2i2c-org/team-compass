@@ -28,7 +28,7 @@ See the [Team Calendar page](team/calendar) for information about when and where
 
 ## Deliverables review meetings
 
-The 2i2c team meets **every other Monday** for 30 minutes.
+The 2i2c team meets **every other Tuesday** for 30 minutes.
 The goal of this meeting is to review our major work deliverables, synchronize with one another, and prioritize work across team members.
 It is also a chance to hand off the Support Steward role to the next person.
 
