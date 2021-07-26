@@ -48,7 +48,8 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', ".github"]
 #
 html_theme = 'sphinx_book_theme'
 
-html_title = "The 2i2c Team Compass"
+html_title = "Team Compass"
+html_logo = "images/logo.png"
 
 show_navbar_depth = 3
 html_theme_options = {

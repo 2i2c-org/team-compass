@@ -4,9 +4,13 @@
 There are a few kinds of synchronous meetings that we create space for.
 This section describes the kinds of meetings we use and why they exist.
 
+:::{seealso}
+See the [Team Calendar page](team/calendar) for specific dates and information about each of these meetings.
+:::
+
 ## Monthly team meetings
 
-The 2i2c Team meets the **first Monday of each month** for two hours.
+The 2i2c Team meets the **first Monday of each month** for 90 minutes.
 
 Monthly team meetings are an opportunity to all meet face to face in order to discuss topics that benefit from synchronous conversation.
 For example, these are some goals we might have:
@@ -21,6 +25,14 @@ It is **not a status update meeting** - this should be done via our GitHub issue
 We use [this HackMD for our team meeting notes and agenda](https://hackmd.io/Y5SBMxV7R6CMqzeTXgm5kA).
 
 See the [Team Calendar page](team/calendar) for information about when and where the meetings are held.
+
+## Deliverables review meetings
+
+The 2i2c team meets **every other Tuesday** for 30 minutes.
+The goal of this meeting is to review our major work deliverables, synchronize with one another, and prioritize work across team members.
+It is also a chance to hand off the Support Steward role to the next person.
+
+You can find the meeting format/agenda {download}`in the Deliverables meeting template <../.github/ISSUE_TEMPLATE/meeting-deliverables.md>`.
 
 ## One on one meetings
 
