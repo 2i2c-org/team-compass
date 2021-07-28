@@ -7,23 +7,62 @@ These are outlined below.
 They are also described in [the Hub Services diagrams slideshow](https://docs.google.com/presentation/d/1kqrviwVOoZfey_rujhIasdkKZmlYgxV-1J2AG-nr3VY/edit#slide=id.ge3f2127292_0_573) as well as in the [Managed Service Plan](https://docs.google.com/document/d/1Ka7tgJe7HR8EmS_MMakrYztgfkJT_iFksPsWHdQBqhM/edit?usp=sharing).
 :::
 
-Hub Community
-: The community of practice that a Managed JupyterHub serves.
-  This includes leadership of the community as well as users of the hub.
+(roles:community-representative)=
+## Community Representative
 
-Community Representative
-: The Community Representative is the main point of contact between the hub engineer and the users on a hub.
-  They are the primary escalation pathway when issues arise that can not be debugged on their own, or for customization requests that require an engineer.
-  This person is usually part of the community that uses the hub.
+The job of a Community Representative is to ensure that the interests of the {term}`Hub Community` are represented in the infrastructure, and that the hub serves their needs.
+There must be **one or two community representatives for a given community**.
+This role is usually filled by someone that is a member of the hub's community of practice.
 
-Hub Administrators
-: Hub Administrators have special status and permissions on a hub.
-  They are able to add users, start/stop servers, and generally have more control over operations on the hub.
-  When a new hub is deployed, the Community Representative is added as a Hub Administrator, along with 2i2c Engineers.
-  The Community Representative may then add other users as administrators if they wish.
+### Responsibilities
 
-Hub Engineer
-: Keeps a hub running from day to day.
-  The hub engineer is the first wave of defense when a Community Representative has determined that something is technically wrong on the hub infrastructure.
-  They also perform development and upgrades on hub infrastructure.
-  This person is generally employed by 2i2c.
+- The main point of contact between the hub engineer and the {term}`Hub Community`.
+- Collect feedback and questions from users on a hub.
+- Surface questions and requests to Hub Engineers via support tickets.
+- Oversee the [Hub Administrators](roles:hub-administrator)
+
+(roles:hub-administrator)=
+## Hub Administrator
+
+The job of hub administrators is to support users and to perform common administrative operations on a hub that do not require intervention from a [Hub Engineer](roles:hub-engineer).
+[Community Representatives](roles:community-representative) are the first Hub Administrators, and they may add new Hub Administrators via the JupyterHub interface.
+They are able to add users, start/stop servers, and generally have more control over operations on the hub.
+
+:::{seealso}
+See the [Pilot Hubs Administrator documentation](https://pilot.2i2c.org) for helpful information for Hub Administrators.
+:::
+
+:::{warning}
+While there may be any number of Hub Administrators on a hub (any administrator can add other administrators), make sure to give this role to people you trust, as they can perform disruptive actions for other users.
+:::
+
+### Responsibilities
+
+- Provide support to users of a hub for common problems that don't require a Hub Engineer to resolve.
+- Add new users to a hub, including administrative users.
+- Surface major issues or requests to the Community Representative(s).
+
+(roles:hub-engineer)=
+## Hub Engineer
+
+The job of a Hub Engineer is to develop and operate deployment infrastructure for a hub, and to perform major upgrades or improvements to resolve issues that cannot be solved by a [Hub Administrator](roles:hub-administrator).
+Hub engineers regularly work on the JupyterHub infrastructure and provide open source development for the technology that powers each hub.
+People in these roles are generally affiliated with 2i2c.
+
+### Responsibilities
+
+- Respond to support requests from the Community Representative(s)
+- Perform major upgrades on hub infrastructure
+- Debug and resolve major issues with a hub that require intervention from a Hub Engineer
+- Perform open source development on technologies that are in use by the hubs
+
+## Diagram of roles
+
+Below is a diagram that summarizes the major roles described here, and their relationship to one another.
+
+<iframe
+  src="https://docs.google.com/presentation/d/e/2PACX-1vQ9P_0W-2IVqvPGM9nlgWZcJAdk7DNn_lK78R3eolr6JXYMaUTsMAlwAWcKZtNxqj8kNNDN7fiz3jVI/embed?start=false&loop=false&delayms=99999999" 
+  frameborder="0"
+  width="960"
+  height="569"
+</iframe>
