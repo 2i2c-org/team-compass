@@ -8,6 +8,16 @@ This section describes the kinds of meetings we use and why they exist.
 See the [Team Calendar page](team/calendar) for specific dates and information about each of these meetings.
 :::
 
+## Guidelines for all team meetings
+
+There are a few guidelines that we follow for all team meetings.
+They are listed below.
+
+- All planned team meetings should be encoded asnychronously somehow (e.g., via GitHub Issues, notes in our team compass, etc).
+- All meetings should have an agenda that includes estimations of time and is ideally filled out 24 hours in advance.
+- All meetings should have a designated moderator that will run the meeting and help move discussion forward.
+- All attendees of all meetings follow the [2i2c Code of Conduct](https://team-compass.2i2c.org/en/latest/code-of-conduct/index.html)
+
 ## Monthly team meetings
 
 The 2i2c Team meets the **first Monday of each month** for 90 minutes.

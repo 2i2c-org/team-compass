@@ -13,7 +13,8 @@ Our goal is to synchronize the team on the most important things to work on, and
 
 - **Video conference link:** https://bit.ly/zoom-holdgraf
 - **Calendar for future meetings:** [this Google Calendar](https://calendar.google.com/calendar/embed?src=c_4hjjouojd8psql9i1a8nd1uff4%40group.calendar.google.com&ctz=America%2FLos_Angeles)
-
+- **Meeting moderator**: <INSERT MODERATOR HERE>
+ 
 ## Meeting agenda
 
 _Follow the agenda below, checking boxes as we complete each step._

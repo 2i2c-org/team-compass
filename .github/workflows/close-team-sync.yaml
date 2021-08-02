@@ -11,5 +11,5 @@ jobs:
     steps:
       - uses: lee-dohm/close-matching-issues@v2
         with:
-          query: 'sync in:title label:"type: team-sync" is:open'
+          query: 'sync in:title label:"type: team-sync"'
           token: ${{ secrets.GITHUB_TOKEN }}
