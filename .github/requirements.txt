@@ -2,3 +2,4 @@
 ghapi
 ipython
 pyyaml
+pandas
