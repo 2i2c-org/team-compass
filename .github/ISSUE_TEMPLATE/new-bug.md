@@ -12,7 +12,7 @@ labels: "type: bug"
 
 <!-- Describe what you expected or want to happen -->
 
-# Actions to improve this?
+# Actions to address this
 
 <!-- Add a list of actions that should be taken to improve this -->
 

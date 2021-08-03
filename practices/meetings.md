@@ -15,33 +15,52 @@ They are listed below.
 
 - All planned team meetings should be encoded asnychronously somehow (e.g., via GitHub Issues, notes in our team compass, etc).
 - All meetings should have an agenda that includes estimations of time and is ideally filled out 24 hours in advance.
-- All meetings should have a designated moderator that will run the meeting and help move discussion forward.
-- For meetings with notes, all meetings should have a designated **Note Taker** that will take notes.
+- All meetings should have a designated person for each [role in a team meeting](meetings:roles).
+- In general, [meeting roles](meetings:roles) should rotate between regular attendees of meetings in order to share work and build groups skills.
 - All attendees of all meetings follow the [2i2c Code of Conduct](https://team-compass.2i2c.org/en/latest/code-of-conduct/index.html)
 
-### Meeting Moderator
+(meetings:roles)=
+## Roles in team meetings
 
-The role of meeting moderators is to structure the meeting so that it is well-scoped, and to guide conversation to be productive and inclusive.
+These are major roles that should be filled by someone explicitly for any team meeting[^1].
 
-:::{admonition} Responsibilities of the Moderator
+[^1]: See [this blog post on team meeting roles](https://cfe.unc.edu/facilitator-recorder-and-timekeeper-roles/) for more inspiration here.
+
+### Facilitator
+
+The role of meeting facilitator is to structure the meeting so that it is well-scoped, and to guide conversation to be productive and inclusive.
+
+:::{admonition} Responsibilities of the Facilitator
 - Set the agenda before the meeting (either creating it themselves, or asking for agenda items from others)
 - Run the meeting, ensuring that we stay on-time with agenda items and discussion
 - Convert actionable items into issues and close-out the meeting issue if it exists
 :::
 
-### Meeting Notetaker
+### Recorder
 
-The Meeting Notetaker is responsible for encoding the discussion points and actionable items that came out of a meeting.
+The Meeting Recorder is responsible for encoding the discussion points and actionable items that came out of a meeting.
 Their primary goal is to make sure we don't miss something important after the meeting, and ensure that the content of the meeting is saved for reference from others.
 
-:::{admonition} Responsibilities of the Notetaker
+:::{admonition} Responsibilities of the Recorder
 - Write down major discussion points and ideas during the meeting
 - Write down action items / to-dos explicitly so that we know what to follow up on
 - Clean up the notes after the meeting
 - Archive the notes in the appropriate location (e.g., the Team Compass)
 :::
 
-## Monthly team meetings
+### Timekeeper
+
+The timekeeper's role is primarily to assist the Meeting Facilitator in moving the meeting forward.
+
+:::{admonition} Responsibilities of the Timekeeper
+- Keep track of the current time, and proivde the Facilitator / meeting attendees cues that help them decide when to move things forward.
+:::
+
+## Kinds of recurring meetings
+
+The following are meetings that we regularly hold.
+
+### Monthly team meetings
 
 The 2i2c Team meets the **first Monday of each month** for 90 minutes.
 
@@ -59,15 +78,21 @@ We use [this HackMD for our team meeting notes and agenda](https://hackmd.io/Y5S
 
 See the [Team Calendar page](team/calendar) for information about when and where the meetings are held.
 
-## Deliverables review meetings
+(meetings:deliverables-review)=
+### Deliverables review meetings
 
-The 2i2c team meets **every other Tuesday** for 30 minutes.
+:::{admonition} Temporarily weekly!
+We are still working out the best structure for the deliverables review meeting and how it fits in with our team coordination.
+We are currently holding this meeting **weekly** and will revisit its frequency in three months or so.
+:::
+
+The 2i2c team meets **every Tuesday** for 30 minutes.
 The goal of this meeting is to review our major work deliverables, synchronize with one another, and prioritize work across team members.
 It is also a chance to hand off the Support Steward role to the next person.
 
 You can find the meeting format/agenda {download}`in the Deliverables meeting template <../.github/ISSUE_TEMPLATE/meeting-deliverables.md>`.
 
-## One on one meetings
+### One on one meetings
 
 In addition to group meetings, we also try to have one-on-one meetings to guide and help one another.
 These meetings happen with different cadences and formats for different pairs of people.

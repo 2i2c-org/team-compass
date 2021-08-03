@@ -29,7 +29,7 @@ _Steps to take to have the meeting._
 
 - **At least 1 day prior to meeting**
   - [ ] Agenda items added to the meeting
-  - [ ] Moderator and Note Taker identified in HackMD
+  - [ ] Meeting roles identified in meeting issue
 - [ ] Have the meeting
 - [ ] Open up any follow-up issues or discussions and link above
 - [ ] Cut notes out of HackMD and add to the Team Compass: <PR link here> 
