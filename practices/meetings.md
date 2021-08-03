@@ -16,7 +16,30 @@ They are listed below.
 - All planned team meetings should be encoded asnychronously somehow (e.g., via GitHub Issues, notes in our team compass, etc).
 - All meetings should have an agenda that includes estimations of time and is ideally filled out 24 hours in advance.
 - All meetings should have a designated moderator that will run the meeting and help move discussion forward.
+- For meetings with notes, all meetings should have a designated **Note Taker** that will take notes.
 - All attendees of all meetings follow the [2i2c Code of Conduct](https://team-compass.2i2c.org/en/latest/code-of-conduct/index.html)
+
+### Meeting Moderator
+
+The role of meeting moderators is to structure the meeting so that it is well-scoped, and to guide conversation to be productive and inclusive.
+
+:::{admonition} Responsibilities of the Moderator
+- Set the agenda before the meeting (either creating it themselves, or asking for agenda items from others)
+- Run the meeting, ensuring that we stay on-time with agenda items and discussion
+- Convert actionable items into issues and close-out the meeting issue if it exists
+:::
+
+### Meeting Notetaker
+
+The Meeting Notetaker is responsible for encoding the discussion points and actionable items that came out of a meeting.
+Their primary goal is to make sure we don't miss something important after the meeting, and ensure that the content of the meeting is saved for reference from others.
+
+:::{admonition} Responsibilities of the Notetaker
+- Write down major discussion points and ideas during the meeting
+- Write down action items / to-dos explicitly so that we know what to follow up on
+- Clean up the notes after the meeting
+- Archive the notes in the appropriate location (e.g., the Team Compass)
+:::
 
 ## Monthly team meetings
 

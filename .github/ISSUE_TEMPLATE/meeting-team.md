@@ -16,7 +16,6 @@ _Information about when and where the meeting will take place_
 - **Video conference link:** https://bit.ly/zoom-holdgraf
 - **HackMD for meeting:** https://hackmd.io/Y5SBMxV7R6CMqzeTXgm5kA
 - **Calendar for future meetings:** [this Google Calendar](https://calendar.google.com/calendar/embed?src=c_4hjjouojd8psql9i1a8nd1uff4%40group.calendar.google.com&ctz=America%2FLos_Angeles)
-- **Meeting moderator**: <INSERT MODERATOR HERE>
 
 # Follow up issues
 
@@ -28,7 +27,9 @@ _Links to follow up issues below_
 
 _Steps to take to have the meeting._
 
-- [ ] Agenda items added to the meeting (**at least 1 day prior to meeting**)
+- **At least 1 day prior to meeting**
+  - [ ] Agenda items added to the meeting
+  - [ ] Moderator and Note Taker identified in HackMD
 - [ ] Have the meeting
 - [ ] Open up any follow-up issues or discussions and link above
 - [ ] Cut notes out of HackMD and add to the Team Compass: <PR link here> 
