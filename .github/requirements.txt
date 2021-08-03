@@ -3,3 +3,4 @@ ghapi
 ipython
 pyyaml
 pandas
+rich

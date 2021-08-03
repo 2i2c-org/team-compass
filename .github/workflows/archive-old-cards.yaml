@@ -4,10 +4,7 @@ description: |
   are moved to an "archive" column, and cards from two cycles ago are
   "Archived" entirely (so they are not visible)
 on:
-  schedule:
-  # Run every 1st and 15th day of the month
-  - cron: "0 0 1,15 * *"
-
+  # We'll only run this manually since cleaning the Activity Board is part of the deliverables meeting. 
   workflow_dispatch:
 
 jobs:

@@ -18,6 +18,8 @@ Our goal is to synchronize the team on the most important things to work on, and
 
 _Follow the agenda below, checking boxes as we complete each step._
 
+- [ ] Activity Backlog Done items have been cleared. ([run action here](https://github.com/2i2c-org/team-compass/actions/workflows/archive-old-cards.yaml))
+
 ### Activity Backlog
 _(5m) Quick review of [Activity Backlog](https://github.com/orgs/2i2c-org/projects/5?fullscreen=true) to let team members signal-boost if needed._
 
