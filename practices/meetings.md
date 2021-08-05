@@ -53,7 +53,7 @@ Their primary goal is to make sure we don't miss something important after the m
 The timekeeper's role is primarily to assist the Meeting Facilitator in moving the meeting forward.
 
 :::{admonition} Responsibilities of the Timekeeper
-- Keep track of the current time, and proivde the Facilitator / meeting attendees cues that help them decide when to move things forward.
+- Keep track of the current time, and provide the Facilitator / meeting attendees cues that help them decide when to move things forward.
 :::
 
 ## Kinds of recurring meetings
