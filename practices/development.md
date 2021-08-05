@@ -13,7 +13,7 @@ This section describes how our development team carries out its planning and day
 Our team works in one week cycles.
 Each cycle begins on Monday with our [team deliverables review meeting](meetings:deliverables-review).
 In this meeting we prioritize and assign the items that each team member will work on for the next week, and review items that require discussion and planning.
-At the end of each week, we should have completed all of the major delivearables set out for that week.
+At the end of each week, we should have completed all of the major deliverables set out for that week.
   
 (coordination:deliverables)=
 ## Deliverables
