@@ -2,8 +2,8 @@
 name: Close a weekly team sync issue
 on:
   schedule:
-  # Run every tuesday at 08:00 (which is Midnight California time)
-  - cron: "00 08 * * 2"
+  # Run every Saturday at 08:00 (which is Midnight California time)
+  - cron: "00 08 * * 6"
 
 jobs:
   close-sync-issue:

@@ -10,11 +10,21 @@ This section describes how our development team carries out its planning and day
 
 ## Cadence of work
 
-Our team works in one week cycles.
-Each cycle begins on Monday with our [team deliverables review meeting](meetings:deliverables-review).
-In this meeting we prioritize and assign the items that each team member will work on for the next week, and review items that require discussion and planning.
-At the end of each week, we should have completed all of the major deliverables set out for that week.
-  
+Our team works in one week sprints.
+Here is a brief overview of each sprint.
+
+Monday
+: Sprint begins with our [sprint planning meeting](meetings:sprint-planning).
+
+  In this meeting we prioritize and assign the items that each team member will work on for this week, and review items that require discussion and planning.
+
+Tues-Thurs
+: Team members work on the deliverables assigned to them at the sprint planning meeting.
+
+Friday
+: By the end of the day, team members should have completed all of their deliverables for that week.
+  Each team member fills out a status update to share the major things they worked on, and note any unexpected challenges or blockers.
+
 (coordination:deliverables)=
 ## Deliverables
 
@@ -22,7 +32,8 @@ Deliverables represent incremental amounts of value we can deliver to a particul
 They are **encoded as GitHub Issues**.
 
 Most issues in our repositories are deliverables, in varying states of readiness.
-Deliverables that are added to the [Activity Board](coordination:activity-board) should have enough context and tasks that a team member can realistically close them on their own. [^invest]
+Deliverables that are added to the [Sprint Board](coordination:sprint-board) should have enough context and tasks that a team member can realistically close them on their own.
+This may include coordinating team discussing and arriving at a decision before work can be done - in either case, the person assigned to the deliverable is responsible for carring out whatever work is needed to close it. [^invest]
 
 [^invest]: A good resource for considering what kinds of information makes a deliverable "ready" is [the INVEST methodology](https://agileforall.com/new-to-agile-invest-in-good-user-stories).
 
@@ -33,14 +44,15 @@ Deliverables that are added to the [Activity Board](coordination:activity-board)
 - **Have tasks to complete it**: Deliverables should have a set of tasks, which are actions needed to complete the deliverable.
 :::
 
-(coordination:activity-board)=
-## The Activity Board
+(coordination:sprint-board)=
+## The Sprint Board
 
-The [Activity Board](https://github.com/orgs/2i2c-org/projects/5?fullscreen=true) contains the collection of [Deliverables](coordination:deliverables) that the team is currently working on.
-All deliverables on the Activity Board should be accomplished by the end of the week.
-This board is filled during our [Deliverables review meeting](meetings:deliverables-review).
+The Sprint Board is a place to keep track of the [Deliverables](coordination:deliverables) our team intends to work on for the week.
+It is a GitHub Projects board that is created for each week, and closed at the end of each week.
+All deliverables on the Sprint Board should be accomplished by the end of the week.
+This board is filled during our [Sprint Planning meeting](meetings:sprint-planning).
 
-:::{admonition} The Activity Board should...
+:::{admonition} The Sprint Board should...
 :class: tip
 - Have enough deliverables to keep the team occupied for the week
 - Not have so many deliverables that a team member gets overwhelmed
@@ -48,7 +60,7 @@ This board is filled during our [Deliverables review meeting](meetings:deliverab
 - Have a team member assigned to each item on the board
 :::
 
-The Activity Board is broken down into these columns:
+The Sprint Board is broken down into these columns:
 
 - {guilabel}`Up Next` Deliverables that are ready to be worked on.
 - {guilabel}`In progress` A deliverable that a team member is currently working towards.
@@ -57,14 +69,14 @@ The Activity Board is broken down into these columns:
 ## Requesting reviews
 
 When you have an implementation that requires feedback, use GitHub's **Request Review** feature to ask other team members to take a look.
-You can either add all team members as a request, or add specific team members if you believe they'll be particularly helpful in a review.
+In general, add specific team members so that it is clear who is needed to review the PR.
 
 % TODO: We should define a more structured process for requesting reviews and how it fits in with our merge policies.
 
 ## Encoding longer-term efforts
 
 Longer-term projects are generally more complex and may be made up of many actions and deliverables to accomplish.
-There is no official way to track long-term projects within 2i2c, but there are a few patterns that may be useful to do so.
+There is no official way to track long-term projects within 2i2c, but there are a few patterns that may be useful to do so, described in this section.
 
 % TODO: We should define a more reliable process for tracking long-term projects
 
@@ -73,7 +85,7 @@ There is no official way to track long-term projects within 2i2c, but there are 
 The simplest way to track longer-term efforts is with a **Tracking Issue**.
 This is a GitHub Issue whose job is to keep track of many actions and deliverables over time that are needed to close the issue.
 They are generally encoded as **Task Lists** in the issue's top comment.
-Each item in the list tends to be a deliverable, and can be converted into its own GitHub Issue (e.g., to put on the [Activity Board](coordination:activity-board)) as-needed.
+Each item in the list tends to be a deliverable, and can be converted into its own GitHub Issue (e.g., to put on the [Sprint Board](coordination:sprint-board)) as-needed.
 
 (coordination:project-backlog)=
 ### Project Backlogs
@@ -85,7 +97,7 @@ Here is a common column structure:
 
 - {guilabel}`Needs Discussion/Refinement`: Deliverables that are high-priority but un-refined. Our goal should be having discussion and doing research in order to get these deliverables ready for work.
 - {guilabel}`Ready to Work`: Deliverables that are well-scoped and have a clear path forward, and are thus ready to implement. As deliverables in {guilabel}`In progress` are completed, we should replace them with deliverables from this column. Generally speaking, deliverables near the top have higher priority than those at the bottom.
-- {guilabel}`In progress`: Deliverables that we are currently working towards. This means that they should be added to the [Activity Board](coordination:activity-board) to track its completion.
+- {guilabel}`In progress`: Deliverables that we are currently working towards. This means that they should be added to the [Sprint Board](coordination:sprint-board) to track its completion.
 - {guilabel}`Blocked`: Deliverables that require another action or delivearable from the 2i2c team to complete before they can move forward.
 - {guilabel}`Waiting`: Deliverables that require another action from a **non-2i2c team member** before they can move forward.
 - {guilabel}`Done`: Deliverables that have been completed. We should close these issues and celebrate the improvements that we have made!
