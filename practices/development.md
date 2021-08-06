@@ -28,11 +28,11 @@ Friday
 (coordination:deliverables)=
 ## Deliverables
 
-Deliverables represent incremental amounts of value we can deliver to a particular stakeholder, and should be completable in a week.
+Deliverables represent incremental amounts of value we can deliver to a particular stakeholder.
 They are **encoded as GitHub Issues**.
 
 Most issues in our repositories are deliverables, in varying states of readiness.
-Deliverables that are added to the [Sprint Board](coordination:sprint-board) should have enough context and tasks that a team member can realistically close them on their own.
+Deliverables that are added to the [Sprint Board](coordination:sprint-board) should have enough context and tasks that a team member can realistically close them on their own, and should be completable in a week.
 This may include coordinating team discussing and arriving at a decision before work can be done - in either case, the person assigned to the deliverable is responsible for carring out whatever work is needed to close it. [^invest]
 
 [^invest]: A good resource for considering what kinds of information makes a deliverable "ready" is [the INVEST methodology](https://agileforall.com/new-to-agile-invest-in-good-user-stories).
@@ -43,6 +43,19 @@ This may include coordinating team discussing and arriving at a decision before 
 - **Have one or more [user stories](https://www.atlassian.com/agile/project-management/user-stories):** User stories should define who benefits from the deliverable, and why they want it.
 - **Have tasks to complete it**: Deliverables should have a set of tasks, which are actions needed to complete the deliverable.
 :::
+
+(coordination:deliverables-backlog)=
+## The Deliverables Backlog
+
+[Click here to go to the Deliverables Backlog](https://github.com/orgs/2i2c-org/projects/7?fullscreen=true).
+
+The Deliverables Backlog is a GitHub Projects Board with a list of [Deliverables](coordination:deliverables) across all of our active projects.
+These deliverables adhere to the following principles:
+
+- Each item on this board should be **ready to work**, meaning that it has enough background information and context for a team member to steward it to completion.
+- The order of these deliverables should be roughly according to priority, with higher priority deliverables at the top of lists.
+- High-priority deliverables should be added to a [weekly sprint board](coordination:sprint-board) in order to be worked on.
+- If a deliverable has multiple components or would otherwise take longer than a week to complete, create task lists inside it to track steps. Add those steps to the Sprint board, not the whole deliverable.
 
 (coordination:sprint-board)=
 ## The Sprint Board
@@ -73,7 +86,7 @@ In general, add specific team members so that it is clear who is needed to revie
 
 % TODO: We should define a more structured process for requesting reviews and how it fits in with our merge policies.
 
-## Encoding longer-term efforts
+## How to keep track of projects
 
 Longer-term projects are generally more complex and may be made up of many actions and deliverables to accomplish.
 There is no official way to track long-term projects within 2i2c, but there are a few patterns that may be useful to do so, described in this section.
