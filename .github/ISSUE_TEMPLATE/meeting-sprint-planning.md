@@ -7,7 +7,7 @@ title: "Sprint Planning Meeting: <YYYY-MM-DD>"
 
 # 2i2c Sprint Planning meeting
 
-This is a **30 minute** recurring meeting every **Tuesday at 8:00AM Pacific time** (here's [**a timezone converter**](https://arewemeetingyet.com/Los%20Angeles/2000-01-01/08:00/2i2c%20Team%20Meeting#eyJ1cmwiOiJodHRwczovL2hhY2ttZC5pby9ZNVNCTXhWN1I2Q01xemVUWGdtNWtBIn0=), ignore the date!).
+This is a **30 minute** recurring meeting every **Monday at 8:00AM Pacific time** (here's [**a timezone converter**](https://arewemeetingyet.com/Los%20Angeles/2000-01-01/08:00/2i2c%20Team%20Meeting#eyJ1cmwiOiJodHRwczovL2hhY2ttZC5pby9ZNVNCTXhWN1I2Q01xemVUWGdtNWtBIn0=), ignore the date!).
 
 Our goal is to synchronize the team on the most important things to work on, and to divide work between one another so we know what to work on next.
 
