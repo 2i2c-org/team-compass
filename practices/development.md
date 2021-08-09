@@ -29,20 +29,57 @@ Friday
 ## Deliverables
 
 Deliverables represent incremental amounts of value we can deliver to a particular stakeholder.
-They are **encoded as GitHub Issues**.
-
+They are **encoded as GitHub Issues** and updated over time as we learn more about the particular deliverable.
 Most issues in our repositories are deliverables, in varying states of readiness.
-Deliverables that are added to the [Sprint Board](coordination:sprint-board) should have enough context and tasks that a team member can realistically close them on their own, and should be completable in a week.
-This may include coordinating team discussing and arriving at a decision before work can be done - in either case, the person assigned to the deliverable is responsible for carrying out whatever work is needed to close it. [^invest]
+
+### How are deliverables structured?
+
+There are a few special sections of a deliverable issue.
+Not all of them are strictly required, but are particularly useful for more complex or long-lasting deliverables.
+
+See [this Github Issue template](https://github.com/2i2c-org/team-compass/blob/main/.github/ISSUE_TEMPLATE/new-enhancement.md) for an example of a deliverable's structure.
+Below are some major sections that are common:
+
+Top Comment
+: The top comment of a deliverable has meta information associated with that deliverable.
+  This includes background information, user stories, task lists, etc.
+  **The top comment should be frequently updated** by anybody on the team with relevant information to add.
+  Do not hesitate to update somebody's top comment with new information, even if you didn't open the issue (though you're encouraged to leave a comment noting what has changed!).
+
+User Stories
+: [User stories](https://www.atlassian.com/agile/project-management/user-stories) are a section of the top comment.
+  They allow us to explicitly define the stakeholders that care about a deliverable, and why.
+  They are recommended in order to ensure that the team understands the value that a deliverable brings.
+
+Acceptance Criteria
+: Some definition of "complete" so that we know when the deliverable has been met and we may close the issue.
+  This is particularly important for longer-lasting or complex deliverables that may not have an obvious completion point.
+
+Task Lists
+: Task lists encode discrete steps to take in order to complete a deliverable.
+  Task lists should be in the top comment of the deliverable, and are encoded as markdown tasks lists (e.g. with `- [ ]`).
+  Task lists should be updated over time as we learn the steps needed to close the deliverable.
+  For more complex deliverables, these tasks may be what goes onto the Sprint Board, rather than the deliverable itself.
+
+### Working on deliverables
+
+Deliverables are ready to work when they have enough context and tasks so that a team member can begin making progress towards closing them.
+This doesn't mean that we know **all** of the tasks needed to complete the deliverable, but that there's enough information to begin work. [^invest]
 
 [^invest]: A good resource for considering what kinds of information makes a deliverable "ready" is [the INVEST methodology](https://agileforall.com/new-to-agile-invest-in-good-user-stories).
 
-:::{admonition} Deliverables should...
-:class: tip
-- **Have a short title and description:** Deliverables should be glanceable and have enough context that the reader can quickly understand the scope.
-- **Have one or more [user stories](https://www.atlassian.com/agile/project-management/user-stories):** User stories should define who benefits from the deliverable, and why they want it.
-- **Have tasks to complete it**: Deliverables should have a set of tasks, which are actions needed to complete the deliverable.
-:::
+The team picks up work associated with a deliverable via our Sprint Planning meeting.
+In this case, there are two options:
+
+1. **Add the deliverable to the Sprint Board**. If a deliverable is scoped tightly enough that it can be completed within one sprint, then add it to the [Sprint Board](coordination:sprint-board) and complete it in a sprint.
+2. **Generate issues from tasks and add them to the Sprint Board**. For deliverables that are more complex and require tasks that would take more than one sprint, use the **Task List** in the deliverable to generate issues for use on the Sprint Board.
+
+   :::{tip}
+   You can [use GitHub's task issue tracking features](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-task-lists) to keep track of tasks associated with a deliverable issue.
+   :::
+
+As work is done towards a deliverable, update the top comment of the **deliverable** with new information and tasks.
+The deliverable issue is the {term}`Source of Truth` for all work associated with it (instead of, for example, an issue created for a task for that deliverable).
 
 (coordination:deliverables-backlog)=
 ## The Deliverables Backlog
@@ -67,7 +104,7 @@ This board is filled during our [Sprint Planning meeting](meetings:sprint-planni
 
 :::{admonition} The Sprint Board should...
 :class: tip
-- Have enough deliverables to keep the team occupied for the week
+- Have enough deliverables/tasks to keep the team occupied for the week
 - Not have so many deliverables that a team member gets overwhelmed
 - Under-estimate our team's total capacity, to provide room for unexpected work (e.g., support work)
 - Have a team member assigned to each item on the board
