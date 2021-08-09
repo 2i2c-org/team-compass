@@ -33,7 +33,7 @@ They are **encoded as GitHub Issues**.
 
 Most issues in our repositories are deliverables, in varying states of readiness.
 Deliverables that are added to the [Sprint Board](coordination:sprint-board) should have enough context and tasks that a team member can realistically close them on their own, and should be completable in a week.
-This may include coordinating team discussing and arriving at a decision before work can be done - in either case, the person assigned to the deliverable is responsible for carring out whatever work is needed to close it. [^invest]
+This may include coordinating team discussing and arriving at a decision before work can be done - in either case, the person assigned to the deliverable is responsible for carrying out whatever work is needed to close it. [^invest]
 
 [^invest]: A good resource for considering what kinds of information makes a deliverable "ready" is [the INVEST methodology](https://agileforall.com/new-to-agile-invest-in-good-user-stories).
 
