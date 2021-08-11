@@ -56,12 +56,32 @@ People in these roles are generally affiliated with 2i2c.
 - Debug and resolve major issues with a hub that require intervention from a Hub Engineer
 - Perform open source development on technologies that are in use by the hubs
 
+## Support Steward
+
+:::{admonition} Experimental!
+:class: warning
+This is an experimental role, [see this Google Doc](https://docs.google.com/document/d/17Kj_FbtVMl32TEcfvCp18fF1SEiBjVOhCswdidUytgM/edit?usp=sharing0) for running notes and thoughts about the role.
+:::
+
+The Support Steward is tasked with keeping track of ongoing support requests to `support@2i2c.org`.
+They do not necessarily complete the request themselves, and should work with other engineers to ensure they are resolved.
+
+The Support Steward rotates throughout the engineering team on a regular basis, in order to ensure that all team members share the load of supporting our communities.
+
+### Responsibilities
+
+- Check the communication channels for support that we are using
+- Respond to new support requests
+- Communicate with community representatives throughout the support process
+- Coordinate with engineering team members to ensure support requests are completed
+- Pay attention to ongoing support efforts to ensure they are resolved in a timely manner
+
 ## Diagram of roles
 
 Below is a diagram that summarizes the major roles described here, and their relationship to one another.
 
 <iframe
-  src="https://docs.google.com/presentation/d/e/2PACX-1vQ9P_0W-2IVqvPGM9nlgWZcJAdk7DNn_lK78R3eolr6JXYMaUTsMAlwAWcKZtNxqj8kNNDN7fiz3jVI/embed?start=false&loop=false&delayms=99999999" 
+  src="https://docs.google.com/presentation/d/e/2PACX-1vQ9P_0W-2IVqvPGM9nlgWZcJAdk7DNn_lK78R3eolr6JXYMaUTsMAlwAWcKZtNxqj8kNNDN7fiz3jVI/embed?start=false&loop=false&delayms=99999999"
   frameborder="0"
   width="960"
   height="569"
