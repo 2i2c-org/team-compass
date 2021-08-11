@@ -52,7 +52,7 @@ Benefit
 
 Tasks to complete
 : Use task lists encode discrete steps to take in order to complete a deliverable.
-  All deliverables should have either a set of concrete steps to take to meet the delivearble, or at least one task with the **acceptance criteria** for when the deliverable will be complete.
+  All deliverables should have either a set of concrete steps to take to meet the deliverable, or at least one task with the **acceptance criteria** for when the deliverable will be complete.
   Task lists should be in the top comment of the deliverable, and are encoded as markdown tasks lists (e.g. with `- [ ]`).
   Task lists should be updated over time as we learn the steps needed to close the deliverable.
   For more complex deliverables, these tasks may be what goes onto the Sprint Board, rather than the deliverable itself.
