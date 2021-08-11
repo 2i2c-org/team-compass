@@ -29,5 +29,6 @@ We keep a table with all of our currently-running JupyterHubs at this location: 
 ```{toctree}
 pricing.md
 sales.md
+support.md
 roles.md
 ```
