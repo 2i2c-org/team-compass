@@ -23,7 +23,7 @@ Tues-Thurs
 
 Friday
 : By the end of the day, team members should have completed all of their deliverables for that week.
-  Each team member fills out a status update to share the major things they worked on, and note any unexpected challenges or blockers.
+  Each team member fills out a **team sync update** to share the major things they worked on, and note any unexpected challenges or blockers.
 
 (coordination:deliverables)=
 ## Deliverables
@@ -37,7 +37,7 @@ Most issues in our repositories are deliverables, in varying states of readiness
 There are a few special sections of a deliverable issue.
 Not all of them are strictly required, but are particularly useful for more complex or long-lasting deliverables.
 
-See [this Github Issue template](https://github.com/2i2c-org/team-compass/blob/main/.github/ISSUE_TEMPLATE/new-enhancement.md) for an example of a deliverable's structure.
+See [this Github Issue template](https://github.com/2i2c-org/team-compass/blob/main/.github/ISSUE_TEMPLATE/new-deliverable.md) for an example of a deliverable's structure.
 Below are some major sections that are common:
 
 Top Comment
@@ -46,17 +46,13 @@ Top Comment
   **The top comment should be frequently updated** by anybody on the team with relevant information to add.
   Do not hesitate to update somebody's top comment with new information, even if you didn't open the issue (though you're encouraged to leave a comment noting what has changed!).
 
-User Stories
-: [User stories](https://www.atlassian.com/agile/project-management/user-stories) are a section of the top comment.
-  They allow us to explicitly define the stakeholders that care about a deliverable, and why.
-  They are recommended in order to ensure that the team understands the value that a deliverable brings.
+Benefit
+: What is the benefit for completing this deliverable?
+  This should be in the form of [user stories](https://www.atlassian.com/agile/project-management/user-stories) that explicitly define the stakeholders that care about a deliverable, and why.
 
-Acceptance Criteria
-: Some definition of "complete" so that we know when the deliverable has been met and we may close the issue.
-  This is particularly important for longer-lasting or complex deliverables that may not have an obvious completion point.
-
-Task Lists
-: Task lists encode discrete steps to take in order to complete a deliverable.
+Tasks to complete
+: Use task lists encode discrete steps to take in order to complete a deliverable.
+  All deliverables should have either a set of concrete steps to take to meet the delivearble, or at least one task with the **acceptance criteria** for when the deliverable will be complete.
   Task lists should be in the top comment of the deliverable, and are encoded as markdown tasks lists (e.g. with `- [ ]`).
   Task lists should be updated over time as we learn the steps needed to close the deliverable.
   For more complex deliverables, these tasks may be what goes onto the Sprint Board, rather than the deliverable itself.

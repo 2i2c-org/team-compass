@@ -20,7 +20,7 @@ Our goal is to synchronize the team on the most important things to work on, and
 _Follow the agenda below, checking boxes as we complete each step._
 
 - [ ] (5m) Quick review of last week's Sprint Board.
-  - [ ] Team members have all filled out last week's status update
+  - [ ] Team members have all filled out last week's team sync
   - [ ] Decide what to do with any incomplete deliverables
   - [ ] Archive last week's board
 - [ ] (20m) Populate this week's Sprint Board
