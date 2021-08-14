@@ -21,9 +21,8 @@ Issue types are mutually-exclusive - there may only be one issue type per issue.
 
 There are a few issue types that are defined for all repositories:
 
-- {badge}`type: enhancement, badge-info`: an improvement to be made to the repository.
+- {badge}`type: deliverable, badge-info`: an incremental improvement to something. See [](coordination:deliverables) for more information.
 - {badge}`type: bug, badge-info`: something that is not working or incorrect in the repository.
-- {badge}`type: task, badge-info`: an action to take that is not well-categorized by enhancement/bug.
 
 In addition, other repositories may use repository-specific types, with the caveat that **all issues must still only have one `type` label**.
 

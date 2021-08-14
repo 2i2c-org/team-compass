@@ -2,105 +2,148 @@
 # Team development workflow
 
 This section describes how our development team carries out its planning and day-to-day work.
-Here's a quick summary:
 
-* [Deliverables](coordination:deliverables) are discrete units of value that we bring to others. To be ready for work, they should be scoped properly, with enough information to complete them (e.g., a set of [tasks](coordination:tasks)).
-* The [Project Backlog](coordination:project-backlog) contains lists of **deliverables** that we are currently working towards across all of the 2i2c projects. Deliverables on the Project Backlog define our team priorities at any moment.
-* [Tasks](coordination:tasks) are concrete actions to take, and should be accomplishable in a single work session by one person.
-* The [Activity Backlog](coordination:active-backlog) contains lists of **tasks** that we are currently working on. This defines 2i2c's current activity.
-
-(coordination:project-backlog)=
-## Project Backlogs
-
-The Project Backlog contains all of the deliverables across our projects that we wish to work on quickly.
-These are organized into a few columns, representing the _state_ of each deliverable.
-Here is a common column structure:
-
-- {guilabel}`Needs Discussion/Refinement`: Deliverables that are high-priority but un-refined. Our goal should be having discussion and doing research in order to get these deliverables ready for work.
-- {guilabel}`Ready to Work`: Deliverables that are well-scoped and have a clear path forward, and are thus ready to implement. As deliverables in {guilabel}`In progress` are completed, we should replace them with deliverables from this column. Generally speaking, deliverables near the top have higher priority than those at the bottom.
-- {guilabel}`In progress`: Deliverables that we are currently working towards. This means that we should be generating [Tasks](coordination:tasks) in our [Activity Backlog](https://github.com/orgs/2i2c-org/projects/5?fullscreen=true) to complete this deliverable (more on this below).
-- {guilabel}`Blocked/Waiting`: Deliverables for which we are waiting for some action that is out of our team's immediate control.
-- {guilabel}`Done`: Deliverables that have been completed. We should close these issues and celebrate the improvements that we have made!
-
-:::{note}
-In general, there should be only two or three deliverables per team member, per column on this board.
-It should not become so heavily-populated that it is hard to keep track of deliverables!
+:::{admonition} Helpful links
+👉 [Here is a link to all 2i2c GitHub Issues that have been assigned to you](https://github.com/issues?q=is%3Aissue+is%3Aopen+archived%3Afalse+sort%3Aupdated-desc+assignee%3A%40me+user%3A2i2c-org+)
+👉 [Here's a link to see all Pull Requests for which your review is requested](https://github.com/issues?q=is%3Aopen+archived%3Afalse+sort%3Aupdated-desc+user%3A2i2c-org+type%3Apr+review-requested%3A%40me+)
 :::
 
-There are two Project Backlogs at 2i2c:
+## Cadence of work
 
-- The [2i2c Development Projects Backlog](https://github.com/orgs/2i2c-org/projects/7?fullscreen=true) contains deliverables for our development-focused projects.
-- The [Organizational Project Backlog](https://github.com/orgs/2i2c-org/projects/8?fullscreen=true) contains deliverables that are organization-wide and not related to development.
+Our team works in one week sprints.
+Here is a brief overview of each sprint.
+
+Monday
+: Sprint begins with our [sprint planning meeting](meetings:sprint-planning).
+
+  In this meeting we prioritize and assign the items that each team member will work on for this week, and review items that require discussion and planning.
+
+Tues-Thurs
+: Team members work on the deliverables assigned to them at the sprint planning meeting.
+
+Friday
+: By the end of the day, team members should have completed all of their deliverables for that week.
+  Each team member fills out a **team sync update** to share the major things they worked on, and note any unexpected challenges or blockers.
 
 (coordination:deliverables)=
 ## Deliverables
 
-Deliverables represent incremental amounts of value we can deliver to a particular stakeholder, and should be completable in a week or two.
+Deliverables represent incremental amounts of value we can deliver to a particular stakeholder.
+They are **encoded as GitHub Issues** and updated over time as we learn more about the particular deliverable.
+Most issues in our repositories are deliverables, in varying states of readiness.
 
-Most issues in our repositories are deliverables, in varying states of readiness. When a deliverable is first created, it may lack information, be improperly scoped, or have an unclear path to implementation. We improve this through _deliverable refinement_ (see below).
+### How are deliverables structured?
 
-A deliverable is ready to work (and can thus be added to the Project Backlog) when it has the following properties (adapted from the [INVEST methodology](https://agileforall.com/new-to-agile-invest-in-good-user-stories/)).
+There are a few special sections of a deliverable issue.
+Not all of them are strictly required, but are particularly useful for more complex or long-lasting deliverables.
 
-- **Have a short title and description:** Deliverables should be glanceable and have enough context that the reader can quickly understand the scope.
-- **Have one or more [user stories](https://www.atlassian.com/agile/project-management/user-stories):** User stories should define who benefits from the deliverable, and why they want it.
-- **Have completion criteria:** We have clear completion criteria for this deliverable to denote it as “done”.
-- **Have tasks to complete it**: Deliverables should have a set of tasks, which are actions needed to complete the deliverable.
+See [this Github Issue template](https://github.com/2i2c-org/team-compass/blob/main/.github/ISSUE_TEMPLATE/new-deliverable.md) for an example of a deliverable's structure.
+Below are some major sections that are common:
 
-### How refinement happens
+Top Comment
+: The top comment of a deliverable has meta information associated with that deliverable.
+  This includes background information, user stories, task lists, etc.
+  **The top comment should be frequently updated** by anybody on the team with relevant information to add.
+  Do not hesitate to update somebody's top comment with new information, even if you didn't open the issue (though you're encouraged to leave a comment noting what has changed!).
 
-_Deliverable Refinement_ is the process of improving the scoping, context, and structure of our Deliverables issues so that they are ready for us to work on them. When a deliverable is created, it may not have all of the information needed to take the next step. Adding that information is the goal of Deliverable Refinement.
+Benefit
+: What is the benefit for completing this deliverable?
+  This should be in the form of [user stories](https://www.atlassian.com/agile/project-management/user-stories) that explicitly define the stakeholders that care about a deliverable, and why.
 
-All team members are expected to participate in deliverable refinement, though the more experienced and higher-level you are, the more you should be contributing to this process.
-The important thing is that we always have a list of high-quality deliverables ready to work towards.
+Tasks to complete
+: Use task lists encode discrete steps to take in order to complete a deliverable.
+  All deliverables should have either a set of concrete steps to take to meet the deliverable, or at least one task with the **acceptance criteria** for when the deliverable will be complete.
+  Task lists should be in the top comment of the deliverable, and are encoded as markdown tasks lists (e.g. with `- [ ]`).
+  Task lists should be updated over time as we learn the steps needed to close the deliverable.
+  For more complex deliverables, these tasks may be what goes onto the Sprint Board, rather than the deliverable itself.
 
-Here's a small table that explains how to decide whether deliverables issues should be put in a project backlog:
+### Working on deliverables
 
-:::{list-table}
-:header-rows: 1
-- -
-  - Needs more information
-  - Ready for working
-- - Low priority
-  - Stays in issues
-  - Put in {guilabel}`Ready to work`
-- - High Priority
-  - Manually put in \
-    {guilabel}`Needs Discussion/Refinement`
-  - Put in {guilabel}`Ready to work`
+Deliverables are ready to work when they have enough context and tasks so that a team member can begin making progress towards closing them.
+This doesn't mean that we know **all** of the tasks needed to complete the deliverable, but that there's enough information to begin work. [^invest]
+
+[^invest]: A good resource for considering what kinds of information makes a deliverable "ready" is [the INVEST methodology](https://agileforall.com/new-to-agile-invest-in-good-user-stories).
+
+The team picks up work associated with a deliverable via our Sprint Planning meeting.
+In this case, there are two options:
+
+1. **Add the deliverable to the Sprint Board**. If a deliverable is scoped tightly enough that it can be completed within one sprint, then add it to the [Sprint Board](coordination:sprint-board) and complete it in a sprint.
+2. **Generate issues from tasks and add them to the Sprint Board**. For deliverables that are more complex and require tasks that would take more than one sprint, use the **Task List** in the deliverable to generate issues for use on the Sprint Board.
+
+   :::{tip}
+   You can [use GitHub's task issue tracking features](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-task-lists) to keep track of tasks associated with a deliverable issue.
+   :::
+
+As work is done towards a deliverable, update the top comment of the **deliverable** with new information and tasks.
+The deliverable issue is the {term}`Source of Truth` for all work associated with it (instead of, for example, an issue created for a task for that deliverable).
+
+(coordination:deliverables-backlog)=
+## The Deliverables Backlog
+
+[Click here to go to the Deliverables Backlog](https://github.com/orgs/2i2c-org/projects/7?fullscreen=true).
+
+The Deliverables Backlog is a GitHub Projects Board with a list of [Deliverables](coordination:deliverables) across all of our active projects.
+These deliverables adhere to the following principles:
+
+- Each item on this board should be **ready to work**, meaning that it has enough background information and context for a team member to steward it to completion.
+- The order of these deliverables should be roughly according to priority, with higher priority deliverables at the top of lists.
+- High-priority deliverables should be added to a [weekly sprint board](coordination:sprint-board) in order to be worked on.
+- If a deliverable has multiple components or would otherwise take longer than a week to complete, create task lists inside it to track steps. Add those steps to the Sprint board, not the whole deliverable.
+
+(coordination:sprint-board)=
+## The Sprint Board
+
+The Sprint Board is a place to keep track of the [Deliverables](coordination:deliverables) our team intends to work on for the week.
+It is a GitHub Projects board that is created for each week, and closed at the end of each week.
+All deliverables on the Sprint Board should be accomplished by the end of the week.
+This board is filled during our [Sprint Planning meeting](meetings:sprint-planning).
+
+:::{admonition} The Sprint Board should...
+:class: tip
+- Have enough deliverables/tasks to keep the team occupied for the week
+- Not have so many deliverables that a team member gets overwhelmed
+- Under-estimate our team's total capacity, to provide room for unexpected work (e.g., support work)
+- Have a team member assigned to each item on the board
 :::
 
-(coordination:active-backlog)=
-## Activity Backlog
+The Sprint Board is broken down into these columns:
 
-The [Activity Backlog](https://github.com/orgs/2i2c-org/projects/5?fullscreen=true) contains the collection of **Tasks** that the team is currently working on.
-Tasks are actions that are needed to accomplish some deliverable.
-These tasks are generated from the deliverables on the Projects Backlog.
-They define a “to do” list of tasks to complete on a day-to-day basis.
-
-The Activity Backlog is broken down into these columns:
-
-- {guilabel}`Needs Discussion/Refinement` Tasks that require some team discussion around _implementation_. If there are higher-level discussions about the deliverable itself, perhaps the deliverable is not yet ready to be worked on.
-- {guilabel}`Ready to Work` Tasks that are ready to be worked on. Roughly speaking, tasks higher on the list are of higher priority.
-- {guilabel}`In progress` A task that a team member is currently working towards. When you move a task to In progress, indicate that you are working on it (either by adding your username to the card, or “assigning yourself” in the issue/PR associated with it.
-- {guilabel}`Needs review` Tasks that have an implementation that require feedback from others. For example, reviews for pull requests.
+- {guilabel}`Up Next` Deliverables that are ready to be worked on.
+- {guilabel}`In progress` A deliverable that a team member is currently working towards.
 - {guilabel}`Done` Tasks that are complete! When you move a task here, make sure to update any relevant deliverables.
 
-There is one Activity Backlog defined [at this GitHub Projects Board](https://github.com/orgs/2i2c-org/projects/5?fullscreen=true).
+## Requesting reviews
 
-(coordination:tasks)=
-## Tasks
+When you have an implementation that requires feedback, use GitHub's **Request Review** feature to ask other team members to take a look.
+In general, add specific team members so that it is clear who is needed to review the PR.
 
-Deliverables of sufficient complexity are broken down into _tasks_. Tasks should be completable by a single person in less than one day (generally, completable with a few hours of focused work at most). Make sure to attach a link between your deliverable and its tasks (e.g., by adding links to issues in the deliverable’s "tasks" checklist)
+% TODO: We should define a more structured process for requesting reviews and how it fits in with our merge policies.
 
-Tasks are generally encoded as checklist items in a deliverable, then added to the Activity Backlog when the deliverable is being worked on.
+## How to keep track of projects
 
-Here’s an example of a deliverable with a few tasks:
+Longer-term projects are generally more complex and may be made up of many actions and deliverables to accomplish.
+There is no official way to track long-term projects within 2i2c, but there are a few patterns that may be useful to do so, described in this section.
 
-- **Deliverable:** Side notes in Jupyter Books. \
-  **User story**: _As a book author, I want to be able to create “aside” content that does not break up the narrative flow of my text._ \
-  **Tasks:**
-    - Create design doc for directive name and general API
-    - PR to prototype functionality and documentation
-    - Add tests and QA
-    - Final approval + merge
+% TODO: We should define a more reliable process for tracking long-term projects
 
+### Tracking issues
+
+The simplest way to track longer-term efforts is with a **Tracking Issue**.
+This is a GitHub Issue whose job is to keep track of many actions and deliverables over time that are needed to close the issue.
+They are generally encoded as **Task Lists** in the issue's top comment.
+Each item in the list tends to be a deliverable, and can be converted into its own GitHub Issue (e.g., to put on the [Sprint Board](coordination:sprint-board)) as-needed.
+
+(coordination:project-backlog)=
+### Project Backlogs
+
+For more complex efforts, it can be useful to create a Project Backlog.
+These are GitHub Projects boards that contain all of the deliverables that will complete a given project.
+These are often organized into a few columns, representing the _state_ of each deliverable.
+Here is a common column structure:
+
+- {guilabel}`Needs Discussion/Refinement`: Deliverables that are high-priority but un-refined. Our goal should be having discussion and doing research in order to get these deliverables ready for work.
+- {guilabel}`Ready to Work`: Deliverables that are well-scoped and have a clear path forward, and are thus ready to implement. As deliverables in {guilabel}`In progress` are completed, we should replace them with deliverables from this column. Generally speaking, deliverables near the top have higher priority than those at the bottom.
+- {guilabel}`In progress`: Deliverables that we are currently working towards. This means that they should be added to the [Sprint Board](coordination:sprint-board) to track its completion.
+- {guilabel}`Blocked`: Deliverables that require another action or delivearable from the 2i2c team to complete before they can move forward.
+- {guilabel}`Waiting`: Deliverables that require another action from a **non-2i2c team member** before they can move forward.
+- {guilabel}`Done`: Deliverables that have been completed. We should close these issues and celebrate the improvements that we have made!
