@@ -2,7 +2,7 @@
 name: Close a weekly team sync issue
 on:
   schedule:
-  # Run every Tuesday at 3:00PM UTC / 8:00AM California time
+  # Run every Tuesday a03:00PM UTC / 05:00PM Europe / 08:00AM California
   - cron: "00 15 * * 2"
 
 jobs:
