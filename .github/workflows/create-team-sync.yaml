@@ -2,8 +2,8 @@
 name: Open a weekly team sync issue
 on:
   schedule:
-  # Run every Friday at 00:00
-  - cron: "0 0 * * 5"
+  # Run every Monday at 00:00
+  - cron: "0 0 * * 1"
 
   workflow_dispatch:
 
