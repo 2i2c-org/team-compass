@@ -1,0 +1,62 @@
+# Secrets, credientials, and passwords
+
+This section describes how 2i2c team members share and access sensitive credentials that allow permissions on our infrastructure and services.
+
+## Location of information
+
+**For more services**: Our team tries to use services that allow for multi-user authorization.
+This means we try to use services where team members have their own account with permissions on the service, so no secrets need be shared (for example, GitHub organizations).
+
+**When we must share secrets**: If we must share secrets for an account (for example, credentails for deployment to cloud infrastructure), then we use [the command-line tool `sops`](https://github.com/mozilla/sops) to encrypt our secrets.
+See below for information about how to use `sops`.
+
+## `sops` overview
+
+[`sops`](https://github.com/mozilla/sops) is a command-line tool for encrypting and decrypting secrets that are on disk.
+It is similar to [`git-crypt`](https://github.com/AGWA/git-crypt) (which is what is used by the Binder SRE team), but gives a bit more visibility into the encrypted fields by only encrypting the *values* rather than the *keys*.
+
+Here's an example of a file that has been encrypted with `sops` (from [our `pilot-hubs` configuration](https://github.com/2i2c-org/pilot-hubs/blob/master/config/secrets.yaml)):
+
+```yaml
+auth0:
+    domain: ENC[AES256_GCM,data:aEi/GvnxpyGsvinhZ5sXXto=,iv:SR6sgQronhovtuUpQnSuIO2KFo9eTSP9tgFqg+QBJ8I=,tag:6yzNIPmFEWilI1qajTH1WQ==,type:str]
+    client_id: ENC[AES256_GCM,data:aHw7KJCg4Hn2RiLIiONQXnc48/JFsCCnW0WFVLtCFgM=,iv:FFxe1kNtBh5ljroqCTW3wicQzyDszSCSyYx4Boe2Dns=,tag:a/m2QDTrcKpurKq0IZPjOw==,type:str]
+    client_secret: ENC[AES256_GCM,data:B+fw9jZUc2b0Mb9CD/Pas+aZLPd3Rp1GI6Wrq0wXYcE5HvMEOXhXOqzl9nEKhbR/cVAh5YZt+xlI8G2zOraWbQ==,iv:nDIxzcuQ5Noxp7HyYsL02hBRDLi9An5MN8IEdLnLffA=,tag:T4GgBUkzfSV5UC8RX8yT2g==,type:str]
+secret_key: ENC[AES256_GCM,data:ZT5kb64zUJIEKhUQSKgCRF8HcEnvK59KCtVs6TEO+O3S5qWBJIJY9kivlYU8a93XRN9cxIi9YlG4EfLoFR5JUw==,iv:V5OKGcKfG6s4EKdonrosvFJPltujSp5z4SZ8th9SkYs=,tag:jqQcK4+HO+i8SLerABYxeQ==,type:str]
+sops:
+    kms: []
+    gcp_kms:
+        - resource_id: projects/two-eye-two-see/locations/global/keyRings/sops-keys/cryptoKeys/similar-hubs
+          created_at: "2021-04-20T11:50:21Z"
+          enc: CiQA4OM7eLU3yaaPc6QnzaG3oPhN+OtaG+JCEd57CTIQcOSi+RUSSQBy9hCYh5zsV6u1djsUJPdj+2rwIb3aj0ZWkmZC+XtgXRrGTcI9BuUnnk25yyzi0HWr3CBZxARltajdQHydZCXlY+O28vsySkg=
+    azure_kv: []
+    hc_vault: []
+    age: []
+    lastmodified: "2021-06-11T06:36:56Z"
+    mac: ENC[AES256_GCM,data:oW0k09Gd65XK0OxRcX9jPaDMatFPrE42A6rdIHvKNQBmM2MY+VECKLbDzci1Ob9VZsp91ss0psn0im28z9G/Fjf6adRwXjtnI7k5KkEwkwivxpnk9RX+ZyPkFn4ccnhbHEciRU4NVS1upFJLCGDs9EBZ6FTXzMEx5aL2jUlLXYA=,iv:oaIR4rwUgcLpEFo19kziEuNJwf407NHPQVsM2pPRvxY=,tag:zozw57Qc1CYVj6TLkiyPlQ==,type:str]
+    pgp: []
+    unencrypted_suffix: _unencrypted
+    version: 3.7.1
+```
+
+As you can see, we have access to the **key names** but the **values are encrypted**.
+In the next section we'll cover how to unencrypt this file.
+
+(secrets:sops)=
+### Use `sops` to decrypt secrets
+
+To use `sops` with a 2i2c configuration file, follow these steps:
+
+1. **Set up `sops`**. To do so, [follow the `sops` download and install instructions here](https://github.com/mozilla/sops/#1download).
+2. **Set up the Google Cloud SDK**. We use Google Cloud to provide the authentication for `sops`, and this is managed by the `gcloud` command-line tool.
+   [Follow the Google Cloud instructions](https://cloud.google.com/sdk/docs/install) to do so.
+3. **Set up the Google Cloud Key Management Service (KMS)**. This allows you to use your Google Cloud login to provide authentication for `sops`.
+   [Follow the `sops` instructions to use KMS](https://github.com/mozilla/sops/#encrypting-using-gcp-kms).
+4. **Decrypt the secrets file**. Once you've set up KMS, you should be able to decrypt the file with `sops`.
+   Run the following command, and you should see the secret values printed on your screen:
+
+   ```bash
+   sops --decrypt path/to/config/secrets.yaml
+   ```
+
+
