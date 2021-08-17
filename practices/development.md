@@ -13,15 +13,15 @@ This section describes how our development team carries out its planning and day
 Our team works in one week sprints.
 Here is a brief overview of each sprint.
 
-Monday
+Tuesday
 : Sprint begins with our [sprint planning meeting](meetings:sprint-planning).
 
   In this meeting we prioritize and assign the items that each team member will work on for this week, and review items that require discussion and planning.
 
-Tues-Thurs
+Wed-Friday
 : Team members work on the deliverables assigned to them at the sprint planning meeting.
 
-Friday
+Monday
 : By the end of the day, team members should have completed all of their deliverables for that week.
   Each team member fills out a **team sync update** to share the major things they worked on, and note any unexpected challenges or blockers.
 
