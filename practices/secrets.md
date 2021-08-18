@@ -65,3 +65,4 @@ To use `sops` with a 2i2c configuration file, follow these steps:
 Make sure to run `sops` from the root of the repository.
 There are a set of rules stored in [`.sops.yaml`](https://github.com/2i2c-org/pilot-hubs/blob/master/.sops.yaml) that use regex to match a file to be encrypted with the encryption key location.
 You will receive an error from `sops` if you are not in the root folder and it cannot see this file.
+```
