@@ -40,6 +40,7 @@ sops:
 ```
 
 As you can see, we have access to the **key names** but the **values are encrypted**.
+Some information about which encryption key `sops` uses to encrypt/decrypt the secret is also stored under the top-level `sops` JSON key.
 In the next section we'll cover how to unencrypt this file.
 
 (secrets:sops)=
@@ -49,6 +50,7 @@ To use `sops` with a 2i2c configuration file, follow these steps:
 
 1. **Set up `sops`**. To do so, [follow the `sops` download and install instructions here](https://github.com/mozilla/sops/#1download).
 2. **Set up the Google Cloud SDK**. We use Google Cloud to provide the authentication for `sops`, and this is managed by the `gcloud` command-line tool.
+   You will need access to the `two-eye-two-see` Google project in order to access the `sops` encryption keys.
    [Follow the Google Cloud instructions](https://cloud.google.com/sdk/docs/install) to do so.
 3. **Set up the Google Cloud Key Management Service (KMS)**. This allows you to use your Google Cloud login to provide authentication for `sops`.
    [Follow the `sops` instructions to use KMS](https://github.com/mozilla/sops/#encrypting-using-gcp-kms).
@@ -56,7 +58,10 @@ To use `sops` with a 2i2c configuration file, follow these steps:
    Run the following command, and you should see the secret values printed on your screen:
 
    ```bash
-   sops --decrypt path/to/config/secrets.yaml
+   sops --decrypt --in-place path/to/config/secrets.yaml
    ```
 
-
+```{note}
+Make sure to run `sops` from the root of the repository.
+There are a set of rules stored in [`.sops.yaml`](https://github.com/2i2c-org/pilot-hubs/blob/master/.sops.yaml) that use regex to match a file to be encrypted with the encryption key location.
+You will receive an error from `sops` if you are not in the root folder and it cannot see this file.
