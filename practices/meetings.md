@@ -83,10 +83,10 @@ See the [Team Calendar page](team/calendar) for information about when and where
 
 :::{admonition} Temporarily weekly!
 We are still working out the best structure for the Sprint Planning meeting and how it fits in with our team coordination.
-We are currently holding this meeting **weekly** and will revisit its frequency in three months or so.
+See [this GitHub issue](https://github.com/2i2c-org/team-compass/issues/182) for the latest information.
 :::
 
-The 2i2c team meets **every Monday** for 30 minutes.
+The 2i2c team meets **every Tuesday** for 60 minutes.
 The goal of this meeting is to review our major work deliverables, synchronize with one another, and prioritize work across team members.
 It is also a chance to hand off the Support Steward role to the next person.
 
