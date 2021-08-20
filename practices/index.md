@@ -37,6 +37,7 @@ The syncs are just to get everyone on the same page.
 ```{toctree}
 communication
 development
+secrets
 cloud-access
 meetings
 github-conventions
