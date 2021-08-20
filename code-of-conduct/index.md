@@ -3,7 +3,7 @@
 
 Our goal is to create one of the best communities in the world for learning, using, and creating open infrastructure for interactive computing. Our mission is to build this community in a way that promotes fairness and justice for all - especially those from traditionally marginalized groups. This allows every member of our community to thrive and to make the biggest positive impact in their work and on others. Our Code of Conduct defines expected behavior and guidelines that help create such a community.
 
-Accordingly, anyone who participates in a 2i2c space is expected to show respect and courtesy to others in all interactions, whether in GitHub repositories, our Slack channel, in in-person events, when representing 2i2c in public, or in events and spaces associated with [ICSI](structure:icsi).
+Accordingly, anyone who participates in a 2i2c space is expected to show respect and courtesy to others in all interactions, whether in GitHub repositories, our Slack channel, in in-person events, when representing 2i2c in public, or in events and spaces associated with {term}`CS&S`.
 
 To make sure that everyone has a common understanding of “show respect and courtesy to each other,” we have adopted the following code of conduct. The code of conduct is enforced by the [2i2c Executive Director](structure:ed) and [the Steering Council](structure:steerco).
 
@@ -28,7 +28,7 @@ The following types of behavior are unacceptable in 2i2c spaces, both online and
 
 ## Scope
 
-2i2c community members are held to the standards outlined in this code of conduct when interacting in the 2i2c Slack or GitHub repositories, when interacting in-person at events where they could represent 2i2c (this is most professional events), in physical spaces with other 2i2c team members or collaborators, or in any [`ICSI`](structure:icsi) space.
+2i2c community members are held to the standards outlined in this code of conduct when interacting in the 2i2c Slack or GitHub repositories, when interacting in-person at events where they could represent 2i2c (this is most professional events), in physical spaces with other 2i2c team members or collaborators, or in any {term}`CS&S` space.
 
 In addition, the 2i2c community and experience often extends outside those spaces—2i2c community members may go on walks together to get lunch, attend meetups or conferences as a group, communicate on social media, or interact with each other in other communities. Abusive or unwelcoming behavior between community members still has a profound impact on individuals and on the community when it happens beyond our walls. The 2i2c Executive Director and the Steering Council will use our discretion when deciding whether to enforce this code of conduct and potentially remove someone from the 2i2c community after reports of such behavior happening outside of 2i2c, taking into account the impact on the individual community members involved as well as the impact on the community at large.
 
