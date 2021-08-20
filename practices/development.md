@@ -77,6 +77,13 @@ In this case, there are two options:
 As work is done towards a deliverable, update the top comment of the **deliverable** with new information and tasks.
 The deliverable issue is the {term}`Source of Truth` for all work associated with it (instead of, for example, an issue created for a task for that deliverable).
 
+(coordination:deliverables:upstream)=
+### Deliverables in upstream repositories
+
+We use a [special repository called `external/`](https://github.com/2i2c-org/external/) to track all deliverables and work items that happen primarily in upstream repositories.
+The practices for doing this are described [in the `external/` repository README](https://github.com/2i2c-org/external/blob/master/README.md).
+
+
 (coordination:deliverables-backlog)=
 ## The Deliverables Backlog
 
