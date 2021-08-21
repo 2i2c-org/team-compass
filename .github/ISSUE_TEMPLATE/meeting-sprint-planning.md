@@ -38,6 +38,7 @@ _Follow the agenda below, checking boxes as we complete each step._
 ## Populate this week's Sprint Board (45m)
 
 - [ ] Archive and celebrate closed deliverables 🎉
+- [ ] Team members note any reduced availability
 - [ ] Add new deliverables to Sprint Board
 - [ ] Somebody is assigned to each deliverable
 - [ ] Everybody agrees the current cycle's plan is realistic and that the right items are on the board.
