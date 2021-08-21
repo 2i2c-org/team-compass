@@ -89,4 +89,4 @@ Once you've completed those steps, do the following:
 For more information about using `sops`, here are a few links to `sops` documentation:
 - [Basic usage of `sops`](https://github.com/mozilla/sops#usage)
 - [Encrypting files with GCP KMS](https://github.com/mozilla/sops#encrypting-using-gcp-kms)
-- [Common examples with `sops`](https://github.com/mozilla/sops#examples).a
+- [Common examples with `sops`](https://github.com/mozilla/sops#examples)

@@ -112,12 +112,75 @@ The Sprint Board is broken down into these columns:
 - {guilabel}`In progress` A deliverable that a team member is currently working towards.
 - {guilabel}`Done` Tasks that are complete! When you move a task here, make sure to update any relevant deliverables.
 
-## Requesting reviews
+(development:merge-policy)=
+## Merging and Reviewing policy
 
-When you have an implementation that requires feedback, use GitHub's **Request Review** feature to ask other team members to take a look.
-In general, add specific team members so that it is clear who is needed to review the PR.
+The sections below describe major policies around merging and reviewing depending on the kind of change being made.
+Not all of them are followed strictly, though some are more important than others, and are marked with **REQUIRED**.
 
-% TODO: We should define a more structured process for requesting reviews and how it fits in with our merge policies.
+### General Merge policy
+
+- **Always make a Pull Request**. (REQUIRED).
+  All changes to 2i2c repositories should be made via a Pull Request.
+  This should be enforced by setting the `main`/`master` branch of each repository to be "protected".
+- **PRs should reference issues**.
+  Generally speaking, a Pull Request shouldn't come out of the blue.
+  If you have an idea, open an issue to describe your idea first and make a proposed change, rather than just opening a PR from scratch.
+- **Use GitHub's `Request Review` feature**.
+  Add specific team members so that it is clear who is needed to review the PR.
+- **Be explicit about what feedback you want**.
+  When you open a PR, include some language about specific things you'd like feedback with, if applicable.
+  This helps others focus their attention.
+- **Use the review column on sprint boards**.
+  When a PR needs review, move any relevant issues to the {kbd}`Review` column of the active [Sprint Board](coordination:sprint-board) so others notice it.
+- **Merge after one approval**.
+  If there is at least one approval on a PR, then anybody, including the PR author, may merge the PR.
+  PR authors should not hesitate to merge their own PR after an approval if they think it is ready to go!
+- **Merging without review is discouraged, but not forbidden**.
+  For changes that are minor, very straightforward, and do not affect actively-running infrastructure, it is acceptable to self-merge a PR without getting an approval.  
+  If you don't believe that your PR requires an approval before merging, make it clear in your PR or in a comment that you plan to merge it in 24 hours.
+- **Leave PRs open for at least 24 working hours**.
+  This helps ensure that others on the team have have a chance to look at the PR and give their thoughts.
+
+In addition, there are special policies that apply for certain kinds of changes, described in the sections below.
+
+### Policy for terraform changes
+
+Changes that provision active hub infrastructure (e.g., almost anything involving `terraform`) have a different workflow that requires different policies.
+Deploying changes to our infrastructure usually also entails a `terraform` deploy, done manually.
+This means that the PR is merely a **reflection** of the deployed infrastructure.
+
+In these cases, we still wish to use a PR in order to get feedback from others, with the following policies in addition to those listed above:
+
+- **The PR author must also merge the PR**. (REQUIRED)
+  Because a PR is a reflection of a _deploy_, the author of the PR should also be the one that merges it, since only they know what infrastructure has actually been deployed.
+- **Explicitly list a back-up if you must step away**. (REQUIRED)
+  PR authors are responsible for the infrastructure changes that they make.
+  You should generally only make a change to live infrastructure if you'll have the bandwidth to ensure it is fixed if something goes wrong.
+  If for some reason you **must** step away, make it clear who else is responsible for shepherding the PR.
+- **When you deploy leave a comment**. (REQUIRED)
+  You may deploy the infrastructure one or more times throughout a PR.
+  Each time you do, make sure the PR is updated with the state of the code when you deployed, and leave a comment making it clear to others that a deploy has been made.
+- **Use a draft PR before you have deployed something**.
+  This will signal to other members of the team that you have not changed any infrastructure yet, and are merely asking for feedback.
+- **Be more hesitant to deploy/merge without approval**.
+  Because this kind of infrastructure is affecting live infrastructure, you're encouraged to be even more careful about merging before somebody has given approval.
+  You may still use your best judgment, just be extra careful!
+
+  :::{admonition} Common things that often _don't_ require approval
+  - Updating admin users for a hub
+  - Changing basic hub configuration such as the URL of its landing page image
+  - Updating the user image of a hub.
+  :::
+
+Other than this, you should generally follow the policies above.
+
+### Policy for team compass changes
+
+If a change affects the 2i2c team policies, or makes significant changes to our documentation or public-facing material, then you should also follow these extra policies:
+
+- **Ensure that the team has consented**.
+  For any major change, you should make sure that you have followed best-practices in consent-based decision making. See [](development:decisions) for more information.
 
 ## How to keep track of projects
 
@@ -147,3 +210,26 @@ Here is a common column structure:
 - {guilabel}`Blocked`: Deliverables that require another action or delivearable from the 2i2c team to complete before they can move forward.
 - {guilabel}`Waiting`: Deliverables that require another action from a **non-2i2c team member** before they can move forward.
 - {guilabel}`Done`: Deliverables that have been completed. We should close these issues and celebrate the improvements that we have made!
+
+(development:decisions)=
+## How we make decisions
+
+The 2i2c Team follows [consent based decision-making](https://thedecider.app/consent-decision-making) in making all of its team decisions.
+This roughly means the following for **any decision that impacts all team members**:
+
+- The proposed decision and relevant context must be available to all team members.
+  This is generally done via opening GitHub issues.
+- Ensure that team members have time to understand the proposal, and ask questions about it to understand its ramifications.
+- Ensure that team members have time to object and make suggested changes.
+- Ensure that the result of the decision is recorded somewhere that is available to all team members.
+
+Generally speaking, this process is carried out via GitHub Issues and Pull Requests.
+See [](development:merge-policy) for how this works in practice.
+
+### Resources to learn about consent-based decision making
+
+Here are some helpful resources for more information about consent-based decision-making.
+
+- A short primer: https://thedecider.app/consent-decision-making
+- A more in-depth discussion: https://www.sociocracyforall.org/consent-decision-making/
+- A well-known technical proposal on "Consent via humming": https://tools.ietf.org/html/rfc7282
