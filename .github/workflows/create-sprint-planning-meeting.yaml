@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  open-sync-issue:
+  create-sprint-planning-issue:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
