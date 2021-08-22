@@ -1,4 +1,0 @@
-# Requirements across all of our workflows
-ghapi
-ipython
-pyyaml
