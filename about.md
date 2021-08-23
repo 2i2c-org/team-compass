@@ -12,7 +12,7 @@ Check out [](about/structure.md) for more information about this.
 
 ## Where is 2i2c located?
 
-While 2i2c is housed under the [International Computer Science Institute](https://icsi.berkeley.edu), located in Berkeley, CA, 2i2c team members are distributed across the globe and 2i2c claims no formal physical center. All of its work is done online.
+2i2c team members are distributed across the globe and 2i2c claims no formal physical center. All of its work is done online.
 
 ## 2i2c's current team
 
@@ -20,8 +20,8 @@ You can find more information about 2i2c's current team in the [About page of it
 
 ## What is 2i2c's legal designation?
 
-2i2c is a non-profit initiative that is housed by [The International Computer Science Institute](http://www.icsi.berkeley.edu/) (ICSI), a 501(c)(3) non-profit organization.
-
+We are a fiscally-sponsored project of {term}`Code for Science and Society`, a US 501(c)(3) public charity.
+It was originally founded as a project of the {term}`International Computer Science Institute`.
 
 ## What kind of things does 2i2c do?
 
