@@ -3,7 +3,7 @@
 
 Our goal is to create one of the best communities in the world for learning, using, and creating open infrastructure for interactive computing. Our mission is to build this community in a way that promotes fairness and justice for all - especially those from traditionally marginalized groups. This allows every member of our community to thrive and to make the biggest positive impact in their work and on others. Our Code of Conduct defines expected behavior and guidelines that help create such a community.
 
-Accordingly, anyone who participates in a 2i2c space is expected to show respect and courtesy to others in all interactions, whether in GitHub repositories, our Slack channel, in in-person events, when representing 2i2c in public, or in events and spaces associated with {term}`CS&S`.
+Accordingly, anyone who participates in a 2i2c space is expected to show respect and courtesy to others in all interactions, whether in GitHub repositories, our Slack channel, during in-person events, when representing 2i2c in public, or in events and spaces associated with {term}`CS&S`.
 
 To make sure that everyone has a common understanding of “show respect and courtesy to each other,” we have adopted the following code of conduct. The code of conduct is enforced by the [2i2c Executive Director](structure:ed) and [the Steering Council](structure:steerco).
 
