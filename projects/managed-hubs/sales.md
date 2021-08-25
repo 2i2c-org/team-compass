@@ -3,6 +3,11 @@
 2i2c pursues new collaborations and contracts via following-up on leads for those who may be interested in 2i2c services.
 This page has information to help guide this process.
 
+:::{admonition} Out of date!
+:class: warning
+The information on this page is out of date, and will be updated once we complete our onboarding with {term}`CS&S`.
+:::
+
 ## Location of sales assets and documents
 
 Here are some locations of common documents used in the sales process (other than the repositories described below).

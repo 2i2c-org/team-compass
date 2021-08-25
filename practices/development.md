@@ -83,6 +83,11 @@ The deliverable issue is the {term}`Source of Truth` for all work associated wit
 We use a special repository called [`external/`](https://github.com/2i2c-org/external/) to track all deliverables and work items that happen primarily in upstream repositories.
 The practices for doing this are described [in the `external/` repository README](https://github.com/2i2c-org/external/blob/master/README.md).
 
+### Tracking upstream issues
+
+In some cases we want to do work in an upstream repository or project.
+We use [the `upstream/` repository](https://github.com/2i2c-org/upstream) to track this work.
+See [the `upstream/` README](https://github.com/2i2c-org/upstream/blob/master/README.md) for information about our upstream workflow.
 
 (coordination:deliverables-backlog)=
 ## The Deliverables Backlog

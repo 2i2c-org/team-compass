@@ -1,0 +1,18 @@
+name: Open a sprint planning meeting issue
+on:
+  schedule:
+  # Run every Tuesday at 07:00 AM UTC / 09:00AM Europe / 00:00AM California
+  - cron: "0 07 * * 2"
+
+  workflow_dispatch:
+
+jobs:
+  create-sprint-planning-issue:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: JasonEtco/create-an-issue@v2
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        filename: .github/ISSUE_TEMPLATE/meeting-sprint-planning.md
