@@ -116,9 +116,10 @@ The Sprint Board is broken down into these columns:
 ## Merging and Reviewing policy
 
 The sections below describe major policies around merging and reviewing depending on the kind of change being made.
-Not all of them are followed strictly, though some are more important than others, and are marked with **REQUIRED**.
+There are some extra policies for changes that **affect actively-running infrastructure**.
+See the section below for details.
 
-### General Merge policy
+Not all of them are followed strictly, though some are more important than others, and are marked with **REQUIRED**.
 
 - **Always make a Pull Request**. (REQUIRED).
   All changes to 2i2c repositories should be made via a Pull Request.
@@ -140,40 +141,14 @@ Not all of them are followed strictly, though some are more important than other
   For changes that are minor, very straightforward, and do not affect actively-running infrastructure, it is acceptable to self-merge a PR without getting an approval.  
   If you don't believe that your PR requires an approval before merging, make it clear in your PR or in a comment that you plan to merge it in 24 hours.
 - **Leave PRs open for at least 24 working hours**.
-  This helps ensure that others on the team have have a chance to look at the PR and give their thoughts.
+  This helps ensure that others on the team have have a chance to look at the PR and give their thoughts. (by working hours we mean hours during a weekday).
 
-In addition, there are special policies that apply for certain kinds of changes, described in the sections below.
 
-### Policy for terraform changes
+### Policy for changes to running infrastructure
 
-Changes that provision active hub infrastructure (e.g., almost anything involving `terraform`) have a different workflow that requires different policies.
-Deploying changes to our infrastructure usually also entails a `terraform` deploy, done manually.
-This means that the PR is merely a **reflection** of the deployed infrastructure.
-
-In these cases, we still wish to use a PR in order to get feedback from others, with the following policies in addition to those listed above:
-
-- **The PR author must also merge the PR**. (REQUIRED)
-  Because a PR is a reflection of a _deploy_, the author of the PR should also be the one that merges it, since only they know what infrastructure has actually been deployed.
-- **Explicitly list a back-up if you must step away**. (REQUIRED)
-  PR authors are responsible for the infrastructure changes that they make.
-  You should generally only make a change to live infrastructure if you'll have the bandwidth to ensure it is fixed if something goes wrong.
-  If for some reason you **must** step away, make it clear who else is responsible for shepherding the PR.
-- **When you deploy leave a comment**. (REQUIRED)
-  You may deploy the infrastructure one or more times throughout a PR.
-  Each time you do, make sure the PR is updated with the state of the code when you deployed, and leave a comment making it clear to others that a deploy has been made.
-- **Use a draft PR before you have deployed something**.
-  This will signal to other members of the team that you have not changed any infrastructure yet, and are merely asking for feedback.
-- **Be more hesitant to deploy/merge without approval**.
-  Because this kind of infrastructure is affecting live infrastructure, you're encouraged to be even more careful about merging before somebody has given approval.
-  You may still use your best judgment, just be extra careful!
-
-  :::{admonition} Common things that often _don't_ require approval
-  - Updating admin users for a hub
-  - Changing basic hub configuration such as the URL of its landing page image
-  - Updating the user image of a hub.
-  :::
-
-Other than this, you should generally follow the policies above.
+Changing active infrastructure is a bit different from developing technology that is not immediately in production.
+As such, we follow some more specific guidelines for these kinds of changes.
+See [](ph:infrastructure:review).
 
 ### Policy for team compass changes
 
