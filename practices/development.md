@@ -141,7 +141,7 @@ Not all of them are followed strictly, though some are more important than other
   For changes that are minor, very straightforward, and do not affect actively-running infrastructure, it is acceptable to self-merge a PR without getting an approval.  
   If you don't believe that your PR requires an approval before merging, make it clear in your PR or in a comment that you plan to merge it in 24 hours.
 - **Leave PRs open for at least 24 working hours**.
-  This helps ensure that others on the team have have a chance to look at the PR and give their thoughts. (by working hours we mean hours during a weekday).
+  This helps ensure that others on the team have a chance to look at the PR and give their thoughts (by working hours we mean hours during a weekday).
 
 
 ### Policy for changes to running infrastructure
