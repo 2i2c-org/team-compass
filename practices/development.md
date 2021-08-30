@@ -124,9 +124,11 @@ Not all of them are followed strictly, though some are more important than other
 - **Always make a Pull Request**. (REQUIRED).
   All changes to 2i2c repositories should be made via a Pull Request.
   This should be enforced by setting the `main`/`master` branch of each repository to be "protected".
-- **PRs should reference issues**.
-  Generally speaking, a Pull Request shouldn't come out of the blue.
-  If you have an idea, open an issue to describe your idea first and make a proposed change, rather than just opening a PR from scratch.
+- **PRs should reference (and close) issues**.
+  A pull request should almost always be related to an issue.
+  Ideally, the issue should be tightly-scoped enough that the PR will close it when merged.
+  If you have an idea that *doesn't* yet have an issue, open an issue first and then make the PR to close it.
+  This ensures that the team has context around Pull Requests, and a chance to discuss before we implement.
 - **Use GitHub's `Request Review` feature**.
   Add specific team members so that it is clear who is needed to review the PR.
 - **Be explicit about what feedback you want**.
