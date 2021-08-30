@@ -124,12 +124,52 @@ The Sprint Board is broken down into these columns:
 - {guilabel}`In progress` A deliverable that a team member is currently working towards.
 - {guilabel}`Done` Tasks that are complete! When you move a task here, make sure to update any relevant deliverables.
 
-## Requesting reviews
+(development:merge-policy)=
+## Merging and Reviewing policy
 
-When you have an implementation that requires feedback, use GitHub's **Request Review** feature to ask other team members to take a look.
-In general, add specific team members so that it is clear who is needed to review the PR.
+The sections below describe major policies around merging and reviewing depending on the kind of change being made.
+There are some extra policies for changes that **affect actively-running infrastructure**.
+See the section below for details.
 
-% TODO: We should define a more structured process for requesting reviews and how it fits in with our merge policies.
+Not all of them are followed strictly, though some are more important than others, and are marked with **REQUIRED**.
+
+- **Always make a Pull Request**. (REQUIRED).
+  All changes to 2i2c repositories should be made via a Pull Request.
+  This should be enforced by setting the `main`/`master` branch of each repository to be "protected".
+- **PRs should reference (and close) issues**.
+  A pull request should almost always be related to an issue.
+  Ideally, the issue should be tightly-scoped enough that the PR will close it when merged.
+  If you have an idea that *doesn't* yet have an issue, open an issue first and then make the PR to close it.
+  This ensures that the team has context around Pull Requests, and a chance to discuss before we implement.
+- **Use GitHub's `Request Review` feature**.
+  Add specific team members so that it is clear who is needed to review the PR.
+- **Be explicit about what feedback you want**.
+  When you open a PR, include some language about specific things you'd like feedback with, if applicable.
+  This helps others focus their attention.
+- **Use the review column on sprint boards**.
+  When a PR needs review, move any relevant issues to the {kbd}`Review` column of the active [Sprint Board](coordination:sprint-board) so others notice it.
+- **Merge after one approval**.
+  If there is at least one approval on a PR, then anybody, including the PR author, may merge the PR.
+  PR authors should not hesitate to merge their own PR after an approval if they think it is ready to go!
+- **Merging without review is discouraged, but not forbidden**.
+  For changes that are minor, very straightforward, and do not affect actively-running infrastructure, it is acceptable to self-merge a PR without getting an approval.  
+  If you don't believe that your PR requires an approval before merging, make it clear in your PR or in a comment that you plan to merge it in 24 hours.
+- **Leave PRs open for at least 24 working hours**.
+  This helps ensure that others on the team have a chance to look at the PR and give their thoughts (by working hours we mean hours during a weekday).
+
+
+### Policy for changes to running infrastructure
+
+Changing active infrastructure is a bit different from developing technology that is not immediately in production.
+As such, we follow some more specific guidelines for these kinds of changes.
+See [](ph:infrastructure:review).
+
+### Policy for team compass changes
+
+If a change affects the 2i2c team policies, or makes significant changes to our documentation or public-facing material, then you should also follow these extra policies:
+
+- **Ensure that the team has consented**.
+  For any major change, you should make sure that you have followed best-practices in consent-based decision making. See [](development:decisions) for more information.
 
 ## How to keep track of projects
 
@@ -159,3 +199,26 @@ Here is a common column structure:
 - {guilabel}`Blocked`: Deliverables that require another action or delivearable from the 2i2c team to complete before they can move forward.
 - {guilabel}`Waiting`: Deliverables that require another action from a **non-2i2c team member** before they can move forward.
 - {guilabel}`Done`: Deliverables that have been completed. We should close these issues and celebrate the improvements that we have made!
+
+(development:decisions)=
+## How we make decisions
+
+The 2i2c Team follows [consent based decision-making](https://thedecider.app/consent-decision-making) in making all of its team decisions.
+This roughly means the following for **any decision that impacts all team members**:
+
+- The proposed decision and relevant context must be available to all team members.
+  This is generally done via opening GitHub issues.
+- Ensure that team members have time to understand the proposal, and ask questions about it to understand its ramifications.
+- Ensure that team members have time to object and make suggested changes.
+- Ensure that the result of the decision is recorded somewhere that is available to all team members.
+
+Generally speaking, this process is carried out via GitHub Issues and Pull Requests.
+See [](development:merge-policy) for how this works in practice.
+
+### Resources to learn about consent-based decision making
+
+Here are some helpful resources for more information about consent-based decision-making.
+
+- A short primer: https://thedecider.app/consent-decision-making
+- A more in-depth discussion: https://www.sociocracyforall.org/consent-decision-making/
+- A well-known technical proposal on "Consent via humming": https://tools.ietf.org/html/rfc7282
