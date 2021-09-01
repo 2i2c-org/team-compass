@@ -24,7 +24,7 @@ This is an ongoing effort to define structure, process, and governance of 2i2c s
 There are a few places to track this project:
 
 - [Issues in the 2i2c meta repository](https://github.com/2i2c-org/meta/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc) often contain actionable items towards this project.
-- The [organizational projects backlog](https://github.com/2i2c-org/meta/projects/6?fullscreen=true) contains a list of deliverables we are currently working towards.
+- The [organizational projects backlog](https://github.com/orgs/2i2c-org/projects/11) contains a list of deliverables we are currently working towards.
 
 ## Launch of the Managed JupyterHub Service
 

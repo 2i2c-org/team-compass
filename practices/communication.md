@@ -15,9 +15,9 @@ By default, try to keep it async!
 For those who are doing daily work with 2i2c, we use [GitHub Discussions](https://docs.github.com/en/discussions) for our asynchronous conversation.
 There are a few different discussion forums depending on the kind of conversation you'd like to have:
 
-- General team discussion: [2i2c-org/team-compass/discussions](https://2i2c-org/team-compass/discussions)
-- Discussion specifically about the pilot hubs: [2i2c-org/pilot-hubs/discussions](https://2i2c-org/pilot-hubs/discussions)
-- Team discussion that needs to be private (this should be low-volume): [2i2c-org/meta/discussions](https://2i2c-org/meta/discussions)
+- General team discussion: [2i2c-org/team-compass/discussions](https://github.com/2i2c-org/team-compass/discussions)
+- Discussion specifically about the pilot hubs: [2i2c-org/pilot-hubs/discussions](https://github.com/2i2c-org/pilot-hubs/discussions)
+- Team discussion that needs to be private (this should be low-volume): [2i2c-org/meta/discussions](https://github.com/2i2c-org/meta/discussions)
 
 ### To-do items and deliverables
 

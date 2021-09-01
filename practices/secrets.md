@@ -73,7 +73,7 @@ Once you've completed those steps, do the following:
    sops --decrypt config/secrets.yaml
    ```
 
-   :::{margin}
+   :::{tip}
    You can also use the `-d` flag instead of `--decrypt`.
    :::
 
