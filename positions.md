@@ -46,4 +46,4 @@ This role is the director of 2i2c. They oversee strategy, execution, and fundrai
 
 Salaries at 2i2c are determined solely by job title as well as several steps within that job (corresponding to experience in a particular job). Currently, the salary policy of 2i2c is [listed on the careers page of our website](https://2i2c.org/careers/). We additionally have [internal salary documents for the specific positions and levels](https://docs.google.com/spreadsheets/d/1FJM5pAbc0EWhu4CpPjlbWTMOsZAnivEd2ZBIZIdwpE8/edit?usp=sharing).
 
-[^job-refs]: In particular, [Buffer](https://buffer.com/resources/salary-formula-changes-2019/), [Stack Overflow](https://stackoverflow.blog/2016/07/27/salary-transparency/), and [Basecamp](https://m.signalvnoise.com/how-we-pay-people-at-basecamp/)
+[^job-refs]: In particular, [Buffer](https://buffer.com/resources/salary-formula-changes-2019/) and [Basecamp](https://m.signalvnoise.com/how-we-pay-people-at-basecamp/)

@@ -4,8 +4,8 @@
 This section describes how our development team carries out its planning and day-to-day work.
 
 :::{admonition} Helpful links
-👉 [Here is a link to all 2i2c GitHub Issues that have been assigned to you](https://github.com/issues?q=is%3Aissue+is%3Aopen+archived%3Afalse+sort%3Aupdated-desc+assignee%3A%40me+user%3A2i2c-org+)
-👉 [Here's a link to see all Pull Requests for which your review is requested](https://github.com/issues?q=is%3Aopen+archived%3Afalse+sort%3Aupdated-desc+user%3A2i2c-org+type%3Apr+review-requested%3A%40me+)
+👉 [Here is a link to all 2i2c GitHub Issues that have been assigned to you](https://github.com/issues?q=is%3Aissue+is%3Aopen+archived%3Afalse+sort%3Aupdated-desc+assignee%3A%40me+user%3A2i2c-org)
+👉 [Here's a link to see all Pull Requests for which your review is requested](https://github.com/issues?q=is%3Aopen+archived%3Afalse+sort%3Aupdated-desc+user%3A2i2c-org+type%3Apr+review-requested%3A%40me)
 :::
 
 ## Cadence of work
@@ -37,7 +37,7 @@ Most issues in our repositories are deliverables, in varying states of readiness
 There are a few special sections of a deliverable issue.
 Not all of them are strictly required, but are particularly useful for more complex or long-lasting deliverables.
 
-See [this Github Issue template](https://github.com/2i2c-org/team-compass/blob/main/.github/ISSUE_TEMPLATE/new-deliverable.md) for an example of a deliverable's structure.
+See [this Github Issue template](https://github.com/2i2c-org/team-compass/blob/main/.github/ISSUE_TEMPLATE/1_new-issue.yml) for an example of a deliverable's structure.
 Below are some major sections that are common:
 
 Top Comment

@@ -21,7 +21,6 @@ Every Monday, the 2i2c Hub Operations team conducts a team sync to get on the sa
 
 A GitHub Action will automatically create a new Team Sync issue at the beginning of each Monday.
 This action uses [this issue template](https://github.com/2i2c-org/team-compass/blob/main/.github/ISSUE_TEMPLATE/team-update.md) and inserts currently open/actionable issues before creating the sync issue.
-It uses [this Python/ipynb script to generate the issue](https://github.com/2i2c-org/team-compass/blob/main/scripts/post-team-sync.py).
 
 Here is the process for our team syncs.
 

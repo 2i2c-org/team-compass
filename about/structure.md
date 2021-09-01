@@ -84,7 +84,7 @@ In addition to generally consulting the Steering Council when it is helpful, the
 
 #### Decisions that require a full steering council vote
 
-The [Steering Council](https://2i2c-team-compass--61.org.readthedocs.build/en/61/about/structure.html#structure-steerco) defines the strategy and major direction of 2i2c. It must vote on major decisions that have strong implications for 2i2c’s strategy or financial well-being. See [the proposal process section](proposal-process) for information about how it votes.
+The [Steering Council](structure:steerco) defines the strategy and major direction of 2i2c. It must vote on major decisions that have strong implications for 2i2c’s strategy or financial well-being. See [the proposal process section](proposal-process) for information about how it votes.
 
 Here are some major decision areas that require a full steering council vote.
 
