@@ -8,7 +8,20 @@ This section describes how our development team carries out its planning and day
 👉 [Here's a link to see all Pull Requests for which your review is requested](https://github.com/issues?q=is%3Aopen+archived%3Afalse+sort%3Aupdated-desc+user%3A2i2c-org+type%3Apr+review-requested%3A%40me)
 :::
 
-## Cadence of work
+(coordination:sprints)=
+## Team Sprints
+
+The 2i2c team uses Sprints to coordinate with one another in focused cycles of work.
+To begin each sprint, we collectively choose items to work on in the next sprint.
+Each item should have a person assigned to it, who will be responsible for ensuring that the work gets done.
+However, our work within a sprint is a **team commitment**, and we are all responsible for helping one another accomplish our tasks.
+
+### Sprint cadence
+
+:::{admonition} Temporarily weekly!
+We are still working out the best structure for the Sprint Planning meeting and how it fits in with our team coordination.
+See [this GitHub issue](https://github.com/2i2c-org/team-compass/issues/182) for the latest information.
+:::
 
 Our team works in one week sprints.
 Here is a brief overview of each sprint.
@@ -24,6 +37,43 @@ Wed-Friday
 Monday
 : By the end of the day, team members should have completed all of their deliverables for that week.
   Each team member fills out a **team sync update** to share the major things they worked on, and note any unexpected challenges or blockers.
+
+### Sprint planning meeting
+
+The 2i2c team meets **every Tuesday** for 60 minutes.
+The goal of this meeting is to review our major work deliverables, synchronize with one another, and prioritize work across team members.
+It is also a chance to hand off the Support Steward role to the next person.
+
+Sprint Planning Meetings roughly follow a two-step process:
+
+1. Scan and discuss the [deliverables backlog](coordination:deliverables-backlog) in order to understand our WIP deliverables and their prioritization relative to one another.
+2. Add deliverables, or their tasks, to the week's Sprint Board, and work on them throughout the week.
+   It's up to the team whether a deliverable or one of its tasks should be added to the board.
+
+You can find the meeting format/agenda {download}`in the Sprint Planning meeting template <../.github/ISSUE_TEMPLATE/meeting-sprint-planning.md>`.
+
+(coordination:sprint-board)=
+### The Sprint Board
+
+The Sprint Board is a place to keep track of the [Deliverables](coordination:deliverables) our team intends to work on for the week.
+It is a GitHub Projects board that is created for each week, and closed at the end of each week.
+The team's goal is to complete all deliverables on the Sprint Board by the end of the Sprint.
+This is a team commitment - while one person may be assigned to a deliverable, we all commit to working together to get the work done.
+
+:::{admonition} The Sprint Board should...
+:class: tip
+- Have enough deliverables/tasks to keep the team occupied for the week
+- Not have so many deliverables that a team member gets overwhelmed
+- Under-estimate our team's total capacity, to provide room for unexpected work (e.g., support work)
+- Have a team member assigned to each item on the board
+:::
+
+The Sprint Board is broken down into these columns:
+
+- {guilabel}`Up Next` Deliverables that are ready to be worked on.
+- {guilabel}`In progress` A deliverable that a team member is currently working towards.
+- {guilabel}`Needs Input` Items that require input from one or more team members before moving forward. If a review is needed, use the {guilabel}`needs:review` label, and if a decision is needed, use the {guilabel}`needs:decision` label.
+- {guilabel}`Done` Tasks that are complete! When you move a task here, make sure to update any relevant deliverables.
 
 (coordination:deliverables)=
 ## Deliverables
@@ -57,6 +107,19 @@ Tasks to complete
   Task lists should be updated over time as we learn the steps needed to close the deliverable.
   For more complex deliverables, these tasks may be what goes onto the Sprint Board, rather than the deliverable itself.
 
+(coordination:deliverables-backlog)=
+### The Deliverables Backlog
+
+[Click here to go to the Deliverables Backlog](https://github.com/orgs/2i2c-org/projects/7?fullscreen=true).
+
+The Deliverables Backlog is a GitHub Projects Board with a list of [Deliverables](coordination:deliverables) across all of our active projects.
+These deliverables adhere to the following principles:
+
+- Each item on this board should be **ready to work**, meaning that it has enough background information and context for a team member to steward it to completion.
+- The order of these deliverables should be roughly according to priority, with higher priority deliverables at the top of lists.
+- High-priority deliverables should be added to a [weekly sprint board](coordination:sprint-board) in order to be worked on.
+- If a deliverable has multiple components or would otherwise take longer than a week to complete, create task lists inside it to track steps. Add those steps to the Sprint board, not the whole deliverable.
+
 ### Working on deliverables
 
 Deliverables are ready to work when they have enough context and tasks so that a team member can begin making progress towards closing them.
@@ -78,51 +141,11 @@ As work is done towards a deliverable, update the top comment of the **deliverab
 The deliverable issue is the {term}`Source of Truth` for all work associated with it (instead of, for example, an issue created for a task for that deliverable).
 
 (coordination:deliverables:upstream)=
-### Deliverables in upstream repositories
-
-We use a special repository called [`external/`](https://github.com/2i2c-org/external/) to track all deliverables and work items that happen primarily in upstream repositories.
-The practices for doing this are described [in the `external/` repository README](https://github.com/2i2c-org/external/blob/master/README.md).
-
 ### Tracking upstream issues
 
 In some cases we want to do work in an upstream repository or project.
 We use [the `upstream/` repository](https://github.com/2i2c-org/upstream) to track this work.
 See [the `upstream/` README](https://github.com/2i2c-org/upstream/blob/master/README.md) for information about our upstream workflow.
-
-(coordination:deliverables-backlog)=
-## The Deliverables Backlog
-
-[Click here to go to the Deliverables Backlog](https://github.com/orgs/2i2c-org/projects/7?fullscreen=true).
-
-The Deliverables Backlog is a GitHub Projects Board with a list of [Deliverables](coordination:deliverables) across all of our active projects.
-These deliverables adhere to the following principles:
-
-- Each item on this board should be **ready to work**, meaning that it has enough background information and context for a team member to steward it to completion.
-- The order of these deliverables should be roughly according to priority, with higher priority deliverables at the top of lists.
-- High-priority deliverables should be added to a [weekly sprint board](coordination:sprint-board) in order to be worked on.
-- If a deliverable has multiple components or would otherwise take longer than a week to complete, create task lists inside it to track steps. Add those steps to the Sprint board, not the whole deliverable.
-
-(coordination:sprint-board)=
-## The Sprint Board
-
-The Sprint Board is a place to keep track of the [Deliverables](coordination:deliverables) our team intends to work on for the week.
-It is a GitHub Projects board that is created for each week, and closed at the end of each week.
-All deliverables on the Sprint Board should be accomplished by the end of the week.
-This board is filled during our [Sprint Planning meeting](meetings:sprint-planning).
-
-:::{admonition} The Sprint Board should...
-:class: tip
-- Have enough deliverables/tasks to keep the team occupied for the week
-- Not have so many deliverables that a team member gets overwhelmed
-- Under-estimate our team's total capacity, to provide room for unexpected work (e.g., support work)
-- Have a team member assigned to each item on the board
-:::
-
-The Sprint Board is broken down into these columns:
-
-- {guilabel}`Up Next` Deliverables that are ready to be worked on.
-- {guilabel}`In progress` A deliverable that a team member is currently working towards.
-- {guilabel}`Done` Tasks that are complete! When you move a task here, make sure to update any relevant deliverables.
 
 (development:merge-policy)=
 ## Merging and Reviewing policy

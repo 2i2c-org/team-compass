@@ -81,22 +81,7 @@ See the [Team Calendar page](team/calendar) for information about when and where
 (meetings:sprint-planning)=
 ### Sprint Planning meetings
 
-:::{admonition} Temporarily weekly!
-We are still working out the best structure for the Sprint Planning meeting and how it fits in with our team coordination.
-See [this GitHub issue](https://github.com/2i2c-org/team-compass/issues/182) for the latest information.
-:::
-
-The 2i2c team meets **every Tuesday** for 60 minutes.
-The goal of this meeting is to review our major work deliverables, synchronize with one another, and prioritize work across team members.
-It is also a chance to hand off the Support Steward role to the next person.
-
-Sprint Planning Meetings roughly follow a two-step process:
-
-1. Scan and discuss the [deliverables backlog](coordination:deliverables-backlog) in order to understand our WIP deliverables and their prioritization relative to one another.
-2. Add deliverables, or their tasks, to the week's Sprint Board, and work on them throughout the week.
-   It's up to the team whether a deliverable or one of its tasks should be added to the board.
-
-You can find the meeting format/agenda {download}`in the Sprint Planning meeting template <../.github/ISSUE_TEMPLATE/meeting-sprint-planning.md>`.
+See [](coordination:sprints) for information about these meetings.
 
 ### One on one meetings
 
