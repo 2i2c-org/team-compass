@@ -19,7 +19,7 @@ The [organizational foundation project](https://github.com/orgs/2i2c-org/project
 :::
 
 - **Strategy** - We must define a long-term vision for 2i2c, and high-level strategy for executing on that vision.
-- **Governance** - We must define how decision get made within 2i2c at all levels of the organization.
+- **Governance** - We must define how decisions get made within 2i2c at all levels of the organization.
 - **Organizational policy** - We must define our early organizational policy, culture, and core documents like a Code of Conduct.
 - **Administration** - We need an administrative infrastructure to carry out 2i2c's organizational needs. This includes its legal status, hiring/contracting, and invoicing. 
 - **Public materials** - In order to gain recognition, we need to build public-facing materials and documentation. This includes websites and social media handles, early branding, and documentation.
