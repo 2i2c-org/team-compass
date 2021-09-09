@@ -50,16 +50,6 @@ meetings/eng/index
 reference/calendar
 ```
 
-## Major Projects
-
-Information about major efforts currently underway at 2i2c.
-
-```{toctree}
-:caption: 2i2c Projects
-projects/index
-projects/managed-hubs/index
-```
-
 ## About 2i2c
 
 Information about the broader 2i2c organization, as well as its mission and structure.
@@ -69,6 +59,7 @@ Information about the broader 2i2c organization, as well as its mission and stru
 :caption: About 2i2c
 
 about
+projects/index
 about/structure
 about/strategy
 positions
