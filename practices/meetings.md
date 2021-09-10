@@ -5,7 +5,8 @@ There are a few kinds of synchronous meetings that we create space for.
 This section describes the kinds of meetings we use and why they exist.
 
 :::{seealso}
-See the [Team Calendar page](team/calendar) for specific dates and information about each of these meetings.
+- See the [Team Calendar page](team/calendar) for specific dates and information about each of these meetings.
+- See [the communication page](practices:communication) for information about how to access zoom meetings and other communication channels.
 :::
 
 ## Guidelines for all team meetings
