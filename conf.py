@@ -66,8 +66,8 @@ myst_enable_extensions = [
 ]
 myst_url_schemes = ["https", "http", "ftp", "mailto"]
 intersphinx_mapping = {
-    "pi": ("https://pilot.2i2c.org", None),
-    "ph": ("https://pilot-hubs.2i2c.org", None),
+    "pi": ("https://pilot.2i2c.org/en/latest", None),
+    "ph": ("https://pilot-hubs.2i2c.org/en/latest", None),
 }
 
 panels_add_bootstrap_css = False
