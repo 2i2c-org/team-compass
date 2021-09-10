@@ -69,7 +69,7 @@ This Slack has both 2i2c staff and Steering Conucil members, as well as several 
 Our team has a dedicated Zoom room that anybody on the 2i2c team may use.
 We try not to publicly post this link to avoid the likelihood of abuse.
 The room is password-protected but accessible to anybody that joins via the link.
-Ask any team member what the URL is (it is easy to remember).
+Ask any team member what the URL is (it is easy to remember) if you wish to join.
 
 In addition, the Zoom account that is connected to this room is also available for any 2i2c team member to use.
 The username for this account is `hello@2i2c.org` and you should ask a team member for the password if you wish to use it.
