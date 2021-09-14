@@ -1,4 +1,4 @@
-
+(practices:communication)=
 # Team communication
 
 There are a few different communication channels with 2i2c, depending on your team and what kind of communication you'd like to have.
@@ -63,7 +63,18 @@ It is not used for official records or planning.
 Informal communication happens in the 2i2c Slack channel ([http://2i2c.slack.com/](http://2i2c.slack.com/)).
 This Slack has both 2i2c staff and Steering Conucil members, as well as several other interested parties.
 
+(communication:zoom)=
+## Zoom
 
+Our team has a dedicated Zoom room that anybody on the 2i2c team may use.
+We try not to publicly post this link to avoid the likelihood of abuse.
+The room is password-protected but accessible to anybody that joins via the link.
+Ask any team member what the URL is (it is easy to remember) if you wish to join.
+
+In addition, the Zoom account that is connected to this room is also available for any 2i2c team member to use.
+The username for this account is `hello@2i2c.org` and you should ask a team member for the password if you wish to use it.
+
+For public-facing zoom meetings that are hosted with this account, create a zoom link that is unique to the meeting, rather than using the general team room.
 
 ## Slack
 
