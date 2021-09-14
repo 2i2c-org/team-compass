@@ -18,34 +18,31 @@ However, our work within a sprint is a **team commitment**, and we are all respo
 
 ### Sprint cadence
 
-:::{admonition} Temporarily weekly!
-We are still working out the best structure for the Sprint Planning meeting and how it fits in with our team coordination.
-See [this GitHub issue](https://github.com/2i2c-org/team-compass/issues/182) for the latest information.
-:::
-
-Our team works in one week sprints.
+Our team works in **two-week sprints**.
 Here is a brief overview of each sprint.
 
-Tuesday
+Wednesday (beginning of sprint)
 : Sprint begins with our [sprint planning meeting](meetings:sprint-planning).
 
-  In this meeting we prioritize and assign the items that each team member will work on for this week, and review items that require discussion and planning.
+  In this meeting we discuss major accomplishments in the previous sprint. We then prioritize and assign the items that each team member will work on for the next sprint, and review items that require discussion and planning.
 
-Wed-Friday
+During the sprint
 : Team members work on the deliverables assigned to them at the sprint planning meeting.
+  We use [the Sprint Board](coordination:sprint-board) to coordinate our activities during the sprint.
+  On Mondays, each team member fills out a **team sync update** to share the major things they worked on, and note any unexpected challenges or blockers.
 
-Monday
-: By the end of the day, team members should have completed all of their deliverables for that week.
-  Each team member fills out a **team sync update** to share the major things they worked on, and note any unexpected challenges or blockers.
-
+Tuesday of week 2 (end of sprint)
+: By the end of the day, team members should have completed all of their deliverables for that sprint.
+  
 ### Sprint planning meeting
 
-The 2i2c team meets **every Tuesday** for 60 minutes.
+The team conducts a Sprint Planning meeting for 60 minutes at the beginning of each sprint.
 The goal of this meeting is to review our major work deliverables, synchronize with one another, and prioritize work across team members.
 It is also a chance to hand off the Support Steward role to the next person.
 
-Sprint Planning Meetings roughly follow a two-step process:
+Sprint Planning Meetings roughly follow a three-step process:
 
+1. Review what we've accomplished in the previous sprint, and decide what to do with remaining deliverables that we did not complete.
 1. Scan and discuss the [deliverables backlog](coordination:deliverables-backlog) in order to understand our WIP deliverables and their prioritization relative to one another.
 2. Add deliverables, or their tasks, to the week's Sprint Board, and work on them throughout the week.
    It's up to the team whether a deliverable or one of its tasks should be added to the board.
