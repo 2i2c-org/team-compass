@@ -9,6 +9,12 @@ In general, projects should have:
 1. A name / description
 2. A location where deliverables and tasks are being tracked.
 
+:::{admonition} Prototyping project boards
+We are currently prototyping the use of Project Boards for _initiatives_ for our medium-term planning.
+Initiatives are collections of work with a particular theme or focus.
+You may see them in use below - but they may evolve and be used differently as we learn more!
+:::
+
 ## 2i2c organizational launch
 
 As 2i2c is quite young, it must first build an organizational foundation for itself.
