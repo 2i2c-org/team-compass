@@ -39,6 +39,12 @@ The Managed JupyterHub Service is a special project of 2i2c that is [developed a
 - [the roadmap for the service is described here](https://pilot.2i2c.org/en/latest/about/roadmap.html)
 :::
 
+More information about the Managed JupyterHub Service can be found in these sections:
+
+```{toctree}
+managed-hubs/index
+```
+
 (projects:jmte-pangeo)=
 ## Pangeo Hub Infrastructure development
 
@@ -64,7 +70,3 @@ Its activities are split across a variety of repositories in the [`executableboo
 - The [`executablebooks` feature voting board](https://executablebooks.org/en/latest/feature-vote.html) contains a table of issues users have "voted" for. It is a good guide for prioritizing work.
 
 :::
-
-```{toctree}
-managed-hubs/index
-```
