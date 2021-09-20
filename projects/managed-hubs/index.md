@@ -13,7 +13,7 @@ We are also building a sales and support pipeline around this infrasturcture.
 **Infrastructure and development** happens in [the `pilot-hubs/` repository](https://github.com/2i2c-org/pilot-hubs).
 This is both the deployment infrastructure for the 2i2c JupyterHubs, as well as documentation and team coordination around developing and running them.
 
-**THe Hub Engineer's Guide** describes how to develop and operate the 2i2c `pilot-hubs/` infrastructure.
+**The Hub Engineer's Guide** describes how to develop and operate the 2i2c `pilot-hubs/` infrastructure.
 It is generally designed for 2i2c engineers to follow and learn.
 You can find it at [pilot-hubs.2i2c.org](https://pilot-hubs.2i2c.org).
 
