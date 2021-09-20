@@ -13,9 +13,18 @@ We are also building a sales and support pipeline around this infrasturcture.
 **Infrastructure and development** happens in [the `pilot-hubs/` repository](https://github.com/2i2c-org/pilot-hubs).
 This is both the deployment infrastructure for the 2i2c JupyterHubs, as well as documentation and team coordination around developing and running them.
 
-**User Documentation** is located in [the `pilot/` repository](https://github.com/2i2c-org/pilot). This contains user-facing information about the Pilot Hubs, such as how they can add/remove users, update their environment, get support, etc.
+**The Hub Engineer's Guide** describes how to develop and operate the 2i2c `pilot-hubs/` infrastructure.
+It is generally designed for 2i2c engineers to follow and learn.
+You can find it at [pilot-hubs.2i2c.org](https://pilot-hubs.2i2c.org).
 
-**Information about the Managed Hubs Pilot** is located within sub-sections below.
+**The Hub Administrator's Guide** provides for Hub Administrators to customize and control their hub.
+It is community-facing, and meant as a more external view on the 2i2c Hubs Pilot.
+It also describes high-level information about the pilot in general.
+It is located at [pilot.2i2c.org](https://pilot.2i2c.org) (or [the `pilot/` repository](https://github.com/2i2c-org/pilot))
+
+**Strategy and roadmaps** for the Managed Hubs Pilot are located in the Hub Administrator's guide. 
+
+For other information about the Managed Hubs Pilot, see the sections below.
 
 ## A list of running JupyterHubs
 
