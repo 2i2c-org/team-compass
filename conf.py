@@ -17,7 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = "2i2c Team Compass"
+project = "Team Compass"
 copyright = "2021, 2i2c"
 author = "2i2c"
 
@@ -48,9 +48,14 @@ exclude_patterns = ["_build", "Thumbs.db", ".DS_Store", ".github"]
 # a list of builtin themes.
 #
 html_theme = "sphinx_book_theme"
+html_sidebars = {
+    "**": ["2i2c-logo.html", "sbt-sidebar-nav.html", "sbt-sidebar-footer"]
+}
+html_static_path = ["_static"]
 
 html_title = "Team Compass"
 html_logo = "images/logo.png"
+html_favicon = "_static/favicon.png"
 
 show_navbar_depth = 3
 html_theme_options = {
@@ -83,3 +88,7 @@ linkcheck_ignore = [
     "https://drive.google.com*",  # Because it's almost always private
     "https://icsi.berkeley.edu*",  # Because it's broken often
 ]
+
+def setup(app):
+    app.add_css_file("custom.css")
+    app.add_css_file("https://code.cdn.mozilla.net/fonts/fira.css")
