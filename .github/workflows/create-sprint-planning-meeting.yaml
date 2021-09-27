@@ -1,8 +1,8 @@
 name: Open a sprint planning meeting issue
 on:
   schedule:
-  # Run every Tuesday at 07:00 AM UTC / 09:00AM Europe / 00:00AM California
-  - cron: "0 07 * * 2"
+  # Run every Wednesday at 07:00 AM UTC / 09:00AM Europe / 00:00AM California
+  - cron: "0 07 * * 3"
 
   workflow_dispatch:
 

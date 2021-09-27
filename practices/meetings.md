@@ -1,5 +1,5 @@
 (meetings:intro)=
-# Team meetings
+# Meetings guidelines
 
 There are a few kinds of synchronous meetings that we create space for.
 This section describes the kinds of meetings we use and why they exist.
@@ -63,7 +63,9 @@ The following are meetings that we regularly hold.
 
 ### Monthly team meetings
 
-The 2i2c Team meets the **first Monday of each month** for 90 minutes.
+The 2i2c Team meets **monthly on Tuesdays** for 90 minutes.
+
+See the [Team Calendar page](team/calendar) for information about when and where the meetings are held.
 
 Monthly team meetings are an opportunity to all meet face to face in order to discuss topics that benefit from synchronous conversation.
 For example, these are some goals we might have:
@@ -73,11 +75,10 @@ For example, these are some goals we might have:
 - Zoom out and make sure we are on the right track
 - Discuss team process issues to make sure we are all supported
 
-It is **not a status update meeting** - this should be done via our GitHub issues and project boards!
+It is **not a status update meeting** - this should be done via our GitHub issues and sprint planning!
 
 We use [this HackMD for our team meeting notes and agenda](https://hackmd.io/Y5SBMxV7R6CMqzeTXgm5kA).
 
-See the [Team Calendar page](team/calendar) for information about when and where the meetings are held.
 
 (meetings:sprint-planning)=
 ### Sprint Planning meetings
