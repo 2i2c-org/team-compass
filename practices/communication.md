@@ -1,5 +1,5 @@
 (practices:communication)=
-# Team communication
+# Communication channels
 
 There are a few different communication channels with 2i2c, depending on your team and what kind of communication you'd like to have.
 See below for details.

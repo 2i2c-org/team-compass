@@ -1,5 +1,5 @@
 (meetings:intro)=
-# Team meetings
+# Meetings guidelines
 
 There are a few kinds of synchronous meetings that we create space for.
 This section describes the kinds of meetings we use and why they exist.

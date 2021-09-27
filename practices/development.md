@@ -1,10 +1,11 @@
 (coordination:development)=
-# Team development workflow
+# Development workflow
 
 This section describes how our development team carries out its planning and day-to-day work.
 
 :::{admonition} Helpful links
 👉 [Here is a link to all 2i2c GitHub Issues that have been assigned to you](https://github.com/issues?q=is%3Aissue+is%3Aopen+archived%3Afalse+sort%3Aupdated-desc+assignee%3A%40me+user%3A2i2c-org)
+
 👉 [Here's a link to see all Pull Requests for which your review is requested](https://github.com/issues?q=is%3Aopen+archived%3Afalse+sort%3Aupdated-desc+user%3A2i2c-org+type%3Apr+review-requested%3A%40me)
 :::
 
@@ -43,8 +44,8 @@ It is also a chance to hand off the Support Steward role to the next person.
 Sprint Planning Meetings roughly follow a three-step process:
 
 1. Review what we've accomplished in the previous sprint, and decide what to do with remaining deliverables that we did not complete.
-1. Scan and discuss the [deliverables backlog](coordination:deliverables-backlog) in order to understand our WIP deliverables and their prioritization relative to one another.
-2. Add deliverables, or their tasks, to the week's Sprint Board, and work on them throughout the week.
+2. Scan and discuss the [deliverables backlog](coordination:deliverables-backlog) in order to understand our WIP deliverables and their prioritization relative to one another.
+3. Add deliverables, or their tasks, to the week's Sprint Board, and work on them throughout the week.
    It's up to the team whether a deliverable or one of its tasks should be added to the board.
 
 You can find the meeting format/agenda {download}`in the Sprint Planning meeting template <../.github/ISSUE_TEMPLATE/meeting-sprint-planning.md>`.
