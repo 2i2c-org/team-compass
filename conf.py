@@ -29,7 +29,7 @@ author = "2i2c"
 # ones.
 extensions = [
     "myst_parser",
-    "sphinx_panels",
+    "sphinx_design",
     "sphinx_copybutton",
     "sphinx.ext.intersphinx",
 ]
@@ -40,7 +40,7 @@ templates_path = ["_templates"]
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
-exclude_patterns = ["_build", "Thumbs.db", ".DS_Store", ".github"]
+exclude_patterns = ["_build", "Thumbs.db", ".DS_Store", ".github", ".nox", "README.md"]
 
 # -- Options for HTML output -------------------------------------------------
 
@@ -49,7 +49,7 @@ exclude_patterns = ["_build", "Thumbs.db", ".DS_Store", ".github"]
 #
 html_theme = "sphinx_book_theme"
 html_sidebars = {
-    "**": ["2i2c-logo.html", "sbt-sidebar-nav.html", "sbt-sidebar-footer"]
+    "**": ["2i2c-logo.html", "search-field.html", "sbt-sidebar-nav.html", "sbt-sidebar-footer"]
 }
 html_static_path = ["_static"]
 
@@ -75,8 +75,6 @@ intersphinx_mapping = {
     "pi": ("https://pilot.2i2c.org/en/latest/", None),
     "ph": ("https://pilot-hubs.2i2c.org/en/latest/", None),
 }
-
-panels_add_bootstrap_css = False
 
 # Disable linkcheck for anchors because it throws false errors for any JS anchors
 linkcheck_anchors = False
