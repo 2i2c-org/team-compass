@@ -1,6 +1,7 @@
-sphinx
-sphinx-book-theme
 myst-parser[linkify]
-sphinx-copybutton
-sphinx-panels
 pandas
+sphinx
+sphinx-autobuild
+sphinx-book-theme
+sphinx-copybutton
+sphinx-design

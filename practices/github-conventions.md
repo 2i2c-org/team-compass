@@ -21,23 +21,46 @@ Issue types are mutually-exclusive - there may only be one issue type per issue.
 
 There are a few issue types that are defined for all repositories:
 
-- {badge}`type: deliverable, badge-info`: an incremental improvement to something. See [](coordination:deliverables) for more information.
-- {badge}`type: bug, badge-info`: something that is not working or incorrect in the repository.
+- {bdg-info}`type: enhancement`: an incremental improvement to something. See [](coordination:deliverables) for more information.
+- {bdg-info}`type: bug`: something that is not working or incorrect in the repository.
+- {bdg-info}`type: task`: an action to take.
 
 In addition, other repositories may use repository-specific types, with the caveat that **all issues must still only have one `type` label**.
 
-### Issue priority
+### Issue impact
 
 **OPTIONAL**
 
-Issue priority is used to classify some issues as requiring action before others.
-Any issue without a priority tag should be assumed as lower priority than {badge}`prio: low,badge-danger`.
- 
-Here are the priority labels for our issues:
+Issue impact is used to signal how much of an impact resolving an issue will have.
+The meaning of this depends on the issue type (e.g., enhancement, bug, etc), but our general guidelines are the following:
 
-- {badge}`prio: high, badge-danger`
-- {badge}`prio: medium, badge-danger`
-- {badge}`prio: low, badge-danger`
+:::{epigraph}
+The impact should be proportional to a combination of:
+
+- The number of users that will be impacted by an issue's resolution,
+- The extent of the impact our users will feel (e.g., major change in experience vs. minor improvement)
+- The importance of communities or stakeholders that are impacted by the issue.
+:::
+
+Here are the impact labels for our issues:
+
+- {bdg-danger}`impact: high`
+- {bdg-danger}`impact: medium`
+- {bdg-danger}`impact: low`
+
+#### Categorizing impact
+
+Here are a few guidelines for how to categorize impact across a few major types of issues.
+
+Features / Enhancements
+: - `impact: high`: Will be seen and commonly used by nearly all users. Has been requested by an abnormally large number of users. Is of particular importance to a key community.
+  - `impact: med`: Useful to many users but not an overwhelming amount. Will be a less-obvious improvement. Most issues should be in this category.
+  - `impact: low`: Useful but not a critical part of workflows. Is a niche use-case that only a few users may need.
+
+Bugs
+: - `impact: high`: Disruptive to nearly all users, or critically disruptive to many users or key communities (e.g., sessions won't work at all).
+  - `impact: med`: Disruptive to some users, but not in a critical way. Only noticeable under circumstances that aren't very common. Most issues should be in this category.
+  - `impact: low`: Minimally disruptive or cosmetic, or only affects a small number of users or niche use-cases.
 
 ### Issue tag
 
@@ -48,7 +71,7 @@ They are highly repository-specific, optional, and non-exclusive (so issues may 
 
 Here are some example tags:
 
-- {badge}`🏷: documentation,badge-warning`: related to documentation in a repository
-- {badge}`🏷: CI/CD,badge-warning`: related to continuous integration/deployment
-- {badge}`🏷: data access,badge-warning`: related to data access functionality
-- {badge}`🏷: hub admin,badge-warning`: related to hub administrator functionality
+- {bdg-warning}`🏷: documentation`: related to documentation in a repository
+- {bdg-warning}`🏷: CI/CD`: related to continuous integration/deployment
+- {bdg-warning}`🏷: data access`: related to data access functionality
+- {bdg-warning}`🏷: hub admin`: related to hub administrator functionality
