@@ -78,6 +78,6 @@ Here are some example tags:
 
 ## Documentation
 
-All of our team documentation is built with the [Sphinx documentation engine](https://sphinx-doc.org).
+All of our team documentation is built with the [Sphinx documentation engine](https://www.sphinx-doc.org/en/master/).
 We use a [shared Sphinx theme](https://github.com/2i2c-org/sphinx-2i2c-theme/blob/main/docs/index.md) across all of our repositories, in order to standardize the look and feel of our docs, and to ensure we have cross-references and navigation links across various documentation sites.
 See [the Sphinx 2i2c theme documentation](https://github.com/2i2c-org/sphinx-2i2c-theme/blob/main/docs/index.md) for instructions about how to use and contribute to this theme.
