@@ -75,3 +75,9 @@ Here are some example tags:
 - {bdg-warning}`🏷: CI/CD`: related to continuous integration/deployment
 - {bdg-warning}`🏷: data access`: related to data access functionality
 - {bdg-warning}`🏷: hub admin`: related to hub administrator functionality
+
+## Documentation
+
+All of our team documentation is built with the [Sphinx documentation engine](https://sphinx-doc.org).
+We use a [shared Sphinx theme](https://github.com/2i2c-org/sphinx-2i2c-theme/blob/main/docs/index.md) across all of our repositories, in order to standardize the look and feel of our docs, and to ensure we have cross-references and navigation links across various documentation sites.
+See [the Sphinx 2i2c theme documentation](https://github.com/2i2c-org/sphinx-2i2c-theme/blob/main/docs/index.md) for instructions about how to use and contribute to this theme.
