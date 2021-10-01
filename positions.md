@@ -31,6 +31,27 @@ Below is a list of positions that 2i2c currently uses.
 
 This role focuses on infrastructure that supports interactive computing. It intersects job titles such as “dev-ops engineer”, “site reliability engineer”, “software engineer”, and “cloud engineer”. This person should have experience with cloud infrastructure. They generally both operate 2i2c Hubs, as well as  develop technology for them. In general, a _minority_ of time should be spend operating hubs - we want to use operations as an opportunity to drive development and minimize human-in-the-loop maintenance.
 
+### Senior Open Source Infrastructure Engineer
+
+This section is primarily inspired by [On being a senior engineer](https://www.kitchensoap.com/2012/10/25/on-being-a-senior-engineer/).
+
+- Solve complex technical problems with **broad, cross-project scope**, often
+  involving co-ordination with multiple teams across different open source
+  projects.
+
+- Acts as a point of escalation for complex technical problems, preferring to
+  solve them with collaborative guidance rather than 'just doing it'.
+
+- Coordinate with product/business teams on roadmap priorities, and provide
+  implementation suggestions and effort estimates.
+
+- Provide guidance on major strategic questions in infrastructure and
+  engineering team strategy
+
+- Helps grow other engineers via mentorship, code & design review, and
+  sponsorship to find opportunities for them
+
+- Act as a role model for positive, inclusive, and constructive team dynamics.
 
 ### Director of engineering
 
