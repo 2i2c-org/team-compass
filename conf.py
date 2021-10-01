@@ -49,9 +49,7 @@ exclude_patterns = ["_build", "Thumbs.db", ".DS_Store", ".github", ".nox", "READ
 #
 html_theme = "sphinx_2i2c_theme"
 html_static_path = ["_static"]
-
 html_title = "Team Compass"
-html_favicon = "_static/favicon.png"
 
 show_navbar_depth = 3
 html_theme_options = {
@@ -85,4 +83,3 @@ linkcheck_ignore = [
 
 def setup(app):
     app.add_css_file("custom.css")
-    app.add_css_file("https://code.cdn.mozilla.net/fonts/fira.css")
