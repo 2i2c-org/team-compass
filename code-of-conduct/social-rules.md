@@ -1,7 +1,7 @@
 (social-rules)=
 # Social Rules
 
-2i2c has a few social rules. They help ensure that the 2i2c community lives up to [our values](https://2i2c.org/values/), which is a fundamental part of 2i2c’s mission. They also create a friendly, intellectual environment where you can spend as much of your energy as possible on interactive computing, open infrastructure, learning, discovery, and collaboration.
+2i2c has a few social rules. They help ensure that the 2i2c community lives up to [our values](https://2i2c.org/about#values), which is a fundamental part of 2i2c’s mission. They also create a friendly, intellectual environment where you can spend as much of your energy as possible on interactive computing, open infrastructure, learning, discovery, and collaboration.
 
 The social rules are:
 
