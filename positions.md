@@ -33,7 +33,9 @@ This role focuses on infrastructure that supports interactive computing. It inte
 
 ### Senior Open Source Infrastructure Engineer
 
-This section is primarily inspired by [On being a senior engineer](https://www.kitchensoap.com/2012/10/25/on-being-a-senior-engineer/).
+This role focuses their efforts on our infrastructure, but spends more of their time guiding others and focusing on particularly complex infrastructure design and development. Below is a short list of expectations for this role.[^sosie]
+
+[^sosie]:  This section is primarily inspired by [On being a senior engineer](https://www.kitchensoap.com/2012/10/25/on-being-a-senior-engineer/).
 
 - Solve complex technical problems with **broad, cross-project scope**, often
   involving co-ordination with multiple teams across different open source
