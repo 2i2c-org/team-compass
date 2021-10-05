@@ -29,13 +29,14 @@ Below is a list of positions that 2i2c currently uses.
 
 ### Open Source Infrastructure Engineer
 
-This role focuses on infrastructure that supports interactive computing. It intersects job titles such as “dev-ops engineer”, “site reliability engineer”, “software engineer”, and “cloud engineer”. This person should have experience with cloud infrastructure. They generally both operate 2i2c Hubs, as well as  develop technology for them. In general, a _minority_ of time should be spend operating hubs - we want to use operations as an opportunity to drive development and minimize human-in-the-loop maintenance.
+The Open Source Infrastructure (OSIE) focuses on infrastructure that supports interactive computing. It intersects job titles such as “dev-ops engineer”, “site reliability engineer”, “software engineer”, and “cloud engineer”. This person should have experience with cloud infrastructure. They generally both operate 2i2c Hubs, as well as  develop technology for them. In general, a _minority_ of time should be spend operating hubs - we want to use operations as an opportunity to drive development and minimize human-in-the-loop maintenance.
 
 ### Senior Open Source Infrastructure Engineer
 
-This role focuses their efforts on our infrastructure, but spends more of their time guiding others and focusing on particularly complex infrastructure design and development. Below is a short list of expectations for this role.[^sosie]
+The Senior Open Source Infrastructure Engineer (SOSIE) role is designed to help guide our team and cultivate a healthy and productive culture.
+It is heavily inspired by [On being a senior engineer](https://www.kitchensoap.com/2012/10/25/on-being-a-senior-engineer/).
 
-[^sosie]:  This section is primarily inspired by [On being a senior engineer](https://www.kitchensoap.com/2012/10/25/on-being-a-senior-engineer/).
+This role focuses their efforts on our infrastructure, but spends more of their time guiding others, focusing on particularly complex infrastructure design and development, and interfacing with other teams and stakeholder communities to help guide our development. Below is a short list of expectations for this role.
 
 - Solve complex technical problems with **broad, cross-project scope**, often
   involving co-ordination with multiple teams across different open source
