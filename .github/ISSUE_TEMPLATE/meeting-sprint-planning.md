@@ -14,22 +14,29 @@ Our goal is to synchronize the team on the most important things to work on, and
 - [**Sprint Board**](https://github.com/orgs/2i2c-org/projects/21)
 - [**Deliverables backlog**](https://github.com/orgs/2i2c-org/projects/22)
 
-**Meeting facilitator**: <INSERT FACILITATOR HERE>
+### Meeting roles
 
-## Meeting agenda
+- **Meeting facilitator**: {{ NAME }}
+- **Next Support Steward**: {{ NAME }}
+
+### Meeting agenda
 
 _Follow the agenda below, checking boxes as we complete each step._
 
+**Review the Sprint Board.** (10m)
 
-- [ ] Review the Sprint Board. (10m)
-  - [ ] Celebrate our accomplishments
-  - [ ] Decide what to do with any incomplete deliverables
-  - [ ] Archive deliverables we finished
-- [ ] Populate Sprint Board with new deliverables (45m)
-  - [ ] Review and clarify any deliverables we'd like to work on next
-  - [ ] Add new deliverables to Sprint Board
-  - [ ] Somebody is assigned to each deliverable
-  - [ ] Everybody agrees the current cycle's plan is realistic and that the right items are on the board.
-- [ ] Support ticket overview. (5m)
-  - [ ] Support steward describes any open support issues.
-  - [ ] Next support steward is: <INSERT NAME HERE>
+- [ ] Celebrate our accomplishments
+- [ ] Decide what to do with any incomplete deliverables
+- [ ] Archive deliverables we finished
+
+**Populate Sprint Board with new deliverables** (45m)
+
+- [ ] Review and clarify any deliverables we'd like to work on next
+- [ ] Add new deliverables to Sprint Board
+- [ ] Somebody is assigned to each deliverable
+- [ ] Everybody agrees the current cycle's plan is realistic and that the right items are on the board.
+
+**Support ticket overview** (5m)
+
+- [ ] Support steward describes any open support issues.
+- [ ] Next support steward is listed above

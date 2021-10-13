@@ -45,6 +45,11 @@ After the meeting
   - Close-out the meeting issue
 :::
 
+#### Who serves as the facilitator?
+
+Everybody on the engineering team, on a rotating basis. We rotate meeting facilitators **every month** and transition this role at the monthly team meeting. The meeting facilitator rotates through the [“Open Infrastructure Engineering Team” on this page](https://team-compass.2i2c.org/en/latest/about/team.html), in alphabetical order.
+
+
 ### Recorder
 
 The Meeting Recorder is responsible for encoding the discussion points and actionable items that came out of a meeting.

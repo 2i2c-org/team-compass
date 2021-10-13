@@ -7,7 +7,7 @@ title: "Team Meeting: {{ date | date('MMMM') }}"
 
 This is a planning issue for our next team meeting! See below for information about the meeting and next steps.
 
-# Information
+### Information
 
 _Information about when and where the meeting will take place_
 
@@ -23,7 +23,7 @@ _Links to follow up issues below_
 
 - ...
 
-# Tasks for the facilitator
+### Tasks for the facilitator
 
 _Steps to take to have the meeting._
 
@@ -31,5 +31,12 @@ _Steps to take to have the meeting._
 - [ ] Have the meeting
 - [ ] Open up any follow-up issues or discussions and link above
 - [ ] Cut notes out of HackMD and add to the Team Compass
-- [ ] Next team facilitator is notified: {{ INSERT HANDLE HERE }}
-- [ ] Meeting complete! 🎉
+- [ ] Team facilitator is handed off.
+
+### Team roles
+
+_List the current and next meeting facilitator using the list from [our team page](https://team-compass.2i2c.org/en/latest/about/team.html)_
+
+- Facilitator for this month: {{ NAME }}
+- Facilitator for next month: {{ NAME }}
+git status
