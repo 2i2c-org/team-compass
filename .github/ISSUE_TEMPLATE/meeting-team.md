@@ -2,7 +2,7 @@
 name: "📅 Team Meeting"
 about: Plan a team meeting.
 labels: "type: team-sync"
-title: "Team Meeting: <MONTH YYYY>"
+title: "Team Meeting: {{ date | date('MMMM') }}"
 ---
 
 This is a planning issue for our next team meeting! See below for information about the meeting and next steps.
@@ -12,13 +12,10 @@ This is a planning issue for our next team meeting! See below for information ab
 _Information about when and where the meeting will take place_
 
 - **Date:** <YYYY-MM-DD>
-- **Time:** 8AM US/Pacific time (or [**your timezone**](https://arewemeetingyet.com/Los%20Angeles/<YYYY-MM-DD>/08:00/2i2c%20Team%20Meeting#eyJ1cmwiOiJodHRwczovL2hhY2ttZC5pby9ZNVNCTXhWN1I2Q01xemVUWGdtNWtBIn0=))
-- **Video conference link:** https://bit.ly/zoom-holdgraf
+- **Time:** 7:30AM US/Pacific time (or [**your timezone**](https://arewemeetingyet.com/Los%20Angeles/<YYYY-MM-DD>/07:30/2i2c%20Team%20Meeting#eyJ1cmwiOiJodHRwczovL2hhY2ttZC5pby9ZNVNCTXhWN1I2Q01xemVUWGdtNWtBIn0=))
+- **Video conference link:** https://zoom.2i2c.org
 - **HackMD for meeting:** https://hackmd.io/Y5SBMxV7R6CMqzeTXgm5kA
 - **Calendar for future meetings:** [this Google Calendar](https://calendar.google.com/calendar/embed?src=c_4hjjouojd8psql9i1a8nd1uff4%40group.calendar.google.com&ctz=America%2FLos_Angeles)
-- **Meeting facilitator**: <INSERT FACILITATOR HERE>
-- **Meeting recorder**: <INSERT RECORDER HERE>
-- **Meeting timekeeper**: <INSERT TIMEKEEPER HERE>
 
 # Follow up issues
 
@@ -26,16 +23,13 @@ _Links to follow up issues below_
 
 - ...
 
-# Actions
+# Tasks for the facilitator
 
 _Steps to take to have the meeting._
 
-- **At least 1 day prior to meeting**
-  - [ ] Agenda items added to the meeting
-  - [ ] Meeting roles identified in meeting issue
+- [ ] Agenda items added to the meeting
 - [ ] Have the meeting
 - [ ] Open up any follow-up issues or discussions and link above
-- [ ] Cut notes out of HackMD and add to the Team Compass: <PR link here>
-- [ ] Update HackMD information for next month's meeting
-- [ ] Create a GitHub issue for next month's meeting
+- [ ] Cut notes out of HackMD and add to the Team Compass
+- [ ] Next team facilitator is notified: {{ INSERT HANDLE HERE }}
 - [ ] Meeting complete! 🎉
