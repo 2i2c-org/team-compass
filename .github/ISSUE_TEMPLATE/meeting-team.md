@@ -39,4 +39,3 @@ _List the current and next meeting facilitator using the list from [our team pag
 
 - Facilitator for this month: {{ NAME }}
 - Facilitator for next month: {{ NAME }}
-git status
