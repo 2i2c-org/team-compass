@@ -16,7 +16,7 @@ For those who are doing daily work with 2i2c, we use [GitHub Discussions](https:
 There are a few different discussion forums depending on the kind of conversation you'd like to have:
 
 - General team discussion: [2i2c-org/team-compass/discussions](https://github.com/2i2c-org/team-compass/discussions)
-- Discussion specifically about the pilot hubs: [2i2c-org/pilot-hubs/discussions](https://github.com/2i2c-org/pilot-hubs/discussions)
+- Discussion specifically about the pilot hubs: [2i2c-org/infrastructure/discussions](https://github.com/2i2c-org/infrastructure/discussions)
 - Team discussion that needs to be private (this should be low-volume): [2i2c-org/meta/discussions](https://github.com/2i2c-org/meta/discussions)
 
 ### To-do items and deliverables

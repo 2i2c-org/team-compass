@@ -16,7 +16,7 @@ See below for information about how to use `sops`.
 [`sops`](https://github.com/mozilla/sops) is a command-line tool for encrypting and decrypting secrets that are on disk.
 It is similar to [`git-crypt`](https://github.com/AGWA/git-crypt) (which is what is used by the Binder SRE team), but gives a bit more visibility into the encrypted fields by only encrypting the *values* rather than the *keys*.
 
-Here's an example of a file that has been encrypted with `sops` (from [our `pilot-hubs` configuration](https://github.com/2i2c-org/pilot-hubs/blob/master/config/secrets.yaml)):
+Here's an example of a file that has been encrypted with `sops` (from [our `infrastructure` configuration](https://github.com/2i2c-org/infrastructure/blob/master/config/secrets.yaml)):
 
 ```yaml
 auth0:
@@ -64,10 +64,10 @@ In order to decrypt an encrypted configuration file, you should first follow the
 Once you've completed those steps, do the following:
 
 1. **Navigate to the root of the repository**.
-   There are a set of rules stored in [`.sops.yaml`](https://github.com/2i2c-org/pilot-hubs/blob/master/.sops.yaml) that use regex to match a file to be encrypted with the encryption key location.
+   There are a set of rules stored in [`.sops.yaml`](https://github.com/2i2c-org/infrastructure/blob/master/.sops.yaml) that use regex to match a file to be encrypted with the encryption key location.
    You will receive an error from `sops` if you are not in the root folder and it cannot see this file.
 2. **Run the `sops` command**.
-   The following command will decrypt a configuration file (in this case, the configuration file in the `pilot-hubs` repository):
+   The following command will decrypt a configuration file (in this case, the configuration file in the `infrastructure` repository):
 
    ```bash
    sops --decrypt config/secrets.yaml

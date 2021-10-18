@@ -29,7 +29,7 @@ The job of hub administrators is to support users and to perform common administ
 They are able to add users, start/stop servers, and generally have more control over operations on the hub.
 
 :::{seealso}
-See the [Pilot Hubs Administrator documentation](https://pilot.2i2c.org) for helpful information for Hub Administrators.
+See the [Community Hub Administrator documentation](https://docs.2i2c.org) for helpful information for Hub Administrators.
 :::
 
 :::{warning}
