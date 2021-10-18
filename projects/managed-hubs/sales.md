@@ -83,10 +83,10 @@ Send an invoice and get to work 🚀
 The final step of the Leads and Sales process is to set up a managed JupyterHub for the lead (now, the "client"). To do so, follow the process below:
 
 Create an issue for the client
-: We use [issues in the `pilot-hubs/` repository](https://github.com/2i2c-org/pilot-hubs/issues) with the [{guilabel}`Hub` label](https://github.com/2i2c-org/pilot-hubs/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3AHub) to track the progress of each hub we are running.
+: We use [issues in the `infrastructure/` repository](https://github.com/2i2c-org/infrastructure/issues) with the [{guilabel}`Hub` label](https://github.com/2i2c-org/infrastructure/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3AHub) to track the progress of each hub we are running.
 
 The New Hub generation process
-: Follow the [process defined in the `pilot-hubs` repo](https://pilot-hubs.2i2c.org) in creating a new hub for a lead. This will then track the operation and maintenance of the hub.
+: Follow the [process defined in the `infrastructure` repo](https://infrastructure.2i2c.org) in creating a new hub for a lead. This will then track the operation and maintenance of the hub.
 
 :::{admonition} To Do: Create a Customer Management system
 In addition to tracking our sales / leads, we need to track running hubs and active customers in order to quickly understand their status and respond to their needs.
