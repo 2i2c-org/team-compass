@@ -1,19 +1,4 @@
-# Configuration file for the Sphinx documentation builder.
-#
-# This file only contains a selection of the most common options. For a full
-# list see the documentation:
-# https://www.sphinx-doc.org/en/master/usage/configuration.html
-
-# -- Path setup --------------------------------------------------------------
-
-# If extensions (or modules to document with autodoc) are in another directory,
-# add these directories to sys.path here. If the directory is relative to the
-# documentation root, use os.path.abspath to make it absolute, like shown here.
-#
-# import os
-# import sys
-# sys.path.insert(0, os.path.abspath('.'))
-
+from pathlib import Path
 
 # -- Project information -----------------------------------------------------
 
@@ -42,7 +27,8 @@ templates_path = ["_templates"]
 # This pattern also affects html_static_path and html_extra_path.
 exclude_patterns = ["_build", "Thumbs.db", ".DS_Store", ".github", ".nox", "README.md"]
 
-# -- Options for HTML output -------------------------------------------------
+
+# -- Options for HTML output---------------------------------------------------
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
@@ -80,6 +66,50 @@ linkcheck_ignore = [
     "https://drive.google.com*",  # Because it's almost always private
     "https://icsi.berkeley.edu*",  # Because it's broken often
 ]
+
+
+# -- Custom scripts ---------------------------------------------------
+
+# Hacky solution to list the latest engineering team members as reference
+# This grabs the latest list of team members from https://2i2c.org/about/
+# It then parses the HTML to grab the names and GitHub handles, then sorts by name
+# We can use this to define the order of team roles.
+from urllib import request
+from bs4 import BeautifulSoup
+import pandas as pd
+from pathlib import Path
+
+resp = request.urlopen("https://2i2c.org/about/")
+text = resp.read().decode()
+
+teams = []
+for row in BeautifulSoup(text, features="html.parser").select("div.people-widget > div"):  
+    # If not a `.people-person` item, it will be a group title
+    if "people-person" not in row.attrs.get("class"):
+        category = row.text.strip()
+        continue
+    entry = {"name": row.select("h2 a")[0].text, "team": category}
+
+    # Grab the listed contact links for this person
+    for link in row.select("ul.network-icon a"):
+        if "fa-github" in str(link):
+            handle = link.attrs["href"].split("/")[-1]
+            entry["github"] = f"[@{handle}]({link.attrs['href']})"
+        elif "mailto" in str(link):
+            entry["email"] = link.attrs["href"].split(":")[-1]
+        elif "twitter" in str(link):
+            handle = link.attrs["href"].split("/")[-1]
+            entry["twitter"] = f"[@{handle}]({link.attrs['href']})"
+    teams.append(entry)
+
+# Sort and create CSV files to be imported in the Team page
+teams = pd.DataFrame(teams)
+Path(__file__).parent.joinpath("tmp").mkdir(exist_ok=True)
+for team, people in teams.groupby("team"):
+    people.sort_values("name").drop(columns=["team"]).to_csv(f"tmp/{team}.csv" , index=None)
+
+
+# -- Sphinx setup script ---------------------------------------------------
 
 def setup(app):
     app.add_css_file("custom.css")

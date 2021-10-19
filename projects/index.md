@@ -21,7 +21,7 @@ As 2i2c is quite young, it must first build an organizational foundation for its
 This is an ongoing effort to define structure, process, and governance of 2i2c so that it can grow and execute on its mission.
 
 :::{admonition} Tracking deliverables
-The [organizational foundation project](https://github.com/orgs/2i2c-org/projects/11) contains a list of deliverables we are currently working towards.
+The [organizational foundation project](https://github.com/orgs/2i2c-org/projects/23) contains a list of deliverables we are currently working towards.
 :::
 
 - **Strategy** - We must define a long-term vision for 2i2c, and high-level strategy for executing on that vision.
@@ -55,7 +55,7 @@ We are collaborating with them to provide both daily operations of their hubs, a
 
 **Note that this initiative is WIP and may change in scope and focus**
 
-We are tracking deliverables for this project [in this GitHub project board](https://github.com/orgs/2i2c-org/projects/16).
+We are tracking deliverables for this project [in this GitHub project board](https://github.com/orgs/2i2c-org/projects/24).
 :::
 
 ## Jupyter Book development

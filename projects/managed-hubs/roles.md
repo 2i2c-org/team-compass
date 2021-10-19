@@ -58,15 +58,16 @@ People in these roles are generally affiliated with 2i2c.
 
 ## Support Steward
 
-:::{admonition} Experimental!
-:class: warning
-This is an experimental role, [see this Google Doc](https://docs.google.com/document/d/17Kj_FbtVMl32TEcfvCp18fF1SEiBjVOhCswdidUytgM/edit?usp=sharing0) for running notes and thoughts about the role.
+:::{warning}
+This is an experimental role and the details may change!
 :::
 
 The Support Steward is tasked with keeping track of ongoing support requests to `support@2i2c.org`.
 They do not necessarily complete the request themselves, and should work with other engineers to ensure they are resolved.
 
-The Support Steward rotates throughout the engineering team on a regular basis, in order to ensure that all team members share the load of supporting our communities.
+The Support Steward rotates throughout the engineering team each sprint, in order to ensure that all team members share the load of supporting our communities.
+
+See [the Support Process proposal](https://docs.google.com/document/d/17Kj_FbtVMl32TEcfvCp18fF1SEiBjVOhCswdidUytgM/edit?usp=sharing) for the latest version of our support process.
 
 ### Responsibilities
 

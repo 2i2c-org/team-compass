@@ -108,7 +108,7 @@ Tasks to complete
 (coordination:deliverables-backlog)=
 ### The Deliverables Backlog
 
-[Click here to go to the Deliverables Backlog](https://github.com/orgs/2i2c-org/projects/7?fullscreen=true).
+[Click here to go to the Deliverables Backlog](https://github.com/orgs/2i2c-org/projects/22).
 
 The Deliverables Backlog is a GitHub Projects Board with a list of [Deliverables](coordination:deliverables) across all of our active projects.
 These deliverables adhere to the following principles:

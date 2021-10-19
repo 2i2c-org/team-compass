@@ -32,21 +32,33 @@ These are major roles that should be filled by someone explicitly for any team m
 The role of meeting facilitator is to structure the meeting so that it is well-scoped, and to guide conversation to be productive and inclusive.
 
 :::{admonition} Responsibilities of the Facilitator
-- Set the agenda before the meeting (either creating it themselves, or asking for agenda items from others)
-- Run the meeting, ensuring that we stay on-time with agenda items and discussion
-- Convert actionable items into issues and close-out the meeting issue if it exists
+Before the meeting
+:  - Collect rough agenda items from team members
+   - Set the agenda
+
+During the meeting
+: Run the meeting, ensuring that conversations are inclusive and productive
+
+After the meeting
+: - Convert actionable items into issues
+  - Clean up the notes after the meeting and archive them in the appropriate location (e.g., the Team Compass)
+  - Close-out the meeting issue
 :::
+
+#### Who serves as the facilitator?
+
+Everybody on the engineering team, on a rotating basis. We rotate meeting facilitators **every month** and transition this role at the monthly team meeting. The meeting facilitator rotates through the [“Open Infrastructure Engineering Team” on this page](https://team-compass.2i2c.org/en/latest/about/team.html), in alphabetical order.
+
 
 ### Recorder
 
 The Meeting Recorder is responsible for encoding the discussion points and actionable items that came out of a meeting.
-Their primary goal is to make sure we don't miss something important after the meeting, and ensure that the content of the meeting is saved for reference from others.
+Their primary goal is to make sure that the content of the meeting is saved for reference from others.
 
 :::{admonition} Responsibilities of the Recorder
 - Write down major discussion points and ideas during the meeting
 - Write down action items / to-dos explicitly so that we know what to follow up on
-- Clean up the notes after the meeting
-- Archive the notes in the appropriate location (e.g., the Team Compass)
+
 :::
 
 ### Timekeeper
