@@ -19,7 +19,7 @@ To do so, follow these steps:
 2. Build the documentation:
 
    ```console
-   $ nox -s docs_build
+   $ nox -s docs
    ```
 
 This should create a local environment in a `.nox` folder, build the documentation (as specified in the `noxfile.py` configuration), and the output will be in `_build/html`.
@@ -27,5 +27,5 @@ This should create a local environment in a `.nox` folder, build the documentati
 To build live documentation that updates when you update local files, run the following command:
 
 ```console
-$ nox -s docs_live
+$ nox -s docs-live
 ```

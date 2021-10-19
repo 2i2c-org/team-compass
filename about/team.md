@@ -1,4 +1,4 @@
-# Who is on the 2i2c Team
+# List of team members
 
 The 2i2c team is defined [on the `about/` page of our website](https://2i2c.org/about/).
 Below is a summary of the people on that page
@@ -7,12 +7,14 @@ Below is a summary of the people on that page
 
 ```{csv-table}
 :file: ../tmp/Open Engineering Team.csv
+:header-rows: 1
 ```
 
 ## Steering Council
 
 ```{csv-table}
 :file: ../tmp/Steering Council.csv
+:header-rows: 1
 ```
 
 ## Engineering team locations and times
