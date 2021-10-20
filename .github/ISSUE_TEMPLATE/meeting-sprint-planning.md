@@ -36,7 +36,7 @@ _Follow the agenda below, checking boxes as we complete each step._
 - [ ] Somebody is assigned to each deliverable
 - [ ] Everybody agrees the current cycle's plan is realistic and that the right items are on the board.
 
-**Support ticket overview** (5m)
+**Support steward** (5m)
 
 - [ ] Support steward describes any open support issues.
-- [ ] Next support steward is listed above
+- [ ] Support steward transition issue is opened
