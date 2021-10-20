@@ -11,8 +11,8 @@ The support steward rotates alphabetically through the 2i2c Engineering Team. He
 
 ### Support steward
 
-- New Support Steward:`@<INSERT HANDLE>`
-- _Old Support Steward: `@<INSERT HANDLE>`_
+- Incoming Support Steward:`@<INSERT HANDLE>`
+- _Outgoing Support Steward: `@<INSERT HANDLE>`_
 
 ### Useful info
 
@@ -23,5 +23,5 @@ The support steward rotates alphabetically through the 2i2c Engineering Team. He
 ### Tasks to transition the support steward!
 
 - [ ] New support steward is named
-- [ ] New support steward has discussed open support issues with old support steward
-- [ ] Old support steward issue is closed
+- [ ] New support steward has discussed open support issues with outgoing support steward
+- [ ] Previous support steward transfer issue is closed
