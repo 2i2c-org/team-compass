@@ -7,7 +7,8 @@ title: "Team Sync - {{ date | date('dddd, MMMM Do') }}"
 
 This is a @2i2c-org/tech-team sync 🎉🎉🎉! This is a way for 2i2c Team Members to provide status reports on what they've been up to this week and request help and attention for things they are working on. This issue will be closed at the end of the day.
 
-[**Here's a link to the dashboard from our team updates**](https://app.geekbot.com/dashboard/standup/92117/view/insights)!
+[**Here's a link to the dashboard from our team updates**](https://app.geekbot.com/dashboard/standup/92117/view/timeline)!
+You'll need to log-in, and to view only your responses use the menu of usernames to the right.
 
 _Copy and paste the template below, and answer questions as you wish!_
 
