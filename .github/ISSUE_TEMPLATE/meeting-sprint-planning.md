@@ -26,12 +26,12 @@ _Follow the agenda below, checking boxes as we complete each step._
 **Review the Sprint Board.** (10m)
 
 - [ ] Celebrate our accomplishments
-- [ ] Decide what to do with any incomplete deliverables
 - [ ] Archive deliverables we finished
 
 **Populate Sprint Board with new deliverables** (45m)
 
-- [ ] Review and clarify any deliverables we'd like to work on next
+- [ ] Review a few more urgent items in the [deliverables backlog](https://github.com/orgs/2i2c-org/projects/22/views/1)
+- [ ] Decide what to do with any incomplete deliverables from the last sprint
 - [ ] Add new deliverables to Sprint Board
 - [ ] Somebody is assigned to each deliverable
 - [ ] Everybody agrees the current cycle's plan is realistic and that the right items are on the board.
