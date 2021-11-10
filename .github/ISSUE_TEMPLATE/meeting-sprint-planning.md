@@ -30,8 +30,8 @@ _Follow the agenda below, checking boxes as we complete each step._
 
 **Populate Sprint Board with new deliverables** (45m)
 
+- [ ] Review in-progress deliverables from the last sprint: drop or carry over items as needed
 - [ ] Review a few more urgent items in the [deliverables backlog](https://github.com/orgs/2i2c-org/projects/22/views/1)
-- [ ] Decide what to do with any incomplete deliverables from the last sprint
 - [ ] Add new deliverables to Sprint Board
 - [ ] Somebody is assigned to each deliverable
 - [ ] Everybody agrees the current cycle's plan is realistic and that the right items are on the board.
