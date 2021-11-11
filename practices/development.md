@@ -1,5 +1,5 @@
 (coordination:development)=
-# Development workflow
+# Development and backlog workflow
 
 This section describes how our development team carries out its planning and day-to-day work.
 
@@ -28,57 +28,65 @@ Wednesday (beginning of sprint)
   In this meeting we discuss major accomplishments in the previous sprint. We then prioritize and assign the items that each team member will work on for the next sprint, and review items that require discussion and planning.
 
 During the sprint
-: Team members work on the deliverables assigned to them at the sprint planning meeting.
+: Team members work on the items assigned to them at the sprint planning meeting.
   We use [the Sprint Board](coordination:sprint-board) to coordinate our activities during the sprint.
   On Mondays, each team member fills out a **team sync update** to share the major things they worked on, and note any unexpected challenges or blockers.
 
 Tuesday of week 2 (end of sprint)
-: By the end of the day, team members should have completed all of their deliverables for that sprint.
+: By the end of the day, team members should have completed all of their items for that sprint.
   
 ### Sprint planning meeting
 
 The team conducts a Sprint Planning meeting for 60 minutes at the beginning of each sprint.
-The goal of this meeting is to review our major work deliverables, synchronize with one another, and prioritize work across team members.
+The goal of this meeting is to review our major work items, synchronize with one another, and prioritize work across team members.
 It is also a chance to hand off the Support Steward role to the next person.
 
 Sprint Planning Meetings roughly follow a three-step process:
 
-1. Review what we've accomplished in the previous sprint, and decide what to do with remaining deliverables that we did not complete.
-2. Scan and discuss the [deliverables backlog](coordination:deliverables-backlog) in order to understand our WIP deliverables and their prioritization relative to one another.
-3. Add deliverables, or their tasks, to the week's Sprint Board, and work on them throughout the week.
-   It's up to the team whether a deliverable or one of its tasks should be added to the board.
+1. Review what we've accomplished in the previous sprint, and decide what to do with remaining items that we did not complete.
+2. Scan and discuss the [team backlog](coordination:deliverables-backlog) in order to understand our WIP items and their prioritization relative to one another.
+3. Add backlog items, or their tasks, to the week's Sprint Board, and work on them throughout the week.
+   It's up to the team whether an item or one of its tasks should be added to the board.
 
 You can find the meeting format/agenda {download}`in the Sprint Planning meeting template <../.github/ISSUE_TEMPLATE/meeting-sprint-planning.md>`.
 
 (coordination:sprint-board)=
 ### The Sprint Board
 
-The Sprint Board is a place to keep track of the [Deliverables](coordination:deliverables) our team intends to work on for the week.
+The Sprint Board is a place to keep track of the [Deliverables and tasks](coordination:deliverables) our team intends to work on for the week.
 It is a GitHub Projects board that is created for each week, and closed at the end of each week.
-The team's goal is to complete all deliverables on the Sprint Board by the end of the Sprint.
+The team's goal is to complete all items on the Sprint Board by the end of the Sprint.
 This is a team commitment - while one person may be assigned to a deliverable, we all commit to working together to get the work done.
 
 :::{admonition} The Sprint Board should...
 :class: tip
-- Have enough deliverables/tasks to keep the team occupied for the week
-- Not have so many deliverables that a team member gets overwhelmed
+- Have enough items to keep the team occupied for the week
+- Not have so many items that a team member gets overwhelmed
 - Under-estimate our team's total capacity, to provide room for unexpected work (e.g., support work)
 - Have a team member assigned to each item on the board
 :::
 
 The Sprint Board is broken down into these columns:
 
-- {guilabel}`Up Next` Deliverables that are ready to be worked on.
-- {guilabel}`In progress` A deliverable that a team member is currently working towards.
-- {guilabel}`Needs Input` Items that require input from one or more team members before moving forward. If a review is needed, use the {guilabel}`needs:review` label, and if a decision is needed, use the {guilabel}`needs:decision` label.
-- {guilabel}`Done` Tasks that are complete! When you move a task here, make sure to update any relevant deliverables.
+- {guilabel}`Up Next` Items that are ready to be worked on.
+- {guilabel}`In progress` An item that a team member is currently working towards.
+- {guilabel}`Done` Items that are complete! These should be celebrated archived in the next Sprint Planning meeting.
+
+In addition, we have a few other pieces of metadata to signal different kind of actions that would be needed 
 
 (coordination:deliverables)=
-## Deliverables
+## Deliverables and work issues
 
 Deliverables represent incremental amounts of value we can deliver to a particular stakeholder.
 They are **encoded as GitHub Issues** and updated over time as we learn more about the particular deliverable.
 Most issues in our repositories are deliverables, in varying states of readiness.
+
+:::{note}
+
+We use the word "deliverable" loosely here - some issues may be more like tasks rather than an end-product.
+The important thing is that they have high-quality information and structure, clearly denote value, and are actionable.
+
+:::
 
 ### How are deliverables structured?
 
@@ -106,44 +114,90 @@ Tasks to complete
   For more complex deliverables, these tasks may be what goes onto the Sprint Board, rather than the deliverable itself.
 
 (coordination:deliverables-backlog)=
-### The Deliverables Backlog
+## The Team Backlog
 
-[Click here to go to the Deliverables Backlog](https://github.com/orgs/2i2c-org/projects/22).
+[Click here to go to the Team Backlog](https://github.com/orgs/2i2c-org/projects/22).
 
-The Deliverables Backlog is a GitHub Projects Board with a list of [Deliverables](coordination:deliverables) across all of our active projects.
-These deliverables adhere to the following principles:
+The Team Backlog is a GitHub Projects Board with a list of [Deliverables and tasks](coordination:deliverables) across all of our active projects.
+This represents the work that the team is planning to do in the near future.
+These items adhere to the following principles:
 
-- Each item on this board should be **ready to work**, meaning that it has enough background information and context for a team member to steward it to completion.
-- The order of these deliverables should be roughly according to priority, with higher priority deliverables at the top of lists.
-- High-priority deliverables should be added to a [weekly sprint board](coordination:sprint-board) in order to be worked on.
-- If a deliverable has multiple components or would otherwise take longer than a week to complete, create task lists inside it to track steps. Add those steps to the Sprint board, not the whole deliverable.
+- The order of items should be roughly according to priority, with higher priority items at the top of lists.
+- Items on the board should have a **status** that signals whether they are being actively worked on, ready to work, or need more refinement before working.
+- If an item has multiple components or would otherwise take longer than a sprint to complete, create new issues as sub-tasks, and add *them* to the Sprint Board.
 
-### Working on deliverables
+### Backlog item limits
 
-Deliverables are ready to work when they have enough context and tasks so that a team member can begin making progress towards closing them.
-This doesn't mean that we know **all** of the tasks needed to complete the deliverable, but that there's enough information to begin work. [^invest]
+Our goal is to have backlog items that roughly cover the next 3 [sprint cycles](coordination:sprints).
+We **should not have more backlog items than this amount**.
+
+You can estimate the number of items on the board at any one time by assuming that **each team member (at 100% FTE) can accomplish about 2 items per sprint**.
+You can then calculate the rough number of items on this board with the equation:
+
+```
+n_team_members * 2 (items per sprint) * 3 (sprints on the board)
+```
+
+So if we have 5.5 team members available (if one of them is at 50% FTE), then the team backlog should have around `5.5 * 2 * 3 = 33 deliverables` on it.
+
+### Adding backlog items
+
+We should add items to our team backlog when we have capacity to do the work in the next 3 sprints, and when those items are ready to be prioritized over all the other work that we *could* do (e.g., all issues in our repositories and encoded in project backlogs).
+
+:::{tip}
+
+It can be difficult to keep track of issues across all of our repositories, so using a [Project Backlog](coordination:project-backlog) can be helpful to track longer-term planning for a specific project.
+
+:::
+
+To add an item to the backlog, take the following steps:
+
+- Look at the team backlog to make sure that it has capacity to aborb a new item.
+- If it does not have capacity
+  - Consider adding it to a [Project Backlog](coordination:project-backlog) or leave it in the issues of a repository.
+    We can always get to it later.
+  - Choose whether you wish to **remove** an item from the backlog in order to make space.
+    Use your best judgment about whether this is the right thing to do, depending on the priority of the backlog items that are already on there.
+- Place the new backlog item in the appropriate location, according to its perceived importance and urgency.
+
+### How to prioritize backlog items
+
+It can be difficult to prioritize backlog items, and is ultimately a subjective decision.
+These criteria can be used to help guide your actions:
+
+- **Impact**: How impactful will it be to resolve this item?
+  Will it affect many users or be particularly useful?
+- **Urgency**: How important is it that we resolve this item quickly?
+  If it is lower impact, but urgent to accomplish, we may nonetheless wish to prioritize it.
+- **Effort**: How many moving pieces does this item have and how much deep thinking will it take to resolve?
+  All else being equal, we should prioritize backlog items that are easier or faster to accomplish since this will be more bang for our buck.
+  This is obviously very subjective, so is probably best-estimated when there's a candidate person to work on an item.
+
+### Working on backlog items
+
+Backlog items are ready to work when they have enough context and tasks so that a team member can begin making progress towards closing them.
+This doesn't mean that we know **all** of the tasks needed to complete the item, but that there's enough information to begin work. [^invest]
 
 [^invest]: A good resource for considering what kinds of information makes a deliverable "ready" is [the INVEST methodology](https://agileforall.com/new-to-agile-invest-in-good-user-stories).
 
-The team picks up work associated with a deliverable via our Sprint Planning meeting.
+The team picks up work associated with a backlog item via our Sprint Planning meeting.
 In this case, there are two options:
 
-1. **Add the deliverable to the Sprint Board**. If a deliverable is scoped tightly enough that it can be completed within one sprint, then add it to the [Sprint Board](coordination:sprint-board) and complete it in a sprint.
-2. **Generate issues from tasks and add them to the Sprint Board**. For deliverables that are more complex and require tasks that would take more than one sprint, use the **Task List** in the deliverable to generate issues for use on the Sprint Board.
+1. **Add the item to the Sprint Board**. If an item is scoped tightly enough that it can be completed within one sprint, then add it to the [Sprint Board](coordination:sprint-board) and complete it in a sprint.
+2. **Generate issues from tasks and add them to the Sprint Board**. For items that are more complex and require tasks that would take more than one sprint, use the **Task List** in the issue to generate new issues for use on the Sprint Board.
 
    :::{tip}
-   You can [use GitHub's task issue tracking features](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-task-lists) to keep track of tasks associated with a deliverable issue.
+   You can [use GitHub's task issue tracking features](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-task-lists) to keep track of tasks associated with an issue.
    :::
 
-As work is done towards a deliverable, update the top comment of the **deliverable** with new information and tasks.
-The deliverable issue is the {term}`Source of Truth` for all work associated with it (instead of, for example, an issue created for a task for that deliverable).
+As work is done towards a backlog item, **update the top comment of the issue** with new information and tasks.
+Each parent issue is the {term}`Source of Truth` for all work associated with it (instead of, for example, an issue created as a sub-task for that item).
 
 (coordination:deliverables:upstream)=
 ### Tracking upstream issues
 
 In some cases we want to do work in an upstream repository or project.
-We use [the `upstream/` repository](https://github.com/2i2c-org/upstream) to track this work.
-See [the `upstream/` README](https://github.com/2i2c-org/upstream/blob/master/README.md) for information about our upstream workflow.
+To do this, add upstream issues to our Team Backlog as we would add any other issue.
 
 (development:merge-policy)=
 ## Merging and Reviewing policy
