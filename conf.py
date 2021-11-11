@@ -65,6 +65,7 @@ linkcheck_ignore = [
     "https://github.com/2i2c-org/leads*",  # Because it's a private repo
     "https://drive.google.com*",  # Because it's almost always private
     "https://icsi.berkeley.edu*",  # Because it's broken often
+    "https://sociocracyforall.org*",  # Because it raises a 403 but still works
 ]
 
 
