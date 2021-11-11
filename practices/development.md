@@ -152,7 +152,7 @@ It can be difficult to keep track of issues across all of our repositories, so u
 
 To add an item to the backlog, take the following steps:
 
-- Look at the team backlog to make sure that it has capacity to aborb a new item.
+- Look at the team backlog to make sure that it has capacity to absorb a new item.
 - If it does not have capacity
   - Consider adding it to a [Project Backlog](coordination:project-backlog) or leave it in the issues of a repository.
     We can always get to it later.
