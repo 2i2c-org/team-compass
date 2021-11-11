@@ -295,5 +295,5 @@ See [](development:merge-policy) for how this works in practice.
 Here are some helpful resources for more information about consent-based decision-making.
 
 - A short primer: https://thedecider.app/consent-decision-making
-- A more in-depth discussion: https://www.sociocracyforall.org/consent-decision-making/
+- A more in-depth discussion: https://sociocracyforall.org/consent-decision-making/
 - A well-known technical proposal on "Consent via humming": https://tools.ietf.org/html/rfc7282
