@@ -8,6 +8,7 @@ build:
   tools:
     # The sphinx-2i2c-theme requires python >= 3.8
     python: "3.8"
+    nodejs: "16"
 
 sphinx:
   configuration: conf.py
