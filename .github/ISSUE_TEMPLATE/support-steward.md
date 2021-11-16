@@ -24,4 +24,5 @@ The support steward rotates alphabetically through the 2i2c Engineering Team. He
 
 - [ ] New support steward is named
 - [ ] New support steward has discussed open support issues with outgoing support steward
-- [ ] Previous support steward transfer issue is closed
+- [ ] Previous support steward transfer issue is closed. Support steward now in steady-state.
+- [ ] Support steward's tenure is over. Time to [transfer the support steward role to a new team member](https://github.com/2i2c-org/team-compass/issues/new?assignees=&labels=type%3A+support-steward&template=support-steward.md&title=Support+Steward%3A+%3Cname%3E)
