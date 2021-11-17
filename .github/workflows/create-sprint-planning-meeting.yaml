@@ -11,7 +11,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - uses: JasonEtco/create-an-issue@v2
+    - uses: actions/setup-python@v2
+    - name: Calculate if we're on a 2-week cycle
+      run: python datetime.py
+      id: is-two-weeks
+    - name: Print IS_TWO_WEEKS for reference
+      run: echo "Is-two-weeks is ${{ steps.is-two-weeks.outputs.IS_TWO_WEEKS }}"
+    - name: Open a new issue
+      if: ${{ steps.is-two-weeks.outputs.IS_TWO_WEEKS }} == 'True'
+      uses: JasonEtco/create-an-issue@v2
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
