@@ -15,8 +15,10 @@ jobs:
     - name: Calculate if we're on a 2-week cycle
       run: python datetime.py
       id: is-two-weeks
+    - name: Echo the weeks thus far 
+      run: echo "Is-two-weeks is ${{ steps.is-two-weeks.outputs.IS_TWO_WEEKS }}"
     - name: Open a new issue
-      if: ${{ steps.is-two-weeks.IS_TWO_WEEKS }} == 'True'
+      if: ${{ steps.is-two-weeks.outputs.IS_TWO_WEEKS }} == 'True'
       uses: JasonEtco/create-an-issue@v2
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
