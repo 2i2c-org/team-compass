@@ -14,4 +14,4 @@ weeks = days // 7
 is_two_weeks = (weeks % 2) == 0
 
 # Store the variable value for use later
-print(f'::set-output name=IS_TWO_WEEKS::{is_two_weeks}'
+print(f'::set-output name=IS_TWO_WEEKS::{is_two_weeks}')
