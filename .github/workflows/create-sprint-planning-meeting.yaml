@@ -16,7 +16,7 @@ jobs:
       run: python datetime.py
       id: is-two-weeks
     - name: Open a new issue
-      if: ${{ steps.is-two-weeks.IS_TWO_WEEKS == 'True' }}
+      if: steps.is-two-weeks.IS_TWO_WEEKS == 'True'
       uses: JasonEtco/create-an-issue@v2
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
