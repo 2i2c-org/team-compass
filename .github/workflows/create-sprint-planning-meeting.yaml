@@ -16,9 +16,11 @@ jobs:
       run: python .github/workflows/is-two-weeks.py
       id: is-two-weeks
     - name: Print IS_TWO_WEEKS for reference
+      run: echo "Days since last meeting is ${{ steps.is-two-weeks.outputs.N_DAYS_SINCE }}"
+      run: echo "Weeks since last meeting is ${{ steps.is-two-weeks.outputs.N_WEEKS_SINCE }}"
       run: echo "Is-two-weeks is ${{ steps.is-two-weeks.outputs.IS_TWO_WEEKS }}"
     - name: Open a new issue
-      if: ${{ steps.is-two-weeks.outputs.IS_TWO_WEEKS }} == 'True'
+      if: ${{ steps.is-two-weeks.outputs.IS_TWO_WEEKS == 'True' }} 
       uses: JasonEtco/create-an-issue@v2
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
