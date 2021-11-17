@@ -13,7 +13,7 @@ jobs:
     - uses: actions/checkout@v2
     - uses: actions/setup-python@v2
     - name: Calculate if we're on a 2-week cycle
-      run: python datetime.py
+      run: python .github/workflows/datetime.py
       id: is-two-weeks
     - name: Print IS_TWO_WEEKS for reference
       run: echo "Is-two-weeks is ${{ steps.is-two-weeks.outputs.IS_TWO_WEEKS }}"
