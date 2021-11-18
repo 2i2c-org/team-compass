@@ -31,12 +31,12 @@ We use AirTable to track our leads for prospective communities to serve.
 Status fields indicate each step of the sales process
 : We use the **status column** to indicate where a community is in the process. There are roughly five statuses that a community can have:
 
-  - {guilabel}`active lead` is a community that is actively interested in our service.
-  - {guilabel}`inactive lead` is a potential community that is less-responsive or does not seem interested anymore.
-  - {guilabel}`needs contract` is a lead that has agreed to a service tier but needs a contract set up.
-  - {guilabel}`active service` is a community for which we have an active service contract.
-  - {guilabel}`inactive service` is a community that we used to run a service for, but who has since stopped that service.
-  - {guilabel}`waiting` is a community that is interested in our service, but we are intentionally waiting for an extended period of time to follow-up (for example, if they are waiting to learn if they have received a grant).
+  - {guilabel}`Active Lead` is a community that is actively interested in our service.
+  - {guilabel}`Inactive Lead` is a potential community that is less-responsive or does not seem interested anymore.
+  - {guilabel}`Needs Admin` is a lead that has agreed to a service tier and now needs CS&S to set up administrative infrastructure.
+  - {guilabel}`Active Service` is a community for which we have an active service contract.
+  - {guilabel}`Inactive Service` is a community that we used to run a service for, but who has since stopped that service.
+  - {guilabel}`Waiting` is a community that is interested in our service, but we are intentionally waiting for an extended period of time to follow-up (for example, if they are waiting to learn if they have received a grant).
 
 Fill in information following each status column
 : As leads progress through the sales process, we need more information from them, eventually leading to a contract. Fill in this information, and once we reach the next "status" column on the board, we have entered a new phase of the process. At the end of a sale (AKA, once an invoice is sent an paid), all columns of the row should be filled.
