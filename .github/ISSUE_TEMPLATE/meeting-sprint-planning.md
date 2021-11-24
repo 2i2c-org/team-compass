@@ -2,7 +2,7 @@
 name: "🚀 Sprint Planning Meeting"
 about: Conduct a Sprint Planning meeting.
 labels: "type: team-sync, :label: meeting:sprint-planning"
-title: "Sprint Planning Meeting: {{ date | date("add", 1, "days") | date('dddd, MMMM Do') }}"
+title: "Sprint Planning Meeting: {{ date | date('add', 1, 'days') | date('dddd, MMMM Do') }}"
 ---
 
 # 2i2c Sprint Planning meeting
