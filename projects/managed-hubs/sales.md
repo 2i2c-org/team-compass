@@ -29,7 +29,7 @@ We use AirTable to track our leads for prospective communities to serve.
 : [**This AirTable**](https://airtable.com/appDUEjjcSqHfilFD/tblxLUQ3ElIaaQuM8/viwXstuM3K48smZXW?blocks=hide) keeps track of all potential communities we may serve. Below is an overview of each step in the process.
 
 Status fields indicate each step of the sales process
-: We use the **status column** to indicate where a community is in the process. There are roughly five statuses that a community can have:
+: We use the **status column** to indicate where a community is in the process. There are a few statuses that a community can have:
 
   - {guilabel}`Active Lead` is a community that is actively interested in our service.
   - {guilabel}`Inactive Lead` is a potential community that is less-responsive or does not seem interested anymore.
