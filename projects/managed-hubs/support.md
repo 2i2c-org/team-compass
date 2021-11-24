@@ -11,9 +11,9 @@ This is a team process to track **support requests** from users on the hubs that
 ## Overview
 
 The **support team** is a two-person team of Support Stewards that oversees all support requests for users of 2i2c hubs.
-The Support Stewards work together to regularly **communicate** with users that open FreshDesk tickets throughout the process, route support-related to work to engineering team members, and keep track of this work to ensure it is completed.
+The Support Stewards work together to regularly **communicate** with users that open FreshDesk tickets, route support-related to engineering team members, and keep track of this work to ensure it is completed.
 
-For most support requests, we use [a FreshDesk service](https://2i2c.freshdesk.com/a/) to handle communcation with the community.
+For most support requests, we use [a FreshDesk service](https://2i2c.freshdesk.com/a/) to handle communication with the communities.
 
 ## Support team structure
 
@@ -52,12 +52,12 @@ For bugs, hub changes, improvements, and general questions, we use the [e-mail a
 This is connected with [the 2i2c FreshDesk account](https://2i2c.freshdesk.com/), and is a central place for all support-related requests.
 
 Many requests may be immediately resolved via a quick action or response to the community representative.
-However, if a request requires consultation with the team, open a backlog issue.
+However, if a request requires consultation with the team, first open a thread in the {guilabel}`#support-freshdesk` Slack channel, and if necessary open a backlog issue or a .
 
 (support:issues)=
 ### Support issues
 
-If resolving a support issue requiries ongoing or concerted owrk, open a backlog issue tagged with the {guilabel}`support` label.
+If resolving a support issue requires ongoing or concerted work, open a backlog issue tagged with the {guilabel}`support` label.
 
 Support backlog items should:
 
@@ -76,6 +76,13 @@ We use two Slack channels to discuss support-related questions on the 2i2c hub:
   This channel is public, so can be useful if we wish to invite conversation from non 2i2c team members.
 
 ## Lifecycle of a support request
+
+
+Below is a summary of the major steps that make up the support process, from beginning to end of a ticket.
+
+:::{note}
+We should try to respond to all support-related communications within one working day.
+:::
 
 - When you receive a ticket, communicate that you have received it and note the next steps you’ll follow to resolve it (even if this just means investigating because you're not sure what is wrong).
 - If needed, open a [support issue and add it to the backlog](support:issues).
