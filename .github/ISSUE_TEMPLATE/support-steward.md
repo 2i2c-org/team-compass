@@ -11,18 +11,17 @@ The support steward rotates alphabetically through the 2i2c Engineering Team. He
 
 ### Support steward
 
-- Incoming Support Steward:`@<INSERT HANDLE>`
-- _Outgoing Support Steward: `@<INSERT HANDLE>`_
+- **Incoming Support Steward**:`@<INSERT HANDLE>`
+- **Outgoing Support Steward**: `@<INSERT HANDLE>`
 
 ### Useful info
 
-- [Support Team membership issue](https://github.com/2i2c-org/team-compass/issues/294)
+- [Team Roles membership issue](https://github.com/2i2c-org/team-compass/issues/294)
 - [Support Team process](https://team-compass.2i2c.org/en/latest/projects/managed-hubs/support.html)
 - [FreshDesk dashboard](https://2i2c.freshdesk.com/a/)
 - [Open support issues and PRs](https://github.com/search?q=org%3A2i2c-org+label%3Asupport+is%3Aopen)
 
 ### Tasks to transition the support steward!
 
-- [ ] New support steward is named
+- [ ] The [Team Roles membership issue](https://github.com/2i2c-org/team-compass/issues/294) is updated with new support steward
 - [ ] New support steward has discussed open support issues with outgoing support steward
-- [ ] New support team member is added [to the Support Team issue](https://github.com/2i2c-org/team-compass/issues/294)

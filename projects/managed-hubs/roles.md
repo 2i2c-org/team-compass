@@ -64,10 +64,16 @@ This is an experimental role and the details may change!
 
 The Support Steward is tasked with keeping track of ongoing support requests to `support@2i2c.org`.
 They do not necessarily complete the request themselves, and should work with other engineers to ensure they are resolved.
+We use [this GitHub issue to track which team members are currently serving in each role](https://github.com/2i2c-org/team-compass/issues/294).
 
 The Support Steward rotates throughout the engineering team each sprint, in order to ensure that all team members share the load of supporting our communities.
 
 See [the Support Process proposal](https://docs.google.com/document/d/17Kj_FbtVMl32TEcfvCp18fF1SEiBjVOhCswdidUytgM/edit?usp=sharing) for the latest version of our support process.
+
+```{button-link} https://github.com/2i2c-org/team-compass/issues/294
+:color: primary
+Team Roles membership issue
+```
 
 ### Responsibilities
 

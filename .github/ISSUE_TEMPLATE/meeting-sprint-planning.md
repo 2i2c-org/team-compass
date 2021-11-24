@@ -17,7 +17,6 @@ Our goal is to synchronize the team on the most important things to work on, and
 ### Meeting roles
 
 - **Meeting facilitator**: {{ NAME }}
-- **Next Support Steward**: {{ NAME }}
 
 ### Meeting agenda
 
