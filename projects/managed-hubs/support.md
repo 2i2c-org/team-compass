@@ -52,7 +52,10 @@ For bugs, hub changes, improvements, and general questions, we use the [e-mail a
 This is connected with [the 2i2c FreshDesk account](https://2i2c.freshdesk.com/), and is a central place for all support-related requests.
 
 Many requests may be immediately resolved via a quick action or response to the community representative.
-However, if a request requires consultation with the team, first open a thread in the {guilabel}`#support-freshdesk` Slack channel, and if necessary open a backlog issue or a .
+If a request requires consultation with the team, then:
+
+- Open a Slack thread in the {guilabel}`#support-freshdesk` channel to discuss with others. If we need to track a work item to resolve the ticket over time, then:
+- Open a GitHub issue with the {guilabel}`support` label, and add it to our Sprint backlog.
 
 (support:issues)=
 ### Support issues
@@ -86,6 +89,7 @@ We should try to respond to all support-related communications within one workin
 
 - When you receive a ticket, communicate that you have received it and note the next steps you’ll follow to resolve it (even if this just means investigating because you're not sure what is wrong).
 - If needed, open a [support issue and add it to the backlog](support:issues).
+  Note that we should still use Freshdesk for support communication on this request, the GitHub issue is just for 2i2c team members to coordinate.
 - Identify an engineering team member that can pick up this work.
 - Give the user updates every day or two as we work to resolve the issue.
 - When it is resolved, tell the user what you’ve done to resolve the issue.
@@ -93,7 +97,7 @@ We should try to respond to all support-related communications within one workin
 
 ## How to prioritize support requests
 
-- Ask whether an issue is "critical" (AKA does the hub not work at all) and prioritize these if so
+- Ask questions that will help us understand whether an issue is "critical". For example, "Does this effect many users on the hub, or just a subset?", "Does this problem always happen, or intermittently?", "Is the hub accessible at all or is it totally down?".
 - Events should be prioritized (or in general, moments with a large influx of users)
 - In general, "how much does this incident impact the users of a given hub?" is a good guideline for deciding what to prioritize
 
