@@ -4,8 +4,8 @@ And use GitHub Actions outputs to store the result for use later on in the actio
 """
 from datetime import date
 
-# This is a Tuesday before a sprint meeting, so we'll calculate every-two-weeks relative to this
-start_date = date(2021,11,9)  
+# This is a Thursday after a sprint meeting, so we'll calculate every-two-weeks relative to this
+start_date = date(2021,11,11)  
 difference_days = abs(date.today() - start_date).days
 n_days_since_last_meeting = difference_days % 14  # Because we have a new meeting every 14 days.
 n_weeks_since_last_meeting = (n_days_since_last_meeting // 7) + 1
