@@ -123,8 +123,18 @@ This represents the work that the team is planning to do in the near future.
 These items adhere to the following principles:
 
 - The order of items should be roughly according to priority, with higher priority items at the top of lists.
-- Items on the board should have a **status** that signals whether they are being actively worked on, ready to work, or need more refinement before working.
+- Items on the board should have a **status** that signals whether they are ready to work or need more refinement before working.
 - If an item has multiple components or would otherwise take longer than a sprint to complete, create new issues as sub-tasks, and add *them* to the Sprint Board.
+
+### Assigning to an issue
+
+Only assign a backlog issue to somebody if it is **actively being worked on**.
+We assume that once somebody is assigned to an issue, it is part of an active sprint.
+Note that **all** issues on our Sprint Backlog should have somebody assigned to them.
+
+:::{admonition} Our definition of "Work in Progress"
+Because issues that are actively being worked on must have somebody assigned to them, we use "the issues that have somebody assigned to them" as our definition of Work in Progress.
+:::
 
 ### Backlog item limits
 
