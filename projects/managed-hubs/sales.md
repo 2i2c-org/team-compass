@@ -1,96 +1,99 @@
-# Leads, sales, and hubs process
+# Sales and invoicing process
 
-2i2c pursues new collaborations and contracts via following-up on leads for those who may be interested in 2i2c services.
-This page has information to help guide this process.
-
-:::{admonition} Out of date!
-:class: warning
-The information on this page is out of date, and will be updated once we complete our onboarding with {term}`CS&S`.
-:::
+This section has information about pursuing and creating new contracts for 2i2c services.
 
 ## Location of sales assets and documents
 
 Here are some locations of common documents used in the sales process (other than the repositories described below).
 
 [The Managed Hub Service folder](https://drive.google.com/drive/folders/1QuvUvwFxPAxw-bJ6_zjgwKXPurHC6UfW?usp=sharing)
-: Contains all folders and information that cover the Managed Hub Service, including sales and contracting.
+: Contains all folders and information that cover the Managed Hub Service, including assets for creating new contracts and following leads.
 
-[The leads folder](https://drive.google.com/drive/folders/1msuG0xWPbawMwesD8LZxdMClP-GVpgT2?usp=sharing)
-: Contains a folder for each lead that 2i2c is currently engaging. This is where we store client-specific information, such as price quotes or contracts that have been sent to them.
+[The leads and partnerships AirTable](https://airtable.com/appDUEjjcSqHfilFD/tblxLUQ3ElIaaQuM8/viwXstuM3K48smZXW)
+: An AirTable with the pipeline for potential communities we will serve.
+  This table is the source of truth about who we are talking to about serving hub infrastructure, and who we have an active service with.
 
-[The sales assets folder](https://drive.google.com/drive/folders/1aMZILBmFSTYBSB9EwyV5wRpcuprM06dJ?usp=sharing)
+[The partnerships and leads assets folder](https://drive.google.com/drive/folders/1aMZILBmFSTYBSB9EwyV5wRpcuprM06dJ?usp=sharing)
 : Contains all templates, email copy, stationery, etc that is useful in 2i2c sales.
 
-## The Leads to Sales workflow
+## Who participates in this process?
 
-### Overview
+Anybody on the core team of 2i2c, or the steering council, is welcome to participate in the process below.
+If you wish to help with sales and growing the service, please send an email to `partnerships@2i2c.org` so you can be added to that list, and be given a quick run-down of the process.
 
-We use `Monday.com` to track our leads
-: [**This Monday Board**](https://icsi-company.monday.com/boards/1140216585) keeps track of all leads in the sales process. Below is an overview of each step in the process.
+All members of `partnerships@2i2c.org` are invited to participate in the process below.
+
+## Tracking leads with AirTable
+
+We use AirTable to track our leads for prospective communities to serve.
+: [**This AirTable**](https://airtable.com/appDUEjjcSqHfilFD/tblxLUQ3ElIaaQuM8/viwXstuM3K48smZXW?blocks=hide) keeps track of all potential communities we may serve. Below is an overview of each step in the process.
 
 Status fields indicate each step of the sales process
-: We use Monday **status fields** to indicate where we are in the leads process. For example, a new lead is in the "Send Questionnaire" status of the "Triage Phase". This means that the next action is to send them a questionnaire.
+: We use the **status column** to indicate where a community is in the process. There are a few statuses that a community can have:
+
+  - {guilabel}`Active Lead` is a community that is actively interested in our service.
+  - {guilabel}`Inactive Lead` is a potential community that is less-responsive or does not seem interested anymore.
+  - {guilabel}`Needs Admin` is a lead that has agreed to a service tier and now needs CS&S to set up administrative infrastructure.
+  - {guilabel}`Active Service` is a community for which we have an active service contract.
+  - {guilabel}`Inactive Service` is a community that we used to run a service for, but who has since stopped that service.
+  - {guilabel}`Waiting` is a community that is interested in our service, but we are intentionally waiting for an extended period of time to follow-up (for example, if they are waiting to learn if they have received a grant).
 
 Fill in information following each status column
 : As leads progress through the sales process, we need more information from them, eventually leading to a contract. Fill in this information, and once we reach the next "status" column on the board, we have entered a new phase of the process. At the end of a sale (AKA, once an invoice is sent an paid), all columns of the row should be filled.
 
-### Triage stage
+## What we need in order to send an invoice
 
-The first stage is to understand whether an interested party is in-scope for 2i2c, and a good fit for the Managed Hub Service.
+In order to send an invoice to a community, we need a few pieces of information from them:
 
-Create a lead
-: When others show obvious interest in working with 2i2c, they are now a lead. [**Create a new item in the sales pipeline**](https://icsi-company.monday.com/boards/1140216585) and fill in the relevant information for them (everything up to "triage status").
+- **An agreement of the service tier**. We need an email confirmation from them about what service they want, and at a specific price point.
+- One of these two things:
+  - **An agreement that service has been delivered**. This can be in the form of an email at the end of each month that explicitly confirms with the community representive that the services have been delivered as expected.
+  - **A contract that describes delivery of the service**. If the community wants a more fully-specified service description, we can generate a contract with more explicit services offered and timelines. If a contract exists, we can send invoices according to the language in the contract.
 
-Send the questionnaire
-: To understand whether a lead is a good fit, we've created [a short questionnaire](https://forms.gle/VFzs364iNrJgKnKu9) for them. Send a link to the questionnaire.
+For any of these pieces of information, it is crucial that the `operations@codeforsociety.org` email address is forwarded the relevant information and email responses, so that we can archive it!
 
-Create a Lead Folder for them
-: As soon as a lead responds to the questionnaire, create a folder for them [in the leads folder](https://drive.google.com/drive/folders/1msuG0xWPbawMwesD8LZxdMClP-GVpgT2?usp=sharing). Use this to store any lead-specific information, such as price quotes and contracts.
+## Steps in selling new services
 
-Decide if they are in-scope
-: If the lead is in-scope, then set the Triage status column to "In Scope" and move on to the negotiation stage.
+These steps roughly follow the entire process of first making contact with a prospective community, to creating an active service for them.
 
-### Negotiation stage
-
-The negotiation stage is where we understand a bit more about what the lead needs and whether we'll be able to provide it. For example, do they want something really custom that goes beyond our standard Managed Hub distributions? If so, they might be a "development lead" rather than a "managed service lead".
-
-Create a quote
-: Create a lead-specific copy of the [pricing sheet template](https://docs.google.com/spreadsheets/d/10Gxufgmiuhq2Up69a6NdQoRs0xgKOi1Jts66wwiqF50/edit#gid=832336436) as well as the [price quote template](https://docs.google.com/document/d/1wxIKBzx0pYYVHWK6hnyYIvGRWpifU9vSHUI3ExWN8DI/edit?usp=sharing). Using the pricing sheet, and the answers from their questionnaire, create a price quote for them about the service.
-
-Send a quote
-: Once you've generated a quote for them, send them the modified Price Quote Template, along with a link to the [Managed Service Plan](https://docs.google.com/document/d/1Ka7tgJe7HR8EmS_MMakrYztgfkJT_iFksPsWHdQBqhM/edit?usp=sharing).
-
-
-  :::{warning}
-  At this point, ICSI should be notified of the lead, because we have sent a specific price quote. This _should_ be automated with Monday.com.
-  :::
-
-Negotiate on a price
-: We may require a few back-and-forths to clarify the needs of the lead and arrive at a specific number and date for service. Modify the Price Sheet as well as the Price Quote template as-needed throughout these conversations. If a customer agrees to a quote, we then send them a Contract.
-
-Send them a contract
-: Once a customer agrees to a price quote, send them a contract. Notify ICSI contracting as well as ICSI finance that we need to send this contract to the customer. They will prepare the contract in DocuSign and send it to them. Once they sign the contract, put a copy in the lead's folder.
-
-  :::{note}
-  This process may involve some negotiation between ICSI admin and the lead. Over time, we should detect common changes that clients want, and consider baking them into our contract language.
-  :::
-
-Send an invoice and get to work 🚀
-: Once a customer has signed the contract, we may begin work on setting up their hub infrastructure, as well as sending them an invoice. ICSI finance will take care of the latter. We should next focus on setting up their hub.
-
-### The Hub Setup stage
-
-The final step of the Leads and Sales process is to set up a managed JupyterHub for the lead (now, the "client"). To do so, follow the process below:
-
-Create an issue for the client
-: We use [issues in the `infrastructure/` repository](https://github.com/2i2c-org/infrastructure/issues) with the [{guilabel}`Hub` label](https://github.com/2i2c-org/infrastructure/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3AHub) to track the progress of each hub we are running.
-
-The New Hub generation process
-: Follow the [process defined in the `infrastructure` repo](https://infrastructure.2i2c.org) in creating a new hub for a lead. This will then track the operation and maintenance of the hub.
-
-:::{admonition} To Do: Create a Customer Management system
-In addition to tracking our sales / leads, we need to track running hubs and active customers in order to quickly understand their status and respond to their needs.
+:::{admonition} Always cc `partnerships@2i2c.org`
+If you ever send an email related to selling services to communities, cc the `partnerships@2i2c.org` account so that others have visibility.
+This will also ensure that our fiscal sponsorship admin team gets the email for their records.
 :::
+
+First contact / describe the service
+: When others show obvious interest in working with 2i2c, they are now a lead.
+
+  - [**Send them an email describing our services**](https://docs.google.com/document/d/18h4mn2cB96w-jyqFef2x6RmHwbr_wQ8CN1-BK6jFqvQ/edit?usp=sharing) and help them clarify any questions they may have.
+  - [**Create a new item in the leads AirTable**](https://airtable.com/appDUEjjcSqHfilFD/tblxLUQ3ElIaaQuM8/viwXstuM3K48smZXW?blocks=hide) and fill in the relevant information for them. Set their status to {guilabel}`Active Lead`.
+
+Confirm a service
+: If the prospective community is interested in a particular service, we should confirm the details of that service and move on to the contracting stage.
+
+  - [**Send them an email confirming their service**](https://docs.google.com/document/d/1BUuk_giDKSADsL8QeKnWonBXmJcpnH5sAER6c8H_yn4/edit?usp=sharing) and clarify any questions they may have
+  - **Convert their status to {guilabel}`Needs Admin`**.
+  - **Forward the email chain to CS&S `operations@codeforsociety.org`**. Note in the forward that this is confirmation of a new service, and that administrative infrastructure should now be set up.
+
+Set up the service
+: Once we've received an email confirmation of a particular service offering, it is time to set up the administrative and technical infrastructure for the service.
+
+  - **The CS&S team will set up the admin paperwork**. They will contact the community we're working with to set up the proper billing channels.
+  - [**Create a {guilabel}`New Hub` issue**](https://github.com/2i2c-org/infrastructure/issues/new?assignees=&labels=type%3A+hub&template=2_new-hub.yml&title=%5BNew+Hub%5D+%7B%7B+HUB+NAME+%7D%7D). This will alert the engineering team that it is time to create a new hub for this community!
+  - [**Add their hub to the "Active Hubs" AirTable**](https://airtable.com/appDUEjjcSqHfilFD/tbljaAnHkE4Ry8j9J/viwVt9283ZKimUg4o?blocks=hide). This table cross-references the "leads table", so that we can track which hubs are being run for each community.
+  - (once the date for beginning service arrives) **Set their status to {guilabel}`Active Service`**. This hub is now actively running!
+
+### Sending invoices
+
+We send invoices to all communities at the end of each month.
+We should set up the information and paperwork for each, and then issue invoices in a big batch to streamline the process.
+Here's the process for doing this:
+
+- **Start with a list of communities that have an active service.** Use [the Leads AirTable](https://airtable.com/appDUEjjcSqHfilFD/tblxLUQ3ElIaaQuM8/viwXstuM3K48smZXW?blocks=hide) to reference which communities we must invoice.
+- **Calculate the monthly cloud spend for relevant communities.** For communities running on shared 2i2c infrastructure, or for whom we are managing cloud billing, we should calculate the amount of cloud spend each has incurred for that month, and add it to the relevant communities from the list above.
+- **Add the monthly operations fee for all communities.** This will depend on the type of service for each hub that the community is using.
+- **Send an email with this information to `operations@codeforsociety.org`**. Include line-items for the cloud costs and the managed hub fee.
+- **CS&S will send an email to certify that the service has been provided.** The community representative must provide an affirmative response that they are satisfied with that month's service.
+- **CS&S will send an invoice**. After they have responded positively, CS&S will send the community an invoice for that month's service.
 
 ## Tips and FAQs
 

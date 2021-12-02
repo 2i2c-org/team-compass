@@ -60,6 +60,7 @@ Information about the broader 2i2c organization, as well as its mission and stru
 
 about
 projects/index
+projects/managed-hubs/index
 about/structure
 about/strategy
 positions

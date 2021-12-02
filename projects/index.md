@@ -41,10 +41,6 @@ The Managed JupyterHub Service is a special project of 2i2c that is [developed a
 
 More information about the Managed JupyterHub Service can be found in these sections:
 
-```{toctree}
-managed-hubs/index
-```
-
 (projects:jmte-pangeo)=
 ## Pangeo Hub Infrastructure development
 
