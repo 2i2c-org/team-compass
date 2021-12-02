@@ -30,10 +30,18 @@ jobs:
       if: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.debug_enabled }}
       uses: mxschmitt/action-tmate@v3
 
-    - name: Open a new issue
+    - name: Open a sprint planning issue
       if: ${{ steps.is-two-weeks.outputs.IS_TWO_WEEKS == 'True' }} 
       uses: JasonEtco/create-an-issue@v2
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
         filename: .github/ISSUE_TEMPLATE/meeting-sprint-planning.md
+
+    - name: Open a support steward transfer issue
+      if: ${{ steps.is-two-weeks.outputs.IS_TWO_WEEKS == 'True' }} 
+      uses: JasonEtco/create-an-issue@v2
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        filename: .github/ISSUE_TEMPLATE/support-steward.md
