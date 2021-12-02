@@ -18,7 +18,7 @@ Here are some locations of common documents used in the sales process (other tha
 
 ## Who participates in this process?
 
-Anybody at 2i2c that is interested in growing our service to new communities is welcome to participate in the process below.
+Anybody on the core team of 2i2c, or the steering council, is welcome to participate in the process below.
 If you wish to help with sales and growing the service, please send an email to `partnerships@2i2c.org` so you can be added to that list, and be given a quick run-down of the process.
 
 All members of `partnerships@2i2c.org` are invited to participate in the process below.
