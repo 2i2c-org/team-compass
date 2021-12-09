@@ -1,4 +1,4 @@
-# Positions and Salaries
+# Job Titles
 
 This document represents the positions and salary levels that 2i2c uses. They are inspired by the hiring/salary structure of several tech companies[^job-refs].
 
@@ -59,10 +59,5 @@ This role focuses their efforts on our infrastructure, but spends a lot of their
 ### Director of 2i2c
 
 This role is the director of 2i2c. They oversee strategy, execution, and fundraising at 2i2c. They also ensure that 2i2c engineers are empowered to execute on their responsibilities, and thrive in their positions.
-
-
-## Salaries
-
-Salaries at 2i2c are determined solely by job title as well as several steps within that job (corresponding to experience in a particular job). Currently, the salary policy of 2i2c is [listed on the careers page of our website](https://2i2c.org/careers/). We additionally have [internal salary documents for the specific positions and levels](https://docs.google.com/spreadsheets/d/1FJM5pAbc0EWhu4CpPjlbWTMOsZAnivEd2ZBIZIdwpE8/edit?usp=sharing).
 
 [^job-refs]: In particular, [Buffer](https://buffer.com/resources/salary-formula-changes-2019/) and [Basecamp](https://m.signalvnoise.com/how-we-pay-people-at-basecamp/)
