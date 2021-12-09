@@ -50,6 +50,17 @@ meetings/eng/index
 reference/calendar
 ```
 
+## Projects and Services
+
+These sections cover major active projects and services that 2i2c is currently working on or offering.
+They go into more detail about the plans, structure, and strategy of each project.
+
+```{toctree}
+:caption: Projects and Services
+projects/index
+projects/managed-hubs/index
+```
+
 ## About 2i2c
 
 Information about the broader 2i2c organization, as well as its mission and structure.
@@ -59,10 +70,8 @@ Information about the broader 2i2c organization, as well as its mission and stru
 :caption: About 2i2c
 
 about
-projects/index
-projects/managed-hubs/index
+hr/index
 about/structure
 about/strategy
-positions
 reference/index
 ```
