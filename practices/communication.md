@@ -96,34 +96,6 @@ In addition, we may create private rooms on a short-term basis for specific even
 
 ## Taking time off
 
-First and foremost, 2i2c fosters a culture of healthy balance between work and life. All 2i2c team members should take the time they need to thrive - this will both make you happier and help us accomplish our mission most effectively.
-
-The 2i2c team uses [a shared Google Calendar](https://calendar.google.com/calendar/u/2?cid=Y19pNTJqZGNhbTZ0M3FsaDF1NTNqdG42MjNwY0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t) to keep track of when team members will be away.
-Everyone at 2i2c has access to it, and has the ability to add events to this calendar.
-
-**Use the Calendar to let the team know you're taking time off**.
-Here are the reasons that you might do so:
-
-**Personal Time Off**: If you're taking personal time off (e.g., vacation, holidays, personal leave, etc), add an event to this calendar with a title to let others know you'll be away.
-
-For example:
-
-```
-AWAY: <your name> - <optional reason>
-```
-
-**Reduced time**: If you expect to be on **reduced time** for an extended period, please use the calendar for this as well.
-
-For example:
-
-```
-REDUCED: <your name> - <optional reason>
-```
-
-**Holidays**: Please add any national holidays for your location of residence if you expect that you (or others in your location) may take time off for this as well.
-
-For example:
-
-```
-HOLIDAY: <holiday name>
-```
+It's critical that you communicate with team members when you intend to take time off.
+This helps the team plan for your absence, and ensures that we are spreading work equitably and intentionally.
+See [](hr/time-off) for our practices and policies for taking time off.
