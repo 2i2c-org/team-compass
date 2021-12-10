@@ -46,7 +46,7 @@ Just do the best you can, and try to balance your own constraints with respect f
 
 ## Inspiration
 
-2i2c's PTO policy is inspired by several other remote organizations. In particular, [Buffer](https://buffer.com/resources/employees-take-vacation/), [GitLab](https://about.gitlab.com/handbook/paid-time-off/), and [BaseCamp](https://basecamp.com/handbook/08-benefits-and-perks#paid-time-off).
+2i2c's PTO policy is inspired by several other remote organizations. In particular, [Buffer](https://buffer.com/resources/employees-take-vacation/), [GitLab](https://about.gitlab.com/handbook/paid-time-off/), and [BaseCamp](https://basecamp.com/handbook/07-benefits-and-perks#paid-time-off).
 
 [^time-off]: 40 days a year is based off of the [list of paid holidays by country](https://en.wikipedia.org/wiki/List_of_minimum_annual_leave_by_country) from Wikipedia.
   A rough calculation of the **90th percentile** of days off by country yielded **40 days** each year. Here’s [a notebook that describes this analysis](https://notebooksharing.space/view/a94504e5a06b437d20e1b9488ad1241a48d5ff3e80c8181f95294c765e23c42e#displayOptions=).
