@@ -3,10 +3,6 @@
 There are a few major roles that we define for the Managed JupyterHub Service.
 These are outlined below.
 
-:::{seealso}
-They are also described in [the Hub Services diagrams slideshow](https://docs.google.com/presentation/d/1kqrviwVOoZfey_rujhIasdkKZmlYgxV-1J2AG-nr3VY/edit#slide=id.ge3f2127292_0_573) as well as in the [Managed Service Plan](https://docs.google.com/document/d/1Ka7tgJe7HR8EmS_MMakrYztgfkJT_iFksPsWHdQBqhM/edit?usp=sharing).
-:::
-
 (roles:community-representative)=
 ## Community Representative
 
@@ -56,32 +52,11 @@ People in these roles are generally affiliated with 2i2c.
 - Debug and resolve major issues with a hub that require intervention from a Hub Engineer
 - Perform open source development on technologies that are in use by the hubs
 
-## Support Steward
+(roles:support-steward)=
+## Support Stewards
 
-:::{warning}
-This is an experimental role and the details may change!
-:::
-
-The Support Steward is tasked with keeping track of ongoing support requests to `support@2i2c.org`.
-They do not necessarily complete the request themselves, and should work with other engineers to ensure they are resolved.
-We use [this GitHub issue to track which team members are currently serving in each role](https://github.com/2i2c-org/team-compass/issues/294).
-
-The Support Steward rotates throughout the engineering team each sprint, in order to ensure that all team members share the load of supporting our communities.
-
-See [the Support Process proposal](https://docs.google.com/document/d/17Kj_FbtVMl32TEcfvCp18fF1SEiBjVOhCswdidUytgM/edit?usp=sharing) for the latest version of our support process.
-
-```{button-link} https://github.com/2i2c-org/team-compass/issues/294
-:color: primary
-Team Roles membership issue
-```
-
-### Responsibilities
-
-- Check the communication channels for support that we are using
-- Respond to new support requests
-- Communicate with community representatives throughout the support process
-- Coordinate with engineering team members to ensure support requests are completed
-- Pay attention to ongoing support efforts to ensure they are resolved in a timely manner
+Support Stewards are the first point of contact for all support-related issues.
+See [](support:process) for more information.
 
 ## Diagram of roles
 

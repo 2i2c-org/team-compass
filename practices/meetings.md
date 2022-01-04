@@ -30,12 +30,10 @@ These are major roles that should be filled by someone explicitly for any team m
 ### Facilitator
 
 The role of meeting facilitator is to structure the meeting so that it is well-scoped, and to guide conversation to be productive and inclusive.
-We use [this GitHub issue to track which team members are currently serving in this role](https://github.com/2i2c-org/team-compass/issues/294).
 
-```{button-link} https://github.com/2i2c-org/team-compass/issues/294
-:color: primary
-Team Roles membership issue
-```
+:::{seealso}
+See [our Team Roles calendar](team-roles-calendar) to know when each team member serves in this role.
+:::
 
 #### Responsibilities of the Facilitator
 
