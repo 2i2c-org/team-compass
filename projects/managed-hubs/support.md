@@ -1,3 +1,5 @@
+
+(support:process)=
 # Support team process
 
 :::{admonition} In Beta!
@@ -22,12 +24,9 @@ Tenure on the support team is **for four weeks**.
 Every **two weeks** (generally at the sprint meeting), a Support Steward cycles off the support team, and a new team member joins the team.
 The support team rotates through [the “Open Infrastructure Engineering Team” on this page](https://team-compass.2i2c.org/en/latest/about/team.html), in alphabetical order.
 
-The current support team is listed in an [ongoing GitHub issue](https://github.com/2i2c-org/team-compass/issues/294).
-In the sprint meeting, we should edit this issue to add/remove Support Stewards as necessary.
-
-```{button-link} https://github.com/2i2c-org/team-compass/issues/294
-Support team issue
-```
+:::{seealso}
+See [our Team Roles calendar](team-roles-calendar) to know when each team member serves in this role.
+:::
 
 ## Responsibilities and expectations
 
