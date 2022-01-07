@@ -94,7 +94,7 @@ We should try to respond to all support-related communications within one workin
 - When it is resolved, tell the user what you’ve done to resolve the issue.
 - Close any FreshDesk tickets and support issues that are related to this request.
 - In some cases, it might be useful to also write down a private note in the FreshDesk
-  ticket with a short summary of the situatione and/or add links to relevant discussions
+  ticket with a short summary of the situation and/or add links to relevant discussions
   from other platforms.
 
 ## How to prioritize support requests
