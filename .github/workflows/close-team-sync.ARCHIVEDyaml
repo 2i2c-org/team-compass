@@ -1,3 +1,6 @@
+# **
+# Archived: delete this in March 2022 if we don't decide to re-use it by then.
+# **
 # From https://github.com/marketplace/actions/close-matching-issues
 name: Close a weekly team sync issue
 on:

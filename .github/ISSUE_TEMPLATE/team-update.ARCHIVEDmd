@@ -1,3 +1,11 @@
+"""
+NOTE: This markdown file is archived, as we have moved our team updates to
+use the Slack Geekbot. However, we're keeping it in the repository for now in
+case we'd like to revisit this practice.
+
+If we haven't touched this file or needed it by March 2022, we should
+delete it and the GitHub actions associated with it!
+"""
 ---
 name: "♻ Team sync"
 about: Syncronize the team's goals and actions

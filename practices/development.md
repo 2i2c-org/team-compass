@@ -30,7 +30,7 @@ Wednesday (beginning of sprint)
 During the sprint
 : Team members work on the items assigned to them at the sprint planning meeting.
   We use [the Sprint Board](coordination:sprint-board) to coordinate our activities during the sprint.
-  On Mondays, each team member fills out a **team sync update** to share the major things they worked on, and note any unexpected challenges or blockers.
+  We provide updates about what we've been up to, what we're doing next, and where we need help via regular **asynchronous Slack stand-ups**.
 
 Tuesday of week 2 (end of sprint)
 : By the end of the day, team members should have completed all of their items for that sprint.
@@ -73,6 +73,32 @@ The Sprint Board is broken down into these columns:
 - {guilabel}`Done` Items that are complete! These should be celebrated archived in the next Sprint Planning meeting.
 
 In addition, we have a few other pieces of metadata to signal different kind of actions that would be needed 
+
+
+(coordination:team-syncs)=
+## Daily team syncs
+
+Throughout the week we have a lightweight asynchronous team sync process so that we can get on the same page.
+The primary goals of this process are:
+
+- To ensure that nobody is stuck on something
+- To signal-boost requests for review and help
+- To provide accountability of what we've been up to
+- To help us coordinate what to do next
+
+We use [the Geekbot](https://geekbot.com/) to manage this process.
+During a sync, each team member gets a message in their morning time with a few questions.
+Answer each question, and at the end the answers will be posted to our `#team-updates` channel.
+
+:::{seealso}
+You can customize the way that Geekbot standups work for you.
+See [the Geekbot workflow guides](https://help.geekbot.com/en/articles/4283332-commands-how-to-streamline-your-workflow) for some helpful information.
+:::
+
+:::{admonition} TODO: Share this publicly
+We are exploring ways to aggregate and share our team sync activity publicly, to be more transparent with others about what we are up to.
+We will update this section once we better-understand this process.
+:::
 
 (coordination:deliverables)=
 ## Deliverables and work issues
