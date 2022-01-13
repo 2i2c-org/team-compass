@@ -79,6 +79,7 @@ In addition, we have a few other pieces of metadata to signal different kind of 
 ## Daily team syncs
 
 Throughout the week we have a lightweight asynchronous team sync process so that we can get on the same page.
+These currently happen on Monday, Wednesday, and Friday in the morning time of each team member.
 The primary goals of this process are:
 
 - To ensure that nobody is stuck on something
