@@ -1,3 +1,6 @@
+# **
+# Archived: delete this in March 2022 if we don't decide to re-use it by then.
+# **
 name: Open a weekly team sync issue
 on:
   schedule:
