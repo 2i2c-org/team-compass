@@ -31,6 +31,11 @@ These policies are detailed in the [CS&S Employee Handbook](https://drive.google
 Open a GitHub Issue in the `2i2c-org/meta` repository using [the “Time off” template](https://github.com/2i2c-org/meta/issues/new?assignees=&labels=time-off&template=time-off.md).
 Follow the steps in that template.
 
+:::{admonition} Dates are inclusive
+When you're specifying an end date for your time off, it should be the _final day you're away_.
+Not the first day that you're back.
+:::
+
 ## Sick and personal leave
 
 2i2c team members should always prioritize their own well-being and health.
