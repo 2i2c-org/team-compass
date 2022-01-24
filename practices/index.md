@@ -21,4 +21,5 @@ cloud-access
 meetings
 github-conventions
 team-compass
+styleguide
 ```
