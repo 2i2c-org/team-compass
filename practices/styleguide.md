@@ -1,4 +1,4 @@
-# Styleguide
+# Style guide for repositories
 
 We use [pre-commit](https://pre-commit.com/) to automatically enforce certain styles across our [`infrastructure` repository](https://github.com/2i2c-org/infrastructure).
 You can view the full configuration in the [`.pre-commit-config.yaml` file](https://github.com/2i2c-org/infrastructure/blob/master/.pre-commit-config.yaml).
