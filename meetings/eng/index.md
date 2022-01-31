@@ -5,6 +5,7 @@ This allows us to connect with each other more directly, to discuss important is
 
 ```{toctree}
 :maxdepth: 2
+2022
 2021
 2020
 ```
