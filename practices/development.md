@@ -120,7 +120,7 @@ The important thing is that they have high-quality information and structure, cl
 There are a few special sections of a deliverable issue.
 Not all of them are strictly required, but are particularly useful for more complex or long-lasting deliverables.
 
-See [this Github Issue template](https://github.com/2i2c-org/team-compass/blob/main/.github/ISSUE_TEMPLATE/1_new-issue.yml) for an example of a deliverable's structure.
+See [this Github Issue template](https://github.com/2i2c-org/team-compass/blob/main/.github/ISSUE_TEMPLATE/01_new-issue.yml) for an example of a deliverable's structure.
 Below are some major sections that are common:
 
 Top Comment

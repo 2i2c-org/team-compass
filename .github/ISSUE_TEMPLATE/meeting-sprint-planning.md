@@ -11,31 +11,29 @@ This is a **60 minute** recurring meeting **every other Wednesday at 7:30AM Paci
 
 Our goal is to synchronize the team on the most important things to work on, and to divide work between one another so we know what to work on next.
 
-- [**Sprint Board**](https://github.com/orgs/2i2c-org/projects/21)
-- [**Deliverables backlog**](https://github.com/orgs/2i2c-org/projects/22)
-
-### Meeting roles
-
+- [**Team backlog**](https://github.com/orgs/2i2c-org/projects/22/views/10)
+  - [list of items with people assigned to them](https://github.com/orgs/2i2c-org/projects/22/views/10)
+  - [list of items without any people assigned](https://github.com/orgs/2i2c-org/projects/22/views/15)
 - **Meeting facilitator**: {{ NAME }}
 
 ### Meeting agenda
 
-_Follow the agenda below, checking boxes as we complete each step._
+**Review team projects.** (30 min)
 
-**Review the Sprint Board.** (10m)
+For each project, its champion does the following:
 
-- [ ] Celebrate our accomplishments
-- [ ] Archive deliverables we finished
+- Share accomplishments since the last sprint, demos, etc
+- Discuss any quick blockers or major questions to answer
+- Discuss the work plan for the next sprint for this project
 
-**Populate Sprint Board with new deliverables** (45m)
+**Review operations and support items** (20 min)
 
-- [ ] Review in-progress deliverables from the last sprint: drop or carry over items as needed
-- [ ] Review a few more urgent items in the [deliverables backlog](https://github.com/orgs/2i2c-org/projects/22/views/1)
-- [ ] Add new deliverables to Sprint Board
-- [ ] Somebody is assigned to each deliverable
-- [ ] Everybody agrees the current cycle's plan is realistic and that the right items are on the board.
+For each operations or support item, we should:
 
-**Support steward** (5m)
+- Assign a team member to items that don't yet have one
+- Discuss any quick blockers or major questions that need to be answered
+- Discuss the next steps to resolve this item
 
-- [ ] Support steward describes any open support issues.
-- [ ] Support steward transition issue is opened
+**Context share from admin and sustainability** (5 min, if time)
+
+A representative that has been working on these parts of 2i2c shares any significant updates or upcoming items.
