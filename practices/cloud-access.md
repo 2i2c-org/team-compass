@@ -40,7 +40,7 @@ We have two ways to access AWS accounts.
 
 For accounts we fully control, we use [AWS SSO](https://aws.amazon.com/single-sign-on/)
 to access them. We have an [AWS organization](https://aws.amazon.com/organizations/)
-set up, and sub-accounts for reach AWS account. This lets us use just
+set up, and sub-accounts for each AWS account. This lets us use just
 *one* set of user credentials for multiple AWS accounts, with
 separate billing and access control. You can log-in at
 [https://2i2c.awsapps.com/start#/](https://2i2c.awsapps.com/start#/).
