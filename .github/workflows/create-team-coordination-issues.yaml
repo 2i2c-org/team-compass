@@ -1,4 +1,4 @@
-name: Open a sprint planning meeting issue
+name: Open issues for team coordination and work planning
 on:
   schedule:
   # Run every Tuesday at 07:00 AM UTC / 09:00AM Europe / 00:00AM California
