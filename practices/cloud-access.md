@@ -48,6 +48,27 @@ Once you log in there, you can access the web console
 for the various accounts we have, or find credentials for use
 in the commandline.
 
+#### Adding users to our SSO
+
+The AWS account with id `746653422107` controlled by 2i2c is used as the
+[management account](https://docs.aws.amazon.com/organizations/latest/userguide/orgs_getting-started_concepts.html).
+So SSO users are managed after logging in to this account.
+
+1. [Log in to the appropriate account](https://746653422107.signin.aws.amazon.com/console).
+   You *must* already have a traditional IAM account created in this AWS account with
+   appropriate rights to be able to add SSO users. See [this list](https://console.aws.amazon.com/iamv2/home?region=us-east-1#/users)
+   after logging in for current set of IAM users.
+2. Go to the [SSO users](https://console.aws.amazon.com/singlesignon/identity/home?region=us-east-1#!/users)
+   page, and create an appropriate entry for the new user.
+   a. Their username should match their `2i2c.org` email address.
+   b. Use their `2i2c.org` address as email address.
+   c. Other than email and username, provide as little info as possible. This would be
+      just first name, last name and display name.
+   d. "Send an email to the user with password setup instructions".
+3. Add them to the `2i2c-engineers` group. This gives them access to all the other
+   AWS accounts we create.
+4. Create the account! They'll receive an email with appropriate instructions.
+
 ### AWS individual accounts
 
 For AWS accounts that are managed by customers, each 2i2c engineer should get an
