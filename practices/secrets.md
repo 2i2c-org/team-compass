@@ -51,9 +51,9 @@ To use `sops` with a 2i2c configuration file, follow these steps:
 3. **Set up the Google Cloud Key Management Service (KMS)**. This allows you to use your Google Cloud login to provide authentication for `sops`.
    [Follow the `sops` instructions to use KMS](https://github.com/mozilla/sops/#encrypting-using-gcp-kms).
 
-```{note}
-Step 3 is only required when setting up `sops` for the first time.
-```
+   ```{note}
+   This step is only required when setting up `sops` for the first time.
+   ```
 
 To confirm that `sops` has been set up properly, try encrypting or decrypting a configuration file per the sections below.
 
