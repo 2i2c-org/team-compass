@@ -1,4 +1,4 @@
-name: Open a weekly team sync issue
+name: "Create a team meeting issue"
 on:
   schedule:
   # Run on the 25th day of the month so there's time to update the issue w/ info
