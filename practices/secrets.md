@@ -1,4 +1,4 @@
-# Secrets, credientials, and passwords
+# Secrets, credentials, and passwords
 
 This section describes how 2i2c team members share and access sensitive credentials that allow permissions on our infrastructure and services.
 
@@ -56,6 +56,10 @@ To use `sops` with a 2i2c configuration file, follow these steps:
 3. **Set up the Google Cloud Key Management Service (KMS)**. This allows you to use your Google Cloud login to provide authentication for `sops`.
    [Follow the `sops` instructions to use KMS](https://github.com/mozilla/sops/#encrypting-using-gcp-kms).
 
+```{note}
+Step 3 is only required when setting up `sops` for the first time.
+```
+
 To confirm that `sops` has been set up properly, try encrypting or decrypting a configuration file per the sections below.
 
 ### Decrypt secrets with `sops`
@@ -64,13 +68,13 @@ In order to decrypt an encrypted configuration file, you should first follow the
 Once you've completed those steps, do the following:
 
 1. **Navigate to the root of the repository**.
-   There are a set of rules stored in [`.sops.yaml`](https://github.com/2i2c-org/infrastructure/blob/master/.sops.yaml) that use regex to match a file to be encrypted with the encryption key location.
+   There are a set of rules stored in [`.sops.yaml`](https://github.com/2i2c-org/infrastructure/blob/HEAD/.sops.yaml) that use regex to match a file to be encrypted with the encryption key location.
    You will receive an error from `sops` if you are not in the root folder and it cannot see this file.
 2. **Run the `sops` command**.
-   The following command will decrypt a configuration file (in this case, the configuration file in the `infrastructure` repository):
+   The following command will decrypt a configuration file:
 
    ```bash
-   sops --decrypt config/secrets.yaml
+   sops --decrypt example/path/to/a/sops-file.yaml
    ```
 
    :::{tip}
@@ -79,9 +83,13 @@ Once you've completed those steps, do the following:
 
    You should see the **decrypted configuration file** printed to `stdout`.
 
-   :::{admonition} Decrypt the file in-place
-   If you'd like to decrypt a configuration file in-place, use the `--in-place` or `-i` flag.
-   This will **overwrite** the configuration file with a decrypted version.
+   :::{admonition} Secret file naming conventions
+   We have naming conventions in place for our secret files that allow us to:
+
+   1. Identify when a file is encrypted or not, and
+   2. Use `.gitignore` rules to assist us in not committing unencrypted secrets to the repository
+
+   See our [infrastructure docs](https://infrastructure.2i2c.org/en/latest/topic/secrets.html) for more information on this.
    :::
 
 ### Learn more about `sops`
