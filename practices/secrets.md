@@ -16,28 +16,23 @@ See below for information about how to use `sops`.
 [`sops`](https://github.com/mozilla/sops) is a command-line tool for encrypting and decrypting secrets that are on disk.
 It is similar to [`git-crypt`](https://github.com/AGWA/git-crypt) (which is what is used by the Binder SRE team), but gives a bit more visibility into the encrypted fields by only encrypting the *values* rather than the *keys*.
 
-Here's an example of a file that has been encrypted with `sops` (from [our `infrastructure` configuration](https://github.com/2i2c-org/infrastructure/blob/master/config/secrets.yaml)):
+Here's an example of a file that has been encrypted with `sops` (from [our `infrastructure` configuration](https://github.com/2i2c-org/infrastructure/blob/HEAD/config/clusters/2i2c/enc-grafana-token.secret.yaml)):
 
 ```yaml
-auth0:
-    domain: ENC[AES256_GCM,data:aEi/GvnxpyGsvinhZ5sXXto=,iv:SR6sgQronhovtuUpQnSuIO2KFo9eTSP9tgFqg+QBJ8I=,tag:6yzNIPmFEWilI1qajTH1WQ==,type:str]
-    client_id: ENC[AES256_GCM,data:aHw7KJCg4Hn2RiLIiONQXnc48/JFsCCnW0WFVLtCFgM=,iv:FFxe1kNtBh5ljroqCTW3wicQzyDszSCSyYx4Boe2Dns=,tag:a/m2QDTrcKpurKq0IZPjOw==,type:str]
-    client_secret: ENC[AES256_GCM,data:B+fw9jZUc2b0Mb9CD/Pas+aZLPd3Rp1GI6Wrq0wXYcE5HvMEOXhXOqzl9nEKhbR/cVAh5YZt+xlI8G2zOraWbQ==,iv:nDIxzcuQ5Noxp7HyYsL02hBRDLi9An5MN8IEdLnLffA=,tag:T4GgBUkzfSV5UC8RX8yT2g==,type:str]
-secret_key: ENC[AES256_GCM,data:ZT5kb64zUJIEKhUQSKgCRF8HcEnvK59KCtVs6TEO+O3S5qWBJIJY9kivlYU8a93XRN9cxIi9YlG4EfLoFR5JUw==,iv:V5OKGcKfG6s4EKdonrosvFJPltujSp5z4SZ8th9SkYs=,tag:jqQcK4+HO+i8SLerABYxeQ==,type:str]
+grafana_token: ENC[AES256_GCM,data:o337Q5SSoBxk5bwSbbM12OO06LfLGsyWhh/SHccH4uOllMPSt4lN9EoRThfhDasrKaXyDmCNBdX+VBPrvBl1S61d7FG1Dfc/Cou3UODe99pZ53N1anooF5Oz38I=,iv:kai3CpHRtx1k9E5iZIcOOXFg0iElr7z+Q1+sZm6TNyI=,tag:1DfUibZUUIjaEMzpf0xkSw==,type:str]
 sops:
-    kms: []
-    gcp_kms:
-        - resource_id: projects/two-eye-two-see/locations/global/keyRings/sops-keys/cryptoKeys/similar-hubs
-          created_at: "2021-04-20T11:50:21Z"
-          enc: CiQA4OM7eLU3yaaPc6QnzaG3oPhN+OtaG+JCEd57CTIQcOSi+RUSSQBy9hCYh5zsV6u1djsUJPdj+2rwIb3aj0ZWkmZC+XtgXRrGTcI9BuUnnk25yyzi0HWr3CBZxARltajdQHydZCXlY+O28vsySkg=
-    azure_kv: []
-    hc_vault: []
-    age: []
-    lastmodified: "2021-06-11T06:36:56Z"
-    mac: ENC[AES256_GCM,data:oW0k09Gd65XK0OxRcX9jPaDMatFPrE42A6rdIHvKNQBmM2MY+VECKLbDzci1Ob9VZsp91ss0psn0im28z9G/Fjf6adRwXjtnI7k5KkEwkwivxpnk9RX+ZyPkFn4ccnhbHEciRU4NVS1upFJLCGDs9EBZ6FTXzMEx5aL2jUlLXYA=,iv:oaIR4rwUgcLpEFo19kziEuNJwf407NHPQVsM2pPRvxY=,tag:zozw57Qc1CYVj6TLkiyPlQ==,type:str]
-    pgp: []
-    unencrypted_suffix: _unencrypted
-    version: 3.7.1
+  kms: []
+  gcp_kms:
+    - resource_id: projects/two-eye-two-see/locations/global/keyRings/sops-keys/cryptoKeys/similar-hubs
+      created_at: "2021-10-18T17:21:01Z"
+      enc: CiQA4OM7eCwqoRc3NEE62VoPH0gA0Po3esF12tQCnZPYegT5EeQSSQC9ZQbL4hYbnpjbvR0/ye+TTgW6I/0h4Ltv5uU2m5s+EQ4jLWLW/5oqpKIRyisqxQJaU42cFb6CeiII/117BEwXaGx0K+e+NDA=
+  azure_kv: []
+  hc_vault: []
+  lastmodified: "2021-10-27T10:10:54Z"
+  mac: ENC[AES256_GCM,data:rT4AaoBrRR9Ok4oB+ptLzMqdMecQxzIZqs2wXiPO5qazj20QyYlz2GCk5Szc8xw8itvjRh2G4SnbdWmNbtVvns3zTT1/OXtTTOiwAfVSYtMwF7hIxLYlMb1T/0RoYEmnxy8joa50+ClnHJk+cStcx0EF5ll1B++dpCMGP5oH/G4=,iv:r+TXdJZiPYP2kpSeiz2l1szvPXOZxSnns9GtTmHx1Xk=,tag:eaNOhcBdXYiBXdhrsqlW2g==,type:str]
+  pgp: []
+  unencrypted_suffix: _unencrypted
+  version: 3.6.1
 ```
 
 As you can see, we have access to the **key names** but the **values are encrypted**.
