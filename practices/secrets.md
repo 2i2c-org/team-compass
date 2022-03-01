@@ -20,7 +20,7 @@ See [the 2i2c GKE cluster folder](https://github.com/2i2c-org/infrastructure/tre
 [`sops`](https://github.com/mozilla/sops) is a command-line tool for encrypting and decrypting secrets that are on disk.
 It is similar to [`git-crypt`](https://github.com/AGWA/git-crypt) (which is what is used by the Binder SRE team), but gives a bit more visibility into the encrypted fields by only encrypting the *values* rather than the *keys*.
 
-Here's an example of a file that has been encrypted with `sops` (from [our `infrastructure` configuration](https://github.com/2i2c-org/infrastructure/blob/master/config/clusters/2i2c/enc-grafana-token.secret.yaml)):
+Here's an example of a file that has been encrypted with `sops` (from [our `infrastructure` configuration](https://github.com/2i2c-org/infrastructure/blob/HEAD/config/clusters/2i2c/enc-grafana-token.secret.yaml)):
 
 ```yaml
 auth0:
