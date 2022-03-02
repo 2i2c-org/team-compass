@@ -10,6 +10,10 @@ This means we try to use services where team members have their own account with
 **When we must share secrets**: If we must share secrets for an account (for example, credentails for deployment to cloud infrastructure), then we use [the command-line tool `sops`](https://github.com/mozilla/sops) to encrypt our secrets.
 See below for information about how to use `sops`.
 
+We try to keep encrypted secrets files near their configuration files.
+For example, we'll keep a Kubernetes configuration file in the same folder as the secrets that are needed to make changes to that cluster.
+See [the 2i2c GKE cluster folder](https://github.com/2i2c-org/infrastructure/tree/HEAD/config/clusters/2i2c) for an example.
+
 (secrets:sops)=
 ## `sops` overview
 

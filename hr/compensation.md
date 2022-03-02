@@ -29,3 +29,12 @@ We generally use the following criteria when defining the salary for a given pos
 
 Benefits are offered by {term}`Code for Science and Society`.
 They are offered via [TriNet](https://www.trinet.com/) as described in [the CS&S employee handbook](https://drive.google.com/file/d/1anHo8P09gjGLnUfGj2ceSDxvJTYwMeS1/view?usp=sharing).
+
+## Rationale
+
+Below is a brief rationale for a few major aspects of our compensation strategy. We believe that these practices allow 2i2c to hire competitively, equitably, and successfully.
+
+- We want to set salaries that are very competitive for tech-focused non-profits of a similar size.
+- We also want to hire competitively for the tech industry, while recognizing that we do not have the same access to capital because we are a non-profit.
+- We believe in equal pay for equal work. We don’t believe that a team member's ability to support the mission of 2i2c is impacted by their ability to negotiate a better salary. We also don’t think it is impacted by external factors like geographical location or cost of living.
+- We believe in transparency and openness when it comes to our salaries, in order to balance the amount of information on both sides of the hiring equation. 
