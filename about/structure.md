@@ -12,7 +12,7 @@ This page describes the major organizational structures of 2i2c, and how they re
 (structure:steerco)=
 ## Steering Council
 
-The Steering Council defines the mission, vision, and values of 2i2c. It also sets the strategic direction and priorities for 2i2c. The Steering Council provides oversight to the Executive Director of 2i2c and the Operations Team. The Steering Council group (`[steering-council@2i2c.org](mailto:steering-council@2i2c.org)`) is the only “official” way to communicate with others on the Steering Council.
+The Steering Council defines the mission, vision, and values of 2i2c. It also sets the strategic direction and priorities for 2i2c. The Steering Council provides oversight to the Executive Director of 2i2c and the Operations Team. The Steering Council group ([`steering-council@2i2c.org`](mailto:steering-council@2i2c.org)) is the only “official” way to communicate with others on the Steering Council.
 
 The Steering Council makes decisions via consensus (specifically, it strives for [rough consensus](https://tools.ietf.org/html/rfc7282)). It is restricted by the legal obligations and policies of CS&S, 2i2c's fiscal sponsor.
 
