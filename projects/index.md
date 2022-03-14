@@ -35,8 +35,8 @@ The [organizational foundation project](https://github.com/orgs/2i2c-org/project
 The Managed JupyterHub Service is a special project of 2i2c that is [developed and described at this website](managed-hubs/index.md).
 
 :::{admonition} Tracking deliverables
-- [the high level goals and strategy are described here](https://pilot.2i2c.org/en/latest/about/strategy.html)
-- [the roadmap for the service is described here](https://pilot.2i2c.org/en/latest/about/roadmap.html)
+- [the high level goals and strategy are described here](https://docs.2i2c.org/en/latest/about/strategy.html)
+- [the roadmap for the service is described here](https://docs.2i2c.org/en/latest/about/roadmap.html)
 :::
 
 More information about the Managed JupyterHub Service can be found in these sections:
