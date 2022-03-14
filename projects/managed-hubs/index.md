@@ -20,7 +20,7 @@ You can find it at [infrastructure.2i2c.org](https://infrastructure.2i2c.org).
 **The Hub Administrator's Guide** provides for Hub Administrators to customize and control their hub.
 It is community-facing, and meant as a more external view on the 2i2c Hubs Pilot.
 It also describes high-level information about the pilot in general.
-It is located at [pilot.2i2c.org](https://pilot.2i2c.org) (or [the `pilot/` repository](https://github.com/2i2c-org/pilot))
+It is located at [docs.2i2c.org](https://docs.2i2c.org) (or [the `docs/` repository](https://github.com/2i2c-org/docs))
 
 **Strategy and roadmaps** for the Managed Hubs Pilot are located in the Hub Administrator's guide. 
 
