@@ -18,14 +18,6 @@ Our goal is to synchronize the team on the most important things to work on, and
 
 ### Meeting agenda
 
-**Review team projects.** (30 min)
-
-For each project, its champion does the following:
-
-- Share accomplishments since the last sprint, demos, etc
-- Discuss any quick blockers or major questions to answer
-- Discuss the work plan for the next sprint for this project
-
 **Review operations and support items** (20 min)
 
 For each operations or support item, we should:
@@ -33,6 +25,14 @@ For each operations or support item, we should:
 - Assign a team member to items that don't yet have one
 - Discuss any quick blockers or major questions that need to be answered
 - Discuss the next steps to resolve this item
+
+**Review team projects.** (30 min)
+
+For each project, its champion does the following:
+
+- Share accomplishments since the last sprint, demos, etc
+- Discuss any quick blockers or major questions to answer
+- Discuss the work plan for the next sprint for this project
 
 **Context share from admin and sustainability** (5 min, if time)
 
