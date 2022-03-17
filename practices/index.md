@@ -17,7 +17,7 @@ We want to do this with high efficiency so that people can quickly get on the sa
 communication
 development
 secrets
-cloud-access
+cloud-infrastructure
 meetings
 github-conventions
 team-compass
