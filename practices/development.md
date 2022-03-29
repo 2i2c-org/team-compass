@@ -39,16 +39,10 @@ Tuesday of week 2 (end of sprint)
 
 The team conducts a Sprint Planning meeting for 60 minutes at the beginning of each sprint.
 The goal of this meeting is to review our major work items, synchronize with one another, and prioritize work across team members.
+Our **Project Manager** role leads these meetings.
 It is also a chance to hand off the Support Steward role to the next person.
 
-Sprint Planning Meetings roughly follow a three-step process:
-
-1. Review what we've accomplished in the previous sprint, and decide what to do with remaining items that we did not complete.
-2. Scan and discuss the [team backlog](coordination:deliverables-backlog) in order to understand our WIP items and their prioritization relative to one another.
-3. Add backlog items, or their tasks, to the week's Sprint Board, and work on them throughout the week.
-   It's up to the team whether an item or one of its tasks should be added to the board.
-
-You can find the meeting format/agenda {download}`in the Sprint Planning meeting template <../.github/ISSUE_TEMPLATE/meeting-sprint-planning.md>`.
+See [the Sprint Planning issue template](https://github.com/2i2c-org/team-compass/blob/main/.github/ISSUE_TEMPLATE/meeting-sprint-planning.md) for the agenda / structure of these meetings.
 
 (coordination:sprint-board)=
 ### The Sprint Board

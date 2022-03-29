@@ -44,11 +44,6 @@ Before the meeting
 During the meeting
 : Run the meeting, ensuring that conversations are inclusive and productive
 
-After the meeting
-: - Convert actionable items into issues
-  - Clean up the notes after the meeting and archive them in the appropriate location (e.g., the Team Compass)
-  - Close-out the meeting issue
-
 
 #### Who serves as the facilitator?
 
@@ -60,19 +55,16 @@ Everybody on the engineering team, on a rotating basis. We rotate meeting facili
 The Meeting Recorder is responsible for encoding the discussion points and actionable items that came out of a meeting.
 Their primary goal is to make sure that the content of the meeting is saved for reference from others.
 
-:::{admonition} Responsibilities of the Recorder
+#### Responsibilities of the Recorder
+
 - Write down major discussion points and ideas during the meeting
 - Write down action items / to-dos explicitly so that we know what to follow up on
-
-:::
 
 ### Timekeeper
 
 The timekeeper's role is primarily to assist the Meeting Facilitator in moving the meeting forward.
 
-:::{admonition} Responsibilities of the Timekeeper
-- Keep track of the current time, and provide the Facilitator / meeting attendees cues that help them decide when to move things forward.
-:::
+Currently, the Meeting Facilitator delegates this responsibility to [this Cuckoo.Team app](https://cuckoo.team/2i2c).
 
 ## Kinds of recurring meetings
 
@@ -80,22 +72,20 @@ The following are meetings that we regularly hold.
 
 ### Monthly team meetings
 
-The 2i2c Team meets **monthly on Tuesdays** for 90 minutes.
+The 2i2c Team meets **monthly on Tuesdays** for 60 minutes, with an optional 30-minute extra time afterwards if we really need to extend conversation.
 
-See the [Team Calendar page](team/calendar) for information about when and where the meetings are held.
+See the [Team Calendar page](team/calendar) for information about when and where the meetings are held, as well as links to meeting notes.
 
 Monthly team meetings are an opportunity to all meet face to face in order to discuss topics that benefit from synchronous conversation.
 For example, these are some goals we might have:
 
-- Connect with one another
 - Discuss complicated issues that benefit from real-time conversation
 - Zoom out and make sure we are on the right track
 - Discuss team process issues to make sure we are all supported
 
 It is **not a status update meeting** - this should be done via our GitHub issues and sprint planning!
 
-We use [this HackMD for our team meeting notes and agenda](https://hackmd.io/Y5SBMxV7R6CMqzeTXgm5kA).
-
+You can [find notes from team meetings here](../meetings/eng/index.md).
 
 (meetings:sprint-planning)=
 ### Sprint Planning meetings
