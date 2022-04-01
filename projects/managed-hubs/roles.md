@@ -58,6 +58,12 @@ People in these roles are generally affiliated with 2i2c.
 Support Stewards are the first point of contact for all support-related issues.
 See [](support:process) for more information.
 
+(roles:project-manager)=
+## Project Manager
+
+We are piloting the use of a dedicated Project Manager to help our team plan and coordinate with one another.
+See [this GitHub issue](https://github.com/2i2c-org/team-compass/issues/398) for our plans and experience with this pilot thus far.
+
 ## Diagram of roles
 
 Below is a diagram that summarizes the major roles described here, and their relationship to one another.
