@@ -9,50 +9,50 @@ This section describes how our development team carries out its planning and day
 👉 [Here's a link to see all Pull Requests for which your review is requested](https://github.com/issues?q=is%3Aopen+archived%3Afalse+sort%3Aupdated-desc+user%3A2i2c-org+type%3Apr+review-requested%3A%40me)
 :::
 
-(coordination:sprints)=
-## Team Sprints
+(coordination:cycles)=
+## Team Cycles
 
-The 2i2c team uses Sprints to coordinate with one another in focused cycles of work.
-To begin each sprint, we collectively choose items to work on in the next sprint.
+The 2i2c team uses Cycles to coordinate with one another in focused cycles of work.
+To begin each cycle, we collectively choose items to work on in the next cycle.
 Each item should have a person assigned to it, who will be responsible for ensuring that the work gets done.
-However, our work within a sprint is a **team commitment**, and we are all responsible for helping one another accomplish our tasks.
+However, our work within a cycle is a **team commitment**, and we are all responsible for helping one another accomplish our tasks.
 
-### Sprint cadence
+### Cycle cadence
 
-Our team works in **two-week sprints**.
-Here is a brief overview of each sprint.
+Our team works in **two-week cycles**.
+Here is a brief overview of each cycle.
 
-Wednesday (beginning of sprint)
-: Sprint begins with our [sprint planning meeting](meetings:sprint-planning).
+Wednesday (beginning of cycle)
+: Cycle begins with our [cycle planning meeting](meetings:cycle-planning).
 
-  In this meeting we discuss major accomplishments in the previous sprint. We then prioritize and assign the items that each team member will work on for the next sprint, and review items that require discussion and planning.
+  In this meeting we discuss major accomplishments in the previous cycle. We then prioritize and assign the items that each team member will work on for the next cycle, and review items that require discussion and planning.
 
-During the sprint
-: Team members work on the items assigned to them at the sprint planning meeting.
-  We use [the Sprint Board](coordination:sprint-board) to coordinate our activities during the sprint.
+During the cycle
+: Team members work on the items assigned to them at the cycle planning meeting.
+  We use [the Cycle Board](coordination:cycle-board) to coordinate our activities during the cycle.
   We provide updates about what we've been up to, what we're doing next, and where we need help via regular **asynchronous Slack stand-ups**.
 
-Tuesday of week 2 (end of sprint)
-: By the end of the day, team members should have completed all of their items for that sprint.
+Tuesday of week 2 (end of cycle)
+: By the end of the day, team members should have completed all of their items for that cycle.
   
-### Sprint planning meeting
+### Cycle planning meeting
 
-The team conducts a Sprint Planning meeting for 60 minutes at the beginning of each sprint.
+The team conducts a Cycle Planning meeting for 60 minutes at the beginning of each cycle.
 The goal of this meeting is to review our major work items, synchronize with one another, and prioritize work across team members.
 Our **Project Manager** role leads these meetings.
 It is also a chance to hand off the Support Steward role to the next person.
 
-See [the Sprint Planning issue template](https://github.com/2i2c-org/team-compass/blob/main/.github/ISSUE_TEMPLATE/meeting-sprint-planning.md) for the agenda / structure of these meetings.
+See [the Cycle Planning issue template](https://github.com/2i2c-org/team-compass/blob/main/.github/ISSUE_TEMPLATE/meeting-cycle-planning.md) for the agenda / structure of these meetings.
 
-(coordination:sprint-board)=
-### The Sprint Board
+(coordination:cycle-board)=
+### The Cycle Board
 
-The Sprint Board is a place to keep track of the [Deliverables and tasks](coordination:deliverables) our team intends to work on for the week.
+The Cycle Board is a place to keep track of the [Deliverables and tasks](coordination:deliverables) our team intends to work on for the week.
 It is a GitHub Projects board that is created for each week, and closed at the end of each week.
-The team's goal is to complete all items on the Sprint Board by the end of the Sprint.
+The team's goal is to complete all items on the Cycle Board by the end of the Cycle.
 This is a team commitment - while one person may be assigned to a deliverable, we all commit to working together to get the work done.
 
-:::{admonition} The Sprint Board should...
+:::{admonition} The Cycle Board should...
 :class: tip
 - Have enough items to keep the team occupied for the week
 - Not have so many items that a team member gets overwhelmed
@@ -60,11 +60,11 @@ This is a team commitment - while one person may be assigned to a deliverable, w
 - Have a team member assigned to each item on the board
 :::
 
-The Sprint Board is broken down into these columns:
+The Cycle Board is broken down into these columns:
 
 - {guilabel}`Up Next` Items that are ready to be worked on.
 - {guilabel}`In progress` An item that a team member is currently working towards.
-- {guilabel}`Done` Items that are complete! These should be celebrated archived in the next Sprint Planning meeting.
+- {guilabel}`Done` Items that are complete! These should be celebrated archived in the next Cycle Planning meeting.
 
 In addition, we have a few other pieces of metadata to signal different kind of actions that would be needed 
 
@@ -132,7 +132,7 @@ Tasks to complete
   All deliverables should have either a set of concrete steps to take to meet the deliverable, or at least one task with the **acceptance criteria** for when the deliverable will be complete.
   Task lists should be in the top comment of the deliverable, and are encoded as markdown tasks lists (e.g. with `- [ ]`).
   Task lists should be updated over time as we learn the steps needed to close the deliverable.
-  For more complex deliverables, these tasks may be what goes onto the Sprint Board, rather than the deliverable itself.
+  For more complex deliverables, these tasks may be what goes onto the Cycle Board, rather than the deliverable itself.
 
 (coordination:deliverables-backlog)=
 ## The Team Backlog
@@ -145,13 +145,13 @@ These items adhere to the following principles:
 
 - The order of items should be roughly according to priority, with higher priority items at the top of lists.
 - Items on the board should have a **status** that signals whether they are ready to work or need more refinement before working.
-- If an item has multiple components or would otherwise take longer than a sprint to complete, create new issues as sub-tasks, and add *them* to the Sprint Board.
+- If an item has multiple components or would otherwise take longer than a cycle to complete, create new issues as sub-tasks, and add *them* to the Cycle Board.
 
 ### Assigning to an issue
 
 Only assign a backlog issue to somebody if it is **actively being worked on**.
-We assume that once somebody is assigned to an issue, it is part of an active sprint.
-Note that **all** issues on our Sprint Backlog should have somebody assigned to them.
+We assume that once somebody is assigned to an issue, it is part of an active cycle.
+Note that **all** issues on our Cycle Backlog should have somebody assigned to them.
 
 :::{admonition} Our definition of "Work in Progress"
 Because issues that are actively being worked on must have somebody assigned to them, we use "the issues that have somebody assigned to them" as our definition of Work in Progress.
@@ -159,21 +159,21 @@ Because issues that are actively being worked on must have somebody assigned to 
 
 ### Backlog item limits
 
-Our goal is to have backlog items that roughly cover the next 3 [sprint cycles](coordination:sprints).
+Our goal is to have backlog items that roughly cover the next 3 [cycle cycles](coordination:cycles).
 We **should not have more backlog items than this amount**.
 
-You can estimate the number of items on the board at any one time by assuming that **each team member (at 100% FTE) can accomplish about 2 items per sprint**.
+You can estimate the number of items on the board at any one time by assuming that **each team member (at 100% FTE) can accomplish about 2 items per cycle**.
 You can then calculate the rough number of items on this board with the equation:
 
 ```
-n_team_members * 2 (items per sprint) * 3 (sprints on the board)
+n_team_members * 2 (items per cycle) * 3 (cycles on the board)
 ```
 
 So if we have 5.5 team members available (if one of them is at 50% FTE), then the team backlog should have around `5.5 * 2 * 3 = 33 deliverables` on it.
 
 ### Adding backlog items
 
-We should add items to our team backlog when we have capacity to do the work in the next 3 sprints, and when those items are ready to be prioritized over all the other work that we *could* do (e.g., all issues in our repositories and encoded in project backlogs).
+We should add items to our team backlog when we have capacity to do the work in the next 3 cycles, and when those items are ready to be prioritized over all the other work that we *could* do (e.g., all issues in our repositories and encoded in project backlogs).
 
 :::{tip}
 
@@ -211,11 +211,11 @@ This doesn't mean that we know **all** of the tasks needed to complete the item,
 
 [^invest]: A good resource for considering what kinds of information makes a deliverable "ready" is [the INVEST methodology](https://agileforall.com/new-to-agile-invest-in-good-user-stories).
 
-The team picks up work associated with a backlog item via our Sprint Planning meeting.
+The team picks up work associated with a backlog item via our Cycle Planning meeting.
 In this case, there are two options:
 
-1. **Add the item to the Sprint Board**. If an item is scoped tightly enough that it can be completed within one sprint, then add it to the [Sprint Board](coordination:sprint-board) and complete it in a sprint.
-2. **Generate issues from tasks and add them to the Sprint Board**. For items that are more complex and require tasks that would take more than one sprint, use the **Task List** in the issue to generate new issues for use on the Sprint Board.
+1. **Add the item to the Cycle Board**. If an item is scoped tightly enough that it can be completed within one cycle, then add it to the [Cycle Board](coordination:cycle-board) and complete it in a cycle.
+2. **Generate issues from tasks and add them to the Cycle Board**. For items that are more complex and require tasks that would take more than one cycle, use the **Task List** in the issue to generate new issues for use on the Cycle Board.
 
    :::{tip}
    You can [use GitHub's task issue tracking features](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-task-lists) to keep track of tasks associated with an issue.
@@ -252,8 +252,8 @@ Not all of them are followed strictly, though some are more important than other
 - **Be explicit about what feedback you want**.
   When you open a PR, include some language about specific things you'd like feedback with, if applicable.
   This helps others focus their attention.
-- **Use the review column on sprint boards**.
-  When a PR needs review, move any relevant issues to the {kbd}`Review` column of the active [Sprint Board](coordination:sprint-board) so others notice it.
+- **Use the review column on cycle boards**.
+  When a PR needs review, move any relevant issues to the {kbd}`Review` column of the active [Cycle Board](coordination:cycle-board) so others notice it.
 - **Merge after one approval**.
   If there is at least one approval on a PR, then anybody, including the PR author, may merge the PR.
   PR authors should not hesitate to merge their own PR after an approval if they think it is ready to go!
@@ -289,7 +289,7 @@ There is no official way to track long-term projects within 2i2c, but there are 
 The simplest way to track longer-term efforts is with a **Tracking Issue**.
 This is a GitHub Issue whose job is to keep track of many actions and deliverables over time that are needed to close the issue.
 They are generally encoded as **Task Lists** in the issue's top comment.
-Each item in the list tends to be a deliverable, and can be converted into its own GitHub Issue (e.g., to put on the [Sprint Board](coordination:sprint-board)) as-needed.
+Each item in the list tends to be a deliverable, and can be converted into its own GitHub Issue (e.g., to put on the [Cycle Board](coordination:cycle-board)) as-needed.
 
 (coordination:project-backlog)=
 ### Project Backlogs
@@ -301,7 +301,7 @@ Here is a common column structure:
 
 - {guilabel}`Needs Discussion/Refinement`: Deliverables that are high-priority but un-refined. Our goal should be having discussion and doing research in order to get these deliverables ready for work.
 - {guilabel}`Ready to Work`: Deliverables that are well-scoped and have a clear path forward, and are thus ready to implement. As deliverables in {guilabel}`In progress` are completed, we should replace them with deliverables from this column. Generally speaking, deliverables near the top have higher priority than those at the bottom.
-- {guilabel}`In progress`: Deliverables that we are currently working towards. This means that they should be added to the [Sprint Board](coordination:sprint-board) to track its completion.
+- {guilabel}`In progress`: Deliverables that we are currently working towards. This means that they should be added to the [Cycle Board](coordination:cycle-board) to track its completion.
 - {guilabel}`Blocked`: Deliverables that require another action or delivearable from the 2i2c team to complete before they can move forward.
 - {guilabel}`Waiting`: Deliverables that require another action from a **non-2i2c team member** before they can move forward.
 - {guilabel}`Done`: Deliverables that have been completed. We should close these issues and celebrate the improvements that we have made!

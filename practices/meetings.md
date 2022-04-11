@@ -83,14 +83,14 @@ For example, these are some goals we might have:
 - Zoom out and make sure we are on the right track
 - Discuss team process issues to make sure we are all supported
 
-It is **not a status update meeting** - this should be done via our GitHub issues and sprint planning!
+It is **not a status update meeting** - this should be done via our GitHub issues and cycle planning!
 
 You can [find notes from team meetings here](../meetings/eng/index.md).
 
-(meetings:sprint-planning)=
-### Sprint Planning meetings
+(meetings:cycle-planning)=
+### Cycle Planning meetings
 
-See [](coordination:sprints) for information about these meetings.
+See [](coordination:cycles) for information about these meetings.
 
 ### One on one meetings
 

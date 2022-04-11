@@ -1,11 +1,11 @@
 ---
-name: "🚀 Sprint Planning Meeting"
-about: Conduct a Sprint Planning meeting.
-labels: "type: team-sync, :label: meeting:sprint-planning"
-title: "Sprint Planning Meeting: {{ date | date('add', 1, 'days') | date('dddd, MMMM Do') }}"
+name: "🚀 Cycle Planning Meeting"
+about: Conduct a Cycle Planning meeting.
+labels: "type: team-sync, :label: meeting:cycle-planning"
+title: "Cycle Planning Meeting: {{ date | date('add', 1, 'days') | date('dddd, MMMM Do') }}"
 ---
 
-# 2i2c Sprint Planning meeting
+# 2i2c Cycle Planning meeting
 
 This is a **60 minute** recurring meeting **every other Wednesday at 7:30AM Pacific time** (here's [**a timezone converter**](https://arewemeetingyet.com/Los%20Angeles/2000-01-01/07:30/2i2c%20Team%20Meeting#eyJ1cmwiOiJodHRwczovL2hhY2ttZC5pby9ZNVNCTXhWN1I2Q01xemVUWGdtNWtBIn0=), ignore the date!).
 
@@ -30,9 +30,9 @@ For each operations or support item, we should:
 
 For each project, its champion does the following:
 
-- Share accomplishments since the last sprint, demos, etc
+- Share accomplishments since the last cycle, demos, etc
 - Discuss any quick blockers or major questions to answer
-- Discuss the work plan for the next sprint for this project
+- Discuss the work plan for the next cycle for this project
 
 **Context share from admin and sustainability** (5 min, if time)
 
