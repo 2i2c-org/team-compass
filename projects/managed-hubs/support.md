@@ -21,7 +21,7 @@ For most support requests, we use [a FreshDesk service](https://2i2c.freshdesk.c
 
 The Support Team is a **two-person team** of Support Stewards that work together.
 Tenure on the support team is **for four weeks**.
-Every **two weeks** (generally at the cycle meeting), a Support Steward cycles off the support team, and a new team member joins the team.
+Every **two weeks** (generally at the coordination meeting), a Support Steward cycles off the support team, and a new team member joins the team.
 The support team rotates through [the “Open Infrastructure Engineering Team” on this page](https://team-compass.2i2c.org/en/latest/about/team.html), in alphabetical order.
 
 :::{seealso}
@@ -63,7 +63,7 @@ If resolving a support issue requires ongoing or concerted work, open a backlog 
 
 Support backlog items should:
 
-- Be placed in our [Cycle Board](coordination:cycle-board).
+- Be placed in our [Team BackLog Board](coordination:deliverables-backlog).
 - Include a reference to any FreshDesk tickets if they exist.
 - Be prioritized over other backlog items for that cycle.
 
@@ -109,7 +109,7 @@ We should try to respond to all support-related communications within one workin
 The support team is primarily a **communicator** and a **router** - they are not necessarily the ones who carry out the changes needed to resolve a support issue.
 Instead, the support team is empowered to ask engineering team members to pick up backlog items that are related to support requests.
 
-When a support request is made that requires an action from a 2i2c engineer, a Support Steward should describe this change in a GitHub issue, and add it to the [Cycle Board](coordination:cycle-board).
+When a support request is made that requires an action from a 2i2c engineer, a Support Steward should describe this change in a GitHub issue, and add it to the [Team Backlog Board](coordination:deliverables-backlog).
 Think about an engineering team member that likely has the skills and capacity needed, and ask them if they are willing to take on resolving this issue.
 Try not to ask the same person for support help many times in a row - we should spread the work needed to address support issues across the team.
 

@@ -31,7 +31,8 @@ During the cycle
   We use [the Team Backlog Board](coordination:deliverables-backlog) to coordinate our activities during the cycle.
   We provide updates about what we've been up to, what we're doing next, and where we need help via regular **asynchronous Slack stand-ups**.
   We add issues (or standalone PRs) belonging to the activities developed during the cycle into the [the Cycle Board](coordination:cycle-board).
-  
+
+(coordination:planning)=  
 ### Coordination planning meeting
 
 The team conducts a Coordination Planning meeting for 60 minutes at the beginning of each cycle.
@@ -241,8 +242,8 @@ Not all of them are followed strictly, though some are more important than other
 - **Be explicit about what feedback you want**.
   When you open a PR, include some language about specific things you'd like feedback with, if applicable.
   This helps others focus their attention.
-- **Use the review column on cycle boards**.
-  When a PR needs review, move any relevant issues to the {kbd}`Review` column of the active [Cycle Board](coordination:cycle-board) so others notice it.
+- **Use the Slack Geekbot to ask for help**.
+  When a PR needs review and there is no feedback, use the help section from the bot update to ask others for feedback!
 - **Merge after one approval**.
   If there is at least one approval on a PR, then anybody, including the PR author, may merge the PR.
   PR authors should not hesitate to merge their own PR after an approval if they think it is ready to go!
