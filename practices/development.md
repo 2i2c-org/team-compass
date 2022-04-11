@@ -12,9 +12,8 @@ This section describes how our development team carries out its planning and day
 (coordination:cycles)=
 ## Team Cycles
 
-The 2i2c team uses Cycles to coordinate with one another in focused cycles of work.
-To begin each cycle, we collectively choose items to work on in the next cycle.
-Each item should have a person assigned to it, who will be responsible for ensuring that the work gets done.
+To begin each cycle, we collectively choose items to work on (or continue working) in the next cycle.
+Each item should have a person assigned to it, who will be responsible for ensuring that the work gets done and a another person as a helper.
 However, our work within a cycle is a **team commitment**, and we are all responsible for helping one another accomplish our tasks.
 
 ### Cycle cadence
@@ -23,51 +22,37 @@ Our team works in **two-week cycles**.
 Here is a brief overview of each cycle.
 
 Wednesday (beginning of cycle)
-: Cycle begins with our [cycle planning meeting](meetings:cycle-planning).
+: Cycle begins with our [coordination planning meeting](meetings:coordination-planning).
 
   In this meeting we discuss major accomplishments in the previous cycle. We then prioritize and assign the items that each team member will work on for the next cycle, and review items that require discussion and planning.
 
 During the cycle
-: Team members work on the items assigned to them at the cycle planning meeting.
-  We use [the Cycle Board](coordination:cycle-board) to coordinate our activities during the cycle.
+: Team members work on the items assigned to them at the coordination planning meeting.
+  We use [the Team Backlog Board](coordination:deliverables-backlog) to coordinate our activities during the cycle.
   We provide updates about what we've been up to, what we're doing next, and where we need help via regular **asynchronous Slack stand-ups**.
-
-Tuesday of week 2 (end of cycle)
-: By the end of the day, team members should have completed all of their items for that cycle.
+  We add issues (or standalone PRs) belonging to the activities developed during the cycle into the [the Cycle Board](coordination:cycle-board).
   
-### Cycle planning meeting
+### Coordination planning meeting
 
-The team conducts a Cycle Planning meeting for 60 minutes at the beginning of each cycle.
+The team conducts a Coordination Planning meeting for 60 minutes at the beginning of each cycle.
 The goal of this meeting is to review our major work items, synchronize with one another, and prioritize work across team members.
 Our **Project Manager** role leads these meetings.
 It is also a chance to hand off the Support Steward role to the next person.
 
-See [the Cycle Planning issue template](https://github.com/2i2c-org/team-compass/blob/main/.github/ISSUE_TEMPLATE/meeting-cycle-planning.md) for the agenda / structure of these meetings.
+See [the Coordination Planning issue template](https://github.com/2i2c-org/team-compass/blob/main/.github/ISSUE_TEMPLATE/meeting-coordination-planning.md) for the agenda / structure of these meetings.
 
 (coordination:cycle-board)=
 ### The Cycle Board
 
-The Cycle Board is a place to keep track of the [Deliverables and tasks](coordination:deliverables) our team intends to work on for the week.
-It is a GitHub Projects board that is created for each week, and closed at the end of each week.
-The team's goal is to complete all items on the Cycle Board by the end of the Cycle.
-This is a team commitment - while one person may be assigned to a deliverable, we all commit to working together to get the work done.
-
-:::{admonition} The Cycle Board should...
-:class: tip
-- Have enough items to keep the team occupied for the week
-- Not have so many items that a team member gets overwhelmed
-- Under-estimate our team's total capacity, to provide room for unexpected work (e.g., support work)
-- Have a team member assigned to each item on the board
-:::
+The Cycle Board is a place to keep track of the [Deliverables and tasks](coordination:deliverables) our team is working on for the cycle.
+It is a GitHub Projects board that is created for each cycle, and closed at the end of each cycle.
 
 The Cycle Board is broken down into these columns:
 
-- {guilabel}`Up Next` Items that are ready to be worked on.
-- {guilabel}`In progress` An item that a team member is currently working towards.
-- {guilabel}`Done` Items that are complete! These should be celebrated archived in the next Cycle Planning meeting.
-
-In addition, we have a few other pieces of metadata to signal different kind of actions that would be needed 
-
+- {guilabel}`Todo` Items that are ready to be worked on.
+- {guilabel}`In Progress` An item that a team member is currently working towards.
+- {guilabel}`Review / QA` Items that are ready to be reviewed/tested.
+- {guilabel}`Done` Items that are complete! These should be celebrated and archived in the next Coordination Planning meeting.
 
 (coordination:team-syncs)=
 ## Daily team syncs
@@ -140,12 +125,12 @@ Tasks to complete
 [Click here to go to the Team Backlog](https://github.com/orgs/2i2c-org/projects/22).
 
 The Team Backlog is a GitHub Projects Board with a list of [Deliverables and tasks](coordination:deliverables) across all of our active projects.
-This represents the work that the team is planning to do in the near future.
+This represents the work that the team is doing AND planning to do in the near future.
 These items adhere to the following principles:
 
 - The order of items should be roughly according to priority, with higher priority items at the top of lists.
 - Items on the board should have a **status** that signals whether they are ready to work or need more refinement before working.
-- If an item has multiple components or would otherwise take longer than a cycle to complete, create new issues as sub-tasks, and add *them* to the Cycle Board.
+- If an item has multiple components or would otherwise take longer than a cycle to complete, create new issues as sub-tasks, and add *them* to a dedicated [Project Backlog](coordination:project-backlog).
 
 ### Assigning to an issue
 
@@ -211,11 +196,11 @@ This doesn't mean that we know **all** of the tasks needed to complete the item,
 
 [^invest]: A good resource for considering what kinds of information makes a deliverable "ready" is [the INVEST methodology](https://agileforall.com/new-to-agile-invest-in-good-user-stories).
 
-The team picks up work associated with a backlog item via our Cycle Planning meeting.
-In this case, there are two options:
+The team picks up work associated with a backlog item via our Coordination Planning meeting.
+In this case, there are three options:
 
-1. **Add the item to the Cycle Board**. If an item is scoped tightly enough that it can be completed within one cycle, then add it to the [Cycle Board](coordination:cycle-board) and complete it in a cycle.
-2. **Generate issues from tasks and add them to the Cycle Board**. For items that are more complex and require tasks that would take more than one cycle, use the **Task List** in the issue to generate new issues for use on the Cycle Board.
+1. **Add the item to the Team Backlog Board**. If an item is scoped tightly enough that it can be completed within one cycle, then add it to the [Team Backlog Board](coordination:deliverables-backlog) and complete it in a cycle.
+2. **Generate issues from tasks and add the parent item to the Team Backlog Board**. For items that are more complex and require tasks that would take more than one cycle, use the **Task List** in the issue to generate new issues.
 
    :::{tip}
    You can [use GitHub's task issue tracking features](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-task-lists) to keep track of tasks associated with an issue.
@@ -223,6 +208,10 @@ In this case, there are two options:
 
 As work is done towards a backlog item, **update the top comment of the issue** with new information and tasks.
 Each parent issue is the {term}`Source of Truth` for all work associated with it (instead of, for example, an issue created as a sub-task for that item).
+
+   :::{tip}
+   Using a dedicated [Project Backlog](coordination:project-backlog) can be helpful to track longer-term planning (encompassing multiple cycles) for a specific project.
+   :::
 
 (coordination:deliverables:upstream)=
 ### Tracking upstream issues
@@ -289,7 +278,7 @@ There is no official way to track long-term projects within 2i2c, but there are 
 The simplest way to track longer-term efforts is with a **Tracking Issue**.
 This is a GitHub Issue whose job is to keep track of many actions and deliverables over time that are needed to close the issue.
 They are generally encoded as **Task Lists** in the issue's top comment.
-Each item in the list tends to be a deliverable, and can be converted into its own GitHub Issue (e.g., to put on the [Cycle Board](coordination:cycle-board)) as-needed.
+Each item in the list tends to be a deliverable, and can be converted into its own GitHub Issue as-needed.
 
 (coordination:project-backlog)=
 ### Project Backlogs

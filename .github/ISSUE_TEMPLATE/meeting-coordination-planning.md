@@ -1,11 +1,11 @@
 ---
-name: "🚀 Cycle Planning Meeting"
-about: Conduct a Cycle Planning meeting.
+name: "🚀 Coordination Planning Meeting"
+about: Conduct a Coordination Planning meeting.
 labels: "type: team-sync, :label: meeting:cycle-planning"
-title: "Cycle Planning Meeting: {{ date | date('add', 1, 'days') | date('dddd, MMMM Do') }}"
+title: "Coordination Planning Meeting: {{ date | date('add', 1, 'days') | date('dddd, MMMM Do') }}"
 ---
 
-# 2i2c Cycle Planning meeting
+# 2i2c Coordination Planning meeting
 
 This is a **60 minute** recurring meeting **every other Wednesday at 7:30AM Pacific time** (here's [**a timezone converter**](https://arewemeetingyet.com/Los%20Angeles/2000-01-01/07:30/2i2c%20Team%20Meeting#eyJ1cmwiOiJodHRwczovL2hhY2ttZC5pby9ZNVNCTXhWN1I2Q01xemVUWGdtNWtBIn0=), ignore the date!).
 
