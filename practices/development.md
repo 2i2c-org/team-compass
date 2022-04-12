@@ -13,7 +13,7 @@ This section describes how our development team carries out its planning and day
 ## Team Cycles
 
 To begin each cycle, we collectively choose items to work on (or continue working) in the next cycle.
-Each item should have a person assigned to it, who will be responsible for ensuring that the work gets done and a another person as a helper.
+Each item should have a person assigned to it and another person as a helper. The person assigned will be the one responsible for ensuring that the work gets done.
 However, our work within a cycle is a **team commitment**, and we are all responsible for helping one another accomplish our tasks.
 
 ### Cycle cadence
