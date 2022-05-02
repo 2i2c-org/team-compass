@@ -25,20 +25,11 @@ Moreover, each role should have a few key pieces of information:
 Key goal
 : A one- or two-sentence description of the primary goal of this role. It is the one thing that should be done well, and will be the main definition of "success".
 
-Job description
-: A few sentences that describe the job, its main responsibilities and scope, and its relationship with the team.
-
 Responsibilities and Expectations
-: The major things that this person is expected to do or oversee, and what kinds of expectations we have for how they'll do their work.
+: The major things that this person is expected to do or oversee, what kinds of expectations we have for how they'll do their work, and what their relationship should be to others within 2i2c.
 
-Key metrics
-: One or two quantitative or qualitative metrics that are most-useful in measuring the success of people in this role. Our goal is to be precise about the kind of impact that this role should have in 2i2c.
-
-Starting qualities
-: The qualities that we should look for when hiring a person at each level of a role.
-
-Starting salary
-: The starting salary for L1 of this role, based on [our salary strategy](compensation.md).
+Performance measures
+: Quantitative or qualitative metrics that are useful in measuring the success of people in this role. Our goal is to be precise about the kind of impact that this role should have in 2i2c.
 
 :::{note}
 We are still building out these materials and role definitions, so this structure may evolve, and some roles may be missing information.
