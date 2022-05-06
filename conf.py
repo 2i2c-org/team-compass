@@ -48,9 +48,10 @@ html_theme_options = {
 myst_enable_extensions = [
     "colon_fence",
     "deflist",
+    "dollarmath",
     "linkify",
 ]
-myst_url_schemes = ["https", "http", "ftp", "mailto"]
+
 intersphinx_mapping = {
     "docs": ("https://docs.2i2c.org/en/latest/", None),
     "infra": ("https://infrastructure.2i2c.org/en/latest/", None),

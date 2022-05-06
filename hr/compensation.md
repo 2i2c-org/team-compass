@@ -27,8 +27,12 @@ We generally use the following criteria when defining the salary for a given pos
 - Choose an appropriate job category that most closely matches this position.
 - Define “compensation” as base salary + 30% benefits
 - Aim for the median compensation in a category 
+
+Extra notes and guidelines to follow:
+
 - The numbers there are for the **top-paid position**  
   - Reduce accordingly depending on the level we're hiring for. A good rule of thumb for defining new roles is to expect a 10% salary bump between levels, and a 2% salary bump for steps within a level.
+- Keep the number of unique base salaries low, and round-up to standardize across titles if necessary.
 
 ## Benefits
 
