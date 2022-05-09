@@ -17,24 +17,23 @@ Ensure that 2i2c has effective relationships (sales, contracts, invoicing, servi
   - Define overall goals to guide sustainability efforts at 2i2c
   - Forecast revenue to inform overall strategy
 - **Represent this strategy internally and externally**
-  - Amplifies [Voice of Partner](https://www.zs.com/insights/high-techs-new-challenge-hearing-voices-of-channel-partners) for 2i2c stakeholders in internal discussions (e.g. with 2i2c's engineering and support teams).
-  - Collaborates with Product and Community Lead to represent Sustainability strategy in product/service decisions.
+  - Amplify [Voice of Partner](https://www.zs.com/insights/high-techs-new-challenge-hearing-voices-of-channel-partners) for 2i2c stakeholders in internal discussions (e.g. with 2i2c's engineering and support teams).
+  - Collaborate with Product and Community Lead to represent Sustainability strategy in product/service decisions.
   - Communicate 2i2c's sustainability strategy and model to external stakeholders
 - **Design and develop new revenue mechanisms**
-  - establish and sustain revenue-generating relationships with partner organizations
-  - establish ongoing relationships with cloud vendors or resellers
-  - done in collaboration with product and engineering teams.
+  - Establish and sustain revenue-generating relationships with partner organizations
+  - Establish ongoing relationships with cloud vendors or resellers
+  - Collaborate with product and engineering teams.
 - **Manage our sales pipeline**
-  - Balance our revenue, costs, and ability to deliver:
-
-    $$
-    \mbox{costs} \leq \mbox{amount sold}  \leq \mbox{delivery capacity}
-    $$
-  - leads $\rightarrow$ opportunities $\rightarrow$ sales $\rightarrow$ service
-  - deliver services; onboard partners
-  - implement invoicing process with CS&S
-  - improve to help partners advance
-  - Liase with CS&S around invoicing pipeline
+  - Balance our revenue, costs, and ability to deliver.
+  - Oversee processes and systems that balance leads, sales, etc. For example:
+    - $$
+      \mbox{costs} \leq \mbox{amount sold}  \leq \mbox{delivery capacity}
+      $$
+    - Leads $\rightarrow$ opportunities $\rightarrow$ sales $\rightarrow$ service
+  - Collaborate with Product and Community Lead around onboarding new communities.
+  - Liase with CS&S around invoicing pipeline.
+  - Oversee 2i2c's actions as it pertains to invoicing.
 - **Formalize our contractual relationships**. For example:
   - Service Level Agreement
   - Support Expectations
@@ -55,31 +54,27 @@ Ensure that 2i2c has effective relationships (sales, contracts, invoicing, servi
 
 The following are a combination of quantitative and qualitative measures that can be used to gauge the performance of this role.
 
-```{list-table}
-:stub-columns: 1
-:widths: 10 30
-- - Sales and invoicing efficiency
-  - - Sales Cycle Length (first touch to close)
-    - Invoicing turnaround
-- - Overall service sustainability
-  - - Recurring Revenue
-    - Number of unique partnerships / contracts
-- - New business
-  - - New contracts
-    - New partners / communities
-- - Growing pre-existing business
-  - - [Customer Churn](https://www.salesforce.com/resources/articles/how-calculate-customer-churn-and-revenue-churn/)
-    - New revenue from pre-existing partners
-- - Success with grants
-  - - New grants applied for
-    - Grant success rate
+- **Sales and invoicing efficiency**
+  - Sales Cycle Length (first touch to close)
+  - Invoicing turnaround
+- **Overall service sustainability**
+  - Recurring Revenue
+  - Number of unique partnerships / contracts
+- **New business**
+  - New contracts
+  - New partners / communities
+- **Growing pre-existing business**
+  - [Customer Churn](https://www.salesforce.com/resources/articles/how-calculate-customer-churn-and-revenue-churn/)
+  - New revenue from pre-existing partners
+- **Success with grants**
+  - New grants applied for
+  - Grant success rate
     - Total grant funding
-- - Robustness of partnerships
-  - - partner's satisfaction with service from 2i2c
-    - partner's achievement of their goals
-    - alignment among partners + engineering + support
-    - _Much of this is qualitative in nature, and will be carried out in partnership with the Product and Community Lead._
-```
+- **Robustness of partnerships**
+  - partner's satisfaction with service from 2i2c
+  - partner's achievement of their goals
+  - alignment among partners + engineering + support
+  - _Much of this is qualitative in nature, and will be carried out in partnership with the Product and Community Lead._
 
 ## Salary rationale
 
