@@ -47,8 +47,10 @@ During the meeting
 
 #### Who serves as the facilitator?
 
-Everybody on the engineering team, on a rotating basis. We rotate meeting facilitators **every month** and transition this role at the monthly team meeting. The meeting facilitator rotates through the [“Open Infrastructure Engineering Team” on this page](https://team-compass.2i2c.org/en/latest/about/team.html), in alphabetical order.
-
+Everybody on the engineering team, on a rotating basis.
+We rotate meeting facilitators **every month** and transition this role at the beginning of the month.
+The meeting facilitator rotates through the `@tech-team` usergroup on Slack in alphabetical order, using the code in the [`team-roles-geekbot-sweep` repository](https://github.com/2i2c-org/team-roles-geekbot-sweep).
+That repository also automatically generates [Geekbot Standups](https://geekbot.com/) that notifies which member of the engineering team in due to take over the role at the start of the month.
 
 ### Recorder
 
@@ -72,7 +74,7 @@ The following are meetings that we regularly hold.
 
 ### Monthly team meetings
 
-The 2i2c Team meets **monthly on Tuesdays** for 60 minutes, with an optional 30-minute extra time afterwards if we really need to extend conversation.
+The 2i2c Team meets **on the last Tuesday of each month** for 60 minutes, with an optional 30-minute extra time afterwards if we really need to extend conversation.
 
 See the [Team Calendar page](team/calendar) for information about when and where the meetings are held, as well as links to meeting notes.
 
