@@ -50,7 +50,7 @@ myst_enable_extensions = [
     "deflist",
     "linkify",
 ]
-myst_url_schemes = ["https", "http", "ftp", "mailto"]
+
 intersphinx_mapping = {
     "docs": ("https://docs.2i2c.org/en/latest/", None),
     "infra": ("https://infrastructure.2i2c.org/en/latest/", None),
