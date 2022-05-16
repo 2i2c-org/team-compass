@@ -82,10 +82,12 @@ Community Representative
   A person that has the authority to speak on behalf of the communities we work with, and is a point-of-contact for support.
   See [](roles:community-representative) for more information.
 
-Post Mortem
-  A document that describes what went wrong during an incident and what we'll do to avoid it in the future. When we have an {term}`Incident`, we create an issue with a "blameless Post Mortem" section.
-  This helps us explain what went wrong, and directs actions to avoid the incident in the future. Its goal is to identify improvements to process, technology, and team dynamics that can avoid incidents like this in the future. It is **not** meant to point fingers at anybody and care should be taken to avoid making it seem like any one person is at fault.
+Incident Report
+  A document that describes what went wrong during an incident and what we'll do to avoid it in the future. When we have an {term}`Incident`, we create an Incident Report issue.
+  This helps us explain what went wrong, and directs actions to avoid the incident in the future. Its goal is to identify improvements to process, technology, and team dynamics that can avoid incidents like this in the future. It is **not** meant to point fingers at anybody and care should be taken to avoid making it seem like any one person is at fault[^post-mortems].
 ```
+
+[^1]: See the [Google SRE post-mortem culture](https://sre.google/sre-book/postmortem-culture/) and the [Blameless guide to post-mortems](https://www.blameless.com/sre/what-are-blameless-postmortems-do-they-work-how) for some guidelines.
 
 ## Support team structure
 
@@ -174,8 +176,8 @@ Here is the process that we follow for incidents:
    or reports that your issues have gone away.
    ```
 7. **Communicate when the incident is resolved**. When we believe the incident is resolved, communicate with the Community Representative that things should be back to normal. Mark the FreshDesk ticket as {guilabel}`Resolved`.
-8. **Fill in the {term}`Post Mortem`**. Do this in partnership with the team that helped resolve the issue.
-9. **Close the incident ticket**. Once we have confirmation from the community (or no response after 48 working hours), and have filled in the incident {term}`Post Mortem`, then close the incident by:
+8. **Fill in the {term}`Incident Report`**. Do this in partnership with the team that helped resolve the issue.
+9. **Close the incident ticket**. Once we have confirmation from the community (or no response after 48 working hours), and have filled in the incident {term}`Incident Report`, then close the incident by:
    - Closing the incident issue on GitHub
    - Marking the FreshDesk ticket as {guilabel}`Closed`.
 
