@@ -1,7 +1,7 @@
 # Roles for the service
 
 There are a few major roles that we define for the Managed JupyterHub Service.
-These are outlined below.
+Unless specified otherwise, they may not require a dedicated person to fill each role.
 
 (roles:community-representative)=
 ## Community Representative
@@ -20,7 +20,7 @@ This role is usually filled by someone that is a member of the hub's community o
 (roles:hub-administrator)=
 ## Hub Administrator
 
-The job of hub administrators is to support users and to perform common administrative operations on a hub that do not require intervention from a [Hub Engineer](roles:hub-engineer).
+Community members that support users and perform common administrative operations on a hub that do not require intervention from a [Hub Engineer](roles:hub-engineer).
 [Community Representatives](roles:community-representative) are the first Hub Administrators, and they may add new Hub Administrators via the JupyterHub interface.
 They are able to add users, start/stop servers, and generally have more control over operations on the hub.
 
@@ -55,7 +55,13 @@ People in these roles are generally affiliated with 2i2c.
 (roles:support-steward)=
 ## Support Stewards
 
-Support Stewards are the first point of contact for all support-related issues.
+The primary external point of contact for all support-related issues.
+See [](support:process) for more information.
+
+(roles:incident-commander)=
+## Incident commander
+
+The Source of Truth for status and action plan around any {term}`Incident`s.
 See [](support:process) for more information.
 
 (roles:project-manager)=
