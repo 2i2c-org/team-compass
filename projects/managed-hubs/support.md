@@ -90,6 +90,7 @@ Support Steward
 
 Community Representative
   Has the authority to speak on behalf of the communities we work with, and is a point-of-contact for support. Their goal is to represent the community's perspective and needs in support and during Incidents.
+  Communities may have multiple community representatives, provided they all have the authority to make decisions on behalf of the community.
   See [](roles:community-representative) for more information.
 ```
 
