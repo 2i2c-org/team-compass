@@ -80,6 +80,7 @@ Support Budget
 
 Community Representative
   A person that has the authority to speak on behalf of the communities we work with, and is a point-of-contact for support.
+  Communities may have multiple community representatives, provided they all have the authority to make decisions on behalf of the community.
   See [](roles:community-representative) for more information.
 
 Incident Report
