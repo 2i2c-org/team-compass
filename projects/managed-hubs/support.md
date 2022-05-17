@@ -1,5 +1,5 @@
 (support:guide)=
-# Support and Incident response
+# Support process
 
 :::{admonition} In Beta!
 :class: warning
@@ -15,7 +15,7 @@ This section contains information that our team uses to triage, communicate, and
 Here's a brief overview of our support process:
 
 - A {term}`Community Representative` sends a request to `support@2i2c.org`.
-- This is triaged by our [Support Stewards](roles:support-steward).
+- This is triaged by our {term}`Support Steward` team.
   - They assess whether they can resolve it quickly, and potentially do so.
   - If they cannot resolve it, then we raise this support issue with our engineering team.
 - If the issue is an {term}`Incident`
@@ -30,6 +30,7 @@ Here's a brief overview of our support process:
   - For these types of support, each community has a {term}`Support Budget` that defines the hours we can sustainably spend on non-incident support requests.
 - When any support issue is resolved, we will communicate with the {term}`Community Representative` to confirm with them.
 
+(support:types)=
 ## Types of support requests
 
 Below are a few key terms that describe how we categorize Support Requests.
@@ -49,6 +50,10 @@ Incident
 
   We do not have a limit on the support time we provide related to incidents (as opposed to Change and Guidance requests, which have a {term}`Support Budget`).
 
+  :::{seealso}
+  See [](incidents.md) for more information.
+  :::
+
 Change Request
   A request for a desired change to a hub's infrastructure that is not related to an incident. For example:
   
@@ -63,11 +68,7 @@ Guidance Request
   A Support Request that is not tied directly to a change in infrastructure. Sometimes support requests are not tied to a specific change, but a desire to discuss and request guidance. In this case we may set up a meeting to discuss as a group, or have some back-and-forth via support channels.
 ```
 
-## Team structure
-
-There are two kinds of teams that we use when dealing with support and incidents.
-
-### Support team
+## Roles and team structure
 
 The Support team is a **two-person team** of {term}`Support Steward`s that work together.
 Tenure on the support team is **for four weeks**.
@@ -92,27 +93,38 @@ Community Representative
   See [](roles:community-representative) for more information.
 ```
 
-### Incident Response Team
+(roles:external)=
+## External roles
 
-An {term}`Incident Response Team` is formed when an {term}`Incident` has been declared.
-The goal of the Incident Response Team is to collectively resolve incidents.
+We also define a few key external roles as a part of our managed service.
+These are roles filled by people who are **not 2i2c staff**.
 
-An Incident Response Team is generally made up of:
+(roles:community-representative)=
+### Community Representative
 
-- An {term}`Incident Commander`
-- The {term}`Support Steward`s
-- One or more {term}`Subject Matter Expert`s (SMEs)
+Acts as the primary point of contact for a community, and ensures that the interests of the {term}`Hub Community` are represented in the infrastructure, and that the hub serves their needs.
+There must be **one or two community representatives for a given community**.
+This role is usually filled by someone that is a member of the hub's community of practice.
 
-```{glossary}
-Incident Response Team
-  The group of roles that collectively understand, plan, resolve, and communicate our actions around an {term}`Incident`. The people in these roles may change in a fluid manner, and one person may serve in multiple roles. A rough way to approximate this team is "the people that have communicated in internal and external channels to resolve an incident."
+Their main responsibilities include:
 
-Incident Commander
-  The {term}`Source of Truth` about the current state and action plan surrounding an incident. The Incident Commander has the authority to plan and delegate action to others on the {term}`Incident Response Team`. They are **not expected** to do take actions themselves. Their goal is to help the team make consistent and deliberate progress towards resolving an incident.
+- The main point of contact between the hub engineer and the {term}`Hub Community`.
+- Collect feedback and questions from users on a hub.
+- Surface questions and requests to Hub Engineers via support tickets.
+- Oversee the [Hub Administrators](roles:hub-administrator)
 
-Subject Matter Expert
-  A member on the {term}`Incident Response Team` with expertise in an area of relevance to an Incident. SMEs have a variety of backgrounds and abilities, and they should be pulled in to the Response Team as-needed by the {term}`Incident Commander`. Their goal is to take actions as-directed by the {term}`Incident Commander` to resolve an incident.
-```
+(roles:hub-administrator)=
+### Hub administrator
+
+Trusted community members that perform common administrative operations on a hub that do not require intervention from a [Hub Engineer](roles:hub-engineer).
+[Community Representatives](roles:community-representative) are the first Hub Administrators, and they may add new Hub Administrators via the JupyterHub interface.
+They are able to add users, start/stop servers, and generally have more control over operations on the hub.
+
+Their responsibilities include:
+
+- Provide support to users of a hub for common problems that don't require a Hub Engineer to resolve.
+- Add new users to a hub, including administrative users.
+- Surface major issues or requests to the Community Representative(s).
 
 ## Communication channels
 
@@ -129,9 +141,7 @@ We use these channels for communicating with external stakeholders like Communit
 We have a few channels for communicating around support requests:
 
 - Our [FreshDesk account](https://2i2c.freshdesk.com/a/) allows for internal team communication via the {guilabel}`Add Note` button. This can be useful for sharing quick internal updates.
-- The Slack channel [{guilabel}`#support-freshdesk`](https://2i2c.slack.com/archives/C028WU9PFBN) contains real-time communication about support issues. Use this to signal-boost support requests related to {term}`Incident`s.
 - [Issues with the {guilabel}`support` label](https://github.com/2i2c-org/infrastructure/issues?q=is%3Aopen+label%3Asupport+sort%3Aupdated-desc) are where we track support requests related to {term}`Change Request`s and {term}`Guidance Request`s.
-- [Issues with the {guilabel}`incident` label](https://github.com/2i2c-org/infrastructure/issues?q=is%3Aopen+label%3A%22type%3A+Hub+Incident%22+sort%3Aupdated-desc) are where we track progress when [resolving incidents](support:incident-response).
 
 ## Support triage and resolution process
 
@@ -150,55 +160,6 @@ This process is carried out in an ongoing basis by the {term}`Support Steward`s.
 4. **Categorize the Support Ticket** in FreshDesk.
 5. **If an Incident**, go to [](support:incident-response).
 6. **If not an Incident**, go to [](support:non-incident-response).
-
-(support:incident-response)=
-## Incident response process
-
-Incidents are a special kind of support ticket, because they are related to degraded service that immediately impacts communities.
-We prioritize the resolution of incidents above all other kinds of work, and have a special process for tracking conversation and progress with them.
-
-Here is the process that we follow for incidents:
-
-1. **Acknowledge the incident**. Communicate with the Community Representative that there is an incident. Here is a template to get started:
-
-   ```
-   Hello { NAME }, we have investigated this request and have concluded that
-   it is related to an incident that is causing diminished service for your
-   community.
-   
-   We believe that this incident is related to { CONTEXT HERE } and will
-   investigate further on next actions. Information about our incident
-   response process can be found [in our team support documentation](https://team-compass.2i2c.org/en/latest/projects/managed-hubs/support.html).
-
-   We've also opened an Incident Report in this issue where you can track progress if you wish: { LINK TO INCIDENT REPORT }.
- 
-   We'll prioritize resolving this incident over our other work, and
-   will communicate with you throughout our attempts to resolve it.
-   We might be in touch with requests for clarifications if needed.
-   ```
-2. **Open an incident issue**.
-   For each {term}`Incident` we create a dedicated issue to track its progress. [{bdg-primary}`open an incident issue`](https://github.com/2i2c-org/infrastructure/issues/new?assignees=&labels=type%3A+Hub+Incident%2Csupport&template=3_incident-report.md&title=%5BIncident%5D+%7B%7B+TITLE+%7D%7D) and notify our engineering team via Slack.
-3. **If you can resolve in 30 minutes**, try doing so.
-4. **If you cannot resolve in 30 minutes**, ping our engineering team and our Project Manager in the {guilabel}`#support-freshdesk` channel so that they are aware of the incident.
-5. **Designate an {term}`Incident Commander`**. If the Support Steward wishes to designate another team member as Incident Commander, should do so in the Incident issue.
-6. **Investigate and resolve the incident**. The Incident Commander should follow the structure of the incident issue opened in the step above.
-7. **Delegate to Subject Matter Experts as-needed**. The Incident Commander is empowered to delegate actions to Subject Matter Experts in order to investigate and resolve the incident quickly.
-8. **Communicate every few hours**. The {term}`Incident Commander` is expected to communicate incident status and plan with the {term}`Support Steward`s, are are expected to communicate to the {term}`Community Representative`s. Provide periodic updates to communities as we attempt to resolve the incident. Here is a template to get started:
-
-   ```
-   Hello { NAME }, this is a quick update on our progress resolving
-   your incident.
-
-   We believe the problem is { XXX } and are investigating { YYY }
-   to resolve it. We will keep you updated as we continue to make progress.
-   Please let us know if you have had more reports of issues,
-   or reports that your issues have gone away.
-   ```
-9. **Communicate when the incident is resolved**. When we believe the incident is resolved, communicate with the Community Representative that things should be back to normal. Mark the FreshDesk ticket as {guilabel}`Resolved`.
-10. **Fill in the {term}`Incident Report`**. The Incident Commander should do this in partnership with the Incident Response Team.
-11. **Close the incident ticket**. Once we have confirmation from the community (or no response after 48 working hours), and have filled in the incident {term}`Incident Report`, then close the incident by:
-    - Closing the incident issue on GitHub
-    - Marking the FreshDesk ticket as {guilabel}`Closed`
 
 (support:non-incident-response)=
 ### Non-incident response process
@@ -249,17 +210,4 @@ Support Budget
   We currently keep this term intentionally vague, and ask that communities are respectful of our time when making change requests.
   We are investigating the support budget that we should give to each community, and will update here when we have specific numbers in mind. 
   :::
-
-Incident Report
-  A document that describes what went wrong during an incident and what we'll do to avoid it in the future. When we have an {term}`Incident`, we create an Incident Report issue.
-  This helps us explain what went wrong, and directs actions to avoid the incident in the future. Its goal is to identify improvements to process, technology, and team dynamics that can avoid incidents like this in the future. It is **not** meant to point fingers at anybody and care should be taken to avoid making it seem like any one person is at fault[^post-mortems].
 ```
-
-[^post-mortems]: See the [Google SRE post-mortem culture](https://sre.google/sre-book/postmortem-culture/) and the [Blameless guide to post-mortems](https://www.blameless.com/sre/what-are-blameless-postmortems-do-they-work-how) for some guidelines.
-
-## References and more information
-
-Excellent guides on Incident Response and SRE that inspired much of the content here:
-
-- The [PagerDuty Incident Response Guide](https://response.pagerduty.com/).
-- The [Google SRE Incident response guide](https://sre.google/workbook/incident-response/).

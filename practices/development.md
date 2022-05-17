@@ -9,6 +9,31 @@ This section describes how our development team carries out its planning and day
 👉 [Here's a link to see all Pull Requests for which your review is requested](https://github.com/issues?q=is%3Aopen+archived%3Afalse+sort%3Aupdated-desc+user%3A2i2c-org+type%3Apr+review-requested%3A%40me)
 :::
 
+## Roles and team structure
+
+We use the following roles to help us understand responsiblities and expectations around developing and operating our infrastructure.
+For roles that are related to more specific actions like support and incidents, see [our managed service documentation](service:index).
+
+(roles:project-manager)=
+### Project Manager
+
+We are piloting the use of a dedicated Project Manager to help our team plan and coordinate with one another.
+See [this GitHub issue](https://github.com/2i2c-org/team-compass/issues/398) for our plans and experience with this pilot thus far.
+
+(roles:hub-engineer)=
+### Hub Engineer
+
+The job of a Hub Engineer is to develop and operate deployment infrastructure for a hub, and to perform major upgrades or improvements to resolve issues that cannot be solved by a [Hub Administrator](roles:hub-administrator).
+Hub engineers regularly work on the JupyterHub infrastructure and provide open source development for the technology that powers each hub.
+People in these roles are generally affiliated with 2i2c.
+
+#### Responsibilities
+
+- Respond to support requests from the Community Representative(s)
+- Perform major upgrades on hub infrastructure
+- Debug and resolve major issues with a hub that require intervention from a Hub Engineer
+- Perform open source development on technologies that are in use by the hubs
+
 (coordination:sprints)=
 ## Team Sprints
 

@@ -1,3 +1,4 @@
+(service:index)=
 # Service for Managed JupyterHubs
 
 The Managed JupyterHub Service is a special project that is run by 2i2c.
@@ -38,5 +39,5 @@ We keep a table with all of our currently-running JupyterHubs at this location: 
 pricing.md
 sales.md
 support.md
-roles.md
+incidents.md
 ```
