@@ -75,7 +75,7 @@ Tenure on the support team is **for four weeks**.
 Every **two weeks** (generally at the sprint meeting), a Support Steward cycles off the support team, and a new team member joins the team.
 The support team rotates through [the “Open Infrastructure Engineering Team” on this page](https://team-compass.2i2c.org/en/latest/about/team.html), in alphabetical order.
 
-The primarily goals of the Support Stewards are:
+The primary goals of the Support Stewards are:
 
 - Ensure that we meet [our Support Service Level Objectives](docs:objectives:support)
 - Carry out [our support process](support:process).
