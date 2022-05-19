@@ -28,7 +28,7 @@ Incident Response Team
   The group of roles that collectively understand, plan, resolve, and communicate our actions around an {term}`Incident`. The people in these roles may change in a fluid manner, and one person may serve in multiple roles. A rough way to approximate this team is "the people that have communicated in internal and external channels to resolve an incident."
 
 Incident Commander
-  The {term}`Source of Truth` about the current state and action plan surrounding an incident. The Incident Commander has the authority to plan and delegate action to others on the {term}`Incident Response Team`. They are **not expected** to do take actions themselves. Their goal is to help the team make consistent and deliberate progress towards resolving an incident.
+  The Incident Commander has the authority to plan and delegate action to others on the {term}`Incident Response Team`. They are **not expected** to take actions themselves. Their goal is to help the team make consistent and deliberate progress towards resolving an incident. They are the {term}`Source of Truth` about the current state and action plan surrounding an incident. 
 
 Subject Matter Expert
   A member on the {term}`Incident Response Team` with expertise in an area of relevance to an Incident. SMEs have a variety of backgrounds and abilities, and they should be pulled in to the Response Team as-needed by the {term}`Incident Commander`. Their goal is to take actions as-directed by the {term}`Incident Commander` to resolve an incident.
@@ -66,7 +66,8 @@ Here is the process that we follow for incidents:
    investigate further on next actions. Information about our incident
    response process can be found [in our team support documentation](https://team-compass.2i2c.org/en/latest/projects/managed-hubs/support.html).
 
-   We've also opened an Incident Report in this issue where you can track progress if you wish: { LINK TO INCIDENT REPORT }.
+   We will open an incident report issue in [our infrastructure repository](https://github.com/2i2c-org/infrastructure)
+   where you can track progress if you wish.
  
    We'll prioritize resolving this incident over our other work, and
    will communicate with you throughout our attempts to resolve it.
@@ -74,12 +75,12 @@ Here is the process that we follow for incidents:
    ```
 2. **Open an incident issue**.
    For each {term}`Incident` we create a dedicated issue to track its progress. [{bdg-primary}`open an incident issue`](https://github.com/2i2c-org/infrastructure/issues/new?assignees=&labels=type%3A+Hub+Incident%2Csupport&template=3_incident-report.md&title=%5BIncident%5D+%7B%7B+TITLE+%7D%7D) and notify our engineering team via Slack.
-3. **If you can resolve in 30 minutes**, try doing so.
-4. **If you cannot resolve in 30 minutes**, ping our engineering team and our Project Manager in the {guilabel}`#support-freshdesk` channel so that they are aware of the incident.
-5. **Designate an {term}`Incident Commander`**. If the Support Steward wishes to designate another team member as Incident Commander, should do so in the Incident issue.
+3. **Try resolving the issue** and take notes while you gather information about it.
+4. **If after 30 minutes the issue is not solved or you know you cannot resolve it**, ping our engineering team and our Project Manager in the {guilabel}`#support-freshdesk` channel so that they are aware of the incident.
+5. **Designate an {term}`Incident Commander`**. If the Support Steward wishes to designate someone other than themselves as Incident Commander, do this in the Incident issue.
 6. **Investigate and resolve the incident**. The Incident Commander should follow the structure of the incident issue opened in the step above.
 7. **Delegate to Subject Matter Experts as-needed**. The Incident Commander is empowered to delegate actions to Subject Matter Experts in order to investigate and resolve the incident quickly.
-8. **Communicate every few hours**. The {term}`Incident Commander` is expected to communicate incident status and plan with the {term}`Support Steward`s, are are expected to communicate to the {term}`Community Representative`s. Provide periodic updates to communities as we attempt to resolve the incident. Here is a template to get started:
+8. **Communicate every few hours**. The {term}`Incident Commander` is expected to communicate incident status and plan with the {term}`Support Steward`s, and the Support Stewards are expected to communicate to the {term}`Community Representative`s. They should provide periodic updates to communities as we attempt to resolve the incident. Here is a template to get started:
 
    ```
    Hello { NAME }, this is a quick update on our progress resolving
@@ -95,6 +96,18 @@ Here is the process that we follow for incidents:
 11. **Close the incident ticket**. Once we have confirmation from the community (or no response after 48 working hours), and have filled in the incident {term}`Incident Report`, then close the incident by:
     - Closing the incident issue on GitHub
     - Marking the FreshDesk ticket as {guilabel}`Closed`
+
+## Handing off Incident Commander status
+
+During an incident, it may be necessary to designate another person to be the Incident Commander.
+For example, if it is getting late in the current IC's time zone, they feel burnt out from leading the incident response, or there is someone with better visibility or experience to be the Incident Commander.
+This is encouraged and expected, especially for more complex or longer incidents!
+
+To designate another team member as the Incident Commander, follow these steps:
+
+1. **Confirm with them** that they are able and willing to serve as the Incident Commander
+2. **Update the Incident Report issue** by updating the Incident Commander name in the top comment.
+3. **Notify the team** with a comment in the Incident Report issue.
 
 ## Key terms
 

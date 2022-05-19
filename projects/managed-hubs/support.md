@@ -44,9 +44,9 @@ Support Request
 Incident
   An event that significantly degrades the JupyterHub service. Support requests that are related to incidents should be prioritized over all other work items. Here are a few common examples of incidents:
 
-  1. The hub is inaccessible to a significant number of users.
-  2. A significant number of users are unable to start their servers.
-  3. A significant number of users cannot create Dask Gateway clusters.
+  1. The hub is inaccessible to a number of users.
+  2. A number of users are unable to start their servers.
+  3. A number of users cannot create Dask Gateway clusters.
 
   We do not have a limit on the support time we provide related to incidents (as opposed to Change and Guidance requests, which have a {term}`Support Budget`).
 
