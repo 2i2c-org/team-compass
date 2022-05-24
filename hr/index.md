@@ -5,6 +5,7 @@ This includes employment information, salary information, benefits, etc.
 
 ```{toctree}
 compensation.md
-job-titles.md
+titles/index.md
 time-off.md
 ```
+

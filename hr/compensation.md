@@ -7,6 +7,11 @@ See [the 2i2c Careers page](https://2i2c.org/careers/) for a short description o
 Salaries at 2i2c are determined solely by job title as well as several steps within that job (corresponding to experience in a particular job).
 We have [internal salary documents for the specific positions and levels](https://docs.google.com/spreadsheets/d/1FJM5pAbc0EWhu4CpPjlbWTMOsZAnivEd2ZBIZIdwpE8/edit?usp=sharing).
 
+:::{seealso}
+We are [working on an update of our compensation policy](https://docs.google.com/document/d/1Ixkg-YgeTO-Xc9neQHIlTHa7psyhlFHQQCSfCr-K0cQ/edit#).
+See that document for ideas that are more specific / structured than this page.
+:::
+
 ### GuideStar compensation comparisons
 
 We define our salary levels relative to non-profit organizations with a similar size and scope as 2i2c.
@@ -22,8 +27,12 @@ We generally use the following criteria when defining the salary for a given pos
 - Choose an appropriate job category that most closely matches this position.
 - Define “compensation” as base salary + 30% benefits
 - Aim for the median compensation in a category 
+
+Extra notes and guidelines to follow:
+
 - The numbers there are for the **top-paid position**  
   - Reduce accordingly depending on the level we're hiring for. A good rule of thumb for defining new roles is to expect a 10% salary bump between levels, and a 2% salary bump for steps within a level.
+- Keep the number of unique base salaries low, and round-up to standardize across titles if necessary.
 
 ## Benefits
 
