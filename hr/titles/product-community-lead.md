@@ -27,9 +27,9 @@ As such, this role will lead efforts around a new _class_ of jobs within 2i2c: P
 
 We are still defining the qualities and experience for this role, but below are a few abstract qualities that will make somebody succeed in this role.
 
-- Demonstrated ability to lead and grow distributed communities of practice (e.g., 3+ years as a leader of an open source community)
-- Demonstrated ability to design and manage technical products (e.g., 3+ years experience as a product manager, or as a product-level lead in an open source community)
-- Demonstrated experience in growing and guiding organizations and teams that do technical development or service work (e.g., 3+ years as a manager or organizational leadership role)
+- Demonstrated ability to lead and grow distributed communities of practice (e.g., 3+ years as a leader of an open source community).
+- Demonstrated ability to design and manage technical products (e.g., 3+ years experience as a product manager, or as a product-level lead in an open source community).
+- Demonstrated experience in growing and guiding organizations and teams that do technical development or service work (e.g., 3+ years as a manager or organizational leadership role).
 - Extensive experience with open source workflows, research and educational contexts, and an understanding of the value that hosted infrastructure provides.
 
 ## Responsibilities and Expectations
@@ -43,7 +43,7 @@ Here is a short list of relevant ideas. Note that this role may do many of these
 - Help us consider and discuss trade-offs that we must make in support requests and features.
 - Design and grow structures, spaces, etc for communication between 2i2c and communities we serve, as well as within communities.
 - Lead efforts to provide support for our communities in their use of the infrastructure, and route requests to the engineering team as needed.
-- Lead content creation to empower communities to use our infrastructure more effectively
+- Lead content creation to empower communities to use our infrastructure more effectively.
 - Define strategy, goals, and assessment criteria for Product and Support.
 - Define roles and job titles for team members that do work in this area, as well as their connections with others on the team.
 - As resources are available, manage and mentor other team members within Product and Community at 2i2c.
@@ -53,7 +53,7 @@ Here is a short list of relevant ideas. Note that this role may do many of these
 
 This is a leadership-level role within 2i2c and focused on Product and Community work. As such we should use the GuideStar salary criteria for the “top” position in a relevant category. It should be appropriate for an early-mid career leader who has demonstrated some experience in the organizational aspects needed to succeed in this role.
 
-We'll plan to use the **Top Program Position** job category within GuideStar to define the base salary for this role. The median base salary for this role is $122,000.
+We'll plan to use the **Top Program Position** job category within GuideStar to define the base salary for this role. The median base salary for this role is $122,000 as of now (mid-2022).
 
 ## Appendix: Inspiration for the role
 
