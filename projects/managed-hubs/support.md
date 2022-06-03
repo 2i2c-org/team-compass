@@ -142,7 +142,7 @@ We use these channels for communicating with external stakeholders like Communit
 We have a few channels for communicating around support requests:
 
 - Our [FreshDesk account](https://2i2c.freshdesk.com/a/) allows for internal team communication via the {guilabel}`Add Note` button. This can be useful for sharing quick internal updates.
-- [Issues with the {guilabel}`support` label](https://github.com/2i2c-org/infrastructure/issues?q=is%3Aopen+label%3Asupport+sort%3Aupdated-desc) are where we track support requests related to {term}`Change Request`s and {term}`Guidance Request`s.
+- [Issues with the {guilabel}`support` label](https://github.com/2i2c-org/infrastructure/issues?q=is%3Aopen+label%3Asupport+sort%3Aupdated-desc) are where we track support requests related to {term}`Change Request`s and {term}`Guidance Request`s. (support requests from external stakeholders are created via emailing `support@2i2c.org`, we do not encourage them to open issues directly.)
 
 ## Support triage and resolution process
 
@@ -156,11 +156,13 @@ This process is carried out in an ongoing basis by the {term}`Support Steward`s.
 
 1. **Monitor our support channels**. We use FreshDesk for all support requests, and the Support Stewards should regularly keep an eye on this account for new requests.
    When a new support requests comes in, move to the next step.
-2. **Read and understand**. Within 8 working hours, read the support request and try to understand what action would resolve it.
+2. **Read and understand**. Within one working day[^working-day], read the support request and try to understand what action would resolve it.
 3. **Decide if there is an incident**. Determine if a request meets {term}`the definition of an incident <Incident>`.
 4. **Categorize the Support Ticket** in FreshDesk.
 5. **If an Incident**, go to [](support:incident-response).
 6. **If not an Incident**, go to [](support:non-incident-response).
+
+[^working-day]: We define a working day as a continuous 24 hour period of time from Monday through Friday. This is because our team and the communities we serve are distributed across many time zones, so there is no single "working day" for everyone.
 
 (support:non-incident-response)=
 ### Non-incident response process
@@ -199,6 +201,16 @@ We cannot sustainably prioritize all support requests over our other work, so he
 1. Our other work items
 1. Requests from communities that have no more {term}`Support Budget`.
 
+:::{admonition} Ask the PMs
+We have a few roles that are particularly useful for triaging and prioritizing our work items.
+
+- Our {term}`Project Manager` should have visibility over everybody's workload, and helps us prioritize work during sprints.
+- Our Product and Community Lead should understand which work items will be most impactful across our communities. (we currently do not have anybody serving in this role, but will soon!)
+
+When deciding how to prioritize a Change Request, ask for guidance from these two team members.
+
+:::
+
 ### Support request key terms
 
 The following are other important terms and ideas in the support process.
@@ -210,5 +222,15 @@ Support Budget
   :::{note}
   We currently keep this term intentionally vague, and ask that communities are respectful of our time when making change requests.
   We are investigating the support budget that we should give to each community, and will update here when we have specific numbers in mind. 
+
+  Here is a rough idea of our rationale to follow for arriving at a specific number:
+
+  - Assume 173 working hours a month per engineer.
+  - Assume any given engineer should spend no more than 20% of their time (one day a week) on average dealing with support requests.
+  - That amounts to 34 hours a month on support requests.
+  - Then choose a support budget for each community based on the number of communities we think one engineer can sustainably serve.
+  Tie this number back to our question "how many hubs should be able to sustain a single engineer?".
+  That ranges between 20 and 8 (depending on edu/research, and dedicated cluster).
+
   :::
 ```
