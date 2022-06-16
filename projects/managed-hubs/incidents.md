@@ -59,26 +59,14 @@ We prioritize the resolution of incidents above all other kinds of work, and hav
 
 Here is the process that we follow for incidents:
 
-1. **Acknowledge the incident**. Communicate with the Community Representative that there is an incident. Here is a template to get started:
+1. **Acknowledge the incident**. Communicate with the Community Representative that there is an incident. Use this canned response as a start for responding:
 
-   ```
-   Hello { NAME }, we have investigated this request and have concluded that
-   it is related to an incident that is causing diminished service for your
-   community.
-   
-   We believe that this incident is related to { CONTEXT HERE } and will
-   investigate further on next actions. Information about our incident
-   response process can be found [in our team support documentation](https://team-compass.2i2c.org/en/latest/projects/managed-hubs/support.html).
+   ```{button-link} https://2i2c.freshdesk.com/helpdesk/canned_responses/folders/80000143608/responses/80000247490/edit
+   :color: primary
 
-   We will open an incident report issue in [our infrastructure repository](https://github.com/2i2c-org/infrastructure)
-   where you can track progress if you wish.
-   However, we ask that you use the support@2i2c.org address for communicating
-   with us during the incident.
- 
-   We'll prioritize resolving this incident over our other work, and
-   will communicate with you throughout our attempts to resolve it.
-   We might be in touch with requests for clarifications if needed.
+   Incident first response template
    ```
+
 2. **Open an incident issue**.
    For each {term}`Incident` we create a dedicated issue to track its progress. [{bdg-primary}`open an incident issue`](https://github.com/2i2c-org/infrastructure/issues/new?assignees=&labels=type%3A+Hub+Incident%2Csupport&template=3_incident-report.md&title=%5BIncident%5D+%7B%7B+TITLE+%7D%7D) and notify our engineering team via Slack.
 3. **Try resolving the issue** and take notes while you gather information about it.
@@ -91,17 +79,14 @@ Here is the process that we follow for incidents:
 6. **Designate an {term}`External Liason`**. Do this in the Incident issue. By default, this is the Incident Commander, though they may delegate this to others.[^note-on-delegation]
 7. **Investigate and resolve the incident**. The Incident Commander should follow the structure of the incident issue opened in the step above.
 8. **Delegate to Subject Matter Experts as-needed**. The Incident Commander is empowered to delegate actions to Subject Matter Experts in order to investigate and resolve the incident quickly.[^note-on-delegation]
-9. **Communicate our status every few hours**. The {term}`External Liason` is expected to communicate incident status and plan with the {term}`Community Representative`s. They should provide periodic updates that describe the current state of the incident, what we have tried, and our intended next steps. Here is a template to get started:
+9. **Communicate our status every few hours**. The {term}`External Liason` is expected to communicate incident status and plan with the {term}`Community Representative`s. They should provide periodic updates that describe the current state of the incident, what we have tried, and our intended next steps. Here is a canned response to get started:
 
-   ```
-   Hello { NAME }, this is a quick update on our progress resolving
-   your incident.
+   ```{button-link} https://2i2c.freshdesk.com/helpdesk/canned_responses/folders/80000143608/responses/80000247492/edit
+   :color: primary
 
-   We believe the problem is { XXX } and are investigating { YYY }
-   to resolve it. We will keep you updated as we continue to make progress.
-   Please let us know if you have had more reports of issues,
-   or reports that your issues have gone away.
+   Incident update template
    ```
+
 9. **Communicate when the incident is resolved**. When we believe the incident is resolved, communicate with the Community Representative that things should be back to normal. Mark the FreshDesk ticket as {guilabel}`Resolved`.
 10. **Fill in the {term}`Incident Report`**. The Incident Commander should do this in partnership with the Incident Response Team.
 11. **Close the incident ticket**. Once we have confirmation from the community (or no response after 48 working hours), and have filled in the incident {term}`Incident Report`, then close the incident by:
@@ -118,7 +103,7 @@ This is encouraged and expected, especially for more complex or longer incidents
 
 To designate another team member as the Incident Commander, follow these steps:
 
-1. **Confirm with them** that they are able and willing to serve as the Incident Commander
+1. **Confirm with them** that they are able and willing to serve as the Incident Commander.
 2. **Update the Incident Report issue** by updating the Incident Commander name in the top comment.
 3. **Notify the team** with a comment in the Incident Report issue.
 

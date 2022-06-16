@@ -134,8 +134,25 @@ Their responsibilities include:
 We use these channels for communicating with external stakeholders like Community Representatives:
 
 - **[support@2i2c.org](mailto:support@2i2c.org)** is our point-of-contact for all support-related external communication.
-- **[The 2i2c FreshDesk account](https://2i2c.freshdesk.com/)** is where we track all support requests and _respond_ to emails sent to `support@2i2c.org`.
+- **[The 2i2c FreshDesk account](support:freshdesk)** is where we track all support requests and communication.
 - **{doc}`the "Get Support" page <docs:support>`** provides guidance that communities may follow to get support.
+
+(support:freshdesk)=
+#### FreshDesk
+
+We use FreshDesk to manage all of our hub support questions and change requests.
+It is at the following URL:
+
+[**`2i2c.freshdesk.com`**](https://2i2c.freshdesk.com/)
+
+Any emails sent to `support@2i2c.org` will be routed to this FreshDesk account, and all team members should have access to it.
+
+[**Canned responses**](https://support.freshdesk.com/en/support/solutions/articles/37577-creating-common-reply-templates-with-canned-responses) allow us to pre-populate common responses for many kinds of support.
+
+```{button-link} https://2i2c.freshdesk.com/a/admin/canned_responses/folders
+:color: primary
+Our canned responses.
+```
 
 ### Internal communication
 
@@ -223,7 +240,7 @@ Support Budget
   We currently keep this term intentionally vague, and ask that communities are respectful of our time when making change requests.
   We are investigating the support budget that we should give to each community, and will update here when we have specific numbers in mind. 
 
-  Here is a rough idea of our rationale to follow for arriving at a specific number:
+  Here is a rough idea of the rationale we follow as we identify more specific numbers for support budget:
 
   - Assume 173 working hours a month per engineer.
   - Assume any given engineer should spend no more than 20% of their time (one day a week) on average dealing with support requests.
