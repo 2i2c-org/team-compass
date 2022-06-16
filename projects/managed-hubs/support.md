@@ -77,7 +77,7 @@ The support team rotates through [the “Open Infrastructure Engineering Team”
 
 The primary goals of the Support Stewards are:
 
-- Ensure that we meet [our Support Service Level Objectives](docs:objectives:support)
+- Ensure that we meet {ref}`our Support Service Level Objectives <docs:objectives:support>`.
 - Carry out [our support process](support:process).
 - Act as primary points of contact with {term}`Community Representative`s.
 - Trigger an [Incident Response](support:incident-response) if need be.
@@ -221,7 +221,7 @@ We cannot sustainably prioritize all support requests over our other work, so he
 :::{admonition} Ask the PMs
 We have a few roles that are particularly useful for triaging and prioritizing our work items.
 
-- Our {term}`Project Manager` should have visibility over everybody's workload, and helps us prioritize work during sprints.
+- Our [Project Manager](roles:project-manager) should have visibility over everybody's workload, and helps us prioritize work during sprints.
 - Our Product and Community Lead should understand which work items will be most impactful across our communities. (we currently do not have anybody serving in this role, but will soon!)
 
 When deciding how to prioritize a Change Request, ask for guidance from these two team members.

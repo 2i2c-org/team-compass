@@ -93,7 +93,7 @@ Here is the process that we follow for incidents:
     - Closing the incident issue on GitHub
     - Marking the FreshDesk ticket as {guilabel}`Closed`
 
-[^note-on-delegation]: If you cannot find somebody to take on this work, or feel uncomfortable delegating, the {term}`Project Manager` should help you, and is empowered to delegate on your behalf.
+[^note-on-delegation]: If you cannot find somebody to take on this work, or feel uncomfortable delegating, the [Project Manager](roles:project-manager) should help you, and is empowered to delegate on your behalf.
 
 ## Handing off Incident Commander status
 
