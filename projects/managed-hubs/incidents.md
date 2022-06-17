@@ -61,7 +61,7 @@ Here is the process that we follow for incidents:
 
 1. **Acknowledge the incident**. Communicate with the Community Representative that there is an incident. Use this canned response as a start for responding:
 
-   ```{button-link} https://2i2c.freshdesk.com/helpdesk/canned_responses/folders/80000143608/responses/80000247490/edit
+   ```{button-link} https://2i2c.freshdesk.com/a/admin/canned_responses/folders/80000143608/responses/80000247490/edit
    :color: primary
 
    Incident first response template
@@ -81,7 +81,7 @@ Here is the process that we follow for incidents:
 8. **Delegate to Subject Matter Experts as-needed**. The Incident Commander is empowered to delegate actions to Subject Matter Experts in order to investigate and resolve the incident quickly.[^note-on-delegation]
 9. **Communicate our status every few hours**. The {term}`External Liason` is expected to communicate incident status and plan with the {term}`Community Representative`s. They should provide periodic updates that describe the current state of the incident, what we have tried, and our intended next steps. Here is a canned response to get started:
 
-   ```{button-link} https://2i2c.freshdesk.com/helpdesk/canned_responses/folders/80000143608/responses/80000247492/edit
+   ```{button-link} https://2i2c.freshdesk.com/a/admin/canned_responses/folders/80000143608/responses/80000247492/edit
    :color: primary
 
    Incident update template
