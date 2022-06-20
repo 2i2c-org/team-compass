@@ -20,8 +20,8 @@ The goal of the Incident Response Team is to collectively resolve incidents.
 An Incident Response Team is generally made up of:
 
 - An {term}`Incident Commander`
-- The {term}`Support Steward`s
-- One or more {term}`Subject Matter Expert`s (SMEs)
+- The {term}`Support Stewards`
+- One or more {term}`Subject Matter Experts` (SMEs)
 
 ```{glossary}
 Incident Response Team
@@ -31,9 +31,11 @@ Incident Commander
   The Incident Commander has the authority to plan and delegate action to others on the {term}`Incident Response Team`. They are **not expected** to take actions themselves. Their goal is to help the team make consistent and deliberate progress towards resolving an incident. They are the {term}`Source of Truth` about the current state and action plan surrounding an incident.
 
 External Liason
+External Liasons
   The person that is responsible for communicating with external stakeholders during an incident. This is either the {term}`Incident Commander`, or somebody to which they delegate this role. Every few working hours, they should communicate the status of the incident, updates about our current thinking and what we have tried, and any expected changes coming.
 
 Subject Matter Expert
+Subject Matter Experts
   A member on the {term}`Incident Response Team` with expertise in an area of relevance to an Incident. SMEs have a variety of backgrounds and abilities, and they should be pulled in to the Response Team as-needed by the {term}`Incident Commander`. Their goal is to take actions as-directed by the {term}`Incident Commander` to resolve an incident.
 ```
 
@@ -47,7 +49,7 @@ Subject Matter Expert
 
 ### Internal communication
 
-- The Slack channel [{guilabel}`#support-freshdesk`](https://2i2c.slack.com/archives/C028WU9PFBN) contains real-time communication about support issues. Use this to signal-boost support requests related to {term}`Incident`s.
+- The Slack channel [{guilabel}`#support-freshdesk`](https://2i2c.slack.com/archives/C028WU9PFBN) contains real-time communication about support issues. Use this to signal-boost support requests related to {term}`Incidents`.
 - [Issues with the {guilabel}`incident` label](https://github.com/2i2c-org/infrastructure/issues?q=is%3Aopen+label%3A%22type%3A+Hub+Incident%22+sort%3Aupdated-desc) are where we track progress when [resolving incidents](support:incident-response).
 
 
@@ -93,7 +95,7 @@ Here is the process that we follow for incidents:
     - Closing the incident issue on GitHub
     - Marking the FreshDesk ticket as {guilabel}`Closed`
 
-[^note-on-delegation]: If you cannot find somebody to take on this work, or feel uncomfortable delegating, the [Project Manager](roles:project-manager) should help you, and is empowered to delegate on your behalf.
+[^note-on-delegation]: If you cannot find somebody to take on this work, or feel uncomfortable delegating, the {term}`Project Manager` should help you, and is empowered to delegate on your behalf.
 
 ## Handing off Incident Commander status
 
@@ -111,6 +113,7 @@ To designate another team member as the Incident Commander, follow these steps:
 
 ```{glossary}
 Incident Report
+Incident Reports
   A document that describes what went wrong during an incident and what we'll do to avoid it in the future. When we have an {term}`Incident`, we create an Incident Report issue.
   This helps us explain what went wrong, and directs actions to avoid the incident in the future. Its goal is to identify improvements to process, technology, and team dynamics that can avoid incidents like this in the future. It is **not** meant to point fingers at anybody and care should be taken to avoid making it seem like any one person is at fault[^post-mortems].
 ```

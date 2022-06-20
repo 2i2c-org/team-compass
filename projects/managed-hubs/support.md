@@ -7,7 +7,7 @@ We are currently working out our support process.
 The content on this page might change over time, and we welcome suggested changes and pull requests!
 :::
 
-This section contains information that our team uses to triage, communicate, and resolve {term}`Support Request`s that come from communities.
+This section contains information that our team uses to triage, communicate, and resolve {term}`Support Requests` that come from communities.
 
 (support:process)=
 ## Overview of the support process
@@ -37,11 +37,13 @@ Below are a few key terms that describe how we categorize Support Requests.
 
 ```{glossary}
 Support Request
+Support Requests
   Any request that a community sends to us via `support@2i2c.org`.
   Support requests are generally un-planned and happen in response to a community needing assistance with something unexpected.
   There are a few main categories of support that we consider, each is described below.
 
 Incident
+Incidents
   An event that significantly degrades the JupyterHub service. Support requests that are related to incidents should be prioritized over all other work items. Here are a few common examples of incidents:
 
   1. The hub is inaccessible to a number of users.
@@ -55,6 +57,7 @@ Incident
   :::
 
 Change Request
+Change Requests
   A request for a desired change to a hub's infrastructure that is not related to an incident. For example:
   
   - Changing the user's software environment.
@@ -65,67 +68,63 @@ Change Request
   Change Requests are generally non-urgent and should not be associated with significant diminished service. They are often things that communities _could_ carry out themselves with the proper guidance and infrastructure setup. We aim to make our hubs as configurable as possible _by the community_ so that we are not on the critical path for things like environment updates.
 
 Guidance Request
+Guidance Requests
   A Support Request that is not tied directly to a change in infrastructure. Sometimes support requests are not tied to a specific change, but a desire to discuss and request guidance. In this case we may set up a meeting to discuss as a group, or have some back-and-forth via support channels.
 ```
 
 ## Roles and team structure
 
-The Support team is a **two-person team** of {term}`Support Steward`s that work together.
-Tenure on the support team is **for four weeks**.
-Every **two weeks** (generally at the sprint meeting), a Support Steward cycles off the support team, and a new team member joins the team.
-The support team rotates through [the “Open Infrastructure Engineering Team” on this page](https://team-compass.2i2c.org/en/latest/about/team.html), in alphabetical order.
+Supporting a 2i2c hub is a collaborative process between 2i2c and the community we serve.
 
-The primary goals of the Support Stewards are:
-
-- Ensure that we meet {ref}`our Support Service Level Objectives <docs:objectives:support>`.
-- Carry out [our support process](support:process).
-- Act as primary points of contact with {term}`Community Representative`s.
-- Trigger an [Incident Response](support:incident-response) if need be.
+This consists of three main roles: {term}`Support Stewards`, {term}`Community Representatives`, and {term}`Hub Administrators`.
 
 ```{glossary}
 Support Steward
-  The main point of contact with external stakeholders like {term}`Community Representative`s. Their goal is to provide regular updates to these stakeholders and coordinate with our Incident Response Team to understand what's going on and what is our action plan.
+Support Stewards
+  A **two-person team** of {term}`Support Stewards` work together to triage and communicate with all external support requests.
+  Tenure on the support team is **for four weeks**.
+  Every **two weeks** (generally at the sprint meeting), a Support Steward cycles off the support team, and a new team member joins the team.
+  The support team rotates through [the “Open Infrastructure Engineering Team” on this page](https://team-compass.2i2c.org/en/latest/about/team.html), in alphabetical order.
+
+  The primary responsibilities of the Support Stewards are:
+
+  - Ensure that we meet {ref}`our Support Service Level Objectives <docs:objectives:support>`.
+  - Carry out [our support process](support:process).
+  - Act as primary points of contact with {term}`Community Representative`s.
+  - Trigger an [Incident Response](support:incident-response) if need be.
 
   Common alternate terms: **Customer Liason**, **External Liason**, or **Customer Support**.
 
+
 Community Representative
-  Has the authority to speak on behalf of the communities we work with, and is a point-of-contact for support. Their goal is to represent the community's perspective and needs in support and during Incidents.
-  Communities may have multiple community representatives, provided they all have the authority to make decisions on behalf of the community.
-  See [](roles:community-representative) for more information.
+Community Representatives
+  Acts as the primary point of contact for a community, and ensures that the interests of the {term}`Hub Community` are represented in the infrastructure, and that the hub serves their needs.
+  They have the authority to speak on behalf of the community, and make decisions about the infrastructure that the community uses.
+
+  There must be **one or two community representatives for a given community**.
+  This role is usually filled by someone that is a member of the hub's community of practice.
+
+  Their main responsibilities include:
+
+  - The main point of contact between the hub engineer and the {term}`Hub Community`.
+  - Collect feedback and questions from users on a hub.
+  - Surface questions and requests to Hub Engineers via support tickets.
+  - Oversee the {term}`Hub Administrators`.
+
+
+Hub Administrator
+Hub Administrators
+
+  Trusted community members that perform common administrative operations on a hub that do not require intervention from a {term}`Hub Engineer`.
+  {term}`Community Representatives` are the first Hub Administrators, and they may add new Hub Administrators via the JupyterHub interface.
+  They are able to add users, start/stop servers, and generally have more control over operations on the hub.
+
+  Their responsibilities include:
+
+  - Provide support to users of a hub for common problems that don't require a Hub Engineer to resolve.
+  - Add new users to a hub, including administrative users.
+  - Surface major issues or requests to the Community Representative(s).
 ```
-
-(roles:external)=
-## External roles
-
-We also define a few key external roles as a part of our managed service.
-These are roles filled by people who are **not 2i2c staff**.
-
-(roles:community-representative)=
-### Community Representative
-
-Acts as the primary point of contact for a community, and ensures that the interests of the {term}`Hub Community` are represented in the infrastructure, and that the hub serves their needs.
-There must be **one or two community representatives for a given community**.
-This role is usually filled by someone that is a member of the hub's community of practice.
-
-Their main responsibilities include:
-
-- The main point of contact between the hub engineer and the {term}`Hub Community`.
-- Collect feedback and questions from users on a hub.
-- Surface questions and requests to Hub Engineers via support tickets.
-- Oversee the [Hub Administrators](roles:hub-administrator)
-
-(roles:hub-administrator)=
-### Hub administrator
-
-Trusted community members that perform common administrative operations on a hub that do not require intervention from a [Hub Engineer](roles:hub-engineer).
-[Community Representatives](roles:community-representative) are the first Hub Administrators, and they may add new Hub Administrators via the JupyterHub interface.
-They are able to add users, start/stop servers, and generally have more control over operations on the hub.
-
-Their responsibilities include:
-
-- Provide support to users of a hub for common problems that don't require a Hub Engineer to resolve.
-- Add new users to a hub, including administrative users.
-- Surface major issues or requests to the Community Representative(s).
 
 ## Communication channels
 
@@ -159,9 +158,9 @@ Our canned responses.
 We have a few channels for communicating around support requests:
 
 - Our [FreshDesk account](https://2i2c.freshdesk.com/a/) allows for internal team communication via the {guilabel}`Add Note` button. This can be useful for sharing quick internal updates.
-- [Issues with the {guilabel}`support` label](https://github.com/2i2c-org/infrastructure/issues?q=is%3Aopen+label%3Asupport+sort%3Aupdated-desc) are where we track support requests related to {term}`Change Request`s and {term}`Guidance Request`s. (support requests from external stakeholders are created via emailing `support@2i2c.org`, we do not encourage them to open issues directly.)
+- [Issues with the {guilabel}`support` label](https://github.com/2i2c-org/infrastructure/issues?q=is%3Aopen+label%3Asupport+sort%3Aupdated-desc) are where we track support requests related to {term}`Change Requests` and {term}`Guidance Requests`. (support requests from external stakeholders are created via emailing `support@2i2c.org`, we do not encourage them to open issues directly.)
 
-## Support triage and resolution process
+## Process for support triage and resolution
 
 Here is the process that we follow when triaging and resolving support requests.
 
@@ -169,7 +168,7 @@ Here is the process that we follow when triaging and resolving support requests.
 
 The goal of the triage phase is to understand the Support Request, decide if it is related to an incident, and choose the appropriate resolution pathway.
 
-This process is carried out in an ongoing basis by the {term}`Support Steward`s.
+This process is carried out in an ongoing basis by the {term}`Support Stewards`.
 
 1. **Monitor our support channels**. We use FreshDesk for all support requests, and the Support Stewards should regularly keep an eye on this account for new requests.
    When a new support requests comes in, move to the next step.
@@ -204,9 +203,9 @@ This process is carried out in an ongoing basis by the {term}`Support Steward`s.
 8.  **Close the request**. If the Community Representative confirms that their request has been fulfilled, or if we have not gotten a response after 48 working hours, consider this request closed. In FreshDesk, mark the incident as {guilabel}`Closed`.
 
 (support:prioritize-requests)=
-## How to prioritize non-incident support requests
+## Prioritizing non-incident support requests
 
-For support requests that are not related to {term}`Incident`s, we have more flexibility in when to do the work.
+For support requests that are not related to {term}`Incidents`, we have more flexibility in when to do the work.
 We cannot sustainably prioritize all support requests over our other work, so here is a rough prioritization order to follow:
 
 1. Requests that come with dedicated funding.
@@ -221,7 +220,7 @@ We cannot sustainably prioritize all support requests over our other work, so he
 :::{admonition} Ask the PMs
 We have a few roles that are particularly useful for triaging and prioritizing our work items.
 
-- Our [Project Manager](roles:project-manager) should have visibility over everybody's workload, and helps us prioritize work during sprints.
+- Our {term}`Project Manager` should have visibility over everybody's workload, and helps us prioritize work during sprints.
 - Our Product and Community Lead should understand which work items will be most impactful across our communities. (we currently do not have anybody serving in this role, but will soon!)
 
 When deciding how to prioritize a Change Request, ask for guidance from these two team members.

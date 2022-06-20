@@ -34,7 +34,7 @@ In addition, the 2i2c community and experience often extends outside those space
 
 The 2i2c Code of Conduct does not apply to interactions between users of a Managed JupyterHub, though we encourage leaders in those communities to adopt a Code of Conduct for their hub infrastructure. The Code of Conduct does apply to any interaction between a user of a Managed JupyterHub and a 2i2c Team Member.
 
-:::\{important}
+:::{important}
 When in doubt, please [report unacceptable behavior](coc:reporting) to us. If someone’s behavior outside of a 2i2c space makes you feel unsafe at 2i2c, that is absolutely relevant and actionable for us.
 :::
 
