@@ -12,7 +12,9 @@ This section contains information that our team uses to triage, communicate, and
 (support:process)=
 ## Overview of the support process
 
-Here's a brief overview of our support process:
+Here's a brief overview of our support process[^github-support-issues]:
+
+[^github-support-issues]: We had a lot of discussion around various support and operations systems to take as inspiration. [This GitHub Issue](https://github.com/2i2c-org/infrastructure/issues/1068) has a lot of useful discussion, including a few write-ups of specific support systems to use as inspiration ([example one](https://github.com/2i2c-org/infrastructure/issues/1068#issuecomment-1063138772) [example two](https://github.com/2i2c-org/infrastructure/issues/1068#issuecomment-1063516429))
 
 - A {term}`Community Representative` sends a request to `support@2i2c.org`.
 - This is triaged by our {term}`Support Steward` team.
@@ -76,6 +78,8 @@ Guidance Requests
 
 Supporting a 2i2c hub is a collaborative process between 2i2c and the community we serve.
 
+The {term}`docs:Support Team` is one of the main teams in our {term}`docs:Collaborative JupyterHub Service Team`.
+
 This consists of three main roles: {term}`Support Stewards`, {term}`Community Representatives`, and {term}`Hub Administrators`.
 
 ```{glossary}
@@ -95,35 +99,14 @@ Support Stewards
 
   Common alternate terms: **Customer Liason**, **External Liason**, or **Customer Support**.
 
-
 Community Representative
 Community Representatives
-  Acts as the primary point of contact for a community, and ensures that the interests of the {term}`Hub Community` are represented in the infrastructure, and that the hub serves their needs.
-  They have the authority to speak on behalf of the community, and make decisions about the infrastructure that the community uses.
-
-  There must be **one or two community representatives for a given community**.
-  This role is usually filled by someone that is a member of the hub's community of practice.
-
-  Their main responsibilities include:
-
-  - The main point of contact between the hub engineer and the {term}`Hub Community`.
-  - Collect feedback and questions from users on a hub.
-  - Surface questions and requests to Hub Engineers via support tickets.
-  - Oversee the {term}`Hub Administrators`.
-
+  See {term}`docs:Community Representative`.
 
 Hub Administrator
 Hub Administrators
-
-  Trusted community members that perform common administrative operations on a hub that do not require intervention from a {term}`Hub Engineer`.
-  {term}`Community Representatives` are the first Hub Administrators, and they may add new Hub Administrators via the JupyterHub interface.
-  They are able to add users, start/stop servers, and generally have more control over operations on the hub.
-
-  Their responsibilities include:
-
-  - Provide support to users of a hub for common problems that don't require a Hub Engineer to resolve.
-  - Add new users to a hub, including administrative users.
-  - Surface major issues or requests to the Community Representative(s).
+  See {term}`docs:Hub Administrator`.
+  
 ```
 
 ## Communication channels
