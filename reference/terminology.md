@@ -32,7 +32,7 @@ Hub Community
 
 ICSI
 International Computer Science Institute
-  The [International Computer Science Institute](https://icsi.berkeley.edu) was 2i2c's host organization at its inception.
+  The [International Computer Science Institute](https://www.icsi.berkeley.edu/icsi/) was 2i2c's host organization at its inception.
   It is a non-profit organization based in Berkeley, CA.
   ICSI brings together scientists from all over the world and at all stages of their career to work with established staff researchers, UC Berkeley professors, and their networks of academic, government, and industrial partners.
   In August of 2021, 2i2c adopted {term}`Code for Science and Society` as its fiscal sponsor.
