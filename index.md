@@ -1,53 +1,40 @@
 # The 2i2c Team Compass
 
-This Team Compass is a guide for team members of 2i2c to navigate our organization and community.
-It is the {term}`source of truth <Single Source of Truth>` for information about 2i2c.
+This Team Compass is a guide for team members of 2i2c to navigate our organization and community[^team-compass].
+It is our team's primary knowledge base.
 
-## How to use the team compass
+**The Team Compass is the {term}`Source of Truth`!**
 
-2i2c team members should document everything relevant to operating the organization in the 2i2c team compass, and give it precedence over all other kinds of documentation unless explicitly stated otherwise in the team compass.
+If you see information that is out of date, propose an edit in [the team compass repository](https://github.com/2i2c-org/team-compass).
+To propose an edit directly from the documentation, click {fab}`github` -> {fas}`pencil-alt`.
 
-**The Team Compass is the source of truth!**
+[^team-compass]: For more about the Team Compass itself, see [](about/team-compass.md).
 
-Any information that is in this team compass should be considered the **source of truth** for 2i2c. Its information should be complete and updated frequently.
+Below we describe the major sections in the Team Compass.
 
-If you see information here that is out of date, please propose an edit in [the team compass repository](https://github.com/2i2c-org/team-compass).
+## Get started
 
-See below for a brief overview of each section of the Team Compass, or browse the sections to the left on your own.
-
-(start:team-compass)=
-## Navigate the team compass
-
-This repository acts as a knowledge base and a "Source of Truth" for everything at 2i2c.
-It is regularly updated as our team processes, structure, and information changes.
-There is a *lot* of information in the team compass, so here is a quick primer on where to look next.
-
-To **get started with the 2i2c Team**, read [the Team Practices chapter](practices/index.md).
-
-In addition, the other sections on this page contain pointers to other useful sources of information for 2i2c.
-
-## Code of Conduct
-
-The Code of Conduct defines the expectations that we have for behavior for anyone participating in a 2i2c space, as well as the process we'll follow if others do not meet these expectations.
+These documents are important to get started with 2i2c and understand our practices.
 
 ```{toctree}
-:maxdepth: 2
+:maxdepth: 1
 code-of-conduct/index
+get-started
 ```
 
-## Team Practices
+## Topic Areas
 
-Information about working with the 2i2c team, understanding our processes and projects, and generally getting oriented.
+Information broken down by major functional and topic areas of 2i2c.
 
 ```{toctree}
-:caption: Team Information
-:maxdepth: 1
-get-started
-about/team
-practices/expectations
-practices/index
-meetings/eng/index
-reference/calendar
+:caption: Topic Areas
+:maxdepth: 2
+
+coordination/index
+infrastructure/index
+community/index
+hr/index
+about/index
 ```
 
 ## Projects and Services
@@ -57,21 +44,21 @@ They go into more detail about the plans, structure, and strategy of each projec
 
 ```{toctree}
 :caption: Projects and Services
-projects/index
+:maxdepth: 2
 projects/managed-hubs/index
+projects/index
 ```
 
-## About 2i2c
+## Team Reference
 
-Information about the broader 2i2c organization, as well as its mission and structure.
+Reference and archival information for our teams.
 
 ```{toctree}
-:maxdepth: 1
-:caption: About 2i2c
-
-about
-hr/index
-about/structure
-about/strategy
-reference/index
+:caption: Reference Material
+:maxdepth: 2
+reference/calendar.md
+reference/team.md
+meetings/eng/index
+reference/terminology.md
+reference/inspiration.md
 ```

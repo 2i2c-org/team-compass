@@ -1,5 +1,5 @@
-(coordination:development)=
-# Development and backlog workflow
+(coordination:workflow)=
+# Planning and coordination workflow
 
 This section describes how our development team carries out its planning and day-to-day work.
 
@@ -9,33 +9,6 @@ This section describes how our development team carries out its planning and day
 👉 [Here's a link to see all Pull Requests for which your review is requested](https://github.com/issues?q=is%3Aopen+archived%3Afalse+sort%3Aupdated-desc+user%3A2i2c-org+type%3Apr+review-requested%3A%40me)
 :::
 
-## Roles and team structure
-
-We use the following roles to help us understand responsiblities and expectations around developing and operating our infrastructure.
-For roles that are related to more specific actions like support and incidents, see [our managed service documentation](service:index).
-
-```{glossary}
-
-Project Manager
-Project Managers
-  We are piloting the use of a dedicated Project Manager to help our team plan and coordinate with one another.
-  See [this GitHub issue](https://github.com/2i2c-org/team-compass/issues/398) for our plans and experience with this pilot thus far.
-
-Hub Engineer
-Hub Engineers
-
-  The job of a Hub Engineer is to develop and operate deployment infrastructure for a hub, and to perform major upgrades or improvements to resolve issues that cannot be solved by a {term}`Hub Administrator`.
-  Hub engineers regularly work on the JupyterHub infrastructure and provide open source development for the technology that powers each hub.
-  People in these roles are generally affiliated with 2i2c.
-
-
-  **Responsibilities**
-
-  - Respond to support requests from the Community Representative(s)
-  - Perform major upgrades on hub infrastructure
-  - Debug and resolve major issues with a hub that require intervention from a Hub Engineer
-  - Perform open source development on technologies that are in use by the hubs
-```
 
 (coordination:sprints)=
 ## Team Sprints
@@ -258,53 +231,6 @@ Each parent issue is the {term}`Source of Truth` for all work associated with it
 In some cases we want to do work in an upstream repository or project.
 To do this, add upstream issues to our Team Backlog as we would add any other issue.
 
-(development:merge-policy)=
-## Merging and Reviewing policy
-
-The sections below describe major policies around merging and reviewing depending on the kind of change being made.
-There are some extra policies for changes that **affect actively-running infrastructure**.
-See the section below for details.
-
-Not all of them are followed strictly, though some are more important than others, and are marked with **REQUIRED**.
-
-- **Always make a Pull Request**. (REQUIRED).
-  All changes to 2i2c repositories should be made via a Pull Request.
-  This should be enforced by setting the `main`/`master` branch of each repository to be "protected".
-- **PRs should reference (and close) issues**.
-  A pull request should almost always be related to an issue.
-  Ideally, the issue should be tightly-scoped enough that the PR will close it when merged.
-  If you have an idea that *doesn't* yet have an issue, open an issue first and then make the PR to close it.
-  This ensures that the team has context around Pull Requests, and a chance to discuss before we implement.
-- **Use GitHub's `Request Review` feature**.
-  Add specific team members so that it is clear who is needed to review the PR.
-- **Be explicit about what feedback you want**.
-  When you open a PR, include some language about specific things you'd like feedback with, if applicable.
-  This helps others focus their attention.
-- **Use the review column on sprint boards**.
-  When a PR needs review, move any relevant issues to the {kbd}`Review` column of the active [Sprint Board](coordination:sprint-board) so others notice it.
-- **Merge after one approval**.
-  If there is at least one approval on a PR, then anybody, including the PR author, may merge the PR.
-  PR authors should not hesitate to merge their own PR after an approval if they think it is ready to go!
-- **Merging without review is discouraged, but not forbidden**.
-  For changes that are minor, very straightforward, and do not affect actively-running infrastructure, it is acceptable to self-merge a PR without getting an approval.  
-  If you don't believe that your PR requires an approval before merging, make it clear in your PR or in a comment that you plan to merge it in 24 hours.
-- **Leave PRs open for at least 24 working hours**.
-  This helps ensure that others on the team have a chance to look at the PR and give their thoughts (by working hours we mean hours during a weekday).
-
-
-### Policy for changes to running infrastructure
-
-Changing active infrastructure is a bit different from developing technology that is not immediately in production.
-As such, we follow some more specific guidelines for these kinds of changes.
-See {ref}`infra:infrastructure:review`.
-
-### Policy for team compass changes
-
-If a change affects the 2i2c team policies, or makes significant changes to our documentation or public-facing material, then you should also follow these extra policies:
-
-- **Ensure that the team has consented**.
-  For any major change, you should make sure that you have followed best-practices in consent-based decision making. See [](development:decisions) for more information.
-
 ## How to keep track of projects
 
 Longer-term projects are generally more complex and may be made up of many actions and deliverables to accomplish.
@@ -333,26 +259,3 @@ Here is a common column structure:
 - {guilabel}`Blocked`: Deliverables that require another action or delivearable from the 2i2c team to complete before they can move forward.
 - {guilabel}`Waiting`: Deliverables that require another action from a **non-2i2c team member** before they can move forward.
 - {guilabel}`Done`: Deliverables that have been completed. We should close these issues and celebrate the improvements that we have made!
-
-(development:decisions)=
-## How we make decisions
-
-The 2i2c Team follows [consent based decision-making](https://thedecider.app/consent-decision-making) in making all of its team decisions.
-This roughly means the following for **any decision that impacts all team members**:
-
-- The proposed decision and relevant context must be available to all team members.
-  This is generally done via opening GitHub issues.
-- Ensure that team members have time to understand the proposal, and ask questions about it to understand its ramifications.
-- Ensure that team members have time to object and make suggested changes.
-- Ensure that the result of the decision is recorded somewhere that is available to all team members.
-
-Generally speaking, this process is carried out via GitHub Issues and Pull Requests.
-See [](development:merge-policy) for how this works in practice.
-
-### Resources to learn about consent-based decision making
-
-Here are some helpful resources for more information about consent-based decision-making.
-
-- A short primer: https://thedecider.app/consent-decision-making
-- A more in-depth discussion: https://sociocracyforall.org/consent-decision-making/
-- A well-known technical proposal on "Consent via humming": https://tools.ietf.org/html/rfc7282

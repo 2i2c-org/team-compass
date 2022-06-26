@@ -1,7 +1,7 @@
 (service:index)=
-# Collaborative JupyterHub Service
+# Managed JupyterHub Service
 
-The Collaborative JupyterHub Service is an ongoing service to **sustain and scale** a collaborative, community-driven, interactive computing service for communities in research and education.
+The Managed JupyterHub Service is an ongoing service to **sustain and scale** a collaborative, community-driven, interactive computing service for communities in research and education.
 
 **[`docs.2i2c.org`](https://docs.2i2c.org) has most of the information about this service**.
 

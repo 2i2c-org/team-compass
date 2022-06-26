@@ -1,5 +1,5 @@
 (practices:communication)=
-# Communication channels
+# Team communication channels
 
 There are a few different communication channels with 2i2c, depending on your team and what kind of communication you'd like to have.
 See below for details.
@@ -10,34 +10,17 @@ Most communication should be asynchronous - this means you communicate without t
 Asynchronous communication is more inclusive of team members that are spread across many time zones and with many responsibilities.
 By default, try to keep it async!
 
-### General discussion between the team
+### GitHub: Projects, discussions, and deliverables
 
-For those who are doing daily work with 2i2c, we use [GitHub Discussions](https://docs.github.com/en/discussions) for our asynchronous conversation.
-There are a few different discussion forums depending on the kind of conversation you'd like to have:
-
-- General team discussion: [2i2c-org/team-compass/discussions](https://github.com/2i2c-org/team-compass/discussions)
-- Discussion specifically about the pilot hubs: [2i2c-org/infrastructure/discussions](https://github.com/2i2c-org/infrastructure/discussions)
-- Team discussion that needs to be private (this should be low-volume): [2i2c-org/meta/discussions](https://github.com/2i2c-org/meta/discussions)
-
-### To-do items and deliverables
-
-For tracking actionable items and conversation around them, 2i2c uses GitHub issues and pull-requests.
-Check the repositories in [the `2i2c-org` GitHub org](https://github.com/2i2c-org) for where these conversations happen.
-
-In addition, check [the active projects page](../projects/index.md) for a list of active projects and links to where communication is happening around them.
-
-Team members are expected to monitor repositories that are important to the work that they are doing. Keep up-to-date with new issues and comments on pre-existing issues.
-
-### Steering Council discussion
-
-The Steering Council of 2i2c conducts asynchronous discussion via [GitHub Issues in the `meta/` repository](https://github.com/2i2c-org/meta/issues).
-However, this may change in the future ([see this issue for context](https://github.com/2i2c-org/meta/issues/182)).
-
+For most team communication, we use GitHub Issues and Pull Requests.
+See [](coordination:workflow) for more information.
 
 ## Synchronous communication
 
 Synchronous communication assumes that there are one or more people communicating directly with each other at the same time.
 This is usually for informal communication between team members (ie, information that does not need to be tracked over time).
+
+Most of our synchronous communication [happens in Slack](communication:slack).
 
 :::{important}
 Any conversations that are important or that should be remembered outside of the immediate context should be encoded as Discussion threads, GitHub Issues, or otherwise put in a more asynchronous place so that others may discover it and participate.
@@ -51,20 +34,8 @@ Here are things that **should not** be conducted synchronously, but instead put 
 - New ideas that warrant follow-up
 :::
 
-### Team coordination
-
-Team coordination generally happens via the 2i2c Slack channel ([http://2i2c.slack.com/](http://2i2c.slack.com/)).
-In particular in the `#team-updates` channel as well as in the hub-specific channels (e.g., those beginning with `#hub-`).
-This is generally used for quick coordination, hand-offs, and requests for help or reviews.
-It is not used for official records or planning.
-
-### Informal communication
-
-Informal communication happens in the 2i2c Slack channel ([http://2i2c.slack.com/](http://2i2c.slack.com/)).
-This Slack has both 2i2c staff and Steering Conucil members, as well as several other interested parties.
-
 (communication:zoom)=
-## Zoom
+## Zoom: Face to face meeting and deeper discussion
 
 Our team has a dedicated Zoom room that anybody on the 2i2c team may use.
 We try not to publicly post this link to avoid the likelihood of abuse.
@@ -76,7 +47,8 @@ The username for this account is `hello@2i2c.org` and you should ask a team memb
 
 For public-facing zoom meetings that are hosted with this account, create a zoom link that is unique to the meeting, rather than using the general team room.
 
-## Slack
+(communication:slack)=
+## Slack: informal and quick conversations
 
 ### Who is invited to the Slack?
 
@@ -93,9 +65,3 @@ There are private channels for a few specific topics that probably warrant priva
 - `#leads-and-partnerships` - is for discussing **prospective** collaborations, communities we may serve, or funding opportunities
 
 In addition, we may create private rooms on a short-term basis for specific events (such as discussing hiring a specific role).
-
-## Taking time off
-
-It's critical that you communicate with team members when you intend to take time off.
-This helps the team plan for your absence, and ensures that we are spreading work equitably and intentionally.
-See [](hr/time-off) for our practices and policies for taking time off.
