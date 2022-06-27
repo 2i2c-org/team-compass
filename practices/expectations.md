@@ -39,8 +39,8 @@ You are expected to participate in this workflow with other members of the team.
 
 If you're an engineer at 2i2c, plan to do a combination of these things:
 
-1. **Development for the [Managed JupyterHub Service](../projects/managed-hubs/index.md).** This is a collection of JupyterHubs that we run for various customers/communities in research/education. We are constantly updating and improving this infrastructure!
-2. **Operation for the [Managed JupyterHub Service](../projects/managed-hubs/index.md).** In addition to developing the infrastructure, we also operate it and provide support. We try to divide this work so that we share the responsibility of operation and support.
+1. **Development for the [Collaborative JupyterHub Service](../projects/managed-hubs/index.md).** This is a collection of JupyterHubs that we run for various customers/communities in research/education. We are constantly updating and improving this infrastructure!
+2. **Operation for the [Collaborative JupyterHub Service](../projects/managed-hubs/index.md).** In addition to developing the infrastructure, we also operate it and provide support. We try to divide this work so that we share the responsibility of operation and support.
 3. **Focused development in collaboration research and education communities.** In addition to running infrastructure, we also collaborate around specific projects, usually involving tools in the Jupyter ecosystem. You may work with researchers in improving their tool, or building something new for another group's project.
 4. **Outreach, teaching, and community-building.** In addition to technical work, we also encourage 2i2c team members to make interactive computing more accessible and powerful for others via outreach, particularly for under-served communities.
 5. **Open source development and support.** We run all of our infrastructure on open source tools - usually from communities for which we are not the sole leader. It is crucial that we participate in these communities and support them in addition to doing 2i2c-specific work.

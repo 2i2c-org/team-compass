@@ -17,8 +17,8 @@ You can find [the Team Roles calendar here](https://calendar.google.com/calendar
 Here's a short description of our Team Roles:
 
 Support Stewards
-: Are the first point of contact for all support requests at `support@2i2c.org`.
-  See [](roles:support-steward) for more information.
+: The first point of contact for all support requests at `support@2i2c.org`.
+  See {term}`Support Steward` for more information.
 
 Meeting Facilitator
 : Leads our monthly team meetings.

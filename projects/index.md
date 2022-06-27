@@ -32,14 +32,14 @@ The [organizational foundation project](https://github.com/orgs/2i2c-org/project
 
 ## Managed Hub Service launch
 
-The Managed JupyterHub Service is a special project of 2i2c that is [developed and described at this website](managed-hubs/index.md).
+The Collaborative JupyterHub Service is a special project of 2i2c that is [developed and described at this website](managed-hubs/index.md).
 
 :::{admonition} Tracking deliverables
 - [the high level goals and strategy are described here](https://docs.2i2c.org/en/latest/about/strategy/index.html)
 - [the roadmap for the service is described here](https://docs.2i2c.org/en/latest/about/strategy/roadmap.html)
 :::
 
-More information about the Managed JupyterHub Service can be found in these sections:
+More information about the Collaborative JupyterHub Service can be found in these sections:
 
 (projects:jmte-pangeo)=
 ## Pangeo Hub Infrastructure development

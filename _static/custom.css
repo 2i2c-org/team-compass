@@ -1,0 +1,4 @@
+/* When we have glossaries with multiple items, only display the first */
+dl.glossary dt + dt {
+  display: none;
+}
