@@ -71,6 +71,7 @@ Information about the broader 2i2c organization, as well as its mission and stru
 
 about
 hr/index
+administration/index
 about/structure
 about/strategy
 reference/index
