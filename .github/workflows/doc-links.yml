@@ -1,13 +1,22 @@
-name: Test documentation for broken links
+name: Build documentation and check links
+
 on:
-  pull_request:
   workflow_dispatch:
+  schedule:
+  # Runs at 1am each day.
+  - cron: '0 1 * * *'
+
+env:
+  # Issue: https://github.com/2i2c-org/team-compass/issues/453
+  BROKEN_LINKS_ISSUE_NUMBER: 453
+  GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 jobs:
   linkcheck:
     runs-on: ubuntu-20.04
     steps:
       - uses: actions/checkout@v2
+      - uses: excitedleigh/setup-nox@v2.1.0
 
       - name: Setup Python
         uses: actions/setup-python@v2
@@ -15,7 +24,49 @@ jobs:
           python-version: 3.8
       - name: Install docs requirements
         run: pip install -r requirements.txt
-      
-      - name: make linkcheck
+    
+      - name: Build the documentation
         run: |
-          make linkcheck SPHINXOPTS='--color -W --keep-going'
+          nox -s docs -- -W
+
+      # ref: https://github.com/lycheeverse/lychee-action
+      # ref: https://github.com/lycheeverse/lychee#commandline-parameters
+      - name: Check documentation for broken links
+        uses: lycheeverse/lychee-action@v1.5.0
+        id: linkCheck
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+        continue-on-error: true  # So we'll trigger the next steps if job fails
+        with:
+          fail: true
+          # Rationale for excluding specific sites:
+          # 2i2c-org/meta + 2i2c-org/leads + 2i2c-org/projects: All private
+          # /edit: Auto-generated and will break when adding new pages
+          # issues/: Links to GitHub issue queries always result in network error
+          args: >
+            _build/html/**/*.html
+            --insecure
+            --max-retries 10
+            --exclude-link-local
+            --exclude mailto
+            --exclude file://
+            --exclude https://github.com/2i2c-org/meta
+            --exclude https://github.com/2i2c-org/leads
+            --exclude https://github.com/orgs/2i2c-org/projects/
+            --exclude https://github.com/2i2c-org/team-compass/edit/
+            --exclude https://github.com/issues?
+          jobSummary: true
+      
+      # If our linkcheck failed, then update the broken link issue and re-open
+      - name: Create issue from Lychee output
+        if: steps.linkCheck.outcome == 'failure'
+        uses: peter-evans/create-issue-from-file@v4.0.0
+        with:
+          issue-number: ${{env.BROKEN_LINKS_ISSUE_NUMBER}}
+          title: Broken links in documentation
+          content-filepath: ./lychee/out.md
+
+      - name: Re-open the links issue
+        if: steps.linkCheck.outcome == 'failure'
+        run: gh issue reopen $BROKEN_LINKS_ISSUE_NUMBER
+
