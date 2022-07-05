@@ -12,6 +12,4 @@ jobs:
     uses: 2i2c-org/.github/.github/workflows/documentation-link-check.yaml@main
     with:
       docs_path: .
-      # Issue: https://github.com/2i2c-org/team-compass/issues/453
-      issue_number: 453
       requirements_path: requirements.txt
