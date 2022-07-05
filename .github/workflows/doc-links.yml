@@ -7,6 +7,7 @@ on:
   - cron: '0 1 * * *'
 
 env:
+  # Issue: https://github.com/2i2c-org/team-compass/issues/453
   BROKEN_LINKS_ISSUE_NUMBER: 453
   GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
