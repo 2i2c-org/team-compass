@@ -9,7 +9,7 @@ on:
 
 jobs:
   linkcheck:
-    uses: 2i2c-org/.github/.github/workflows/documentation-link-check.yml@main
+    uses: 2i2c-org/.github/.github/workflows/documentation-link-check.yaml@main
     with:
       docs_path: .
       # Issue: https://github.com/2i2c-org/team-compass/issues/453
