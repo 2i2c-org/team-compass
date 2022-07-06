@@ -1,4 +1,4 @@
-# Human resources and administration
+# Human resources
 
 These sections contain information about **Human Resources at 2i2c**.
 This includes employment information, salary information, benefits, etc.
