@@ -33,6 +33,7 @@ Information broken down by major functional and topic areas of 2i2c.
 coordination/index
 infrastructure/index
 community/index
+administration/index
 hr/index
 about/index
 ```
