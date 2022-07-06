@@ -88,7 +88,7 @@ Support Stewards
   A **two-person team** of {term}`Support Stewards` work together to triage and communicate with all external support requests.
   Tenure on the support team is **for four weeks**.
   Every **two weeks** (generally at the sprint meeting), a Support Steward cycles off the support team, and a new team member joins the team.
-  The support team rotates through [the “Open Infrastructure Engineering Team” on this page](https://team-compass.2i2c.org/en/latest/about/team.html), in alphabetical order.
+  The support team rotates through [the “Open Infrastructure Engineering Team” on this page](https://team-compass.2i2c.org/en/latest/reference/team.html), in alphabetical order.
 
   The primary responsibilities of the Support Stewards are:
 
