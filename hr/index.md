@@ -1,12 +1,12 @@
-# Human resources
+# Human resources and administration
 
 These sections contain information about **Human Resources at 2i2c**.
 This includes employment information, salary information, benefits, etc.
 
 ```{toctree}
+expectations
 compensation.md
 titles/index.md
 hiring.md
 time-off.md
 ```
-

@@ -32,12 +32,8 @@ Hub Community
 
 ICSI
 International Computer Science Institute
-  The [International Computer Science Institute](https://icsi.berkeley.edu) was 2i2c's host organization at its inception.
+  The [International Computer Science Institute](https://www.icsi.berkeley.edu/icsi/) was 2i2c's host organization at its inception.
   It is a non-profit organization based in Berkeley, CA.
   ICSI brings together scientists from all over the world and at all stages of their career to work with established staff researchers, UC Berkeley professors, and their networks of academic, government, and industrial partners.
   In August of 2021, 2i2c adopted {term}`Code for Science and Society` as its fiscal sponsor.
-
-Source of Truth
-Single Source of Truth
-  Distributed teams and open communities need to balance information across team members, and ensure that everyone is on the same page. For this reason, it is recommended to adopt a "single source of truth" for anything important. This is an authoritative source that everyone can look to in order to know the current status and plan for anything we do at 2i2c.
 ```

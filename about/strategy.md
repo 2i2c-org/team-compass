@@ -39,7 +39,7 @@ As a start, we wish to launch a **Managed JupyterHubs** service, and will begin 
 - 2i2c manages JupyterHubs for at least two institutions.
 - 2i2c manages more lightweight, community-specific JupyterHubs for several smaller groups in research and education.
 - 2i2c manages a "generic" JupyterHub that is not tied to any single institution or group.
-- 2i2c has a beta-level sustainability model for the first iteration of our Collaborative JupyterHub Service.
+- 2i2c has a beta-level sustainability model for the first iteration of our Managed JupyterHub Service.
 - 2i2c has built relationships with cloud providers that facilitate our ability to serve these hubs to our users.
 
 ## Launch major collaborations
@@ -47,7 +47,7 @@ As a start, we wish to launch a **Managed JupyterHubs** service, and will begin 
 **Rationale:**
 
 2i2c wishes to conduct focused development in collaboration with others in research and education.
-We wish to engage in several major projects that will support infrastructure that aligns with our mission, and that also feeds into our Collaborative JupyterHub Service.
+We wish to engage in several major projects that will support infrastructure that aligns with our mission, and that also feeds into our Managed JupyterHub Service.
 
 **Objectives:**
 

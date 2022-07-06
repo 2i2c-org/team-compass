@@ -1,6 +1,13 @@
-# Basic information about 2i2c
+# Organization and strategy
 
-This page contains information about the 2i2c organization and community.
+Information about our organizational goals and strategy as well as our organization-wide policies.
+
+```{toctree}
+structure
+governance
+strategy
+team-compass
+```
 
 ## 2i2c's mission, vision, and values
 
@@ -8,7 +15,7 @@ Your best place to learn about 2i2c's values is to check out [the About pages](h
 
 ## 2i2c's structure and governance
 
-Check out [](about/structure.md) for more information about this.
+Check out [](structure.md) for more information about this.
 
 ## Where is 2i2c located?
 
@@ -27,7 +34,7 @@ It was originally founded as a project of the {term}`International Computer Scie
 
 2i2c does several kinds of things:
 
-- **Manage Infrastructure as a Service** for research and education, using 100% open source infrastructure, and that [respect a customer's right to replicate](https://2i2c.org/right-to-replicate). Currently, this is done via [Managed JupyterHub Distributions](projects/managed-hubs/index.md).
+- **Manage Infrastructure as a Service** for research and education, using 100% open source infrastructure, and that [respect a customer's right to replicate](https://2i2c.org/right-to-replicate). Currently, this is done via [Managed JupyterHub Distributions](../projects/managed-hubs/index.md).
 - **Develop and maintain** open infrastructure and open-source tools that underlie these services.
 - **Provide technical collaboration** with researchers and educators on focused projects.
 - **Provide guidance and strategic assistance** to organizations trying to navigate their decisions around cloud and open-source infrastructure.

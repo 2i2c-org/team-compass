@@ -78,7 +78,7 @@ Guidance Requests
 
 Supporting a 2i2c hub is a collaborative process between 2i2c and the community we serve.
 
-The {term}`docs:Support Team` is one of the main teams in our {term}`docs:Collaborative JupyterHub Service Team`.
+The {term}`docs:Support Team` is one of the main teams in our {term}`docs:Managed JupyterHub Service Team`.
 
 This consists of three main roles: {term}`Support Stewards`, {term}`Community Representatives`, and {term}`Hub Administrators`.
 

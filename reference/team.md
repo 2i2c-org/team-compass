@@ -1,7 +1,9 @@
 # List of team members
 
 The 2i2c team is defined [on the `about/` page of our website](https://2i2c.org/about/).
-Below is a summary of the people on that page
+Below is a summary of the people on that page.
+
+% Auto-generated from the HTML at https://2i2c.org/about/
 
 ## Open Infrastructure Team
 
