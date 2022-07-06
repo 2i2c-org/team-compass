@@ -17,9 +17,7 @@ This roughly means that:
 Generally speaking, this process is carried out via GitHub Issues and Pull Requests.
 See [](development:merge-policy) for how this works in practice.
 
-[^consent-decision-making]:
-
-    Here are some helpful resources for more information about consent-based decision-making.
+[^consent-decision-making]: Here are some helpful resources for more information about consent-based decision-making.
 
     - A short primer: https://thedecider.app/consent-decision-making
     - A more in-depth discussion: https://sociocracyforall.org/consent-decision-making/
