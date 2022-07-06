@@ -7,5 +7,6 @@ This includes employment information, salary information, benefits, etc.
 expectations
 compensation.md
 titles/index.md
+hiring.md
 time-off.md
 ```
