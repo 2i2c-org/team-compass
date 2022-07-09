@@ -13,7 +13,7 @@ author = "2i2c"
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    "myst_parser",
+    "myst_nb",
     "sphinx_design",
     "sphinx_copybutton",
     "sphinx.ext.intersphinx",
@@ -82,7 +82,7 @@ from bs4 import BeautifulSoup
 import pandas as pd
 from pathlib import Path
 
-resp = request.urlopen("https://2i2c.org/about/")
+resp = request.urlopen("https://2i2c.org/team/")
 text = resp.read().decode()
 
 teams = []
@@ -106,11 +106,8 @@ for row in BeautifulSoup(text, features="html.parser").select("div.people-widget
     teams.append(entry)
 
 # Sort and create CSV files to be imported in the Team page
-teams = pd.DataFrame(teams)
 Path(__file__).parent.joinpath("tmp").mkdir(exist_ok=True)
-for team, people in teams.groupby("team"):
-    people.sort_values("name").drop(columns=["team"]).to_csv(f"tmp/{team}.csv" , index=None)
-
+pd.DataFrame(teams).to_csv("tmp/team_membership.csv", index=None)
 
 # -- Sphinx setup script ---------------------------------------------------
 

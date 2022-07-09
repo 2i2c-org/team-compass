@@ -1,22 +1,38 @@
+---
+jupytext:
+  text_representation:
+    extension: .md
+    format_name: myst
+    format_version: 0.13
+    jupytext_version: 1.13.8
+kernelspec:
+  display_name: Python 3 (ipykernel)
+  language: python
+  name: python3
+---
+
 # List of team members
 
-The 2i2c team is defined [on the `about/` page of our website](https://2i2c.org/about/).
+The 2i2c team is defined on [the `team/` page of our website](https://2i2c.org/team/).
 Below is a summary of the people on that page.
 
-% Auto-generated from the HTML at https://2i2c.org/about/
+% Uses the CSV auto-generated from the HTML at https://2i2c.org/team/
 
-## Open Infrastructure Team
+```{code-cell}
+---
+mystnb:
+  markdown_format: myst
+tags: [remove-input]
+---
+import pandas as pd
+from IPython.display import display, Markdown
 
-```{csv-table}
-:file: ../tmp/Open Engineering Team.csv
-:header-rows: 1
-```
+# This should be generated automatically by `conf.py`
+team = pd.read_csv("../tmp/team_membership.csv").fillna("")
 
-## Steering Council
-
-```{csv-table}
-:file: ../tmp/Steering Council.csv
-:header-rows: 1
+for team, people in team.groupby("team", sort=False):
+    display(Markdown(f"**{team}**"))
+    display(Markdown(people.drop(columns=["team"]).to_markdown(index=False)))
 ```
 
 ## Engineering team locations and times

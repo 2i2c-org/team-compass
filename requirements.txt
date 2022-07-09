@@ -1,4 +1,6 @@
+ipython
 myst-parser[linkify]
+myst-nb
 pandas
 sphinx
 sphinx-autobuild
