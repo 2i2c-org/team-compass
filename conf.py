@@ -13,7 +13,7 @@ author = "2i2c"
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    "myst_parser",
+    "myst_nb",
     "sphinx_design",
     "sphinx_copybutton",
     "sphinx.ext.intersphinx",
@@ -69,48 +69,6 @@ linkcheck_ignore = [
     "https://sociocracyforall.org*",  # Because it raises a 403 but still works
     "https://airtable.com*",  # Because it has some kind of security that returns a 403
 ]
-
-
-# -- Custom scripts ---------------------------------------------------
-
-# Hacky solution to list the latest engineering team members as reference
-# This grabs the latest list of team members from https://2i2c.org/about/
-# It then parses the HTML to grab the names and GitHub handles, then sorts by name
-# We can use this to define the order of team roles.
-from urllib import request
-from bs4 import BeautifulSoup
-import pandas as pd
-from pathlib import Path
-
-resp = request.urlopen("https://2i2c.org/about/")
-text = resp.read().decode()
-
-teams = []
-for row in BeautifulSoup(text, features="html.parser").select("div.people-widget > div"):  
-    # If not a `.people-person` item, it will be a group title
-    if "people-person" not in row.attrs.get("class"):
-        category = row.text.strip()
-        continue
-    entry = {"name": row.select("h2 a")[0].text, "team": category}
-
-    # Grab the listed contact links for this person
-    for link in row.select("ul.network-icon a"):
-        if "fa-github" in str(link):
-            handle = link.attrs["href"].split("/")[-1]
-            entry["github"] = f"[@{handle}]({link.attrs['href']})"
-        elif "mailto" in str(link):
-            entry["email"] = link.attrs["href"].split(":")[-1]
-        elif "twitter" in str(link):
-            handle = link.attrs["href"].split("/")[-1]
-            entry["twitter"] = f"[@{handle}]({link.attrs['href']})"
-    teams.append(entry)
-
-# Sort and create CSV files to be imported in the Team page
-teams = pd.DataFrame(teams)
-Path(__file__).parent.joinpath("tmp").mkdir(exist_ok=True)
-for team, people in teams.groupby("team"):
-    people.sort_values("name").drop(columns=["team"]).to_csv(f"tmp/{team}.csv" , index=None)
-
 
 # -- Sphinx setup script ---------------------------------------------------
 
