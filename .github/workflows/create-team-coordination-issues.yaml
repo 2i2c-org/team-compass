@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
     inputs:
       debug_enabled:
-        description: 'Run the build with tmate debugging enabled (https://github.com/marketplace/actions/debugging-with-tmate)'     
+        description: 'Run the build with tmate debugging enabled (https://github.com/marketplace/actions/debugging-with-tmate)'
         required: false
         default: false
 
@@ -31,17 +31,9 @@ jobs:
       uses: mxschmitt/action-tmate@v3
 
     - name: Open a sprint planning issue
-      if: ${{ steps.is-two-weeks.outputs.IS_TWO_WEEKS == 'True' }} 
+      if: ${{ steps.is-two-weeks.outputs.IS_TWO_WEEKS == 'True' }}
       uses: JasonEtco/create-an-issue@v2
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
         filename: .github/ISSUE_TEMPLATE/meeting-sprint-planning.md
-
-    - name: Open a support steward transfer issue
-      if: ${{ steps.is-two-weeks.outputs.IS_TWO_WEEKS == 'True' }} 
-      uses: JasonEtco/create-an-issue@v2
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      with:
-        filename: .github/ISSUE_TEMPLATE/support-steward.md
