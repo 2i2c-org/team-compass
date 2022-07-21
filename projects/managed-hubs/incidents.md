@@ -8,7 +8,7 @@ This section describes our incident response process, major roles and terminolog
 
 [^google-sre]: The [Google SRE Incident response guide](https://sre.google/workbook/incident-response/) has a wealth of information about incident response and distributed SRE teams.
 
-[^acm-blog]: This [https://queue.acm.org/detail.cfm?id=3380779](ACM blog post) describes the complexity of coordinating across a team of distributed responders during an incident, and notes a places where Incident Commander roles may actually hinder responsiveness. It is a good lesson in the complexity of incidents with distributed teams!
+[^acm-blog]: This [ACM blog post](https://queue.acm.org/detail.cfm?id=3380779) describes the complexity of coordinating across a team of distributed responders during an incident, and notes a places where Incident Commander roles may actually hinder responsiveness. It is a good lesson in the complexity of incidents with distributed teams!
 
 [^wikimedia-clinic-duty]: The [WikiMedia Clinic Duty](https://wikitech.wikimedia.org/wiki/SRE/Clinic_Duty#Responsibilities) process also inspired our process here, and is a great overall workflow around distributed SRE.
 
