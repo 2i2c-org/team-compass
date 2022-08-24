@@ -22,8 +22,20 @@ Below is a summary of the people on that page.
 % here and on 2i2c.org/team is always in-sync.
 
 <style>
-.people-widget {
+.people-widget .avatar {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
     text-align: center;
+}
+
+.avatar-circle {
+    border-radius: 50%;
+}
+
+.avatar {
+  margin: 0px auto;
+  object-fit: cover;
 }
 
 .people-person {
@@ -38,14 +50,25 @@ Below is a summary of the people on that page.
     font-size: 1.5rem;
 }
 
-.people-person h2 {
-    font-size: 1.2rem;
+.portrait-title h2 {
+    font-size: 1rem;
     margin-top: 1rem;
+    text-rendering: optimizelegibility;
+    text-align: center;
 }
 
-.people-person h3 {
-    font-size: 1rem;
+.portrait-title h3 {
+    font-size: .7rem;
+    font-weight: 300;
+    color: rgba(0,0,0,.54);
+    margin: 0 0 10px;
+    display: block;
+    font-family: montserrat,sans-serif;
+    line-height: 1.25;
+    text-rendering: optimizelegibility;
+    text-align: center;
 }
+
 
 .people-person ul {
     list-style: none;
@@ -72,9 +95,9 @@ people = BeautifulSoup(html, features="html.parser").select("div.people-widget")
 
 # Replace links and image sources with 2i2c versions so they work
 for a in people.findAll('a'):
-  a['href'] = a['href'].replace("../", "https://2i2c.org/")
+  a['href'] = a['href'].replace("/author/", "https://2i2c.org/author/")
 for img in people.findAll('img'):
-  img['src'] = img['src'].replace("../", "https://2i2c.org/")
+  img['src'] = img['src'].replace("/author/", "https://2i2c.org/author/")
 
 # Output as HTML so MyST-NB will display it
 HTML(str(people))
