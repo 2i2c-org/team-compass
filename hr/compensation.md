@@ -2,7 +2,7 @@
 
 ## Compensation philosophy
 
-See [the 2i2c Careers page](https://2i2c.org/careers/) for a short description of our compensation philosophy.
+See [the 2i2c Careers page](https://2i2c.org/jobs/) for a short description of our compensation philosophy.
 
 Salaries at 2i2c are determined solely by job title as well as several steps within that job (corresponding to experience in a particular job).
 We have [internal salary documents for the specific positions and levels](https://docs.google.com/spreadsheets/d/1FJM5pAbc0EWhu4CpPjlbWTMOsZAnivEd2ZBIZIdwpE8/edit?usp=sharing).
