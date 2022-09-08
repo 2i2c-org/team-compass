@@ -110,8 +110,10 @@ Here is the process that we follow for incidents:
 7. **Communicate when the incident is resolved**. When we believe the incident
    is resolved, communicate with the Community Representative that things should be
    back to normal. Mark the FreshDesk ticket as {guilabel}`Resolved`.
-8. **Fill in the {term}`Incident Report`**. The Incident Commander should do this in partnership with the Incident Response Team. Use the
-   messages in the slack channel to gather information about what happened when.
+8. **Fill in the {term}`Incident Report`**. The Incident Commander should do this in partnership with the Incident Response Team. We
+   use PagerDuty's [postmortem](https://support.pagerduty.com/docs/postmortems) functionality to create the incident report. This
+   allows us to easily incorporate notes and slack messages sent to pagerduty during the course of the incident, drastically reducing
+   the amount of effort required to create the incident report.
 9. **Mark the incident as resolved**. Once we have confirmation from the community (or no response after 48 working hours), and have filled in the incident {term}`Incident Report`, then close the incident by:
     - Marking the incident as "Resolved" in pagerduty.
     - Marking the FreshDesk ticket as {guilabel}`Closed`
