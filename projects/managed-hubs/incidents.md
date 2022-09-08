@@ -75,19 +75,31 @@ Here is the process that we follow for incidents:
    Incident first response template
    ```
 
-2. **Open an incident issue**.
-   For each {term}`Incident` we create a dedicated issue to track its progress. [{bdg-primary}`open an incident issue`](https://github.com/2i2c-org/infrastructure/issues/new?assignees=&labels=type%3A+Hub+Incident%2Csupport&template=3_incident-report.md&title=%5BIncident%5D+%7B%7B+TITLE+%7D%7D) and notify our engineering team via Slack.
-3. **Try resolving the issue** and take notes while you gather information about it.
-4. **If after 30 minutes the issue is not solved or you know you cannot resolve it**
-  - Ping our engineering team and our Project Manager in the {guilabel}`#support-freshdesk` channel so that they are aware of the incident.
-  - Add the incident issue to [our team backlog](https://github.com/orgs/2i2c-org/projects/22/).
-5. **Designate an {term}`Incident Commander`**. Do this in the Incident issue. By default, this is the Support Steward.
-  - Confirm that the Incident Commander has the bandwidth and ability to serve in this role.
-  - If not, delegate this to another team member.[^note-on-delegation]
-6. **Designate an {term}`External Liason`**. Do this in the Incident issue. By default, this is the Incident Commander, though they may delegate this to others.[^note-on-delegation]
-7. **Investigate and resolve the incident**. The Incident Commander should follow the structure of the incident issue opened in the step above.
-8. **Delegate to Subject Matter Experts as-needed**. The Incident Commander is empowered to delegate actions to Subject Matter Experts in order to investigate and resolve the incident quickly.[^note-on-delegation]
-9. **Communicate our status every few hours**. The {term}`External Liason` is expected to communicate incident status and plan with the {term}`Community Representative`s. They should provide periodic updates that describe the current state of the incident, what we have tried, and our intended next steps. Here is a canned response to get started:
+2. **Trigger an incident in PagerDuty**, using the 2i2c slack so we have a central location to discuss the incident.
+   Use `/pd trigger` in the {guilabel}`#pagerduty-notifications` channel on the 2i2c slack to trigger the incident -
+   after you type the command and hit `enter`, you should get a dialog box with options.
+
+   For "Impacted Service", select "Managed JupyterHubs". We can have more fine-grained services here later if we wish.
+
+   Assign it to whoever is the **Incident Commander**. This is by default one of the support stewards or whoever is
+   triggering the event, but not necessarily[^note-on-delegation]!
+
+   Provide a descriptive but short Title, but don't sweat it too much!
+
+   If there is a freshdesk ticket for this, provide a link to that in the description.
+
+   Check the box for "Create a dedicated Public Slack channel for this incident" to create a *new slack channel*
+   for discussing the incident. This helps keep chatter off other channels *and* provides an easy location to gather
+   information for the incident report afte the fact.
+
+   This officially marks the beginning of an incident, and will help make sure we don't accidentally miss steps during
+   or after the incident.
+
+3. **Try resolving the issue** and communicate on the incident specific channel while you gather information and perform
+   actions - even if only to mark these as notes to yourself.
+4. **Designate an {term}`External Liason`**. Do this in the Incident issue. By default, this is the Incident Commander, though they may delegate this to others.[^note-on-delegation]
+5. **Delegate to Subject Matter Experts as-needed**. The Incident Commander is empowered to delegate actions to Subject Matter Experts in order to investigate and resolve the incident quickly.[^note-on-delegation]
+6. **Communicate our status every few hours**. The {term}`External Liason` is expected to communicate incident status and plan with the {term}`Community Representative`s. They should provide periodic updates that describe the current state of the incident, what we have tried, and our intended next steps. Here is a canned response to get started:
 
    ```{button-link} https://2i2c.freshdesk.com/a/admin/canned_responses/folders/80000143608/responses/80000247492/edit
    :color: primary
@@ -95,10 +107,13 @@ Here is the process that we follow for incidents:
    Incident update template
    ```
 
-9. **Communicate when the incident is resolved**. When we believe the incident is resolved, communicate with the Community Representative that things should be back to normal. Mark the FreshDesk ticket as {guilabel}`Resolved`.
-10. **Fill in the {term}`Incident Report`**. The Incident Commander should do this in partnership with the Incident Response Team.
-11. **Close the incident ticket**. Once we have confirmation from the community (or no response after 48 working hours), and have filled in the incident {term}`Incident Report`, then close the incident by:
-    - Closing the incident issue on GitHub
+7. **Communicate when the incident is resolved**. When we believe the incident
+   is resolved, communicate with the Community Representative that things should be
+   back to normal. Mark the FreshDesk ticket as {guilabel}`Resolved`.
+8. **Fill in the {term}`Incident Report`**. The Incident Commander should do this in partnership with the Incident Response Team. Use the
+   messages in the slack channel to gather information about what happened when.
+9. **Mark the incident as resolved**. Once we have confirmation from the community (or no response after 48 working hours), and have filled in the incident {term}`Incident Report`, then close the incident by:
+    - Marking the incident as "Resolved" in pagerduty.
     - Marking the FreshDesk ticket as {guilabel}`Closed`
 
 [^note-on-delegation]: If you cannot find somebody to take on this work, or feel uncomfortable delegating, the {term}`Project Manager` should help you, and is empowered to delegate on your behalf.
@@ -112,8 +127,8 @@ This is encouraged and expected, especially for more complex or longer incidents
 To designate another team member as the Incident Commander, follow these steps:
 
 1. **Confirm with them** that they are able and willing to serve as the Incident Commander.
-2. **Update the Incident Report issue** by updating the Incident Commander name in the top comment.
-3. **Notify the team** with a comment in the Incident Report issue.
+2. **Reassign the incident on PagerDuty** to the new commander. This should produce a message in the slack channel for this event,
+   thus communicating this change to the rest of the team.
 
 ## Key terms
 
