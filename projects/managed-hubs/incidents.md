@@ -109,16 +109,69 @@ Here is the process that we follow for incidents:
 
 7. **Communicate when the incident is resolved**. When we believe the incident
    is resolved, communicate with the Community Representative that things should be
-   back to normal. Mark the FreshDesk ticket as {guilabel}`Resolved`.
-8. **Fill in the {term}`Incident Report`**. The Incident Commander should do this in partnership with the Incident Response Team. We
-   use PagerDuty's [postmortem](https://support.pagerduty.com/docs/postmortems) functionality to create the incident report. This
-   allows us to easily incorporate notes and slack messages sent to pagerduty during the course of the incident, drastically reducing
-   the amount of effort required to create the incident report.
-9. **Mark the incident as resolved**. Once we have confirmation from the community (or no response after 48 working hours), and have filled in the incident {term}`Incident Report`, then close the incident by:
-    - Marking the incident as "Resolved" in pagerduty.
-    - Marking the FreshDesk ticket as {guilabel}`Closed`
+   back to normal.
+   - Marking the incident as "Resolved" in pagerduty.
+   - Marking the FreshDesk ticket as {guilabel}`Closed`
 
 [^note-on-delegation]: If you cannot find somebody to take on this work, or feel uncomfortable delegating, the {term}`Project Manager` should help you, and is empowered to delegate on your behalf.
+
+## Creating the Incident Report
+
+Once the incident is resolved, we must create an {term}`Incident Report`. This helps us understand what went wrong,
+and how we can improve our systems to prevent a recurrance. This is a *very important* part of making our infrastructure
+and human processes more stable and stress free over time, so we should try to do this after each incident. The
+**Incident Commander** is responsible for making sure the Incident Report is done, even though they may not be the
+person doing it.
+
+Note that we *must* practice a [blameless culture](https://www.blameless.com/sre/what-are-blameless-postmortems-do-they-work-how)
+around incident reports - Incidents are *always* caused by systemic issues, and hence solutions must be systemic
+too. Go out of your way to make sure there is no finger-pointing.
+
+We use PagerDuty's [postmortem](https://support.pagerduty.com/docs/postmortems) feature to create the Incident Report.
+This lets us use notes, status updates from pagerduty as well as messages from Slack easily in the incident report!
+
+1. Open the incident in the PagerDuty web interface, and Click the "New Postmortem Report" button on top. The incident
+   needs to be already resolved before this feature is available.
+
+2. The "Owner of the Review Process" should be set to the Incident Commander, or someone else they delegate to explicitly.
+
+3. Fill out the "Impact Start Time" to be our best guess for when the incident started (*not* when the report came in), and
+   the "Impact End Time" to be when service was restored. Best guesses will do!
+
+4. Add the slack channel we created for this incident as a "Data Source", filled in with an appropriate time to cover all
+   the messages there. You can add other channels too if there was conversation there about the incident. Click "Save Data Sources"
+   to populate the timeline below with messages from the slack channels.
+
+5. Fill out the timeline! The goal is to be concise but make it possible for someone reading it to answer "what happened, and when?".
+   The timeline should include:
+
+   1. The beginning of the impact.
+   2. When the incident was brought to our attention, with a link to the source (Freshdesk ticket, slack message, etc).
+   3. When we responded to the incident. This would coincide with the creation of the PagerDuty incident.
+   4. Various debugging actions performed to ascertain the cause of the issue. Talking to yourself as you do this on the
+      slack channel helps a lot here, as it helps communicate your methods to others on the team as well as help improve
+      processes in the future more easily.
+
+      Examples here would be things like `Looked at hub logs with "kubectl logs -n temple -l component=hub" and found <this>` or
+      `Opened the cloud console and discovered notifications about quota". Pasting in commands is very helpful! This is an
+      important way for team members to learn from each other - what you take for granted is perhaps news to someone else, or
+      you might learn alternate ways of doing things!
+   5. Actions taken to attempt to fix the issue, and their outcome. Paste commands executed if possible, as well as any
+      GitHub PRs made. Putting this in Slack again helps.
+   6. Any extra communication from the community affected that helped.
+   7. Whenever the impact was fixed, and how that was verified.
+   8. Whatever else you think would be helpful to someone who finds this incident report a few months from now, trying to fix a
+      similar incident.
+
+6. Fill out the "Analysis" section to the extent possible. In particular, the "Action Items" should be a list with items
+   linked out to GitHub issues created for follow-up. Perfection is the enemy of the good here.
+
+7. Review the report, and if the Incident Commander is happy with its completeness, mark the Status dropdown up top as "Reviewed".
+
+8. Click "Save & View Report" button.
+
+9. Download the PDF, and add it to the `2i2c/infrastrtucture` repository under the `incidents/` directory. This make sure our
+   incidents are all *public*, so others can learn from them as well.
 
 ## Handing off Incident Commander status
 
