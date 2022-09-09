@@ -164,11 +164,13 @@ This lets us use notes, status updates from pagerduty as well as messages from S
       similar incident.
 
 6. Fill out the "Analysis" section to the extent possible. In particular, the "Action Items" should be a list with items
-   linked out to GitHub issues created for follow-up. Perfection is the enemy of the good here.
+   linked out to GitHub issues created for follow-up. Perfection is the enemy of the good here. Save as you go.
 
-7. Review the report, and if the Incident Commander is happy with its completeness, mark the Status dropdown up top as "Reviewed".
+7. Click "Save & View Report* when you are done, and ask other members of the incident response team to review the incident report.
+   They might add missing context, additional action items / summary details, or redact information. The person listed as
+   the "Owner of the Review Process" is still responsible for making sure the rest of the process is completed.
 
-8. Click "Save & View Report" button.
+8. After sufficient review, and if the Incident Commander is happy with its completeness, mark the Status dropdown up top as "Reviewed".
 
 9. Download the PDF, and add it to the `2i2c/infrastrtucture` repository under the `incidents/` directory. This make sure our
    incidents are all *public*, so others can learn from them as well.
