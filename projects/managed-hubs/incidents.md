@@ -90,7 +90,7 @@ Here is the process that we follow for incidents:
 
    Check the box for "Create a dedicated Public Slack channel for this incident" to create a *new slack channel*
    for discussing the incident. This helps keep chatter off other channels *and* provides an easy location to gather
-   information for the incident report afte the fact.
+   information for the incident report after the fact.
 
    This officially marks the beginning of an incident, and will help make sure we don't accidentally miss steps during
    or after the incident.
@@ -153,7 +153,7 @@ This lets us use notes, status updates from pagerduty as well as messages from S
       processes in the future more easily.
 
       Examples here would be things like `Looked at hub logs with "kubectl logs -n temple -l component=hub" and found <this>` or
-      `Opened the cloud console and discovered notifications about quota". Pasting in commands is very helpful! This is an
+      `Opened the cloud console and discovered notifications about quota`. Pasting in commands is very helpful! This is an
       important way for team members to learn from each other - what you take for granted is perhaps news to someone else, or
       you might learn alternate ways of doing things!
    5. Actions taken to attempt to fix the issue, and their outcome. Paste commands executed if possible, as well as any
@@ -166,7 +166,7 @@ This lets us use notes, status updates from pagerduty as well as messages from S
 6. Fill out the "Analysis" section to the extent possible. In particular, the "Action Items" should be a list with items
    linked out to GitHub issues created for follow-up. Perfection is the enemy of the good here. Save as you go.
 
-7. Click "Save & View Report* when you are done, and ask other members of the incident response team to review the incident report.
+7. Click "Save & View Report" when you are done, and ask other members of the incident response team to review the incident report.
    They might add missing context, additional action items / summary details, or redact information. The person listed as
    the "Owner of the Review Process" is still responsible for making sure the rest of the process is completed.
 
