@@ -130,7 +130,7 @@ This lets us use notes, status updates from pagerduty as well as messages from S
 5. **Add Data Sources** that we will use to keep track of the actions that happened around the incident.
    - Link to the slack channel we created for this incident as a "Data Source", filled in with an appropriate time to cover all the messages there.
    - Add any other channels where there was conversation there about the incident (e.g., GitHub Issues or Pull Requests).
-   
+
    Click `Save Data Sources` to populate the timeline below with messages from the slack channels.
 6. **Fill out the timeline**. The goal is to be concise but make it possible for someone reading it to answer "what happened, and when?".
    See [](incidents:postmortem-timeline) for more information.
@@ -140,10 +140,11 @@ This lets us use notes, status updates from pagerduty as well as messages from S
 8. **Click "Save & View Report"** when you are done, and ask other members of the incident response team to review the incident report.
    They might add missing context, additional action items / summary details, or redact information. The person listed as
    the "Owner of the Review Process" is still responsible for making sure the rest of the process is completed.
-9.  After sufficient review, and if the Incident Commander is happy with its completeness, **mark the Status dropdown as "Reviewed"**.
-10. Download the PDF, and add it to the `2i2c/infrastrtucture` repository under the `incidents/` directory. This make sure our incidents are all *public*, so others can learn from them as well.
+9. After sufficient review, and if the Incident Commander is happy with its completeness, **mark the Status dropdown as "Reviewed"**.
+10. Download the PDF, and add it to the [`2i2c/infrastrtucture`](https://github.com/2i2c-org/incident-reports) repository under
+    the `reports/` directory. This make sure our incidents are all *public*, so
+    others can learn from them as well.
 
-% Is there a way to share incidents in a way that doesn't require adding a binary blob to our repository? I think this generates extra toil in a process that already has a lot of toil, and also adds some clunkiness to git-based workflows. For example, could we have a public Google Drive folder where we drag/drop incident reports?
 
 
 (incidents:postmortem-timeline)=
@@ -161,10 +162,10 @@ The timeline should include:
    processes in the future more easily.
 
    For example:
-   
+
    - `Looked at hub logs with "kubectl logs -n temple -l component=hub" and found <this>`
    - `Opened the cloud console and discovered notifications about quota`.
-    
+
    Pasting in commands is very helpful!
    This is an important way for team members to learn from each other - what you take for granted is perhaps news to someone else, or you might learn alternate ways of doing things!
 5. Actions taken to attempt to fix the issue, and their outcome.
@@ -194,7 +195,7 @@ Incident Reports
   A document that describes what went wrong during an incident and what we'll do to avoid it in the future. When we have an {term}`Incident`, we create an Incident Report issue.
 
   This helps us understand what went wrong, and how we can improve our systems to prevent a recurrance. Its goal is to identify improvements to process, technology, and team dynamics that can avoid incidents like this in the future. It is **not** meant to point fingers at anybody and care should be taken to avoid making it seem like any one person is at fault.
-  
+
   This is a *very important* part of making our infrastructure and human processes more stable and stress-free over time, so we should do this after each incident.[^post-mortems].
 ```
 
