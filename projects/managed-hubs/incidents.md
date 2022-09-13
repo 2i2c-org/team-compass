@@ -90,7 +90,19 @@ Here is the process that we follow for incidents:
 
 3. **Try resolving the issue** and communicate on the incident-specific channel while you gather information and perform actions - even if only to mark these as notes to yourself.
 4. **Delegate to Subject Matter Experts as-needed**. The Incident Commander is empowered to delegate actions to Subject Matter Experts in order to investigate and resolve the incident quickly.[^note-on-delegation]
-5. **Communicate our status every few hours**. The {term}`External Liason` is expected to communicate incident status and plan with the {term}`Community Representative`s. They should provide periodic updates that describe the current state of the incident, what we have tried, and our intended next steps. Here is a canned response to get started:
+5. **Communicate our status every few hours**. The {term}`External Liason` is
+   expected to communicate incident status and plan with the {term}`Community
+   Representative`s. If the incident commander wants to delegate External Liason duties
+   to someone else, they should:
+
+   1. Assign the *Freshdesk* ticket to the external liason, as that is the default point of
+      communication with community representatives.
+   2. Make a note on the PagerDuty incident as well.
+
+
+   The externl liason should provide periodic updates that describe the current
+   state of the incident, what we have tried, and our intended next steps. Here is
+   a canned response to get started:
 
    ```{button-link} https://2i2c.freshdesk.com/a/admin/canned_responses/folders/80000143608/responses/80000247492/edit
    :color: primary
