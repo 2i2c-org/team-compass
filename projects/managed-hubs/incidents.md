@@ -126,7 +126,7 @@ Here is the process that we follow for incidents:
 
 Once the incident is resolved, we must create an {term}`Incident Report`.
 The **Incident Commander** is responsible for making sure the Incident Report is completed, even though they may not be the person doing it.
-If they are *not* the person doing it, they should still creat the incident report, but assign `Owner of the Review Process`
+If they are *not* the person doing it, they should still create the incident report, but assign `Owner of the Review Process`
 to be someone else (after checking with the other person). See more detailed steps below.
 
 We practice a [blameless culture](https://www.blameless.com/sre/what-are-blameless-postmortems-do-they-work-how) around incident reports.
