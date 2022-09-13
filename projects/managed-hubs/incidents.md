@@ -56,9 +56,12 @@ Subject Matter Experts
 (incidents:communications)=
 ### Internal communication
 
+- A channel *dedicated* to each incident will be created by pagerduty once an incident is created. This is where most of the
+  discussion about the incident should happen.
 - [`2i2c-org.pagerduty.com`](https://2i2c-org.pagerduty.com/) is a dashboard for managing incidents.
   This is the "source of truth" for any active or historical incidents.
-- [The `#pagerduty-notifications` Slack channel](https://2i2c.slack.com/archives/C041E05LVHB) is where we control PagerDuty and have discussion about an incident. This allows us to have an easily-accessible communication channel for incidents. In general, most interactions with PagerDuty should be via this channel.
+- [The `#pagerduty-notifications` Slack channel](https://2i2c.slack.com/archives/C041E05LVHB) is *primarily* used to trigger
+  new incidents and control pagerduty in other ways. Discussion of *specific* incidents should not happen here.
 
 (support:incident-response)=
 ## Incident response process
