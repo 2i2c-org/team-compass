@@ -8,15 +8,9 @@ The Managed JupyterHub Service is an ongoing service to **sustain and scale** a 
 The sections here contain information that is more relevant to 2i2c team members (like support process documentation).
 
 ```{toctree}
+:maxdepth: 2
 sales.md
 support.md
 incidents.md
+List of running hubs <https://infrastructure.2i2c.org/en/latest/reference/hubs.html>
 ```
-
-## A list of running JupyterHubs
-
-We keep a table with all of our currently-running JupyterHubs at this location: [List of Running JupyterHubs](https://infrastructure.2i2c.org/en/latest/reference/hubs.html).
-
-## Other project information
-
-- [this google folder](https://drive.google.com/drive/folders/1HEEfyT2h_fKeqKdsz9Ftiw9Be1Uj48D6?usp=sharing) has most information and brainstorms regarding this project
