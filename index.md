@@ -8,7 +8,7 @@ It is our team's primary knowledge base.
 If you see information that is out of date, propose an edit in [the team compass repository](https://github.com/2i2c-org/team-compass).
 To propose an edit directly from the documentation, click {fab}`github` -> {fas}`pencil-alt`.
 
-[^team-compass]: For more about the Team Compass itself, see [](about/team-compass.md).
+[^team-compass]: For more about the Team Compass itself, see [](organization/team-compass.md).
 
 Below we describe the major sections in the Team Compass.
 
@@ -18,25 +18,24 @@ These documents are important to get started with 2i2c and understand our practi
 
 ```{toctree}
 :maxdepth: 1
-code-of-conduct/index
 get-started
 ```
 
-## Topic Areas
+## Functional Areas
 
-Information broken down by major functional and topic areas of 2i2c.
+Information broken down by major functional areas of 2i2c.
 
 ```{toctree}
-:caption: Topic Areas
+:caption: Functional Areas
 :maxdepth: 2
 
+organization/index
 coordination/index
 infrastructure/index
 community/index
 finance/index
 administration/index
 hr/index
-about/index
 ```
 
 ## Projects and Services
@@ -45,10 +44,9 @@ These sections cover major active projects and services that 2i2c is currently w
 They go into more detail about the plans, structure, and strategy of each project.
 
 ```{toctree}
-:caption: Projects and Services
+:caption: Major Projects
 :maxdepth: 2
 projects/managed-hubs/index
-projects/index
 ```
 
 ## Team Reference
