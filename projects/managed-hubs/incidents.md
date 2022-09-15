@@ -167,9 +167,10 @@ This lets us use notes, status updates from pagerduty as well as messages from S
 (incidents:postmortem-timeline)=
 ### Writing an incident timeline
 
-Below are some tips and crucial information that is needed for a useful and thorough incident timeline.
+Below are some tips and crucial information that is needed for a useful and thorough incident timeline. You can see
+examples of previous incident reports at the [2i2c-org/incident-reports](https://github.com/2i2c-org/incident-reports/tree/main/reports)
+repository.
 
-% TODO: Add example incident reports for reference when they exist
 The timeline should include:
 
 1. The beginning of the impact.
