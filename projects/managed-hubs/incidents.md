@@ -45,6 +45,28 @@ Subject Matter Experts
   A member on the {term}`Incident Response Team` with expertise in an area of relevance to an Incident. SMEs have a variety of backgrounds and abilities, and they should be pulled in to the Response Team as-needed by the {term}`Incident Commander`. Their goal is to take actions as-directed by the {term}`Incident Commander` to resolve an incident.
 ```
 
+(incidents:what)=
+## What counts as an incident?
+
+Eventually, we will have more nuanced and complete ways to track different kinds of incidents. However, for
+now, we define an incident as one of:
+
+1. The hub is inaccessible to a number of users (N>=2). Specifically, this manifests in three ways:
+   a. They can not log in
+   b. They can not start their servers
+   c. They can not execute code (no kernels can be started)
+3. A number of users (N>=2) cannot create or use Dask Gateway clusters.
+
+Everything else is considered a support ticket only, not an incident. This *will* change in
+the future as our process matures.
+
+We do not have a limit on the support time we provide related to incidents (as
+opposed to Change and Guidance requests, which have a {term}`Support Budget`).
+
+```{note}
+PagerDuty has a 'Severity' field for incidents. We do not use this field currently.
+```
+
 ## Communication channels
 
 ### External communication
