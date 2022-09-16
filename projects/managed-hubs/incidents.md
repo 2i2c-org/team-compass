@@ -184,6 +184,8 @@ This lets us use notes, status updates from pagerduty as well as messages from S
     the `reports/` directory. This make sure our incidents are all *public*, so
     others can learn from them as well. Given review is already completed in the pagerduty interface, you don't need to wait
     for review to add the report here.
+11. Email a link to the incident report to the community representative, ideally via the Freshdesk ticket used to communicate with
+    them during the incident itself.
 
 
 
