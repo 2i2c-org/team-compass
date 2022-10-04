@@ -46,11 +46,9 @@ Support Requests
 
 Incident
 Incidents
-  An event that significantly degrades the JupyterHub service. Support requests that are related to incidents should be prioritized over all other work items. Here are a few common examples of incidents:
+  An event that significantly degrades the JupyterHub service. Support requests that are related to incidents should be prioritized over all other work items.
 
-  1. The hub is inaccessible to a number of users.
-  2. A number of users are unable to start their servers.
-  3. A number of users cannot create Dask Gateway clusters.
+  [](incidents:what) defines the kind of incidents we respond to via PagerDuty and consider immediate issues to be resolved.
 
   We do not have a limit on the support time we provide related to incidents (as opposed to Change and Guidance requests, which have a {term}`Support Budget`).
 
@@ -61,12 +59,12 @@ Incidents
 Change Request
 Change Requests
   A request for a desired change to a hub's infrastructure that is not related to an incident. For example:
-  
+
   - Changing the user's software environment.
   - Changing the resources available to users.
   - Updating and deploying changes from upstream tools for a community.
   - Making an improvement to open source tools to benefit a community.
-  
+
   Change Requests are generally non-urgent and should not be associated with significant diminished service. They are often things that communities _could_ carry out themselves with the proper guidance and infrastructure setup. We aim to make our hubs as configurable as possible _by the community_ so that we are not on the critical path for things like environment updates.
 
 Guidance Request
@@ -166,7 +164,7 @@ This process is carried out in an ongoing basis by the {term}`Support Stewards`.
 (support:non-incident-response)=
 ### Non-incident response process
 
-1. **Respond within 24 working hours**. Acknowledge receipt of the support request and let the {term}`Community Representative` know about any investigation we have done thus far. 
+1. **Respond within 24 working hours**. Acknowledge receipt of the support request and let the {term}`Community Representative` know about any investigation we have done thus far.
 2. **Spend 30 minutes trying to resolve**. If you believe you can resolve the issue within 30 minutes, try resolving it yourself.
    1. If you resolve the issue, then jump to the "Communicate resolution" step.
    2. If you don't believe you can resolve the issue in 30 minutes, jump to the next step.
@@ -220,7 +218,7 @@ Support Budget
 
   :::{note}
   We currently keep this term intentionally vague, and ask that communities are respectful of our time when making change requests.
-  We are investigating the support budget that we should give to each community, and will update here when we have specific numbers in mind. 
+  We are investigating the support budget that we should give to each community, and will update here when we have specific numbers in mind.
 
   Here is a rough idea of the rationale we follow as we identify more specific numbers for support budget:
 
