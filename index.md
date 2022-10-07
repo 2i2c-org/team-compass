@@ -21,6 +21,19 @@ These documents are important to get started with 2i2c and understand our practi
 get-started
 ```
 
+## Team coordination
+
+Information about practices that cut across each part of our organization.
+
+```{toctree}
+:caption: Team coordination
+:maxdepth: 2
+
+meetings/index
+coordination/communication
+coordination/workflow
+```
+
 ## Functional Areas
 
 Information broken down by major functional areas of 2i2c.
@@ -30,11 +43,11 @@ Information broken down by major functional areas of 2i2c.
 :maxdepth: 2
 
 organization/index
-coordination/index
 infrastructure/index
 community/index
 finance/index
 administration/index
+operations/index
 hr/index
 ```
 
