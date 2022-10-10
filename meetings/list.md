@@ -1,24 +1,17 @@
 # List of meetings
 
-The following are meetings that we regularly hold.
-
-- See the [team calendar](../reference/calendar.md) for a list of all team meeting times.
-- See [the communication page](practices:communication) for information about how to access zoom meetings and other communication channels.
-
-We roughly have three types of meetings:
-
-- **Content meetings**: Focus discussion and planning around specific major content areas of 2i2c. Their goal is to _reduce uncertainty_, _define a path forward_, and _make decisions_ that require synchronous conversation. The agenda is driven by the leads of relevant functional areas though anybody may attend. 
-- **Sprint planning meetings**: For prioritizing and assigning work in the next sprint cycle.
-- **Retrospective meetings**: For reflecting on our team process and how things are going, and finding ways to improve.
-- **One on One meetings**: For reflecting on how an individual is doing, and how we can improve.
-
-See the list below for a description of each meeting:
+The following are meetings that we regularly hold. See the [team calendar](../reference/calendar.md) for a list of all team meeting times.
 
 ```{contents} Team meetings
 :local:
 ```
 
-## Product and Engineering
+## Content meetings
+
+The goal of content meetings is to focus discussion on a particular topic in order to _reduce uncertainty_, _define a path forward_, and _make decisions_ that require synchronous conversation.
+The agenda is driven by the leads of relevant functional areas though anybody may attend.
+
+### Product and Engineering
 
 Covers the direction of our service and the technical aspects of our cloud infrastructure.
 This includes ideas for how the infrastructure should improve, major development effort planning, and refining SRE and development issues.
@@ -28,7 +21,7 @@ It is led by our **`Engineering`** and **`Product`** teams.
 - **Date**: [every Tuesday at **4pm CET**](https://calendar.google.com/calendar/embed?src=c_nq8hl7qsm484g1p7mfkm29jpo8%40group.calendar.google.com&ctz=America%2FLos_Angeles)
 - **Notes and Agenda**: [Google Doc](https://docs.google.com/document/d/1dUO2USQlRbcjOEkjlCu1gyTaPBZmGZSRF4L-_9xecmA/edit?usp=sharing)
 
-## Community and Partnerships
+### Community and Partnerships
 
 Covers our interactions with external communities and stakeholders, including our leads and invoicing pipelines and our community guidance efforts.
 This also includes building tutorials and learning material for communities.
@@ -38,7 +31,7 @@ It is led by our **`Community`** and **`Partnerships`** teams.
 - **Date**: [every Thursday at **4pm CET**](https://calendar.google.com/calendar/embed?src=c_nq8hl7qsm484g1p7mfkm29jpo8%40group.calendar.google.com&ctz=America%2FLos_Angeles)
 - **Running notes and agenda**: [google doc](https://drive.google.com/open?id=1vpZKiWFCG8Pb4pm8ny6S-lb_n31TOLIKma4r_0N-RPU&authuser=1&usp=meetingnotes&showmeetingnotespromo=true)
 
-## Organizational strategy
+### Organizational strategy
 
 Covers our high-level organizational mission, values, and principles, our high-level team systems and structure, as well as our near-term goals and objectives.
 
@@ -50,6 +43,7 @@ It is led by the **`Executive Director`**.
 ## Monthly retrospectives
 
 The 2i2c Team has a retrospective **on the last Tuesday of each month** for 60 minutes, with an optional 30-minute extra time afterwards if we really need to extend conversation.
+The goal is to reflect on our team process and how things are going, and finding ways to improve.
 
 Monthly team meetings are an opportunity to all meet face to face in order to discuss how things are going, reflect on our team practices, share anything that is stressing us out, and identify ways to improve our processes.
 
@@ -92,9 +86,10 @@ See [the Geekbot workflow guides](https://help.geekbot.com/en/articles/4283332-c
 We are exploring ways to aggregate and share our team sync activity publicly, to be more transparent with others about what we are up to.
 We will update this section once we better-understand this process.
 :::
+
 ## One on one meetings
 
-In addition to group meetings, we also try to have one-on-one meetings to guide and help one another.
+One on one meetings are for making personal connection, reflecting on how things are going, and providing feedback with an individual person.
 These meetings happen with different cadences and formats for different pairs of people.
 
 In general, the goal of one-on-ones is to provide one another mentorship and feedback that helps us thrive in our positions with 2i2c.
@@ -106,6 +101,9 @@ For example, these are some goals you may have for a one-on-one:
 - Ensure that the needs and goals of our team members are being met
 
 Below is a meeting template that many have found useful, and that you may adapt for your own meetings if you wish.
+
+:::{admonition} One on one meeting template
+:class: dropdown
 
 ```md
 ## <YYYY-MM-DD>
@@ -143,3 +141,5 @@ _Topics that we should discuss together._
 - ...
 
 ```
+
+:::
