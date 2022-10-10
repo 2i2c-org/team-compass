@@ -47,6 +47,19 @@ The goal is to reflect on our team process and how things are going, and finding
 
 Monthly team meetings are an opportunity to all meet face to face in order to discuss how things are going, reflect on our team practices, share anything that is stressing us out, and identify ways to improve our processes.
 
+:::{admonition} Example team processes
+
+Here are an example of some team processes that we should consider for this meeting.
+
+- how we handle incidents
+- the roles, teams, and responsibilities we define in our service (cloud engineer, support steward, meeting facilitator, etc)
+- current meetings structure, cadence, etc
+- how we communicate asynchronously (e.g., GitHub comment structure)
+- how we track and plan our work (e.g. GitHub Project boards)
+- how we track new requests for work and hubs (e.g. our support pipeline)
+
+:::
+
 See [](eng/index.md) for a list of previous meeting notes.
 
 (meetings:sprint-planning)=
