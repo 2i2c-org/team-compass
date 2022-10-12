@@ -6,9 +6,11 @@ Organization-wide strategy, policy, and structure.
 :maxdepth: 2
 ../code-of-conduct/index
 mission
+stakeholders
+kpis
+strategy
 structure
 governance
-strategy
 information
 team-compass
 ```
