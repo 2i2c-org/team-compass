@@ -2,6 +2,11 @@
 
 Main documentation for 2i2c's financial and accounting information.
 
+:::{admonition} A note on access
+All 2i2c-specific accounting documents should be accessible on our Team Drive to anybody with a `@2i2c.org` address.
+We don't control the access conditions for the CS&S documents described below, so if you don't have access to these, ask the Executive Director.
+:::
+
 ## General information
 
 We split our financial and accounting data between two places:
