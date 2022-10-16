@@ -23,7 +23,7 @@ Below are is a summary of the major responsibilities for this team.
 - Improve the scalability of our infrastructure to more users and more communities
 - Minimize toil and automate processes as much as possible
 
-## Team structure and roles
+## Team structure
 
 This team operates similarly to a **Site Reliability Engineering** team.
 It focuses most development efforts on improving the cloud infrastructure that supports our partner communities, rather than developing new features and technology for the use-cases we support.
@@ -33,27 +33,43 @@ Our **Technical Lead** and **Team Lead** define our technical priorities at any 
 They are expected to coordinate with other leads within 2i2c in order to ensure that our technical priorities reflect our organizational priorities for impact.
 Our **Project Manager** ensures that we have an efficient system for coordinating and planning our work, and **our engineering team** carries out most technical implementaitons and operations for 2i2c.
 
+(engineering:roles)=
+## Team roles
+
 Below is a list of each of the roles described above:
 
+```{glossary}
+
 Technical Lead
-: Responsible for defining our cloud strategy and technical priorities, and for carrying out major technical design and implementation for our infrastructure.
+
+  Responsible for defining our cloud strategy and technical priorities, and for carrying out major technical design and implementation for our infrastructure.
 
   This role is currently filled by `@yuvipanda`.
 
 Team Lead
-: Responsible for overseeing our engineering team, ensuring that it is operating in an effective and equitable manner, and ensuring that each team member's work is aligned with their goals and interests.
+
+  Responsible for overseeing our engineering team, ensuring that it is operating in an effective and equitable manner, and ensuring that each team member's work is aligned with their goals and interests.
 
   This role is currently un-filled.
 
 Engineering Project Manager
-: Coordinates our system of work around our operational and technical priorities.
+Project Manager
+Project Managers
+  Coordinates our system of work around our operational and technical priorities.
   This role refines our goals to be more concrete and actionable, and coordinates and assigns work to team members in order to ensure we are carrying out our priorities in a timely fashion.
+
+  :::{note}
+  We are piloting this role.
+  See [this GitHub issue](https://github.com/2i2c-org/team-compass/issues/398) for our plans and experience with this pilot thus far.
+  :::
 
   This role is currently filled by @damianavila.
 
-Engineering Team
-: Performs most technical actions related to our cloud infrastructure and services.
+Open Source Infrastructure Engineer
+  Performs most technical actions related to our cloud infrastructure and services.
+  They perform major upgrades or improvements to resolve issues that cannot be solved by a {term}`Hub Administrator`.
   They operate our cloud infrastructure, make ongoing changes to fix outages and bugs, and focus their development efforts on making this infrastructure more reliable.
+```
 
 ## Membership
 
