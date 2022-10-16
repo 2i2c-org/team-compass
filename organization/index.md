@@ -6,6 +6,7 @@ Organization-wide strategy, policy, and structure.
 :maxdepth: 2
 mission
 structure
+leadership
 governance
 strategy
 information

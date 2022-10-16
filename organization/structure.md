@@ -1,49 +1,19 @@
-# Structure and teams
+# Organizational structure
 
-2i2c is an organization dedicated to supporting open infrastructure in interactive computing for research and education, as well as the open source communities that underlie this infrastructure. Its fiscal sponsor is {term}`Code for Science and Society`.
-
-This page describes the major organizational structures of 2i2c, and how they relate to governance and operations.
-
-:::{admonition} A few notes on governance
-- All 2i2c members act as individuals, and not on behalf of their affiliated institutions.
-- All decisions made by the 2i2c Steering Council or Teams must abide by the policies of its fiscal sponsor, {term}`Code for Science and Society`.
+:::{note}
+This page is a work-in-progress as we define the major organizational areas of 2i2c.
+Some links might be missing or in-the-works!
 :::
 
-(structure:steerco)=
-## Steering Council
+This section describes the major **functional areas** of 2i2c, and how they relate to each other.
+Note that 2i2c is a young and small organization, so many areas have a small number (or nobody) dedicated to work within them.
+We nonetheless document these structures to understand how our work and responsibilities are divided, and to provide a roadmap for new hires and division of labor.
 
-The Steering Council defines the mission, vision, and values of 2i2c. It also sets the strategic direction and priorities for 2i2c. The Steering Council provides oversight to the Executive Director of 2i2c and the Operations Team. The Steering Council group ([`steering-council@2i2c.org`](mailto:steering-council@2i2c.org)) is the only “official” way to communicate with others on the Steering Council.
+% TODO: Each of these major areas should havea  `<NAME>/structure.md` page that describes that organization's structure and roles (or, a similar page with this information). We can link to each from here.
 
-:::{seealso}
-The current Steering Council is [listed on the 2i2c website](https://2i2c.org/about/#steering-council).
-:::
-
-
-(structure:ed)=
-## Executive Director
-
-The Executive Director oversees the execution of the mission and strategy provided by the Steering Council.
-They are the primary interface to {term}`CS&S` administration, and coordinate activity in the 2i2c Teams.
-The Executive Director oversees each team, and makes tie-breaking decisions if they are at an impasse in decision-making.
-The Executive Director reports to the Steering Council.
-
-:::{seealso}
-The current Executive Director of 2i2c is listed on the [Our Team page of the website](https://2i2c.org/about/#our-team).
-:::
-
-## 2i2c Teams
-
-2i2c Teams carry out the mission of 2i2c with a specific focus or project.
-They are made up of staff funded through {term}`CS&S`, employees at other organizations providing in-kind support, or volunteers contributing their time to 2i2c.
-Each team has a decision-making process as well as a scope.
-
-See [](../reference/team.md).
-
-(structure:fiscal-sponsor)=
-## Fiscal sponsorship
-
-2i2c is a fiscally sponsored project of {term}`Code for Science and Society`.
-
-2i2c does not have its own standalone non-profit status.
-Instead, it inherits this status by being a [**fiscally sponsored project**](https://en.wikipedia.org/wiki/Fiscal_sponsorship#:~:text=Fiscal%20sponsorship%20refers%20to%20the,and%20an%20established%20non%2Dprofit.).
-This means that it relies on its fiscal sponsor for major administrative and legal services, including 501(c)(3) status and financial management.
+- **[Organizational leadership](leadership.md)**: Steward the mission, vision, values, and major strategy of 2i2c.
+- **[Engineering](../infrastructure/structure.md)**: Develop and operate our technical and cloud infrastructure, to ensure that it is reliable and scalable.
+- **Community**: Guide and support the partner communities that we serve, to help them utilize our infrastructure in a way that aligns with 2i2c's mission.
+- **Product**: Understand the perspective of our partner communities and guide the evolution of our infrastructure and services, in order to ensure they have a positive impact.
+- **Partnerships**: Identify opportunities for impact, cultivate new relationships, and oversee our sustainability plan to ensure that we have sustainable and scalable impact.
+- **[Administration](../administration/css.md)**: Carry out ongoing organizational tasks that are needed to keep 2i2c running on a daily basis.
