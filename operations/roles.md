@@ -1,4 +1,4 @@
-# Roles and team structure
+# Team structure and roles
 
 We use the following roles to help us understand responsiblities and expectations around developing and operating our infrastructure.
 For roles that are related to more specific actions like support and incidents, see [our managed service documentation](service:index).

@@ -17,6 +17,7 @@ extensions = [
     "sphinx_design",
     "sphinx_copybutton",
     "sphinx.ext.intersphinx",
+    "sphinx_togglebutton",
 ]
 
 # Add any paths that contain templates here, relative to this directory.
