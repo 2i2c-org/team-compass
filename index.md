@@ -12,20 +12,6 @@ To propose an edit directly from the documentation, click {fab}`github` -> {fas}
 
 Below we describe the major sections in the Team Compass.
 
-## Team coordination
-
-Information about practices that cut across each part of our organization.
-
-```{toctree}
-:caption: Team coordination
-:maxdepth: 2
-
-code-of-conduct/index
-meetings/index
-coordination/communication
-coordination/workflow
-```
-
 ## Functional Areas
 
 Information broken down by major functional areas of 2i2c.
@@ -35,7 +21,7 @@ Information broken down by major functional areas of 2i2c.
 :maxdepth: 2
 
 organization/index
-infrastructure/index
+engineering/index
 community/index
 finance/index
 administration/index
