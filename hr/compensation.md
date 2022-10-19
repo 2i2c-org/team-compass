@@ -12,27 +12,32 @@ We are [working on an update of our compensation policy](https://docs.google.com
 See that document for ideas that are more specific / structured than this page.
 :::
 
-### GuideStar compensation comparisons
+### Define compensation levels with GuideStar
 
 We define our salary levels relative to non-profit organizations with a similar size and scope as 2i2c.
 In order to have a more objective definition of competitive salaries, we use [the GuideStar compensation report](https://www.guidestar.org/) to compare common numbers across non-profits.
 This is provided by CS&S, and we have a PDF in our drive here:
 
-- [GuideStar Report for non-profits similar to us(2020)](https://drive.google.com/file/d/1qb6qSTBqvrgQeTywjHfMlAqhUDau-x31/view?usp=sharing) - - [Full report here](https://drive.google.com/file/d/1i6cO-FjwN0nZfTfBUf7Vd9hdVILNeCQw/view?usp=sharing)
+- [GuideStar Report for non-profits similar to us (2022)](https://drive.google.com/open?id=10oxQ9fHGUjzxvxGOgMZbnOKUHzmF1ggK&authuser=choldgraf%402i2c.org&usp=drive_fs)
+- [Full GuideStar report here](https://drive.google.com/open?id=1s7YwEAIlHXQ-Jh3rIQjaGAr4Qkx8lulu&authuser=choldgraf%402i2c.org&usp=drive_fs)
 
-We generally use the following criteria when defining the salary for a given position / level with the GuideStar report:
+Use the following criteria when defining the salary for a given position / level with the GuideStar report:
 
-- Use the “Science and Technology Research Institutes, Services” category
-- Use the $1m-$5m budget category
+- Use the `Science and Technology Research Institutes, Services` category
+- Use the `$1m-$5m` budget category
 - Choose an appropriate job category that most closely matches this position.
-- Define “compensation” as base salary + 30% benefits
-- Aim for the median compensation in a category 
+- Define “compensation” as `base salary + 25% benefits`.
+- Use the median compensation in a category as a starting salary.
+- If this is for an earlier job in a given series, adjust the total compensation down accordingly (see below for a guideline).
 
-Extra notes and guidelines to follow:
+#### Understanding the GuideStar reports
 
-- The numbers there are for the **top-paid position**  
-  - Reduce accordingly depending on the level we're hiring for. A good rule of thumb for defining new roles is to expect a 10% salary bump between levels, and a 2% salary bump for steps within a level.
-- Keep the number of unique base salaries low, and round-up to standardize across titles if necessary.
+Here are a few tips to understand the GuideStar reports:
+
+- **The numbers there are for the top-paid position in each category.** This means that for earlier levels in a job category, we need to reduce the total compensation accordingly.
+  - Rule of thumb: Expect a 10% salary bump between job levels, and a 2% salary bump for steps within a level.
+- **This is total compensation, not salary.** GuideStar reports a combination of salary and benefits, keep this in mind when defining our salary bands.
+- **Do not share the GuideStar report externally.** It is a service paid-for by CS&S and should not be shared out of the CS&S organization.
 
 ## Benefits
 
