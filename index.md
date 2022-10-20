@@ -40,7 +40,7 @@ community/index
 finance/index
 administration/index
 operations/index
-hr/index
+people/index
 ```
 
 ## Projects and Services
