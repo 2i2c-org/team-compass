@@ -2,6 +2,15 @@
 
 This document represents the positions and salary levels that 2i2c uses. They are inspired by the hiring/salary structure of several tech companies[^job-refs].
 
+:::{note}
+We are still building out these materials and role definitions, so this structure may evolve, and some roles may be missing information.
+:::
+
+```{toctree}
+:glob:
+./*
+```
+
 ## Terminology and structure
 
 Each position at 2i2c takes the following form:
@@ -33,17 +42,5 @@ Performance measures
 
 Salary rationale
 : The rationale that we'll use to determine a starting salary for this position, according to [our salary strategy](../compensation.md).
-
-:::{note}
-We are still building out these materials and role definitions, so this structure may evolve, and some roles may be missing information.
-:::
-
-```{toctree}
-engineer
-engineer-senior
-executive-director
-product-community-lead
-partnerships-lead
-```
 
 [^job-refs]: In particular, [Buffer](https://buffer.com/resources/salary-formula-changes-2019/) and [Basecamp](https://m.signalvnoise.com/how-we-pay-people-at-basecamp/)
