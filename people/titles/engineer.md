@@ -11,7 +11,7 @@ It intersects job titles such as “dev-ops engineer”, “site reliability eng
 - Participate in upstream open source communities we rely on (such as JupyterHub, BinderHub, Dask, etc) in partnership with the established leaders of those communities and collaborate with the Community Lead in the education and outreach around cloud computing.
 - Work with a distributed and global team - team members are given a lot of autonomy, and expected to be proactive at communicating with one another and working with others to allocate effort that will maximize our impact.
 
-## Necessary experience
+## Necessary qualities
 
 - Experience with deploying applications on cloud infrastructure.
 - Experience deploying and developing with Linux container-based technologies, such as Docker and Kubernetes.
@@ -20,7 +20,7 @@ It intersects job titles such as “dev-ops engineer”, “site reliability eng
 - Experience collaborating and coordinating work via online platforms, such as GitHub, GitLab, or BitBucket, and distributed revision control.
 - Experience working with distributed service teams that use asynchronous methods of communication
 
-### Desirable experience
+### Useful qualities
 
 - Experience with major cloud providers.
 - Experience in programming and software engineering with a track record of leadership in open, collaborative projects with broad community adoption.
