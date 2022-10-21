@@ -15,7 +15,7 @@ It intersects job titles such as “dev-ops engineer”, “site reliability eng
 
 - Experience with deploying applications on cloud infrastructure.
 - Experience deploying and developing with Linux container-based technologies, such as Docker and Kubernetes.
-- Experience with continuous integration services (e.g. Circle CI, GitHub workflows).
+- Experience with continuous integration services (e.g. Circle CI, GitHub Actions).
 - Experience developing tools in a general purpose programming language (eg. Python).
 - Experience collaborating and coordinating work via online platforms, such as GitHub, GitLab, or BitBucket, and distributed revision control.
 - Experience working with distributed service teams that use asynchronous methods of communication
