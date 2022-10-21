@@ -4,7 +4,7 @@ This section describes how 2i2c team members share and access sensitive credenti
 
 ## Where are secrets located?
 
-**For more services**: Our team tries to use services that allow for multi-user authorization.
+**For most services**: Our team tries to use services that allow for multi-user authorization.
 This means we try to use services where team members have their own account with permissions on the service, so no secrets need be shared (for example, GitHub organizations).
 
 **When we must share secrets**: If we must share secrets for an account (for example, credentails for deployment to cloud infrastructure), then we use [the command-line tool `sops`](https://github.com/mozilla/sops) to encrypt our secrets.

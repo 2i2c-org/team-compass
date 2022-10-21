@@ -1,5 +1,5 @@
 (infrastructure:access)=
-# Access our infrastructure
+# Cloud infrastructure location
 
 We run a variety of service and cloud infrastructure, and have many GitHub repositories and ongoing services dedicated to this.
 
