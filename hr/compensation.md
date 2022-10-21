@@ -37,7 +37,7 @@ Here are a few tips to understand the GuideStar reports:
 - **The numbers there are for the top-paid position in each category.** This means that for earlier levels in a job category, we need to reduce the total compensation accordingly.
   - Rule of thumb: Expect a 10% salary bump between job levels, and a 2% salary bump for steps within a level.
 - **This is total compensation, not salary.** GuideStar reports a combination of salary and benefits, keep this in mind when defining our salary bands.
-- **Do not share the GuideStar report externally.** It is a service paid-for by CS&S and should not be shared out of the CS&S organization.
+- **Do not share the GuideStar report externally.** It is a service paid-for by CS&S and should not be shared out of the CS&S organization. The links above should only be available to those with a `@2i2c.org` email address.
 
 ## Benefits
 
