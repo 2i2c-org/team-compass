@@ -30,4 +30,4 @@ It intersects job titles such as “dev-ops engineer”, “site reliability eng
 - Experience with common data science methods, platforms, workflows, and infrastructures; with data management systems, practices, and standards; and the capacity to gain familiarity with new related topics.
 - Experience engaging with highly technical researchers across a variety of methodological fields, research domains, and computational platforms.
 - Experience building and maintaining continuous deployment pipelines.
-- Interpersonal skills to work with researchers and students. Include having skills to communicate complex information in a clear and concise manner both verbally and in writing
+- Interpersonal skills to work with researchers and students. Including the skills to communicate complex information in a clear and concise manner both verbally and in writing
