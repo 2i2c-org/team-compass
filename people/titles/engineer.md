@@ -6,7 +6,7 @@ It intersects job titles such as “dev-ops engineer”, “site reliability eng
 ## Key responsibilities
 
 - Ensure the reliable operation of the 2i2c infrastructure (leveraging production-ready cloud-based tools such as JupyterHub, BinderHub and Dask).
-- Attend to support-facing tickets
+- Resolve operational issues that are surfaced by our support team
 - Explore emerging technologies in the Cloud / DevOps space, design and implement cloud computing architecture in partnership with our team.
 - Participate in upstream open source communities we rely on (such as JupyterHub, BinderHub, Dask, etc) in partnership with the established leaders of those communities and collaborate with the Community Lead in the education and outreach around cloud computing.
 - Work with a distributed and global team - team members are given a lot of autonomy, and expected to be proactive at communicating with one another and working with others to allocate effort that will maximize our impact.
