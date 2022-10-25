@@ -18,9 +18,10 @@ Reporting lines are within a functional area, meaning that team members should r
 
 - **[Organizational leadership](leadership.md)**: Steward the mission, vision, values, and major strategy of 2i2c.
 - **[Engineering](../engineering/structure.md)**: Develop and operate our technical and cloud infrastructure, to ensure that it is reliable and scalable.
+- **[Product](../product/structure.md)**: Understand the perspective of our partner communities and guide the evolution of our infrastructure and services, in order to ensure they have a positive impact.
 - **Community**: Guide and support the partner communities that we serve, to help them utilize our infrastructure in a way that aligns with 2i2c's mission.
-- **Product**: Understand the perspective of our partner communities and guide the evolution of our infrastructure and services, in order to ensure they have a positive impact.
 - **Partnerships**: Identify opportunities for impact, cultivate new relationships, and oversee our sustainability plan to ensure that we have sustainable and scalable impact.
+- **[Operations](../operations/structure.md)**: Oversees our systems for coordination, planning, and executing our work according to our goals.
 - **[Administration](../administration/css.md)**: Carry out ongoing organizational tasks that are needed to keep 2i2c running on a daily basis.
 
 ## Cross-functional teams
