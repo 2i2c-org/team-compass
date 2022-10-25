@@ -1,4 +1,4 @@
-# Engineering and infrastructure
+# Engineering
 
 These sections have information about accounts, technology, and practices that are specifically related to our team's infrastructure.
 

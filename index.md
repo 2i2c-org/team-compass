@@ -22,23 +22,28 @@ Information broken down by major functional areas of 2i2c.
 
 organization/index
 engineering/index
+product/index
 community/index
 partnerships/index
-finance/index
-administration/index
 operations/index
 people/index
+finance/index
+administration/index
 ```
 
-## Projects and Services
+## Managed JupyterHubs Service
 
-These sections cover major active projects and services that 2i2c is currently working on or offering.
-They go into more detail about the plans, structure, and strategy of each project.
+Currently 2i2c oversees a single major effort, which is building a sustainable service to make interactive computing with open source infrastructure more accessible and scalable.
+We act as a cross-functional team around this service, and share many responsibilities and duties.
+We document some major aspects of this service in the sections below.
 
 ```{toctree}
-:caption: Major Projects
+:caption: Managed JupyterHub Service
 :maxdepth: 2
+:glob:
 projects/managed-hubs/index
+projects/managed-hubs/*
+List of running hubs <https://infrastructure.2i2c.org/en/latest/reference/hubs.html>
 ```
 
 ## Team Reference
