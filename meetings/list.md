@@ -48,11 +48,6 @@ We discuss ways that we can improve organization-wide practices to become more e
 It is led by the **`Project Manager`**.
 
 - **Date**: [every other Tuesday](https://calendar.google.com/event?action=TEMPLATE&tmeid=NzRsbm1vc3Y4ZmlmZ2xucDE3cWI0YmxlMmNfMjAyMjEwMjVUMTMwMDAwWiBjXzRoampvdW9qZDhwc3FsOWkxYThuZDF1ZmY0QGc&tmsrc=c_4hjjouojd8psql9i1a8nd1uff4%40group.calendar.google.com)
-- [ ] 
-- [ ] 
-- [ ] Add to team calendar
-- [ ] Document here
-- [ ] 
 
 ## Monthly retrospectives
 
