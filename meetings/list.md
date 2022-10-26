@@ -18,7 +18,7 @@ This includes ideas for how the infrastructure should improve, major development
 
 It is led by our **`Engineering`** and **`Product`** teams.
 
-- **Date**: [every Tuesday at **4pm CET**](https://calendar.google.com/calendar/embed?src=c_nq8hl7qsm484g1p7mfkm29jpo8%40group.calendar.google.com&ctz=America%2FLos_Angeles)
+- **Date**: [every Tuesday](https://calendar.google.com/calendar/embed?src=c_nq8hl7qsm484g1p7mfkm29jpo8%40group.calendar.google.com&ctz=America%2FLos_Angeles)
 - **Notes and Agenda**: [Google Doc](https://docs.google.com/document/d/1dUO2USQlRbcjOEkjlCu1gyTaPBZmGZSRF4L-_9xecmA/edit?usp=sharing)
 
 ### Community and Partnerships
@@ -28,12 +28,21 @@ This also includes building tutorials and learning material for communities.
 
 It is led by our **`Community`** and **`Partnerships`** teams.
 
-- **Date**: [every Thursday at **4pm CET**](https://calendar.google.com/calendar/embed?src=c_nq8hl7qsm484g1p7mfkm29jpo8%40group.calendar.google.com&ctz=America%2FLos_Angeles)
+- **Date**: [every Thursday](https://calendar.google.com/calendar/embed?src=c_nq8hl7qsm484g1p7mfkm29jpo8%40group.calendar.google.com&ctz=America%2FLos_Angeles)
 - **Running notes and agenda**: [google doc](https://drive.google.com/open?id=1vpZKiWFCG8Pb4pm8ny6S-lb_n31TOLIKma4r_0N-RPU&authuser=1&usp=meetingnotes&showmeetingnotespromo=true)
 
 ### Organizational strategy
 
 See [](organization:meeting-strategy).
+
+### Process and operations
+
+Covers our operational practices and systems for coordination and planning.
+We discuss ways that we can improve organization-wide practices to become more efficient and effective at doing our work.
+
+It is led by the **`Project Manager`**.
+
+- **Date**: [every other Tuesday](https://calendar.google.com/event?action=TEMPLATE&tmeid=NzRsbm1vc3Y4ZmlmZ2xucDE3cWI0YmxlMmNfMjAyMjEwMjVUMTMwMDAwWiBjXzRoampvdW9qZDhwc3FsOWkxYThuZDF1ZmY0QGc&tmsrc=c_4hjjouojd8psql9i1a8nd1uff4%40group.calendar.google.com)
 
 ## Monthly retrospectives
 
