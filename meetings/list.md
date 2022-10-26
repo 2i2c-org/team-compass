@@ -33,12 +33,7 @@ It is led by our **`Community`** and **`Partnerships`** teams.
 
 ### Organizational strategy
 
-Covers our high-level organizational mission, values, and principles, our high-level team systems and structure, as well as our near-term goals and objectives.
-
-It is led by the **`Executive Director`**.
-
-- **Date**: [every other Wednesday](https://calendar.google.com/calendar/embed?src=c_nq8hl7qsm484g1p7mfkm29jpo8%40group.calendar.google.com&ctz=America%2FLos_Angeles)
-- **Notes and Agenda**: [google doc](https://drive.google.com/open?id=1HoNX8T8IQ1uhS2ryi1r9iS-nSbPT1b1Y7HsjosbHme8&authuser=1&usp=meetingnotes&showmeetingnotespromo=true)
+See [](organization:meeting-strategy).
 
 ### Process and operations
 
