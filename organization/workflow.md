@@ -13,7 +13,7 @@ It has a much broader scope (the entire organization), but focuses its efforts o
 The goal of our organizational leadership workflow is to:
 
 - Align on the strategy for 2i2c and our major objectives for accomplishing that strategy.
-- Align on the higheset priorities in each functional area.
+- Align on the highest priorities in each functional area.
 - Share information across functional areas and integrate them into our planning and prioritization.
 - Oversee our daily workflow for creating strategy, policy, and structure for 2i2c as an organization.
 
