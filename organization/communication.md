@@ -80,3 +80,4 @@ Creating groups is free and relatively easy, so if you wish to create a group fo
 
 :::{seealso}
 See [our Google Workspaces documentation](../administration/google-workspace.md) for more information.
+:::
