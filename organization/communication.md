@@ -60,3 +60,24 @@ In addition, the Zoom account that is connected to this room is also available f
 The username for this account is `hello@2i2c.org` and you should ask a team member for the password if you wish to use it.
 
 For public-facing zoom meetings that are hosted with this account, create a zoom link that is unique to the meeting, rather than using the general team room.
+
+## Personal e-mail
+
+Each of 2i2c's team members has an `@2i2c.org` email account.
+We generally use e-mail to communicate _externally_.
+We use Slack, GitHub issues, and Zoom to communicate _internally_.
+However, if it's important communicate something to a team member that isn't suitable for a GitHub issue, and needs to be more permanent than Slack, then it's fine to send e-mails.
+
+(org:communication:shared-email)=
+## Shared e-mail and Google groups
+
+We also use some shared e-mail addresses via **Google Groups** to allow multiple people to check a single shared inbox.
+For example, our `hello@2i2c.org` e-mail is attached to a Google Group that many people may check for generic inbound communication.
+
+By joining the group behind one of these groups you'll be able to receive e-mail it receives, and you may also _send e-mail via this address_.
+
+Creating groups is free and relatively easy, so if you wish to create a group for your team or area, reach out to somebody that has administrative privileges.
+
+:::{seealso}
+See [our Google Workspaces documentation](../administration/google-workspace.md) for more information.
+:::
