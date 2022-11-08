@@ -1,10 +1,10 @@
 # Structure and responsibilities
 
-This page describes the structure and roles of our Product Team.
+This page describes the structure and roles of our Operations Team.
 
 ## Responsibilities
 
-2i2c's Operatoins team is responsible for defining and overseeing our systems for work coordination, planning, and accountability.
+2i2c's Operations team is responsible for defining and overseeing our systems for work coordination, planning, and accountability.
 
 Below are major areas of responsibility.
 
@@ -17,7 +17,7 @@ Below are major areas of responsibility.
 
 - Translate strategic priorities and deliverables into actionable work items.
 - Ensure that our work items have a clear scope and path forward for completion.
-- Communicate with our Product and Engineering teams to align our teams on a plan.
+- Communicate with teams (e.g. `Product and Engineering` or `Community and Partnerships`) to align team members on a plan.
 
 ### Oversee work for projects and teams
 
