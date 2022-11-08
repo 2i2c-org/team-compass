@@ -7,7 +7,6 @@ Organization-wide strategy, policy, and structure.
 :caption: Organizational policy
 ../code-of-conduct/index.md
 mission
-stakeholders
 kpis
 strategy
 structure

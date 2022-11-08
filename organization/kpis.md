@@ -42,15 +42,40 @@ We use our KPIs in two ways:
 The following KPIs are reflections of our **impact** as an organization.
 They represent a positive outcome that is aligned with our mission as a result of our actions.
 
-- Number of communities served.
-- Monthly Active Users.
-- 10th, 50th, and 90th percentils of MAUs per hub.
+```{list-table}
+:header-rows: 1
+:widths: 10 30 10
+
+- - Name
+  - Definition
+  - Source
+- - Communities served
+  - The number of unique communities served with at least one hub in the last 6 months.
+  - [On our list of hubs page](https://infrastructure.2i2c.org/en/latest/reference/hubs.html)
+- - Monthly Active Users
+  - The number of unique users that have used one of our hubs over a 30-day rolling window.
+  - See this issue to track this effort: https://github.com/2i2c-org/infrastructure/issues/1888.
+- - MAU percentiles
+  - The 10th, 50th, and 90th percentils of MAUs across all hubs.
+  - See this issue to track this effort: https://github.com/2i2c-org/infrastructure/issues/1888
+```
 
 ## Sustainability KPIs
 
-- Monthly revenue, broken down by category (grants, development contracts, cloud service contracts)
-- Monthly operational costs, broken down by category (engineering, partnerships and community, executive, fiscal fee, services)
-- Cost per community (operational costs / number of communities served)
+```{list-table}
+:header-rows: 1
+:widths: 10 30 10
+
+- - Name
+  - Definition
+  - Source
+- - Monthly revenue
+  - Monthly revenue, broken down by category (grants, development contracts, cloud service contracts)
+  - See this issue to track this effort: https://github.com/2i2c-org/team-compass/issues/560
+- - Monthly operational costs
+  - Monthly operational costs, broken down by category (engineering, partnerships and community, executive, fiscal fee, services)
+  - See this issue to track this effort: https://github.com/2i2c-org/team-compass/issues/560
+```
 
 ## Aspirational KPIs
 
