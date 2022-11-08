@@ -5,4 +5,5 @@ This includes partnerships via paid contracts, as well as via informal and forma
 
 ```{toctree}
 communication.md
+leads.md
 ```
