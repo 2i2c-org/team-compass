@@ -78,7 +78,9 @@ Set up the service
 : Once we've received an email confirmation of a particular service offering, it is time to set up the administrative and technical infrastructure for the service.
 
   - **The CS&S team will set up the admin paperwork**. They will contact the community we're working with to set up the proper billing channels.
-  - [**Create a {guilabel}`New Hub` issue**](https://github.com/2i2c-org/infrastructure/issues/new?assignees=&labels=type%3A+hub&template=2_new-hub.yml&title=%5BNew+Hub%5D+%7B%7B+HUB+NAME+%7D%7D). This will alert the engineering team that it is time to create a new hub for this community!
+  - [**Create a {guilabel}`New Hub - Request Information` issue**](https://github.com/2i2c-org/infrastructure/issues/new?assignees=&labels=type%3A+hub&template=3_new_hub-request-info.yaml&title=%5BRequest+Information%5D+New+Hub%3A+%7B%7B+HUB+NAME+%7D%7D). Follow the instructions in this issue template and provide a high-level description of this hub, as well as ping the community representative(s) in the appropriate section. This issue is meant to help you guide the community representative(s) and answer their questions in order to empower them to open a [**{guilabel}`💻 New Hub - Request deployment` issue**](https://github.com/2i2c-org/infrastructure/issues/new/choose).
+  Feel free to ping the engineering team whenever their input is needed.
+  - Conclude the step above by opening and linking a [**new {guilabel}`💻 New Hub - Request deployment` issue**](https://github.com/2i2c-org/infrastructure/issues/new/choose) and add it to the Engineering Team Backlog. This will alert the engineering team that it is time to create a new hub for this community! An engineer will be assigned to the issue in order to deploy this hub.
   - [**Add their hub to the "Active Hubs" AirTable**](https://airtable.com/appDUEjjcSqHfilFD/tbljaAnHkE4Ry8j9J/viwVt9283ZKimUg4o?blocks=hide). This table cross-references the "leads table", so that we can track which hubs are being run for each community.
   - (once the date for beginning service arrives) **Set their status to {guilabel}`Active Service`**. This hub is now actively running!
 

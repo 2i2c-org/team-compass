@@ -21,7 +21,7 @@ Not all of them are followed strictly, though some are more important than other
   When you open a PR, include some language about specific things you'd like feedback with, if applicable.
   This helps others focus their attention.
 - **Use the review column on sprint boards**.
-  When a PR needs review, move any relevant issues to the {kbd}`Review` column of the active [Sprint Board](coordination:sprint-board) so others notice it.
+  When a PR needs review, move any relevant issues to the {kbd}`Review` column of the active [Sprint Board](coordination:issue-backlog) so others notice it.
 - **Merge after one approval**.
   If there is at least one approval on a PR, then anybody, including the PR author, may merge the PR.
   PR authors should not hesitate to merge their own PR after an approval if they think it is ready to go!

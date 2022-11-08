@@ -12,15 +12,6 @@ To propose an edit directly from the documentation, click {fab}`github` -> {fas}
 
 Below we describe the major sections in the Team Compass.
 
-## Get started
-
-These documents are important to get started with 2i2c and understand our practices.
-
-```{toctree}
-:maxdepth: 1
-get-started
-```
-
 ## Functional Areas
 
 Information broken down by major functional areas of 2i2c.
@@ -30,12 +21,12 @@ Information broken down by major functional areas of 2i2c.
 :maxdepth: 2
 
 organization/index
-coordination/index
-infrastructure/index
+engineering/index
 community/index
 finance/index
 administration/index
-hr/index
+operations/index
+people/index
 ```
 
 ## Projects and Services

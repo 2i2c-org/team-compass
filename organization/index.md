@@ -4,13 +4,24 @@ Organization-wide strategy, policy, and structure.
 
 ```{toctree}
 :maxdepth: 2
-../code-of-conduct/index
+:caption: Organizational policy
+../code-of-conduct/index.md
 mission
 stakeholders
 kpis
 strategy
 structure
+leadership
 governance
-information
 team-compass
+../meetings/index
+communication
+information
+```
+
+Our organizational workflow describes how 2i2c's leadership organizes and coordinates amongst one another.
+
+```{toctree}
+:caption: Leadership workflow
+workflow
 ```

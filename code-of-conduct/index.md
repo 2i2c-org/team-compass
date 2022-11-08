@@ -1,5 +1,5 @@
 (code-of-conduct)=
-# Code of Conduct
+# Code of conduct
 
 Our goal is to create one of the best communities in the world for learning, using, and creating open infrastructure for interactive computing. Our mission is to build this community in a way that promotes fairness and justice for all - especially those from traditionally marginalized groups. This allows every member of our community to thrive and to make the biggest positive impact in their work and on others. Our Code of Conduct defines expected behavior and guidelines that help create such a community.
 
