@@ -1,5 +1,5 @@
 (organization:workflow)=
-# Leadership workflow
+# Leadership team workflow
 
 This section describes how our leadership team carries out its planning and day-to-day work.
 

@@ -9,4 +9,7 @@ strategy
 sources
 remote
 onboarding
+communication
+team-compass
+../meetings/index
 ```

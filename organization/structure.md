@@ -9,6 +9,36 @@ This section describes the major structure of 2i2c and how it is broken into fun
 Note that 2i2c is a young and small organization, so many areas have a small number (or nobody) dedicated to work within them.
 We nonetheless document these structures to understand how our work and responsibilities are divided, and to provide a roadmap for new hires and division of labor.
 
+(structure:fiscal-sponsor)=
+## Fiscal sponsorship
+
+2i2c is a [fiscally sponsored project](https://en.wikipedia.org/wiki/Fiscal_sponsorship) of {term}`Code for Science and Society`, a US 501(c)(3) public charity[^icsi].
+
+[^icsi]: It was originally founded as a project of the {term}`International Computer Science Institute`.
+
+(structure:steerco)=
+## Steering Council
+
+The Steering Council defines the mission, vision, and values of 2i2c.
+It also provides oversight to the Executive Director.
+
+**Membership**: [Listed on the 2i2c website](https://2i2c.org/about/#steering-council).
+
+**Communication**: The Steering Council Google group ([`steering-council@2i2c.org`](mailto:steering-council@2i2c.org)) is the only “official” way to communicate with others on the Steering Council.
+
+(structure:ed)=
+## Executive Director
+
+The Executive Director is responsible for ensuring that 2i2c accomplishes its mission.
+It oversees the creation of 2i2c's strategic planning and coordination, and actively engages the Steering Council and others at 2i2c in these efforts.
+The Executive Director oversees each functional area, and makes tie-breaking decisions if they are at an impasse in decision-making.
+The Executive Director reports to the Steering Council.
+
+They are currently the primary interface to {term}`CS&S` administration.
+
+**Membership**: The current Executive Director of 2i2c is listed on the [Our Team page of the website](https://2i2c.org/about/#our-team).
+
+
 ## Functional areas
 
 Functional areas are organized around _responsibilities, skills, and career tracks_.
@@ -16,7 +46,6 @@ Reporting lines are within a functional area, meaning that team members should r
 
 % TODO: Each of these major areas should havea  `<NAME>/structure.md` page that describes that organization's structure and roles (or, a similar page with this information). We can link to each from here.
 
-- **[Organizational leadership](leadership.md)**: Steward the mission, vision, values, and major strategy of 2i2c.
 - **[Engineering](../engineering/structure.md)**: Develop and operate our technical and cloud infrastructure, to ensure that it is reliable and scalable.
 - **[Product](../product/structure.md)**: Understand the perspective of our partner communities and guide the evolution of our infrastructure and services, in order to ensure they have a positive impact.
 - **Community**: Guide and support the partner communities that we serve, to help them utilize our infrastructure in a way that aligns with 2i2c's mission.
@@ -36,5 +65,6 @@ They also often **have team meetings** to facilitate discussion and information 
 
 There are two main teams within 2i2c, both revolving around major aspects of our Managed Hubs Service:
 
+- **Area leads**: Goal is to align on our major goals, strategy, and operations across the leaders of each functional area.
 - **Product and Engineering**: Goal is to design, develop, and improve the Managed JupyterHub Service technology and end-user experience.
 - **Community and Partnerships**: Goal is to cultivate relationships with new partnership communities, support and engage with our active partnerships, and use these relationships to feed into 2i2c's sustainability model.

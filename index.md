@@ -8,7 +8,7 @@ It is our team's primary knowledge base.
 If you see information that is out of date, propose an edit in [the team compass repository](https://github.com/2i2c-org/team-compass).
 To propose an edit directly from the documentation, click {fab}`github` -> {fas}`pencil-alt`.
 
-[^team-compass]: For more about the Team Compass itself, see [](organization/team-compass.md).
+[^team-compass]: For more about the Team Compass itself, see [](operations/team-compass.md).
 
 Below we describe the major sections in the Team Compass.
 
@@ -21,11 +21,11 @@ Information broken down by major functional areas of 2i2c.
 :maxdepth: 2
 
 organization/index
+operations/index
 engineering/index
 product/index
 community/index
 partnerships/index
-operations/index
 people/index
 finance/index
 administration/index
