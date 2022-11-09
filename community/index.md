@@ -1,8 +1,9 @@
 # Community guidance
 
-These sections discuss how 2i2c engages with the communities we serve, and with external stakeholders that are crucial to our mission.
-This includes supporting users, collaborating with other communities and projects, and broadcasting our impact to the outside world.
+Community guidance provides support and guidance for our partner communities and the individual users within them.
+It also oversees 2i2c's ongoing connection points with these communities via our service.
 
-```{toctree}
-communication.md
-```
+:::{admonition} Still learning
+We are still learning about how Community Guidance fits in with 2i2c's operations and strategy.
+See [this blog post](https://2i2c.org/blog/2022/job-product-community-lead/) for some context.
+:::

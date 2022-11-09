@@ -24,6 +24,7 @@ organization/index
 engineering/index
 community/index
 partnerships/index
+communication/index
 finance/index
 administration/index
 operations/index
