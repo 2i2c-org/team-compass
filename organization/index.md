@@ -7,10 +7,11 @@ Organization-wide strategy, policy, and structure.
 :caption: Organizational policy
 ../code-of-conduct/index.md
 mission
+kpis
+strategy
 structure
 leadership
 governance
-strategy
 team-compass
 ../meetings/index
 communication
