@@ -24,10 +24,10 @@ Below are major areas of responsibility.
 - Assign work items to team members on a given project according to team priorities.
 - Hold team members accountable for completing work on-time, or for adjusting scope as needed.
 
-### Communicate progress and status to key stakeholders
+### Communicate progress and status to internal stakeholders
 
-- Make our work transparent, discoverable, and understanding to internal and external stakeholders.
-- Communicate with internal and external stakeholders to share information about the status and progress of major work items.
+- Make our work transparent, discoverable, and understanding to internal stakeholders, especially those that communicate with _external_ stakeholders.
+- Share information about the status and progress of major work items.
 - Surface changes in scope or identified risk in accomplishing our goals.
 
 ## Team structure
