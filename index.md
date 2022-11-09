@@ -27,6 +27,7 @@ product/index
 community/index
 partnerships/index
 people/index
+communication/index
 finance/index
 administration/index
 ```
