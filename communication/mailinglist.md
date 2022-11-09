@@ -4,6 +4,12 @@ We use [Mailchimp](https://mailchimp.com/) to send e-mails to individuals that h
 
 This is a more attentive and personal audience than our blog, so we use the mailing list to **signal boost particularly important information**, or to **ask others to signal-boost for us**.
 
+## How to access Mailchimp
+
+We have a single Mailchimp account and share access to team members via a single `username`/`password`.
+The {term}`Executive Director` is responsible for this information, though others on the team may have it as well.
+If you'd like access, ask the ED or one of the team members with this information.
+
 ## What to share with our mailing list
 
 Here are a few ideas for major topics to share with our mailing lists:
@@ -13,7 +19,7 @@ Here are a few ideas for major topics to share with our mailing lists:
 - **Major community updates**. Our quarterly / annual community updates that summarize our major progress and challenges.
 - **Job postings**. When we post a new job, share it with our mailing list and ask them to share it with their networks.
 - **Major blog posts**. If we write a blog post about our service that is particularly impactful or important, we can post it to our mailing list for extra visibility.
-  
+
 ## Send e-mails via Mailchimp
 
 Mailchimp is a little complex for our needs, as it is a full community management and communications service.

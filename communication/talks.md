@@ -15,10 +15,10 @@ Here are a few kinds of talking opportunities that we should particularly priori
 
 **Historically marginalized communities.** Of particular value to 2i2c’s mission are communities that are historically marginalized in research/education/open source. Connecting with these communities will require active effort, and giving talks is a good way to boost our profile.
 
-* Conferences or meetups that are primarily attended by / organized by…
-  * People from marginalized groups within the home country of the conference.
-  * People outside of North America or Western Europe.
-* Conferences or meetups that are explicitly meant for *supporting* marginalized groups.
+- Conferences or meetups that are primarily attended by / organized by…
+  - People from marginalized groups within the home country of the conference.
+  - People outside of North America or Western Europe.
+- Conferences or meetups that are explicitly meant for _supporting_ marginalized groups.
 
 **Open source conferences.** We wish to maintain an excellent track record with the broader open source community. This will feed into our mission, and give us more credibility and trust. We should highlight 2i2c’s open and transparent nature when we attend these conferences.
 
