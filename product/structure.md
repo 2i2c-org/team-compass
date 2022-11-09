@@ -15,7 +15,7 @@ Below are major areas of responsibility.
 
 ### Integrate stakeholder feedback
 
-- Identify key internal and external stakehold that are crucial to 2i2c's strategy.
+- Identify key internal and external stakeholders that are crucial to 2i2c's strategy.
 - Facilitate discussion between these stakeholders to align on priorities and plans.
 - Align stakeholders on a shared plan for our services and products.
 
@@ -24,6 +24,17 @@ Below are major areas of responsibility.
 - Create and refine enhancements and deliverables to our services and products.
 - Prioritize deliverables for our engineering team to work on.
 - Document and describe changes for end-users.
+
+### Lead public descriptions of our service
+
+- Define how we describe our service and its functionality to external stakeholders.
+- Lead documentation about service features and basic use.
+- Provide guidance to `Community Guidance` and `Partnerships` in documentation for more in-depth workflows or marketing material.
+
+### Communicate service changes with external stakeholders
+
+- Lead private or public communications that discuss new features, changes, and major ideas around our services and tools.
+- Serve as a point of contact for major development efforts or projects that involve external stakeholders.
 
 ## Team structure
 
