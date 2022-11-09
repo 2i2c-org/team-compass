@@ -1,3 +1,4 @@
+(managed-hubs:sales)=
 # Sales and invoicing process
 
 This section has information about pursuing and creating new contracts for 2i2c services.
