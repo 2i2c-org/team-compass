@@ -23,6 +23,7 @@ Information broken down by major functional areas of 2i2c.
 organization/index
 engineering/index
 community/index
+partnerships/index
 communication/index
 finance/index
 administration/index

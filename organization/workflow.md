@@ -31,12 +31,17 @@ It is led by the **`Executive Director`**.
 
 ## Backlog
 
-We have a backlog dedicated to tracking two kinds of information across the organization.
-They are split across two different views of the same GitHub Projects board:
+We have to track efforts across the leaders of each functional area at 2i2c.
+This is similar to the team backlogs used elsewhere in 2i2c but focused at an organizaiton-wide level.
 
-- [**Priorities in each functional area**](https://github.com/orgs/2i2c-org/projects/34/views/7) contains the most important priorities in each functional area.
-- [**Organizational deliverables and tasks**](https://github.com/orgs/2i2c-org/projects/34/views/8) contains all active work items for the organization. These are generally carried out by leadership at 2i2c. This is similar to the team backlogs used elsewhere in 2i2c.
+```{button-link} https://github.com/orgs/2i2c-org/projects/34
+:color: primary
+
+Organizational backlog
+```
+
+We also track [our strategic objectives](strategy:objectives) in this board.
 
 ## Slack channels
 
-- [`#team-leads`](https://2i2c.slack.com/archives/C047H7W78M6): For quick and/or information conversation around organizational strategy and policy.
+[`#team-leads`](https://2i2c.slack.com/archives/C047H7W78M6): For quick and/or informational conversation around organizational strategy and policy.

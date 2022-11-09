@@ -6,7 +6,7 @@ Our fiscal sponsor, {term}`CS&S`, use [a service called Ramp](https://ramp.com/)
 If you'd like access to our Ramp account or need to use it, reach out to one of these people.
 
 (admin:credit-card)=
-## Ramp credit card
+## Our credit cards
 
 We have two Ramp credit cards: one that is designed specifically to reimburse cloud costs, and another that is for general purposes.
 This allows us to pay directly out of our organizational funds without requiring a team member to pay up-front.
@@ -48,3 +48,12 @@ For contractors, we also need to include the following language in your contract
 
 If you do not wish to make the payment yourself, we can make a payment with our [Ramp Credit Card](admin:credit-card).
 To do this, contact the [Executive Director](titles:exec-dir) or the [Partnerships Lead](titles:partnerships-lead).
+
+## How to approve transactions in Ramp
+
+Someone with **Administrator privileges** in [our Ramp account](https://app.ramp.com/business-overview) must approve any transactions that are made with Ramp.
+Here is the process that we follow for this:
+
+1. Go to [the Ramp inbox](https://app.ramp.com/inbox). This should list any items that need action from you or others.
+2. If it is empty, then there's nothing to do!
+3. If it has items for Review, click on each one and follow the prompts to include any important missing information.
