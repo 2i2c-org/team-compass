@@ -1,5 +1,5 @@
 (coordination:workflow)=
-# Team workflow
+# Workflow
 
 This section describes how our development team carries out its planning and day-to-day work.
 

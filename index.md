@@ -22,11 +22,11 @@ Information broken down by major functional areas of 2i2c.
 
 organization/index
 operations/index
+people/index
 engineering/index
 product/index
 community/index
 partnerships/index
-people/index
 communication/index
 finance/index
 administration/index
