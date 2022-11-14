@@ -7,9 +7,9 @@ This includes employment information, salary information, benefits, etc.
 :maxdepth: 2
 expectations.md
 compensation.md
-titles/index.md
 hiring.md
 time-off.md
+titles/index.md
 ```
 
 ## References
