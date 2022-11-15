@@ -4,7 +4,7 @@
 ## 2i2c Events
 
 Below is a calendar with some relevant events for the 2i2c Team and Community.
-You can find a [link to the team calendar here](team-calendar).
+You can find a [link to the team calendar here](https://calendar.google.com/calendar/u/1?cid=Y180aGpqb3VvamQ4cHNxbDlpMWE4bmQxdWZmNEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t).
 
 ```{dropdown} Team events calendar
 

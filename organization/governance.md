@@ -1,5 +1,12 @@
 # Governance and decision making
 
+## The Team Compass is the Source of Truth
+
+Organizational policy of 2i2c is defined by the content in this Team Compass.
+If there are conflicting pieces of information, then the version in the Team Compass takes precedence.
+The Team Compass may also delegate Source of Truth status to another location (and often does), but this should be explicitly documented here.
+
+See [](../operations/team-compass.md) for more information about our team compass.
 
 (development:decisions)=
 ## How teams make decisions

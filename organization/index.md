@@ -10,12 +10,7 @@ mission
 kpis
 strategy
 structure
-leadership
 governance
-team-compass
-../meetings/index
-communication
-information
 ```
 
 Our organizational workflow describes how 2i2c's leadership organizes and coordinates amongst one another.

@@ -2,9 +2,9 @@
 
 This page describes the structure and roles of our Engineering team.
 
-## Scope and responsibilities
+## Responsibilities
 
-Below are is a summary of the major responsibilities for this team.
+Below is a summary of the major responsibilities for this team.
 
 ### Oversee our technical strategy
 
