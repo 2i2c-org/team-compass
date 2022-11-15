@@ -21,6 +21,18 @@ The two major addresses are:
   This includes most "administrative actions" that we need help with.
 - **`fsp@codeforscience.org`**: For more strategic and programs-level conversations.
 
+## Google Group
+
+We have a dedicated Google Group and e-mail that we use to provide CS&S team members access to our files.
+
+- **`css-admin@2i2c.org`**
+
+This is because they need visibility into many of our operational information for bookkeeping and accountability purposes.
+It contains several adminsitrative and organizational leaders of CS&S.
+They are all listed as managers, so can add people on their own.
+
+In Google Drive, you may add the `css-admin@2i2c.org` group to the sharing list for a folder or file and they will have access.
+
 ## Asana board
 
 CS&S has an Asana board that they occasionally use to tack work items.
