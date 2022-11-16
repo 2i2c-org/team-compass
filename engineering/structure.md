@@ -36,17 +36,25 @@ Our **Project Manager** ensures that we have an efficient system for coordinatin
 (engineering:roles)=
 ## Team roles
 
-Below is a list of each of the roles described above:
+Our official team roles are defined at the links below:
+
+```{toctree}
+:glob:
+roles/*
+```
+
+In addition we define a few unofficial roles below:
 
 ```{glossary}
 
-Technical Lead
+Technology Lead
+Tech Lead
 
   Responsible for defining our cloud strategy and technical priorities, and for carrying out major technical design and implementation for our infrastructure.
 
   This role is currently filled by `@yuvipanda`.
 
-Team Lead
+Engineering Manager
 
   Responsible for overseeing our engineering team, ensuring that it is operating in an effective and equitable manner, and ensuring that each team member's work is aligned with their goals and interests.
 
@@ -64,11 +72,6 @@ Project Managers
   :::
 
   This role is currently filled by @damianavila.
-
-Open Source Infrastructure Engineer
-  Performs most technical actions related to our cloud infrastructure and services.
-  They perform major upgrades or improvements to resolve issues that cannot be solved by a {term}`Hub Administrator`.
-  They operate our cloud infrastructure, make ongoing changes to fix outages and bugs, and focus their development efforts on making this infrastructure more reliable.
 ```
 
 ## Membership

@@ -17,6 +17,7 @@ We nonetheless document these structures to understand how our work and responsi
 [^icsi]: It was originally founded as a project of the {term}`International Computer Science Institute`.
 
 (structure:steerco)=
+(Steering Council)=
 ## Steering Council
 
 The Steering Council defines the mission, vision, and values of 2i2c.
@@ -29,15 +30,11 @@ It also provides oversight to the Executive Director.
 (structure:ed)=
 ## Executive Director
 
-The Executive Director is responsible for ensuring that 2i2c accomplishes its mission.
-It oversees the creation of 2i2c's strategic planning and coordination, and actively engages the Steering Council and others at 2i2c in these efforts.
-The Executive Director oversees each functional area, and makes tie-breaking decisions if they are at an impasse in decision-making.
-The Executive Director reports to the Steering Council.
+The Executive Director role is defined below:
 
-They are currently the primary interface to {term}`CS&S` administration.
-
-**Membership**: The current Executive Director of 2i2c is listed on the [Our Team page of the website](https://2i2c.org/about/#our-team).
-
+```{toctree}
+roles/executive-director
+```
 
 ## Functional areas
 

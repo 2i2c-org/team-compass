@@ -1,15 +1,15 @@
 # Job Titles
 
-This document represents the positions and salary levels that 2i2c uses. They are inspired by the hiring/salary structure of several tech companies[^job-refs].
+This describes the structure of our jobs across each group in the organization. They are inspired by the hiring/salary structure of several tech companies[^job-refs].
 
 :::{note}
 We are still building out these materials and role definitions, so this structure may evolve, and some roles may be missing information.
 :::
 
-```{toctree}
-:glob:
-./*
-```
+## Where are job and roles defined
+
+Official roles and job descriptions are defined within the **Structure and Responsibilities** section of each functional area.
+The members of each functional area define the responsibilities, skills, and reporting structure of these roles.  
 
 ## Terminology and structure
 
@@ -41,6 +41,6 @@ Performance measures
 : Quantitative or qualitative metrics that are useful in measuring the success of people in this role. Our goal is to be precise about the kind of impact that this role should have in 2i2c.
 
 Salary rationale
-: The rationale that we'll use to determine a starting salary for this position, according to [our salary strategy](../compensation.md).
+: The rationale that we'll use to determine a starting salary for this position, according to [our salary strategy](compensation.md).
 
 [^job-refs]: In particular, [Buffer](https://buffer.com/resources/salary-formula-changes-2019/) and [Basecamp](https://m.signalvnoise.com/how-we-pay-people-at-basecamp/)

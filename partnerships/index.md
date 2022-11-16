@@ -4,7 +4,9 @@ Partnerships and sustainability oversees the strategy and system that 2i2c uses 
 This includes partnerships via paid contracts, as well as via informal and formal collaboration.
 
 ```{toctree}
+:glob:
 workflow.md
 communication.md
 leads.md
+roles/*
 ```
