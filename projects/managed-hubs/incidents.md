@@ -71,7 +71,7 @@ PagerDuty has a 'Severity' field for incidents. We do not use this field current
 ### External communication
 
 - The {term}`Incident Commander` acts as the primary point of communication with external stakeholders like the {term}`Community Representative`s.
-- They may **delegate** this responsibilitiy to another team member if they wish (e.g., to the {term}`Support Steward` team.)
+- They may **delegate** this responsibility to another team member if they wish (e.g., to the {term}`Support Steward` team.)
 - We may interact with external stakeholders via comments in Incident Response issues if it helps resolve the incident more quickly.
 
 (incidents:communications)=
