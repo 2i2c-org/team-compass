@@ -54,7 +54,7 @@ now, we define an incident as one of:
    a. They can not log in
    b. They can not start their servers
    c. They can not execute code (no kernels can be started)
-3. A number of users (N>=2) cannot create or use Dask Gateway clusters.
+2. A number of users (N>=2) cannot create or use Dask Gateway clusters.
 
 Everything else is considered a support ticket only, not an incident. This *will* change in
 the future as our process matures.
