@@ -113,6 +113,16 @@ Here is the process that we follow for incidents:
    This officially marks the beginning of an incident, and will help make sure we don't accidentally miss steps during or after the incident.
 
 3. **Try resolving the issue** and communicate on the incident-specific channel while you gather information and perform actions - even if only to mark these as notes to yourself.
+
+   ```{admonition} Do not use threaded Slack messages
+   :class: warning
+
+   Do **NOT** use threads when communicating in this Slack channel.
+   When coming to write the [incident report](incidents:create-report) after the event, PagerDuty can import messages from the Slack channel in order to construct a timeline.
+   However, it cannot import threaded messages, only those that are sent directly to the channel.
+   Hence if the cause of an incident was established in a thread, this cannot be reflected automatically in the incident report.
+   ```
+
 4. **Delegate to Subject Matter Experts as-needed**. The Incident Commander is empowered to delegate actions to Subject Matter Experts in order to investigate and resolve the incident quickly.[^note-on-delegation]
 5. **Communicate our status every few hours**. The {term}`External Liason` is
    expected to communicate incident status and plan with the {term}`Community
