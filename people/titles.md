@@ -6,7 +6,7 @@ This describes the structure of our jobs across each group in the organization. 
 We are still building out these materials and role definitions, so this structure may evolve, and some roles may be missing information.
 :::
 
-## Where are job and roles defined
+## Jobs and roles definitions
 
 Official roles and job descriptions are defined within the **Structure and Responsibilities** section of each functional area.
 The members of each functional area define the responsibilities, skills, and reporting structure of these roles.  
