@@ -27,14 +27,27 @@ It also provides oversight to the Executive Director.
 
 **Communication**: The Steering Council Google group ([`steering-council@2i2c.org`](mailto:steering-council@2i2c.org)) is the only “official” way to communicate with others on the Steering Council.
 
-(structure:ed)=
+```{role} Executive Director
+```
+
 ## Executive Director
 
-The Executive Director role is defined below:
+### Responsibilities
 
-```{toctree}
-roles/executive-director
-```
+Ensures that 2i2c has the right strategy, structure, resources, and alignment to accomplish its mission.
+Oversees the creation of 2i2c's strategic planning and coordination, and actively engages the Steering Council and others at 2i2c in these efforts.
+
+The Executive Director oversees each functional area, and makes tie-breaking decisions if they are at an impasse in decision-making.
+
+### Relationship to others
+
+The Executive Director reports to the {role}`Steering Council`.
+
+Group leads of 2i2c report to this role.
+
+They are currently the primary interface to {term}`CS&S` administration.
+
+**Membership**: The current Executive Director of 2i2c is listed on the [Our Team page of the website](https://2i2c.org/about/#our-team).
 
 ## Functional areas
 

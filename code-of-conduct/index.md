@@ -5,7 +5,7 @@ Our goal is to create one of the best communities in the world for learning, usi
 
 Accordingly, anyone who participates in a 2i2c space is expected to show respect and courtesy to others in all interactions, whether in GitHub repositories, our Slack channel, during in-person events, when representing 2i2c in public, or in events and spaces associated with {term}`CS&S`.
 
-To make sure that everyone has a common understanding of “show respect and courtesy to each other,” we have adopted the following code of conduct. The code of conduct is enforced by the [2i2c Executive Director](structure:ed) and [the Steering Council](structure:steerco).
+To make sure that everyone has a common understanding of “show respect and courtesy to each other,” we have adopted the following code of conduct. The code of conduct is enforced by the {role}`Executive Director` and the {role}`Steering Council`.
 
 ## Unacceptable behavior
 

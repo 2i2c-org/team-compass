@@ -36,43 +36,87 @@ Our **Project Manager** ensures that we have an efficient system for coordinatin
 (engineering:roles)=
 ## Team roles
 
-Our official team roles are defined at the links below:
-
-```{toctree}
-:glob:
-roles/*
+```{role} Engineering Manager
 ```
 
-In addition we define a few unofficial roles below:
+### Engineering Manager
 
-```{glossary}
+:::{note}
+This role is a work-in-progress,
+:::
 
-Technology Lead
-Tech Lead
+Responsible for overseeing our engineering team, ensuring that it is operating in an effective and equitable manner, and ensuring that each team member's work is aligned with their goals and interests.
 
-  Responsible for defining our cloud strategy and technical priorities, and for carrying out major technical design and implementation for our infrastructure.
+This role is currently un-filled.
 
-  This role is currently filled by `@yuvipanda`.
-
-Engineering Manager
-
-  Responsible for overseeing our engineering team, ensuring that it is operating in an effective and equitable manner, and ensuring that each team member's work is aligned with their goals and interests.
-
-  This role is currently un-filled.
-
-Engineering Project Manager
-Project Manager
-Project Managers
-  Coordinates our system of work around our operational and technical priorities.
-  This role refines our goals to be more concrete and actionable, and coordinates and assigns work to team members in order to ensure we are carrying out our priorities in a timely fashion.
-
-  :::{note}
-  We are piloting this role.
-  See [this GitHub issue](https://github.com/2i2c-org/team-compass/issues/398) for our plans and experience with this pilot thus far.
-  :::
-
-  This role is currently filled by @damianavila.
+```{role} Technology Lead
 ```
+
+### Technology Lead
+
+The Senior Open Source Infrastructure Engineer (SOSIE) role is designed to help guide our team and cultivate a healthy and productive culture.
+It is heavily inspired by [On being a senior engineer](https://www.kitchensoap.com/2012/10/25/on-being-a-senior-engineer/).
+
+This role focuses their efforts on our infrastructure, but spends a lot of their time guiding others, focusing on particularly complex infrastructure design and development, and interfacing with other teams and stakeholder communities to help guide our development. Below is a short list of expectations for this role.
+
+- Solve complex technical problems with **broad, cross-project scope**, often
+  involving co-ordination with multiple teams across different open source
+  projects.
+
+- Acts as a point of escalation for complex technical problems, preferring to
+  solve them with collaborative guidance rather than 'just doing it'.
+
+- Coordinate with product/business teams on roadmap priorities, and provide
+  implementation suggestions and effort estimates.
+
+- Provide guidance on major strategic questions in infrastructure and
+  engineering team strategy
+
+- Helps grow other engineers via mentorship, code & design review, and
+  sponsorship to find opportunities for them
+
+- Act as a role model for positive, inclusive, and constructive team dynamics.
+
+**Membership**: This role is currently filled by `@yuvipanda` on a volunteer basis.
+
+```{role} Open Source Infrastructure Engineer
+```
+```{role} Engineer
+```
+
+### Open Source Infrastructure Engineer
+
+An Open Source Infrastructure (OSIE) focuses on infrastructure that supports interactive computing.
+It intersects job titles such as “dev-ops engineer”, “site reliability engineer”, “software engineer”, and “cloud engineer”.
+
+#### Key responsibilities
+
+- Ensure the reliable operation of the 2i2c infrastructure (leveraging production-ready cloud-based tools such as JupyterHub, BinderHub and Dask).
+- Resolve operational issues that are surfaced by our support team
+- Explore emerging technologies in the Cloud / DevOps space, design and implement cloud computing architecture in partnership with our team.
+- Participate in upstream open source communities we rely on (such as JupyterHub, BinderHub, Dask, etc) in partnership with the established leaders of those communities and collaborate with the Community Lead in the education and outreach around cloud computing.
+- Work with a distributed and global team - team members are given a lot of autonomy, and expected to be proactive at communicating with one another and working with others to allocate effort that will maximize our impact.
+
+#### Necessary qualities
+
+- Experience with deploying applications on cloud infrastructure.
+- Experience deploying and developing with Linux container-based technologies, such as Docker and Kubernetes.
+- Experience with continuous integration services (e.g. Circle CI, GitHub Actions).
+- Experience developing tools in a general purpose programming language (eg. Python).
+- Experience collaborating and coordinating work via online platforms, such as GitHub, GitLab, or BitBucket, and distributed revision control.
+- Experience working with distributed service teams that use asynchronous methods of communication
+
+#### Useful qualities
+
+- Experience with major cloud providers.
+- Experience in programming and software engineering with a track record of leadership in open, collaborative projects with broad community adoption.
+- Experience working on geographically distributed open-source projects.
+- Experience with the Jupyter ecosystem and other tools for interactive computing.
+- Evidence of existing connections and relationships in the worldwide ecosystem of open source software for data-intensive research and ability to establish new ones.
+- Experience with common data science methods, platforms, workflows, and infrastructures; with data management systems, practices, and standards; and the capacity to gain familiarity with new related topics.
+- Experience engaging with highly technical researchers across a variety of methodological fields, research domains, and computational platforms.
+- Experience building and maintaining continuous deployment pipelines.
+- Interpersonal skills to work with researchers and students. Including the skills to communicate complex information in a clear and concise manner both verbally and in writing
 
 ## Membership
 

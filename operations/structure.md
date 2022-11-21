@@ -37,9 +37,19 @@ They tend to **oversee backlogs** that a number of team members work on, and wor
 
 ## Team roles
 
-Project Manager
-: Ensures that a team plans and executes its work in a way that aligns with the team's objectives. See above for specific responsibilities and actions.
+```{role} Project Manager
+```
 
+### Project Manager
+
+Coordinates our system of work around our operational and technical priorities.
+This role refines our goals to be more concrete and actionable, and coordinates and assigns work to team members in order to ensure we are carrying out our priorities in a timely fashion.
+
+:::{note}
+We are piloting this role.
+See [this GitHub issue](https://github.com/2i2c-org/team-compass/issues/398) for our plans and experience with this pilot thus far.
+:::
+ 
 ## Membership
 
 Damian Avila currently serves as a part-time Project Manager for our Engineering and Product team.

@@ -47,7 +47,7 @@ For contractors, we also need to include the following language in your contract
 ### If you do not wish to pay yourself
 
 If you do not wish to make the payment yourself, we can make a payment with our [Ramp Credit Card](admin:credit-card).
-To do this, contact the [Executive Director](titles:exec-dir) or the [Partnerships Lead](titles:partnerships-lead).
+To do this, contact the {role}`Executive Director` or the {role}`Partnerships Lead`.
 
 ## How to approve transactions in Ramp
 

@@ -75,3 +75,13 @@ linkcheck_ignore = [
 
 def setup(app):
     app.add_css_file("custom.css")
+    
+    # Add a `role` domain that we can reference in our text.
+    # To add a new role, use the `role` directive just above the section where you describe it.
+    #
+    # ```{role} Some new role name
+    # ```
+    #
+    # And then document it like: {role}`Some new role name` to generate a link.
+    # ref: https://www.sphinx-doc.org/en/master/extdev/appapi.html#sphinx.application.Sphinx.add_crossref_type
+    app.add_crossref_type("role", "role")

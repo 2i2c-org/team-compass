@@ -1,16 +1,27 @@
-(titles:partnerships-lead)=
-# Partnerships Lead
+# Structure and responsibilities
 
 :::{note}
-We are currently experimenting with this role, and will evolve these goals, responsibilities, etc as we learn more.
-We should revisit this section in September 2022.
+This is still a work in progress!
 :::
 
-## Key goal
+## Responsibilities
 
-Ensure that 2i2c has effective relationships (sales, contracts, invoicing, service delivery) and the resources required to achieve its mission.
+Ensure that 2i2c has partnerships that allows it to sustain and scale its impact.
 
-## Responsibilities and Expectations
+## Structure
+
+Currently the Partnerships team at 2i2c is made up of one {role}`Partnerships Lead`, who collaborates closely with the {role}`Community Guidance Lead` in planning and coordination.
+
+## Roles
+
+```{role} Partnerships Lead
+```
+
+### Partnerships Lead
+
+Ensures that 2i2c has effective relationships (sales, contracts, invoicing, service delivery) and the resources required to achieve its mission {role}`Partnerships Lead`.
+
+#### Responsibilities and Expectations
 
 - **Oversee sustainability strategy**.
   - Collect feedback from major stakeholders and define major plans around sustainability at 2i2c
@@ -50,7 +61,7 @@ Ensure that 2i2c has effective relationships (sales, contracts, invoicing, servi
   - Grants for the organization or for deliverables
   - Philanthropy and giving
 
-## Performance Measures
+#### Performance Measures
 
 The following are a combination of quantitative and qualitative measures that can be used to gauge the performance of this role.
 
@@ -76,7 +87,7 @@ The following are a combination of quantitative and qualitative measures that ca
   - alignment among partners + engineering + support
   - _Much of this is qualitative in nature, and will be carried out in partnership with the Product and Community Lead._
 
-## Salary rationale
+#### Salary rationale
 
 The most similar positions in the GuideStar report for this role are:
 
@@ -87,7 +98,7 @@ However, there is relatively little data for this position at the budget size of
 If we look one budget-level higher in the GuideStar report, it appears that the Development Position and the Programs Position are comparable in salary.
 For that reason, we'll use the `Top Programs Position` as the reference position for the base salary of this title.
 
-## Appendix: Similar titles
+#### Appendix: Similar titles
 
 Comparable titles:
 
@@ -96,3 +107,7 @@ Comparable titles:
 - Business Development Director
 - Business Manager
 - Sales Director
+
+## Membership
+
+See [list of team members](../reference/team.md).
