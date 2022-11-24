@@ -14,25 +14,7 @@ This allows us to pay directly out of our organizational funds without requiring
 **Chris Holdgraf** has the credit card information for these cards.
 Ask him if you need to use them.
 
-## Reimbursement policy
-
-### What can be reimbursed?
-
-We reimburse team members that take on expenses as part of doing their work, provided that these expenses are aligned with the mission and goals of 2i2c.
-Any reimbursement request will need to be approved by either {term}`CS&S` or 2i2c's Executive Director.
-
-A good rule of thumb is to ask before you purchase something that you plan to reimburse in the future.
-As we understand our regular costs we will build a more sophisticated policy for what kinds of things can be reimbursed.
-
-Currently, these are the expenses that we regularly reimburse:
-
-- Monthly / annual fees for online services that are used across the entire 2i2c team.
-- Cloud infrastructure costs incurred as part of our services.
-- Conference travel / registration for conferences that we agree are in-scope for 2i2c's attendance.
-- Personal development / training for skills that are directly related to team responsibilities.
-- Infrequent equipment purchases for team members (computers, desks, etc) provided they are within a reasonable spend amount.
-
-### Reimbursement process
+## Reimbursement process
 
 We do all of our reimbursements via our fiscal sponsor, {term}`CS&S`.
 Here is the process that we follow:
@@ -48,6 +30,22 @@ For contractors, we also need to include the following language in your contract
 
 If you do not wish to make the payment yourself, we can make a payment with our [Ramp Credit Card](admin:credit-card).
 To do this, contact the [Executive Director](titles:exec-dir) or the [Partnerships Lead](titles:partnerships-lead).
+
+## What can be reimbursed?
+
+We reimburse team members that take on expenses as part of doing their work, provided that these expenses are aligned with the mission and goals of 2i2c.
+Any reimbursement request will need to be approved by either {term}`CS&S` or 2i2c's Executive Director.
+
+A good rule of thumb is to ask before you purchase something that you plan to reimburse in the future.
+As we understand our regular costs we will build a more sophisticated policy for what kinds of things can be reimbursed.
+
+Currently, these are the expenses that we regularly reimburse:
+
+- Monthly / annual fees for online services that are used across the entire 2i2c team.
+- Cloud infrastructure costs incurred as part of our services.
+- Conference travel / registration for conferences that we agree are in-scope for 2i2c's attendance.
+- Personal development / training for skills that are directly related to team responsibilities.
+- Infrequent equipment purchases for team members (computers, desks, etc) provided they are within a reasonable spend amount.
 
 ## How to approve transactions in Ramp
 
