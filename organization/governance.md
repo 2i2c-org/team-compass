@@ -106,7 +106,7 @@ Here are some major decision areas that require a full steering council vote.
 - Defining salaries for Director-level positions within 2i2c.
 - Changes to the Code of Conduct.
 
-For other kinds of decisions, the [Executive Director](structure:ed) is given authority to decide.
+For other kinds of decisions, the {role}`Executive Director` is given authority to decide.
 
 ### Decisions that require notification, but not a vote
 

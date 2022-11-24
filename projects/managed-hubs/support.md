@@ -201,7 +201,7 @@ We cannot sustainably prioritize all support requests over our other work, so he
 :::{admonition} Ask the PMs
 We have a few roles that are particularly useful for triaging and prioritizing our work items.
 
-- Our {term}`Project Manager` should have visibility over everybody's workload, and helps us prioritize work during sprints.
+- Our {role}`Project Manager` should have visibility over everybody's workload, and helps us prioritize work during sprints.
 - Our Product and Community Lead should understand which work items will be most impactful across our communities. (we currently do not have anybody serving in this role, but will soon!)
 
 When deciding how to prioritize a Change Request, ask for guidance from these two team members.

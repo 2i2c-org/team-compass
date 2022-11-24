@@ -14,7 +14,7 @@ We use it to post links to blog posts or major announcements in the newsletter.
 Many team members also use Twitter, so feel free to `@`-mention `@2i2c_org` if you wish!
 
 **How to access**: We access this account via a shared `username`/`password`.
-If you'd like access, ask the {term}`Executive Director` or somebody else with access.
+If you'd like access, ask the {role}`Executive Director` or somebody else with access.
 It is possible to have [multi-user access to Twitter accounts via TweetDeck](https://twitter.com/settings/teams) but we have not yet set this up.
 
 ### LinkedIn

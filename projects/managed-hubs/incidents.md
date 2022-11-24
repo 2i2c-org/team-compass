@@ -139,7 +139,7 @@ Here is the process that we follow for incidents:
 7. **Create an incident report**.
    See [](incidents:create-report) for more information.
 
-[^note-on-delegation]: If you cannot find somebody to take on this work, or feel uncomfortable delegating, the {term}`Project Manager` should help you, and is empowered to delegate on your behalf.
+[^note-on-delegation]: If you cannot find somebody to take on this work, or feel uncomfortable delegating, the {role}`Project Manager` should help you, and is empowered to delegate on your behalf.
 
 (incidents:create-report)=
 ## Create an Incident Report

@@ -8,8 +8,8 @@ This includes employment information, salary information, benefits, etc.
 expectations.md
 compensation.md
 hiring.md
+titles.md
 time-off.md
-titles/index.md
 ```
 
 ## References
