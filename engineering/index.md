@@ -4,6 +4,7 @@ These sections have information about accounts, technology, and practices that a
 
 ```{toctree}
 structure
+strategy
 workflow
 access
 secrets

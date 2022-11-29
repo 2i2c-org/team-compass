@@ -1,9 +1,9 @@
-# Engineering strategy
+# Technical strategy
 
 We make a few base assumptions about the kind of infrastructure we will focus on in this pilot.
 Here are several major components.
 
-### Where to deploy the infrastructure
+## Where to deploy the infrastructure
 
 We'll focus our deployments on **major commercial cloud providers**.
 These are the most likely places for organizations to want to run cloud infrastructure, and are the most scalable and sustainable.
@@ -20,7 +20,7 @@ This is because GCP has the most stable Kubernetes offering of all of the cloud 
 We follow [team guidelines for when to deploy new Kubernetes clusters](infra:cluster:when-to-deploy).
 For new hubs that don't require their own Kubernetes cluster, we plan to run them on Google Cloud until our team has capacity to run more infrastructure across Azure and AWS.
 
-### Why Jupyter and JupyterHub?
+## Why Jupyter and JupyterHub?
 
 - The Jupyter ecosystem is a collection of building blocks that are highly customizable and composable. They are popular and useful for many use-cases, but still require expertise to customize for a particular need. This is well-suited for 2i2c's skillset and the kind of service it wishes to provide.
 - Jupyter is a community-led and multi-stakeholder ecosystem that aligns well with 2i2c's commitment to vendor-agnosticity and the [Right to Replicate](https://2i2c.org/right-to-replicate/).
