@@ -190,7 +190,7 @@ This lets us use notes, status updates from pagerduty as well as messages from S
    They might add missing context, additional action items / summary details, or redact information. The person listed as
    the "Owner of the Review Process" is still responsible for making sure the rest of the process is completed.
 9. After sufficient review, and if the Incident Commander is happy with its completeness, **mark the Status dropdown as "Reviewed"**.
-10. Download the PDF, and add it to the [`2i2c/infrastrtucture`](https://github.com/2i2c-org/incident-reports) repository under
+10. Download the PDF, and add it to the [`2i2c/incident-reports`](https://github.com/2i2c-org/incident-reports) repository under
     the `reports/` directory. This make sure our incidents are all *public*, so
     others can learn from them as well. Given review is already completed in the pagerduty interface, you don't need to wait
     for review to add the report here.
