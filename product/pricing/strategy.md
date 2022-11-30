@@ -32,7 +32,7 @@ Currently, we base our pricing on two major items:
 
 ### Flat monthly fees
 
-We charge a flat monthly fee to cover [our personnel costs](costs/people.md).
+We charge a flat monthly fee to cover [our personnel costs](costs:human).
 We estimate the number of hubs an engineer can run, and use this to estimate our costs per hub after adding in project management and administration costs.
 
 Most hubs take extra effort during the _set up_ phase, and relatively less effort to maintain over time (depending on how many change requests a community makes).
@@ -42,13 +42,11 @@ In the future we may try to perform a more nuanced mapping of costs onto effort 
 
 ### Pass-through cloud costs
 
-In addition to our monthly hub fees, we pass cloud costs [directly to the communities we serve](costs/cloud.md), without taking any percentage markup.
+In addition to our monthly hub fees, we pass {external:docs:ref}`cloud infrastructure costs <costs:cloud>` directly to the communities we serve, without taking any percentage markup.
 We do this for two reasons:
 
 1. In our eyes, we are running infrastructure _on behalf of each community_, and wish to act as if a member of that community were running the infrastructure themselves. We are simply being compensated for our time and expertise.
 2. Adding a percentage markup on cloud costs may create perverse incentives for us to avoid optimizing down a community's cloud costs.
-
-For these reasons, we are currently [passing through cloud costs directly to communities](costs/cloud.md).
 
 ## Base fees for three service types
 
