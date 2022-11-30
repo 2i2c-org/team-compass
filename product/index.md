@@ -6,4 +6,6 @@ They work alongside engineering teams to define ways in which we aim to improve 
 ```{toctree}
 structure.md
 workflow.md
+pricing/strategy
+pricing/cost-model
 ```
