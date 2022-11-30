@@ -1,14 +1,35 @@
 (costs:human)=
-# Staffing cost model
 
-This page is a short description of the costs that we cover with service fees in order to sustain our service.
+# Staffing costs
 
-Our biggest cost is paying salaries for team members that carry out the services we provide.
-This includes cloud operations and development, open source support, guidance and support for our communities, etc.
+This page is a short description of how we define our costs, for the purposes of guiding our pricing and budget writing activities.
 
-:::{seealso}
-You can find more about our compensation philosophy in our [compensation and benefits page](https://team-compass.2i2c.org/en/latest/hr/compensation.html).
-:::
+## Service costs
+
+These are the most obvious costs that are tied directly to our Managed JupyterHub Service.
+We break them into these categories:
+
+- **Cloud engineering and operations**. Deploying, configuring, and operating the cloud infrastructure.
+- **Cloud infrastructure support**. Operating our support channels and responsing to inquiries there, as well as responding to and resolving incidents.
+- **Community guidance**. Community guidance, documentation, and usecase training for our hubs. This includes communications and guidance for community representatives.
+
+## Impact costs
+
+- **Upstream costs**: The extra cost we incur by doing our work with upstream communities as well as supporting those communities throughout our work.
+- **Subsidizing communities with fewer resources**: We often provide steep discounts in order to make our service more sustainable for communities that cannot afford to pay.
+  To make up for this cost, we must increase our margin for wealthier communities and grant opportunities.
+
+## Sustainability costs
+
+These are costs associated with making our service and operations more sustainable and future-proof.
+
+- **Self-improvement costs**. Investments into our infrastructure and systems, to create better and more reliable cloud services.
+- **Financial buffer**. Allows us to grow without financial strain, and allows us to withstand financial hardship.
+- **Organizational leadership costs**. The cost of our leadership and administrative teams to ensure that our organizational is functional and gets its work done.
+
+## Case study: Cost model of an engineer for the hub service
+
+_The following is a case study for how we used cost categories like the above to define our team's cost of an engineer. It it likely out of date but shown here for illustrative purposes._
 
 At present, we choose monthly hub fees based on assumptions about _how many hubs an engineer can operate and support_.
 We assume this is the primary bottleneck that limits our capacity.

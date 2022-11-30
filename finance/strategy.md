@@ -3,12 +3,11 @@
 Our financial strategy guides how we'll make decisions that impact our finances.
 This includes our optimal burn rate and how we'll prioritize different kinds of revenue streams.
 
-See [](accounting:projections) for a sheet that visualizes some of the numbers we describe here.
-
 ## Definitions
 
 Monthly recurring revenue
 : Revenue brought in through **recurring** service contracts.
+  This is the only non-confirmed revenue that we _project into the future_ in our financial modeling.
   
   We **do not include grants in this number**, though in the future may find a way to incorporate grants that are specifically to cover hub service costs for communities. 
   
@@ -17,32 +16,31 @@ Monthly recurring revenue
 Cash on hand
 : The amount of disposable funds that we have in our CS&S accounts.
   This does not include expected revenue or expenses.
+  We calculate this at the end of each month from CS&S's accounting reports.
 
 Monthly burn rate
-: `monthly costs - monthly recurring revenue`. This is the amount by which our cash-on-hand changes each month.
-  We do not include most grants in our burn rate, as these are treated as one-off opportunities to grow our runway.
-  Grants that cover service for other communities are treated as large recurring service contracts.
+: `monthly recurring revenue - monthly costs`. This is the amount by which our cash-on-hand changes each month.
+  We do not include most grants in our revenue calculations, as these are treated as one-off opportunities to grow our runway.
 
 Runway
 : `cash on hand / monthly burn rate`. This is the number of months at our current burn rate before we run out of funds.
   If we know more about expected increases in funding, we can also calculate by projecting current numbers into the future and seeing when we hit `$0`.
 
-## Burn rate strategy
+## Runway and cash-on-hand strategy
 
 We should **keep our runway in an optimal zone**.
 If our runway is too long, it means we are not investing enough in our operations and under-achieving our impact.
 If our runway is too short, it means that we are running the risk that we'll run out of funding.
-
-Our burn rate should **look like a relatively flat sine wave** that stays within this zone. These follow cycles like the following:
+Here's what these cycles should look like:
 
 1. Invest to grow our capacity to serve, develop, and experiment. This will *increase* our burn rate (and shorten our runway).
 2. Invest in growing revenue via contracts at a fixed capacity. This will *decrease* our burn rate (and lengthen our runway).
 
-## Optimal burn rate
+## Optimal runway
 
-Best-practices in the start-up ecosystem recommends a burn rate between 16-24 months.
-However **we're comfortable with a shorter runway than most start-ups**.
-This is because we expect our burn rate to be flatter over time, and because we do not have the same "boom and bust with investment cycles" that start-ups have.
+Best-practices in the start-up ecosystem recommends a runway between 16-24 months.
+However **we're comfortable with a shorter runway**.
+This is because we expect our runway to be flatter over time, and because we do not have the same "boom and bust with investment cycles" that start-ups have.
 because we expect our burn rate to be relatively stable.
 
 Here are the bounds for our optimal burn rate:
@@ -56,15 +54,16 @@ Here are the bounds for our optimal burn rate:
 
 ## Balance of contract revenue vs. grants
 
+These are goals that we shoot for, and not necessarily reflective of current reality.
+
 **Most of our funding should come from recurring service fees**.
 This is the most reliable source of income, and if we can bring it up then it will give us a low-variance way to bring in funding.
 
-**Grants to cover service costs are treated as recurring revenue**.
-If we get a grant that effectively covers the cost of service on behalf of other communities, treat it as a kind of "monthly recurring service fee", but with extra concern for when it ends.
-
 **The majority of our recurring revenue should not come from grants**. We want our recurring revenue to come from a combination of many contracts, not singular large contracts that will drop off all at once.
 
-**Other grants should be used to invest in new services or one-off improvements**.
+**We should use service-focused grants to support under-resourced communities**. Grants that cover the costs of our hub service is a special case. We should treat them like service revenue as long as we have a model for how we'll renew grant funds.
+
+**Non-service grants should be used to invest in new services or one-off improvements**.
 Other grant opportunities should not go towards core operations that we must continue over time.
 We should treat them as temporary extra capacity to:
 

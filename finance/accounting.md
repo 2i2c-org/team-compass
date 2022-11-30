@@ -15,8 +15,18 @@ Our budget projection model begins with a source of truth about our **current an
 It allows us to manually specify costs and revenue in the future, if we **know** that they will happen.
 It also lets us specify repeating numbers each month, and a percentage growth rate for monthly recurring revenues.
 
-As we get historical data from our accounting statements, we can update the **projections** in this model with **data** from what we actually spend and make.
+### Update our budget projections model
+
+As we get historical data from our accounting statements, we can overwrite the **projections** in this model with **data** from what we actually spend and make.
 To do this, use the [accounting statement table summaries](accounting:summary-tables) and update our budget projections numbers with the corresponding numbers in a given category.
+
+Generally speaking, **cells that are automatically computed are in grey**, while those that are hand-edited are not.
+We treat hand-edited cells as the source of truth.
+
+Here are values to update when we get new monthly accounting data from CS&S.
+
+- **Summary tab: Cash on Hand**. Our Cash on Hand is the source of truth for how much money we have each month. In the `Summary` section of the `Summary` tab, manually overwrite the automatically computed amount with the actual amount for the latest month.
+- **Expenses and income tab: Category actuals**. Our expenses tab sums category totals at the top. Overwrite these summary entries with our actual numbers in the accounting table, doing the best you can to map categories between the two.
 
 (accounting:summary-tables)=
 ## Accounting summary tables
