@@ -231,3 +231,35 @@ Support Budget
 
   :::
 ```
+
+(support:expected-time-off)=
+## Support during expected time off
+
+There are some cases when we intentionally reduce our operations and support capacity.
+See [](time-off:annual-expected) for our broader policies and support commitments during this time.
+
+### Support process during expected time off
+
+Here are the steps we take to set expectations for our team and for other organizations during expected time off:
+
+- **One month before the start of time off**. Add footer content to our `support@2i2c.org` and `hello@2i2c.org` responses that communicates our intent.
+  For example:
+
+  > **Note:** the 2i2c team will have **expected reduced capacity** from `STARTDATE` to `ENDDATE`.
+  > During this time, we will provide operational support for significant cloud incidents and outages, but not for non-essential questions or change requests.
+  > We will be less responsive than normal, and will return to answer your questions and resolve issues after the time off.
+- **During the time off**. Add an auto-responder to our FreshDesk accounts with a message like the following:
+
+  > **Note:** the 2i2c team is operating at an **expected reduced capacity** until `ENDDATE`.
+  > We will provide operational support for significant cloud incidents and outages, but not for non-essential questions or change requests.
+  > We will be less responsive than normal, and will return to answer your questions and resolve issues after the time off.
+
+% TODO: In the future, we want to add an extra step:
+%
+% Send an e-mail to our mailing list for Community Representatives communicating our intent to be on expected reduced capacity.
+% 
+% See issue: https://github.com/2i2c-org/team-compass/issues/579
+
+### Rotating team members during expected time off
+
+Because team members continue to serve as support stewards during this time, we should take care to avoid the same person serving in this role across multiple periods of expected time off.

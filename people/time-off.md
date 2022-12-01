@@ -44,6 +44,25 @@ Follow the process described above in this case - you are welcome to describe yo
 In this case, our guidelines around letting others know ahead of time are somewhat relaxed, as sick leave may happen unexpectedly.
 Just do the best you can, and try to balance your own constraints with respect for the team’s bandwidth and planning.
 
+(time-off:annual-expected)=
+## End-of-year expected time off
+
+The **final 14 days of the year are "expected time off" for all of 2i2c**.
+
+During this time our organization operates at a reduced capacity and with greatly diminished commitments to our {external+docs:ref}`service level objectives <objectives:stability>`.
+
+Our support and operational roles are still staffed, but with greatly reduced expectations around responsiveness and resolution.
+Team members can use this time as they wish (including continuing to work), but we wish to set the _expectation_ with internal and external partners that we will be less responsive.
+
+Here is our policy during this time:
+
+- All team meetings are cancelled during this time.
+- We monitor our support e-mail for major incidents, but do not guarantee a response for non-essential requests or questions.
+- We do not perform any non-essential cloud changes for communities.
+- If there is an incident, we will take steps to minimize damage and harm, and will plan time _after this period_ to resolve underlying problems.
+
+See [](support:expected-time-off) for our support changes during this time.
+
 ## Unknowns to resolve
 
 - This process is likely too informal if our team significantly scales in size and complexity.
