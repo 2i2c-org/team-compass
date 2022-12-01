@@ -1,4 +1,4 @@
-# Active grants and contracts
+# List of active grants and contracts
 
 ## Active contracts
 

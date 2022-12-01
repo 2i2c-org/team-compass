@@ -1,18 +1,9 @@
 (admin:reimbursement)=
-# Reimbursement and credit cards
+# Reimbursements
 
 Our fiscal sponsor, {term}`CS&S`, use [a service called Ramp](https://ramp.com/) to handle all of our project billing and connect it with our grants.
 
 If you'd like access to our Ramp account or need to use it, reach out to one of these people.
-
-(admin:credit-card)=
-## Our credit cards
-
-We have two Ramp credit cards: one that is designed specifically to reimburse cloud costs, and another that is for general purposes.
-This allows us to pay directly out of our organizational funds without requiring a team member to pay up-front.
-
-**Chris Holdgraf** has the credit card information for these cards.
-Ask him if you need to use them.
 
 ## Reimbursement process
 

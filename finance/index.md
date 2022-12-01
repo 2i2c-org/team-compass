@@ -20,5 +20,7 @@ See these subsections for more information about accounting and finance.
 
 strategy
 accounting
+payments
+cloud
 grants
 ```

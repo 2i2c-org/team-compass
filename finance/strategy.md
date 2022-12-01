@@ -39,11 +39,9 @@ Here's what these cycles should look like:
 ## Optimal runway
 
 Best-practices in the start-up ecosystem recommends a runway between 16-24 months.
-However **we're comfortable with a shorter runway**.
-This is because we expect our runway to be flatter over time, and because we do not have the same "boom and bust with investment cycles" that start-ups have.
-because we expect our burn rate to be relatively stable.
+The [Principles of Open Scholarly Infrastructure](https://openscholarlyinfrastructure.org/) recommend 12 months of operating costs on-hand.
 
-Here are the bounds for our optimal burn rate:
+Our goal is to **keep our runway around 12 months, but to keep it roughly flat over time**. Here are the bounds for our optimal burn rate:
 
 - **24 months**: 🚨Alarm bells! We are spending too little, we should hire or pay others for work.
 - **18 months**: Focus on growing capacity. We can hire somebody without being too worried about finances.
@@ -73,6 +71,26 @@ We should treat them as temporary extra capacity to:
 
 **Development contracts should be treated like grants**.
 If we get a contract to perform some kind of development, we should think of it as a one-off source of funds, not recurring revenue.
+
+## Case study: how to decide whether to hire somebody
+
+As an example of using the above principles in action, here are a few questions we should ask when deciding whether to hire somebody new.
+
+- Do we have excess or insufficient capacity?
+  Are we in a cycle where we wish to grow capacity and decrease stress on the team?
+- Is the area of expertise for this role the place where we need the most capacity?
+- Will this role grow our capacity in the area of highest need?
+- Will this role contribute to bringing in more revenue from 2i2c?[^revenue]
+  If so, we may update our budget projections before deciding on the financial impact of the hire.
+- Will hiring this role shorten our runway to less than 12 months?
+  Assume it will take 3 months for this person to ramp-up and begin contributing at full capacity.
+  So 12 months here is a reflection of our 9 month runway alarm window.
+  
+[^revenue]: For example:
+
+    - They will grow our technical capacity, allowing us to bring on more managed hubs.
+    - They will grow our outwards presence, giving us more exposure that leads to more managed hubs.
+    - They will participate in grant-writing or sales to convert opportunities into funding.
 
 ## References
 
