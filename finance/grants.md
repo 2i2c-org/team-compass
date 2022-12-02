@@ -22,7 +22,7 @@ Active grant Sheet
 
 {term}`CS&S` keeps all of the contracts for our active grants in the following folder:
 
-```{button-link} https://drive.google.com/drive/u/1/folders/12YIr5KSS-mJ7IUZKt5MjYY7n2wyzHkUH
+```{button-link} https://drive.google.com/drive/folders/12YIr5KSS-mJ7IUZKt5MjYY7n2wyzHkUH?usp=share_link
 :color: primary
 
 Active grant contracts

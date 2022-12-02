@@ -48,7 +48,7 @@ These are placed in a shared Google Drive that CS&S controls.
 
 For those with access, you can find the accounting statement folder here:
 
-```{button-link} https://drive.google.com/drive/u/1/folders/1vM_QX1J8GW5z8W5WemxhhVjcCS2kEovN
+```{button-link} https://drive.google.com/drive/folders/1vM_QX1J8GW5z8W5WemxhhVjcCS2kEovN?usp=share_link
 :color: primary
 
 Financial Statements from CS&S
