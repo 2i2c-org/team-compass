@@ -254,11 +254,13 @@ Here are the steps we take to set expectations for our team and for other organi
   > We will provide operational support for significant cloud incidents and outages, but not for non-essential questions or change requests.
   > We will be less responsive than normal, and will return to answer your questions and resolve issues after the time off.
 
-% TODO: In the future, we want to add an extra step:
+% TODO: In the future, we want to add two extra steps:
 %
-% Send an e-mail to our mailing list for Community Representatives communicating our intent to be on expected reduced capacity.
-% 
-% See issue: https://github.com/2i2c-org/team-compass/issues/579
+% 1. Send an e-mail to our mailing list for Community Representatives communicating our intent to be on expected reduced capacity.
+%    ref: https://github.com/2i2c-org/team-compass/issues/579
+%
+% 2. Add a banner announcement to each of our community hubs.
+%    ref: https://github.com/2i2c-org/infrastructure/issues/1501
 
 ### Rotating team members during expected time off
 
