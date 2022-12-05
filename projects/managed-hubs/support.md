@@ -243,7 +243,9 @@ See [](time-off:annual-expected) for our broader policies and support commitment
 Here are the steps we take to set expectations for our team and for other organizations during expected time off:
 
 - **One month before the start of time off**. Add footer content to our `support@2i2c.org` and `hello@2i2c.org` responses that communicates our intent.
-  For example:
+  See [](freshdesk:footer) for instructions on doing this.
+
+  Example text:
 
   > **Note:** the 2i2c team will have **expected reduced capacity** from `STARTDATE` to `ENDDATE`.
   > During this time, we will provide operational support for significant cloud incidents and outages, but not for non-essential questions or change requests.
