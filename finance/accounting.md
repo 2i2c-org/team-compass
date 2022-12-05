@@ -25,6 +25,8 @@ It includes information about our active contracts and invoices.
 Below is a link to the AirTable, see [](../administration/airtable.md) for how to access it.
 
 ```{button-link} https://airtable.com/appbjBTRIbgRiElkr
+:color: primary
+
 Accounting AirTable Workspace
 ```
 

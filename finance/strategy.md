@@ -20,28 +20,29 @@ Cash on hand
 
 Monthly burn rate
 : `monthly recurring revenue - monthly costs`. This is the amount by which our cash-on-hand changes each month.
-  We do not include most grants in our revenue calculations, as these are treated as one-off opportunities to grow our runway.
+  We do not include most grants in [our budget revenue projections](accounting:projections), as these are treated as one-off opportunities to grow our runway.
 
 Runway
 : `cash on hand / monthly burn rate`. This is the number of months at our current burn rate before we run out of funds.
-  If we know more about expected increases in funding, we can also calculate by projecting current numbers into the future and seeing when we hit `$0`.
+  If we know more about expected increases in funding, we can also calculate by [projecting current numbers into the future](accounting:projections) and seeing when we hit `$0`.
 
-## Runway and cash-on-hand strategy
+## Cycles of capacity growth
 
-We should **keep our runway in an optimal zone**.
+We expect our runway to grow and shrink as we move between cycles of capacity growth and commitment growth.
+
 If our runway is too long, it means we are not investing enough in our operations and under-achieving our impact.
 If our runway is too short, it means that we are running the risk that we'll run out of funding.
 Here's what these cycles should look like:
 
-1. Invest to grow our capacity to serve, develop, and experiment. This will *increase* our burn rate (and shorten our runway).
-2. Invest in growing revenue via contracts at a fixed capacity. This will *decrease* our burn rate (and lengthen our runway).
+1. **Capacity growth**. Invest to grow our capacity to serve, develop, and experiment. This will _shorten our runway_ (by increasing our costs).
+2. **Commitment growth**. Invest in growing revenue via contracts and grants at a fixed capacity. This will _lengthen our runway_ (by increasing our revenue).
 
 ## Optimal runway
 
-Best-practices in the start-up ecosystem recommends a runway between 16-24 months.
-The [Principles of Open Scholarly Infrastructure](https://openscholarlyinfrastructure.org/) recommend 12 months of operating costs on-hand.
+Our goal is to **keep our runway around 12 months, but to keep it roughly flat over time**[^practices]. Here are the bounds for our optimal burn rate:
 
-Our goal is to **keep our runway around 12 months, but to keep it roughly flat over time**. Here are the bounds for our optimal burn rate:
+[^practices]: Best-practices in the start-up ecosystem recommends a runway between 16-24 months.
+    The [Principles of Open Scholarly Infrastructure](https://openscholarlyinfrastructure.org/) recommend 12 months of operating costs on-hand.
 
 - **24 months**: 🚨Alarm bells! We are spending too little, we should hire or pay others for work.
 - **18 months**: Focus on growing capacity. We can hire somebody without being too worried about finances.
@@ -55,11 +56,16 @@ Our goal is to **keep our runway around 12 months, but to keep it roughly flat o
 These are goals that we shoot for, and not necessarily reflective of current reality.
 
 **Most of our funding should come from recurring service fees**.
-This is the most reliable source of income, and if we can bring it up then it will give us a low-variance way to bring in funding.
+This is the most reliable source of income.
+It gives us a low-variance way to bring in funding and an easy way to demonstrate impact.
 
-**The majority of our recurring revenue should not come from grants**. We want our recurring revenue to come from a combination of many contracts, not singular large contracts that will drop off all at once.
+**The majority of our recurring revenue should not come from grants**.
+Recurring revenue should come from a combination of many contracts, not singular large contracts that will drop off all at once.
 
-**We should use service-focused grants to support under-resourced communities**. Grants that cover the costs of our hub service is a special case. We should treat them like service revenue as long as we have a model for how we'll renew grant funds.
+**Service-focused grants sohuld support under-resourced communities**.
+Grants that cover the costs of our hub service is a special case.
+We should treat them like service revenue as long as we have a model for how we'll renew grant funds.
+They should particularly target communities that couldn't pay on their own.
 
 **Non-service grants should be used to invest in new services or one-off improvements**.
 Other grant opportunities should not go towards core operations that we must continue over time.
