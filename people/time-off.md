@@ -57,11 +57,7 @@ Team members can use this time as they wish (including continuing to work), but 
 Here is our policy during this time:
 
 - All team meetings are cancelled during this time.
-- We monitor our support e-mail for major incidents, but do not guarantee a response for non-essential requests or questions.
-- If there is an incident, we will take steps to minimize damage and harm, and will plan time _after this period_ to resolve underlying problems.
-- We do not perform any non-essential cloud changes for communities.
-
-See [](support:expected-time-off) for our support changes during this time.
+- [](support:expected-time-off:policy) for our support policy during this time.
 
 ## Unknowns to resolve
 

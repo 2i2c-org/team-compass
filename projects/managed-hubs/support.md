@@ -233,10 +233,20 @@ Support Budget
 ```
 
 (support:expected-time-off)=
-## Support during expected time off
+## Expected time off and downtime
 
 There are some cases when we intentionally reduce our operations and support capacity.
 See [](time-off:annual-expected) for our broader policies and support commitments during this time.
+
+(support:expected-time-off:policy)=
+### Expected time off policy
+
+Below is our policy for support during expected time off:
+
+- We monitor our support e-mail for major incidents, but do not guarantee a response for non-essential requests or questions.
+- We will take steps to minimize harm and avoid catastrophic problems (e.g. incidents that drastically increase costs), but will not perform non-essential actions. We will not treat "a general outage" as catastrophic unless we get an explicit signal in advance from a community representative they are doing essential work during this time.
+- If there is a catastrophic incident, we will take the minimal number of actions to reduce risk and damage to a reasonable level.
+- For non-catastrophic incidents and general change requests, we will wait until _after this period_ to resolve them.
 
 ### Support process during expected time off
 
