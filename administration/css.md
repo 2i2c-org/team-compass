@@ -12,14 +12,23 @@ Below are links to each:
 - [The CS&S Handbook](https://www.notion.so/CS-S-Handbook-18cd12a6e44c4393857642da6a6b0fdf) is similar to our Team Compass.
 - [CS&S Employee Handbook](https://docs.google.com/document/d/1LDN8-iSak391uQC5AzvtzD9dIOmfHg8kihwlvzn8Cy8/edit#heading=h.gjdgxs) is more like an employee policy guide.
 
-## E-mail addresses
+```{role} CS&S Operations
+```
+## CS&S Operations
 
-CS&S has a few email addresses that they use for different kinds of communication.
-The two major addresses are:
+To discuss invoices, contracting, etc.
+This includes most "administrative actions" that we need help with.
 
-- **`operations@codeforscience.org`**: To discuss invoices, contracting, etc.
-  This includes most "administrative actions" that we need help with.
-- **`fsp@codeforscience.org`**: For more strategic and programs-level conversations.
+E-mail address: **`operations@codeforscience.org`**
+
+```{role} CS&S FSP
+```
+
+## CS&S FSP Advisor
+
+For more strategic and programs-level conversations.
+
+E-mail address: **`fsp@codeforscience.org`**.
 
 ## Google Group
 
