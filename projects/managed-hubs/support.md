@@ -247,6 +247,8 @@ Below is our policy for support during expected time off:
   % NOTE: In the future we may define a policy for support if a community knows and
   %   tells us they are doing essential work during expected time off.
   %   We can update this policy when we discuss and make a decision on this.
+  %
+  %   Some conversation in: https://github.com/2i2c-org/meta/issues/435
 - We will take steps to minimize harm and avoid catastrophic problems (e.g. incidents that drastically increase costs), but will not perform non-essential actions. We will assume there is _no essential work happening on any of our hubs for all communities_.
 - If there is a catastrophic incident, we will take the minimal number of actions to reduce risk and damage to a reasonable level.
 - For non-catastrophic incidents and general change requests, we will wait until _after this period_ to resolve them.
