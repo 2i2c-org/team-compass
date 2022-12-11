@@ -14,7 +14,7 @@ build:
       # Use staticrypt to hide each page behind a password
       - npm install -g staticrypt
       - find _build/html/hidden -type f -name "*.html"
-      - find _build/html/hidden -type f -name "*.html" -exec staticrypt {} password -o {}
+      - find _build/html/hidden -type f -name "*.html" -exec staticrypt {} password -o {} \;
       - cat _build/html/hidden/test.html
 
 sphinx:
