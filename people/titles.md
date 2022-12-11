@@ -1,4 +1,4 @@
-# Job Titles
+# Job titles
 
 This describes the structure of our jobs across each group in the organization. They are inspired by the hiring/salary structure of several tech companies[^job-refs].
 

@@ -45,7 +45,7 @@ In this case, our guidelines around letting others know ahead of time are somewh
 Just do the best you can, and try to balance your own constraints with respect for the team’s bandwidth and planning.
 
 (time-off:annual-expected)=
-## End-of-year expected time off
+## Expected end-of-year time off
 
 The **final 14 days and the first 3 days of the year are "expected time off" for all of 2i2c**.
 
