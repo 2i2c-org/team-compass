@@ -9,6 +9,11 @@ build:
     # The sphinx-2i2c-theme requires python >= 3.8
     python: "3.8"
     nodejs: "16"
+  jobs:
+    post_build:
+      # Use staticrypt to hide each page behind a password
+      - npm install -g staticrypt
+      - find _build/html/hidden -type f -name "*.html" -exec staticrypt {} password -o {} \;
 
 sphinx:
   configuration: conf.py
