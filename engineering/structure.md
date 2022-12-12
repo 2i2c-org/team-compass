@@ -23,6 +23,9 @@ Below is a summary of the major responsibilities for this team.
 - Improve the scalability of our infrastructure to more users and more communities
 - Minimize toil and automate processes as much as possible
 
+```{team} Engineering Team
+```
+
 ## Team structure
 
 This team operates similarly to a **Site Reliability Engineering** team.

@@ -1,5 +1,5 @@
 (hr/time-off)=
-# Taking time Off
+# Taking time off
 
 In general, 2i2c inherits its benefits and paid time off (PTO) policy from {term}`Code for Science and Society`.
 These policies are detailed in the [CS&S Employee Handbook](https://drive.google.com/file/d/1anHo8P09gjGLnUfGj2ceSDxvJTYwMeS1/view?usp=sharing). This page describes some 2i2c-specific practices that are applied in addition to the CS&S policies.

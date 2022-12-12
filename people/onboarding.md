@@ -1,5 +1,5 @@
 
-# Onboard a team member
+# Onboarding process
 
 New 2i2c team members are onboarded in order to make sure that the following conditions are met:
 

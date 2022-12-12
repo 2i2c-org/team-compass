@@ -25,7 +25,7 @@ However, our work within a sprint is a **team commitment**, and we are all respo
 Our team works in **two-week sprints**.
 Here is a brief overview of each sprint.
 
-Wednesday (beginning of sprint)
+Beginning of sprint
 : Sprint begins with our [sprint planning meeting](meetings:sprint-planning).
 
   In this meeting we discuss major accomplishments in the previous sprint. We then prioritize and assign the items that each team member will work on for the next sprint, and review items that require discussion and planning.
@@ -35,9 +35,17 @@ During the sprint
   We use [the Sprint Board](coordination:sprint-board) to coordinate our activities during the sprint.
   We provide updates about what we've been up to, what we're doing next, and where we need help via regular **asynchronous Slack stand-ups**.
 
-Tuesday of week 2 (end of sprint)
+Last day of sprint
 : By the end of the day, team members should have completed all of their items for that sprint.
-  
+
+(meetings:sprint-planning)=
+### Sprint planning meeting
+
+The team conducts a Sprint Planning meeting for 60 minutes at the beginning of each sprint.
+The goal of this meeting is to review our major work items, synchronize with one another, and prioritize work across team members.
+
+See [the Sprint Planning issue template](https://github.com/2i2c-org/team-compass/blob/main/.github/ISSUE_TEMPLATE/meeting-sprint-planning.md) for the agenda / structure of these meetings.
+ 
 (coordination:sprint-board)=
 ### The Sprint Board
 

@@ -7,9 +7,8 @@ This chapter describes some of the practices that we adopt towards these goals.
 structure
 strategy
 sources
-remote
-onboarding
+meetings
 communication
 team-compass
-../meetings/index
+remote
 ```
