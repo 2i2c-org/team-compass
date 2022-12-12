@@ -53,13 +53,10 @@ Here are things that **should not** be conducted in Slack, but instead put in an
 
 Our team has a dedicated Zoom room that anybody on the 2i2c team may use.
 We try not to publicly post this link to avoid the likelihood of abuse.
-The room is password-protected but accessible to anybody that joins via the link.
-Ask any team member what the URL is (it is easy to remember) if you wish to join.
 
-In addition, the Zoom account that is connected to this room is also available for any 2i2c team member to use.
-The username for this account is `hello@2i2c.org` and you should ask a team member for the password if you wish to use it.
+To access the room, ask any team member for the URL and password to join.
 
-For public-facing zoom meetings that are hosted with this account, create a zoom link that is unique to the meeting, rather than using the general team room.
+See [](zoom:access) for information about how to access the account.
 
 ## Personal e-mail
 
@@ -69,15 +66,10 @@ We use Slack, GitHub issues, and Zoom to communicate _internally_.
 However, if it's important communicate something to a team member that isn't suitable for a GitHub issue, and needs to be more permanent than Slack, then it's fine to send e-mails.
 
 (org:communication:shared-email)=
-## Shared e-mail and Google groups
+## Shared e-mail via Google groups
 
-We also use some shared e-mail addresses via **Google Groups** to allow multiple people to check a single shared inbox.
-For example, our `hello@2i2c.org` e-mail is attached to a Google Group that many people may check for generic inbound communication.
-
+We use shared e-mail addresses via **Google Groups** to allow multiple people to check a single shared inbox.
 By joining the group behind one of these groups you'll be able to receive e-mail it receives, and you may also _send e-mail via this address_.
+We also may connect these addresses to external services like FreshDesk to share information between them in a way all team members can access.
 
-Creating groups is free and relatively easy, so if you wish to create a group for your team or area, reach out to somebody that has administrative privileges.
-
-:::{seealso}
 See [our Google Workspaces documentation](../administration/google-workspace.md) for more information.
-:::
