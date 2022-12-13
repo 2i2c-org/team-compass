@@ -1,4 +1,4 @@
-# Important Terminology
+# Important terminology
 
 Here are some helpful terms that we use at 2i2c.
 
