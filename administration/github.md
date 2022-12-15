@@ -7,20 +7,19 @@ We have a **GitHub Team Organization** that is free due to our non-profit status
 
 We may need to re-apply for membership for this each year.
 
-## Internal teams
+## Teams
 
-[The `2i2c Team` team](https://github.com/orgs/2i2c-org/teams/2i2c-team) (`@2i2c-team`) is for every staff, steering council, and key collaborator of 2i2c.
-It should provide access to all private 2i2c repositories.
+- [**`@2i2c-team`**](https://github.com/orgs/2i2c-org/teams/2i2c-team).
+  For every staff member and key collaborator of 2i2c.
+  It should provide access to all private 2i2c repositories.
 
-In addition, there are several sub-teams underneath `2i2c Team`, grouped by topic area.
-Team members are added to one of these teams, and inherit `2i2c Team` status from this.
+  In addition, there are several sub-teams underneath `2i2c Team`, grouped by topic area.
+  Team members are added to one of these teams, and inherit `2i2c Team` status from this.
+- [**`@collaborators`**](https://github.com/orgs/2i2c-org/teams/collaborators).
+  For external collaborators that we would like to officially list in a team.
+  For example, if we want to quickly `@mention` a group of people or control fine-grained permissions of repositories.
 
-## External teams
-
-[The `Collaborators` team](https://github.com/orgs/2i2c-org/teams/collaborators) is for **external collaborators** that we would like to officially list in a team.
-For example, this is helpful if we want to quickly `@mention` a group of people or control fine-grained permissions of repositories.
-
-This team does not come with any special repository permissions on its own.
+  This team does not come with any special repository permissions on its own.
 
 ## Administrator access
 
