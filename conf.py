@@ -96,4 +96,6 @@ def setup(app):
 # redirects dictionary below and its new location in the value.
 #
 rediraffe_branch = "main"
-rediraffe_redirects = {}
+rediraffe_redirects = {
+    "get-started": "operations/index",
+}
