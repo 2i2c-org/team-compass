@@ -13,9 +13,6 @@ build:
 sphinx:
   configuration: conf.py
 
-# Explicitly opt out of trying to build additional formats such as PDF and ePub
-formats: []
-
 python:
   install:
     - requirements: requirements.txt

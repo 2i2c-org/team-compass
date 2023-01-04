@@ -18,6 +18,7 @@ extensions = [
     "sphinx_copybutton",
     "sphinx.ext.intersphinx",
     "sphinx_togglebutton",
+    "sphinxext.rediraffe",
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -85,3 +86,16 @@ def setup(app):
     # And then document it like: {role}`Some new role name` to generate a link.
     # ref: https://www.sphinx-doc.org/en/master/extdev/appapi.html#sphinx.application.Sphinx.add_crossref_type
     app.add_crossref_type("role", "role")
+
+
+# -- Options for the rediraffe extension -------------------------------------
+# ref: https://github.com/wpilibsuite/sphinxext-rediraffe#readme
+#
+# This extensions help us relocated content without breaking links. If a
+# document is moved internally, put its path as a dictionary key in the
+# redirects dictionary below and its new location in the value.
+#
+rediraffe_branch = "main"
+rediraffe_redirects = {
+    "get-started": "operations/index",
+}
