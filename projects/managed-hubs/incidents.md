@@ -177,8 +177,8 @@ This lets us use notes, status updates from pagerduty as well as messages from S
    Best guesses will do!
 5. **Add Data Sources** that we will use to keep track of the actions that happened around the incident.
    - Link to the slack channel we created for this incident as a "Data Source", filled in with an appropriate time to cover all the messages there.
-   - Add any other channels where there was conversation there about the incident (e.g., GitHub Issues or Pull Requests).
-     % How can you add GitHub data sources?
+   % TODO: Add info on how to add GitHub issues/PRs to the timeline when we figure out how to do it.
+   % - Add any other channels where there was conversation there about the incident (e.g., GitHub Issues or Pull Requests).
 
    Click `Save Data Sources` to populate the timeline below with messages from the slack channels.
 6. **Fill out the timeline**. The goal is to be concise but make it possible for someone reading it to answer "what happened, and when?".
