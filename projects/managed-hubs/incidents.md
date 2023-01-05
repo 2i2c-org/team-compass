@@ -54,7 +54,7 @@ now, we define an incident as one of:
    a. They can not log in
    b. They can not start their servers
    c. They can not execute code (no kernels can be started)
-3. A number of users (N>=2) cannot create or use Dask Gateway clusters.
+2. A number of users (N>=2) cannot create or use Dask Gateway clusters.
 
 Everything else is considered a support ticket only, not an incident. This *will* change in
 the future as our process matures.
@@ -71,7 +71,7 @@ PagerDuty has a 'Severity' field for incidents. We do not use this field current
 ### External communication
 
 - The {term}`Incident Commander` acts as the primary point of communication with external stakeholders like the {term}`Community Representative`s.
-- They may **delegate** this responsibilitiy to another team member if they wish (e.g., to the {term}`Support Steward` team.)
+- They may **delegate** this responsibility to another team member if they wish (e.g., to the {term}`Support Steward` team.)
 - We may interact with external stakeholders via comments in Incident Response issues if it helps resolve the incident more quickly.
 
 (incidents:communications)=
@@ -113,6 +113,16 @@ Here is the process that we follow for incidents:
    This officially marks the beginning of an incident, and will help make sure we don't accidentally miss steps during or after the incident.
 
 3. **Try resolving the issue** and communicate on the incident-specific channel while you gather information and perform actions - even if only to mark these as notes to yourself.
+
+   ```{admonition} Do not use threaded Slack messages
+   :class: warning
+
+   Do **NOT** use threads when communicating in this Slack channel.
+   When coming to write the [incident report](incidents:create-report) after the event, PagerDuty can import messages from the Slack channel in order to construct a timeline.
+   However, it cannot import threaded messages, only those that are sent directly to the channel.
+   Hence if the cause of an incident was established in a thread, this cannot be reflected automatically in the incident report.
+   ```
+
 4. **Delegate to Subject Matter Experts as-needed**. The Incident Commander is empowered to delegate actions to Subject Matter Experts in order to investigate and resolve the incident quickly.[^note-on-delegation]
 5. **Communicate our status every few hours**. The {term}`External Liason` is
    expected to communicate incident status and plan with the {term}`Community
@@ -167,7 +177,8 @@ This lets us use notes, status updates from pagerduty as well as messages from S
    Best guesses will do!
 5. **Add Data Sources** that we will use to keep track of the actions that happened around the incident.
    - Link to the slack channel we created for this incident as a "Data Source", filled in with an appropriate time to cover all the messages there.
-   - Add any other channels where there was conversation there about the incident (e.g., GitHub Issues or Pull Requests).
+   % TODO: Add info on how to add GitHub issues/PRs to the timeline when we figure out how to do it.
+   % - Add any other channels where there was conversation there about the incident (e.g., GitHub Issues or Pull Requests).
 
    Click `Save Data Sources` to populate the timeline below with messages from the slack channels.
 6. **Fill out the timeline**. The goal is to be concise but make it possible for someone reading it to answer "what happened, and when?".
@@ -178,8 +189,8 @@ This lets us use notes, status updates from pagerduty as well as messages from S
 8. **Click "Save & View Report"** when you are done, and ask other members of the incident response team to review the incident report.
    They might add missing context, additional action items / summary details, or redact information. The person listed as
    the "Owner of the Review Process" is still responsible for making sure the rest of the process is completed.
-9. After sufficient review, and if the Incident Commander is happy with its completeness, **mark the Status dropdown as "Reviewed"**.
-10. Download the PDF, and add it to the [`2i2c/infrastrtucture`](https://github.com/2i2c-org/incident-reports) repository under
+9. After sufficient review, and if the Incident Commander is happy with its completeness, edit the report again, **mark the Status dropdown as "Reviewed"**, and then click "Save & View Report" again.
+10. Download the PDF, and add it to the [`2i2c/incident-reports`](https://github.com/2i2c-org/incident-reports) repository under
     the `reports/` directory. This make sure our incidents are all *public*, so
     others can learn from them as well. Given review is already completed in the pagerduty interface, you don't need to wait
     for review to add the report here.
