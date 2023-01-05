@@ -86,6 +86,7 @@ def setup(app):
     # And then document it like: {role}`Some new role name` to generate a link.
     # ref: https://www.sphinx-doc.org/en/master/extdev/appapi.html#sphinx.application.Sphinx.add_crossref_type
     app.add_crossref_type("role", "role")
+    app.add_crossref_type("team", "team")
 
 
 # -- Options for the rediraffe extension -------------------------------------

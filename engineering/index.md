@@ -11,4 +11,5 @@ secrets
 reviewing
 github-conventions
 styleguide
+meetings/index
 ```
