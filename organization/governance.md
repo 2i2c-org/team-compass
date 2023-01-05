@@ -51,7 +51,7 @@ We use the [Steering Council group](mailto:steering-council@2i2c.org) to describ
 In addition:
 
 - The Executive Director of 2i2c should provide regular (e.g., weekly) updates to the Steering Council email about active proposals or proposals that are currently being discussed and/or voted on.
-- We maintain [a shared Google Calendar](https://calendar.google.com/calendar/u/2?cid=Y184ZmhrOXBtZmxocWM3OWI2bWY0dnEwYjlwc0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t) that contains voting dates as well as Steerco meeting dates.
+- We maintain [a Steerco Calendar](calendars:steerco) that contains voting dates as well as Steerco meeting dates.
 
 ### When does voting happen, and how long do we discuss?
 
