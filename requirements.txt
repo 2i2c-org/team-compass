@@ -3,8 +3,8 @@ myst-parser[linkify]
 myst-nb
 pandas
 sphinx
-sphinx-autobuild
 git+https://github.com/2i2c-org/sphinx-2i2c-theme
 sphinx-copybutton
 sphinx-design
 sphinx-togglebutton
+sphinxext-rediraffe
