@@ -36,6 +36,9 @@ Follow the checklist below to onboard a new team member!
 - [ ] Grant appropriate permissions on [RTD projects](https://readthedocs.org/)
 - [ ] NameCheap administration privileges to `2i2c.org` and `2i2c.cloud`
 
+**Roles**
+- [ ] Onboard into the [Support Steward Role](https://github.com/2i2c-org/team-compass/issues/new?assignees=&labels=type%3A+onboard&template=new-team-member.md&title=Onboarding+%3Cname%3E)
+
 **External**
 
 - [ ] Add to [2i2c website](https://2i2c.org/about/)
