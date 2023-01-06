@@ -22,7 +22,7 @@ Follow the checklist below to onboard a new team member!
 **Communication**
 
 - [ ] Send them a link to the [2i2c Team Compass](https://team-compass.2i2c.org/en/latest/) and its [Team Operations section](https://team-compass.2i2c.org/en/latest/operations/index.html)
-- [ ] Send them a link to the [2i2c Google Drive](https://drive.google.com/drive/folders/1ABxxSFycGfCzQc9czfwer_dat-GVi4jw?usp=sharing)
+- [ ] Send them a link to the [2i2c Team Google Drive](https://drive.google.com/drive/u/1/folders/0AJcabtB-T0LnUk9PVA)
 - [ ] Schedule an onboarding meeting for after they've read through the docs
 
 **Permissions**
