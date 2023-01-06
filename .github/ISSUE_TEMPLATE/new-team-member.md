@@ -22,7 +22,7 @@ Follow the checklist below to onboard a new team member!
 **Communication**
 
 - [ ] Send them a link to the [2i2c Team Compass](https://team-compass.2i2c.org/en/latest/) and its [Team Operations section](https://team-compass.2i2c.org/en/latest/operations/index.html)
-- [ ] Send them a link to the [2i2c Google Drive](https://drive.google.com/drive/folders/1ABxxSFycGfCzQc9czfwer_dat-GVi4jw?usp=sharing)
+- [ ] Send them a link to the [2i2c Team Google Drive](https://drive.google.com/drive/u/1/folders/0AJcabtB-T0LnUk9PVA)
 - [ ] Schedule an onboarding meeting for after they've read through the docs
 
 **Permissions**
@@ -35,6 +35,9 @@ Follow the checklist below to onboard a new team member!
 - [ ] Add to our [AWS SSO](https://console.aws.amazon.com/singlesignon/home?region=us-east-1#/users)
 - [ ] Grant appropriate permissions on [RTD projects](https://readthedocs.org/)
 - [ ] NameCheap administration privileges to `2i2c.org` and `2i2c.cloud`
+
+**Roles**
+- [ ] Onboard into the [Support Steward Role](https://github.com/2i2c-org/team-compass/issues/new?assignees=&labels=type%3A+onboard&template=new-team-member.md&title=Onboarding+%3Cname%3E)
 
 **External**
 
