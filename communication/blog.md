@@ -21,6 +21,7 @@ Open an issue about your post and copy/paste this checklist into it.
 - [ ] You're done! 🎉
 ```
 
+(blog:topics)=
 ## What to post on the blog
 
 Generally speaking, we can post as often as we wish.

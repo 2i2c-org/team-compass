@@ -10,10 +10,7 @@ We have a single Mailchimp account and share access to team members via a single
 The {role}`Executive Director` is responsible for this information, though others on the team may have it as well.
 If you'd like access, ask the ED or one of the team members with this information.
 
-## What to share with our mailing list
-
-Here are a few ideas for major topics to share with our mailing lists:
-
+(mailinglist:topics)=
 ## Things to post in our mailing list
 
 - **Major community updates**. Our quarterly / annual community updates that summarize our major progress and challenges.

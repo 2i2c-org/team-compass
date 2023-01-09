@@ -1,7 +1,15 @@
-# Communication strategy
+# Communication strategy and overview
 
 There are many ways to communicate with the outside world, and we have limited resources to devote towards communication.
 As such, we focus our efforts around **blog-style posts**, with signal boosting via **Twitter** and **Mailing Lists**.
+
+## Quick overview
+
+This is a quick overview of how we should use these communication channels, see the sub-sections for more detail.
+
+- **Mailing list**: For calls to action, major announcements and summaries, and links to collections of blog posts and other resources. See [](mailinglist:topics) for more details.
+- **Blog posts**: For ongoing updates about what we're up to and thinking about. Can be short or long, and as frequent as we like. More content is better, do not feel too stressed about getting it perfect! See [](blog:topics) for more details.
+- **Social media**: For signal-boosting the above things and advertising other major activities in 2i2c. We generally don't engage in social media conversation (due to resource constraints, not out of policy).
 
 ## Goals in communications
 
