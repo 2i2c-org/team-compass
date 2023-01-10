@@ -7,7 +7,11 @@ For example, logos, banners, images for GitHub Teams, etc.
 
 Almost all of our design assets [exist in this Figma board](https://www.figma.com/file/EYFRCag2gfYGdEZGFrXgzv/2i2c-Logos?node-id=0%3A1&t=0C2Sudf1pYmaY3Xr-0).
 Any team member should be able to access it and re-use assets as you wish.
-Feel free to make edits to the board as-needed.
+
+This uses [Figma's free plan](https://www.figma.com/pricing/) and so only the owner of a board (`@choldgraf` in this case) can make edits.
+It is `read-only` for all others.
+
+If enough team members want to make edits on their own, then we should consider upgrading to a professional plan.
 
 ## Google Drive
 
