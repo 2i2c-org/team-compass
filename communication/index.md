@@ -7,6 +7,7 @@ strategy
 blog
 social
 mailinglist
+design
 publishing
 talks
 ```
