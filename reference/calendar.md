@@ -1,5 +1,5 @@
 (team/calendar)=
-# Calendars
+# Calendars and meetings
 
 (calendar:events)=
 ## 2i2c Events
