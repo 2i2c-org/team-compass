@@ -12,7 +12,7 @@ It is impossible to do everything perfectly each time, but these are best-practi
 ## Seek funding that aligns our values and strategy with the community
 
 Funding opportunities should be a clear opportunity to advance the interests of **both** the upstream community and 2i2c.
-Ensure that a funding opportunity has a clear value proposition for the community as well as us.
+Ensure that a funding opportunity has a clear value proposition for the community as well as for us.
 Point to specific community goals and documentation that helps us make this case, and ask community leaders if there are any doubts.
 
 ## Seek funding that matches our capacity and goals

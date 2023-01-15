@@ -9,7 +9,6 @@ Whenever possible, we should improve our own infrastructure via _upstream contri
 We should prioritize [key communities](key-communities.md) and those that [align with our values](organization:values).
 We know this will take extra effort from us - doing things on your own is faster, but doing them together with open source communities leads to a healthier and more sustianable ecosystem.
 
-
 ## Upstream work can't be done on nights and weekends
 
 Doing work in upstream communities is central to our work, and work done with [key communities](key-communities.md) is treated as "on the clock".
@@ -20,7 +19,6 @@ A good balance to shoot for is:
 
 - **80%**: Focus on 2i2c's mission, with an "upstream first" mentality. You can take whatever time you need to make upstream changes that serve 2i2c's interests in an inclusive way.
 - **20%**: Upstream-driven contributions. The work you do in upstream communities does not need to be driven by 2i2c's interests or strategy. Spend your time in the way you wany to have the most impact.
-
 
 ## Center the community's strategy and mission
 
