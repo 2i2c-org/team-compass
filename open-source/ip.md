@@ -11,7 +11,7 @@ This page describes our approach to intellectual property with any assets we int
 Our fiscal sponsor holds the rights to any code that is generated in the 2i2c repository ([`@2i2c-org`](https://github.com/2i2c-org)).
 
 Any code that we control should be released under an [OSI approved license](https://opensource.org/licenses) with permissive restrictions.
-For example, the [Apache License 2.0](https://opensource.org/licenses/Apache-2.0) or the [BSD-3 Clause "New" or "Revised"](https://opensource.org/licenses/BSD-3-Clause) license. By default, we use [the BSD 3-Clause license](https://opensource.org/licenses/BSD-3-Clause).
+For example, the [Apache License 2.0](https://opensource.org/licenses/Apache-2.0) or the [BSD-3 Clause "New" or "Revised"](https://opensource.org/licenses/BSD-3-Clause) license. By default, we use whatever license is most prevalent in the community where we operate. For example, in the scientific python community, that is [the BSD 3-Clause license](https://opensource.org/licenses/BSD-3-Clause).
 
 ### In upstream repositories
 
