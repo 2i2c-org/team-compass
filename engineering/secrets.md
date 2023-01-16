@@ -88,7 +88,7 @@ Once you've completed those steps, do the following:
    1. Identify when a file is encrypted or not, and
    2. Use `.gitignore` rules to assist us in not committing unencrypted secrets to the repository
 
-   See our [infrastructure docs](https://infrastructure.2i2c.org/en/latest/topic/secrets.html) for more information on this.
+   See our [infrastructure docs](https://infrastructure.2i2c.org/en/latest/topic/access-creds/secrets.html) for more information on this.
    :::
 
 ### Learn more about `sops`

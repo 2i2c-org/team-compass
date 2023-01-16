@@ -23,7 +23,7 @@ We nonetheless document these structures to understand how our work and responsi
 The Steering Council defines the mission, vision, and values of 2i2c.
 It also provides oversight to the Executive Director.
 
-**Membership**: [Listed on the 2i2c website](https://2i2c.org/about/#steering-council).
+**Membership**: [Listed on the 2i2c website](https://2i2c.org/organization).
 
 **Communication**: The Steering Council Google group ([`steering-council@2i2c.org`](mailto:steering-council@2i2c.org)) is the only “official” way to communicate with others on the Steering Council.
 
@@ -47,7 +47,7 @@ Group leads of 2i2c report to this role.
 
 They are currently the primary interface to {term}`CS&S` administration.
 
-**Membership**: The current Executive Director of 2i2c is listed on the [Our Team page of the website](https://2i2c.org/about/#our-team).
+**Membership**: The current Executive Director of 2i2c is listed on the [Our Team page of the website](https://2i2c.org/organization).
 
 ## Functional areas
 
