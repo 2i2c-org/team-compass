@@ -7,7 +7,7 @@ For example, grants, development contracts, or donations that are targeted for o
 This page lists some guidelines and principles to follow.
 It is impossible to do everything perfectly each time, but these are best-practices that we should strive for.
 
-[^1]: See [](LINK TO BLOG POST) for a brainstorm on this topic.
+[^1]: See [this blog post on principles for open source](https://2i2c.org/blog/2023/open-source-funding-principles/) for a brainstorm on this topic.
 
 ## Seek funding that aligns our values and strategy with the community
 
