@@ -3,7 +3,7 @@
 We use **Key Performance Indicators** to measure and track our progress and impact as an organization.[^1]
 These are tracked along with other important metrics in [our KPIs dashboard site](http://2i2c.org/kpis/).
 
-```{button-link} http://2i2c.org/kpis/
+```{button-link} https://2i2c.org/kpis/
 :color: primary
 Link to KPIs dashbaord
 ```
@@ -77,10 +77,10 @@ They represent a positive outcome that is aligned with our mission as a result o
   - Source
 - - Monthly revenue
   - Monthly revenue, broken down by category (grants, development contracts, cloud service contracts)
-  - See [our Accounting KPIs page](http://2i2c.org/kpis/finances.html)
+  - See [our Accounting KPIs page](https://2i2c.org/kpis/finances.html)
 - - Monthly operational costs
   - Monthly operational costs, broken down by category (engineering, partnerships and community, executive, fiscal fee, services)
-  - See [our Accounting KPIs page](http://2i2c.org/kpis/finances.html)
+  - See [our Accounting KPIs page](https://2i2c.org/kpis/finances.html)
 ```
 
 ## Aspirational KPIs
