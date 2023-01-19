@@ -7,6 +7,7 @@ It defines where we should invest in our capabilities, what kind of impact we wa
 
 Our mission is currently defined in [the About pages](https://2i2c.org/about/) of our brochure site.
 
+(organization:values)=
 ## Our values
 
 Our values are ideas that we believe are important for 2i2c to follow as it works towards its mission.
