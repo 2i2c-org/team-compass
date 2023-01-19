@@ -92,7 +92,7 @@ In addition to having a code of conduct, we have four lightweight [social rules]
 
 The enforcement provisions in this code of conduct do not apply to the social rules. We won't give you a strong warning or expel you from the 2i2c community just for breaking a social rule.
 
-If you have any questions about any part of the code of conduct or social rules, please reach out to [any 2i2c team member](https://2i2c.org/about/#our-team).
+If you have any questions about any part of the code of conduct or social rules, please reach out to [any 2i2c team member](https://2i2c.org/organization).
 
 ```{toctree}
 social-rules
@@ -114,7 +114,7 @@ Instead of filling out a code of conduct violation report, please contact law en
 
 ### Getting help
 
-If you or someone else at 2i2c is struggling and needs help, don’t hesitate to reach out to the 2i2c Executive Director and [Steering Council members](https://2i2c.org/about/#steering-council) in person or over email.
+If you or someone else at 2i2c is struggling and needs help, don’t hesitate to reach out to the 2i2c Executive Director and [Steering Council members](https://2i2c.org/organization) in person or over email.
 
 ## License
 

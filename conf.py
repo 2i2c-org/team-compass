@@ -70,6 +70,7 @@ linkcheck_ignore = [
     "https://icsi.berkeley.edu*",  # Because it's broken often
     "https://sociocracyforall.org*",  # Because it raises a 403 but still works
     "https://airtable.com*",  # Because it has some kind of security that returns a 403
+    "https://app.asana.com*",  # Because it has some kind of security that returns a 403
 ]
 
 # -- Sphinx setup script ---------------------------------------------------
