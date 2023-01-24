@@ -58,3 +58,4 @@ This can drastically speed up the process of approving recurring transactions.
 - Forward the e-mail to `receipts@ramp.com`.
 
 Ramp should scan the e-mail and automatically attach the receipt to the proper expense.
+See [the Ramp receipt detection documentation](https://support.ramp.com/hc/en-us/articles/360042588454-Submitting-Receipts-Memos) for more details.
