@@ -1,9 +1,14 @@
 (admin:reimbursement)=
-# Reimbursements
+# Reimbursements with Ramp
 
 Our fiscal sponsor, {term}`CS&S`, use [a service called Ramp](https://ramp.com/) to handle all of our project billing and connect it with our grants.
 
 If you'd like access to our Ramp account or need to use it, reach out to one of these people.
+
+:::{admonition} You can use the organization credit card
+We have an [organizational credit card](admin:credit-card) to purchase things directly with 2i2c funds if you do not wish to file a reimbursement yourself.
+To do this, contact the {role}`Executive Director` or the {role}`Partnerships Lead`.
+:::
 
 ## Reimbursement process
 
@@ -16,11 +21,6 @@ Here is the process that we follow:
 For contractors, we also need to include the following language in your contract:
 
 > Expenses: Organization agrees to reimburse Independent Contractor for all expenses reasonably incurred in the performance of the Engagement and approved by Organization in advance, upon presentation of supporting receipts and documentation.
-
-### If you do not wish to pay yourself
-
-If you do not wish to make the payment yourself, we can make a payment with our [Ramp Credit Card](admin:credit-card).
-To do this, contact the {role}`Executive Director` or the {role}`Partnerships Lead`.
 
 ## What can be reimbursed?
 
@@ -46,3 +46,15 @@ Here is the process that we follow for this:
 1. Go to [the Ramp inbox](https://app.ramp.com/inbox). This should list any items that need action from you or others.
 2. If it is empty, then there's nothing to do!
 3. If it has items for Review, click on each one and follow the prompts to include any important missing information.
+
+## Send receipts to Ramp via e-mail
+
+Ramp has the ability to **automatically scan receipts via e-mail and attach them to purchases**.
+This can drastically speed up the process of approving recurring transactions.
+
+- Make a purchase with our Ramp.com card.
+- Use an e-mail that is attached to our ramp.com account.
+- Receive an e-mail with a receipt (e.g. as an attached PDF, or in-line text).
+- Forward the e-mail to `receipts@ramp.com`.
+
+Ramp should scan the e-mail and automatically attach the receipt to the proper expense.
