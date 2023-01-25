@@ -12,12 +12,12 @@ To propose an edit directly from the documentation, click {fab}`github` -> {fas}
 
 Below we describe the major sections in the Team Compass.
 
-## Functional Areas
+## Organizational documents
 
-Information broken down by major functional areas of 2i2c.
+These documents cover the whole organization and are relevant to everybody at 2i2c.
 
 ```{toctree}
-:caption: Functional Areas
+:caption: Organization wide
 :maxdepth: 2
 
 organization/index
@@ -25,17 +25,27 @@ operations/index
 people/index
 open-source/index
 finance/index
-engineering/index
-product/index
-community/index
-partnerships/index
 communication/index
 administration/index
 ```
 
+## Functional Areas
+
+Functional areas each have their own leads, goals, and structures.
+
+```{toctree}
+:caption: Functional Areas
+:maxdepth: 2
+
+engineering/index
+product/index
+community/index
+partnerships/index
+```
+
 ## Managed JupyterHubs Service
 
-Currently 2i2c oversees a single major effort, which is building a sustainable service to make interactive computing with open source infrastructure more accessible and scalable.
+2i2c oversees a single major effort, which is building a sustainable service to make interactive computing with open source infrastructure more accessible and scalable.
 We act as a cross-functional team around this service, and share many responsibilities and duties.
 We document some major aspects of this service in the sections below.
 

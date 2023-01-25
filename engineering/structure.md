@@ -1,33 +1,8 @@
 (engineering:structure)=
-# Structure and responsibilities
-
-This page describes the structure and roles of our Engineering team.
-
-## Responsibilities
-
-Below is a summary of the major responsibilities for this team.
-
-### Oversee our technical strategy
-
-- Define our major objectives and priorities.
-- Make major architectural decisions about our cloud infrastructure.
-
-### Operate our cloud infrastructure
-
-- Perform daily operation of ongoing cloud services, addressing technical problems as-needed.
-- Resolve operational issues related to our cloud infrastructure.
-- Oversee our [Incident Response process](../projects/managed-hubs/incidents.md).
-
-### Develop our cloud infrastructure
-
-- Improve the reliability and uptime of our infrastructure
-- Improve the scalability of our infrastructure to more users and more communities
-- Minimize toil and automate processes as much as possible
+# Teams and structure
 
 ```{team} Engineering Team
 ```
-
-## Team structure
 
 This team operates similarly to a **Site Reliability Engineering** team.
 It focuses most development efforts on improving the cloud infrastructure that supports our partner communities, rather than developing new features and technology for the use-cases we support.

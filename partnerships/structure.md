@@ -1,4 +1,4 @@
-# Structure and responsibilities
+# Structure and roles
 
 :::{note}
 This is still a work in progress!
