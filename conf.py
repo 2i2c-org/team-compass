@@ -1,4 +1,5 @@
 from pathlib import Path
+from subprocess import run
 
 # -- Project information -----------------------------------------------------
 
@@ -89,6 +90,9 @@ def setup(app):
     app.add_crossref_type("role", "role")
     app.add_crossref_type("team", "team")
 
+# -- Generate table of Support Stewards --------------------------------------
+
+run(["python", "_data/support_stewards/gene-support-stewards.py"])
 
 # -- Options for the rediraffe extension -------------------------------------
 # ref: https://github.com/wpilibsuite/sphinxext-rediraffe#readme
