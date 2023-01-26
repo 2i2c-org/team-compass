@@ -12,7 +12,7 @@ class SlackUsergroupMembers:
     def __init__(self):
         token = os.environ.get("SLACK_BOT_TOKEN", None)
         if token is None:
-            raise ValueError("SLACK_BOT_TOKEN must be provided!")
+            print("SLACK_BOT_TOKEN does not exist. Skipping Support Steward table generation...")
 
         self.client = WebClient(token=token)
 
