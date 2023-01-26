@@ -5,3 +5,4 @@ tmp/
 .DS_Store
 .nox
 __pycache__
+_data/support_stewards/*.txt

@@ -8,3 +8,6 @@ sphinx-copybutton
 sphinx-design
 sphinx-togglebutton
 sphinxext-rediraffe
+
+# Slack SDK for pulling Support Steward info
+slack-sdk
