@@ -107,6 +107,13 @@ Hub Administrators
   
 ```
 
+### Who are our Support Team?
+
+The Support Steward role rotates through the below Support Team members.
+
+```{include} ../../tmp/support-stewards.txt
+```
+
 ## Communication channels
 
 ### External communication
