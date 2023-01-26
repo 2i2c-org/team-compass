@@ -1,7 +1,7 @@
 import os
 from collections import OrderedDict
 from pathlib import Path
-from textwrap import dedent, indent
+from textwrap import dedent
 
 from slack_sdk import WebClient
 
@@ -105,7 +105,7 @@ def main():
     data_path = Path(__file__).parent
     support_stewards_file = data_path.joinpath("support-stewards.txt")
 
-    # Begin rST definition of grid with cards
+    # Begin MyST definition of grid with cards
     grid_md = dedent("""
         `````{grid} 1 2 3 3
         :gutter: 3
@@ -118,8 +118,7 @@ def main():
     # Add cards for the support stewards to the grid
     card_md = ""
     for user, avatar_url in usernames_and_avatars.items():
-        # Create the card rST. Needs to be indented underneath its parent
-        card_md += indent(
+        card_md += dedent(
             dedent(f"""
         ````{{grid-item-card}}
         :class-header: bg-light
@@ -137,7 +136,7 @@ def main():
     # Add the md for the sphinx design cards inside
     final_md = grid_md.format(card_md=card_md)
 
-    # Write an rST snippet to include in the docs
+    # Write the final snippet to include in the docs
     support_stewards_file.write_text(final_md + "\n")
 
 
