@@ -107,7 +107,7 @@ def main():
 
     # Begin MyST definition of grid with cards
     grid_md = dedent("""
-        `````{grid} 1 2 3 3
+        `````{{grid}} 1 2 3 3
         :gutter: 3
         :class-container: contributor-grid
 
