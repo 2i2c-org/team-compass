@@ -101,9 +101,11 @@ def main():
     slack = SlackUsergroupMembers()
     usernames_and_avatars = slack.get_users_in_usergroup("support-stewards")
 
-    # Set filepaths
-    data_path = Path(__file__).parent
-    support_stewards_file = data_path.joinpath("support-stewards.txt")
+    # Create a tmp dir and set filepaths
+    project_root = Path(__file__).resolve().parent.parent.parent
+    tmp_dir = project_root.joinpath("tmp")
+    tmp_dir.mkdir(parents=True, exist_ok=True)
+    support_stewards_file = tmp_dir.joinpath("support-stewards.txt")
 
     # Begin MyST definition of grid with cards
     grid_md = dedent("""
