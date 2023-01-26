@@ -106,17 +106,20 @@ def main():
     support_stewards_file = data_path.joinpath("support-stewards.txt")
 
     # Begin rST definition of grid with cards
-    snippet = dedent("""
-        ```{grid} 1 2 3 3
+    grid_md = dedent("""
+        `````{grid} 1 2 3 3
         :gutter: 3
         :class-container: contributor-grid
-        ```
+
+        {card_md}
+        `````
         """)
 
     # Add cards for the support stewards to the grid
+    card_md = ""
     for user, avatar_url in usernames_and_avatars.items():
         # Create the card rST. Needs to be indented underneath its parent
-        snippet += indent(
+        card_md += indent(
             dedent(f"""
         ````{{grid-item-card}}
         :class-header: bg-light
@@ -131,8 +134,11 @@ def main():
         ````
         """))
 
+    # Add the md for the sphinx design cards inside
+    final_md = grid_md.format(card_md=card_md)
+
     # Write an rST snippet to include in the docs
-    support_stewards_file.write_text(snippet + "\n")
+    support_stewards_file.write_text(final_md + "\n")
 
 
 if __name__ == "__main__":
