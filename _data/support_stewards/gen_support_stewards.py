@@ -107,9 +107,10 @@ def main():
 
     # Begin rST definition of grid with cards
     snippet = dedent("""
-        .. grid:: 1 2 3 3
-           :gutter: 3
-           :class-container: contributor-grid
+        ```{grid} 1 2 3 3
+        :gutter: 3
+        :class-container: contributor-grid
+        ```
         """)
 
     # Add cards for the support stewards to the grid
@@ -117,16 +118,18 @@ def main():
         # Create the card rST. Needs to be indented underneath its parent
         snippet += indent(
             dedent(f"""
-        .. grid-item-card::
-           :class-header: bg-light
-           :text-align: center
+        ````{{grid-item-card}}
+        :class-header: bg-light
+        :text-align: center
 
-           **{user}**
+        **{user}**
 
-           ^^^
+        ^^^
 
-           .. image:: {avatar_url}
-        """), "   ")
+        ```{{image}} {avatar_url}
+        ```
+        ````
+        """))
 
     # Write an rST snippet to include in the docs
     support_stewards_file.write_text(snippet + "\n")

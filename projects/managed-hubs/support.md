@@ -111,8 +111,7 @@ Hub Administrators
 
 The Support Steward role rotates through the below Support Team members.
 
-```{eval-rst}
-.. include:: ../../_data/support_stewards/support-stewards.txt
+```{include} ../../_data/support_stewards/support-stewards.txt
 ```
 
 ## Communication channels
