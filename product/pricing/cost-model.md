@@ -10,8 +10,8 @@ These are the most obvious costs that are tied directly to our Managed JupyterHu
 We break them into these categories:
 
 - **Cloud engineering and operations**. Deploying, configuring, and operating the cloud infrastructure.
-- **Cloud infrastructure support**. Operating our support channels and responsing to inquiries there, as well as responding to and resolving incidents.
-- **Community guidance**. Community guidance, documentation, and usecase training for our hubs. This includes communications and guidance for community representatives.
+- **Cloud infrastructure support**. Operating our support channels and responding to inquiries there, as well as responding to and resolving incidents.
+- **Community guidance**. Community guidance, documentation, and use case training for our hubs. This includes communications and guidance for community representatives.
 
 ## Impact costs
 

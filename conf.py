@@ -4,7 +4,7 @@ from subprocess import run
 # -- Project information -----------------------------------------------------
 
 project = "Team Compass"
-copyright = "2021, 2i2c"
+copyright = "2023, 2i2c"
 author = "2i2c"
 
 
