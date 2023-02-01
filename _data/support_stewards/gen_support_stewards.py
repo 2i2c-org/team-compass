@@ -1,4 +1,5 @@
 import os
+import sys
 from collections import OrderedDict
 from pathlib import Path
 from textwrap import dedent
@@ -12,7 +13,7 @@ class SlackUsergroupMembers:
     def __init__(self):
         token = os.environ.get("SLACK_BOT_TOKEN", None)
         if token is None:
-            print("SLACK_BOT_TOKEN does not exist. Skipping Support Steward table generation...")
+            raise ValueError("SLACK_BOT_TOKEN does not exist. Skipping Support Steward table generation...")
 
         self.client = WebClient(token=token)
 
@@ -98,7 +99,11 @@ class SlackUsergroupMembers:
 
 def main():
     # Get support stewards usernames and avatars
-    slack = SlackUsergroupMembers()
+    try:
+        slack = SlackUsergroupMembers()
+    except ValueError as err:
+        print(err)
+        sys.exit()
     usernames_and_avatars = slack.get_users_in_usergroup("support-stewards")
 
     # Create a tmp dir and set filepaths

@@ -1,18 +1,9 @@
-# Structure and responsibilities
+# Structure and roles
 
-## Scope and responsibilities
+2i2c's administration is largely provided as a service by various partners of 2i2c.
+See below for more information
 
-Our administration is tasked with carrying out ongoing activities that are required for 2i2c to functiona as an organization.
-This includes:
+## Fiscal Sponsor
 
-- Carrying out payments to team members
-- Reimbursing our expenses
-- Overseeing contracting with partner communities and collaborators
-- Overseeing grants and reporting requirements
-- Overseeing invoicing for partner communities that pay us
-- Accounting and some fiduciary oversight
-
-## Team structure and roles
-
-2i2c's administration is largely provided as a service by {term}`CS&S`.
+Our Fiscal Sponsor, {term}`CS&S`, provides back-end administration and support for many of 2i2c's operations.
 See [](css.md) for more information.

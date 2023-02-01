@@ -16,6 +16,48 @@ We nonetheless document these structures to understand how our work and responsi
 
 [^icsi]: It was originally founded as a project of the {term}`International Computer Science Institute`.
 
+## Organization-wide areas
+
+The following areas apply across the entire organization.
+They are led by the {role}`Executive Director` and responsibility is delegated to a variety of team members across the organization.
+
+- **[Operations](../operations/index.md)**: Oversees our systems for coordination, planning, and executing our work according to our goals.
+- **[People group](../people/index.md)**: Policies and practices for personnel, hiring, salaries, benefits, and time off.
+- **[Open Source](../open-source/index.md)**: Our upstream and open source engagement strategy to ensure we have healthy relationships with communities we rely on.
+- **[Finance](../finance/index.md)**: Our accounting and financial systems and strategy.
+- **[Communication](../communication/index.md)**: Strategy and practices for communicating 2i2c's impact and operations with external communities.
+- **[Administration](../administration/index.md)**: Carry out ongoing organizational tasks that are needed to keep 2i2c running on a daily basis.
+
+## Functional areas
+
+Functional areas are organized around _responsibilities, skills, and career tracks_.
+They have dedicated leads that are defined in the **Structure and roles** section of each area.
+
+Reporting lines are within a functional area, meaning that team members should report to somebody that has held a similar job in the past.
+
+% TODO: Each of these major areas should havea  `<NAME>/structure.md` page that describes that organization's structure and roles (or, a similar page with this information). We can link to each from here.
+
+- **[Engineering](../engineering/structure.md)**: Develop and operate our technical and cloud infrastructure, to ensure that it is reliable and scalable.
+- **[Product](../product/structure.md)**: Understand the perspective of our partner communities and guide the evolution of our infrastructure and services, in order to ensure they have a positive impact.
+- **[Community](../community/structure.md)**: Guide and support the partner communities that we serve, to help them utilize our infrastructure in a way that aligns with 2i2c's mission.
+- **[Partnerships](../partnerships/structure.md)**: Identify opportunities for impact, cultivate new relationships, and oversee our sustainability plan to ensure that we have sustainable and scalable impact.
+
+## Cross-functional teams
+
+Cross-functional teams consist of team members from various functional areas, and are organized around a specific _goal, service, or product_.
+Teams should generally have members with the right skills and authority to accomplish the entirety of the team's goal.
+They might be temporary or semi-permanent.
+
+Teams often **share a backlog** that describes their goals and work items, and may also **share a project manager** that oversees coordination and execution of work.
+
+They also often **have team meetings** to facilitate discussion and information flow across functional areas.
+
+There are two main teams within 2i2c, both revolving around major aspects of our Managed Hubs Service:
+
+- **Area leads**: Goal is to align on our major goals, strategy, and operations across the leaders of each functional area.
+- **Product and Engineering**: Goal is to design, develop, and improve the Managed JupyterHub Service technology and end-user experience.
+- **Community and Partnerships**: Goal is to cultivate relationships with new partnership communities, support and engage with our active partnerships, and use these relationships to feed into 2i2c's sustainability model.
+
 (structure:steerco)=
 (Steering Council)=
 ## Steering Council
@@ -37,7 +79,8 @@ It also provides oversight to the Executive Director.
 Ensures that 2i2c has the right strategy, structure, resources, and alignment to accomplish its mission.
 Oversees the creation of 2i2c's strategic planning and coordination, and actively engages the Steering Council and others at 2i2c in these efforts.
 
-The Executive Director oversees each functional area, and makes tie-breaking decisions if they are at an impasse in decision-making.
+The Executive Director oversees organizational areas that do not have their own lead, and oversees functional area leads.
+They make tie-breaking decisions if they are at an impasse in decision-making.
 
 ### Relationship to others
 
@@ -48,33 +91,3 @@ Group leads of 2i2c report to this role.
 They are currently the primary interface to {term}`CS&S` administration.
 
 **Membership**: The current Executive Director of 2i2c is listed on the [Our Team page of the website](https://2i2c.org/organization).
-
-## Functional areas
-
-Functional areas are organized around _responsibilities, skills, and career tracks_.
-Reporting lines are within a functional area, meaning that team members should report to somebody that has held a similar job in the past.
-
-% TODO: Each of these major areas should havea  `<NAME>/structure.md` page that describes that organization's structure and roles (or, a similar page with this information). We can link to each from here.
-
-- **[Engineering](../engineering/structure.md)**: Develop and operate our technical and cloud infrastructure, to ensure that it is reliable and scalable.
-- **[Product](../product/structure.md)**: Understand the perspective of our partner communities and guide the evolution of our infrastructure and services, in order to ensure they have a positive impact.
-- **Community**: Guide and support the partner communities that we serve, to help them utilize our infrastructure in a way that aligns with 2i2c's mission.
-- **Partnerships**: Identify opportunities for impact, cultivate new relationships, and oversee our sustainability plan to ensure that we have sustainable and scalable impact.
-- **[Operations](../operations/structure.md)**: Oversees our systems for coordination, planning, and executing our work according to our goals.
-- **[Administration](../administration/css.md)**: Carry out ongoing organizational tasks that are needed to keep 2i2c running on a daily basis.
-
-## Cross-functional teams
-
-Cross-functional teams consist of team members from various functional areas, and are organized around a specific _goal, service, or product_.
-Teams should generally have members with the right skills and authority to accomplish the entirety of the team's goal.
-They might be temporary or semi-permanent.
-
-Teams often **share a backlog** that describes their goals and work items, and may also **share a project manager** that oversees coordination and execution of work.
-
-They also often **have team meetings** to facilitate discussion and information flow across functional areas.
-
-There are two main teams within 2i2c, both revolving around major aspects of our Managed Hubs Service:
-
-- **Area leads**: Goal is to align on our major goals, strategy, and operations across the leaders of each functional area.
-- **Product and Engineering**: Goal is to design, develop, and improve the Managed JupyterHub Service technology and end-user experience.
-- **Community and Partnerships**: Goal is to cultivate relationships with new partnership communities, support and engage with our active partnerships, and use these relationships to feed into 2i2c's sustainability model.

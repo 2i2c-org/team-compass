@@ -1,4 +1,4 @@
-# Job titles
+# Job titles and levels
 
 This describes the structure of our jobs across each group in the organization. They are inspired by the hiring/salary structure of several tech companies[^job-refs].
 
@@ -8,7 +8,7 @@ We are still building out these materials and role definitions, so this structur
 
 ## Jobs and roles definitions
 
-Official roles and job descriptions are defined within the **Structure and Responsibilities** section of each functional area.
+Official roles and job descriptions are defined within the **Structure and roles** section of each functional area.
 The members of each functional area define the responsibilities, skills, and reporting structure of these roles.  
 
 ## Terminology and structure

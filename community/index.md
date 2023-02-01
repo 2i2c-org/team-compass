@@ -9,6 +9,7 @@ See [this blog post](https://2i2c.org/blog/2022/job-product-community-lead/) for
 :::
 
 ```{toctree}
+overview
 structure
 workflow
 freshdesk

@@ -1,22 +1,17 @@
-# Structure and responsibilities
+# Structure and roles
 
 :::{note}
 This is still a work in progress!
 :::
 
+The Community team at 2i2c is led by our {role}`Product and Community Lead`.
 
-## Structure
-
-Currently the Community team at 2i2c is made up of one {role}`Community Guidance Lead`, who collaborates closely with the {role}`Partnerships Lead` in planning and coordination.
-
-They also collaborate with our [Engineering Team](../engineering/structure.md) to bring community perspectives into our planning and prioritization.
-
-## Roles
+Below are major roles and teams...
 
 ```{role} Product and Community Lead
 ```
 
-### Product and Community Lead
+## Product and Community Lead
 
 There are three key goals for this role:
 
@@ -24,7 +19,7 @@ There are three key goals for this role:
 - Guide our development and service design to reflect the needs of our users.
 - Develop the organizational strategy and structure needed to accomplish these goals within 2i2c.
 
-#### Rationale
+### Rationale
 
 Solely providing infrastructure to communities via an engineering team is not enough. Working with the modern open source stack, using the cloud to its advantage, and bringing these tools into specific domains requires a lot of extra experience and expertise.
 We believe that 2i2c is in a good position to **provide guidance and support to leaders in the communities that we serve**, allowing them to get up-to-speed with the infrastructure more effectively so that they can have an impact.
@@ -34,7 +29,7 @@ A team of engineers tends to focus on code and infrastructure, and having a role
 The skills, interests, and career paths for interfacing with communities, guiding them, and participating in design and prioritization efforts with engineers are significantly different from engineering track jobs.
 As such, this role will lead efforts around a new _class_ of jobs within 2i2c: Product and Community.
 
-#### Qualities and experience
+### Qualities and experience
 
 We are still defining the qualities and experience for this role, but below are a few abstract qualities that will make somebody succeed in this role.
 
@@ -43,7 +38,7 @@ We are still defining the qualities and experience for this role, but below are 
 - Demonstrated experience in growing and guiding organizations and teams that do technical development or service work (e.g., 3+ years as a manager or organizational leadership role).
 - Extensive experience with open source workflows, research and educational contexts, and an understanding of the value that hosted infrastructure provides.
 
-#### Responsibilities and Expectations
+### Responsibilities and Expectations
 
 We are still developing the responsibilities and expectations for the role, and will revisit this as we've come to a better understanding of them.
 
@@ -60,13 +55,13 @@ Here is a short list of relevant ideas. Note that this role may do many of these
 - As resources are available, manage and mentor other team members within Product and Community at 2i2c.
 - Interface with the Partnerships Lead to incorporate sustainability in the design and evolution of our services.
 
-#### Salary rationale
+### Salary rationale
 
 This is a leadership-level role within 2i2c and focused on Product and Community work. As such we should use the GuideStar salary criteria for the “top” position in a relevant category. It should be appropriate for an early-mid career leader who has demonstrated some experience in the organizational aspects needed to succeed in this role.
 
 We'll plan to use the **Top Program Position** job category within GuideStar to define the base salary for this role. The median base salary for this role is $122,000 as of now (mid-2022).
 
-#### Appendix: Inspiration for the role
+### Appendix: Inspiration for the role
 
 Here are a few roles that provided inspiration for this position:
 
@@ -85,7 +80,3 @@ Other comparable titles:
 - Community Success Lead
 - Infrastructure Impact Lead
 - Community Advocate Lead
-
-## Membership
-
-See [list of team members](../reference/team.md).

@@ -3,6 +3,7 @@
 These sections describe our external communications strategy and operations.
 
 ```{toctree}
+overview
 strategy
 blog
 social

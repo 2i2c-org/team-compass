@@ -1,24 +1,25 @@
-(engineering:structure)=
-# Teams and structure
-
 ```{team} Engineering Team
 ```
+
+(engineering:structure)=
+# Structure and roles
+
+Engineering is led by our {role}`Technology Lead` and {role}`Engineering Manager`.
+They define our technical priorities at any moment, and communicate these priorities to others on the team.
 
 This team operates similarly to a **Site Reliability Engineering** team.
 It focuses most development efforts on improving the cloud infrastructure that supports our partner communities, rather than developing new features and technology for the use-cases we support.
 It balances a combination of **operations** and **development** focused around our cloud infrastructure.
 
-Our **Technical Lead** and **Team Lead** define our technical priorities at any moment, and communicate these priorities to others on the team.
 They are expected to coordinate with other leads within 2i2c in order to ensure that our technical priorities reflect our organizational priorities for impact.
 Our **Project Manager** ensures that we have an efficient system for coordinating and planning our work, and **our engineering team** carries out most technical implementaitons and operations for 2i2c.
 
-(engineering:roles)=
-## Team roles
+Below are major roles and teams...
 
 ```{role} Engineering Manager
 ```
 
-### Engineering Manager
+## Engineering Manager
 
 :::{note}
 This role is a work-in-progress,
@@ -31,12 +32,16 @@ This role is currently un-filled.
 ```{role} Technology Lead
 ```
 
-### Technology Lead
+## Technology Lead
 
 The Senior Open Source Infrastructure Engineer (SOSIE) role is designed to help guide our team and cultivate a healthy and productive culture.
 It is heavily inspired by [On being a senior engineer](https://www.kitchensoap.com/2012/10/25/on-being-a-senior-engineer/).
 
-This role focuses their efforts on our infrastructure, but spends a lot of their time guiding others, focusing on particularly complex infrastructure design and development, and interfacing with other teams and stakeholder communities to help guide our development. Below is a short list of expectations for this role.
+This role focuses their efforts on our infrastructure, but spends a lot of their time guiding others, focusing on particularly complex infrastructure design and development, and interfacing with other teams and stakeholder communities to help guide our development.
+
+### Responsibilities
+
+Below is a short list of expectations for this role.
 
 - Solve complex technical problems with **broad, cross-project scope**, often
   involving co-ordination with multiple teams across different open source
@@ -58,17 +63,33 @@ This role focuses their efforts on our infrastructure, but spends a lot of their
 
 **Membership**: This role is currently filled by `@yuvipanda` on a volunteer basis.
 
+
+```{role} Project Manager
+```
+
+### Engineering Project Manager
+
+Coordinates our system of work for operational and technical priorities in the {team}`Engineering Team`.
+This role refines our goals to be more concrete and actionable, and coordinates and assigns work to team members in order to ensure we are carrying out our priorities in a timely fashion.
+
+:::{note}
+We are piloting this role.
+See [this GitHub issue](https://github.com/2i2c-org/team-compass/issues/398) for our plans and experience with this pilot thus far.
+:::
+
+`@damianavila` currently serves as the Engineering Project Manager.
+
 ```{role} Open Source Infrastructure Engineer
 ```
 ```{role} Engineer
 ```
 
-### Open Source Infrastructure Engineer
+## Open Source Infrastructure Engineer
 
 An Open Source Infrastructure (OSIE) focuses on infrastructure that supports interactive computing.
 It intersects job titles such as “dev-ops engineer”, “site reliability engineer”, “software engineer”, and “cloud engineer”.
 
-#### Key responsibilities
+### Key responsibilities
 
 - Ensure the reliable operation of the 2i2c infrastructure (leveraging production-ready cloud-based tools such as JupyterHub, BinderHub and Dask).
 - Resolve operational issues that are surfaced by our support team
@@ -76,7 +97,7 @@ It intersects job titles such as “dev-ops engineer”, “site reliability eng
 - Participate in upstream open source communities we rely on (such as JupyterHub, BinderHub, Dask, etc) in partnership with the established leaders of those communities and collaborate with the Community Lead in the education and outreach around cloud computing.
 - Work with a distributed and global team - team members are given a lot of autonomy, and expected to be proactive at communicating with one another and working with others to allocate effort that will maximize our impact.
 
-#### Necessary qualities
+### Necessary qualities
 
 - Experience with deploying applications on cloud infrastructure.
 - Experience deploying and developing with Linux container-based technologies, such as Docker and Kubernetes.
@@ -85,7 +106,7 @@ It intersects job titles such as “dev-ops engineer”, “site reliability eng
 - Experience collaborating and coordinating work via online platforms, such as GitHub, GitLab, or BitBucket, and distributed revision control.
 - Experience working with distributed service teams that use asynchronous methods of communication
 
-#### Useful qualities
+### Useful qualities
 
 - Experience with major cloud providers.
 - Experience in programming and software engineering with a track record of leadership in open, collaborative projects with broad community adoption.

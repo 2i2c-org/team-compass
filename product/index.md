@@ -4,6 +4,7 @@ Product at 2i2c is responsible for guiding the evolution of our services and pro
 They work alongside engineering teams to define ways in which we aim to improve our services, and to prioritize deliverables according to their impact.
 
 ```{toctree}
+overview.md
 structure.md
 workflow.md
 pricing/strategy

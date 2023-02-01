@@ -37,6 +37,7 @@ Functional areas each have their own leads, goals, and structures.
 :caption: Functional Areas
 :maxdepth: 2
 
+leads/index
 engineering/index
 product/index
 community/index

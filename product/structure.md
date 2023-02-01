@@ -1,3 +1,5 @@
-# Team structure and roles
+# Structure and roles
 
-We do not have a dedicated team or role for this part of 2i2c, it is overseen by the {role}`Product and Community Lead`.
+Our product area is led by the {role}`Product and Community Lead`.
+
+We do not currently have any other formal roles or teams within it.
