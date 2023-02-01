@@ -6,13 +6,11 @@ detail. Well structured documentation aimed at different audiences is
 essential to 2i2c's long term health. This document lists the audiences
 we serve, what type of docs they might expect, and where we provide them.
 
-## Audiences
-
 For each feature we add or change we make, we should create & update
 documentation for all of these audiences, as applicable. There are a
 few key audiences that are outlined below.
 
-### The general public
+## The general public
 
 People visit our website to learn about us, and investigate if we could
 be of use to them. Communicating what value we can add to them is
@@ -21,7 +19,7 @@ extremely important, so any feature we write should be integrated into
 be on the value we can add to potential users, and should link to
 other kinda documentation for more detail if needed.
 
-### Hub users
+## Hub users
 
 Ultimately, our hubs are built to serve researchers, students and instructors.
 These are our *end users*, and they need to be able to
@@ -48,7 +46,7 @@ We should provide at least the following kinds of documentation:
 This documentation should exist in the [2i2c-org/docs](https://github.com/2i2c-org/docs)
 repository, available at [docs.2i2c.org](https://docs.2i2c.org)
 
-### Hub administrators
+## Hub administrators
 
 Hub administrators are the interface between the 2i2c engineers running
 the hub and the actual users of the hub. They are usually a part of the
@@ -75,7 +73,7 @@ of documentaiton.
 This documentation should exist in the [2i2c-org/docs](https://github.com/2i2c-org/docs)
 repository, available at [docs.2i2c.org](https://docs.2i2c.org/)
 
-### 2i2c engineers
+## 2i2c engineers
 
 These are folks tasked with building, maintaining, debugging and fixing
 2i2c infrastructure. Documentation targetting them should be in
