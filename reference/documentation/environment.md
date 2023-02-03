@@ -12,7 +12,7 @@ Setting up your documentation environment locally is not required.
 ## Install Python
 
 First, you'll need to install **Python 3**.
-The easiest way to do this is by [installing `minioconda`](https://conda.io/projects/conda/en/stable/user-guide/install/index.html).
+The easiest way to do this is by [installing `miniconda`](https://conda.io/projects/conda/en/stable/user-guide/install/index.html).
 This will give you a lightweight Python installation on your machine.
 
 ## Install `git`
