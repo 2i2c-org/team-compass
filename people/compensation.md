@@ -22,7 +22,7 @@ Below are a few guiding principles of our salary policy:
 - **Transparent compensation by role**. Our salaries, benefits, and the roles that they are attached to should be available to all.
 - **Fixed salaries for a role**. We do not negotiate salaries within a given role.
   Salaries are fixed for a given role and tenure[^tidelift].
-- **Equal pay for equal work**. We practice [equal pay for equal work](https://en.wikipedia.org/wiki/Equal_pay_for_equal_work) across our team. Salaries do not distinguish between geographic location or cost of living.
+- **Equal pay for equal work**. We practice [equal pay for equal work](https://en.wikipedia.org/wiki/Equal_pay_for_equal_work) across our team. Salaries do not distinguish between geographic location or cost of living and are benchmarked against North American salaries in the non-profit tech sector.
 
 [^tidelift]: This is because we believe that allowing negotiation introduces bias that benefits individuals who are more confident, aggressive, or experienced. This also correlates heavily with demographics and personal qualities that are not tied to the ability to do the job well. Instead we try to be as transparent as possible for the rationales at a given level. See [the Tidelift blog post on their no-negotiation policy for salaries](https://blog.tidelift.com/why-we-have-a-no-negotiation-policy-at-tidelift) for one rationale for this practice, and [this blog post for an argument *against* negotiation bans](https://www.shrm.org/hr-today/news/hr-magazine/Pages/0915-salary-negotiation-bans.aspx).
 
