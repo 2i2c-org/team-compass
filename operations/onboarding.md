@@ -1,18 +1,24 @@
 # Getting started and onboarding
 
 This is a short guide for welcoming new team members to the 2i2c team.
-Its goal is to give others an idea for where to look for information and how to familiarize themselves with our structure and processes.
+Its goal is to give newcomers an idea for where to look for information and how to familiarize themselves with our structure and processes.
 
 :::{admonition} Don't try to learn all of this at once!
 2i2c is a distributed organization, which means that we rely **heavily** on documentation.
 Don't worry about figuring it all out immediately - this guide will try to focus on the most important parts to get started.
 :::
 
-## The onboarding process
+As with many things at 2i2c, our onboarding process involves a lot of documentation as well as asynchronous communication with other team members.
+Here's a rough breakdown of the process:
 
-First off, here's the process we follow when onboarding new team members.
+- An **onboarding champion** will help welcome you and assist you through the process.
+- You should **get the right accounts and access** to be able to start working with our team.
+- You should **read about our approach to documentation** so that you know what to expect and where to find information.
+- You should **read about about our workflows** to be able to start working with us.
 
-When a new team member joins, follow these two steps first:
+::::{admonition} To-do for the hiring manager
+The hiring manager that led somebody's hire is in charge of setting up the onboarding process for them.
+These are the steps that you need to follow:
 
 1. **Identify an Onboarding Champion**. This is somebody that will help guide the onboarding process for our new team member.
    Their job is to carry out the process described in the onboarding issue template.
@@ -23,6 +29,25 @@ When a new team member joins, follow these two steps first:
    :color: primary
    Open an onboarding issue
    ```
+::::
+
+
+(onboarding:champion)=
+## Get an onboarding champion
+
+You should have an onboarding champion that will help you navigate the onboarding process.
+Feel free to ask them any questions that may come up, especially if something is unclear or under-documented.
+We usually improve our onboarding documentation _while onboarding a new team member_.
+
+:::{admonition} For the 2i2c hiring manager
+The hiring manager that led the new hire is in charge of finding an onboarding champion for the new team member.
+Reach out to them if you're not sure who is your onboarding champion.
+:::
+
+(onboarding:access)=
+## Get access to the right accounts
+
+
 
 ## Our documentation structure
 
