@@ -20,6 +20,8 @@ def docs(session):
         cmd = ["sphinx-autobuild"]
         for folder in AUTOBUILD_IGNORE:
             cmd.extend(["--ignore", f"*/{folder}/*"])
+        # This will find an open port
+        cmd.extend(["--port", "0"])
     else:
         cmd = ["sphinx-build"]
     cmd.extend(build_command + session.posargs)
