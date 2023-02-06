@@ -13,9 +13,9 @@
 
 ### Arc of Partnership Formation
 
-The procedures describe action sequences our team will carry out as expression of interest in 2i2c evolves through pphases Lead --> Prospect --> Partner: 
+The procedures describe action sequences our team will carry out as expression of interest in 2i2c evolves through phases Lead --> Prospect --> Partner: 
 
-+ A _Lead_ is a contact with possible interest in a partnership with 2i2c. A lead is _qualified_ when the contact is connected to an organization that can enter agreements with CS&S/2i2c. 2i2c's main goal during the _lead phase_ is to empower the lead to decide whether to partner with 2i2c. The lead phase ends with a "verbal close" `no` or advances to the next phase. 
++ A _Lead_ is a contact with possible interest in a partnership with 2i2c. A lead is _qualified_ when the contact is connected to an organization that can enter agreements with CS&S/2i2c. 2i2c's main goal during the _lead phase_ is to empower the lead to decide whether to partner with 2i2c. The lead phase ends with a "verbal close" `no` or advances to the next phase with a `yes`. 
 + A qualified lead becomes a _Prospect_ after a "verbal close" `yes` to form a partnership. The `prospect phase` involves two parallel activities: business terms of the partnership are negotiated in the service agreement and accompanying documents; technical exchanges specify details and the requested services are deployed. The prospect phase ends with an "executed close" when the service agreement is fully signed by all parties in the partnership. 
 + A _Partner_ is an organization that has a signed agreement with 2i2c/CS&S.
 
