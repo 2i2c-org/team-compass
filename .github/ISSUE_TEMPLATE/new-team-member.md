@@ -21,6 +21,7 @@ The **Onboarding champion** should follow the checklist below to onboard a new t
 **Accounts**
 
 - [ ] Make a `@2i2c.org` GMail account for them.
+  - Note that this requires [access to the Admin Panel](https://compass.2i2c.org/en/latest/administration/google-workspace.html?highlight=workspaces#access-and-permissions), a permission held by any 2i2c team lead
 - [ ] Add to [the proper GitHub team](https://github.com/orgs/2i2c-org/teams/2i2c-team)
 - [ ] Add to [the proper Slack group](https://2i2c.slack.com/admin/user_groups)
 - [ ] Add them to the proper Google group in our Google Admin space.
