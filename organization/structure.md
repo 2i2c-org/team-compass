@@ -65,9 +65,11 @@ There are two main teams within 2i2c, both revolving around major aspects of our
 The Steering Council defines the mission, vision, and values of 2i2c.
 It also provides oversight to the Executive Director.
 
-**Membership**: [Listed on the 2i2c website](https://2i2c.org/organization).
+It has a more unique structure and role within 2i2c, and is documented at the link below.
 
-**Communication**: The Steering Council Google group ([`steering-council@2i2c.org`](mailto:steering-council@2i2c.org)) is the only “official” way to communicate with others on the Steering Council.
+```{toctree}
+steering-council.md
+```
 
 ```{role} Executive Director
 ```

@@ -5,8 +5,8 @@ These sections have information about accounts, technology, and practices that a
 ```{toctree}
 overview
 structure
-strategy
 workflow
+strategy
 access
 secrets
 reviewing

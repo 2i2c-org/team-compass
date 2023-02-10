@@ -1,6 +1,4 @@
-# Accounting and budget projections
-
-## Accounting information
+# Accounting information
 
 Accounting information describes the money that we **know** we have spent or that we **highly expect** to receive.
 There are a few kinds of accounting data we have access to:

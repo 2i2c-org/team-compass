@@ -10,5 +10,4 @@ sources
 meetings
 communication
 team-compass
-remote
 ```

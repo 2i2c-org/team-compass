@@ -3,6 +3,7 @@
 
 This section describes how our leadership team carries out its planning and day-to-day work.
 
+(leads:meeting:organizational-strategy)=
 ## Meeting for organizational strategy
 
 We have a bi-weekly **Organization and strategy meeting** for to discuss and refine major priorities across the organization.

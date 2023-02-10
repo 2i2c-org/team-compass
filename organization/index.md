@@ -8,7 +8,7 @@ Organization-wide strategy, policy, and structure.
 ../code-of-conduct/index.md
 mission
 kpis
-strategy
 structure
+strategy
 governance
 ```

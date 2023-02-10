@@ -11,6 +11,10 @@ This section describes how our development team carries out its planning and day
 👉 [Here's a link to all GitHub Issues that are open but are not (yet) being tracked on a Project Board](https://github.com/search?q=is%3Aissue+org%3A2i2c-org+archived%3Afalse+is%3Aopen+no%3Aproject)
 :::
 
+(coordination:decisions)=
+## Pull request workflow
+
+See [](development:merge-policy).
 
 (coordination:sprints)=
 ## Team Sprints
