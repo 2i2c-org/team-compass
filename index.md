@@ -68,7 +68,7 @@ Reference and archival information for our teams.
 :maxdepth: 2
 reference/calendar.md
 reference/team.md
-reference/docs-structure.md
+reference/documentation/overview.md
 reference/terminology.md
 reference/inspiration.md
 ```
