@@ -12,6 +12,7 @@ def docs(session):
     if "live" in session.posargs:
         session.posargs.pop(session.posargs.index("live"))
         session.install("sphinx-autobuild")
+        # Add folders to ignore
         AUTOBUILD_IGNORE = [
             "_build",
             "build_assets",
@@ -20,6 +21,9 @@ def docs(session):
         cmd = ["sphinx-autobuild"]
         for folder in AUTOBUILD_IGNORE:
             cmd.extend(["--ignore", f"*/{folder}/*"])
+
+        # Find an open port to serve
+        cmd.extend(["--port", "0"])
     else:
         cmd = ["sphinx-build"]
     cmd.extend(build_command + session.posargs)
