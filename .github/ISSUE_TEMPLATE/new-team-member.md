@@ -42,7 +42,7 @@ Follow the checklist below to onboard a new team member!
 **External**
 
 - [ ] Add to [2i2c website](https://2i2c.org/organization/)
-- [ ] Tweet about their arrival!
+- [ ] Mention their arrival on social media! (Twitter, Mastodon, LinkedIn)
 
 **Wrap up**
 
