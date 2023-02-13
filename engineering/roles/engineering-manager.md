@@ -85,4 +85,4 @@ We are currently discussing our salary bands and levels [as per this proposal](h
 
 ## Acknowledgements
 
-Many thanks to **Madhu Viswanathan** and **Emma F** for providing feedback and suggestions about the overall structure and wording of this role description and our processes around hiring. Much of the language above was inspired from Zapier’s Site Reliability Engineering descriptions.
+Many thanks to **Madhu V** and **Emma F** for providing feedback and suggestions about the overall structure and wording of this role description and our processes around hiring. Much of the language above was inspired from Zapier’s Site Reliability Engineering descriptions.
