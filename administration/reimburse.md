@@ -25,23 +25,48 @@ There is a different process for employees vs. contractors, see below for more d
 If you're an employee, you can request a reimbursement via an invoice.
 To do so, [follow the CS&S reimbursement guide](https://www.codeforsociety.org/resources/getting-paid-by-css).
 
+There are two fields that are project-specific:
+
+- **project**: is `2i2c`.
+- **grant code**: See [](reimburse:grant-code).
+
+(reimbursements:invoice-template)=
+#### Invoice template
+
 [Here is an invoice template](https://docs.google.com/document/d/17aTwJkmYFXwqHa2QjYsy81hEXq64yfmo5g1SCGE6aK4/edit?usp=sharing) that you can copy and modify.
 It is designed for a contractor, so some fields may not be correct.
 Make the modifications needed to include the information requested in the CS&S link above.
-
-Most fields are self-explanatory, but you'll need to **get confirmation from the Executive Director about the grant code**.
-Each team member is paid from one or more grants so this helps CS&S know which account to draw from.
 
 (reimbursements:contractors)=
 ### Reimbursement for contractors
 
 To reimburse expenses as a contractor, **submit a separate line item on your monthly invoice**, called `Reimbursement - <item>`.
+[Here's an invoice template](reimbursements:invoice-template) you can re-use.
 
 :::{admonition} This must be written into your contract
 We need to include the following language in your contract to make this legal:
 
 > Expenses: Organization agrees to reimburse Independent Contractor for all expenses reasonably incurred in the performance of the Engagement and approved by Organization in advance, upon presentation of supporting receipts and documentation.
 :::
+
+(reimburse:grant-code)=
+## What is my grant code?
+
+Most reimbursements require a **grant code**.
+Each team member is paid from one or more grants so this helps CS&S know which account to draw from.
+The {role}`Executive Director` is the final say on which grant code is paying a given team member, but generally it is the same grant paying you over time.
+
+To find a list of grant codes:
+
+- Locate [our latest monthly account statement from CS&S](accounting:statements).
+- See the `Income Statement (Profit and Loss)` tab.
+- In the `Account` row, each item is a grant, it has the form:
+
+  ```none
+  MMM YYYY-MMM YYYY PROJECTNAME: GRANTCODE
+  ```
+
+  You want the value of `GRANTCODE`.
 
 ## What can be reimbursed?
 
