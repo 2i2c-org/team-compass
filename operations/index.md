@@ -6,6 +6,7 @@ This chapter describes some of the practices that we adopt towards these goals.
 ```{toctree}
 overview
 strategy
+governance
 sources
 meetings
 communication

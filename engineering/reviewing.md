@@ -37,10 +37,3 @@ Not all of them are followed strictly, though some are more important than other
 Changing active infrastructure is a bit different from developing technology that is not immediately in production.
 As such, we follow some more specific guidelines for these kinds of changes.
 See {ref}`infra:infrastructure:review`.
-
-## Policy for team compass changes
-
-If a change affects the 2i2c team policies, or makes significant changes to our documentation or public-facing material, then you should also follow these extra policies:
-
-- **Ensure that the team has consented**.
-  For any major change, you should make sure that you have followed best-practices in consent-based decision making. See [](development:decisions) for more information.

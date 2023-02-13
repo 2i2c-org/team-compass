@@ -1,6 +1,6 @@
 # Scope and responsibilities
 
-Engineering is responsible for all of our technical infrastructure, and for the teams and processes around cloud infrastructure for our {term}`Managed JupyterHub Service`.
+Engineering is responsible for all of our technical infrastructure, and for the teams and processes around cloud infrastructure for our **Managed JupyterHub Service**.
 
 ## Oversee our technical strategy
 

@@ -12,6 +12,8 @@ To propose an edit directly from the documentation, click {fab}`github` -> {fas}
 
 ## Structure of the Team Compass
 
+### Major sections
+
 The team compass is roughly divided into four sections:
 
 - [Organizational documents](index:organizational-documents) are relevant to the entire organization.
@@ -20,11 +22,14 @@ The team compass is roughly divided into four sections:
 - [Managed JupyterHub Service](index:hubs-service) is cross-functional documentation aimed at describing our Managed JupyterHub Service processes.
 - [Reference](index:reference) collects reference material, lists, and guides for doing many things across 2i2c.
 
+### Common pages in each section
+
 Each of our top-level sections tends to have one or more of the same four pages:
 
 - **Scope and responsibilities** (`overview.md`) describes the major focus areas and responsibility for this area.
 - **Structure and roles** (`structure.md`) describes any formal roles, job titles, and team structures for this area.
 - **Workflow** (`workflow.md`) describes how this area coordinates and works with one another.
+- **Governance** (`governance.md`) how this area makes decisions, and what roles have decision-making authority if any non-standard structure is used.
 - **Strategy** (`strategy.md`) describes the major approach that this area takes towards its work and accomplishing its goals.
 
 Below you'll find a list of the sections in our Team Compass.

@@ -10,5 +10,4 @@ mission
 kpis
 structure
 strategy
-governance
 ```
