@@ -2,17 +2,28 @@
 
 We use **Key Performance Indicators** to measure and track our progress and impact as an organization.[^1]
 These are tracked along with other important metrics in [our KPIs dashboard site](http://2i2c.org/kpis/).
+Here are links to the major sections of that site:
 
-```{button-link} https://2i2c.org/kpis/
-:color: primary
-Link to KPIs dashbaord
+````{grid}
+```{grid-item-card} Cloud and hub usage ☁️
+:link: https://2i2c.org/cloud
+
+Our currently running infrastructure and active users over time.
 ```
+```{grid-item-card} Accounting analysis 📈
+:link: https://2i2c.org/cloudfinances
+
+Our financial activity, including our costs and revenue broken down by category.
+```
+```{grid-item-card} Upstream support 💗
+:link: https://2i2c.org/cloudupstream
+
+Our contributions and activity in key upstream communities that we depend on and use.
+```
+````
 
 [^1]: See [the Fast Forward Playbook on Impact Measurement](https://www.ffwd.org/playbook/impact-measurement/) for an overview of frameworks and metrics to assess impact. Our approach is not quite as complex as this one, as we are intentionally starting simple.
 
-:::{admonition} Revisit after Q4 2022
-We are trying out this KPI process now, and should re-visit this process any time after Q4 2022 in order to reassess and make adjustments as needed.
-:::
 
 ## Goals and principles
 
@@ -57,12 +68,12 @@ They represent a positive outcome that is aligned with our mission as a result o
   - Source
 - - Communities served
   - The number of unique communities served with at least one hub in the last 6 months.
-  - [On our list of hubs page](https://infrastructure.2i2c.org/en/latest/reference/hubs.html)
+  - [Our cloud KPIs page](https://2i2c.org/kpis/cloud)
 - - Monthly Active Users
   - The number of unique users that have used one of our hubs over a 30-day rolling window.
-  - See this issue to track this effort: https://github.com/2i2c-org/infrastructure/issues/1888.
+  - [Our cloud KPIs page](https://2i2c.org/kpis/cloud)
 - - MAU percentiles
-  - The 10th, 50th, and 90th percentils of MAUs across all hubs.
+  - The 10th, 50th, and 90th percentiles of MAUs across all hubs.
   - See this issue to track this effort: https://github.com/2i2c-org/infrastructure/issues/1888
 ```
 
@@ -77,10 +88,10 @@ They represent a positive outcome that is aligned with our mission as a result o
   - Source
 - - Monthly revenue
   - Monthly revenue, broken down by category (grants, development contracts, cloud service contracts)
-  - See [our Accounting KPIs page](https://2i2c.org/kpis/finances.html)
+  - [Accounting KPIs page](https://2i2c.org/kpis/finances)
 - - Monthly operational costs
   - Monthly operational costs, broken down by category (engineering, partnerships and community, executive, fiscal fee, services)
-  - See [our Accounting KPIs page](https://2i2c.org/kpis/finances.html)
+  - [Accounting KPIs page](https://2i2c.org/kpis/finances)
 ```
 
 ## Aspirational KPIs
@@ -120,6 +131,10 @@ All of our KPIs thus far are focused on the communities we directly serve with c
 However, a secondary aspect of 2i2c's mission is to support open communities that underlie this infrastructure.
 We commit to doing most of our work by performing upstream contributions, and to support upstream projects in non-coding ways as well.
 While we do not currently track our upstream contributions, we aspire to track this information automatically as part of our self-assessment.
+
+```{note}
+We track some upstream activity in [our upstream KPIs page](https://2i2c.org/kpis/upstream).
+```
 
 ### Impact-centric KPIs
 
