@@ -13,14 +13,35 @@ To do this, contact the {role}`Executive Director` or the {role}`Partnerships Le
 ## Reimbursement process
 
 We do all of our reimbursements via our fiscal sponsor, {term}`CS&S`.
-Here is the process that we follow:
+There is a different process for employees vs. contractors, see below for more details.
 
-- **For employees**: Submit reimbursements via [Ramp](admin:reimbursement).
-- **For contractors**: Submit a separate line item on your monthly invoice, called `Reimbursement - <item>`
+```{contents}
+:local:
+```
 
-For contractors, we also need to include the following language in your contract:
+(reimbursements:employees)=
+### Reimbursement for employees
+
+If you're an employee, you can request a reimbursement via an invoice.
+To do so, [follow the CS&S reimbursement guide](https://www.codeforsociety.org/resources/getting-paid-by-css).
+
+[Here is an invoice template](https://docs.google.com/document/d/17aTwJkmYFXwqHa2QjYsy81hEXq64yfmo5g1SCGE6aK4/edit?usp=sharing) that you can copy and modify.
+It is designed for a contractor, so some fields may not be correct.
+Make the modifications needed to include the information requested in the CS&S link above.
+
+Most fields are self-explanatory, but you'll need to **get confirmation from the Executive Director about the grant code**.
+Each team member is paid from one or more grants so this helps CS&S know which account to draw from.
+
+(reimbursements:contractors)=
+### Reimbursement for contractors
+
+To reimburse expenses as a contractor, **submit a separate line item on your monthly invoice**, called `Reimbursement - <item>`.
+
+:::{admonition} This must be written into your contract
+We need to include the following language in your contract to make this legal:
 
 > Expenses: Organization agrees to reimburse Independent Contractor for all expenses reasonably incurred in the performance of the Engagement and approved by Organization in advance, upon presentation of supporting receipts and documentation.
+:::
 
 ## What can be reimbursed?
 
