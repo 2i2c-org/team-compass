@@ -13,13 +13,17 @@ kernelspec:
 
 # List of team members
 
-The 2i2c team is defined on [the `team/` page of our website](https://2i2c.org/team/).
+The 2i2c team is defined on [the `team/` page of our website](https://2i2c.org/organization/).
 Below is a summary of the people on that page.
 
 % The code below uses urllib and beautifulsoup to grab the HTML of the team section
-% defined at https://2i2c.org/team . It then directly places the HTML here
+% defined at https://2i2c.org/organization/ . It then directly places the HTML here
 % and applies some light styles to make it look nice. This way the team structure
-% here and on 2i2c.org/team is always in-sync.
+% here and on our website is always in-sync.
+%
+% TODO: We should define our organization's membership in a more structured and
+%   central place (like a CSV or YAML file) and re-use that information here
+%   and in our website.
 
 <style>
 .people-widget .avatar {
@@ -90,7 +94,7 @@ from bs4 import BeautifulSoup
 from IPython.display import HTML
 
 # Grab the latest HTML for our teams
-html = request.urlopen("https://2i2c.org/team/").read().decode()
+html = request.urlopen("https://2i2c.org/organization/").read().decode()
 people = BeautifulSoup(html, features="html.parser").select("div.people-widget")[0]
 
 # Replace links and image sources with 2i2c versions so they work
