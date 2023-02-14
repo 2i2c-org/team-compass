@@ -74,7 +74,7 @@ You’ve worked in one or more multi-stakeholder community-driven open source pr
 
 ## Salary rationale
 
-We are currently discussing our salary bands and levels [as per this proposal](https://github.com/2i2c-org/meta/issues/402#issuecomment-1419224044). According to that proposal (most likely to be implemented and already a reference for recent hires), the base salary associated with a Engineer Manager role (level 4) is $**151,200**.
+We are currently discussing our salary bands and levels for Engineering [as per this proposal](https://github.com/2i2c-org/meta/issues/402#issuecomment-1419224044). According to that proposal (most likely to be implemented and already a reference for recent hires), this role is currently associated with the base salary corresponding to an Engineer Manager (level 4) role: https://docs.google.com/spreadsheets/d/1D_-RzXhyWw8jFs7KQQXKVRV4VrmOyXjQni2UTnk1044/edit#gid=0.
 
 ## References
 
