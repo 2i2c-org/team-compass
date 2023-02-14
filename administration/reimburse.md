@@ -1,5 +1,5 @@
 (admin:reimbursement)=
-# Reimbursements with Ramp
+# Reimbursements and Ramp
 
 Our fiscal sponsor, {term}`CS&S`, use [a service called Ramp](https://ramp.com/) to handle all of our project billing and connect it with our grants.
 
@@ -10,63 +10,9 @@ We have an [organizational credit card](admin:credit-card) to purchase things di
 To do this, contact the {role}`Executive Director` or the {role}`Partnerships Lead`.
 :::
 
-## Reimbursement process
-
 We do all of our reimbursements via our fiscal sponsor, {term}`CS&S`.
 There is a different process for employees vs. contractors, see below for more details.
 
-```{contents}
-:local:
-```
-
-(reimbursements:employees)=
-### Reimbursement for employees
-
-If you're an employee, you can request a reimbursement via an invoice.
-To do so, [follow the CS&S reimbursement guide](https://www.codeforsociety.org/resources/getting-paid-by-css).
-
-There are two fields that are project-specific:
-
-- **project**: is `2i2c`.
-- **grant code**: See [](reimburse:grant-code).
-
-(reimbursements:invoice-template)=
-#### Invoice template
-
-[Here is an invoice template](https://docs.google.com/document/d/17aTwJkmYFXwqHa2QjYsy81hEXq64yfmo5g1SCGE6aK4/edit?usp=sharing) that you can copy and modify.
-It is designed for a contractor, so some fields may not be correct.
-Make the modifications needed to include the information requested in the CS&S link above.
-
-(reimbursements:contractors)=
-### Reimbursement for contractors
-
-To reimburse expenses as a contractor, **submit a separate line item on your monthly invoice**, called `Reimbursement - <item>`.
-[Here's an invoice template](reimbursements:invoice-template) you can re-use.
-
-:::{admonition} This must be written into your contract
-We need to include the following language in your contract to make this legal:
-
-> Expenses: Organization agrees to reimburse Independent Contractor for all expenses reasonably incurred in the performance of the Engagement and approved by Organization in advance, upon presentation of supporting receipts and documentation.
-:::
-
-(reimburse:grant-code)=
-## What is my grant code?
-
-Most reimbursements require a **grant code**.
-Each team member is paid from one or more grants so this helps CS&S know which account to draw from.
-The {role}`Executive Director` is the final say on which grant code is paying a given team member, but generally it is the same grant paying you over time.
-
-To find a list of grant codes:
-
-- Locate [our latest monthly account statement from CS&S](accounting:statements).
-- See the `Income Statement (Profit and Loss)` tab.
-- In the `Account` row, each item is a grant, it has the form:
-
-  ```none
-  MMM YYYY-MMM YYYY PROJECTNAME: GRANTCODE
-  ```
-
-  You want the value of `GRANTCODE`.
 
 ## What can be reimbursed?
 
@@ -84,8 +30,28 @@ Currently, these are the expenses that we regularly reimburse:
 - Personal development / training for skills that are directly related to team responsibilities.
 - Infrequent equipment purchases for team members (computers, desks, etc) provided they are within a reasonable spend amount.
 
-## How to approve transactions in Ramp
+(reimbursements:employees)=
+## Reimbursement for employees
 
+If you're an employee, you can request a reimbursement via an invoice.
+To do so, see [](invoices.md).
+
+(reimbursements:contractors)=
+## Reimbursement for contractors
+
+To reimburse expenses as a contractor, **submit a separate line item on your monthly invoice**, called `Reimbursement - <item>`.
+
+See [](invoices.md) for instructions on how to submit an invoice.
+
+:::{admonition} This must be written into your contract
+We need to include the following language in your contract to make this legal:
+
+> Expenses: Organization agrees to reimburse Independent Contractor for all expenses reasonably incurred in the performance of the Engagement and approved by Organization in advance, upon presentation of supporting receipts and documentation.
+:::
+
+## Reimbursement for our 2i2c credit card
+
+If you purchase something with our 2i2c credit card, the transaction will show up in Ramp.
 Someone with **Administrator privileges** in [our Ramp account](https://app.ramp.com/business-overview) must approve any transactions that are made with Ramp.
 Here is the process that we follow for this:
 
@@ -93,7 +59,7 @@ Here is the process that we follow for this:
 2. If it is empty, then there's nothing to do!
 3. If it has items for Review, click on each one and follow the prompts to include any important missing information.
 
-## Send receipts to Ramp via e-mail
+### Send receipts to Ramp via e-mail
 
 Ramp has the ability to **automatically scan receipts via e-mail and attach them to purchases**.
 This can drastically speed up the process of approving recurring transactions.
