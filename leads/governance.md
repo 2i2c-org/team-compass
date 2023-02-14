@@ -10,7 +10,7 @@ This means that most decisions are made by individuals without requiring a consu
 
 ### Within-area decisions
 
-For decisions that primarily affect their area and no others, team leads are empowered to make decisions on their own without requiring consent from other team members.
+For decisions that primarily affect their area and no others, team leads are empowered to make decisions within their own team without requiring consent from team members of other areas.
 However, they should make decisions transparently and inclusively, especially if they think another area will be interested in the decision.
 
 They are also empowered to _delegate_  scoped decision-making authority to others at 2i2c.
