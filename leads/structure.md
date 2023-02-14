@@ -1,6 +1,6 @@
 # Structure and roles
 
-The team leads is composed of leaders from various areas of 2i2c.
+The team leads group is composed of leaders from various areas of 2i2c.
 
 ## Team leads
 
