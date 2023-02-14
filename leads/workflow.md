@@ -6,7 +6,7 @@ This section describes how our leadership team carries out its planning and day-
 (leads:meeting:organizational-strategy)=
 ## Meeting for organizational strategy
 
-We have a bi-weekly **Organization and strategy meeting** for to discuss and refine major priorities across the organization.
+We have a bi-weekly **Organization and strategy meeting** to discuss and refine major priorities across the organization.
 See [our running notes for more information](https://drive.google.com/open?id=1HoNX8T8IQ1uhS2ryi1r9iS-nSbPT1b1Y7HsjosbHme8&authuser=1&usp=meetingnotes&showmeetingnotespromo=true).
 
 ## Strategic priorities board
@@ -20,7 +20,7 @@ We update this roughly every quarter.
 Strategic priorities
 ```
 
-## Backlog board
+## Organization-wide backlog
 
 We have a backlog to track organization-wide work items.
 These are generally championed by one of our leads, or by the executive director.

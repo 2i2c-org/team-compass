@@ -35,7 +35,6 @@ They have dedicated leads that are defined in the **Structure and roles** sectio
 
 Reporting lines are within a functional area, meaning that team members should report to somebody that has held a similar job in the past.
 
-% TODO: Each of these major areas should havea  `<NAME>/structure.md` page that describes that organization's structure and roles (or, a similar page with this information). We can link to each from here.
 
 - **[Engineering](../engineering/structure.md)**: Develop and operate our technical and cloud infrastructure, to ensure that it is reliable and scalable.
 - **[Product](../product/structure.md)**: Understand the perspective of our partner communities and guide the evolution of our infrastructure and services, in order to ensure they have a positive impact.
