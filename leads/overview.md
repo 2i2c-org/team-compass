@@ -1,6 +1,6 @@
 # Scope and responsibilities
 
-The Team Leads is a bit different than most other 2i2c teams.
+The Team Leads group is a bit different than most other 2i2c teams.
 It has a cross-organizational scope and focuses on high-level priorities, strategy, and ensures we are distributing attention and resources across the organization correctly.
 
 Team leads are representatives of their respective areas in 2i2c.
