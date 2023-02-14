@@ -7,6 +7,7 @@ This chapter contains administrative information at 2i2c.
 structure
 css
 reimburse
+invoices
 google-workspace
 github
 airtable
