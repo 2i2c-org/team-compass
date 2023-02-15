@@ -40,6 +40,7 @@ The **Onboarding champion** should follow the checklist below to onboard a new t
 
 _This is only relevant for others that are joining our Engineering team._
 
+- [ ] Add to 2i2c hubs as an admin
 - [ ] Add to appropriate Google Cloud projects
 - [ ] Add to appropriate AWS projects
 - [ ] Add to appropriate Azure projects
