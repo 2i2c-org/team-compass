@@ -82,7 +82,7 @@ This differs slightly depending on the repository, but it usually works like thi
 3. **Build the documentation with Sphinx**. Finally, you can build the documentation locally with Sphinx using a command like so:
 
    ```shell
-   sphinx-build docs docs/_build/html
+   sphinx-build -b dirhtml docs docs/_build/dirhtml
    ```
 
 See [the Sphinx documentation](https://www.sphinx-doc.org/en/master/) for more details.
