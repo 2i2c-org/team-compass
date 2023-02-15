@@ -6,17 +6,17 @@ Here are links to the major sections of that site:
 
 ````{grid}
 ```{grid-item-card} Cloud and hub usage ☁️
-:link: https://2i2c.org/cloud
+:link: https://2i2c.org/kpis/cloud
 
 Our currently running infrastructure and active users over time.
 ```
 ```{grid-item-card} Accounting analysis 📈
-:link: https://2i2c.org/cloudfinances
+:link: https://2i2c.org/kpis/finances
 
 Our financial activity, including our costs and revenue broken down by category.
 ```
 ```{grid-item-card} Upstream support 💗
-:link: https://2i2c.org/cloudupstream
+:link: https://2i2c.org/kpis/upstream
 
 Our contributions and activity in key upstream communities that we depend on and use.
 ```
