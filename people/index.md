@@ -8,7 +8,6 @@ This includes employment information, salary information, benefits, etc.
 expectations.md
 compensation.md
 hiring.md
-onboarding
 titles.md
 time-off.md
 ```
