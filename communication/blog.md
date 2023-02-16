@@ -24,21 +24,12 @@ Here are a few ideas for blog post topics for inspiration:
 - **Updates from the Managed JupyterHub Serivce**. As hub service infrastructure grows and evolves, and as we serve more communities with it, we should tell others about the impact we are having.
 - **Topic dives**. There may be particular topics that we want to write about, like open culture, cloud optimization, etc. These will help us crystallize our thoughts, demonstrate expertise, and share knowledge with others.
 
-
 ## Blog post checklist
 
-Here's a blog-post checklist to help us keep track of the major actions needed to publish a new post.
-Open an issue about your post and copy/paste this checklist into it.
+We have a blog post checklist that helps keep track of the major actions needed to post something and share it.
+Click the button below to find it.
 
-```
-- [ ] Write draft of blog post in markdown
-- [ ] Open a PR to the 2i2c.github.io repository and ask for feedback
-- [ ] Publish the post
-- [ ] Send out a series of tweets from the `2i2c_org` account that summarizes the post.
-- [ ] Tell the team about it and re-tweet!
-- [ ] Decide if this post is worthy for a mailing list update
-- [ ] If so, go to mailchimp.com and create a new email campain
-- [ ] Copy the post's content, paste it into the mailchimp interface
-- [ ] Send off the mailchimp campain
-- [ ] You're done! 🎉
+```{button-link} https://github.com/2i2c-org/team-compass/issues/new?assignees=&labels=%3Alabel%3A+blog-post&template=blog-post.md&title=%5Bblog%5D+POST+WORKING+TITLE
+
+Blog post issue template
 ```

@@ -19,5 +19,5 @@ title: "[blog] POST WORKING TITLE"
 - [ ] Post draft: {LINK} <!-- add a link to a URL when ready -->
 - [ ] Blog location: {LINK} <!-- E.g., the 2i2c blog or the Jupyter Blog -->
 - [ ] Publish to blog
-- [ ] Send out tweets and LinkedIn
-- [ ] Send to 2i2c listserv (optional)
+- [ ] Post on social media ([Twitter](https://twitter.com/2i2c_org), [Mastodon](https://hachyderm.io/@2i2c_org), and [LinkedIn](https://www.linkedin.com/company/2i2c-org/))
+- [ ] Send to 2i2c listserv (optional, generally this is for major updates)

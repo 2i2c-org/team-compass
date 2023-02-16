@@ -54,7 +54,7 @@ _This is only relevant for others that are joining our Engineering team._
 **External**
 
 - [ ] Add to [2i2c website](https://2i2c.org/organization/)
-- [ ] Tweet about their arrival!
+- [ ] Mention their arrival on social media! (Twitter, Mastodon, LinkedIn)
 
 **Wrap up**
 

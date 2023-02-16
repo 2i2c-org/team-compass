@@ -21,10 +21,20 @@ We just have not had the resources to plan for this kind of engagement.
 
 Our Twitter handle is ([@2i2c_org](https://twitter.com/2i2c_org)).
 Currently, there is nobody activately monitoring the Twitter account.
+If you'd like to use it please ask the team for access.
 
 **How to access**: We access this account via a shared `username`/`password`.
 If you'd like access, ask the {role}`Executive Director` or somebody else with access.
 It is possible to have [multi-user access to Twitter accounts via TweetDeck](https://twitter.com/settings/teams) but we have not yet set this up.
+
+## Mastodon
+
+Our Mastodon handle is (<a rel="me" href="https://hachyderm.io/@2i2c_org">@2i2c_org</a>).
+Currently, there is nobody actively monitoring the Mastodon account.
+If you'd like to use it please ask the team for access.
+
+**How to access**: We access this account via a shared `username`/`password`.
+If you'd like access, ask the {role}`Executive Director` or somebody else with access.
 
 ## LinkedIn
 
