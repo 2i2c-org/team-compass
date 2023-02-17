@@ -21,9 +21,9 @@ Turn these goals into a concrete plan, and oversee efforts to execute on this pl
 
 ## Collaborate across areas
 
-Share context and information across 2i2c's areas (especially with other area leads).
+Share context and information across 2i2c's areas (especially with other team leads).
 Align on shared priorities with other areas, and identify opportunities for areas to work together.
-Coordinate with area leads to ensure that we have the resourcing and capacity needed to do so.
+Coordinate with team leads to ensure that we have the resourcing and capacity needed to do so.
 
 ## Hold one another accountable
 

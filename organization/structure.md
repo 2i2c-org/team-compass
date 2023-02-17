@@ -6,8 +6,7 @@ Some links might be missing or in-the-works!
 :::
 
 This section describes the major structure of 2i2c and how it is broken into functional groups and teams.
-Note that 2i2c is a young and small organization, so many areas have a small number (or nobody) dedicated to work within them.
-We nonetheless document these structures to understand how our work and responsibilities are divided, and to provide a roadmap for new hires and division of labor.
+More detailed information about the structure and roles of each area is found in the `structure/` section of that area.
 
 (structure:fiscal-sponsor)=
 ## Fiscal sponsorship
@@ -53,7 +52,7 @@ They also often **have team meetings** to facilitate discussion and information 
 
 There are two main teams within 2i2c, both revolving around major aspects of our Managed Hubs Service:
 
-- **Area leads**: Goal is to align on our major goals, strategy, and operations across the leaders of each functional area.
+- **Cross-team leadership**: Goal is to align on our major goals, strategy, and operations across the leaders of each functional area.
 - **Product and Engineering**: Goal is to design, develop, and improve the Managed JupyterHub Service technology and end-user experience.
 - **Community and Partnerships**: Goal is to cultivate relationships with new partnership communities, support and engage with our active partnerships, and use these relationships to feed into 2i2c's sustainability model.
 
@@ -80,7 +79,7 @@ steering-council.md
 Ensures that 2i2c has the right strategy, structure, resources, and alignment to accomplish its mission.
 Oversees the creation of 2i2c's strategic planning and coordination, and actively engages the Steering Council and others at 2i2c in these efforts.
 
-The Executive Director oversees organizational areas that do not have their own lead, and oversees functional area leads.
+The Executive Director oversees organizational areas that do not have their own lead, and oversees team leads.
 They make tie-breaking decisions if they are at an impasse in decision-making.
 
 ### Relationship to others

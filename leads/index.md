@@ -1,4 +1,4 @@
-# Area leads
+# Cross-team leadership
 
 ```{toctree}
 overview.md
