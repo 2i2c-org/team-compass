@@ -40,7 +40,7 @@ Below are a few guidelines for travel reimbursements with 2i2c:
 - We'll cover the cost of lodging for the day before or after.
 - For international travel, we can cover an extra day before to give more time to adjust.
 - It is fine if you are arriving / leaving from two different locations (e.g., if you intend on making a side-trip after the event).
-  In this case, 2i2c will only cover the trip to / from the vent, not the third leg.
+  In this case, 2i2c will only cover the trip to / from the event, not the third leg.
 
 And some general tips:
 
