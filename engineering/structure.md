@@ -12,15 +12,13 @@ It focuses most development efforts on improving the cloud infrastructure that s
 It balances a combination of **operations** and **development** focused around our cloud infrastructure.
 
 They are expected to coordinate with other leads within 2i2c in order to ensure that our technical priorities reflect our organizational priorities for impact.
-Our **Project Manager** ensures that we have an efficient system for coordinating and planning our work, and **our engineering team** carries out most technical implementations and operations for 2i2c.
 
-Below are major roles and teams...
-
-## Roles
+(engineering:roles)=
+## Team roles
 
 ```{toctree}
-:maxdepth: 2
 :glob:
+:maxdepth: 2
 roles/*
 ```
 

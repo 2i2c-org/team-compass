@@ -77,14 +77,14 @@ A member of the 2i2c Partnerships Team sends an email to partnerships@2i2c.org r
 
 
 1. Send Canned Response "Hail the Lead" from FreshDesk to contact email(s):
-Start Email text:  
-Hello!
+   ```
+   Hello!
 
-Thank you for your interest in learning more about 2i2c. Please find a service description with pricing information attached to this email. If you have questions or wish to connect for a conversation, reach out to us by email using partnerships@2i2c.org or [schedule a virtual meeting by clicking here](https://calendly.com/colliand/25-minute-zoom-meeting). 
+   Thank you for your interest in learning more about 2i2c. Please find a service description with pricing information attached to this email. If you have questions or wish to connect for a conversation, reach out to us by email using partnerships@2i2c.org or [schedule a virtual meeting by clicking here](https://calendly.com/colliand/25-minute-zoom-meeting). 
 
-Best regards, 
-2i2c's Partnerships Team
-End Email text.
+   Best regards, 
+   2i2c's Partnerships Team
+   ```
 2. Change `From` field to `partnerships@2i2c.org`.
 3. Add cc: partnerships@2i2c.org
 4. Confirm that service description has been automatically attached

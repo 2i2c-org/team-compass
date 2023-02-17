@@ -1,5 +1,5 @@
 (admin:reimbursement)=
-# Reimbursements with Ramp
+# Reimbursements and Ramp
 
 Our fiscal sponsor, {term}`CS&S`, use [a service called Ramp](https://ramp.com/) to handle all of our project billing and connect it with our grants.
 
@@ -10,17 +10,9 @@ We have an [organizational credit card](admin:credit-card) to purchase things di
 To do this, contact the {role}`Executive Director` or the {role}`Partnerships Lead`.
 :::
 
-## Reimbursement process
-
 We do all of our reimbursements via our fiscal sponsor, {term}`CS&S`.
-Here is the process that we follow:
+There is a different process for employees vs. contractors, see below for more details.
 
-- **For employees**: Submit reimbursements via [Ramp](admin:reimbursement).
-- **For contractors**: Submit a separate line item on your monthly invoice, called `Reimbursement - <item>`
-
-For contractors, we also need to include the following language in your contract:
-
-> Expenses: Organization agrees to reimburse Independent Contractor for all expenses reasonably incurred in the performance of the Engagement and approved by Organization in advance, upon presentation of supporting receipts and documentation.
 
 ## What can be reimbursed?
 
@@ -38,8 +30,28 @@ Currently, these are the expenses that we regularly reimburse:
 - Personal development / training for skills that are directly related to team responsibilities.
 - Infrequent equipment purchases for team members (computers, desks, etc) provided they are within a reasonable spend amount.
 
-## How to approve transactions in Ramp
+(reimbursements:employees)=
+## Reimbursement for employees
 
+If you're an employee, you can request a reimbursement via an invoice.
+To do so, see [](invoices.md).
+
+(reimbursements:contractors)=
+## Reimbursement for contractors
+
+To reimburse expenses as a contractor, **submit a separate line item on your monthly invoice**, called `Reimbursement - <item>`.
+
+See [](invoices.md) for instructions on how to submit an invoice.
+
+:::{admonition} This must be written into your contract
+We need to include the following language in your contract to make this legal:
+
+> Expenses: Organization agrees to reimburse Independent Contractor for all expenses reasonably incurred in the performance of the Engagement and approved by Organization in advance, upon presentation of supporting receipts and documentation.
+:::
+
+## Reimbursement for our 2i2c credit card
+
+If you purchase something with our 2i2c credit card, the transaction will show up in Ramp.
 Someone with **Administrator privileges** in [our Ramp account](https://app.ramp.com/business-overview) must approve any transactions that are made with Ramp.
 Here is the process that we follow for this:
 
@@ -47,7 +59,7 @@ Here is the process that we follow for this:
 2. If it is empty, then there's nothing to do!
 3. If it has items for Review, click on each one and follow the prompts to include any important missing information.
 
-## Send receipts to Ramp via e-mail
+### Send receipts to Ramp via e-mail
 
 Ramp has the ability to **automatically scan receipts via e-mail and attach them to purchases**.
 This can drastically speed up the process of approving recurring transactions.
