@@ -24,6 +24,7 @@ The **Onboarding champion** should follow the checklist below to onboard a new t
 - [ ] Get member's ReadTheDocs.org account
 - [ ] Get member's Quay.io account
 - [ ] Get member's NameCheap.com account
+- [ ] Get member's PagerDuty account
 
 - [ ] Create a @2i2c.org Google account for them
 	- Note that this requires [access to the Admin Panel](https://compass.2i2c.org/en/latest/administration/google-workspace.html?highlight=workspaces#access-and-permissions), a permission held by any 2i2c team lead
@@ -31,6 +32,7 @@ The **Onboarding champion** should follow the checklist below to onboard a new t
 - [ ] Add to the proper [2i2c GitHub teams](https://github.com/orgs/2i2c-org/teams/)
 - [ ] Add to the proper [Slack groups](https://2i2c.slack.com/admin/user_groups)
 - [ ] Add to the proper [FreshDesk group](https://2i2c.freshdesk.com/a/admin/groups)
+- [ ] Add to propoer [PagerDuty Users group](https://2i2c-org.pagerduty.com/users-new)
 
 **Communication**
 
