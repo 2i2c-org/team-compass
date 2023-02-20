@@ -59,8 +59,8 @@ _This is only relevant for others that are joining our Engineering team._
   - [ ] Outside-organization project for [`cloudbank`](https://console.cloud.google.com/iam-admin/iam?project=cb-1003-1696)
   - [ ] Outside-organization project for [`meom-ige`](https://console.cloud.google.com/iam-admin/iam?project=meom-ige-cnrs)
   - [ ] Outside-organization project for [`callysto`](https://console.cloud.google.com/iam-admin/iam?project=callysto-202316)
-  - [ ] (optional) Outside-organization project for [`pange-hubs`](https://console.cloud.google.com/iam-admin/iam?project=columbia)
-    - An agreement has to be signed first, and they require a copy of our passports, see (TODO: clarify this)
+  - [ ] (optional) Outside-organization project for [`pangeo-hubs`](https://console.cloud.google.com/iam-admin/iam?project=columbia)
+    - An agreement has to be signed first, and they require a copy of our passports, see https://github.com/2i2c-org/meta/issues/247
 
 - [ ] Add to appropriate AWS projects
   - [ ] Management account [`2i2c-sandbox`](https://2i2c.awsapps.com/start/#/) (Grants SSO access at https://2i2c.awsapps.com/start#/)
@@ -69,7 +69,7 @@ _This is only relevant for others that are joining our Engineering team._
   - [ ] Outside-SSO account [`nasa-veda`](https://smce-veda.signin.aws.amazon.com/console)
     - An agreement has to be signed first, see https://github.com/2i2c-org/leads/issues/104
 - [ ] Add to appropriate Azure projects
-  - [ ] Outside-organization subscription for `utoronto` (TODO: figure out details here)
+  - [ ] Outside-organization subscription for `utoronto` see https://github.com/2i2c-org/team-compass/issues/386
 - [ ] Add to the [auth0 2i2c tenant](https://manage.auth0.com/dashboard/us/2i2c/tenant/admins)
 - [ ] Add to [quay.io 2i2c team](https://quay.io/organization/2i2c/teams/owners)
 - [ ] NameCheap administration privileges to `2i2c.org` and `2i2c.cloud`
