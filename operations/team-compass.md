@@ -1,4 +1,4 @@
-# About the Team Compass
+# About the team compass
 
 This is about our Team Compass, how to understand and read it, and how to make changes if you need.
 

@@ -5,3 +5,6 @@ tmp/
 .DS_Store
 .nox
 __pycache__
+
+# Assets generated at build
+_data/tmp

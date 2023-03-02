@@ -69,6 +69,7 @@ Define a meeting recorder at the beginning of each meeting.
 
 ## Types of meetings
 
+(meetings:content-meetings)=
 ### Content meetings
 
 Meetings for discussion to help us resolve uncertainty and make decisions more quickly.

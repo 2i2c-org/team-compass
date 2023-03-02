@@ -4,12 +4,12 @@ As a totally distributed team, it is important to have team practices that give 
 This chapter describes some of the practices that we adopt towards these goals.
 
 ```{toctree}
-structure
+overview
 strategy
+governance
 onboarding
 sources
 meetings
 communication
 team-compass
-remote
 ```

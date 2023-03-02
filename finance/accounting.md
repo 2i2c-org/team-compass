@@ -1,9 +1,18 @@
-# Accounting and budget projections
-
-## Accounting information
+# Accounting information
 
 Accounting information describes the money that we **know** we have spent or that we **highly expect** to receive.
 There are a few kinds of accounting data we have access to:
+
+All 2i2c-specific accounting documents should be accessible on our Team Drive to anybody with a `@2i2c.org` address.
+We don't control the access conditions for the CS&S documents described below, so if you don't have access to these, ask the {role}`Executive Director`.
+
+We split our financial and accounting data between two places:
+
+- [2i2c Drive Folder with our finance assets](https://drive.google.com/drive/folders/1D5NQKhPDP6zMQ8EdLcMOceTz-ek81nmX?usp=sharing) contains 2i2c-specific budgeting and modeling information. It is available to all team members.
+
+- [CS&S Drive Folder with their finance assets](https://drive.google.com/drive/folders/115EIa6cD4BNGIqOd2i7Rqu3MgsM73lgR?usp=sharing) contains assets that are stewarded by CS&S. It is available to 2i2c'c executive director.
+
+See these subsections below for more information about accounting data.
 
 (accounting:summary-tables)=
 ## Accounting summary tables
@@ -31,7 +40,7 @@ Accounting AirTable Workspace
 ```
 
 (accounting:statements)=
-### Raw accounting statements
+## Raw accounting statements
 
 We get monthly accounting reports from our fiscal sponsor, {term}`CS&S`.
 These are placed in a shared Google Drive that CS&S controls.
@@ -51,7 +60,7 @@ This means that they represent things that have actually happened, not things th
 
 There are two relevant tabs to the accounting statements:
 
-#### Tab: Account Transactions
+### Tab: Account Transactions
 
 An append-only list of every transaction that has been linked to 2i2c.
 There are a few relevant columns:
@@ -74,7 +83,7 @@ Grants
   There is a special persistent category called `2i2c: General`. This is a general fund where our contract revenue is placed and spent from. It is essentially "disposable income" with no strings attached.
 
 (accounting:income-statement)=
-#### Tab: Income statement
+### Tab: Income statement
 
 The income statement is a summary of our financial situation at a moment in time.
 It represents **realized funds**, meaning that **future transactions are not represented here**.
@@ -90,37 +99,6 @@ Grant columns
 
 `FSP: 2i2c`
 : The final column has the sum totals _across all of the other columns_. It is the highest-level summary of our financial situation that we've got.
-
-(accounting:projections)=
-## Budget projections
-
-We have a Google Sheet that can be used to create rough budget projections given some input data about our income and expenses.
-
-```{button-link} https://docs.google.com/spreadsheets/d/1zDO_kqnJ1PH3GWOMks5E_1oIpoAJgseWhj3oCohUVZk/edit#gid=929955044
-:color: primary
-
-Budget projections
-```
-
-Our budget projection model begins with a source of truth about our **current and historical costs and revenue**, and then projects into the future by making assumptions about these numbers.
-It allows us to manually specify costs and revenue in the future, if we **know** that they will happen.
-It also lets us specify repeating numbers each month, and a percentage growth rate for monthly recurring revenues.
-
-### Update our budget projections model
-
-As we get historical data from our accounting statements, we can overwrite the **projections** in this model with **data** from what we actually spend and make.
-To do this, use the [accounting statement table summaries](accounting:summary-tables) and update our budget projections numbers with the corresponding numbers in a given category.
-
-Generally speaking, **cells that are automatically computed are in grey**, while those that are hand-edited are not.
-We treat hand-edited cells as the source of truth.
-
-Here are values to update when we get new monthly accounting data from CS&S.
-
-% TODO: In the future, we should have a way to track "projections" and "actuals" separately
-%   but this is a stop-gap solution for now.
-
-- **Summary tab: Cash on Hand**. Our Cash on Hand is the source of truth for how much money we have each month. In the `Summary` section of the `Summary` tab, manually overwrite the automatically computed amount with the actual amount for the latest month.
-- **Expenses and income tab: Category actuals**. Our expenses tab sums category totals at the top. Overwrite these summary entries with our actual numbers in the accounting table, doing the best you can to map categories between the two.
 
 ## Common questions and how to answer them
 

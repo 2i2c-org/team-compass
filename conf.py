@@ -92,12 +92,10 @@ def setup(app):
     app.add_crossref_type("team", "team")
 
 # -- Generate table of Support Stewards --------------------------------------
-# This script requires the use of a token that is stored in the ReadTheDocs
-# environment. Hence let's only execute it if we are in an RTD build
-READTHEDOCS = os.environ.get("READTHEDOCS", False)
-if READTHEDOCS:
-    path_script = Path(__file__).parent / "_data/support_stewards/gen_support_stewards.py"
-    run(f"python {path_script}", shell=True)
+# This requires a token to be set, but will fail semi-gracefully if it is not.
+# The token exists in our RTD environmet so it should work there.
+path_script = Path(__file__).parent / "_data/support_stewards/gen_support_stewards.py"
+run(f"python {path_script}", shell=True)
 
 # -- Options for the rediraffe extension -------------------------------------
 # ref: https://github.com/wpilibsuite/sphinxext-rediraffe#readme

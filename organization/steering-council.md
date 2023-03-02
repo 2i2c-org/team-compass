@@ -1,36 +1,18 @@
-# Governance and decision making
 
-## The Team Compass is the Source of Truth
+(steerco:proposal-process)=
+# The steering council
 
-Organizational policy of 2i2c is defined by the content in this Team Compass.
-If there are conflicting pieces of information, then the version in the Team Compass takes precedence.
-The Team Compass may also delegate Source of Truth status to another location (and often does), but this should be explicitly documented here.
+The steering council is the ultimate authority of 2i2c.
+It holds our {role}`Executive Director` accountable, and provides major strategic guidance and oversight.
 
-See [](../operations/team-compass.md) for more information about our team compass.
+## Membership
 
-(development:decisions)=
-## How teams make decisions
+[Listed on the 2i2c website](https://2i2c.org/organization).
 
-Most decisions in 2i2c are made on-the-fly by subsets of 2i2c team members.
-We try to follow [consent based decision-making](https://thedecider.app/consent-decision-making) in making decisions[^consent-decision-making].
-This roughly means that:
+## Communication
 
-- The proposed decision and relevant context must be available to all relevant team members.
-  This is generally done via opening GitHub issues.
-- Team members should have time to understand the proposal, and ask questions about it to understand its ramifications.
-- Team members should have time to object and make suggested changes.
-- The result of the decision should be recorded somewhere that is available to all team members.
+The Steering Council Google group ([`steering-council@2i2c.org`](mailto:steering-council@2i2c.org)) is the only “official” way to communicate with others on the Steering Council.
 
-Generally speaking, this process is carried out via GitHub Issues and Pull Requests.
-See [](development:merge-policy) for how this works in practice.
-
-[^consent-decision-making]: Here are some helpful resources for more information about consent-based decision-making.
-
-    - A short primer: https://thedecider.app/consent-decision-making
-    - A more in-depth discussion: https://sociocracyforall.org/consent-decision-making/
-    - A well-known technical proposal on "Consent via humming": https://tools.ietf.org/html/rfc7282
-
-(proposal-process)=
 ## How the Steering Council makes decisions
 
 The Steering Council makes decisions via consensus (specifically, it strives for [rough consensus](https://tools.ietf.org/html/rfc7282)). It is restricted by the legal obligations and policies of {term}`CS&S`.
@@ -94,7 +76,7 @@ In addition to generally consulting the Steering Council when it is helpful, the
 
 ### Decisions that require a full steering council vote
 
-The [Steering Council](structure:steerco) defines the strategy and major direction of 2i2c. It must vote on major decisions that have strong implications for 2i2c’s strategy or financial well-being. See [the proposal process section](proposal-process) for information about how it votes.
+The [Steering Council](structure:steerco) defines the strategy and major direction of 2i2c. It must vote on major decisions that have strong implications for 2i2c’s strategy or financial well-being. See [the proposal process section](steerco:proposal-process) for information about how it votes.
 
 Here are some major decision areas that require a full steering council vote.
 

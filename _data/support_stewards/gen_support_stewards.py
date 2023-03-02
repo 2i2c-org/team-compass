@@ -1,4 +1,5 @@
 import os
+import sys
 from collections import OrderedDict
 from pathlib import Path
 from textwrap import dedent
@@ -12,7 +13,7 @@ class SlackUsergroupMembers:
     def __init__(self):
         token = os.environ.get("SLACK_BOT_TOKEN", None)
         if token is None:
-            print("SLACK_BOT_TOKEN does not exist. Skipping Support Steward table generation...")
+            raise ValueError("SLACK_BOT_TOKEN does not exist. Skipping Support Steward table generation...")
 
         self.client = WebClient(token=token)
 
@@ -97,15 +98,25 @@ class SlackUsergroupMembers:
 
 
 def main():
-    # Get support stewards usernames and avatars
-    slack = SlackUsergroupMembers()
-    usernames_and_avatars = slack.get_users_in_usergroup("support-stewards")
-
     # Create a tmp dir and set filepaths
-    project_root = Path(__file__).resolve().parent.parent.parent
-    tmp_dir = project_root.joinpath("tmp")
+    path_data_root = Path(__file__).resolve().parent.parent
+    tmp_dir = path_data_root.joinpath("tmp")
     tmp_dir.mkdir(parents=True, exist_ok=True)
     support_stewards_file = tmp_dir.joinpath("support-stewards.txt")
+
+    # Get support stewards usernames and avatars
+    try:
+        slack = SlackUsergroupMembers()
+    except ValueError as err:
+        # If we error, create a blank file so that Sphinx doesn't error on the {include}
+        if not support_stewards_file.exists():
+            support_stewards_file.write_text("```{warning} Slack data did not download.\n```")
+        print("Generating support stewards gallery encountered an error:")
+        print(err)
+        sys.exit()
+    usernames_and_avatars = slack.get_users_in_usergroup("support-stewards")
+
+
 
     # Begin MyST definition of grid with cards
     grid_md = dedent("""

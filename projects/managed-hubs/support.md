@@ -78,7 +78,7 @@ Guidance Requests
 
 Supporting a 2i2c hub is a collaborative process between 2i2c and the community we serve.
 
-The {term}`docs:Support Team` is one of the main teams in our {term}`docs:Managed JupyterHub Service Team`.
+The **Support Team** is one of the main teams in our **Managed JupyterHub Service Team**.
 
 This consists of three main roles: {term}`Support Stewards`, {term}`Community Representatives`, and {term}`Hub Administrators`.
 
@@ -101,11 +101,11 @@ Support Stewards
 
 Community Representative
 Community Representatives
-  See {term}`docs:Community Representative`.
+  See [the service documentation](https://docs.2i2c.org/en/latest/about/service/shared-responsibility.html#std-role-Community-Representative).
 
 Hub Administrator
 Hub Administrators
-  See {term}`docs:Hub Administrator`.
+  See [the service documentation](https://docs.2i2c.org/en/latest/about/service/shared-responsibility.html#std-role-Hub-Administrator).
   
 ```
 
@@ -113,7 +113,7 @@ Hub Administrators
 
 The Support Steward role rotates through the below Support Team members.
 
-```{include} ../../tmp/support-stewards.txt
+```{include} ../../_data/tmp/support-stewards.txt
 ```
 
 ## Communication channels

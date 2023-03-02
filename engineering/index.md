@@ -3,9 +3,10 @@
 These sections have information about accounts, technology, and practices that are specifically related to our team's infrastructure.
 
 ```{toctree}
+overview
 structure
-strategy
 workflow
+strategy
 access
 secrets
 reviewing
