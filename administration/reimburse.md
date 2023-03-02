@@ -26,9 +26,26 @@ Currently, these are the expenses that we regularly reimburse:
 
 - Monthly / annual fees for online services that are used across the entire 2i2c team.
 - Cloud infrastructure costs incurred as part of our services.
-- Conference travel / registration for conferences that we agree are in-scope for 2i2c's attendance.
+- Conference registration for conferences that we agree are in-scope for 2i2c's attendance.
+- Travel: see [](reimburse:travel).
 - Personal development / training for skills that are directly related to team responsibilities.
 - Infrequent equipment purchases for team members (computers, desks, etc) provided they are within a reasonable spend amount.
+
+(reimburse:travel)=
+### Travel reimbursements
+
+Below are a few guidelines for travel reimbursements with 2i2c:
+
+- 2i2c will cover the cost of travel to and from the event.
+- We'll cover the cost of lodging for the day before or after.
+- For international travel, we can cover an extra day before to give more time to adjust.
+- It is fine if you are arriving / leaving from two different locations (e.g., if you intend on making a side-trip after the event).
+  In this case, 2i2c will only cover the trip to / from the event, not the third leg.
+
+And some general tips:
+
+- Try to find less-expensive tickets / housing if possible, but don't strongly inconvenience yourself as a result.
+- If it's important to stay earlier or later, ask the {role}`Executive Director` and we might be able to make an exception.
 
 (reimbursements:employees)=
 ## Reimbursement for employees
