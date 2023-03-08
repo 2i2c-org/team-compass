@@ -12,6 +12,7 @@ Engineering is responsible for all of our technical infrastructure, and for the 
 - Perform daily operation of ongoing cloud services, addressing technical problems as-needed.
 - Resolve operational issues related to our cloud infrastructure.
 - Oversee our [Incident Response process](../projects/managed-hubs/incidents.md).
+- Design the system of roles and practices that defines our [Support process](../projects/managed-hubs/support.md).
 
 ## Develop our cloud infrastructure
 
