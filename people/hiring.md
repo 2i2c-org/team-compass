@@ -24,6 +24,16 @@ A complete guide to our hiring process is defined [in this Hiring Process Templa
 15. **Clean up**
 16. Once accepted, **move the hiring folder to `Archive`**.
 
+## Targeted hiring process
+
+Sometimes, we detect an outstanding person that we might want to hire because of strategic or tactical reasons and needs.
+
+On those situations, we can make the case for a targeted hiring process.
+
+This process will also have a {term}`Hiring Lead` and an associateed {term}`Hiring Committee` and it will follow a similar outline compared with the standard process (although with some modification given that we are interacting with just one person).
+
+This process should clearly states why we are looking for that specific potential hire, should evaluate the impact of that potential hire on our overall budget and it should analyse the potential hire from the EDI perspective (and make sure we follow the EDI-related recommendations described in the [Project Include's inclusive hiring documentation](https://projectinclude.org/hiring) that we took inspiration from to build our general hiring process).
+
 ## Hiring team
 
 The hiring team carries out the hiring process.
