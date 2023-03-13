@@ -73,14 +73,9 @@ Contractors are independent, not employed by CS&S, and are brought on to support
 
 Our time off policy is documented in our [Taking time off](./time-off.md) section.
 
-### Mechanism for payment
+### Mechanism for reimbursement
 
-For anything that involves purchasing equipment, services, tickets, etc, we have these options:
-
-* Employee team members can pay via their own methods, and request a reimbursement via Ramp.
-* Contractor team members can pay via their own methods, and include a reimbursement line item in a monthly invoice.
-
-Any team member can request that 2i2c pay for something with the 2i2c organization card.
+For anything that involves purchasing equipment, services, tickets, etc, our reimbursement process is documentend in our [Reimbursements and Ramp](../administration/reimburse.md) section.
 
 ### Equipment
 
