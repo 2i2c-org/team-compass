@@ -113,3 +113,9 @@ We want to help you to maintain a well-rounded and healthy lifestyle. You can be
 * purifiers and humidifiers (ie. water purifiers, air purifiers)
 
 The list is not exhaustive, so use your best judgment in determining what to submit through wellness reimbursement (and use the above examples as references).
+
+:::{admonition} Some additional clarifications
+* For the *yearly* amounts we defined in the above benefits subsections, we do not roll over those between calendar years.
+* There is a deadline for these claims for the previous calendar year: March 31st of the current year.
+* For team members starting mid way through the calendar year, we prorate the amounts described above.
+:::
