@@ -8,7 +8,7 @@ It may not accurately reflect our current practices, but we share it for transpa
 :::
 
 :::{admonition}
-We are working on an update of our existing compensation policy. More details about the upcoming changes will be updated here as soon we we reached consensus and approval for the new policy.
+We are working on an update of our existing compensation policy. More details about the upcoming changes will be updated here as soon we reach consensus and approval for the new policy.
 :::
 
 Our salary policy should ensure that our team feels financially supported and respected in their roles, and should be aligned with our values and mission as a non-profit organization.
