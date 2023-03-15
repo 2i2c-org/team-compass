@@ -79,10 +79,6 @@ For anything that involves purchasing equipment, services, tickets, etc, our rei
 
 ### List of additional reimbursable expenses for our 2i2c team members
 
-:::{admonition} 
-This is, by design, an incomplete and non-exhaustive list because we are always looking to improve it!
-:::
-
 #### Equipment
 
 We inherit the Equipment Policy for Code for Science and Society.
@@ -121,6 +117,7 @@ We want to help you to maintain a well-rounded and healthy lifestyle. You can be
 The list is not exhaustive, so use your best judgment in determining what to submit through wellness reimbursement (and use the above examples as references).
 
 :::{admonition} Some additional clarifications
+* This is, by design, an incomplete and non-exhaustive list because we are always looking to improve it!
 * For the *yearly* amounts we defined in the above benefits subsections, we do not roll over those between calendar years.
 * There is a deadline for these claims for the previous calendar year: March 31st of the current year.
 * For team members starting mid way through the calendar year, we prorate the amounts described above.
