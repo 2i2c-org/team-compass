@@ -2,14 +2,13 @@
 
 ## Compensation philosophy
 
-:::{seealso}
-We are [working on an update of our compensation policy](https://docs.google.com/document/d/1Ixkg-YgeTO-Xc9neQHIlTHa7psyhlFHQQCSfCr-K0cQ/edit#).
-See that document for ideas that are more specific / structured than this page.
-:::
-
 :::{admonition} Aspirational
 We are a young organization, and this page describes the salary policy that we aim to enact in the coming years.
 It may not accurately reflect our current practices, but we share it for transparency and to provide a goal for our team to shoot for.
+:::
+
+:::{admonition}
+We are working on an update of our existing compensation policy. More details about the upcoming changes will be updated here as soon we reach consensus and approval for the new policy.
 :::
 
 Our salary policy should ensure that our team feels financially supported and respected in their roles, and should be aligned with our values and mission as a non-profit organization.
@@ -62,7 +61,64 @@ We are working on updating our salary bands across 2i2c, see [this issue for det
 
 We have [internal salary documents for the specific positions and levels](https://docs.google.com/spreadsheets/d/1JZaudP91jABvlKof_A1EUHJAXa7DywLSG69PpQi-Cck/edit?usp=sharing).
 
-## Benefits
+## Benefits and expenses policy
 
-Benefits are offered by {term}`Code for Science and Society`.
-They are offered via [TriNet](https://www.trinet.com/) as described in [the CS&S employee handbook](https://drive.google.com/file/d/1anHo8P09gjGLnUfGj2ceSDxvJTYwMeS1/view?usp=sharing).
+This section describes our benefits and expenses policy across all team members at 2i2c. 2i2c team members include people who are designated as employees and as contractors, depending on their role at 2i2c.
+
+Benefits are available to employees only and are managed through {term}`Code for Science and Society`’s relationship with a service partner or PEO. For example, employees who are US based and employed through {term}`Code for Science and Society`’s relationship with [Trinet](https://www.trinet.com/), will have access to health coverage and retirement benefits through Trinet. Employees based outside the US and employed through a relationship with a PEO like Remote will have access to benefits available in their region through that PEO. More details can be found at the [the CS&S employee handbook](https://drive.google.com/file/d/1anHo8P09gjGLnUfGj2ceSDxvJTYwMeS1/view?usp=sharing).
+
+Contractors are independent, not employed by CS&S, and are brought on to support 2i2c with their specific expertise. To support these contract relationships, 2i2c will cover some types of expenses related to the operation of independent contract business, such as would typically be charged as overhead at a larger organization. These expenses include healthcare, accounting services, etc. We estimate a 20% on top of the contractor monthly payment to cover for these sorts of expenses.
+
+### Time off
+
+Our time off policy is documented in our [Taking time off](./time-off.md) section.
+
+### Mechanism for reimbursement
+
+For anything that involves purchasing equipment, services, tickets, etc, our reimbursement process is documentend in our [Reimbursements and Ramp](../administration/reimburse.md) section.
+
+### List of additional reimbursable expenses for our 2i2c team members
+
+#### Equipment
+
+We inherit the Equipment Policy for Code for Science and Society.
+This defines a budget of $5,000 every 3 years for equipment for each team member.
+This includes computer, desk, monitors, microphones, etc.
+The goal is to make sure the team has the technical equipment they need to operate as a distributed team member that largely operates via video chat and text.
+
+#### Internet
+
+We reimburse up to $100 a month for a high-speed internet subscription.
+
+#### Travel
+
+2i2c will reimburse any work-related travel expenses for its team members.
+Team members should get approval for travel (and rough budget) before any booking.
+
+#### Personal development
+
+2i2c team members should identify opportunities to learn and improve the skills that are related to their role and their learning goals.
+2i2c will cover the cost of these opportunities.
+We particularly encourage area leads and managers to identify these opportunities for others in their area (and for themselves).
+Opportunities should be identified by any team member, and approved by an area lead or manager.
+There is currently no restriction on the funds that can be spent for this. This will likely change to a fixed budget in the future, but should be sustainable while we are small.
+
+#### Wellness
+
+We want to help you to maintain a well-rounded and healthy lifestyle. You can be reimbursed up to $600 per calendar year for activies such as:
+
+* memberships (ie. gym membership)
+* exercise technology (ie. fitness trackers)
+* lessons or personal training (ie. sports, music, art)
+* classes (ie. yoga, martial arts)
+* personal services (ie. massage, nutrition counseling)
+* purifiers and humidifiers (ie. water purifiers, air purifiers)
+
+The list is not exhaustive, so use your best judgment in determining what to submit through wellness reimbursement (and use the above examples as references).
+
+:::{admonition} Some additional clarifications
+* This is, by design, an incomplete and non-exhaustive list because we are always looking to improve it!
+* For the *yearly* amounts we defined in the above benefits subsections, we do not roll over those between calendar years.
+* There is a deadline for these claims for the previous calendar year: March 31st of the current year.
+* For team members starting mid way through the calendar year, we prorate the amounts described above.
+:::
