@@ -19,3 +19,13 @@ The model can be updated to begin on a new date, and to reflect the latest data 
 It then updates its projections based on our Income and Expenses assumptions.
 
 To update this model with the latest information, [follow the instructions in the first tab the model](https://docs.google.com/spreadsheets/d/1zDO_kqnJ1PH3GWOMks5E_1oIpoAJgseWhj3oCohUVZk/edit#gid=929955044).
+
+
+## Burn rate
+
+We can use the budget projections model to calculate our Burn Rate (how quickly we are losing/gaining money, and when we will reach `$0`.)
+To do so follow these steps:
+
+- Go to [our budget projections sheet](accounting:projections).
+- Look at the `Summary` tab.
+- This shows our burn rate, along with 9 and 24 month cutoffs.
