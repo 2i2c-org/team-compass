@@ -11,7 +11,7 @@ We know this will take extra effort from us - doing things on your own is faster
 
 ## Upstream work can't be done on nights and weekends
 
-Doing work in upstream communities is central to our work, and is treated as "on the clock".
+Doing work in upstream open source communities is central to our work, and is treated as "on the clock".
 Our sustainability strategy should aim to make these upstream contributions a realistic and sustainable part of our daily activities.
 However, be mindful of the time you're spending in upstream spaces, and talk to other team members to make sure you aren't putting too much burden on them.
 
