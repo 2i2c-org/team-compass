@@ -5,6 +5,11 @@ Our budget projection model begins with a source of truth about our **current an
 It allows us to manually specify costs and revenue in the future, if we **know** that they will happen.
 It also lets us specify repeating numbers each month, and a percentage growth rate for monthly recurring revenues.
 
+```{admonition} Feel free to edit and experiment
+The projections sheet is a **tool** to be used to understand how our hiring and cost decisions will affect our finances moving forward.
+Feel free to experiment with adding new line items to help guide decision-making about our costs.
+```
+
 It is stored as a Google Sheet at the following link:
 
 ```{button-link} https://docs.google.com/spreadsheets/d/1zDO_kqnJ1PH3GWOMks5E_1oIpoAJgseWhj3oCohUVZk/edit#gid=929955044
