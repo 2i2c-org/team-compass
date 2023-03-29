@@ -3,6 +3,7 @@
 We occasionally publish outputs with Digital Object Identifiers so that they can be more easily indexed, discovered, and referenced by others in the scholarly community.
 This page describes information about this process.
 
+(publishing:zenodo)=
 ## Zenodo
 
 We use [Zenodo](https://zenodo.org/) for minting DOIs and publishing outputs.
