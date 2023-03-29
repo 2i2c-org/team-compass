@@ -22,7 +22,7 @@ As a distributed team, we pay a high coordination penalty for getting multiple p
   2. Provide ideas for topics of possible discussion.
 
   Agendas should be concrete enough that people who can not be synchronously
-  present can make comments on it, as well as make choices on wether they
+  present can make comments on it, as well as make choices on whether they
   would like to attend or not.
 
   If a meeting does not have an agenda 36 hours (not counting weekends) in
