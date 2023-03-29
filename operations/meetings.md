@@ -15,9 +15,19 @@ As a distributed team, we pay a high coordination penalty for getting multiple p
 - **Take notes and make them accessible**.
   Meetings must have written notes that are accessible to others on the team.
   These must be made available to the team reasonably soon after the meeting.
-- **Meeting agendas must be available at least one working day ahead**.
-  Agendas should provide an idea for the topics of discussion and any major questions to resolve.
-  If a meeting does not have an agenda at least one working day in advance, then team members may assume it is cancelled.
+
+- **Meeting agendas must be available at least 36 hours (not counting weekends) ahead**.
+  Agendas should:
+  1. List any specific **decisions** people want to make progress on during the meeting.
+  2. Provide ideas for topics of possible discussion.
+
+  Agendas should be concrete enough that people who can not be synchronously
+  present can make comments on it, as well as make choices on wether they
+  would like to attend or not.
+
+  If a meeting does not have an agenda 36 hours (not counting weekends) in
+  advance, then team members may assume it is cancelled and rescheduled.
+
 - **Focus time on resolving uncertainty and making decisions**.
   Avoid the tendency to use meetings for updates - we should use asynchronous team processes (discussion in issues, Geekbot standups, etc) for sharing what we are up to day-to-day.
 
