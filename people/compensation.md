@@ -7,7 +7,7 @@ We are a young organization, and this page describes the salary policy that we a
 It may not accurately reflect our current practices, but we share it for transparency and to provide a goal for our team to shoot for.
 :::
 
-:::{admonition}
+:::{note}
 We are working on an update of our existing compensation policy. More details about the upcoming changes will be updated here as soon we reach consensus and approval for the new policy.
 :::
 

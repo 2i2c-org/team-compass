@@ -3,6 +3,11 @@
 Key open source communities are those that align with 2i2c's values and that are central to 2i2c's mission.
 They build technology that is essential for the infrastructure that 2i2c offers.
 
+```{admonition} This is not exclusive!
+Team members are encouraged to make upstream contributions to communities other than those listed here.
+This section just describes the communities to which we devote extra resources and time.
+```
+
 ## Ways to support key communities
 
 While we try to make upstream contributions wherever we can, we make extra effort to support key communities.

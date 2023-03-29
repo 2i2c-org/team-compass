@@ -47,7 +47,6 @@ html_theme_options = {
     "repository_branch": "main",
     "use_repository_button": True,
     "use_edit_page_button": True,
-    "extra_navbar": "",
 }
 myst_enable_extensions = [
     "colon_fence",
