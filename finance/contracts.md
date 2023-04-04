@@ -6,9 +6,7 @@ This section describes where you can find information about our active and past 
 
 ## Grant folders
 
-We use [the CS&S `Financials -> Grants` folder](https://drive.google.com/drive/folders/12YIr5KSS-mJ7IUZKt5MjYY7n2wyzHkUH?usp=share_link) to keep track of any materials related to a grant we are applying for or have received.
-
-We use [a Google Drive folder](https://drive.google.com/drive/folders/1VvER_SxLDKjDYwfXYyEbPX9GN7YlsNpT?usp=share_link) to track all of our preparations and materials for grants that we are applying for.
+We use [the 2i2c Team Drive -> `Finances and Accounting -> Grants` folder](https://drive.google.com/drive/folders/1VvER_SxLDKjDYwfXYyEbPX9GN7YlsNpT?usp=sharing) to keep track of any materials related to a grant we are applying for or have received.  We use that same folder to track all of our preparations and materials for grants that we are applying for.
 
 - The [**Active and In Progress**](https://drive.google.com/drive/folders/1Mgio3WQfpXkuuy_i--ioY_9XHIff4cQe?usp=share_link) folder contains any grant that we've received, or that are in the middle of applying for.
 - The [**Rejected and Not Submitted**](https://drive.google.com/drive/folders/1BqCYoOvDrkv_f5eYbbrkP_3sHv2M6i7b?usp=share_link) folder contains any grant that we applied for and did not get, or that we started but did not finish.
