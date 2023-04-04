@@ -10,5 +10,4 @@ contracts
 projections
 payments
 cloud
-grants
 ```
