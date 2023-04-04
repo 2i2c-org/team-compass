@@ -28,6 +28,7 @@ For example:
 
 ## Manage our sales pipeline
 
+- Oversee [our leads and sales process](../projects/managed-hubs/sales.md).
 - Ensure that our sales pipeline is efficient, distributed-friendly, and scalable.
 - Balance our revenue, costs, and ability to deliver.
 - Oversee processes and systems that balance leads, sales, etc. For example:

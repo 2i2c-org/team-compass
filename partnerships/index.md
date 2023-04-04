@@ -8,5 +8,4 @@ overview.md
 structure.md
 workflow.md
 communication.md
-leads.md
 ```

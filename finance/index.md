@@ -6,8 +6,8 @@
 overview
 strategy
 accounting
+contracts
 projections
 payments
 cloud
-grants
 ```
