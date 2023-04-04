@@ -2,7 +2,7 @@
 
 A **contract** defines our formal relationship with any external organizations or people.
 We use **invoices** to exchange funds (incoming and outgoing) that are related to contracts.
-This section describes where you can information about our active and past contracts and invoices.
+This section describes where you can find information about our active and past contracts and invoices.
 
 ## Grant folders
 
