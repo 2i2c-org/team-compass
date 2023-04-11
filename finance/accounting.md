@@ -1,26 +1,55 @@
 # Accounting data
 
 Accounting data describes the money that we **know** we have spent or that we **highly expect** to receive.
-There are a few kinds of accounting data we have access to:
 
-All 2i2c-specific accounting documents should be accessible on our Team Drive to anybody with a `@2i2c.org` address.
-We don't control the access conditions for the CS&S documents described below, so if you don't have access to these, ask the {role}`Executive Director`.
+## Accounting transactions airtable
 
-We split our financial and accounting data between two places:
+{term}`CS&S` provides us a monthly dataset of the last 6 months of all of all our accounting transactions.
+This is [in a Google Sheet that is automatically updated each day][gsheet].
+It includes the last 6 months of any transaction 2i2c has made (if we need more than 6 months of history, ask `fsp@2i2c.org` for a custom data dump).
 
-- [2i2c Drive Folder with our finance assets](https://drive.google.com/drive/folders/1D5NQKhPDP6zMQ8EdLcMOceTz-ek81nmX?usp=sharing) contains 2i2c-specific budgeting and modeling information. It is available to all team members.
+We have a copy of this sheet in an [**Accounting Transactions AirTable**][accounting-table][^airtable].
+Any columns that are synchronized with CS&S have a little lightning bolt (⚡) next to them.
+We use this to create [our accounting dashboard](accounting:dashboard).
 
-- [CS&S Drive Folder with their finance assets](https://drive.google.com/drive/folders/115EIa6cD4BNGIqOd2i7Rqu3MgsM73lgR?usp=sharing) contains assets that are stewarded by CS&S. It is available to 2i2c'c executive director.
+[^airtable]: See [](../administration/airtable.md) for how to access AirTable.
 
-See these subsections below for more information about accounting data.
+[gsheet]: https://docs.google.com/spreadsheets/d/1qH5IK18z79X8cEwlwDwnlArTiYnbRVIPGqdOUdrsF0c/edit?usp=sharing
 
+[accounting-table]: https://airtable.com/appbjBTRIbgRiElkr/tblDKGQFU0iEIa5Qb/viwAdsIgMwbqKDdZ0
+
+### Update our accounting data airtable
+
+We have a semi-automated process to update the data in our accounting table.
+Here are the steps to follow:
+
+% TODO: We should automate this with a CRON job, make.com/zapier integration, etc.
+%   ref: https://github.com/2i2c-org/team-compass/issues/703
+1. **Confirm that [the Google Sheet][gsheet] has been updated** by checking the `Automatic Operations Events Log` tab.
+2. **Delete all of the records** in the [accounting table][accounting-table].
+3. **Import the google sheets data**. Go to `Accounting Transactions` -> `Import Data` -> `Google Sheets` -> `Google sheets account`.
+   - Here's an image of the menu you want:
+
+     ![image](https://user-images.githubusercontent.com/1839645/230121196-0d398812-ba22-4cea-a42f-e3ad644a3e19.png)
+   - You'll see a list of Google Sheets in our account. Import the one titled `2i2c FYE23 Account Transactions - Auto Generated`.
+   - Check the `Skip first row` option during the import, so that we don't import the section title names.
+
+This should automatically import the data into the proper columns, you don't need to do anything else.
+
+When this action happens, an [AirTable automation will run](https://airtable.com/appbjBTRIbgRiElkr/wflVJQz277S6lF0E3/wtrHzwIWJLGTnJl0m) and attempt to link each new record with a corresponding **Contract**, using the `Xero ID` field.
+If a contract with the record's `Xero ID` is found, then a linked record will be created in the `Contracts` column.
+
+Here's a brief video describing the above process.
+
+```{video} https://drive.google.com/file/d/1eLHQ15sHF4ihCpEIAypjYUeof9q3CYYQ/view?usp=sharing
+```
 
 (accounting:statements)=
-## All transactions
+## Monthly reports
 
-{term}`CS&S` provides us a monthly table of all our accounting transactions.
-They are placed in the Shared CS&S Google Drive folder.
-**The CS&S accounting tables are the source of truth for our revenue and costs.**
+CS&S generates monthly reports for our current financial situation.
+You can find them in [our financial reports folder](https://drive.google.com/drive/folders/1vM_QX1J8GW5z8W5WemxhhVjcCS2kEovN?usp=sharing).
+
 See [](accounting-statement-overview.md) for more information about these sheets.
 
 ```{toctree}
@@ -28,25 +57,12 @@ See [](accounting-statement-overview.md) for more information about these sheets
 accounting-statement-overview.md
 ```
 
-We clean up and mirror these transactions in an [**Accounting Transactions AirTable**](https://airtable.com/appbjBTRIbgRiElkr/tblDKGQFU0iEIa5Qb/viwAdsIgMwbqKDdZ0).
-We use this to create [our accounting dashboard](accounting:dashboard).
-See [](../administration/airtable.md) for how to access AirTable.
-
-```{button-link} https://airtable.com/appbjBTRIbgRiElkr/tblDKGQFU0iEIa5Qb/viwAdsIgMwbqKDdZ0
-:color: primary
-
-All Transactions AirTable
-```
-
-
 (accounting:dashboard)=
-## Accounting summary dashboard
+## Summary dashboards
 
-We have a Sphinx page that summarizes important accounting information for us.
-It is generated from the [CS&S accounting statements](accounting:statements) that we get monthly.
-You can find this website at the following location:
+We have an [AirTable interface dashboard][airtable-dashboard] that displays several useful summaries and visualizations of our accounting data[^airtable].
 
-```{button-link} https://2i2c.org/kpis/finances/#accounting-tables
-:color: primary
-Accounting tables
-```
+We also have a [page in our KPIs website](https://2i2c.org/kpis/finances/#accounting-tables) that provides public summaries of this information for transparency to external stakeholders.
+
+[airtable-dashboard]: https://airtable.com/appbjBTRIbgRiElkr/pagbwk3T7S14rJ3tb
+
