@@ -55,6 +55,7 @@ The specific categories are still in flux but the goal is to help us break down 
 
 {term}`CS&S` tracks all of our invoices in an AirTable.
 We synchronize this AirTable to our own in the link below, and generate [dashboards to summarize important data](contracts:dashboards).
+Any columns that are synchronized with CS&S have a little lightning bolt (⚡) next to them.
 
 Each row represents a single invoice.
 Each column represents metadata about that invoice (for example, the `Type` column encodes whether it is an incoming (`ACCREC`) or outgoing (`ACCPAY`) invoice.
@@ -80,6 +81,7 @@ Each `Invoice` record is linked to its corresponding `Contract` record via the *
 We use an **AirTable Interface** to summarize important information about our contracts and invoices.
 It should be relatively self-explanatory, with section headers describing the primary question each group of graphs is meant to answer.
 Each graph should also have a title and subtitle describing its meaning.
+You can gain access to it with [this invitation link](https://airtable.com/invite/l?inviteId=invF192DfoKa5xqqY&inviteToken=ef8865617dd3b6ebbb01b753fa2de0d231f1a7f526b6fe07d3cf88c12a418f5f&utm_medium=email&utm_source=product_team&utm_content=transactional-alerts).
 
 ```{button-link} https://airtable.com/appbjBTRIbgRiElkr/pagDRzpzpmKVNncH7
 :color: primary

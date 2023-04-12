@@ -9,7 +9,6 @@ This is [in a Google Sheet that is automatically updated each day][gsheet].
 It includes the last 6 months of any transaction 2i2c has made (if we need more than 6 months of history, ask `fsp@2i2c.org` for a custom data dump).
 
 We have a copy of this sheet in an [**Accounting Transactions AirTable**][accounting-table][^airtable].
-Any columns that are synchronized with CS&S have a little lightning bolt (⚡) next to them.
 We use this to create [our accounting dashboard](accounting:dashboard).
 
 [^airtable]: See [](../administration/airtable.md) for how to access AirTable.
@@ -61,6 +60,7 @@ accounting-statement-overview.md
 ## Summary dashboards
 
 We have an [AirTable interface dashboard][airtable-dashboard] that displays several useful summaries and visualizations of our accounting data[^airtable].
+You can gain access to it with [this invitation link](https://airtable.com/invite/l?inviteId=invF192DfoKa5xqqY&inviteToken=ef8865617dd3b6ebbb01b753fa2de0d231f1a7f526b6fe07d3cf88c12a418f5f&utm_medium=email&utm_source=product_team&utm_content=transactional-alerts).
 
 We also have a [page in our KPIs website](https://2i2c.org/kpis/finances/#accounting-tables) that provides public summaries of this information for transparency to external stakeholders.
 
