@@ -1,6 +1,6 @@
 
 (accounting:statements-summary)=
-# Understanding CS&S accounting statements
+# Overview of CS&S accounting reports
 
 This section describes how to read
 
