@@ -15,6 +15,10 @@ They have a different line-item and category in our CS&S invoicing statements an
 
 We may wish to charge a bit extra for the **staffing** costs of this service, but this is different from the pass-through cloud bill.
 
+## Reimburse cloud costs
+
+See [](reimburse:cloud).
+
 ## Dedicated clusters
 
 When a community has a dedicated cluster, it is straightforward to calculate their monthly cloud costs.
