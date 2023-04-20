@@ -88,3 +88,77 @@ This can drastically speed up the process of approving recurring transactions.
 
 Ramp should scan the e-mail and automatically attach the receipt to the proper expense.
 See [the Ramp receipt detection documentation](https://support.ramp.com/hc/en-us/articles/360042588454-Submitting-Receipts-Memos) for more details.
+
+(reimburse:cloud)=
+## Cloud reimbursements
+
+We must follow a few extra steps to reimburse our cloud bills.
+CS&S requires **invoices** (not a receipts) for cloud costs.
+
+We document how to find each of these for our cloud providers below.
+
+### Google Cloud Platform (GCP)
+
+Use the Google Cloud Console UI to find invoices for previous months.
+In GCP "invoices" are called "**statements**".
+To find a statement for a month, follow these steps:
+
+First, go to [`console.cloud.google.com`](https://console.cloud.google.com).
+
+Double-check that you're signed in with your `@2i2c.org` account.
+
+Click on `Billing` in the hamburger menu.
+
+```{image} /images/reimbursements/billing-menu.png
+:width: 500
+```
+
+Click the billing account name you need an invoice for.
+Our default billing account is called `2i2c Billing`.
+This is where the majority of our cloud costs come from on GCP.
+Some project-specific billing accounts are usually listed as well.
+
+```{image} /images/reimbursements/billing-accounts.png
+:width: 500
+```
+
+In the left menu, scroll down to the `Payments` section and click `Documents`.
+
+```{image} /images/reimbursements/find-documents-page.png
+:width: 500
+```
+
+
+Check the box next to the month you want, and then click `Download selected`.
+
+```{image} /images/reimbursements/download-selected-invoice.png
+:width: 500
+```
+
+This PDF is the statement (invoice) that you will upload to the corresponding Ramp.com transaction.
+
+Look for the Ramp.com transaction that corresponds to this invoice.
+You can do so by finding the Google Cloud transactions that are "flagged for review" (because it is missing an invoice), and cross-reference the total charged amount.
+
+```{warning}
+Some Google Cloud Billing Accounts will split a monthly cost into multiple transactions.
+For example, some accounts have an "automatic charge at $1,000" trigger.
+In this case, find multiple transactions that add up to the amount of the monthly invoice.
+```
+
+```{image} /images/reimbursements/find-missing-item-receipt.png
+:width: 500
+```
+
+Upload the PDF to the receipt section of this transaction.
+
+```{image} /images/reimbursements/upload-receipt-to-ramp.png
+:width: 500
+```
+
+### Amazon Web Services (AWS)
+
+AWS automatically e-mails cloud account admins a PDF of their monthly invoice.
+Chris Holdgraf's e-mail account is set up to automatically forward this e-mail to `receipts@ramp.com`, and this will automatically match the PDF with the corresponding charge in our Ramp account.
+
+Chris' account also automatically forwards this e-mail to `receipts@2i2c.org`, so if we must manually upload the receipt for some reason, find the e-mail with the PDF in the Google Group for that e-mail account.
