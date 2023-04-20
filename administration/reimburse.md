@@ -92,16 +92,14 @@ See [the Ramp receipt detection documentation](https://support.ramp.com/hc/en-us
 (reimburse:cloud)=
 ## Cloud reimbursements
 
-We must follow a few extra steps to reimburse our cloud bill.
-This is because cloud costs tend to be above the limit that requires extra documentation.
-Note that **CS&S requires an invoice, not a receipt** for cloud costs.
-AKA, we must have a listing of our "incurred charges for the month", not just a receipt of payment.
+We must follow a few extra steps to reimburse our cloud bills.
+CS&S requires **invoices** (not a receipts) for cloud costs.
 
 We document how to find each of these for our cloud providers below.
 
 ### Google Cloud Platform (GCP)
 
-GCP requires that we use their cloud UI to find invoices for previous months.
+Use the Google Cloud Console UI to find invoices for previous months.
 In GCP "invoices" are called "**statements**".
 To find a statement for a month, follow these steps:
 
