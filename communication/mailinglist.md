@@ -14,8 +14,7 @@ This is a more attentive and personal audience than our blog, so we use the mail
 ## Access Mailchimp
 
 We have a single Mailchimp account and share access to team members via a single `username`/`password`.
-The {role}`Executive Director` is responsible for this information, though others on the team may have it as well.
-If you'd like access, ask the ED or one of the team members with this information.
+See [](account:bitwarden) for access.
 
 ## Send e-mails via Mailchimp
 

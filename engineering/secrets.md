@@ -97,3 +97,7 @@ For more information about using `sops`, here are a few links to `sops` document
 - [Basic usage of `sops`](https://github.com/mozilla/sops#usage)
 - [Encrypting files with GCP KMS](https://github.com/mozilla/sops#encrypting-using-gcp-kms)
 - [Common examples with `sops`](https://github.com/mozilla/sops#examples)
+
+## 2i2c-wide passwords
+
+For information about 2i2c-wide passwords, see [](account:bitwarden).
