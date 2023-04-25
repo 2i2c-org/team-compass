@@ -36,14 +36,18 @@ Currently, these are the expenses that we regularly reimburse:
 
 Below are a few guidelines for travel reimbursements with 2i2c:
 
-- 2i2c will cover the cost of travel to and from the event.
-- We'll cover the cost of lodging for the day before or after.
+2i2c will cover the costs of:
+
+- Travel to and from the event.
+- Lodging for the day before or after.
+- Any legal work that needed to be done to allow you to travel (e.g., VISA fees).
+- Extra hotel days or travel change fees that were required for health reasons (e.g. testing positive for COVID and needing to extend the stay).
+
+A few notes to help clarify:
+
 - For international travel, we can cover an extra day before to give more time to adjust.
 - It is fine if you are arriving / leaving from two different locations (e.g., if you intend on making a side-trip after the event).
   In this case, 2i2c will only cover the trip to / from the event, not the third leg.
-
-And some general tips:
-
 - Try to find less-expensive tickets / housing if possible, but don't strongly inconvenience yourself as a result.
 - If it's important to stay earlier or later, ask the {role}`Executive Director` and we might be able to make an exception.
 
