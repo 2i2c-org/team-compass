@@ -20,11 +20,16 @@ The **Onboarding champion** should follow the checklist below to onboard a new t
 
 **Accounts**
 
-- [ ] Get member's GitHub.com account
-- [ ] Get member's ReadTheDocs.org account
-- [ ] Get member's Quay.io account
-- [ ] Get member's NameCheap.com account
-- [ ] Get member's PagerDuty account
+Create new accounts and share their account name:
+
+- [ ] Get member's [GitHub.com account](https://github.com)
+- [ ] Get member's [ReadTheDocs.org account](https://readthedocs.org)
+- [ ] Get member's [Quay.io account](https://quay.io)
+- [ ] Get member's [NameCheap.com account](https://namecheap.com)
+- [ ] Get member's [PagerDuty account](https://pagerduty.com)
+- [ ] Get member's [bitwarden account](https://bitwarden.com)
+
+Create 2i2c accounts and add to team accounts:
 
 - [ ] Create a @2i2c.org Google account for them
 	- Note that this requires [access to the Admin Panel](https://compass.2i2c.org/en/latest/administration/google-workspace.html?highlight=workspaces#access-and-permissions), a permission held by any 2i2c team lead
@@ -33,6 +38,7 @@ The **Onboarding champion** should follow the checklist below to onboard a new t
 - [ ] Add to the proper [Slack groups](https://2i2c.slack.com/admin/user_groups)
 - [ ] Add to the proper [FreshDesk group](https://2i2c.freshdesk.com/a/admin/groups)
 - [ ] Add to propoer [PagerDuty Users group](https://2i2c-org.pagerduty.com/users-new)
+- [ ] Add to our [bitwarden organization](https://vault.bitwarden.com/#/organizations/11313781-4b83-41a3-9d35-afe200c8e9f1/vault) and add to "Default collection"
 
 **Communication**
 
