@@ -94,8 +94,6 @@ Invoicing and contracts dashboard
 We use [the 2i2c Team Drive -> `Finances and Accounting -> Grants` folder](https://drive.google.com/drive/folders/1VvER_SxLDKjDYwfXYyEbPX9GN7YlsNpT?usp=sharing) to keep track of any materials related to a grant we are applying for or have received.
 We use that same folder to track all of our preparations and materials for grants that we are applying for.
 
-```{admonition} Some old grants are in the CS&S shared drive
-
 
 - The [**Active and In Progress**](https://drive.google.com/drive/folders/1Mgio3WQfpXkuuy_i--ioY_9XHIff4cQe?usp=share_link) folder contains any grant that we've received, or that are in the middle of applying for.
 - The [**Rejected and Not Submitted**](https://drive.google.com/drive/folders/1BqCYoOvDrkv_f5eYbbrkP_3sHv2M6i7b?usp=share_link) folder contains any grant that we applied for and did not get, or that we started but did not finish.
