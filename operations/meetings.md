@@ -17,16 +17,20 @@ As a distributed team, we pay a high coordination penalty for getting multiple p
   These must be made available to the team reasonably soon after the meeting.
 
 - **Meeting agendas must be available at least 36 hours (not counting weekends) ahead**.
-  Agendas should:
-  1. List any specific **decisions** people want to make progress on during the meeting.
-  2. Provide ideas for topics of possible discussion.
+  Agendas should list:
+  1. Any **questions** that people wish to discuss and answer during the meeting.
+  2. Any **decisions** people want to make progress on during the meeting, and where the final decision will be made.
+  3. Any **topics** to discuss in the meeting, with enough detail to help others decide if they wish to participate.
 
   Agendas should be concrete enough that people who can not be synchronously
   present can make comments on it, as well as make choices on whether they
   would like to attend or not.
+  Provide links to the **source of truth for discussion**, as well as any context needed to meaningfully participate.
 
-  If a meeting does not have an agenda 36 hours (not counting weekends) in
-  advance, then team members may assume it is cancelled and rescheduled.
+  **If there's not an agenda 36 hours before, assume the meeting is cancelled**.
+  Meeting facilitators are responsible for collecting potential agenda items from others ahead of time, and setting the meeting agenda 36 hours prior to the meeting start.
+  If there is no agenda at this point, the meeting should be deemed as cancelled.
+  The meeting facilitator should inform the team and delete the calendar event.
 
 - **Focus time on resolving uncertainty and making decisions**.
   Avoid the tendency to use meetings for updates - we should use asynchronous team processes (discussion in issues, Geekbot standups, etc) for sharing what we are up to day-to-day.
