@@ -57,6 +57,8 @@ To do so, see [](invoices.md).
 ## Reimbursement for contractors
 
 To reimburse expenses as a contractor, **submit a separate line item on your monthly invoice**, called `Reimbursement - <item>`.
+If you paid the expense in a currency other than USD, please convert it to USD using the daily conversion rate.
+Receipts in a different currency are permitted so long as the numbers roughly correctly map onto each other given rates in the recent past.
 
 See [](invoices.md) for instructions on how to submit an invoice.
 
