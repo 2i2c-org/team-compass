@@ -27,10 +27,9 @@ As a distributed team, we pay a high coordination penalty for getting multiple p
   would like to attend or not.
   Provide links to the **source of truth for discussion**, as well as any context needed to meaningfully participate.
 
-  **If there's not an agenda 36 hours before, assume the meeting is cancelled**.
-  Meeting facilitators are responsible for collecting potential agenda items from others ahead of time, and setting the meeting agenda 36 hours prior to the meeting start.
-  If there is no agenda at this point, the meeting should be deemed as cancelled.
-  The meeting facilitator should inform the team and delete the calendar event.
+- **If there's not an agenda 36 hours before, the facilitator should cancel the meeting**.
+  Meeting facilitators should collect _potential_ agenda items from others ahead of time, and _set_ the agenda at least 36 hours prior to the meeting start.
+  If there is no set agenda at this time, facilitator should inform the team in Slack and delete the calendar event.
 
 - **Focus time on resolving uncertainty and making decisions**.
   Avoid the tendency to use meetings for updates - we should use asynchronous team processes (discussion in issues, Geekbot standups, etc) for sharing what we are up to day-to-day.
