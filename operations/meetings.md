@@ -15,9 +15,22 @@ As a distributed team, we pay a high coordination penalty for getting multiple p
 - **Take notes and make them accessible**.
   Meetings must have written notes that are accessible to others on the team.
   These must be made available to the team reasonably soon after the meeting.
-- **Meeting agendas must be available at least one working day ahead**.
-  Agendas should provide an idea for the topics of discussion and any major questions to resolve.
-  If a meeting does not have an agenda at least one working day in advance, then team members may assume it is cancelled.
+
+- **Meeting agendas must be available at least 36 hours (not counting weekends) ahead**.
+  Agendas should list:
+  1. Any **questions** that people wish to discuss and answer during the meeting.
+  2. Any **decisions** people want to make progress on during the meeting, and where the final decision will be made.
+  3. Any **topics** to discuss in the meeting, with enough detail to help others decide if they wish to participate.
+
+  Agendas should be concrete enough that people who can not be synchronously
+  present can make comments on it, as well as make choices on whether they
+  would like to attend or not.
+  Provide links to the **source of truth for discussion**, as well as any context needed to meaningfully participate.
+
+- **If there's not an agenda 36 hours before, the facilitator should cancel the meeting**.
+  Meeting facilitators should collect _potential_ agenda items from others ahead of time, and _set_ the agenda at least 36 hours prior to the meeting start.
+  If there is no set agenda at this time, facilitator should inform the team in Slack and delete the calendar event.
+
 - **Focus time on resolving uncertainty and making decisions**.
   Avoid the tendency to use meetings for updates - we should use asynchronous team processes (discussion in issues, Geekbot standups, etc) for sharing what we are up to day-to-day.
 
