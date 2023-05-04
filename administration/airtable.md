@@ -4,19 +4,20 @@
 We use AirTable to track some of our leads, contracts, and invoicing data.
 This page covers this account and how to access it.
 
-[Here's a link to our primary AirTable workspace](https://airtable.com/appbjBTRIbgRiElkr).
-In addition, there are several bases within this workspace that are described below.
+## Read-only access to the AirTable
 
-## Log in to our shared account
+[Here's a link to our primary AirTable workspace](https://airtable.com/invite/l?inviteId=inv3bBae7WUqQsehA&inviteToken=7689178d3e79af8956d1f5cd958d9d8e63160e86b70c74d2d8bb2502ce665e00&utm_medium=email&utm_source=product_team&utm_content=transactional-alerts).
+
+This is a read-only link, valid for any `@2i2c.org` address.
+If you need edit permissions, use the [shared AirTable account](airtable:shared).
+
+(airtable:shared)=
+## Edit access to the AirTable
 
 We have a single account on the "Pro" plan of AirTable.
-You can access the account with the username and password.
-Here's how to do so:
+It is the only account with edit permissions.
 
-1. **Ask a team member for the password**. If you'd like access, ask around the team to see who has the password and they can share it with you.
-   % TODO: In the future we need a more structured way to share access.
-   %   eventually, we'll need to pay for more than one account.
-2. **Log in to the account**. Once you do so, you'll have access to the **AirTable bases** under this workspace.
+To access this account, use our [shared passwords account](accounts:bitwarden) for credentials.
 
 The rest of this page describes an overview of AirTable's structure in general.
 
