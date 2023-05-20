@@ -27,3 +27,11 @@ Ends in `7770`.
 
 Used only for paying cloud providers (GCP, AWS, and Azure) for cloud costs.
 We generally intend to re-imburse ourselves via invoices to communities for any cost charged to this credit card.
+
+### Extending card spending limits
+
+We have a monthly spending limit on each card, and credit card purchases will begin being declined if we hit it.
+However, we can extend our credit limit on a temporary basis if need be.
+For example, if we expect to make a lot of purchases at once for an event, or if we have made an unusually large purchase that gets us close to our limit.
+
+To extend our card limit, we must send an e-mail to `fsp@codeforsociety.org` and they will raise it for us.
