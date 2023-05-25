@@ -30,7 +30,7 @@ We generally intend to re-imburse ourselves via invoices to communities for any 
 
 ### Extending card spending limits
 
-We have a monthly spending limit on each card, and credit card purchases will begin being declined if we hit it.
+We have a monthly spending limit on each card, and credit card purchases will be declined if we hit it.
 However, we can extend our credit limit on a temporary basis if need be.
 For example, if we expect to make a lot of purchases at once for an event, or if we have made an unusually large purchase that gets us close to our limit.
 
