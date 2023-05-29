@@ -95,6 +95,7 @@ Reference and archival information for our teams.
 reference/calendar.md
 reference/team.md
 reference/documentation/overview.md
+reference/researchdelight.md
 reference/terminology.md
 reference/inspiration.md
 ```
