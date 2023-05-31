@@ -3,7 +3,7 @@
 
 ## Purpose
 
-The hub https://researchdelight.2i2c.cloud is available for use by 2i2c Team Members to explore and use for their day-to-day work.
+The hub at https://researchdelight.2i2c.cloud is available for 2i2c Team Members to explore and use for their day-to-day work.
 
 It serves as a showcase research hub for demonstrating workflows to other communities as well as a resource for collaboration within 2i2c.
 
