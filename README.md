@@ -16,7 +16,7 @@ To do so, follow these steps:
    ```console
    $ pip install nox
    ```
-2. Build the documentation:
+1. Build the documentation:
 
    ```console
    $ nox -s docs
