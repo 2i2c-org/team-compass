@@ -23,5 +23,3 @@ See https://github.com/2i2c-org/researchdelight-image for additional information
 
 Research Delight is intended for day-to-day work but is not backed up and will generally track the bleeding edge of our infrastructure. It is important that all data, notebooks, and active work products are backed up in GitHub or another third-party service.
 
-
-
