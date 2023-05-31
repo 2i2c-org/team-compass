@@ -56,6 +56,12 @@ See [](accounting-statement-overview.md) for more information about these sheets
 accounting-statement-overview.md
 ```
 
+## CS&S accounting contact
+
+Code for Science and Society has an accounting team that puts together our monthly reports, helps us define annual budgets, and can provide us guidance on accounting questions.
+We also have a dedicated **project accountant** named **Josmil Reyes** that focuses his time on 2i2c.
+If you have any questions for CS&S regarding accounting, send an e-mail to `fsp@codeforsociety.org` and it will be routed to Josmil.
+
 (accounting:dashboard)=
 ## Summary dashboards
 
