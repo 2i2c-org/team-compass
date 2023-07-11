@@ -14,6 +14,7 @@ A Technical Content Specialist at 2i2c focuses on creating and curating document
 - Environment management for hub administrators
 - Best practices for analysis-ready cloud optimized data
 - Assist the 2i2c Engineering Team by editing technical documentation and documenting solutions from our support desk
+- Author content for 2i2c for use in marketing, blog posts, and website copy
 
 ## Necessary qualities
 - Demonstrated excellence in communicating complex technical information to learners with a different levels of background and experience
