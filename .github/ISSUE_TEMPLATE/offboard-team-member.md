@@ -16,7 +16,7 @@ Don't hesitate to delegate some actions to others (e.g. if another person needs 
 **First steps**
 
 - [ ] Schedule a 2i2c offboarding meeting
-- [ ] Arrange with CS&S HR team to do formal exit interview
+- [ ] Arrange with CS&S HR team to do formal exit interview (`hr@codeforscience.org`)
 
 
 **Accounts**
