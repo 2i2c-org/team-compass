@@ -43,7 +43,9 @@ Remove 2i2c accounts and remove from team accounts:
 - [ ] Remove from the proper [FreshDesk group](https://2i2c.freshdesk.com/a/admin/groups)
 - [ ] Remove from [PagerDuty Users group](https://2i2c-org.pagerduty.com/users-new)
 - [ ] Remove from our [bitwarden organization](https://vault.bitwarden.com/#/organizations/11313781-4b83-41a3-9d35-afe200c8e9f1/vault) and remove from "Default collection"
-- [ ] Remove a team member from the Support Steward Team Role, calendar and rota [Role Offboarding Ticket](https://github.com/2i2c-org/team-compass/issues)
+
+- [ ] Role removal
+  - [ ] File and complete a "Remove a team member from the Support Steward Team Role, calendar, and rotation" [issue](https://github.com/2i2c-org/team-compass/issues)
 
 
 **Documentation**
