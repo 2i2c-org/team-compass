@@ -10,7 +10,8 @@ title: "Departing <name>"
 
 ### Departure checklist
 
-The manager should follow the checklist below to offpord a departing team member after exit. Don't hesitate to delegate some actions to others (e.g. if another person needs to give access to an account because you aren't able to).
+The manager should follow the checklist below to offboard a departing team member after exit.
+Don't hesitate to delegate some actions to others (e.g. if another person needs to give access to an account because you aren't able to).
 
 **First steps**
 
