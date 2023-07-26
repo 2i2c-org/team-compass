@@ -1,6 +1,6 @@
-# Communication and outreach
+# Marketing and outreach
 
-These sections describe our external communications strategy and operations.
+These sections describe our external marketing, communications, and outreach strategy and operations.
 
 ```{toctree}
 overview

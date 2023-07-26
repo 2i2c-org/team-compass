@@ -7,5 +7,6 @@ This includes partnerships involving paid contracts, as well as via informal and
 overview.md
 structure.md
 workflow.md
-communication.md
+../communication/index
+community_success/freshdesk.md
 ```

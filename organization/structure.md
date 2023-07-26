@@ -24,6 +24,7 @@ They are led by the {role}`Executive Director` and responsibility is delegated t
 - **[People group](../people/index.md)**: Policies and practices for personnel, hiring, salaries, benefits, and time off.
 - **[Open Source](../open-source/index.md)**: Our upstream and open source engagement strategy to ensure we have healthy relationships with communities we rely on.
 - **[Finance](../finance/index.md)**: Our accounting and financial systems and strategy.
+- **[Product](../product/index.md)**: Understand the perspective of our partner communities and guide the evolution of our infrastructure and services, in order to ensure they have a positive impact.
 - **[Communication](../communication/index.md)**: Strategy and practices for communicating 2i2c's impact and operations with external communities.
 - **[Administration](../administration/index.md)**: Carry out ongoing organizational tasks that are needed to keep 2i2c running on a daily basis.
 
@@ -36,8 +37,6 @@ Reporting lines are within a functional area, meaning that team members should r
 
 
 - **[Engineering](../engineering/structure.md)**: Develop and operate our technical and cloud infrastructure, to ensure that it is reliable and scalable.
-- **[Product](../product/structure.md)**: Understand the perspective of our partner communities and guide the evolution of our infrastructure and services, in order to ensure they have a positive impact.
-- **[Community](../community/structure.md)**: Guide and support the partner communities that we serve, to help them utilize our infrastructure in a way that aligns with 2i2c's mission.
 - **[Partnerships](../partnerships/structure.md)**: Identify opportunities for impact, cultivate new relationships, and oversee our sustainability plan to ensure that we have sustainable and scalable impact.
 
 ## Cross-functional teams
