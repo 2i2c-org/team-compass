@@ -49,12 +49,5 @@ Not yet defined. Potential indicators below…
 + hub usage patterns over time
 + time-to-milestones in the leads-to-partner lifecycle.
 
-## Current roles
-
-
-| Role | Person | Description |
-|------|--------|-------------|
-| Partnerships Lead | Jim Colliander | Oversees the strategy and execution for all areas of responsibility for Partnerships |
-| Community Success Manager | James Munroe | Oversees strategy and areas of responsibility for Community success |
 
 
