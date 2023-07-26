@@ -7,7 +7,6 @@ The team leads group is composed of leaders from various areas of 2i2c.
 Below is the current list of team leads:
 
 - **Organization-wide**: {role}`Executive Director`
-- **Product** / **Community**: {role}`Product and Community Lead`
 - **Partnerships**: {role}`Partnerships Lead`
 - **Engineering**: {role}`Engineering Manager` / {role}`Technology Lead`
 
