@@ -1,57 +1,60 @@
-# Scope and responsibilities
+## Organizational Context
 
-## Oversee sustainability strategy
+2i2c is divided into the following areas:
 
-- Collect feedback from major stakeholders and define major plans around sustainability at 2i2c
-- Define overall goals to guide sustainability efforts at 2i2c
-- Forecast revenue to inform overall strategy
++ **Executive Director**: Oversees 2i2c’s organizational strategy and product strategy.
++ **Engineering**: Designs, deploys, operates, and improves the technical infrastructure that 2i2c offers.
++ **Partnerships**: Establishes, supports, and renews business relationships with communities 2i2c serves.
 
-## Represent this strategy internally and externally
+## Key goals
 
-- Amplify [Voice of Partner](https://www.zs.com/insights/high-techs-new-challenge-hearing-voices-of-channel-partners) for 2i2c stakeholders in internal discussions (e.g. with 2i2c's engineering and support teams).
-- Collaborate with Product and Community Lead to represent Sustainability strategy in product/service decisions.
-- Communicate 2i2c's sustainability strategy and model to external stakeholders
+1. **Sustainability**: Establish, support and renew partnerships so that 2i2c has the financial resources to advance on its mission.
+2. **Community Success**: Deliver value to all communities in a consistent, repeatable, scalable way so that partners see the return on their ongoing investment and collaboration with 2i2c.
+   
+## Major areas of responsibility
 
-## Design and develop new revenue mechanisms
+Partnerships defines strategy for the following areas and aligns it with the overall strategy of 2i2c.
 
-- Establish and sustain revenue-generating relationships with partner organizations
-- Establish ongoing relationships with cloud vendors or resellers
-- Collaborate with product and engineering teams.
+### Sustainability
+Establish, support and renew partnerships so that 2i2c has the financial resources to advance on its mission.
 
-## Identify, develop, and pursue funding opportunities
++ **Marketing**: Describe 2i2c’s value proposition externally and attract new leads.
++ **Sales**: Generate new and renew agreements and service contracts.
++ **Grants**: Identify and apply for grant opportunities that align with 2i2c’s service strategy
++ **Invoicing and cost recovery**: Ensure 2i2c recovers the cost that it is due via contracts.
++ **Pricing and contract strategy**: Set pricing and agreement terms for partners so that paid services meet our growth goals.
++ **Market research and competitive analysis**: Understand 2i2c’s value proposition and business model relative to other services and products.
++ **Business aspects of joint ventures**: Understand the financial and strategic impact of partnerships with other services and products (e.g. with cloud vendors, cloud resellers, publishers, technology companies).
 
-For example:
+### Community Success
 
-- Partnerships that grow our capacity
-- Grants for the organization or for deliverables
-- Philanthropy and giving
+Deliver value to all communities in a consistent, repeatable, scalable way so that partners see the return on their ongoing investment and collaboration with 2i2c. 
 
-## Manage our sales pipeline
++ **Onboarding**: Set expectations and provide guidance for new communities that are using our service.
++ **Training**: Help communities understand how to use our products and services to achieve value.
++ **Community satisfaction**: Understand the ongoing satisfaction that communities have with the service and identify ways to improve their experience.
++ **Account management**: Establish and sustain relationships with partner organizations to ensure they are successful.
++ **Grant management((: Ensure that the goals and deliverables of our grants are understood and met.
++ **Support**: React to community questions and requests for help and direct them to the appropriate team for resolution.
 
-- Oversee [our leads and sales process](../projects/managed-hubs/sales.md).
-- Ensure that our sales pipeline is efficient, distributed-friendly, and scalable.
-- Balance our revenue, costs, and ability to deliver.
-- Oversee processes and systems that balance leads, sales, etc. For example:
-  - `costs <= amount sold <= delivery capacity`
-  - `Leads --> opportunities --> sales --> service`
-- Collaborate with Product and Community Lead around onboarding new communities.
+## Measures and definition of success
 
-## Manage our invoicing pipeline
+### Sustainability
++ Ratio of **monthly recurring costs** to **monthly recurring revenue**.
 
-- Ensure that 2i2c is reliably invoicing for the work it is doing, and getting paid for these invoices.
-- Oversee systems for contracting and invoicing in partnership with {term}`Code for Science and Society`.
-- Serve as a main point of contact for CS&S administrators that oversee billing.
+### Community success
 
-## Formalize our contractual relationships
+Not yet defined. Potential indicators below…
++ [net promoter score](https://en.wikipedia.org/wiki/Net_promoter_score)
++ hub usage patterns over time
++ time-to-milestones in the leads-to-partner lifecycle.
 
-Oversee the creation of contracts and legal documents that are needed as part of our services (in collaboration with {term}`CS&S`).
-For example:
+## Current roles
 
-- Service Level Agreement
-- Support Expectations
-- Terms of Service
-- Privacy Policy
-- Right to Replicate
-- Information security breach response plan
-- HECVAT
-- Accessibility
+
+| Role | Person | Description |
+|------|--------|-------------|
+| Partnerships Lead | Jim Colliander | Oversees the strategy and execution for all areas of responsibility for Partnerships |
+| Community Success Manager | James Munroe | Oversees strategy and areas of responsibility for Community success |
+
+
