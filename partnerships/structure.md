@@ -1,22 +1,8 @@
 # Structure and roles
 
-:::{note}
-This is still a work in progress!
-:::
-
-Our product area is led by the {role}`Partnerships Lead`.
-
-We do not currently have any other formal roles or teams within it.
-
-Below are major roles and teams...
-
-```{role} Partnerships Lead
-```
-
-## Roles
+## Current roles
 
 ```{toctree}
-:maxdepth: 2
 :glob:
 roles/*
 ```
@@ -24,3 +10,14 @@ roles/*
 ## Membership
 
 See [list of team members](../reference/team.md).
+
+
+## External communication
+
+### Partnerships e-mail address
+
+We use a [shared e-mail inbox](org:communication:shared-email) called `partnerships@2i2c.org` to collect any inbound communication from those that wish to partner with 2i2c.
+
+It is attached to the `2i2c Partnerships` Google Group.
+
+Access is also shared with {term}`CS&S` so that they have context for any handoffs to invoicing and administration.

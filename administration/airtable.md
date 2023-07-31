@@ -17,7 +17,7 @@ If you need edit permissions, use the [shared AirTable account](airtable:shared)
 We have a single account on the "Pro" plan of AirTable.
 It is the only account with edit permissions.
 
-To access this account, use our [shared passwords account](accounts:bitwarden) for credentials.
+To access this account, use our [shared passwords account](account:bitwarden) for credentials.
 
 The rest of this page describes an overview of AirTable's structure in general.
 

@@ -3,6 +3,10 @@
 
 # Product and Community Lead
 
+:::{admonition} Archived!
+This role is no longer active within 2i2c, but we leave it here as a historical record.
+:::
+
 There are three key goals for this role:
 
 - Empower the communities we serve to have impact with our infrastructure.

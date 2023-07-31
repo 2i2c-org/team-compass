@@ -1,4 +1,4 @@
-(accounts:bitwarden)=
+(account:bitwarden)=
 # Shared bitwarden account
 
 We use [bitwarden](https://bitwarden.com/) to share passwords and secrets across the team.

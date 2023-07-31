@@ -13,5 +13,6 @@ google-workspace
 github
 airtable
 authentication
+passwords
 zoom
 ```

@@ -27,6 +27,7 @@ Below is a summary of the people on that page.
 
 <style>
 .people-widget .avatar {
+    display: flex;
     width: 100%;
     max-width: 150px;
     height: auto;
