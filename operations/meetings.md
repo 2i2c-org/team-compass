@@ -4,7 +4,7 @@
 This section describes our broad team practices for meetings.
 Its goal is to be relatively high-level and to provide guidelines that can be interpreted in different ways by team leads and meeting facilitators.
 
-The source of truth for team meetings is [the 2i2c Events calendar](calendar:events).
+The source of truth for team meetings is [the 2i2c Team calendar](calendars:team).
 These may link to other sources of information such as meeting notes.
 
 ## Guidelines
