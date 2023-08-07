@@ -60,10 +60,10 @@ We have a Steering Council calendar to track important dates for our Steering Co
 
 This calendar is used to track events by communities.
 
-[Calendar link](https://calendar.google.com/calendar/embed?src=c_kt84sh7anm0slocjs2su3jvsoc@group.calendar.google.com).
+[Calendar link](https://calendar.google.com/calendar/embed?src=c_kt84sh7anm0slocjs2su3jvsoc%40group.calendar.google.com).
 
 ```{dropdown} Team Events calendar (times in UTC)
 
-<iframe src="https://calendar.google.com/calendar/embed?src=c_kt84sh7anm0slocjs2su3jvsoc@group.calendar.google.com" style="border: 0; width:100%"  height="600" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://calendar.google.com/calendar/embed?src=c_kt84sh7anm0slocjs2su3jvsoc%40group.calendar.google.com" style="border: 0; width:100%"  height="600" frameborder="0" scrolling="no"></iframe>
 
 ```
