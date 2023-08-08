@@ -59,7 +59,7 @@ We have a Steering Council calendar to track important dates for our Steering Co
 ## Community Hub Events Calendar
 
 This calendar is used to track community events that require extra hub
-attention. A community representative can notify 2i2c about an event following
+attention. A community representative may notify 2i2c about an event following
 [this documentation](https://docs.2i2c.org/community/events/).
 
 [Calendar link](https://calendar.google.com/calendar/embed?src=c_kt84sh7anm0slocjs2su3jvsoc%40group.calendar.google.com).
