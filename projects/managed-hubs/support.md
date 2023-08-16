@@ -148,7 +148,7 @@ Our canned responses.
 We have a few channels for communicating around support requests:
 
 - Our [FreshDesk account](https://2i2c.freshdesk.com/a/) allows for internal team communication via the {guilabel}`Add Note` button. This can be useful for sharing quick internal updates.
-- [Issues with the {guilabel}`support` label](https://github.com/2i2c-org/infrastructure/issues?q=is%3Aopen+label%3Asupport+sort%3Aupdated-desc) are where we track support requests related to {term}`Change Requests` and {term}`Guidance Requests`. (support requests from external stakeholders are created via emailing `support@2i2c.org`, we do not encourage them to open issues directly.)
+- [Issues with the {guilabel}`support` label](https://github.com/2i2c-org/infrastructure/issues?q=is%3Aopen+label%3Asupport+sort%3Aupdated-desc) were where we tracked support requests related to {term}`Change Requests` and {term}`Guidance Requests`. Recently, we started to use the [Eng & Prod board to collect support-related issues](https://github.com/orgs/2i2c-org/projects/22/views/47) adding type: `support` metadata to each of our support-related issues. Support requests from external stakeholders are created via emailing `support@2i2c.org`, we do not encourage them to open issues directly.
 
 ## Process for support triage and resolution
 
@@ -178,26 +178,33 @@ The current iteration of the workflow states each step and who should be respons
 
 When a new ticket lands in Freshdesk under the support group and it is not an incident, you should follow the following steps:
 
-1. **Who: Support steward**
+1. `Who: Support steward`
 
    **Respond within 24 working hours**. Acknowledge receipt of the support request and let the {term}`Community Representative` know about any investigation we have done thus far.
-2. **Who: Support steward**
+2. `Who: Support steward`
 
    **Spend 30 minutes trying to resolve**. If you believe you can resolve the issue within 30 minutes, try resolving it yourself.
    1. If you resolve the issue, then jump to the "Confirm resolution" step 7.
    2. If you don't believe you can resolve the issue (or you couldn't) in 30 minutes, jump to the next step.
-3. **Who: Support Steward, the board metadata will be revisited by a Partnerships representative and the Engineering Manager.**
+3. `Who: Support Steward, the board metadata will be revisited by a Partnerships representative and the Engineering Manager`
 
    **Open an engineering issue**. If this is a {term}`Change Request` or {term}`Guidance Request` and/or you cannot resolve the issue within 30 minutes, then open a support issue for the team to discuss.
+
    [{bdg-primary}`Open a general issue`](https://github.com/2i2c-org/infrastructure/issues/new?assignees=&labels=&template=01_new-issue.yml) that describes the request and any next steps we should take. It should be automatically added to the **Eng & Prod** board by the existing automation. Add the **type**: `support` and choose an **impact** level in the **Eng & Prod** board metadata (available for the very same issue, no need to visit the board itself!).
+   
    If the issue has a `critical` impact (we defer that first evaluation to the support steward), an additional ping to the support Slack channel is needed to boost the signal.
+   
    If the support steward has the capacity, they should self-assign the `critical` issue and work on it (this is now outside of the 30 min timebox in step 2).
+   
    If the support steward does not have the capacity, they should ping the **Engineering Manager** (or the delegated person) so he can secure resources to resolve that issue on the fly (see step 6 below).
+   
    The support steward **should not** work on issues with impact lower than `critical` (unless they are assigned as part of the "planned" reactive work in the context of a running sprint (see step 6 below).
-4. **Who: Support steward**
+5. `Who: Support steward`
+
    **Add a reference/link to the created engineering issue inside the Freshdesk ticket**. You can use an internal note or make it public when you communicate back to the Community Representative in step 5. Also, move the status of the ticket to the "Pending" state.
    
-5. **Who: Support steward**
+6. `Who: Support steward`
+
    **Communicate status**. Once we have an issue created to track the next steps, send a message to the Community Representative letting them know about the situation: after some initial investigation and no immediate fix, a follow-up issue was created that will be assigned in the future accordingly to the current prioritization. Also, let them know what the next steps will be. Here's a template to help guide you:
 
    ```
@@ -206,18 +213,20 @@ When a new ticket lands in Freshdesk under the support group and it is not an in
    this request into our team's work planning process. We'll send an update
    when we've got a plan for completing this request.
    ```
-6. **Who: Engineering Manager (currently assigning reactive work) or someone delegated by Engineering Manager if he is not available.**
+7. `Who: Engineering Manager (currently assigning reactive work) or someone delegated by Engineering Manager if he is not available`
 
-   **Prioritize the request**. Any non-`critical` issue should wait to be included in our sprints (on Wednesdays, every other week) to be worked out as part of the "planned" reactive work. Follow the [how to prioritize Change and Guidance Requests guide](support:prioritize-requests) to decide how we should prioritize this request relative to the other work we need to do.
-   We should be fully transparent about the support queue to our Community Representatives if they ping us for updates.
+   **Prioritize the request**. Any non-`critical` issue should wait to be included in our sprints (on Wednesdays, every other week) to be worked out as part of the "planned" reactive work. Follow the [how to prioritize Change and Guidance Requests guide](support:prioritize-requests) to decide how we should prioritize this request relative to the other work we need to do. We should be fully transparent about the support queue to our Community Representatives if they ping us for updates.
+   
    If there is any `critical` issue, we could assign people on the fly (during the sprint) to resolve them, but we should minimize that behavior (it should be exceptional cases).
-7. **Who: Support steward**
+9. **Who: Support steward**
 
-   **Resolve the request**. When some engineer is assigned to a support-related GH issue in the context of a sprint, we move ahead with the investigation/resolution for one (1) sprint. If we failed to find a fix during that time, we communicate back that state in the Freshdesk ticket and resolve it. Exceptional tickets might need more than one sprint, we might approve that exception on a case-by-case basis.
-8. **Who: Support steward**
+   **Resolve the request**. When some engineer is assigned to a support-related GH issue in the context of a sprint, we move ahead with the investigation/resolution for one (1) sprint. If we failed to find a fix during that time, we communicate back that state in the Freshdesk ticket and resolve it.
+
+   Exceptional tickets might need more than one sprint, we might approve that exception on a case-by-case basis.
+11. **Who: Support steward**
 
    **Confirm resolution**. Once we have resolved a support request, send a message to the Community Representative to confirm that we believe it is resolved. In FreshDesk, mark the incident as {guilabel}`Resolved`.
-9. **Who: Support steward**
+11. **Who: Support steward**
 
    **Close the request**. If the Community Representative confirms that their request has been fulfilled, or if we have not gotten a response after 48 working hours, consider this request closed. In FreshDesk, mark the incident as {guilabel}`Closed`.
 
