@@ -224,7 +224,7 @@ When a new ticket lands in Freshdesk under the support group and it is not an in
    **Resolve the request**. When some engineer is assigned to a support-related GH issue in the context of a sprint, we move ahead with the investigation/resolution for one (1) sprint. If we failed to find a fix during that time, we communicate back that state in the Freshdesk ticket and resolve it.
 
    Exceptional tickets might need more than one sprint. These tickets need to be explicitly approved as exceptions.
-11. **Who: Support steward**
+11. `Who: Support steward`
 
    **Confirm resolution**. Once we have resolved a support request, send a message to the Community Representative to confirm that we believe it is resolved. In FreshDesk, mark the incident as {guilabel}`Resolved`.
 11. **Who: Support steward**
