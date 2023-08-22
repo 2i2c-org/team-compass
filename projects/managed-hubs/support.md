@@ -219,7 +219,7 @@ When a new ticket lands in Freshdesk under the support group and it is not an in
    **Prioritize the request**. Any non-`critical` issue should wait to be included in our sprints (on Wednesdays, every other week) to be worked out as part of the "planned" reactive work. Follow the [how to prioritize Change and Guidance Requests guide](support:prioritize-requests) to decide how we should prioritize this request relative to the other work we need to do. We should be fully transparent about the support queue to our Community Representatives if they ping us for updates.
    
    If there is any `critical` issue, we could assign people on the fly (during the sprint) to resolve them, but we should minimize that behavior (it should be exceptional cases).
-9. **Who: Support steward**
+9. `Who: Support steward`
 
    **Resolve the request**. When some engineer is assigned to a support-related GH issue in the context of a sprint, we move ahead with the investigation/resolution for one (1) sprint. If we failed to find a fix during that time, we communicate back that state in the Freshdesk ticket and resolve it.
 
