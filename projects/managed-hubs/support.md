@@ -229,7 +229,7 @@ When a new ticket lands in Freshdesk under the support group and it is not an in
    **Confirm resolution**. Once we have resolved a support request, send a message to the Community Representative to confirm that we believe it is resolved. In FreshDesk, mark the incident as {guilabel}`Resolved`.
 11. **Who: Support steward**
 
-   **Close the request**. If the Community Representative confirms that their request has been fulfilled, or if we have not gotten a response after 48 working hours, consider this request closed. In FreshDesk, mark the incident as {guilabel}`Closed`.
+   **Close the request**. If the Community Representative confirms that their request has been fulfilled, consider this request closed. In FreshDesk, mark the incident as {guilabel}`Closed`.
 
 (support:prioritize-requests)=
 ## Prioritizing non-incident support requests
