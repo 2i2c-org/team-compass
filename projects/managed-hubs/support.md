@@ -148,7 +148,7 @@ Our canned responses.
 We have a few channels for communicating around support requests:
 
 - Our [FreshDesk account](https://2i2c.freshdesk.com/a/) allows for internal team communication via the {guilabel}`Add Note` button. This can be useful for sharing quick internal updates.
-- The [Eng & Prod board that collects support-related issues](https://github.com/orgs/2i2c-org/projects/22/views/47) adding type: `support` metadata to each of our support-related issues. Support requests from external stakeholders are created via emailing `support@2i2c.org`, we do not encourage them to open issues directly.
+- The [Eng & Prod board that collects support-related issues](https://github.com/orgs/2i2c-org/projects/22/views/47) identified via metadata `type==support`.
 - (deprecated) [Issues with the {guilabel}`support` label](https://github.com/2i2c-org/infrastructure/issues?q=is%3Aopen+label%3Asupport+sort%3Aupdated-desc) were where we tracked support requests related to {term}`Change Requests` and {term}`Guidance Requests`.
 
 ## Process for support triage and resolution
