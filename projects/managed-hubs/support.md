@@ -181,7 +181,7 @@ When a new ticket lands in Freshdesk under the support group and it is not an in
 
 1. `Who: Support steward`
 
-   **Respond within 24 working hours**. Acknowledge receipt of the support request and let the {term}`Community Representative` know about any investigation we have done thus far.
+   **Respond within 24 working hours**. Acknowledge receipt of the support request and let the {term}`Community Representative` know a time-boxed investigation will start soon. Please request any additional information you may need to be able to reproduce the issue in step 2.
 2. `Who: Support steward`
 
    **Spend 30 minutes trying to resolve**. If you believe you can resolve the issue within 30 minutes, try resolving it yourself.
