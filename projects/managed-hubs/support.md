@@ -197,7 +197,7 @@ When a new ticket lands in Freshdesk under the support group and it is not an in
    
    If the support steward has the capacity, they should self-assign the `critical` issue and work on it (this is now outside of the 30 min timebox in step 2).
    
-   If the support steward does not have the capacity, they should ping the **Engineering Manager** (or the delegated person) so he can secure resources to resolve that issue on the fly (see step 6 below).
+   If the support steward does not have the capacity, they should ping the **Engineering Manager** (or the delegated person) so they can secure resources to resolve that issue on the fly (see step 6 below).
    
    The support steward **should not** work on issues with impact lower than `critical` (unless they are assigned as part of the "planned" reactive work in the context of a running sprint (see step 6 below).
 5. `Who: Support steward`
