@@ -214,7 +214,7 @@ When a new ticket lands in Freshdesk under the support group and it is not an in
    this request into our team's work planning process. We'll send an update
    when we've got a plan for completing this request.
    ```
-7. `Who: Engineering Manager (currently assigning reactive work) or someone delegated by Engineering Manager if he is not available`
+7. `Who: Engineering Manager (currently assigning reactive work) or someone delegated by Engineering Manager if they are not available`
 
    **Prioritize the request**. Any non-`critical` issue should wait to be included in our sprints (on Wednesdays, every other week) to be worked out as part of the "planned" reactive work. Follow the [how to prioritize Change and Guidance Requests guide](support:prioritize-requests) to decide how we should prioritize this request relative to the other work we need to do. We should be fully transparent about the support queue to our Community Representatives if they ping us for updates.
    
