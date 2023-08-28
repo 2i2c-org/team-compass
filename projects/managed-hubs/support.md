@@ -197,9 +197,9 @@ When a new ticket lands in Freshdesk under the support group and it is not an in
    
    If the issue has a `critical` impact (we defer that first evaluation to the support steward), an additional ping to the support Slack channel is needed to boost the signal.
    
-   If the support steward has the capacity, they should self-assign the `critical` issue and work on it (this is now outside of the 30 min timebox in step 2).
+   The support steward **should** self-assign the `critical` issue and work on it immediately (this is now outside of the 30-minute timebox described in step 2).
    
-   If the support steward does not have the capacity, they should ping the **Engineering Manager** (or the delegated person) so they can secure resources to resolve that issue on the fly (see step 6 below).
+   If the support stewards (both) do not have the capacity to complete the task (ie. working on another critical issue, being out of their working time), they should ping the **Engineering Manager** (or the delegated person) so they can secure resources to resolve that issue on the fly (see step 7 below).
    
    The support steward **should not** work on issues with impact lower than `critical` (unless they are assigned as part of the "planned" reactive work in the context of a running sprint (see step 6 below).
 
@@ -238,9 +238,9 @@ When a new ticket lands in Freshdesk under the support group and it is not an in
 
    **Confirm resolution**. Once we have resolved a support request, send a message to the Community Representative to confirm that we believe it is resolved. In FreshDesk, mark the incident as {guilabel}`Resolved`.
 
-11. `Who: Support steward`
+10. `Who: Support steward`
 
-   **Close the request**. If the Community Representative confirms that their request has been fulfilled, consider this request closed. In FreshDesk, mark the incident as {guilabel}`Closed`.
+    **Close the request**. If the Community Representative confirms that their request has been fulfilled, consider this request closed. In FreshDesk, mark the incident as {guilabel}`Closed`.
 
 (support:prioritize-requests)=
 ## Prioritizing non-incident support requests
