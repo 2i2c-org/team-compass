@@ -209,7 +209,7 @@ When a new ticket lands in Freshdesk under the support group and it is not an in
      
 5. `Who: Support steward`
 
-   **Add a reference/link to the created engineering issue inside the Freshdesk ticket**. You can use an internal note or make it public when you communicate back to the Community Representative in step 5. Also, move the status of the ticket to the "Pending" state.
+   **Add a reference/link to the created engineering issue inside the Freshdesk ticket**. You can use an internal note or make it public when you communicate back to the Community Representative in step 6. Also, move the status of the ticket to the "Pending" state.
    
 6. `Who: Support steward`
 
