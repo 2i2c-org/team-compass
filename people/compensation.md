@@ -67,7 +67,7 @@ This section describes our benefits and expenses policy across all team members 
 
 Benefits are available to employees only and are managed through {term}`Code for Science and Society`’s relationship with a service partner or PEO. For example, employees who are US based and employed through {term}`Code for Science and Society`’s relationship with [Trinet](https://www.trinet.com/), will have access to health coverage and retirement benefits through Trinet. Employees based outside the US and employed through a relationship with a PEO like Remote will have access to benefits available in their region through that PEO. More details can be found at the [the CS&S employee handbook](https://drive.google.com/file/d/1anHo8P09gjGLnUfGj2ceSDxvJTYwMeS1/view?usp=sharing).
 
-Contractors are independent, not employed by CS&S, and are brought on to support 2i2c with their specific expertise. To support these contract relationships, 2i2c will cover some types of expenses related to the operation of independent contract business, such as would typically be charged as overhead at a larger organization. These expenses include healthcare, accounting services, etc. We estimate a 20% on top of the contractor monthly payment to cover for these sorts of expenses.
+Contractors are independent, not employed by CS&S, and are brought on to support 2i2c with their specific expertise. To support these contract relationships, 2i2c estimates a 20% on top of the contractor's monthly payment is needed to match some types of expenses related to the operation of independent contract business, such as would typically be charged as overhead at a larger organization. These expenses include healthcare, accounting services, etc.
 
 ### Time off
 
@@ -75,7 +75,7 @@ Our time off policy is documented in our [Taking time off](./time-off.md) sectio
 
 ### Mechanism for reimbursement
 
-For anything that involves purchasing equipment, services, tickets, etc, our reimbursement process is documentend in our [Reimbursements and Ramp](../administration/reimburse.md) section.
+For anything that involves purchasing equipment, services, tickets, etc., our reimbursement process is documented in our [Reimbursements and Ramp](../administration/reimburse.md) section.
 
 ### List of additional reimbursable expenses for our 2i2c team members
 
@@ -83,7 +83,7 @@ For anything that involves purchasing equipment, services, tickets, etc, our rei
 
 We inherit the Equipment Policy for Code for Science and Society.
 This defines a budget of $5,000 every 3 years for equipment for each team member.
-This includes computer, desk, monitors, microphones, etc.
+This includes computers, desks, monitors, microphones, etc.
 The goal is to make sure the team has the technical equipment they need to operate as a distributed team member that largely operates via video chat and text.
 
 #### Internet
@@ -92,8 +92,8 @@ We reimburse up to $100 a month for a high-speed internet subscription.
 
 #### Travel
 
-2i2c will reimburse any work-related travel expenses for its team members.
-Team members should get approval for travel (and rough budget) before any booking.
+We reimburse any work-related travel expenses for its team members.
+Team members should get approval for travel (and a rough budget) before any booking.
 
 #### Personal development
 
@@ -101,11 +101,11 @@ Team members should get approval for travel (and rough budget) before any bookin
 2i2c will cover the cost of these opportunities.
 We particularly encourage area leads and managers to identify these opportunities for others in their area (and for themselves).
 Opportunities should be identified by any team member, and approved by an area lead or manager.
-There is currently no restriction on the funds that can be spent for this. This will likely change to a fixed budget in the future, but should be sustainable while we are small.
+There is currently no restriction on the funds that can be spent on this. This will likely change to a fixed budget in the future but should be sustainable while we are small.
 
 #### Wellness
 
-We want to help you to maintain a well-rounded and healthy lifestyle. You can be reimbursed up to $600 per calendar year for activies such as:
+We want to help you to maintain a well-rounded and healthy lifestyle. You can be reimbursed up to $600 per calendar year for activities such as:
 
 * memberships (ie. gym membership)
 * exercise technology (ie. fitness trackers)
