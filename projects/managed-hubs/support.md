@@ -221,7 +221,7 @@ When a new ticket lands in Freshdesk under the support group and it is not an in
 
 4. `Who: Partnerships representative and the Engineering Manager (or respective delegates)`
 
-   **Revisit the impact metadata**. Once a week (at minimum) the [support view in the **Eng & Prod** board](https://github.com/orgs/2i2c-org/projects/22/views/47) should be revisited to validate the impact level on support-related issues. Currently, we allocate a 30-minute working session every Wednesday (open to everyone to participate) to perform such revision.
+   **Revisit the impact metadata**. Once a week (at minimum) the [support view in the **Eng & Prod** board](https://github.com/orgs/2i2c-org/projects/22/views/47) should be revisited to validate the impact level on support-related issues. Currently, we allocate a 30-minute working session every Wednesday (open to everyone to participate) to perform such impact revision and further prioritization ("planned" reactive) every other week (see step 7 for more details).
      
 5. `Who: Support steward`
 
