@@ -197,6 +197,20 @@ When a new ticket lands in Freshdesk under the support group and it is not an in
    
    If the issue has a `critical` impact (we defer that first evaluation to the support steward), an additional ping to the support Slack channel is needed to boost the signal.
    
+   ```{admonition} What does `critical` mean?
+
+   We recognize there might be some support-related issues that do not count as [incidents](incidents:what), but 
+   they need a quick resolution (inside the current sprint window) because they are impacting the execution of 
+   desired or existing workflows (degraded experience) for our communities.
+   Examples of those sorts of issues (requests) are:
+     * Image refs updates
+     * Profile updates
+     * User storage limitations
+     * Grafana (and Prometheus) failures
+   Additionally and depending on the nature AND context of the issue (request):
+     * Access to specific buckets
+     * Authentication and authorization updates
+   
    The support steward **should** self-assign the `critical` issue and work on it immediately (this is now outside of the 30-minute timebox described in step 2).
    
    If the support stewards (both of them) do not have the capacity to resolve the `critical` issue (ie. working on another `critical` issue, being out of their working time, etc.), they should ping the **Engineering Manager** (or the delegated person) so they can secure resources to resolve that issue on the fly (see step 7 below).
