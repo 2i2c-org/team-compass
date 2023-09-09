@@ -101,7 +101,7 @@ Here is the process that we follow for incidents:
    ```
 
 2. **Trigger an incident in PagerDuty**. Below are instructions for doing so via [the 2i2c slack](incidents:communications).
-   - **Type `/pd trigger` and hit `enter`** to trigger the incident.
+   - **Type `/pd trigger` and hit `enter` in `#pagerduty-notifications`** to trigger the incident
      After you hit `enter`, you should get a dialog box with options.
    - For "Impacted Service", **select `Managed JupyterHubs`**.
    - **Assign it to the Incident Commander**. By default this is one of the {term}`Support Stewards` or the person triggering the event, but may be delegated to others[^note-on-delegation]!
