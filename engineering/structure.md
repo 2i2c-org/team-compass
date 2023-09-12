@@ -46,7 +46,7 @@ We have an internal and engineering-specific salary bands matrix associated with
 :class: only-light
 ```
 
-```{image} /images/ladders/em4-dark.png
+```{image} /images/em4-dark.png
 :class: only-dark
 ```
 
