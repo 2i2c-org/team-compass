@@ -42,6 +42,14 @@ We have an internal and engineering-specific salary bands matrix associated with
 
 ### EM4
 
+```{image} /images/ladders/em4.png
+:class: only-light
+```
+
+```{image} /images/ladders/em4-dark.png
+:class: only-dark
+```
+
 * Evangelizes: researches, creates proofs of concept and introduces new technologies to the team
 * Owns: owns the production operation and monitoring of the system and is aware of its SLAs
 * Coordinates: manages the team members’ career, expectations, performance and level of happiness
