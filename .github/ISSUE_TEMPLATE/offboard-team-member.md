@@ -45,7 +45,7 @@ Remove 2i2c accounts and remove from team accounts:
 - [ ] Remove from our [bitwarden organization](https://vault.bitwarden.com/#/organizations/11313781-4b83-41a3-9d35-afe200c8e9f1/vault) and remove from "Default collection"
 
 - [ ] Role removal
-  - [ ] File and complete a "Remove a team member from the Support Steward Team Role, calendar, and rotation" [issue](https://github.com/2i2c-org/team-compass/issues)
+  - [ ] File and complete a "Remove a team member from the Support Triager Team Role, calendar, and rotation" [issue](https://github.com/2i2c-org/team-compass/issues)
 
 
 **Documentation**
