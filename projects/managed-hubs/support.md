@@ -113,7 +113,7 @@ Hub Administrators
 
 The Support Triager role rotates through the below Support Team members.
 
-```{include} ../../_data/tmp/support-triagers.txt
+```{include} ../../_data/tmp/support-stewards.txt
 ```
 
 ## Communication channels
