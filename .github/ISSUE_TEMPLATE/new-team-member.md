@@ -81,7 +81,7 @@ _This is only relevant for others that are joining our Engineering team._
 
 **Roles**
 
-- [ ] Onboard into the [Support Steward Role](https://github.com/2i2c-org/team-compass/issues/new?assignees=&labels=type%3A+onboard&template=new-team-member.md&title=Onboarding+%3Cname%3E)
+- [ ] Onboard into the [Support Triager Role](https://github.com/2i2c-org/team-compass/issues/new?assignees=&labels=type%3A+onboard&template=new-team-member.md&title=Onboarding+%3Cname%3E)
 
 **External**
 
