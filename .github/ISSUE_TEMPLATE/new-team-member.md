@@ -16,7 +16,7 @@ The **Onboarding champion** should follow the checklist below to onboard a new t
 **First steps**
 
 - [ ] Send them a welcome e-mail to introduce yourself and mention that you'll be onboarding them.
-- [ ] Point them to [our onboarding documentation](https://compass.2i2c.org/en/latest/operations/onboarding.html)
+- [ ] Point them to [our onboarding documentation](https://compass.2i2c.org/operations/onboarding/)
 
 **Accounts**
 
@@ -28,11 +28,13 @@ Create new accounts and share their account name:
 - [ ] Get member's [NameCheap.com account](https://namecheap.com)
 - [ ] Get member's [PagerDuty account](https://pagerduty.com)
 - [ ] Get member's [bitwarden account](https://bitwarden.com)
+- [ ] Get member's [Zoom account](https://zoom.us)
+- [ ] Get member's [Freshdesk account](https://www.freshworks.com)
 
 Create 2i2c accounts and add to team accounts:
 
 - [ ] Create a @2i2c.org Google account for them
-	- Note that this requires [access to the Admin Panel](https://compass.2i2c.org/en/latest/administration/google-workspace.html?highlight=workspaces#access-and-permissions), a permission held by any 2i2c team lead
+	- Note that this requires [access to the Admin Panel](https://compass.2i2c.org/administration/google-workspace/), a permission held by any 2i2c team lead
 - [ ] Add them to the proper Google group in our Google Admin space.
 - [ ] Add to the proper [2i2c GitHub teams](https://github.com/orgs/2i2c-org/teams/)
 - [ ] Add to the proper [Slack groups](https://2i2c.slack.com/admin/user_groups)
@@ -42,8 +44,8 @@ Create 2i2c accounts and add to team accounts:
 
 **Communication**
 
-- [ ] Send them a link to the [2i2c Team Compass](https://team-compass.2i2c.org/en/latest/) and its [Team Operations section](https://team-compass.2i2c.org/en/latest/operations/index.html)
-- [ ] Send them a link to the [2i2c calendars and meetings](https://team-compass.2i2c.org/en/latest/reference/calendar.html)
+- [ ] Send them a link to the [2i2c Team Compass](https://compass.2i2c.org/) and its [Team Operations section](https://compass.2i2c.org/operations/)
+- [ ] Send them a link to the [2i2c calendars and meetings](https://compass.2i2c.org/reference/calendar/)
 - [ ] Send them a link to the [2i2c Team Google Drive](https://drive.google.com/drive/u/1/folders/0AJcabtB-T0LnUk9PVA)
 - [ ] Schedule an onboarding meeting for after they've read through the docs
 
@@ -81,7 +83,7 @@ _This is only relevant for others that are joining our Engineering team._
 
 **Roles**
 
-- [ ] Onboard into the [Support Steward Role](https://github.com/2i2c-org/team-compass/issues/new?assignees=&labels=type%3A+onboard&template=new-team-member.md&title=Onboarding+%3Cname%3E)
+- [ ] Onboard into the [Support Triager Role](https://github.com/2i2c-org/team-compass/issues/new?assignees=&labels=type%3A+onboard&template=new-team-member.md&title=Onboarding+%3Cname%3E)
 
 **External**
 
