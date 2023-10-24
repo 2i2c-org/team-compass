@@ -9,7 +9,7 @@ The hub is hosted on AWS in us-west-2 and supports multiple profiles and machine
 
 ## Images and environment
 
-See <https://github.com/2i2c-org/researchdelight-image> for additional information.
+See <https://github.com/2i2c-org/community-showcase> for additional information.
 
 ## Data retention
 
