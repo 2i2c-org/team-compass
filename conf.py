@@ -56,8 +56,8 @@ myst_enable_extensions = [
 ]
 
 intersphinx_mapping = {
-    "docs": ("https://docs.2i2c.org/en/latest/", None),
-    "infra": ("https://infrastructure.2i2c.org/en/latest/", None),
+    "docs": ("https://docs.2i2c.org/", None),
+    "infra": ("https://infrastructure.2i2c.org/", None),
 }
 
 # Disable linkcheck for anchors because it throws false errors for any JS anchors

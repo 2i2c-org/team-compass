@@ -8,7 +8,7 @@ The most stable form of information in 2i2c is documentation that our teams main
 This is where most information about 2i2c exists.
 Here are a few major documentation sources for 2i2c:
 
-- [**`team-compass.2i2c.org`**](https://team-compass.2i2c.org) (this website): The {term}`Source of Truth` for all 2i2c information and policies.
+- [**`compass.2i2c.org`**](https://compass.2i2c.org) (this website): The {term}`Source of Truth` for all 2i2c information and policies.
 - [**`infrastructure.2i2c.org`**](https://infrastructure.2i2c.org): Information about our cloud infrastructure and deployment configuration.
 - [**`docs.2i2c.org`**](https://docs.2i2c.org): Documentation about our Managed JupyterHub Service.
 

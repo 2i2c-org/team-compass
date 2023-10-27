@@ -88,7 +88,7 @@ Support Stewards
   A **two-person team** of {term}`Support Stewards` work together to triage and communicate with all external support requests.
   Tenure on the support team is **for four weeks**.
   Every **two weeks** (generally at the sprint meeting), a Support Steward cycles off the support team, and a new team member joins the team.
-  The support team rotates through [the “Open Infrastructure Engineering Team” on this page](https://team-compass.2i2c.org/en/latest/reference/team.html), in alphabetical order.
+  The support team rotates through [the “Open Infrastructure Engineering Team”](https://compass.2i2c.org/reference/team/), in alphabetical order.
 
   The primary responsibilities of the Support Stewards are:
 
@@ -101,11 +101,11 @@ Support Stewards
 
 Community Representative
 Community Representatives
-  See [the service documentation](https://docs.2i2c.org/en/latest/about/service/shared-responsibility.html#std-role-Community-Representative).
+  See [the service documentation](https://docs.2i2c.org/about/service/shared-responsibility.html#std-role-Community-Representative).
 
 Hub Administrator
 Hub Administrators
-  See [the service documentation](https://docs.2i2c.org/en/latest/about/service/shared-responsibility.html#std-role-Hub-Administrator).
+  See [the service documentation](https://docs.2i2c.org/about/service/shared-responsibility.html#std-role-Hub-Administrator).
   
 ```
 
