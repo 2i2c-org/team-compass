@@ -101,11 +101,11 @@ Support Stewards
 
 Community Representative
 Community Representatives
-  See [the service documentation](https://docs.2i2c.org/en/latest/about/service/shared-responsibility.html#std-role-Community-Representative).
+  See [the service documentation](https://docs.2i2c.org/about/service/shared-responsibility.html#std-role-Community-Representative).
 
 Hub Administrator
 Hub Administrators
-  See [the service documentation](https://docs.2i2c.org/en/latest/about/service/shared-responsibility.html#std-role-Hub-Administrator).
+  See [the service documentation](https://docs.2i2c.org/about/service/shared-responsibility.html#std-role-Hub-Administrator).
   
 ```
 
