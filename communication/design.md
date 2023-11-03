@@ -3,9 +3,10 @@
 There are several design and images assets that we use in our websites and online materials.
 For example, logos, banners, images for GitHub Teams, etc.
 
+(design:figma)=
 ## Figma board
 
-Almost all of our design assets [exist in this Figma board](https://www.figma.com/file/EYFRCag2gfYGdEZGFrXgzv/2i2c-Logos?node-id=0%3A1&t=0C2Sudf1pYmaY3Xr-0).
+Almost all of our design assets [exist in this Figma board](https://www.figma.com/file/pp9e4cNYthJnm8u6MzpUdp/Logo-and-brand-assets?type=design&node-id=0%3A1&mode=design&t=B2tDcpyIUmfnazdk-1).
 Any team member should be able to access it and re-use assets as you wish.
 
 This uses [Figma's free plan](https://www.figma.com/pricing/) and so only the owner of a board (`@choldgraf` in this case) can make edits.
