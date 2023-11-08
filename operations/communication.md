@@ -19,22 +19,31 @@ See [](coordination:workflow) for more information.
 ## Slack
 
 Most of our synchronous communication [happens in Slack](communication:slack).
+There are a combination of private and public channels for different kinds of communication.
 
-### Who is invited to the Slack?
+### Public channels
 
-Currently, anyone who is interested can join the 2i2c Slack. Initially this is people that mentioned they would like to join via our blog post. Any Slack member is welcome to send an invite link to another person that would like to join.
+Our public channels cover general topics that are relevant to 2i2c, and a space for us to connect with other community members that reside in our Slack.
+Generally speaking, anybody can be invited or added to a public channel.
 
-### Private and Public channels
+### Private channels
 
-We try to keep the number of channels to a minimum, and only add new rooms if it really feels necessary (e.g. if we keep having "off topic" conversations about the same topic in one room).
-There are a mix of private and public rooms in the Slack. In general, conversations about projects, development, etc should be in public rooms. **Most conversation in the 2i2c Slack should be in public channels**.
+Private channels are spaces for the 2i2c staff to have internal discussions that benefit from extra privacy and clearer scope.
+We use them in order to have a space for our team to speak freely with one another, discuss sensitive topics, etc.
 
-There are private channels for a few specific topics that probably warrant private conversation. By default, we'll start with:
+Below are a list of private channels for our teams.
+For these channels, **all 2i2c staff may get access**.
+This is granted by making a request in our `#team-updates` channel.
 
-- `#team-updates` - is for 2i2c team members to share information with one another about what they are up to
-- `#leads-and-partnerships` - is for discussing **prospective** collaborations, communities we may serve, or funding opportunities
+To add a non-2i2c staff member, first get approval from our team leads.
 
-In addition, we may create private rooms on a short-term basis for specific events (such as discussing hiring a specific role).
+- `#team-updates` - organization-wide updates and announcements.
+- `#partnerships` - discussion for our Partnerships team.
+- `#engineering` - discussion for our Engineering team.
+
+In addition, we occasionally create private channels for specific projects or topics.
+In this case, the channel creator can invite the people that they believe need visibility into the conversation.
+
 
 ### Conversations that should not be in Slack
 
