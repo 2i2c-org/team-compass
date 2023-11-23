@@ -177,17 +177,19 @@ This process is carried out in an ongoing basis by the {term}`Support Stewards`.
 The goal of the non-incident response process is to bring standardization to our support response. This simple workflow tries to battle the bias towards a reactive response whereas it is also bringing some common patterns so all of our non-incident support responses are cohesive and shared among our support stewards.
 The current iteration of the workflow states each step and who should be responsible/accountable for the specific step, plus some other clarifications.
 
-When a new ticket lands in Freshdesk under the support group and it is not an incident, you should follow the following steps:
+When a new ticket lands in Freshdesk under the support group and it is not an incident, we aim to respond within 24 working hours with a suggested next action. The next steps should be followed when resolving a ticket:
 
 1. `Who: Support steward`
 
-   **Respond within 24 working hours**. Acknowledge receipt of the support request and let the {term}`Community Representative` know a time-boxed investigation will start soon. Please request any additional information you may need to be able to reproduce the issue in step 2.
+   **First 24h initial ticket evaluation**. In the first 24h a support ticket was opened, you should do an initial evaluation of the ticket and ask the {term}`Community Representative` about any additional information you may need.
 
 2. `Who: Support steward`
 
    **Spend 30 minutes trying to resolve**. If you believe you can resolve the issue within 30 minutes, try resolving it yourself.
    1. If you resolve the issue, then jump to the "Confirm resolution" step 7.
    2. If you don't believe you can resolve the issue (or you couldn't) in 30 minutes, jump to the next step.
+
+   Follow the guide at [](support:timeboxed-evaluation) to try and reach to a decision.
 
 3. `Who: Support Steward`
 
