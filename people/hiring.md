@@ -30,7 +30,7 @@ Access to Greenhouse is provided by our fiscal sponsor, {term}`CS&S`.
 (hiring:offer-template)=
 ## Make a formal job offer for CS&S
 
-Once we've reached informal agreement with a candidate, [copy and paste this information gathering document](https://docs.google.com/document/d/1TYqm85Z2kovDSwcGlzGCeqa1NHtRi4Mcpg3JGjAYhTs/edit?usp=sharing) and follow the instructions.
+Once we've reached informal agreement with a candidate, [make a copy of this information gathering document](https://docs.google.com/document/d/1TYqm85Z2kovDSwcGlzGCeqa1NHtRi4Mcpg3JGjAYhTs/edit?usp=sharing) and follow the instructions.
 
 ## Targeted hiring process
 
