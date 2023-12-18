@@ -60,7 +60,7 @@ Create 2i2c accounts and add to team accounts:
 
 _This is only relevant for others that are joining our Engineering team._
 
-- [ ] Add to 2i2c hubs as an admin
+- [ ] Add to 2i2c hubs as an admin and update [`helm-charts/basehub/values.yaml`](https://github.com/2i2c-org/infrastructure/blob/master/helm-charts/basehub/values.yaml)
 - [ ] Add to appropriate GCP organizations and projects
   - [ ] Organization `2i2c.org`'s [admin group](https://console.cloud.google.com/iam-admin/groups/03znysh73qbio4n?organizationId=184174754493)
   - [ ] Organization `2i2c.org`s [engineering group](https://console.cloud.google.com/iam-admin/groups/01opuj5n2qnifml?organizationId=184174754493)
