@@ -34,7 +34,7 @@ Once we've reached informal agreement with a candidate, [make a copy of this inf
 
 ## Targeted hiring process
 
-Sometimes, we detect an outstanding person that we might want to hire because of strategic or tactical reasons and needs.
+Sometimes, we detect an outstanding person that we might want to hire without a public process.
 In this case, form a {term}`Hiring Team` and fill in the Targeted hiring sections of the [Formal job offer template](hiring:offer-template).
 
 ## References
