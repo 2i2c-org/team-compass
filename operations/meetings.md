@@ -118,6 +118,8 @@ Short, focused meetings to align team members on a short-term plan of action.
 A lightweight way to share what we've been up to and signal-boost items for other team members to pay attention to.
 These are managed by [an automated Geekbot questionnaire](https://geekbot.com/) in [our team slack](communication:slack).
 
+To manage the Geekbot in Slack, send the word `dashboard` as DM to the bot and it'll bring up the page with all of the standups.
+
 **What these meetings for**:
 
 - To share what we've been up to lately
