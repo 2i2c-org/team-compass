@@ -120,7 +120,7 @@ These are managed by [an automated Geekbot questionnaire](https://geekbot.com/) 
 
 To manage the Geekbot in Slack, send the word `dashboard` as DM to the bot and it'll bring up the page with all of the 
 workflows.  For additional information on how use Geekbot from Slack, see this  
-[Geekbot documentation](https://help.geekbot.com/en/articles/4283332-how-to-streamline-your-workflows-with-geekbot-commands).
+[Geekbot documentation on common commands](https://help.geekbot.com/en/articles/4283332-how-to-streamline-your-workflows-with-geekbot-commands).
 
 **What these meetings for**:
 
