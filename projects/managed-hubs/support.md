@@ -193,10 +193,12 @@ When a new ticket lands in Freshdesk under the support group and it is not an in
 
 3. `Who: Support Steward`
 
-   **Open an engineering issue**. If this is a {term}`Change Request` or {term}`Guidance Request` and/or you cannot resolve the issue within 30 minutes, then open a support issue for the team to discuss.
+   **Open an engineering issue**. If this is an issue that cannot be resolved within 30 minutes, then open a support issue for the team to discuss.
 
-   [{bdg-primary}`Open a general issue`](https://github.com/2i2c-org/infrastructure/issues/new?assignees=&labels=&template=01_new-issue.yml) that describes the request and any next steps we should take. It should be automatically added to the **Eng & Prod** board by the existing automation. Add the **type**: `support` and choose an **impact** level in the **Eng & Prod** board metadata (available for the very same issue, no need to visit the board itself!).
-   
+   [{bdg-primary}`Open a Freshdesk ticket tracker issue`](https://github.com/2i2c-org/infrastructure/issues/new?assignees=&labels=&template=5_freshdesk-ticket.yml) that describes the ticket and provide as many details as possible about the results obtained in the first 30m investigation (if any).
+
+   This issue will then be automatically added to the **Eng & Prod** board by the existing automation alongside the the **type**: `support` and the **impact** level specified in the form project fields.
+
    If the issue has a `critical` impact (we defer that first evaluation to the support steward), an additional ping to the support Slack channel is needed to boost the signal.
    
    :::{admonition} What does `critical` mean?
