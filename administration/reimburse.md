@@ -28,7 +28,7 @@ Currently, these are the expenses that we regularly reimburse:
 - Cloud infrastructure costs incurred as part of our services.
 - Conference registration for conferences that we agree are in-scope for 2i2c's attendance.
 - Travel: see [](reimburse:travel).
-- Personal development / training for skills that are directly related to team responsibilities.
+- Personal development / books / training for skills that are directly related to team responsibilities.
 - Infrequent equipment purchases for team members (computers, desks, etc) provided they are within a reasonable spend amount.
 
 (reimburse:travel)=
