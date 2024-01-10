@@ -193,9 +193,9 @@ When a new ticket lands in Freshdesk under the support group and it is not an in
 
 3. `Who: Support Steward`
 
-   **Open an engineering issue**. If this is an issue that cannot be resolved within 30 minutes, then open a support issue for the team to discuss.
+   **Open an issue in the 2i2c/infrastructure repository**. If this is an issue that cannot be resolved within 30 minutes, then open a GitHub issue for the team to discuss.
 
-   [{bdg-primary}`Open a Freshdesk ticket tracker issue`](https://github.com/2i2c-org/infrastructure/issues/new?assignees=&labels=&template=5_freshdesk-ticket.yml) that describes the ticket and provide as many details as possible about the results obtained in the first 30m investigation (if any).
+   [{bdg-primary}`Open a "Freshdesk ticket tracker" type of issue`](https://github.com/2i2c-org/infrastructure/issues/new?assignees=&labels=&template=5_freshdesk-ticket.yml). Use this to describe the ticket and provide as many details as possible about the results obtained in the first 30m investigation (if any).
 
    This issue will then be automatically added to the **Eng & Prod** board by the existing automation alongside the the **type**: `support` and the **impact** level specified in the form project fields.
 
