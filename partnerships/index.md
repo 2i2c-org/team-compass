@@ -10,4 +10,5 @@ workflow.md
 ../communication/index.md
 community_success/freshdesk.md
 stickers.md
+how-to.md
 ```
