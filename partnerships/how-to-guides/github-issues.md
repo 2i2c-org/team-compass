@@ -16,8 +16,9 @@ This page describes how you can open a general GitHub issue with the {team}`Engi
 4. Fill out the template
 
     - Populate the text input fields. Try to be concise while providing as much technical detail as you can. For complicated issues, providing a Minimal Working Example and relevant error messages from output logs where possible is a great help. Use code blocks and avoid pasting screenshots of code.
-    - If you know the 2i2c engineer that is responsible for responding to this issue use the **Assignees** field on the right-hand side to assign it to them so that they can add this issue to their Sprint Board. Otherwise, post a comment in the issue tagging the GitHub team **@2i2c-org/engineering** to ping the entire team.
+    - Use the **Assignees** field on the right-hand side to assign it to **@damianavila**, {role}`engineering-manager` to be triaged.
     - In the **Labels** field on the right-hand side, choose *one* relevant issue type: {bdg-info}`type: enhancement`, {bdg-info}`type: bug`, or {bdg-info}`type: task`.
+    - Add the **Engineering and Product Backlog** board to the *Projects* field on the right-hand side.
 
 ```{image} ../media/github-issues/02-general-issue.png
 :alt: Screenshot of a General issue template, with title, context, and optional proposal, updates and actions text input fields.
