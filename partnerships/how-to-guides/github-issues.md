@@ -11,7 +11,7 @@ This page describes how you can open a general GitHub issue with the {team}`Engi
 :alt: Screenshot of the GitHub issues webpage, highlighting the New issue button.
 ```
 
-3. If applicable, select the most appropriate GitHub  (or open a blank issue). In this example, we use the 💡 **General Issue** template.
+3. If applicable, select the most appropriate GitHub issue template (or open a blank issue). In this example, we use the 💡 **General Issue** template.
 
 4. Fill out the template
 
