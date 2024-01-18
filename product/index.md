@@ -8,3 +8,11 @@ overview.md
 pricing/strategy
 pricing/cost-model
 ```
+
+## Team roles
+
+```{toctree}
+:glob:
+:maxdepth: 2
+roles/*
+```
