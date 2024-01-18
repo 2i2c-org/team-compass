@@ -66,5 +66,5 @@ You can find it at this link:
 [CS&S Asana Board](https://app.asana.com/0/1200569652722016/list).
 
 ```{note}
-The list above is fairly comprehensive – there is no need to use any other aliases (such as `accouting@codeforscience`, etc.) since they are intended for outgoing use.
+The list above is fairly comprehensive – there is no need to use any other aliases (such as `accounting@codeforscience`, etc.) since they are intended for outgoing use.
 ```
