@@ -59,7 +59,7 @@ An exploded tree-view of the Partnerships folder:
 
 2i2c uses GitHub to manage code and infrastructure with version control. 2i2c and partner communities collaborate on managed services, software development, documentation, and sharing of responsibilities using GitHub issues. 
 
-Infrastructure services operated by 2i2c are managed through the [infrastructure repository](https://github.com/2i2c-org/infrastructure/). Technical exchanges leading to the deployment of new hubs for partner communities mostly take place in [issues in the infrastructure repo](https://github.com/2i2c-org/infrastructure/issues). 
+Infrastructure services operated by 2i2c are managed through the [infrastructure repository](https://github.com/2i2c-org/infrastructure/). Technical exchanges leading to the deployment of new hubs for partner communities mostly take place in [issues in the infrastructure repo](https://github.com/2i2c-org/infrastructure/issues). See {doc}`./how-to-guides/github-issues`.
 
 ### AirTable
 
