@@ -66,7 +66,7 @@ Infrastructure services operated by 2i2c are managed through the [infrastructure
 CS&S uses AirTable to process and store tabular data.
 They store a record of **all invoices and executed agreements** with 2i2c's partners. 
 
-See [our Invoices and Contracts section](../../finance/contracts.md) for information about this table.
+See [our Invoices and Contracts section](../finance/contracts.md) for information about this table.
 
 ### DocuSign
 

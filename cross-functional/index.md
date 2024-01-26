@@ -1,4 +1,4 @@
-# Cross-team leadership
+# Cross-functional processes
 
 ```{toctree}
 overview.md

@@ -1,13 +1,8 @@
 # Scope and responsibilities
 
-The Team Leads group is a bit different than most other 2i2c teams.
-It has a cross-organizational scope and focuses on high-level priorities, strategy, and ensures we are distributing attention and resources across the organization correctly.
+Our cross-functional processes focus on high-level priorities, strategy, and ensures we are distributing attention and resources across the organization correctly.
 
-Team leads are representatives of their respective areas in 2i2c.
-They advocate for the goals and needs of those areas.
-They also bridge and coordinate strategy, prioritization, and resources across 2i2c.
-
-Here are their major responsibilities:
+Here are this area's major responsibilities:
 
 ## Embody our values and team practices
 

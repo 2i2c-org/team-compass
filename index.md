@@ -48,7 +48,6 @@ operations/index
 people/index
 open-source/index
 finance/index
-product/index
 administration/index
 ```
 
@@ -61,9 +60,10 @@ Functional areas each have their own leads, goals, and structures.
 :caption: Functional Areas
 :maxdepth: 2
 
-leads/index
+cross-functional/index
 engineering/index
 partnerships/index
+product/index
 ```
 
 (index:hubs-service)=
