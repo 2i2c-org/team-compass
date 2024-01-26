@@ -122,11 +122,15 @@ A lead confirmed an upcoming meeting with 2i2c. Calendly sends an automatic mess
 
 A member of 2i2c Partnerships Team sends email to partnerships@2i2c.org requesting `Send Draft Contract` to PartnerX contact email(s). 2i2c's Partnerships Assistant carrys out the following actions script: 
 
-1. Copy 2i2c Team Drive >> Partnerships >> Templates >> [Template] service agreement... into PartnerX folder
-2. Replace `PartnerX` names by name of partner organization in draft service agreement
-3. Remame [Template file] to `PartnerX - 2i2c - CS&S Services Agreement`
-4. Set sharing of service agreement (with editor rights) with lead contacts
-5. Add dated entry "YYYY-MM-DD Sent (Draft) Service Agreement as shared Google doc" to PartnerX >> Running Notes... file
+1. In the [Agreements folder](https://drive.google.com/drive/u/1/folders/1d2N0F0zn3-7wG1FrA_6FHgHtNAyMcJr8), navigate to the folder for the partner you're contracting for (or create a new one if needed) - this step is important for Step 5.
+2. Return to the Agreements folder and navigate to the [Templates folder](https://drive.google.com/drive/u/1/folders/1oRFLPChp8J9GpgWpnalF74752oNh9tt8), and open the [[TEMPLATE] Outbound Services Agreement shortcut](https://docs.google.com/document/d/1kPgSddJ_Sob0XcTbkDy5UShIAVKPmm04P9ZLsYiOV20/edit#heading=h.qo34o8p9in1e).
+3. In the template document, from the menu bar, select `File > Make a copy`
+4. Name the copy appropriately (i.e. `PartnerX + 2i2c/CS&S - Services Agreement YYYY-MM-DD`)
+5. Click the box below the word **Folder** and in the pop-up menu, the partner folder you navigated to in Step 1 should appear at the top of the list. Mouse-over it and hit the **Select** button
+6. Do not check either of the boxes (re: sharing or copying comments)
+7. Click **Make a Copy** - your new agreement will open, and will be filed in the appropriate partner folder.
+8. Set sharing of service agreement (with editor rights) with lead contacts
+9. Add dated entry "YYYY-MM-DD Sent (Draft) Service Agreement as shared Google doc" to `PartnerX >> Running Notes...` file (create a new one if needed).
 
 ### SOP: Service Agreement Negotiation
 
