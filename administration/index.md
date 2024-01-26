@@ -8,6 +8,7 @@ overview
 structure
 css
 reimburse
+contractors
 invoices
 google-workspace
 github
