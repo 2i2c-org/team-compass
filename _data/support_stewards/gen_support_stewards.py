@@ -102,7 +102,7 @@ def main():
     path_data_root = Path(__file__).resolve().parent.parent
     tmp_dir = path_data_root.joinpath("tmp")
     tmp_dir.mkdir(parents=True, exist_ok=True)
-    support_stewards_file = tmp_dir.joinpath("support-stewards.txt")
+    support_stewards_file = tmp_dir.joinpath("support-triagers.txt")
 
     # Get support stewards usernames and avatars
     try:
@@ -114,7 +114,7 @@ def main():
         print("Generating support stewards gallery encountered an error:")
         print(err)
         sys.exit()
-    usernames_and_avatars = slack.get_users_in_usergroup("support-stewards")
+    usernames_and_avatars = slack.get_users_in_usergroup("support-triagers")
 
 
 

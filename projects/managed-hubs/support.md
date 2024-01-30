@@ -19,7 +19,7 @@ Here's a brief overview of our support process[^github-support-issues]:
 [^github-support-issues]: We had a lot of discussion around various support and operations systems to take as inspiration. [This GitHub Issue](https://github.com/2i2c-org/infrastructure/issues/1068) has a lot of useful discussion, including a few write-ups of specific support systems to use as inspiration ([example one](https://github.com/2i2c-org/infrastructure/issues/1068#issuecomment-1063138772) [example two](https://github.com/2i2c-org/infrastructure/issues/1068#issuecomment-1063516429))
 
 - A {term}`Community Representative` sends a request to `support@2i2c.org`.
-- This is triaged by our {term}`Support Steward` team.
+- This is triaged by our {term}`Support Triager` team.
   - They assess whether they can resolve it quickly, and potentially do so.
   - If they cannot resolve it, then we raise this support issue with our engineering team.
 - If the issue is an {term}`Incident`
@@ -80,17 +80,17 @@ Supporting a 2i2c hub is a collaborative process between 2i2c and the community 
 
 The **Support Team** is one of the main teams in our **Managed JupyterHub Service Team**.
 
-This consists of three main roles: {term}`Support Stewards`, {term}`Community Representatives`, and {term}`Hub Administrators`.
+This consists of three main roles: {term}`Support Triagers`, {term}`Community Representatives`, and {term}`Hub Administrators`.
 
 ```{glossary}
-Support Steward
-Support Stewards
-  A **two-person team** of {term}`Support Stewards` work together to triage and communicate with all external support requests.
+Support Triager
+Support Triagers
+  A **two-person team** of {term}`Support Triagers` work together to triage and communicate with all external support requests.
   Tenure on the support team is **for four weeks**.
-  Every **two weeks** (generally at the sprint meeting), a Support Steward cycles off the support team, and a new team member joins the team.
+  Every **two weeks** (generally at the sprint meeting), a Support Triager cycles off the support team, and a new team member joins the team.
   The support team rotates through [the “Open Infrastructure Engineering Team”](https://compass.2i2c.org/reference/team/), in alphabetical order.
 
-  The primary responsibilities of the Support Stewards are:
+  The primary responsibilities of the Support Triagers are:
 
   - Ensure that we meet {ref}`our Support Service Level Objectives <docs:objectives:support>`.
   - Carry out [our support process](support:process).
@@ -111,9 +111,9 @@ Hub Administrators
 
 ### Who are our Support Team?
 
-The Support Steward role rotates through the below Support Team members.
+The Support Triager role rotates through the below Support Team members.
 
-```{include} ../../_data/tmp/support-stewards.txt
+```{include} ../../_data/tmp/support-triagers.txt
 ```
 
 ## Communication channels
@@ -159,9 +159,9 @@ Here is the process that we follow when triaging and resolving support requests.
 
 The goal of the triage phase is to understand the Support Request, decide if it is related to an incident, and choose the appropriate resolution pathway.
 
-This process is carried out in an ongoing basis by the {term}`Support Stewards`.
+This process is carried out in an ongoing basis by the {term}`Support Triagers`.
 
-1. **Monitor our support channels**. We use FreshDesk for all support requests, and the Support Stewards should regularly keep an eye on this account for new requests.
+1. **Monitor our support channels**. We use FreshDesk for all support requests, and the Support Triagers should regularly keep an eye on this account for new requests.
    When a new support requests comes in, move to the next step.
 2. **Read and understand**. Within one working day[^working-day], read the support request and try to understand what action would resolve it.
 3. **Decide if there is an incident**. Determine if a request meets {term}`the definition of an incident <Incident>`.
@@ -174,16 +174,16 @@ This process is carried out in an ongoing basis by the {term}`Support Stewards`.
 (support:non-incident-response)=
 ### Non-incident response process
 
-The goal of the non-incident response process is to bring standardization to our support response. This simple workflow tries to battle the bias towards a reactive response whereas it is also bringing some common patterns so all of our non-incident support responses are cohesive and shared among our support stewards.
+The goal of the non-incident response process is to bring standardization to our support response. This simple workflow tries to battle the bias towards a reactive response whereas it is also bringing some common patterns so all of our non-incident support responses are cohesive and shared among our support triagers.
 The current iteration of the workflow states each step and who should be responsible/accountable for the specific step, plus some other clarifications.
 
 When a new ticket lands in Freshdesk under the support group and it is not an incident, we aim to respond within 24 working hours with a suggested next action. The next steps should be followed when resolving a ticket:
 
-1. `Who: Support steward`
+1. `Who: Support Triager`
 
    **First 24h initial ticket evaluation**. In the first 24h a support ticket was opened, you should do an initial evaluation of the ticket and ask the {term}`Community Representative` about any additional information you may need.
 
-2. `Who: Support steward`
+2. `Who: Support Triager`
 
    **Spend 30 minutes trying to resolve**. If you believe you can resolve the issue within 30 minutes, try resolving it yourself.
    1. If you resolve the issue, then jump to the "Confirm resolution" step 7.
@@ -191,7 +191,7 @@ When a new ticket lands in Freshdesk under the support group and it is not an in
 
    Follow the guide at [](support:timeboxed-evaluation) to try and reach to a decision.
 
-3. `Who: Support Steward`
+3. `Who: Support Triager`
 
    **Open an issue in the 2i2c/infrastructure repository**. If this is an issue that cannot be resolved within 30 minutes, then open a GitHub issue for the team to discuss.
 
@@ -199,7 +199,7 @@ When a new ticket lands in Freshdesk under the support group and it is not an in
 
    This issue will then be automatically added to the **Eng & Prod** board by the existing automation alongside the the **type**: `support` and the **impact** level specified in the form project fields.
 
-   If the issue has a `critical` impact (we defer that first evaluation to the support steward), an additional ping to the support Slack channel is needed to boost the signal.
+   If the issue has a `critical` impact (we defer that first evaluation to the support triager), an additional ping to the support Slack channel is needed to boost the signal.
    
    :::{admonition} What does `critical` mean?
 
@@ -217,21 +217,21 @@ When a new ticket lands in Freshdesk under the support group and it is not an in
      * Authentication and authorization updates
    :::
    
-   The support steward **should** self-assign the `critical` issue and work on it immediately (this is now outside of the 30-minute timebox described in step 2).
+   The support Triager **should** self-assign the `critical` issue and work on it immediately (this is now outside of the 30-minute timebox described in step 2).
    
-   If the support stewards (both of them) do not have the capacity to resolve the `critical` issue (ie. working on another `critical` issue, being out of their working time, etc.), they should ping the **Engineering Manager** (or the delegated person) so they can secure resources to resolve that issue on the fly (see step 7 below).
+   If the support Triagers (both of them) do not have the capacity to resolve the `critical` issue (ie. working on another `critical` issue, being out of their working time, etc.), they should ping the **Engineering Manager** (or the delegated person) so they can secure resources to resolve that issue on the fly (see step 7 below).
    
-   The support steward **should not** work on issues with impact lower than `critical` (unless they are assigned as part of the "planned" reactive work in the context of a running sprint (see step 6 below).
+   The support Triager **should not** work on issues with impact lower than `critical` (unless they are assigned as part of the "planned" reactive work in the context of a running sprint (see step 6 below).
 
 4. `Who: Partnerships representative and the Engineering Manager (or respective delegates)`
 
    **Revisit the impact metadata**. Once a week (at minimum) the [support view in the **Eng & Prod** board](https://github.com/orgs/2i2c-org/projects/22/views/47) should be revisited to validate the impact level on support-related issues. Currently, we allocate a 30-minute working session every Wednesday (open to everyone to participate) to perform such impact revision and further prioritization ("planned" reactive) every other week (see step 7 for more details).
      
-5. `Who: Support steward`
+5. `Who: Support Triager`
 
    **Add a reference/link to the created engineering issue inside the Freshdesk ticket**. You can use an internal note or make it public when you communicate back to the Community Representative in step 6. Also, move the status of the ticket to the "Pending" state.
    
-6. `Who: Support steward`
+6. `Who: Support Triager`
 
    **Communicate status**. Once we have an issue created to track the next steps, send a message to the Community Representative letting them know about the situation: after some initial investigation and no immediate fix, a follow-up issue was created that will be assigned in the future accordingly to the current prioritization. Also, let them know what the next steps will be. Here's a template to help guide you:
 
@@ -248,17 +248,17 @@ When a new ticket lands in Freshdesk under the support group and it is not an in
    
    If there is any `critical` issue, we could assign people on the fly (during the sprint) to resolve them, but we should minimize that behavior (it should be exceptional cases).
 
-8. `Who: Support steward`
+8. `Who: Support Triager`
 
    **Resolve the request**. When some engineer is assigned to a support-related GH issue in the context of a sprint, we move ahead with the investigation/resolution for one (1) sprint. If we failed to find a fix during that time, we communicate back that state in the Freshdesk ticket and resolve it.
 
    Exceptional tickets might need more than one sprint. These tickets need to be explicitly approved as exceptions.
 
-9. `Who: Support steward`
+9. `Who: Support Triager`
 
    **Confirm resolution**. Once we have resolved a support request, send a message to the Community Representative to confirm that we believe it is resolved. In FreshDesk, mark the incident as {guilabel}`Resolved`.
 
-10. `Who: Support steward`
+10. `Who: Support Triager`
 
     **Close the request**. If the Community Representative confirms that their request has been fulfilled, consider this request closed. In FreshDesk, mark the incident as {guilabel}`Closed`.
 
@@ -360,4 +360,4 @@ Here are the steps we take to set expectations for our team and for other organi
 
 ### Rotating team members during expected time off
 
-Because team members continue to serve as support stewards during this time, we should take care to avoid the same person serving in this role across multiple periods of expected time off.
+Because team members continue to serve as support triagers during this time, we should take care to avoid the same person serving in this role across multiple periods of expected time off.
