@@ -113,7 +113,7 @@ Hub Administrators
 
 The Support Triager role rotates through the below Support Team members.
 
-```{include} ../../_data/tmp/support-stewards.txt
+```{include} ../../_data/tmp/support-triagers.txt
 ```
 
 ## Communication channels
@@ -199,7 +199,7 @@ When a new ticket lands in Freshdesk under the support group and it is not an in
 
    This issue will then be automatically added to the **Eng & Prod** board by the existing automation alongside the the **type**: `support` and the **impact** level specified in the form project fields.
 
-   If the issue has a `critical` impact (we defer that first evaluation to the support steward), an additional ping to the support Slack channel is needed to boost the signal.
+   If the issue has a `critical` impact (we defer that first evaluation to the support triager), an additional ping to the support Slack channel is needed to boost the signal.
    
    :::{admonition} What does `critical` mean?
 
