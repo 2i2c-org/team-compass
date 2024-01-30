@@ -179,7 +179,7 @@ The current iteration of the workflow states each step and who should be respons
 
 When a new ticket lands in Freshdesk under the support group and it is not an incident, we aim to respond within 24 working hours with a suggested next action. The next steps should be followed when resolving a ticket:
 
-1. `Who:Support steward`
+1. `Who: Support steward`
 
    First, we determine if the person *initiating* the support ticket is *authorized* to do actually do so. While we may interact with many folks
    from a community during resolution of a ticket, we constrain who can *initiate* a ticket to {term}`Community Representative`s only. This prevents our
