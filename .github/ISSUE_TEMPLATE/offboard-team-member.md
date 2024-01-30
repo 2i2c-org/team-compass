@@ -35,7 +35,7 @@ Document accounts:
 Remove 2i2c accounts and remove from team accounts:
 
 - [ ] Deactivate a @2i2c.org Google account for them
-	- Note that this requires [access to the Admin Panel](https://compass.2i2c.org/en/latest/administration/google-workspace.html?highlight=workspaces#access-and-permissions), a permission held by any 2i2c team lead
+	- Note that this requires [access to the Admin Panel](https://compass.2i2c.org/administration/google-workspace/), a permission held by any 2i2c team lead
 - [ ] Remove them from the proper Google group in our Google Admin space.
 - [ ] Remove them from [2i2c GitHub teams](https://github.com/orgs/2i2c-org/teams/)
 - [ ] Remove them from [Slack groups](https://2i2c.slack.com/admin/user_groups)

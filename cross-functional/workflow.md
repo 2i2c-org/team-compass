@@ -1,6 +1,10 @@
 (leads:workflow)=
 # Workflow
 
+```{warning} Out of date
+Our cross-team workflow is being significantly re-worked, and this information is out of date.
+```
+
 This section describes how our leadership team carries out its planning and day-to-day work.
 
 (leads:meeting:organizational-strategy)=

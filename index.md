@@ -48,7 +48,6 @@ operations/index
 people/index
 open-source/index
 finance/index
-product/index
 administration/index
 ```
 
@@ -61,9 +60,10 @@ Functional areas each have their own leads, goals, and structures.
 :caption: Functional Areas
 :maxdepth: 2
 
-leads/index
+cross-functional/index
 engineering/index
 partnerships/index
+product/index
 ```
 
 (index:hubs-service)=
@@ -79,7 +79,7 @@ We document some major aspects of this service in the sections below.
 :glob:
 projects/managed-hubs/index
 projects/managed-hubs/*
-List of running hubs <https://infrastructure.2i2c.org/en/latest/reference/hubs.html>
+List of running hubs <https://infrastructure.2i2c.org/reference/hubs/>
 ```
 
 (index:reference)=

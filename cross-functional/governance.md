@@ -1,6 +1,6 @@
 # Making decisions
 
-Functional areas and their team leads follow our [Principles of decision making](../operations/governance.md).
+Functional areas and their leads follow our [Principles of decision making](../operations/governance.md).
 This section describes more specific ways in which decisions usually happen.
 
 ## Decision-making scope
@@ -10,14 +10,14 @@ This means that most decisions are made by individuals without requiring a consu
 
 ### Within-area decisions
 
-For decisions that primarily affect their area and no others, team leads are empowered to make decisions within their own team without requiring consent from team members of other areas.
+For decisions that primarily affect their area and no others, area leads are empowered to make decisions within their own group without requiring consent from team members of other areas.
 However, they should make decisions transparently and inclusively, especially if they think another area will be interested in the decision.
 
 They are also empowered to _delegate_  scoped decision-making authority to others at 2i2c.
 
 ### Cross-organization decisions
 
-There are a few kinds of decisions that require discussion and agreement from our team leads:
+There are a few kinds of decisions that require discussion and agreement from our area leads:
 
 - Decisions with significant financial impact across 2i2c
 - Decisions that will significantly impact our capacity or commit ourselves to more work

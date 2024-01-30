@@ -88,7 +88,7 @@ Support Triagers
   A **two-person team** of {term}`Support Triagers` work together to triage and communicate with all external support requests.
   Tenure on the support team is **for four weeks**.
   Every **two weeks** (generally at the sprint meeting), a Support Triager cycles off the support team, and a new team member joins the team.
-  The support team rotates through [the “Open Infrastructure Engineering Team” on this page](https://team-compass.2i2c.org/en/latest/reference/team.html), in alphabetical order.
+  The support team rotates through [the “Open Infrastructure Engineering Team”](https://compass.2i2c.org/reference/team/), in alphabetical order.
 
   The primary responsibilities of the Support Triagers are:
 
@@ -101,11 +101,11 @@ Support Triagers
 
 Community Representative
 Community Representatives
-  See [the service documentation](https://docs.2i2c.org/en/latest/about/service/shared-responsibility.html#std-role-Community-Representative).
+  See [the service documentation](https://docs.2i2c.org/about/service/shared-responsibility.html#std-role-Community-Representative).
 
 Hub Administrator
 Hub Administrators
-  See [the service documentation](https://docs.2i2c.org/en/latest/about/service/shared-responsibility.html#std-role-Hub-Administrator).
+  See [the service documentation](https://docs.2i2c.org/about/service/shared-responsibility.html#std-role-Hub-Administrator).
   
 ```
 
@@ -177,11 +177,11 @@ This process is carried out in an ongoing basis by the {term}`Support Triagers`.
 The goal of the non-incident response process is to bring standardization to our support response. This simple workflow tries to battle the bias towards a reactive response whereas it is also bringing some common patterns so all of our non-incident support responses are cohesive and shared among our support triagers.
 The current iteration of the workflow states each step and who should be responsible/accountable for the specific step, plus some other clarifications.
 
-When a new ticket lands in Freshdesk under the support group and it is not an incident, you should follow the following steps:
+When a new ticket lands in Freshdesk under the support group and it is not an incident, we aim to respond within 24 working hours with a suggested next action. The next steps should be followed when resolving a ticket:
 
 1. `Who: Support Triager`
 
-   **Respond within 24 working hours**. Acknowledge receipt of the support request and let the {term}`Community Representative` know a time-boxed investigation will start soon. Please request any additional information you may need to be able to reproduce the issue in step 2.
+   **First 24h initial ticket evaluation**. In the first 24h a support ticket was opened, you should do an initial evaluation of the ticket and ask the {term}`Community Representative` about any additional information you may need.
 
 2. `Who: Support Triager`
 
@@ -189,13 +189,17 @@ When a new ticket lands in Freshdesk under the support group and it is not an in
    1. If you resolve the issue, then jump to the "Confirm resolution" step 7.
    2. If you don't believe you can resolve the issue (or you couldn't) in 30 minutes, jump to the next step.
 
+   Follow the guide at [](support:timeboxed-evaluation) to try and reach to a decision.
+
 3. `Who: Support Triager`
 
-   **Open an engineering issue**. If this is a {term}`Change Request` or {term}`Guidance Request` and/or you cannot resolve the issue within 30 minutes, then open a support issue for the team to discuss.
+   **Open an issue in the 2i2c/infrastructure repository**. If this is an issue that cannot be resolved within 30 minutes, then open a GitHub issue for the team to discuss.
 
-   [{bdg-primary}`Open a general issue`](https://github.com/2i2c-org/infrastructure/issues/new?assignees=&labels=&template=01_new-issue.yml) that describes the request and any next steps we should take. It should be automatically added to the **Eng & Prod** board by the existing automation. Add the **type**: `support` and choose an **impact** level in the **Eng & Prod** board metadata (available for the very same issue, no need to visit the board itself!).
-   
-   If the issue has a `critical` impact (we defer that first evaluation to the support triager), an additional ping to the support Slack channel is needed to boost the signal.
+   [{bdg-primary}`Open a "Freshdesk ticket tracker" type of issue`](https://github.com/2i2c-org/infrastructure/issues/new?assignees=&labels=&template=5_freshdesk-ticket.yml). Use this to describe the ticket and provide as many details as possible about the results obtained in the first 30m investigation (if any).
+
+   This issue will then be automatically added to the **Eng & Prod** board by the existing automation alongside the the **type**: `support` and the **impact** level specified in the form project fields.
+
+   If the issue has a `critical` impact (we defer that first evaluation to the support steward), an additional ping to the support Slack channel is needed to boost the signal.
    
    :::{admonition} What does `critical` mean?
 
