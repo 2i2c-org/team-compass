@@ -205,7 +205,7 @@ When a new ticket lands in Freshdesk under the support group and it is not an in
 3. `Who: Support steward`
 
    **Spend 30 minutes trying to resolve**. If you believe you can resolve the issue within 30 minutes, try resolving it yourself.
-   1. If you resolve the issue, then jump to the "Confirm resolution" step 7.
+   1. If you resolve the issue, then jump to the "Confirm resolution" step 10.
    2. If you don't believe you can resolve the issue (or you couldn't) in 30 minutes, jump to the next step.
 
    Follow the guide at [](support:timeboxed-evaluation) to try and reach to a decision.
@@ -236,19 +236,19 @@ When a new ticket lands in Freshdesk under the support group and it is not an in
      * Authentication and authorization updates
    :::
 
-   The support steward **should** self-assign the `critical` issue and work on it immediately (this is now outside of the 30-minute timebox described in step 2).
+   The support steward **should** self-assign the `critical` issue and work on it immediately (this is now outside of the 30-minute timebox described in step 3).
 
-   If the support stewards (both of them) do not have the capacity to resolve the `critical` issue (ie. working on another `critical` issue, being out of their working time, etc.), they should ping the **Engineering Manager** (or the delegated person) so they can secure resources to resolve that issue on the fly (see step 7 below).
+   If the support stewards (both of them) do not have the capacity to resolve the `critical` issue (ie. working on another `critical` issue, being out of their working time, etc.), they should ping the **Engineering Manager** (or the delegated person) so they can secure resources to resolve that issue on the fly (see step 8 below).
 
-   The support steward **should not** work on issues with impact lower than `critical` (unless they are assigned as part of the "planned" reactive work in the context of a running sprint (see step 6 below).
+   The support steward **should not** work on issues with impact lower than `critical` (unless they are assigned as part of the "planned" reactive work in the context of a running sprint (see step 8 below).
 
 5. `Who: Partnerships representative and the Engineering Manager (or respective delegates)`
 
-   **Revisit the impact metadata**. Once a week (at minimum) the [support view in the **Eng & Prod** board](https://github.com/orgs/2i2c-org/projects/22/views/47) should be revisited to validate the impact level on support-related issues. Currently, we allocate a 30-minute working session every Wednesday (open to everyone to participate) to perform such impact revision and further prioritization ("planned" reactive) every other week (see step 7 for more details).
+   **Revisit the impact metadata**. Once a week (at minimum) the [support view in the **Eng & Prod** board](https://github.com/orgs/2i2c-org/projects/22/views/47) should be revisited to validate the impact level on support-related issues. Currently, we allocate a 30-minute working session every Wednesday (open to everyone to participate) to perform such impact revision and further prioritization ("planned" reactive) every other week (see step 8 for more details).
 
 6. `Who: Support steward`
 
-   **Add a reference/link to the created engineering issue inside the Freshdesk ticket**. You can use an internal note or make it public when you communicate back to the Community Representative in step 6. Also, move the status of the ticket to the "Pending" state.
+   **Add a reference/link to the created engineering issue inside the Freshdesk ticket**. You can use an internal note or make it public when you communicate back to the Community Representative in step 7. Also, move the status of the ticket to the "Pending" state.
 
 7. `Who: Support steward`
 
