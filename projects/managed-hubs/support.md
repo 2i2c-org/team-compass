@@ -181,17 +181,36 @@ When a new ticket lands in Freshdesk under the support group and it is not an in
 
 1. `Who: Support Triager`
 
-   **First 24h initial ticket evaluation**. In the first 24h a support ticket was opened, you should do an initial evaluation of the ticket and ask the {term}`Community Representative` about any additional information you may need.
+   First, we determine if the person *initiating* the support ticket is *authorized* to do actually do so. While we may interact with many folks
+   from a community during resolution of a ticket, we constrain who can *initiate* a ticket to {term}`Community Representative`s only. This prevents our
+   support staff from being overwhelmed by tickets that need to be handled elsewhere. If the person *initiating* the ticket is not a community
+   representative, the support steward should cc the community representatives, and ask for approval. The support steward *may* choose to use the following
+   email template:
+
+   > Hello <names of community representatives>,
+   >
+   > I'm cc'ing you on this support ticket we received from a member of your community. To streamline our support process, 2i2c is accepting
+   > support requests only from communtity representatives. Can you read through the request, and let us know how you wish to proceed?
+   >
+   > Thanks.
+
+   You can use [this airtable](https://airtable.com/appxk7c9WUsDjSi0Q/tbl3CWOgyoEtuGuIw/viwtpo7RxkYv63hiD?blocks=hide) as the *source of truth*
+   for who can initiate support requests for which communities. You should find the username & password for 2i2c airtable account in the organizational
+   bitwarden.
 
 2. `Who: Support Triager`
 
+   **First 24h initial ticket evaluation**. In the first 24h a support ticket was opened, you should do an initial evaluation of the ticket and ask the {term}`Community Representative` about any additional information you may need.
+
+3. `Who: Support Triager`
+
    **Spend 30 minutes trying to resolve**. If you believe you can resolve the issue within 30 minutes, try resolving it yourself.
-   1. If you resolve the issue, then jump to the "Confirm resolution" step 7.
+   1. If you resolve the issue, then jump to the "Confirm resolution" step 10.
    2. If you don't believe you can resolve the issue (or you couldn't) in 30 minutes, jump to the next step.
 
    Follow the guide at [](support:timeboxed-evaluation) to try and reach to a decision.
 
-3. `Who: Support Triager`
+4. `Who: Support Triager`
 
    **Open an issue in the 2i2c/infrastructure repository**. If this is an issue that cannot be resolved within 30 minutes, then open a GitHub issue for the team to discuss.
 
@@ -203,35 +222,35 @@ When a new ticket lands in Freshdesk under the support group and it is not an in
    
    :::{admonition} What does `critical` mean?
 
-   We recognize there might be some support-related issues that do not count as [incidents](incidents:what), but 
-   they need a quick resolution (inside the current sprint window) because they are impacting the execution of 
+   We recognize there might be some support-related issues that do not count as [incidents](incidents:what), but
+   they need a quick resolution (inside the current sprint window) because they are impacting the execution of
    desired or existing workflows (degraded experience) for our communities.
    Examples of those sorts of issues (requests) are:
      * Image refs updates
      * Profile updates
      * User storage limitations
      * Grafana (and Prometheus) failures
-   
+
    Additionally and depending on the nature AND context of the issue (request):
      * Access to specific buckets
      * Authentication and authorization updates
    :::
-   
-   The support Triager **should** self-assign the `critical` issue and work on it immediately (this is now outside of the 30-minute timebox described in step 2).
-   
-   If the support Triagers (both of them) do not have the capacity to resolve the `critical` issue (ie. working on another `critical` issue, being out of their working time, etc.), they should ping the **Engineering Manager** (or the delegated person) so they can secure resources to resolve that issue on the fly (see step 7 below).
-   
-   The support Triager **should not** work on issues with impact lower than `critical` (unless they are assigned as part of the "planned" reactive work in the context of a running sprint (see step 6 below).
 
-4. `Who: Partnerships representative and the Engineering Manager (or respective delegates)`
+   The support Triager **should** self-assign the `critical` issue and work on it immediately (this is now outside of the 30-minute timebox described in step 3).
 
-   **Revisit the impact metadata**. Once a week (at minimum) the [support view in the **Eng & Prod** board](https://github.com/orgs/2i2c-org/projects/22/views/47) should be revisited to validate the impact level on support-related issues. Currently, we allocate a 30-minute working session every Wednesday (open to everyone to participate) to perform such impact revision and further prioritization ("planned" reactive) every other week (see step 7 for more details).
-     
-5. `Who: Support Triager`
+   If the support Triagers (both of them) do not have the capacity to resolve the `critical` issue (ie. working on another `critical` issue, being out of their working time, etc.), they should ping the **Engineering Manager** (or the delegated person) so they can secure resources to resolve that issue on the fly (see step 8 below).
 
-   **Add a reference/link to the created engineering issue inside the Freshdesk ticket**. You can use an internal note or make it public when you communicate back to the Community Representative in step 6. Also, move the status of the ticket to the "Pending" state.
-   
+   The support Triager **should not** work on issues with impact lower than `critical` (unless they are assigned as part of the "planned" reactive work in the context of a running sprint (see step 8 below).
+
+5. `Who: Partnerships representative and the Engineering Manager (or respective delegates)`
+
+   **Revisit the impact metadata**. Once a week (at minimum) the [support view in the **Eng & Prod** board](https://github.com/orgs/2i2c-org/projects/22/views/47) should be revisited to validate the impact level on support-related issues. Currently, we allocate a 30-minute working session every Wednesday (open to everyone to participate) to perform such impact revision and further prioritization ("planned" reactive) every other week (see step 8 for more details).
+        
 6. `Who: Support Triager`
+
+   **Add a reference/link to the created engineering issue inside the Freshdesk ticket**. You can use an internal note or make it public when you communicate back to the Community Representative in step 7. Also, move the status of the ticket to the "Pending" state.
+
+7. `Who: Support steward`
 
    **Communicate status**. Once we have an issue created to track the next steps, send a message to the Community Representative letting them know about the situation: after some initial investigation and no immediate fix, a follow-up issue was created that will be assigned in the future accordingly to the current prioritization. Also, let them know what the next steps will be. Here's a template to help guide you:
 
@@ -242,23 +261,23 @@ When a new ticket lands in Freshdesk under the support group and it is not an in
    when we've got a plan for completing this request.
    ```
 
-7. `Who: Engineering Manager (currently assigning reactive work) or someone delegated by the Engineering Manager`
+8. `Who: Engineering Manager (currently assigning reactive work) or someone delegated by the Engineering Manager`
 
    **Prioritize the request**. Any non-`critical` issue should wait to be included in our sprints (on Wednesdays, every other week) to be worked out as part of the "planned" reactive work. Follow the [how to prioritize Change and Guidance Requests guide](support:prioritize-requests) to decide how we should prioritize this request relative to the other work we need to do. We should be fully transparent about the support queue to our Community Representatives if they ping us for updates.
-   
+
    If there is any `critical` issue, we could assign people on the fly (during the sprint) to resolve them, but we should minimize that behavior (it should be exceptional cases).
 
-8. `Who: Support Triager`
+9. `Who: Support Triager`
 
    **Resolve the request**. When some engineer is assigned to a support-related GH issue in the context of a sprint, we move ahead with the investigation/resolution for one (1) sprint. If we failed to find a fix during that time, we communicate back that state in the Freshdesk ticket and resolve it.
 
    Exceptional tickets might need more than one sprint. These tickets need to be explicitly approved as exceptions.
 
-9. `Who: Support Triager`
+10. `Who: Support Triager`
 
    **Confirm resolution**. Once we have resolved a support request, send a message to the Community Representative to confirm that we believe it is resolved. In FreshDesk, mark the incident as {guilabel}`Resolved`.
 
-10. `Who: Support Triager`
+11. `Who: Support Triager`
 
     **Close the request**. If the Community Representative confirms that their request has been fulfilled, consider this request closed. In FreshDesk, mark the incident as {guilabel}`Closed`.
 
