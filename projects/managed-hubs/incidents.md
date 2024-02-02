@@ -25,7 +25,7 @@ The goal of the Incident Response Team is to collectively resolve incidents.
 An Incident Response Team is generally made up of:
 
 - An {term}`Incident Commander`
-- The {term}`Support Stewards`
+- The {term}`Support Triagers`
 - One or more {term}`Subject Matter Experts` (SMEs)
 
 ```{glossary}
@@ -71,7 +71,7 @@ PagerDuty has a 'Severity' field for incidents. We do not use this field current
 ### External communication
 
 - The {term}`Incident Commander` acts as the primary point of communication with external stakeholders like the {term}`Community Representative`s.
-- They may **delegate** this responsibility to another team member if they wish (e.g., to the {term}`Support Steward` team.)
+- They may **delegate** this responsibility to another team member if they wish (e.g., to the {term}`Support Triager` team.)
 - We may interact with external stakeholders via comments in Incident Response issues if it helps resolve the incident more quickly.
 
 (incidents:communications)=
@@ -104,7 +104,7 @@ Here is the process that we follow for incidents:
    - **Type `/pd trigger` and hit `enter` in `#pagerduty-notifications`** to trigger the incident
      After you hit `enter`, you should get a dialog box with options.
    - For "Impacted Service", **select `Managed JupyterHubs`**.
-   - **Assign it to the Incident Commander**. By default this is one of the {term}`Support Stewards` or the person triggering the event, but may be delegated to others[^note-on-delegation]!
+   - **Assign it to the Incident Commander**. By default this is one of the {term}`Support Triagers` or the person triggering the event, but may be delegated to others[^note-on-delegation]!
    - **Provide a descriptive but short title**, but don't sweat it too much!
    - **Add a link to the FreshDesk ticket** in the description (if there is one).
    - **Create a new Slack channel** by checking the box for `Create a dedicated Public Slack channel for this incident`.

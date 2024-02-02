@@ -1,3 +1,4 @@
+(hiring)=
 # Hiring process and information
 
 This page contains information about the hiring process at 2i2c.
