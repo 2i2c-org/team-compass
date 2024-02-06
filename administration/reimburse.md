@@ -85,7 +85,10 @@ Here are the instructions to follow.
 
 ### Matching receipts to entries in Ramp
 
+```{admonition} For Ramp admins only!
 These instructions are for someone with **Administrator privileges** in [our Ramp account](https://app.ramp.com/business-overview).
+```
+
 This is generally done by our {role}`Executive Assistant` but may be done by anybody with these permissions in Ramp.
 
 Here is the process that we follow:
@@ -106,6 +109,10 @@ Here is the process that we follow:
 5. If there is no obvious receipt in the `receipts@2i2c.org` inbox, ask the team for guidance in `#team-updates`.
 
 ### Send receipts to Ramp via e-mail
+
+```{admonition} For Ramp admins only!
+These instructions are for someone with **Administrator privileges** in [our Ramp account](https://app.ramp.com/business-overview).
+```
 
 Ramp has the ability to **automatically scan receipts via e-mail and attach them to purchases**.
 This can drastically speed up the process of approving recurring transactions.
