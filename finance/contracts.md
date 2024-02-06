@@ -22,6 +22,21 @@ There may be multiple contracts (rows) for a single community, representing diff
 Contracts AirTable
 ```
 
+(contracts:amount-remaining)=
+### What funds remain in a contract or grant?
+
+Whenever an invoice is created by CS&S, it is recorded in [our Invoices AirTable](contracts:invoices) and linked to an active grant.
+Invoices begin in a `Draft` state, and become `Authorized` when they are ready to be sent out.
+
+When an invoice is `Authorized` we consider it `Net Income` and subtract its total from the grant.
+
+```{card} Remaining income in active contracts and grants
+:link: https://airtable.com/appbjBTRIbgRiElkr/tbliwB70vYg3hlkb1/viwbDeJ6Y0ruw5XH5/fldORbyrkf9uKyOa9
+
+This AirTable view shows our active contracts, as well as the remaining funds in each after subtracting all `Authorized` invoices
+```
+
+
 ### Special columns
 
 There are a few special columns worth highlighting, they are described below.

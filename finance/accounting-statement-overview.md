@@ -77,15 +77,3 @@ Grants
 : All of our income/expenses are tied to a particular grant, which is encoded here. We have a grant option for every active grant (e.g. the Columbia University Pangeo grant).
 
   There is a special persistent category called `2i2c: General`. This is a general fund where our contract revenue is placed and spent from. It is essentially "disposable income" with no strings attached.
-
-### How much cash on-hand does 2i2c have?
-
-- Look to the bottom-right cell of the [Income Statement](accounting:income-statement).
-- This is the `Net Income` across all of 2i2c's history with CS&S. This number is the amount of disposable cash on hand.
-
-### How much remaining funds should we expect in a grant?
-
-- Find the column for that grant in the latest [Income Statement](accounting:income-statement).
-- Find the `Net Income` row for that grant.
-- Compare this with the total budget that we submitted for the grant (including our FSP fee).
-- The difference between the two is the amount we expect to receive in the future.

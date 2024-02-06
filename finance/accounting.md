@@ -49,6 +49,32 @@ Here's a brief video describing the above process.
 CS&S generates monthly reports for our current financial situation.
 You can find them in [our financial reports folder](https://drive.google.com/drive/folders/1vM_QX1J8GW5z8W5WemxhhVjcCS2kEovN?usp=sharing).
 
+Below are some Frequently Asked Questions along with a more detailed description of these reports.
+
+### How much Net Income does 2i2c have?
+
+`Net Income` is a combination of the following things:
+
+- Our Cash on Hand.
+- Income for which CS&S has `Authorized` an invoice.
+- Costs for which CS&S has received an invoice but not yet paid.
+
+To find this number, follow these steps:
+
+- Open [](accounting:income-statement).
+- Scroll to the bottom of **the `FSP: 2i2c` column**.
+- Use the number in the **`Net Income`** row.
+
+```{admonition} This will be at least one month out of date
+:class: warning
+CS&S prepares our monthly reports using last-month's data.
+This means that the definition of `Net Income` is true as of the end of the window used in that report.
+This is usually about a month in the past.
+See [](accounting:remaining-in-contracts) for how to correct for this gap.
+```
+
+### Detailed monthly reports description
+
 See [](accounting-statement-overview.md) for more information about these sheets.
 
 ```{toctree}
