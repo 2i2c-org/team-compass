@@ -72,15 +72,38 @@ We need to include the following language in your contract to make this legal:
 > Expenses: Organization agrees to reimburse Independent Contractor for all expenses reasonably incurred in the performance of the Engagement and approved by Organization in advance, upon presentation of supporting receipts and documentation.
 :::
 
-## Reimbursement for our 2i2c credit card
+## Reimbursements with our 2i2c credit card
 
 If you purchase something with our 2i2c credit card, the transaction will show up in Ramp.
-Someone with **Administrator privileges** in [our Ramp account](https://app.ramp.com/business-overview) must approve any transactions that are made with Ramp.
-Here is the process that we follow for this:
+We must match the receipt for your purchase with the new entry in Ramp.
+Here are the instructions to follow.
+
+1. Make the purchase.
+2. E-mail the receipt (PDF or a forwarded e-mail) to `receipts@2i2c.org`.
+3. Our {role}`Executive Assistant` will check this address weekly and match new receipts with entries in Ramp.
+4. Answer any questions that they ask you to help match the receipt to the right entry.
+
+### Matching receipts to entries in Ramp
+
+These instructions are for someone with **Administrator privileges** in [our Ramp account](https://app.ramp.com/business-overview).
+This is generally done by our {role}`Executive Assistant` but may be done by anybody with these permissions in Ramp.
+
+Here is the process that we follow:
 
 1. Go to [the Ramp inbox](https://app.ramp.com/inbox). This should list any items that need action from you or others.
 2. If it is empty, then there's nothing to do!
 3. If it has items for Review, click on each one and follow the prompts to include any important missing information.
+4. Go to the Google Group inbox for `receipts@2i2c.org` and see if the receipt for a Ramp entry exists there.
+
+   The URL for this Google Group has this form:
+
+   ```
+   https://groups.google.com/u/{GOOGLE-USER-NUMBER}/a/2i2c.org/g/receipts
+   ```
+
+   Where `GOOGLE-USER-NUMBER` is the number associated with your `2i2c.org` Google account on your local machine.
+   For example, my first Google Account is `0`, my third is `2`.
+5. If there is no obvious receipt in the `receipts@2i2c.org` inbox, ask the team for guidance in `#team-updates`.
 
 ### Send receipts to Ramp via e-mail
 
@@ -168,3 +191,11 @@ AWS automatically e-mails cloud account admins a PDF of their monthly invoice.
 Chris Holdgraf's e-mail account is set up to automatically forward this e-mail to `receipts@ramp.com`, and this will automatically match the PDF with the corresponding charge in our Ramp account.
 
 Chris' account also automatically forwards this e-mail to `receipts@2i2c.org`, so if we must manually upload the receipt for some reason, find the e-mail with the PDF in the Google Group for that e-mail account.
+
+## The `receipts@2i2c.org` address
+
+We have a shared Google Group account at `receipts@2i2c.org`.
+We use this to collect receipts by team members that have used one of the 2i2c credit cards.
+By having all of our receipts in a centralized place, we can delegate the responsibility of matching receipts to Ramp entries.
+
+Currently, our {role}`Executive Assistant` checks all new Ramp entries each week and matches them with receipts that are in `receipts@2i2c.org`.
