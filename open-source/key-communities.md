@@ -1,3 +1,16 @@
+---
+jupytext:
+  text_representation:
+    extension: .md
+    format_name: myst
+    format_version: 0.13
+    jupytext_version: 1.13.8
+kernelspec:
+  display_name: Python 3 (ipykernel)
+  language: python
+  name: python3
+---
+
 # Key open source communities
 
 Key open source communities are those that align with 2i2c's values and that are central to 2i2c's mission.
@@ -22,8 +35,22 @@ Here are a few examples of this:
 
 ## List of key communities
 
-Currently, the following communities are considered "key communities" for 2i2c:
+Currently, the following communities are considered "key communities" for 2i2c.
+It is pulled from [this source of truth](data/key-communities.toml).
 
-- [@jupyter](https://github.com/jupyter)
-- [@jupyterhub](https://github.com/jupyterhub) (and Binder)
-- [@executablebooks](https://github.com/executablebooks)
+```{code-cell} ipython3
+---
+mystnb:
+  markdown_format: myst
+tags: [remove-input]
+---
+from tomlkit import parse
+from pathlib import Path
+from IPython.display import Markdown
+with Path("data/key-communities.toml").open() as ff:
+  communities = parse(ff.read())["communities"]
+
+communities = [f"- [@{cc}](https://github.com/{cc})" for cc in communities]
+communities = "\n".join(communities)
+Markdown(communities)
+```

@@ -1,0 +1,19 @@
+# This is the source of truth for "Key Upstream Communities".
+# For more information see: https://compass.2i2c.org/open-source/key-communities/
+# Issue discussing this: https://github.com/2i2c-org/meta/issues/830#issuecomment-1928854772
+communities = [
+  # Jupyter projects
+  "jupyter",
+  "jupyter-server",
+  "jupyterhub",
+  "jupyterlab",
+  "binder-examples",
+  "executablebooks",
+  # Other upstream communities
+  "cryptnono",  # Also used heavily by the Binder project
+  "dask",  # Largely dask-gateway and distributed
+  "pydata",  # Largely pydata-sphinx-theme
+  "rocker-org",  # Heavily used for supporting R environments
+  # Communities of practice
+  "pangeo-data",
+]
