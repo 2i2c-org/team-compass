@@ -1,6 +1,6 @@
 # Using FreshDesk
 
-We [use FreshDesk](support:freshdesk) as part of our support processes.
+We [use FreshDesk](support:freshdesk) as part of our support and lead management processes.
 This service has its own functionality and quirks, and this page is a place to document some common actions we must take.
 
 (freshdesk:footer)=
@@ -19,14 +19,25 @@ And a quick summary:
 
 ## Email routing rules
 
-The following email addresses (which are configured as [Google Groups](https://groups.google.com/all-groups) for @2i2c.org) are routed to FreshDesk:
+The following email addresses (which are configured as [Google Groups](https://groups.google.com/all-groups) for @2i2c.org) are routed to FreshDesk and automatically assinged the following FreshDesk groups:
 
-- support@2i2c.org
+| Email Address         | FreshDesk Group |
+|-----------------------|-----------------|
+| support@2i2c.org      | Support         |
+| invoices@2i2c.org     | Invoices        |
+| partnerships@2i2c.org | Partnerships    |
+| hello@2i2c.org        | Partnerships    |
 
-- partnerships@2i2c.org
+These mappings are configured within FreshDesk from `Admin` > `Email`.
 
-- hello@2i2c.org
+## Automations
 
-- invovices@2i2c.org
+FreshDesk can perform automations on tickets. These automations are configured using `Admin` > `Automations`
 
+1. Auto-response to new support tickets
+- `If Group is Support Send Email to Requester`
+- Support tickets get an automatically generated email acknowledging receipt of the ticket.
 
+2. Invoice email automation
+- `If Group is Invoices AND If Requester email is accounting@codeforsociety.org Skip Notification AND Set Status as Closed`
+- CS&S copies all outgoing invoices to invoices@2i2c.org. This automations closes those tickets automatically.
