@@ -29,7 +29,7 @@ The procedures describe action sequences our team will carry out as expression o
 
 ### [FreshDesk](https://2i2c.freshdesk.com)
 
-2i2c uses FreshDesk ([https://2i2c.freshdesk.com](https://2i2c.freshdesk.com)) to manage leads and support requests. FreshDesk's ticketing system is used to track information exchanges around a particular lead or support request. FreshDesk's canned messaging support is used in some of the standard operating procedures described below.  
+2i2c uses FreshDesk ([https://2i2c.freshdesk.com](https://2i2c.freshdesk.com)) to manage leads and support requests. FreshDesk's ticketing system is used to track information exchanges around a particular lead or support request. FreshDesk's canned messaging support is used in some of the standard operating procedures described below.  Additional information about how FreshDesk is configured and used across 2i2c is [here](../community-success/freshdesk).
 
 ### Google Drive
 
