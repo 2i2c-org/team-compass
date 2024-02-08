@@ -16,3 +16,17 @@ And a quick summary:
 1. Go to `Admin` > `Workflows` > `Email Notifications`.
 2. Click on the `Templates` tab > `Agent Reply Template`.
 3. Edit the form in order to add the text you'd like.
+
+## Email routing rules
+
+The following email addresses (which are configured as [Google Groups](https://groups.google.com/all-groups) for @2i2c.org) are routed to FreshDesk:
+
+- support@2i2c.org
+
+- partnerships@2i2c.org
+
+- hello@2i2c.org
+
+- invovices@2i2c.org
+
+
