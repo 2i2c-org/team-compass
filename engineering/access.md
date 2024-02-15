@@ -20,7 +20,7 @@ We have [a paid PagerDuty account at `2i2c-org.pagerduty.com`](https://2i2c-org.
 This is used for our uptime monitoring and reporting services.
 See {external+infra:doc}`topic/monitoring-alerting/uptime-checks` for more details.
 
-## GitHub bot
+## GitHub bot accounts
 
 % TODO: Document this more completely
 
