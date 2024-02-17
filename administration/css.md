@@ -3,6 +3,16 @@
 There are a few ways in which we interact with {term}`Code for Science and Society`.
 This page provides an overview.
 
+## Our FSP Advisor
+
+Our FSP Advisor is [Jess Hardwicke](https://www.codeforsociety.org/about/people/848).
+She is the point-person for most of our questions, comments, etc.
+We can discuss most major operational and strategic questions with her.
+
+To communicate, we should use the genercal CS&S intake e-mail.
+
+E-mail address: **`fsp@codeforscience.org`**.
+
 ## CS&S Handbooks
 
 CS&S has two handbooks that have information and policy for the organization.
@@ -29,16 +39,6 @@ E-mail address: **`fsp@codeforscience.org`**.
 
 ```{role} CS&S FSP
 ```
-
-## CS&S FSP Advisor
-
-Our FSP Advisor is [Jess Hardwicke](https://www.codeforsociety.org/about/people/848).
-She is the point-person for most of our questions, comments, etc.
-We can discuss most major operational and strategic questions with her.
-
-To communicate, we should use the genercal CS&S intake e-mail.
-
-E-mail address: **`fsp@codeforscience.org`**.
 
 ## CS&S HR
 
