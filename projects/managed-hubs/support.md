@@ -194,7 +194,7 @@ When a new ticket lands in Freshdesk under the support group and it is not an in
    >
    > Thanks.
 
-   You can use [this airtable](https://airtable.com/appxk7c9WUsDjSi0Q/tbl3CWOgyoEtuGuIw/viwtpo7RxkYv63hiD?blocks=hide) as the *source of truth*
+   You can use [this airtable](https://airtable.com/appbjBTRIbgRiElkr/pagD3XyZjqBunYMnC) as the *source of truth*
    for who can initiate support requests for which communities. You should find the username & password for 2i2c airtable account in the organizational
    bitwarden.
 
