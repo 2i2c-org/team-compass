@@ -33,13 +33,11 @@ We use them in order to have a space for our team to speak freely with one anoth
 
 Below are a list of private channels for our teams.
 For these channels, **all 2i2c staff may get access**.
-This is granted by making a request in our `#team-updates` channel.
 
-To add a non-2i2c staff member, first get approval from our team leads.
-
-- `#team-updates` - organization-wide updates and announcements.
-- `#partnerships` - discussion for our Partnerships team.
-- `#engineering` - discussion for our Engineering team.
+- [`#team-updates`](slack:team-updates)
+- [`#solution-forum`](#slack:solution-forum)
+- [`#partnerships`](#slack:partnerships)
+- [`#engineering`](#slack:engineering)
 
 In addition, we occasionally create private channels for specific projects or topics.
 In this case, the channel creator can invite the people that they believe need visibility into the conversation.

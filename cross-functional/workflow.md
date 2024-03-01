@@ -1,43 +1,34 @@
 (leads:workflow)=
 # Workflow
 
-```{warning} Out of date
-Our cross-team workflow is being significantly re-worked, and this information is out of date.
-```
+(slack:team-updates)=
+## The `#team-updates` Slack channel
 
-This section describes how our leadership team carries out its planning and day-to-day work.
+The [`#team-updates` Slack channel](https://2i2c.slack.com/archives/C01GLCC1VCN) is for organization-wide announcements and team discussion.
+It is a place for the whole organization to talk to one another, share status and life updates, etc.
+There's not a strict limit to topics for discussion, but if your conversation fits within the scope of another Slack channel it's better to discuss there.
 
-(leads:meeting:organizational-strategy)=
-## Meeting for organizational strategy
+(slack:solution-forum)=
+## The `#solution-forum` Slack channel
 
-We have a bi-weekly **Organization and strategy meeting** to discuss and refine major priorities across the organization.
-See [our running notes for more information](https://drive.google.com/open?id=1HoNX8T8IQ1uhS2ryi1r9iS-nSbPT1b1Y7HsjosbHme8&authuser=1&usp=meetingnotes&showmeetingnotespromo=true).
+The [`#solution-forum` Slack channel](https://2i2c.slack.com/archives/C06G5FAAT63) is a space for cross-organization initiatives and strategic conversation.
 
-## Strategic priorities board
+- It is meant for discussing organization-wide practices, policies, and planning.
+- It will have a combination of strategic- and tactical-level discussion. (in the future we may split this into two channels if it's too much)
+- It will initially focus its discussion around our "cross-functional initiatives" board and the items in it.
+- Anyone that participates in conversations in this channel should dedicate the attention to understand the context for discussion and participate until topics are resolved.
+- Area leads are expected to monitor this channel and participate in cross-team conversations as they arise.
+- All 2i2c staff have visibility into the channel and may participate in conversations, but are not expected to do so as part of their daily responsibilities.
 
-We have a special project board to track the priorities of each functional area.
-We update this roughly every quarter.
+### Team members expected to monitor this channel
 
-```{button-link} https://github.com/orgs/2i2c-org/projects/34/views/7
-:color: primary
+Below is a list of the team members that we **expect** to participate in this channel on a regular basis:
 
-Strategic priorities
-```
-
-## Organization-wide backlog
-
-We have a backlog to track organization-wide work items.
-These are generally championed by one of our leads, or by the executive director.
-
-```{button-link} https://github.com/orgs/2i2c-org/projects/34/views/13
-:color: primary
-
-Organizational backlog
-```
-
-We also track [our strategic objectives](strategy:objectives) in this board.
-
-## Slack channel
-
-The [`#team-leads`](https://2i2c.slack.com/archives/C047H7W78M6) channel is a space for dedicated cross-organization and strategic conversation.
-All team leads must be a member of this channel, and any team member is welcome to join this channel.
+- @colliand: To represent our overall partnerships strategy and team
+- @jmunroe: To represent our community success efforts
+- @Gman0909 : To represent our product operations and strategy
+- @damianavila : To represent our engineering team's needs
+- @yuvipanda : To represent our technical and open source strategy
+- @choldgraf : To represent 2i2c's overall strategy and policies
+- @haroldcampbell : To represent 2i2c's overall system of work and operations
+- @aprilmj : To represent 2i2c's People Operations and team support
