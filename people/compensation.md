@@ -97,11 +97,7 @@ Team members should get approval for travel (and a rough budget) before any book
 
 #### Personal development
 
-2i2c team members should identify opportunities to learn and improve the skills that are related to their role and their learning goals.
-2i2c will cover the cost of these opportunities.
-We particularly encourage area leads and managers to identify these opportunities for others in their area (and for themselves).
-Opportunities should be identified by any team member, and approved by an area lead or manager.
-There is currently no restriction on the funds that can be spent on this. This will likely change to a fixed budget in the future but should be sustainable while we are small.
+Development recommendations and reimbursement are described in our [Personal and professional development section](./development.md)
 
 #### Wellness
 
