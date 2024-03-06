@@ -1,6 +1,11 @@
 (coordination:workflow)=
 # Workflow
 
+```{admonition} Out of date!
+
+Many of the sections below are out of date, particularly those related to the Engineering team's delivery workflow.
+```
+
 This section describes how our development team carries out its planning and day-to-day work.
 
 :::{admonition} Helpful links
@@ -238,3 +243,8 @@ Here is a common column structure:
 - {guilabel}`Blocked`: Deliverables that require another action or delivearable from the 2i2c team to complete before they can move forward.
 - {guilabel}`Waiting`: Deliverables that require another action from a **non-2i2c team member** before they can move forward.
 - {guilabel}`Done`: Deliverables that have been completed. We should close these issues and celebrate the improvements that we have made!
+
+(slack:engineering)=
+## The `#engineering` Slack channel
+
+The [`#engineering` Slack channel](https://2i2c.slack.com/archives/C055A1J1DRP) is a place for the engineering team to coordinate, plan, and discuss their work.
