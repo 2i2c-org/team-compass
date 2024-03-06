@@ -23,9 +23,11 @@ The procedures describe action sequences our team will carry out as expression o
 
 2i2c/CS&S use a variety of technologies and subscription services in our overall operation. Personnel involved in supporting 2i2c's leads --> partnerships business processes need to have accounts and appropriate access to these resources. The technologies and servies used in the leads --> partnership procedures are described next: 
 
-### [Slack](https://2i2c.slack.com)
+(slack:partnerships)=
+### The Partnerships Slack channel
 
-2i2c uses Slack for asynchronous team communications, often threaded by focus area. Discussions related to partnerships and the workflows described in this section of the Team Compass mostly take place in the `#leads-and-partnerships` channel in 2i2c's Slack. Questions about the implementation of procedures in the leads, prospects, and partnerships phases are likely best posed in the `#leads-and-partnerships` channel in Slack. 
+The [`#partnerships` Slack channel](https://2i2c.slack.com/archives/G015W2KSBCP) is for discussions around the partnerships and community lifecycle.
+It is primarily used by the Partnerships team in planning, coordinating, and discussing their work.
 
 ### [FreshDesk](https://2i2c.freshdesk.com)
 

@@ -5,6 +5,7 @@
 overview.md
 expectations.md
 compensation.md
+development.md
 hiring.md
 titles.md
 time-off.md

@@ -4,4 +4,5 @@
 overview.md
 structure.md
 workflow.md
+money
 ```
