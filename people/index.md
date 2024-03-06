@@ -1,4 +1,4 @@
-# People group
+# People operations
 
 ```{toctree}
 :maxdepth: 2

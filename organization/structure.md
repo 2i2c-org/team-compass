@@ -21,7 +21,7 @@ The following areas apply across the entire organization.
 They are led by the {role}`Executive Director` and responsibility is delegated to a variety of team members across the organization.
 
 - **[Operations](../operations/index.md)**: Oversees our systems for coordination, planning, and executing our work according to our goals.
-- **[People group](../people/index.md)**: Policies and practices for personnel, hiring, salaries, benefits, and time off.
+- **[People operations](../people/index.md)**: Policies and practices for personnel, hiring, salaries, benefits, and time off.
 - **[Open Source](../open-source/index.md)**: Our upstream and open source engagement strategy to ensure we have healthy relationships with communities we rely on.
 - **[Finance](../finance/index.md)**: Our accounting and financial systems and strategy.
 - **[Product](../product/index.md)**: Understand the perspective of our partner communities and guide the evolution of our infrastructure and services, in order to ensure they have a positive impact.
