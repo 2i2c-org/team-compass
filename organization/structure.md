@@ -24,7 +24,6 @@ They are led by the {role}`Executive Director` and responsibility is delegated t
 - **[People operations](../people/index.md)**: Policies and practices for personnel, hiring, salaries, benefits, and time off.
 - **[Open Source](../open-source/index.md)**: Our upstream and open source engagement strategy to ensure we have healthy relationships with communities we rely on.
 - **[Finance](../finance/index.md)**: Our accounting and financial systems and strategy.
-- **[Product](../product/index.md)**: Understand the perspective of our partner communities and guide the evolution of our infrastructure and services, in order to ensure they have a positive impact.
 - **[Communication](../communication/index.md)**: Strategy and practices for communicating 2i2c's impact and operations with external communities.
 - **[Administration](../administration/index.md)**: Carry out ongoing organizational tasks that are needed to keep 2i2c running on a daily basis.
 
@@ -35,25 +34,9 @@ They have dedicated leads that are defined in the **Structure and roles** sectio
 
 Reporting lines are within a functional area, meaning that team members should report to somebody that has held a similar job in the past.
 
-
 - **[Engineering](../engineering/structure.md)**: Develop and operate our technical and cloud infrastructure, to ensure that it is reliable and scalable.
 - **[Partnerships](../partnerships/structure.md)**: Identify opportunities for impact, cultivate new relationships, and oversee our sustainability plan to ensure that we have sustainable and scalable impact.
-
-## Cross-functional teams
-
-Cross-functional teams consist of team members from various functional areas, and are organized around a specific _goal, service, or product_.
-Teams should generally have members with the right skills and authority to accomplish the entirety of the team's goal.
-They might be temporary or semi-permanent.
-
-Teams often **share a backlog** that describes their goals and work items, and may also **share a project manager** that oversees coordination and execution of work.
-
-They also often **have team meetings** to facilitate discussion and information flow across functional areas.
-
-There are two main teams within 2i2c, both revolving around major aspects of our Managed Hubs Service:
-
-- **Cross-team leadership**: Goal is to align on our major goals, strategy, and operations across the leaders of each functional area.
-- **Product and Engineering**: Goal is to design, develop, and improve the Managed JupyterHub Service technology and end-user experience.
-- **Community and Partnerships**: Goal is to cultivate relationships with new partnership communities, support and engage with our active partnerships, and use these relationships to feed into 2i2c's sustainability model.
+- **[Product](../product/index.md)**: Understand the perspective of our partner communities and guide the evolution of our infrastructure and services, in order to ensure they have a positive impact.
 
 (structure:steerco)=
 (Steering Council)=
