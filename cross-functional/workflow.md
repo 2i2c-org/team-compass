@@ -7,11 +7,11 @@ There are roughly three levels of work at play in 2i2c's team[^flight-levels]:
 
 [^flight-levels]: These are heavily inspired [by the Flight Levels framework](https://www.flightlevels.io/).
 
-**Level 3: Strategic portfolio**. 2i2c's overall strategic goals and the initiatives that make progress towards them. [Defined as items in the initiatives board](#board:initiatives).
+**Level 3: Strategy**. 2i2c's overall strategic goals and the initiatives that make progress towards them. [Defined as items in the initiatives board](#board:initiatives).
 
 **Level 2: Coordination**. The sequence of actions that is carried out in order to complete an initiative, and the cross-team coordination needed to accomplish them. Defined as tasklists within initiatives [on the initiatives board](#board:initiatives).
 
-**Level 1: Operational**. The work that a team intends to deliver now and next. This is a combination of strategic work that drives an initiative forward, as well as reactive work that is driven by external processes. [Defined as items on team delivery boards](#board:delivery).
+**Level 1: Operations**. The work that a team intends to deliver now and next. This is a combination of strategic work that drives an initiative forward, as well as reactive work that is driven by external processes. [Defined as items on team delivery boards](#board:delivery).
 
 In short, our strategic goals are 2i2c's overall measure of success. Initiatives are concrete efforts in a **strategy** to make progress towards those goals. Initiatives require **coordination** across our team to plan the proper sequence of actions. These plans are then **operationalized** by being pulled into the delivery processes of each team.
 
@@ -34,13 +34,13 @@ There are three types of items on the initiatives board:
 
   - Strategic initiatives represent progress made towards a strategic goal or a major project. These should all result in value delivered to communities.
   - Investment initiatives are an investment in our team, technology, etc that does not immediately deliver value to communities, but helps us build a better foundation to do so.
-- **Task lists**: Are specific actions or deliverables that are taken to complete an initiative. These are defined as `[tasklist]` objects in each initiative, and are the main units of work that drive our actions.
+- **Lists of Tasks and Epics**: Are the sequence of steps or deliverables that are taken to complete an initiative. These are defined as `[tasklist]` objects in each initiative, and are the main units of work that drive our actions.
 
-````{admonition} Example structure of an initiative
+`````{admonition} Example structure of an initiative
 :class: dropdown
 Here's the rough structure of an initiative, use this to guide the creation of new initiatives.
 
-```markdown
+````markdown
 title: Initiative name in GitHub issue
 
 ### Description
@@ -67,15 +67,14 @@ what kind of work it will entail, and why it is important to 2i2c's overall goal
 - [ ] This may be empty when the initiative is created! The initiative's goals should be used to decide what action issues to create next.
 ```
 ````
+`````
 
 ### Bi-weekly initiatives meetings
 
 There are two bi-weekly meetings with the initiatives team.
 
-- **Initiative planning and refinement**: A combindation of **coordination** and **prioritization**. We first walk the board and ensure each initiative has clear next steps, assigned people, and that any coordination between teams is clear. We next zoom out and discuss our overall portfolio of initiatives to ensure we're sequencing them properly.
-- **Initiative retrospectives**: The Initiatives team follows the same retrospective structure we follow for any team.
-
-Our goal is to have the **Initiatives planning meeting** before any other sprint planning meetings, and to have the **Initiatives retrospective** after any other team retrospectives.
+- **Initiative planning and refinement**: A combination of **coordination** and **prioritization**. We first walk the board and ensure each initiative has clear next steps, assigned people, and that any coordination between teams is clear. We next zoom out and discuss our overall portfolio of initiatives to ensure we're sequencing them properly. This should inform priorities for sprint planning and delivery.
+- **Initiative retrospectives**: The Initiatives team follows the same retrospective structure we follow for any team. This should consider the results generated from sprint delivery and team retrospectives.
 
 (slack:solution-forum)=
 ### The `#initiatives` slack channel
