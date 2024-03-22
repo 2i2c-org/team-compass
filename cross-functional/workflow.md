@@ -48,13 +48,10 @@ title: Initiative name in GitHub issue
 A short description of the initiative, with enough context so that people can understand
 what kind of work it will entail, and why it is important to 2i2c's overall goals.
 
-### Linked goal or project
-
-- Link to a strategic goal or a project (2i2c-based, upstream, etc)
-
 ### Why is this important?
 
 - This will allow us to XXX
+- Link to a strategic goal or a project (2i2c-based, upstream, etc)
 
 ### Measures and definition of done
 
