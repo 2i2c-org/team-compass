@@ -82,36 +82,6 @@ Define a meeting recorder at the beginning of each meeting.
 
 ## Types of meetings
 
-(meetings:content-meetings)=
-### Content meetings
-
-Meetings for discussion to help us resolve uncertainty and make decisions more quickly.
-
-**What these meetings are for**:
-
-- Discuss questions that arise when we review one another's work
-- Refine work items in backlogs
-- Prioritize work items in backlogs
-- Discuss complex or sensitive topics that require high-bandwidth conversation
-
-**What these meetings are not for**:
-
-- Status updates about what we've been up to
-- Short-term coordination and planning
-
-### Coordination meetings
-
-Short, focused meetings to align team members on a short-term plan of action.
-
-**What these meetings are for**:
-
-- Short-term planning given our priorities and any new work items
-- Assign backlog items to team members to finish within a specific time window
-
-**What these meetings are not for**:
-
-- Discussing new ideas and proposals
-
 (coordination:team-syncs)=
 ### Asynchronous team syncs
 
