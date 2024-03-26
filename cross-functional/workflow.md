@@ -65,6 +65,11 @@ what kind of work it will entail, and why it is important to 2i2c's overall goal
 ```
 ````
 `````
+:::{admonition} **What about community projects?**
+
+We also track community projects as initiatives. When 2i2c is actively engaged in work for upstream projects or communities we serve, we add those to our initiatives list, and follow the planning process outlined here. 
+
+Note this is a work in progress, and we’re continuing to evolve our process for collaborating within and outside 2i2c.  :::
 
 ### Bi-weekly initiatives meetings
 
