@@ -34,3 +34,18 @@ To do so follow these steps:
 - Go to [our budget projections sheet](accounting:projections).
 - Look at the `Summary` tab.
 - This shows our burn rate, along with 9 and 24 month cutoffs.
+
+## Tracking our contracts portfolio
+
+Our monthly process for tracking our contracts portfolio will require input from CS&S, the Delivery Manager and the Partnership Lead. Both the Delivery Manager and Partnership Lead need to cultivate an ongoing understanding of the portfolio to:
+
+- Be able to update it as a source of truth
+- Identify accounting or contractual deviations.
+
+### Delivery Manager's responsibilities
+
+The Delivery Manager will be responsible for monitoring the systems that we have for tracking contracts in collaboration with the CS&S team. Accounting deviations or concerns will be reported the the Partnership Lead. Additionally, it'll be the responsibility of the Delivery Manager to refine the process over time.
+
+### Partnership Lead's responsibilities
+
+The Partnership Lead will be responsible for taking actions to follow up with communities and/or triggering processes in CS&S to move actions forward. They will be expect to work closesly with the Delivery Manager to ensure the system is working effectively.
