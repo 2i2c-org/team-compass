@@ -2,8 +2,6 @@
 # Budget projections
 
 Our budget projection model begins with a source of truth about our **current and historical costs and revenue**, and then projects into the future by making assumptions about these numbers.
-It allows us to manually specify costs and revenue in the future, if we **know** that they will happen.
-It also lets us specify repeating numbers each month, and a percentage growth rate for monthly recurring revenues.
 
 ```{admonition} Feel free to edit and experiment
 The projections sheet is a **tool** to be used to understand how our hiring and cost decisions will affect our finances moving forward.
@@ -20,17 +18,30 @@ Budget projections model
 
 ## Update our budget projections model
 
-The model can be updated to begin on a new date, and to reflect the latest data for our "Cash on Hand".
-It then updates its projections based on our Income and Expenses assumptions.
+Each month, we get a new batch of accounting data from CS&S.
+We use this as an opportunity to update our budget projections, which includes the following actions:
 
-To update this model with the latest information, [follow the instructions in the first tab the model](https://docs.google.com/spreadsheets/d/1zDO_kqnJ1PH3GWOMks5E_1oIpoAJgseWhj3oCohUVZk/edit#gid=929955044).
+- Confirm that our Contracts information is correct.
+- Flag any items that require extra attention, such as Contracts that will expire soon.
+- Update our financial projections and calculate a new runway for 2i2c.
 
+[Here's a document with the process to update the budget projections](https://docs.google.com/document/d/1iG2USbvccMGeobKpH52j37LZpmeNASKedJrb0mX8R8Y/edit?usp=sharing).
 
-## Burn rate
+## Roles and responsibility for tracking our contracts portfolio
 
-We can use the budget projections model to calculate our Burn Rate (how quickly we are losing/gaining money, and when we will reach `$0`.)
-To do so follow these steps:
+Our monthly process for tracking our contracts portfolio requires input from CS&S, the [](#role:delivery-manager) and the [](#role:partnerships-lead).
+Both need to cultivate an ongoing understanding of the portfolio to:
 
-- Go to [our budget projections sheet](accounting:projections).
-- Look at the `Summary` tab.
-- This shows our burn rate, along with 9 and 24 month cutoffs.
+- Be able to update it as a source of truth
+- Identify accounting or contractual deviations.
+
+### Delivery Manager's responsibilities
+
+The Delivery Manager is responsible for monitoring the systems that we have for tracking contracts in collaboration with the CS&S team. 
+Accounting deviations or concerns will be reported to the Partnership Lead.
+
+The Delivery Manager is responsible for refining this process over time.
+
+### Partnership Lead's responsibilities
+
+The Partnership Lead is responsible for taking actions to follow up with communities and/or triggering processes in CS&S to move actions forward. They work closely with the Delivery Manager to ensure the system is working effectively.
