@@ -1,5 +1,6 @@
 ```{role} Delivery Manager and Chief of Staff
 ```
+(role:delivery-manager)=
 # Delivery Manager / Chief of Staff
 
 ```{note}

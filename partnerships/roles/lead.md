@@ -1,5 +1,6 @@
 ```{role} Partnerships Lead
 ```
+(role:partnerships-lead)=
 # Partnerships Lead
 
 Ensures that 2i2c has effective relationships (sales, contracts, invoicing, service delivery) and the resources required to achieve its mission {role}`Partnerships Lead`.
