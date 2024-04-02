@@ -234,14 +234,15 @@ These levels are taking from the www.risemodel.com:
 
 ## Resources
 Where to learn more about feedback
-1 – [Ladder of inference](https://thesystemsthinker.com/the-ladder-of-inference/)
-2 – [The SCARF model](https://www.mindtools.com/akswgc0/david-rocks-scarf-model)
-3 – [Value judgements](https://laurensergy.com/value-judgements/)
-4 – Radical Candor ([4 mins video](https://www.youtube.com/watch?v=rFgu0nOHCcE))
-5 – [The 3 Levels of Listening](https://medium.com/swlh/strategic-leadership-the-3-levels-of-listening-e3f0c27f8d01)
-6 – Crucial Conversations ([video summary](https://www.youtube.com/watch?v=Q2yG142cyNg)), ([book on Amazon](https://www.amazon.com/Crucial-Conversations-Talking-Stakes-Second/dp/0071771328))
-7 – [GE’s Real-Time Performance Development](https://hbr.org/2015/08/ges-real-time-performance-development) introduces Continue/Consider
-8 – [Impact Feedback](https://vividbreeze.com/impact-feedback/)
-9 – [Primed to Perform](https://yantougas.com/2016/02/15/blame/) REAP explanation
-10 – Rise Model ([2 mins video](https://www.youtube.com/watch?v=3cn306Fo_IU)) [www.risemodel.com](https://www.risemodel.com)
-11 – [The Shit Sandwich and Other Terrible Ways to Give Feedback](https://blog.idonethis.com/sandwich-feedback-performance-management/#:~:text=The%20main%20idea%20behind%20the,results%20in%20the%20exact%20opposite).
+
+1. [Ladder of inference](https://thesystemsthinker.com/the-ladder-of-inference/)
+2. [The SCARF model](https://www.mindtools.com/akswgc0/david-rocks-scarf-model)
+3. [Value judgements](https://laurensergy.com/value-judgements/)
+4. Radical Candor ([4 mins video](https://www.youtube.com/watch?v=rFgu0nOHCcE))
+5. [The 3 Levels of Listening](https://medium.com/swlh/strategic-leadership-the-3-levels-of-listening-e3f0c27f8d01)
+6. Crucial Conversations ([video summary](https://www.youtube.com/watch?v=Q2yG142cyNg)), ([book on Amazon](https://www.amazon.com/Crucial-Conversations-Talking-Stakes-Second/dp/0071771328))
+7. [GE’s Real-Time Performance Development](https://hbr.org/2015/08/ges-real-time-performance-development) introduces Continue/Consider
+8. [Impact Feedback](https://vividbreeze.com/impact-feedback/)
+9. [Primed to Perform](https://yantougas.com/2016/02/15/blame/) REAP explanation
+10. Rise Model ([2 mins video](https://www.youtube.com/watch?v=3cn306Fo_IU)) [www.risemodel.com](https://www.risemodel.com)
+11. [The Shit Sandwich and Other Terrible Ways to Give Feedback](https://blog.idonethis.com/sandwich-feedback-performance-management/#:~:text=The%20main%20idea%20behind%20the,results%20in%20the%20exact%20opposite).
