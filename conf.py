@@ -53,6 +53,7 @@ myst_enable_extensions = [
     "deflist",
     "dollarmath",
     "linkify",
+    "tasklist",
 ]
 
 intersphinx_mapping = {
