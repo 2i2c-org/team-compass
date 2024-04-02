@@ -1,32 +1,35 @@
-# Quick tips for giving and receiving Effective Feedback
+# Giving and receiving Effective Feedback
 
 The purpose of this document is to act as a short, introductory guide to giving and receiving feedback. After reading this guide, the reader should be equipped with the minimal set of tools to give and receive feedback.
 
-## What is Feedback
+## Quick overview
+
+### What is Feedback
 Feedback is fact-based information that is shared to help individuals grow. It is primarily designed to be constructive for recipients and allows them an opportunity to reflect, then determine what behaviors (attributes, skills, etc.) they choose to change based on the facts that have been shared with them.
 
 Feedback isn’t only about things someone could do differently - Positive feedback can be an effective way to encourage more of a behavior!
 
-## Why is it important
+### Why is it important
 The primary purpose of giving feedback is to create a positive impact on people’s behavior and to help them grow.
 
 Similarly, the primary purpose for receiving feedback is so that we have a fact-based opportunity to improve.
 
-## What isn’t considered feedback
+### What isn’t considered feedback
 Feedback differs from opinions, criticism and compliments primarily because of the intent (helping people to grow).
 
 - Feedback vs opinions – feedback differs from an opinion because feedback is rooted in fact-based observations and is not subjective.
 - Feedback vs criticism/compliments – feedback differs from criticism and compliments because the intent is not to make the individuals feel a particular way (in the moment).
 
-## Who benefits from feedback
+### Who benefits from feedback
 Within an organization, everyone benefits from giving and receiving feedback. As a result of this, we feel that once considerations are made to ensure psychological safety (discussed below), anyone in the organization can use this document to start giving and receiving feedback regardless of role. However, it is crucial for leaders and senior team members to role model these behaviors so that their actions can nurture a growth culture. 
 
-# Give and receiving feedback
+### When to give and receive feedback
+
 Ideally, we want to give feedback as close (or soon as possible) after the relevant observed situation. This keeps the details fresh in everyone’s minds. However, we need to ensure that the recipient is ready to receive the feedback and we are prepared (i.e. mentally, emotionally and cognitively) to give the feedback.
 
 Remember that feedback can and should be a mix of positive (keep that up), constructive (please change that). 
 
-## Caveats to feedback (the fantasies)
+### Caveats to feedback (the fantasies)
 It’s important to be aware of the Giver and Receiver’s Fantasy for feedback and the implicit assumption that results.
 
 > **Giver’s Fantasy**: _They will act on my feedback, and everything will be fine._
@@ -35,10 +38,10 @@ It’s important to be aware of the Giver and Receiver’s Fantasy for feedback 
 
 In reality however, the receiver **is not compelled to act** on your feedback if it’s not relevant or actionable.
 
-## When should you use this tool
+### When should you use this document
 This document provides sufficient information to use feedback as a growth mechanism. **_It does NOT cover physical alterations or life threatening situations._**
 
-# How to give feedback
+## How to give feedback
 Use the checklist below as a guide to give feedback.
 
 - [ ] **Create safety** – This is crucial. We need emotional safety. Be empathetic and make sure that you are not adding stress/tension.
@@ -65,7 +68,7 @@ Here’s an example (Story vs Fact):
   - Don’t cushion your feedback
   - Don’t be a jerk
 
-# How to receive feedback
+## How to receive feedback
 Receiving feedback can sometimes be difficult. Below is a checklist on how to receive feedback from people.
 
 - [ ] **Decide if you want to accept the feedback** - first and foremost, you do have a choice to enter into feedback discussions. You are within your rights to say _“No”_ or _“Not now”_ when someone offers to give you feedback. However, if you do decide to enter into a feedback session, then…
@@ -80,7 +83,7 @@ Receiving feedback can sometimes be difficult. Below is a checklist on how to re
   - Is there value in changing your behaviors?
 - [ ] **Take action** - Once you’ve absorbed the feedback, you can decide what you want to do about it - how do you want to change, “do more” or “do less of” in the future? It can be helpful to discuss your action plans with someone who acts as a coach.
 
-# Saying “No” to receiving feedback
+## Saying “No” to receiving feedback
 Feedback is a tool to help individuals grow, and when practiced well it promotes a culture of growth. For this reason we advocate for people giving and receiving feedback. 
 
 However, when the intent or the act of giving feedback deviates from this, it is perfectly okay to decline receiving feedback. Here are some general examples:
@@ -92,7 +95,7 @@ However, when the intent or the act of giving feedback deviates from this, it is
   - It’s being done publicly
   - It’s not being done to help them grow
 
-### Deferring feedback with “Not now” 
+#### Deferring feedback with “Not now” 
 
 “Not now” isn’t a no, and it’s also a reasonable thing to say - if you know you’ll have a hard time receiving feedback right now, suggest another, better time. 
 
@@ -102,7 +105,7 @@ For instance:
   Molly: Thank you for sharing with me how you feel I understand. Because this is important, is there a time that you could recommend?
   Tod: Thanks for understanding, may we try again next week?...
 
-# Asking for feedback
+## Asking for feedback
 You can also ask for feedback if you want to:
 
 - Improve specific activity-based behaviors. Examples include: 
@@ -113,7 +116,7 @@ You can also ask for feedback if you want to:
   - “Over the next 3 months, I’d like to improve my leadership skills. May I ask you to give me feedback every six weeks on your observations of areas I can improve?”
   - “I have difficulty showing others how to write performance code. May I ask you to give me feedback when you see areas where I could communicate better?”
 
-# Feedback in asynchronous teams
+## Feedback in asynchronous teams
 Although initially used in environments where people were collocated, feedback is still applicable for remote teams that are highly distributed. There are some core principles that translate well to asynchronous teams (see below). We acknowledge that when working across time zones, there will be additional friction in coordinating giving and receiving feedback.  
 
 Effective Feedback translates well to asynchronous teams once we are mindful of the following:
@@ -126,7 +129,7 @@ Effective Feedback translates well to asynchronous teams once we are mindful of 
 3. Optimize to have the feedback over video conversation, especially when you’re first practicing
   - Over time, you’ll build skills at sharing feedback with enough detail and relevance that you’ll be able to write quick notes that help the people you work with most often do more of their best work
 
-# Opportunities to give/solicit feedback
+## Opportunities to give/solicit feedback
 The best time to give or ask for feedback is around activities. Here are some examples (not listed in any order of important):
 
 - **During 1:1 catch-ups** – this creates a regular cadence for feedback
@@ -136,9 +139,9 @@ The best time to give or ask for feedback is around activities. Here are some ex
 - **Mentor/Mentee** – use feedback as a tool to improve specific performance related goals
 - **Performance evaluation** – use continue/consider to provide generalized feedback on behaviors/attributes/skills/attitudes that need to be improved (see below).
 
-# Examples of “Good” vs “Bad” feedback
+## Examples of “Good” vs “Bad” feedback
 
-### Example 1
+#### Example 1
 **Bad Feedback**
 > You’re difficult to work with
 
@@ -154,19 +157,19 @@ In 1A, the feedback is better as it provides more concise information an leads t
 1b is even better because it is more timely. Additionally, it captures the _situation, behavior and the impact_.
 
 
-### Example 2
+#### Example 2
 **Bad Feedback**
 >Let me share some feedback with you… you really should do... because from my personal experience…
 
 The feedback isn’t about you and it should not include your advice or personal experiences
 
-### Example 3
+#### Example 3
 **Bad Feedback**
 >If you aren’t willing to do… then I’m going to have to let you go
 
 This isn’t considered feedback. It’s simply a veiled threat.
 
-### Example 4
+#### Example 4
 **Bad Feedback**
 >Here’s some good news…
 >But the bad news is…
@@ -176,10 +179,10 @@ Nice, nasty filter devalues the feedback. Avoid trying to filter without the nic
 
 This “feedback sandwich” concept was really popular in the past, but researchers have tested it and found that people hear less of the good and bad news when you use a “sandwich” like this. [11]
 
-# Common feedback mechanisms
+## Common feedback mechanisms
 There are many different types and formats for giving feedback. Below we have shared a few of the common formats.
 
-## Continue vs Consider 
+### Continue vs Consider 
 Provide generalized feedback rather than feedback that is reactive to a situation [7].
 Example: Over the last 3 months I have observed how you interacted with the team. Here are some examples of things that could be useful for you given your current development goals to become a better team lead.
 
@@ -190,7 +193,7 @@ Things to consider changing as they may be limiting you:
 Things you should continue doing as they amplify your X:
 - Whenever team members ask for help during support requests, I observe that you typically spend time explaining how to solving the problem instead of simply solving it
 
-## Impact Feedback 
+### Impact Feedback 
 This is also known as Situation-Behaviour-Impact Feedback.
 
 > ‘You give another person feedback from your perspective by
@@ -200,13 +203,13 @@ This is also known as Situation-Behaviour-Impact Feedback.
 >   
 > This structure is often introduced with the sentence: “When you … the impact on me was … Hence, I ask you to …”’ [8]
 
-## Radical Candor
+### Radical Candor
 Being Radically Candid [4] focuses on providing feedback along two dimensions:
 
 - Being more specific and sincere with praise
 - Being more kind and clear with criticism
 
-## REAP Model
+### REAP Model
 The REAP model is from the book Primed to Perform [9]. In summary there are four elements:
 
 - **Remember** to assume a positive intent. Assume the other person means well.
@@ -214,7 +217,7 @@ The REAP model is from the book Primed to Perform [9]. In summary there are four
 - **Ask** the other person why they behaved that way (ask assuming positive intent).
 - **Plan** – Identify the root cause and create a plan of action
 
-## RISE Model
+### RISE Model
 This is a four level process for giving feedback and is popular in schools and universities.
 
 These levels are taking from the www.risemodel.com:
@@ -224,12 +227,12 @@ These levels are taking from the www.risemodel.com:
 - **Level 3: Suggest** – To suggest means to introduce ideas for improvement. At this level of feedback, offer suggestions based on your grasp of the current assignment, issue, or opportunity
 - **Level 4: Elevate** – To elevate means to raise to a higher degree or purpose. At this level of feedback, share any insight or encouragement you have on how to approach or optimize similar situations in the future.
 
-# Follow-up thoughts/article
+## Follow-up thoughts/article
 - How will we give feedback to people in vastly different time zones?
 - Can we give feedback over video messages?
 - How can we encourage feedback as a muscle?
 
-# Resources
+## Resources
 Where to learn more about feedback
 1 – [Ladder of inference](https://thesystemsthinker.com/the-ladder-of-inference/)
 2 – [The SCARF model](https://www.mindtools.com/akswgc0/david-rocks-scarf-model)
