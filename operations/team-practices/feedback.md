@@ -100,10 +100,10 @@ However, when the intent or the act of giving feedback deviates from this, it is
 “Not now” isn’t a no, and it’s also a reasonable thing to say - if you know you’ll have a hard time receiving feedback right now, suggest another, better time. 
 
 For instance:
-  Molly (Giver): Tod, may I give you some feedback based on…
-  _**Tod (Receiver): I am a bit overwhelmed and not in a place to receive feedback right now!**_
+  Molly (Giver): Todd, may I give you some feedback based on…
+  _**Todd (Receiver): I am a bit overwhelmed and not in a place to receive feedback right now!**_
   Molly: Thank you for sharing with me how you feel I understand. Because this is important, is there a time that you could recommend?
-  Tod: Thanks for understanding, may we try again next week?...
+  Todd: Thanks for understanding, may we try again next week?...
 
 ## Asking for feedback
 You can also ask for feedback if you want to:
