@@ -7,6 +7,7 @@ This chapter describes some of the practices that we adopt towards these goals.
 overview
 strategy
 governance
+team-practices/overview
 onboarding
 sources
 meetings
