@@ -15,14 +15,14 @@ Answering this question, requires at least the following information:
 
 The following non-exhaustive initial list of the different kinds of tasks that the engineering team performs during a sprint cycle.
 
-1. Feature Enablement
-2. Routine maintenance
-3. New Hub
-4. Config Change
-5. Fault Fixing
-6. Community Config Change Review
-7. Incident Response
-8. Routing
+1. [](ready:feature-enablement)
+2. [](ready:routine-maintenance)
+3. [](ready:new-hub)
+4. [](ready:config-change)
+5. [](ready:fault-fixing)
+6. [](ready:community-review)
+7. [](ready:incident-Response)
+8. [](ready:routing)
 
 (dor:ready)=
 ## Definition of ready
