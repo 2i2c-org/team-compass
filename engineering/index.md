@@ -6,6 +6,7 @@ These sections have information about accounts, technology, and practices that a
 overview
 structure
 workflow
+definition-of-ready
 strategy
 access
 secrets
