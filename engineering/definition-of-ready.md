@@ -30,25 +30,25 @@ The following non-exhaustive initial list of the different kinds of tasks that t
 The following describes what is the information needed for a member of the engineering team to start working on a specific type of work item.
 
 (ready:feature-enablement)=
-### Feature Enablement
+### Feature enablement
 
 (ready:routine-maintenance)=
 ### Routine maintenance
 
 (ready:new-hub)=
-### New Hub
+### New hub
 
 (ready:config-change)=
-### Config Change
+### Config change
 
 (ready:fault-fixing)=
-### Fault Fixing
+### Fault fixing
 
 (ready:community-review)=
-### Community Config Change Review
+### Community config change review
 
 (ready:incident-response)=
-### Incident Response
+### Incident response
 
 (ready:routing)=
 ### Routing
