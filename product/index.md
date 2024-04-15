@@ -8,4 +8,5 @@ overview.md
 structure.md
 pricing/strategy
 pricing/cost-model
+Prioritization.md
 ```
