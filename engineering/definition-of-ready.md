@@ -30,7 +30,19 @@ The following non-exhaustive initial list of the different kinds of tasks that t
 The following describes what is the information needed for a member of the engineering team to start working on a specific type of work item.
 
 (ready:feature-enablement)=
-### Feature enablement
+### Feature Enablement
+
+Some features for hubs require 2i2c engineering effort to be enabled, and usually this is requested via
+the support process. Before a feature enablement request is considered ready to be worked on, it must
+have the following information:
+
+- [ ] Link to 2i2c documentation on how to enable this feature. This is to be found under
+      [infrastructure.2i2c.org](https://infrastructure.2i2c.org) documentation site.
+- [ ] Any additional information needed for this specific feature. This should be listed in the 2i2c
+      documentation for how to enable this feature.
+
+Functionally, this means that anything that doesn't have an explicit documentation on how to enable it
+should not be considered a feature we currently support!
 
 (ready:routine-maintenance)=
 ### Routine maintenance
