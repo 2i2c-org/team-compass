@@ -30,7 +30,7 @@ The following non-exhaustive initial list of the different kinds of tasks that t
 The following describes what is the information needed for a member of the engineering team to start working on a specific type of work item.
 
 (ready:feature-enablement)=
-### Feature Enablement
+### Feature enablement
 
 Some features for hubs require 2i2c engineering effort to be enabled, and usually this is requested via
 the support process. Before a feature enablement request is considered ready to be worked on, it must
