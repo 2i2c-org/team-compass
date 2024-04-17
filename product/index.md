@@ -9,5 +9,4 @@ structure.md
 prioritization.md
 pricing/strategy
 pricing/cost-model
-deliveryflow.md
 ```
