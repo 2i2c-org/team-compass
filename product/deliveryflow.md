@@ -42,7 +42,10 @@ It’s key that this process be agreed upon by all stakeholders within the organ
 
 As we are a small organization with a relatively large proportion of engineering talent, we will work wih a lightweight product and delivery flow, with an emphasis on up-front macro-level prioritization that empowers the Engineering team with the flexibility to define how to problem solve, break down and prioritize their work at the micro level.
 
-![Process diagram of 2i2c's Product Delivery Flow](images/delivery-flow.jpg)
+:::{figure} images/delivery-flow.jpg
+
+Process diagram of 2i2c's [Product Delivery Flow](https://miro.com/app/board/uXjVNvlBa6E=/?share_link_id=253320305785).
+:::
 
 The next part of this document outlines such a process, designed to be transparent to the organization about what’s been worked on at any time, and to provide clear communication and collaboration points between Product, Engineering and any stakeholders, internal or external, that have a vested interest in the outcome of a project.
 
