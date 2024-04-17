@@ -42,6 +42,8 @@ It’s key that this process be agreed upon by all stakeholders within the organ
 
 As we are a small organization with a relatively large proportion of engineering talent, we will work wih a lightweight product and delivery flow, with an emphasis on up-front macro-level prioritization that empowers the Engineering team with the flexibility to define how to problem solve, break down and prioritize their work at the micro level.
 
+![Process diagram of 2i2c's Product Delivery Flow](images/delivery-flow.jpg)
+
 The next part of this document outlines such a process, designed to be transparent to the organization about what’s been worked on at any time, and to provide clear communication and collaboration points between Product, Engineering and any stakeholders, internal or external, that have a vested interest in the outcome of a project.
 
 ## 1. The insights board
@@ -136,7 +138,7 @@ Typical activities that may be conducted during the scoping stage include, but a
 - Engineering feasibility assessment
 - Engineering points estimation (a.k.a. hard scoping) 
 
-## 5. Building (Ready to Work, Committed, In Progress, Waiting)
+## 5. Building
 
 Scoped Initiatives are now ready to be executed upon, and be broken down into tasks that will allow for the right skill sets to contribute to the outcome. Engineering tasks will be broken down and assigned to the Engineering backlog, and non-engineering tasks (e.g. the production of training materials,content, or documentation) will be assigned to individuals within the relevant disciplines.
 
