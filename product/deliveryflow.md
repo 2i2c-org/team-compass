@@ -136,7 +136,7 @@ Typical activities that may be conducted during the scoping stage include, but a
 - Engineering feasibility assessment
 - Engineering points estimation (a.k.a. hard scoping) 
 
-## 5. Building (Ready to Work, Committed, In Progress, Waiting)
+## 5. Building
 
 Scoped Initiatives are now ready to be executed upon, and be broken down into tasks that will allow for the right skill sets to contribute to the outcome. Engineering tasks will be broken down and assigned to the Engineering backlog, and non-engineering tasks (e.g. the production of training materials,content, or documentation) will be assigned to individuals within the relevant disciplines.
 
