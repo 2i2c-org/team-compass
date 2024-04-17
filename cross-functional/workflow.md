@@ -106,9 +106,9 @@ There are two delivery boards:
 
 ### Operations board
 
-The [**Operations board**](https://github.com/orgs/2i2c-org/projects/47) is a team-wide board focused around delivery. Includes all organizational tasks/actions except for Engineering.
+The [**Operations board**](https://github.com/orgs/2i2c-org/projects/50) is a team-wide board focused around delivery. Includes all organizational tasks/actions except for Engineering.
 
-- [**Board link**](https://github.com/orgs/2i2c-org/projects/47)
+- [**Board link**](https://github.com/orgs/2i2c-org/projects/50)
 - [**`#initiatives`**](https://2i2c.slack.com/archives/C06G5FAAT63) is the Slack channel for this board.
 - **Meetings**: Bi-weekly organization-wide sprint planning meetings (except for engineering).
 
