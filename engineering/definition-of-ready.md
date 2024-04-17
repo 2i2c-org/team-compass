@@ -48,7 +48,11 @@ should not be considered a feature we currently support!
 ### Routine maintenance
 
 (ready:new-hub)=
-### New hub
+### New Hub
+
+This is being tackled as part of [this issue](https://github.com/2i2c-org/meta/issues/897). The
+information needed for various phases of turning up a new hub would be captured in a new hub
+issue once [this issue](https://github.com/2i2c-org/infrastructure/issues/3908) is sorted.
 
 (ready:config-change)=
 ### Config change
