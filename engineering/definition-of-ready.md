@@ -51,16 +51,37 @@ should not be considered a feature we currently support!
 ### New hub
 
 (ready:config-change)=
-### Config change
+### Configuration change
 
-(ready:fault-fixing)=
-### Fault fixing
+This is usually about *modifying* a feature that was enabled via a
+[feature enablement](ready:feature-enablement) request earlier. So the definition of ready should
+be very similar.
+
+- [ ] Link to documentation about this feature, which has at least some mention of the possible
+      ways to make configuration changes. Since 2i2c documentation may not cover all the possible
+      options (as that would be too unweildy), this could be either a link to 2i2c documentation on
+      [infrastructure.2i2c.org](https://infrastructure.2i2c.org) or a link to upstream documentation
+      about various configuration options for this feature.
+- [ ] Any additional information needed for this specific configuration change.
+
+Functionally, this means that if we are requested to change config for something that we can't
+find any documentation for, we should
 
 (ready:community-review)=
 ### Community config change review
 
+This should be codified once [this issue](https://github.com/2i2c-org/infrastructure/issues/3912)
+is resolved.
+
 (ready:incident-response)=
 ### Incident response
 
-(ready:routing)=
-### Routing
+This should be handled according to our [incident response](support:incident-response) process.
+
+(ready:fault-fixing)=
+### Fault fixing
+
+Usually a user reports 'something is not working', but it is not urgent in the same way an
+incident response is. These cases are a mix of incident response and configuration change. But
+because the timeline pressure of an incident response is not present, these should be handled
+exactly the same way as a [configuration change](ready:config-change).
