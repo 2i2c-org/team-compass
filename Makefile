@@ -20,4 +20,4 @@ help:
 	@$(SPHINXBUILD) -M $@ "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 
 live:
-	sphinx-autobuild --ignore */.github/* --ignore */tmp/* . _build/html/
+	sphinx-autobuild -b dirhtml --ignore "*/.github/*" --ignore "*/tmp/*" . _build/dirhtml/
