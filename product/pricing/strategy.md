@@ -42,7 +42,7 @@ In the future we may try to perform a more nuanced mapping of costs onto effort 
 
 ### Pass-through cloud costs
 
-In addition to our monthly hub fees, we pass {external:docs:ref}`cloud infrastructure costs <costs:cloud>` directly to the communities we serve, without taking any percentage markup.
+In addition to our monthly hub fees, we pass {external+docs:ref}`cloud infrastructure costs <costs:cloud>` directly to the communities we serve, without taking any percentage markup.
 We do this for two reasons:
 
 1. In our eyes, we are running infrastructure _on behalf of each community_, and wish to act as if a member of that community were running the infrastructure themselves. We are simply being compensated for our time and expertise.

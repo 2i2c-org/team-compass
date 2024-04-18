@@ -92,7 +92,7 @@ Support Triagers
 
   The primary responsibilities of the Support Triagers are:
 
-  - Ensure that we meet {ref}`our Support Service Level Objectives <docs:objectives:support>`.
+  - Ensure that we meet {external+docs:ref}`our Support Service Level Objectives <objectives:support>`.
   - Carry out [our support process](support:process).
   - Act as primary points of contact with {term}`Community Representative`s.
   - Trigger an [Incident Response](support:incident-response) if need be.
