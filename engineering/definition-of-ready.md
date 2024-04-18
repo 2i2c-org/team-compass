@@ -22,7 +22,7 @@ The following non-exhaustive initial list of the different kinds of tasks that t
 5. [](ready:fault-fixing)
 6. [](ready:community-review)
 7. [](ready:incident-Response)
-8. [](ready:routing)
+8. [](ready:fault-fixing)
 
 (dor:ready)=
 ## Definition of ready
