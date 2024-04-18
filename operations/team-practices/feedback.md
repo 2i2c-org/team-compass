@@ -95,7 +95,7 @@ However, when the intent or the act of giving feedback deviates from this, it is
   - It’s being done publicly
   - It’s not being done to help them grow
 
-#### Deferring feedback with “Not now” 
+### Deferring feedback with “Not now”
 
 “Not now” isn’t a no, and it’s also a reasonable thing to say - if you know you’ll have a hard time receiving feedback right now, suggest another, better time. 
 
@@ -141,7 +141,7 @@ The best time to give or ask for feedback is around activities. Here are some ex
 
 ## Examples of “Good” vs “Bad” feedback
 
-#### Example 1
+### Example 1
 **Bad Feedback**
 > You’re difficult to work with
 
@@ -157,19 +157,19 @@ In 1A, the feedback is better as it provides more concise information an leads t
 1b is even better because it is more timely. Additionally, it captures the _situation, behavior and the impact_.
 
 
-#### Example 2
+### Example 2
 **Bad Feedback**
 >Let me share some feedback with you… you really should do... because from my personal experience…
 
 The feedback isn’t about you and it should not include your advice or personal experiences
 
-#### Example 3
+### Example 3
 **Bad Feedback**
 >If you aren’t willing to do… then I’m going to have to let you go
 
 This isn’t considered feedback. It’s simply a veiled threat.
 
-#### Example 4
+### Example 4
 **Bad Feedback**
 >Here’s some good news…
 >But the bad news is…

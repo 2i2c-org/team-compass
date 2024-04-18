@@ -36,4 +36,4 @@ Not all of them are followed strictly, though some are more important than other
 
 Changing active infrastructure is a bit different from developing technology that is not immediately in production.
 As such, we follow some more specific guidelines for these kinds of changes.
-See {ref}`infra:infrastructure:review`.
+See {external+infra:ref}`infrastructure:review`.

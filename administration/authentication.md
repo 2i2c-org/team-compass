@@ -6,7 +6,7 @@ This page describes the accounts that we use for authentication in our JupyterHu
 
 We have an annual [**Essential Service** membership with CILogon](https://www.cilogon.org/subscribe).
 This allows us to use the CILogon service for authenticating users on our hubs.
-See [the `infrastructure/` docs](infra:hub-deployment-guide/configure-auth/cilogon) for more information.
+See {external+infra:doc}`the infrastructure docs <hub-deployment-guide/configure-auth/cilogon>` for more information.
 
 ## Auth0
 

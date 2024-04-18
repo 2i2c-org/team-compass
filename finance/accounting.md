@@ -70,7 +70,7 @@ To find this number, follow these steps:
 CS&S prepares our monthly reports using last-month's data.
 This means that the definition of `Net Income` is true as of the end of the window used in that report.
 This is usually about a month in the past.
-See [](accounting:remaining-in-contracts) for how to correct for this gap.
+See [](contracts:amount-remaining) for how to correct for this gap.
 ```
 
 ### Detailed monthly reports description

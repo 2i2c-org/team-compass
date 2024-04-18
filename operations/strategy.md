@@ -1,8 +1,8 @@
 # Coordination strategy and goals
 
 2i2c is a distributed organization, and believes strongly in following practices that are inclusive, participatory, and collaborative.
-It has team members spread out over many time zones working on a variety of projects. 
-There are many guides and tips for distributed working[^distributed-work1], and we've tried to distill a few key components for our workflows:
+It has team members spread out over many time zones working on a variety of projects.
+There are many guides and tips for distributed working[^distributed-work1], and we've tried to distill a few key components for our workflows.
 
 ## Our goals
 
@@ -31,6 +31,13 @@ Different people have different preferred methods of engagement and communicatio
 
 Err on the side of updating the team more often than not.  Nobody should be surprised when something gets done - especially nothing major. Your work should be as transparent to others as possible!
 
+rems
+
 ## Distributed-first operations
 
+<!--
+    This comment is a workaround to the sphinx build error:
+
+    operations/strategy.md:0: ERROR: Document or section may not begin with a transition.
+-->
 [^distributed-work1]: **References for Distributed Work**: [The GitLab remote work guide](https://about.gitlab.com/company/culture/all-remote/guide/), [the future of work is written](https://increment.com/remote/future-of-work-is-written/), [RFCs as a management tool](https://buriti.ca/6-lessons-i-learned-while-implementing-technical-rfcs-as-a-management-tool-34687dbf46cb)
