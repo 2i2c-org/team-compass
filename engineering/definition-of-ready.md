@@ -47,6 +47,17 @@ should not be considered a feature we currently support!
 (ready:routine-maintenance)=
 ### Routine maintenance
 
+These are tasks that must happen on some *predefined cadence* (every month, every quarter, etc).
+It's important that these get done **consistently**, so the cadence must be adjusted so we can
+in fact consistently do these given our actual capacity.
+
+Before a routine maintenance task can be considered ready to be worked on, it should have:
+
+- [ ] Link to 2i2c documentation that describes the cadence this should be performed in,
+      and how it should be done. The latter can just be links to upstream, as often these
+      tasks are not 2i2c specific.
+- [ ] A time period during which this maintenance should be performed.
+
 (ready:new-hub)=
 ### New hub
 
