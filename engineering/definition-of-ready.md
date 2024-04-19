@@ -65,7 +65,9 @@ be very similar.
 - [ ] Any additional information needed for this specific configuration change.
 
 Functionally, this means that if we are requested to change config for something that we can't
-find any documentation for, we should
+find any documentation for, it should be escalated (via a message to the `#engineering` slack channel)
+so we can decide what needs to be done with it. The most likely outcome should be that documentation
+is written for it along with the config change.
 
 (ready:community-review)=
 ### Community config change review
