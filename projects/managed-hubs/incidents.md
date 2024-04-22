@@ -1,3 +1,4 @@
+(incidents)=
 # Incident response
 
 When an {term}`Incident` is declared, we trigger a special response in order to ensure that it is resolved quickly.

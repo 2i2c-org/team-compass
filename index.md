@@ -78,7 +78,10 @@ We document some major aspects of this service in the sections below.
 :maxdepth: 2
 :glob:
 projects/managed-hubs/index
-projects/managed-hubs/*
+projects/managed-hubs/showcase-hub
+projects/managed-hubs/sales
+projects/managed-hubs/support/index
+projects/managed-hubs/incidents
 List of running hubs <https://infrastructure.2i2c.org/reference/hubs/>
 ```
 
