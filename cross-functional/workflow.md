@@ -36,6 +36,20 @@ There are three types of items on the initiatives board:
   - Investment initiatives are an investment in our team, technology, etc that does not immediately deliver value to communities, but helps us build a better foundation to do so.
 - **Lists of Tasks and Epics**: Are the sequence of steps or deliverables that are taken to complete an initiative. These are defined as `[tasklist]` objects in each initiative, and are the main units of work that drive our actions.
 
+:::{admonition} What about community projects?
+
+We also track community projects as initiatives.
+When 2i2c is actively engaged in work for upstream projects or communities we serve, we add those to our initiatives list, and follow the planning process outlined here. 
+
+Note this is a work in progress, and we’re continuing to evolve our process for collaborating within and outside 2i2c.
+:::
+
+### Structure of an initiative
+
+Initiatives should provide enough context for anyone to understand its importance and outcomes or measures for completion.
+It should provide enough information that our team can prioritize the initiative in our [](#initiatives:meetings).
+They should also provide a single point of access to any related epics, tasks, and subtasks.
+
 `````{admonition} Example structure of an initiative
 :class: dropdown
 Here's the rough structure of an initiative, use this to guide the creation of new initiatives.
@@ -65,16 +79,16 @@ what kind of work it will entail, and why it is important to 2i2c's overall goal
 ```
 ````
 `````
-:::{admonition} What about community projects?
 
-We also track community projects as initiatives.
-When 2i2c is actively engaged in work for upstream projects or communities we serve, we add those to our initiatives list, and follow the planning process outlined here. 
+`In Progress` initiatives should have a **task list of steps to complete the initiative**.
+These become the issues that we plan in [Delivery Boards](#board:delivery) and iteration planning.
 
-Cards on the initiative board should provide an easy to follow single point of access to any and all epics, tasks and subtasks related to an initiative. It's important therefore to ensure that the right breadcrumbs are made available, through task lists and links, so that every task related to an initiative on the board can be traced back to, and be traceable from, the initiative card on the board.
+Ensure that every initiative has the right `[tasklist]` items and linked issues so that:
 
-Note this is a work in progress, and we’re continuing to evolve our process for collaborating within and outside 2i2c.
-:::
+1. Every task can be traced back to its parent initiative (by clicking upward through parent issues)
+2. You can reach each task by clicking downward through issues linked in an initiative's `[tasklist]`
 
+(initiatives:meetings)=
 ### Bi-weekly initiatives meetings
 
 There are two bi-weekly meetings with the initiatives team.
