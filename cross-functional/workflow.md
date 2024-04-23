@@ -70,6 +70,8 @@ what kind of work it will entail, and why it is important to 2i2c's overall goal
 We also track community projects as initiatives.
 When 2i2c is actively engaged in work for upstream projects or communities we serve, we add those to our initiatives list, and follow the planning process outlined here. 
 
+Cards on the initiative board should provide an easy to follow single point of access to any and all epics, tasks and subtasks related to an initiative. It's important therefore to ensure that the right breadcrumbs are made available, through task lists and links, so that every task related to an initiative on the board can be traced back to, and be traceable from, the initiative card on the board.
+
 Note this is a work in progress, and we’re continuing to evolve our process for collaborating within and outside 2i2c.
 :::
 
