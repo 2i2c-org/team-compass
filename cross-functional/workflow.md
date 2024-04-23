@@ -85,7 +85,7 @@ These become the issues that we plan in [Delivery Boards](#board:delivery) and i
 
 Ensure that every initiative has the right `[tasklist]` items and linked issues so that:
 
-1. Every task can be traced back to its parent initiative (by clicking upward through parent issues)
+1. Every task can be traced back to its parent initiative by clicking upward through parent issues.
 2. You can reach each task by clicking downward through issues linked in an initiative's `[tasklist]`
 
 (initiatives:meetings)=
