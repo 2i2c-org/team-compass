@@ -22,7 +22,7 @@ The following non-exhaustive initial list of the different kinds of tasks that t
 5. [](ready:fault-fixing)
 6. [](ready:community-review)
 7. [](ready:incident-Response)
-8. [](ready:routing)
+8. [](ready:fault-fixing)
 
 (dor:ready)=
 ## Definition of ready
@@ -66,16 +66,39 @@ information needed for various phases of turning up a new hub would be captured 
 issue once [this issue](https://github.com/2i2c-org/infrastructure/issues/3908) is sorted.
 
 (ready:config-change)=
-### Config change
+### Configuration change
 
-(ready:fault-fixing)=
-### Fault fixing
+This is usually about *modifying* a feature that was enabled via a
+[feature enablement](ready:feature-enablement) request earlier. So the definition of ready should
+be very similar.
+
+- [ ] Link to documentation about this feature, which has at least some mention of the possible
+      ways to make configuration changes. Since 2i2c documentation may not cover all the possible
+      options (as that would be too unweildy), this could be either a link to 2i2c documentation on
+      [infrastructure.2i2c.org](https://infrastructure.2i2c.org) or a link to upstream documentation
+      about various configuration options for this feature.
+- [ ] Any additional information needed for this specific configuration change.
+
+Functionally, this means that if we are requested to change config for something that we can't
+find any documentation for, it should be escalated (via a message to the `#engineering` slack channel)
+so we can decide what needs to be done with it. The most likely outcome should be that documentation
+is written for it along with the config change.
 
 (ready:community-review)=
 ### Community config change review
 
+This should be codified once [this issue](https://github.com/2i2c-org/infrastructure/issues/3912)
+is resolved.
+
 (ready:incident-response)=
 ### Incident response
 
-(ready:routing)=
-### Routing
+This should be handled according to our [incident response](support:incident-response) process.
+
+(ready:fault-fixing)=
+### Fault fixing
+
+Usually a user reports 'something is not working', but it is not urgent in the same way an
+incident response is. These cases are a mix of incident response and configuration change. But
+because the timeline pressure of an incident response is not present, these should be handled
+exactly the same way as a [configuration change](ready:config-change).
