@@ -15,6 +15,15 @@ We strive to make decisions that align with our values, though recognize that th
 
 Our values are currently defined in [the Mission, values, and strategy page](https://2i2c.org/mission/) of our brochure site.
 
+## Value proposition
+
+Our value proposition describes the key problem that our service solves, and how it uniquely solves that problem.
+It defines the way in which we want the service to be useful, and is a guiding principle for how prioritize enhancements.
+
+% TODO: Incorporate aspects of this slide deck into our mission, and/or the other sections of this page.
+Here's [our value proposition slide deck](https://docs.google.com/presentation/d/1kjxPAS7ZptK1OLPiAWmi7WjS5EaDHQtg3E_Gig8ldzE/edit?usp=sharing).
+It contains a core set of slides for reference and re-use.
+
 ## Key stakeholders
 
 2i2c defines some key stakeholders that it uses to assess impact and progress in accomplishing our mission.
