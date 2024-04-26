@@ -57,7 +57,10 @@ html_theme_options = {
     "use_repository_button": True,
     "use_edit_page_button": True,
 }
-
+html_js_files = [
+    "https://cdn.plot.ly/plotly-2.31.1.min.js", #  NOTE: load plotly before require
+    "https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"
+]
 
 
 # -- Options for intersphinx extension ---------------------------------------
@@ -137,3 +140,9 @@ def setup(app):
 # The token exists in our RTD environmet so it should work there.
 path_script = Path(__file__).parent / "_data/support_stewards/gen_support_stewards.py"
 run(f"python {path_script}", shell=True)
+
+# -- myst_nb configuration --
+
+nb_execution_timeout = 300
+nb_execution_mode = 'auto'
+suppress_warnings = ["mystnb.unknown_mime_type"]
