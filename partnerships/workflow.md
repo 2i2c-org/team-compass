@@ -33,6 +33,7 @@ It is primarily used by the Partnerships team in planning, coordinating, and dis
 
 2i2c uses FreshDesk ([https://2i2c.freshdesk.com](https://2i2c.freshdesk.com)) to manage leads and support requests. FreshDesk's ticketing system is used to track information exchanges around a particular lead or support request. FreshDesk's canned messaging support is used in some of the standard operating procedures described below.  
 
+(workflow:google-drive)=
 ### Google Drive
 
 2i2c uses Google Drive and Google docs to process and store business documents. Most of the procedures described below involve action sequences that affect the `Partnerships` folder inside the `2i2c Team Drive`. Some of the procedures take place inside the `2i2c + CS&S Shared Drive`.
@@ -50,12 +51,27 @@ An exploded tree-view of the Partnerships folder:
     |---Assets/
         |---service description documents
     |---Invoices/
+    |---Technical Content/
+        |---README
+        |---ArtifactX
+        |...
     |---Templates/
         |---[Template] -- service agreement
         |---[Template] -- Running - Notes - PartnerX + 2i2c
         |---2i2c-CS&S stationary template
     |---Running Notes -- 2i2c + CS&S
 ```
+
+#### Technical Content
+
+The `Technical Content` folder is a collection of artifacts, such as reports, drafts, or any such piece of technical writing, to be stored in our Team {ref}`Google Drive<workflow:google-drive>` for future reference.
+
+Materials are usually produced as a result of a task within a GitHub issue. Once the GitHub issue is closed, artefacts become difficult to trace. We therefore
+
+- [ ] Store in the top comment of the GitHub issue a link to the artefact stored in the `Technical Content` folder
+- [ ] Update the contents of the `README` file in the Google drive to capture the originating GitHub issue and the linked artefact.
+
+Team members looking for technical content are directed to the `Technical Content` folder from here in the Team Compass. 
 
 ### GitHub
 
