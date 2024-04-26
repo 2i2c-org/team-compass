@@ -1,0 +1,4 @@
+python-dotenv
+dateparser
+prometheus-pandas
+plotly
