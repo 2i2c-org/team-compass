@@ -143,6 +143,6 @@ run(f"python {path_script}", shell=True)
 
 # -- myst_nb configuration --
 
-nb_execution_timeout = 300
+nb_execution_timeout = -1  # no timeout
 nb_execution_mode = 'auto'
 suppress_warnings = ["mystnb.unknown_mime_type"]
