@@ -42,6 +42,7 @@ We have adapted pieces from both ladders as follows:
 
 Recently, as a way to add more structure around professional development and to help engineers know better about the shared expectations for each other, we have developed a [Fluency chart for Engineering](https://docs.google.com/spreadsheets/d/1-IDEpySWDh5NrxRu8yxPxsj9PRkG1yE9EvXnXQRnb6A/edit#gid=1665179918) based on the ladder we described in the previous section. This is a tool that will help us in the development of professional development plans for each of our engineers.
 
+(engineering:salary)=
 ### Salary bands for Engineeering
 
 We have an [internal and engineering-specific salary bands matrix](https://docs.google.com/spreadsheets/d/1D_-RzXhyWw8jFs7KQQXKVRV4VrmOyXjQni2UTnk1044/edit#gid=1576917309) based on the levels outlined in the carreer ladder.
