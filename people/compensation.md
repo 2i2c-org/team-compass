@@ -59,7 +59,7 @@ Here are a few tips to understand the GuideStar reports:
 We are working on updating our salary bands across 2i2c, see [this issue for details](https://github.com/2i2c-org/meta/issues/171).
 :::
 
-We have a [internal salary sheet listing current positions and levels](https://docs.google.com/spreadsheets/d/1JZaudP91jABvlKof_A1EUHJAXa7DywLSG69PpQi-Cck/edit?usp=sharing).
+We have an [internal salary sheet listing current positions and levels](https://docs.google.com/spreadsheets/d/1JZaudP91jABvlKof_A1EUHJAXa7DywLSG69PpQi-Cck/edit?usp=sharing).
 
 We recently created a [new version](https://docs.google.com/spreadsheets/d/1D_-RzXhyWw8jFs7KQQXKVRV4VrmOyXjQni2UTnk1044/edit#gid=511920228) (still mostly a WIP document) with levels and salaries (without the corresponding mapping) for each area.
 
