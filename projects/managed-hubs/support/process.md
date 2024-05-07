@@ -40,7 +40,7 @@ This process is carried out in an ongoing basis by the {term}`Support Triagers`.
 4. **Categorize the Support Ticket** in FreshDesk.
 5. **If an Incident**, go to [](support:incident-response).
 6. **If not an Incident**, go to [](support:non-incident-response).
-7. **End of rotation hand-off**, see [below](#end-of-rotation-hand-off).
+7. **End of rotation hand-off**, see [below](support:end-of-rotation-hand-off).
 
 [^working-day]: We define a working day as a continuous 24 hour period of time from Monday through Friday. This is because our team and the communities we serve are distributed across many time zones, so there is no single "working day" for everyone.
 
@@ -154,6 +154,7 @@ When a new ticket lands in Freshdesk under the support group and it is not an in
 
     **Close the request**. If the Community Representative confirms that their request has been fulfilled, consider this request closed. In FreshDesk, mark the incident as {guilabel}`Closed`.
 
+(support:end-of-rotation-hand-off)=
 ### End of rotation hand-off
 
 Below is the process describing the expectations before a triager's end of rotation.
