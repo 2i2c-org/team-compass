@@ -15,6 +15,15 @@ We strive to make decisions that align with our values, though recognize that th
 
 Our values are currently defined in [the Mission, values, and strategy page](https://2i2c.org/mission/) of our brochure site.
 
+(mission:value-proposition)=
+## Value proposition
+
+A Value Proposition is a clear, concise statement that communicates the specific benefits that a product or service offers to a target market segment. It succinctly explains how the product or service uniquely solves a problem or improves a situation for the community partner or customer, the value it adds, and why it is a better choice compared to competitors.
+
+% TODO: Incorporate aspects of this slide deck into our mission, and/or the other sections of this page.
+[Our Value Proposition is in this slide deck](https://docs.google.com/presentation/d/1kjxPAS7ZptK1OLPiAWmi7WjS5EaDHQtg3E_Gig8ldzE/edit?usp=sharing).
+It contains a core set of slides for reference and re-use.
+
 ## Key stakeholders
 
 2i2c defines some key stakeholders that it uses to assess impact and progress in accomplishing our mission.
