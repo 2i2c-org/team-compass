@@ -8,9 +8,7 @@ As the organization is now more mature, and the breadth and complexity of its of
 
 A North Star is a core value, principle or goal that is used to help make decisions about what to do and when to do it. It starts with the organization’s mission, and is refined through a Value Proposition. Having a good understanding of what 2i2c’s North Star is will be key to ensuring that whatever we do is aligned with where we want the organization to be.
 
-A Value Proposition is a clear, concise statement that communicates the specific benefits that a product or service offers to a target market segment. It succinctly explains how the product or service uniquely solves a problem or improves a situation for the community partner or customer, the value it adds, and why it is a better choice compared to competitors.
-
-We are currently in the process of revising our value proposition to more accurately who we are and where we want to be, and will be sharing it for feedback in the coming months. 
+[Our Value Proposition is defined here](mission:value-proposition).
 
 ## Becoming more intentional
 
