@@ -23,8 +23,6 @@ jobs:
       - name: Install deps
         run: |
           pip install -r requirements.txt
-          pip install -r partnerships/community_success/requirements.txt          
-        
 
       # linkcheck is done separately from this in doc-links.yml, scheduled to
       # run every day and open/update an issue
