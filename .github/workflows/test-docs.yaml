@@ -32,5 +32,4 @@ jobs:
         env:
           GRAFANA_TOKEN: ${{ secrets.GRAFANA_TOKEN }}
         run: |
-          make dirhtml SPHINXOPTS='--color --keep-going'
-          cat /home/runner/work/team-compass/team-compass/_build/dirhtml/reports/partnerships/community_success/hub-activity.err.log
+          make dirhtml SPHINXOPTS='--color -W --keep-going'
