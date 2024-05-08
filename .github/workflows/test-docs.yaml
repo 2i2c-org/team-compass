@@ -26,5 +26,7 @@ jobs:
       # linkcheck is done separately from this in doc-links.yml, scheduled to
       # run every day and open/update an issue
       - name: make dirhtml
+        env:
+          GRAFANA_TOKEN: ${{ secrets.GRAFANA_TOKEN }}
         run: |
           make dirhtml SPHINXOPTS='--color -W --keep-going'
