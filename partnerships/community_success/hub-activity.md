@@ -40,7 +40,7 @@ See [Grafana docs – Service Accounts](https://grafana.com/docs/grafana/latest/
 1. Click the *Generate token button* to confirm.
 1. **Important:** Copy the token and keep a copy somewhere safe. You will not be able to see it again. Losing a token requires creating a new one.
 
-### Access the Grafana Token locally in a .env file
+### Access the Grafana Token locally in a .env file 
 
 Access your Grafana token in a local development environment by storing it in a `.env` file.
 
@@ -58,11 +58,17 @@ Keep your Grafana token secure and do not upload this to a Git repo. Add `.env` 
 
 ### Access the Grafana Token in GitHub actions
 
-Access your Grafana token in GitHub actions when you build and publish your notebook.
+Access your Grafana token in GitHub actions when you build and publish your notebook on GitHub pages.
 
-1. Navigate to your GitHub repository
-1. 
+1. Navigate to your repository online on GitHub.
+1. In the *{octicon}`gear` Settings* menu, click on *Secrets and Tokens > Actions* in the left-side menu. 
+1. Under the *Repository Secrets* section, click on the *New repository secret* button.
+1. Enter `GRAFANA_TOKEN` as the secret name field and paste in your Grafana token in the *Secret* field.
+1. Click *Add secret* to confirm.
 
+:::{caution}
+Repository secrets are not passed to workflows that are triggered by a pull request from a fork.
+:::
 
 +++ {"user_expressions": []}
 
@@ -140,6 +146,7 @@ def get_default_prometheus_uid(grafana_url: str, grafana_token: str) -> str:
     for ds in datasources:
         if ds["type"] == "prometheus":
             return ds["uid"]
+            
 ```
 
 +++ {"user_expressions": []}
