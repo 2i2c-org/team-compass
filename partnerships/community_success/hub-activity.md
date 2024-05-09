@@ -102,6 +102,8 @@ We require the following Python packages to run the code in this guide:
 
 ### Javascript
 
+We require the [`plotly.js`](https://plotly.com/javascript/) Javascript library to render the interactive plotly graphs.
+
 In your local development environment, enable the [`jupyter-dash`](https://github.com/plotly/jupyter-dash) extension for JupyterLab.
 
 For Jupyter Book/MyST deployments, enable the following Javascript libraries in your configuration file:
