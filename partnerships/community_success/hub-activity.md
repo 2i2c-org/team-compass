@@ -19,9 +19,9 @@ kernelspec:
 
 ## Overview
 
-Grafana is an open source analytics and interactive visualization web application. Prometheus is an open-source monitoring and alerting platform that collects and stores metrics as time-series data, which feeds into the Grafana as a data source.
+Grafana is an open source analytics and interactive visualization web application. Prometheus is an open-source monitoring and alerting platform that collects and stores metrics as time-series data, which feeds into Grafana as a data source.
 
-Grafana dashboard deployments for 2i2c hubs (k8s+JupyterHub) follow the GitHub repository [jupyterhub/grafana-dashboards](https://github.com/jupyterhub/grafana-dashboards). Note that Prometheus data is retained for 1 year on 2i2c hubs.
+Grafana dashboard deployments for 2i2c hubs (k8s+JupyterHub) follow the templates outlined in the GitHub repository [jupyterhub/grafana-dashboards](https://github.com/jupyterhub/grafana-dashboards). Note that Prometheus data is retained for 1 year on 2i2c hubs.
 
 +++ {"user_expressions": []}
 
@@ -48,7 +48,7 @@ Access your Grafana token in a local development environment by storing it in a 
 Keep your Grafana token secure and do not upload this to a Git repo. Add `.env` to your `.gitignore` file.
 :::
 
-1. Create a new `.env`file in your working directory.
+1. Create a new `.env` file in your working directory.
 1. Edit the `.env` file to include
 
    ```bash
@@ -58,34 +58,45 @@ Keep your Grafana token secure and do not upload this to a Git repo. Add `.env` 
 
 ### Access the Grafana Token in GitHub actions
 
-Access your Grafana token in GitHub actions when you build and publish your notebook on GitHub pages.
+Add your Grafana token as a GitHub repository secret to be used in GitHub actions when you build and publish your notebook on GitHub pages.
+
+:::{note}
+This section describes how to create a secret for an individual repository. To create a secret for the 2i2c organization, see the [GitHub Docs – Using secrets in GitHub actions](https://docs.github.com/en/actions/security-guides/using-secrets-in-github-actions#creating-secrets-for-an-organization).
+:::
 
 1. Navigate to your repository online on GitHub.
-1. In the *{octicon}`gear` Settings* menu, click on *Secrets and Tokens > Actions* in the left-side menu. 
+1. In the *{octicon}`gear` Settings* menu, click on *{octicon}`key-asterisk` Secrets and Tokens > Actions* in the left-side menu. 
 1. Under the *Repository Secrets* section, click on the *New repository secret* button.
 1. Enter `GRAFANA_TOKEN` as the secret name field and paste in your Grafana token in the *Secret* field.
 1. Click *Add secret* to confirm.
 
+Following this, adjust your GitHub action workflow file to make the secret available to your job with the `env` key value. See the [GitHub Docs – Using secrets in GitHub actions](https://docs.github.com/en/actions/security-guides/using-secrets-in-github-actions#using-secrets-in-a-workflow) or the example snippet below:
+
+```yaml
+jobs:
+  test-docs:
+    steps:
+      - name: make dirhtml
+        env:
+          GRAFANA_TOKEN: ${{ secrets.GRAFANA_TOKEN }}
+        run: |
+          make dirhtml SPHINXOPTS='--color -W --keep-going'
+```
+
 :::{caution}
-Repository secrets are not passed to workflows that are triggered by a pull request from a fork.
+Repository secrets are not passed to workflows that are triggered by a pull request from a forked repository.
 :::
 
 +++ {"user_expressions": []}
 
 ### Python packages
 
-We require the following Python packages, defined in the `requirements.txt` file, to run the code in this notebook:
+We require the following Python packages to run the code in this guide:
 
 - `python-dotenv` – load environment variables defined in .env to your notebook session
 - `dateparser` – parse human readable dates
 - `prometheus-pandas` – query Prometheus and format into Pandas data structures
 - `plotly` – visualize interactive plots
-
-```{code-cell} ipython3
-:tags: [remove-output]
-
-!pip install -r requirements.txt
-```
 
 +++ {"user_expressions": []}
 
@@ -112,7 +123,7 @@ pd.options.plotting.backend = "plotly"
 
 +++ {"user_expressions": []}
 
-Load the Grafana token from the `.env` file.
+Load the Grafana token as an environment variable from the `.env` file or GitHub secret.
 
 ```{code-cell} ipython3
 load_dotenv(override=False)
@@ -126,13 +137,15 @@ Define a `get_default_prometheus_uid` function to get the unique id of the Prome
 ```{code-cell} ipython3
 def get_default_prometheus_uid(grafana_url: str, grafana_token: str) -> str:
     """
-    Get the uid of the default prometheus configured for this grafana
+    Get the uid of the default Prometheus configured for this Grafana.
+    
+    Parameters
+    ----------
+    grafana_url: str
+        API URL of Grafana for querying. Must end in a trailing slash.
 
-    grafana_url is the base URL of the grafana to talk to. It must have
-    a trailing slash.
-
-    grafana_token is a service account token with appropriate rights
-    to make this API call
+    grafana_token: str
+        Service account token with appropriate rights to make this API call.
     """
     api_url = f"{grafana_url}/api/datasources"
     datasources = requests.get(
@@ -156,12 +169,24 @@ Define the `get_pandas_prometheus` function that formats data into a pandas data
 ```{code-cell} ipython3
 def get_pandas_prometheus(grafana_url: str, grafana_token: str, prometheus_uid: str):
     """
+    Create a Prometheus client and format the result as a Pandas data stucture.
+
+    Parameters
+    ----------
+    grafana_url: str
+        URL of Grafana for querying. Must end in a trailing slash.
+        
+    grafana_token: str
+        Service account token with appropriate rights to make this API call.
     
+    prometheus_uid: str
+        uid of Prometheus datasource within grafana to query.
     """
-    session = requests.Session()
+
+    session = requests.Session()  # Session to use for requests
     session.headers = {"Authorization": f"Bearer {grafana_token}"}
 
-    proxy_url = f"{grafana_url}/api/datasources/proxy/uid/{prometheus_uid}/"
+    proxy_url = f"{grafana_url}/api/datasources/proxy/uid/{prometheus_uid}/"  # API URL to query server
     return Prometheus(proxy_url, session)
 ```
 
@@ -180,7 +205,7 @@ prometheus_uid = get_default_prometheus_uid(
 
 +++ {"user_expressions": []}
 
-Call the `get_pandas_prometheus()` function.
+Call the `get_pandas_prometheus()` function to create a Prometheus client for querying the server with the API.
 
 ```{code-cell} ipython3
 prometheus = get_pandas_prometheus("https://grafana.pilot.2i2c.cloud", GRAFANA_TOKEN, prometheus_uid)
@@ -188,7 +213,7 @@ prometheus = get_pandas_prometheus("https://grafana.pilot.2i2c.cloud", GRAFANA_T
 
 +++ {"user_expressions": []}
 
-Define a query for the data source using [PromQL](https://prometheus.io/docs/prometheus/latest/querying/basics/), formatted as a string. This query find the maximum number of unique users over the last 24 hour period and aggregrate by hub name.
+Define a query for the data source using [PromQL](https://prometheus.io/docs/prometheus/latest/querying/basics/), formatted as a string. This query finds the maximum number of unique users over the last 24 hour period and aggregrates by hub name.
 
 ```{code-cell} ipython3
 query = """
@@ -209,7 +234,7 @@ You can borrow a lot of useful queries from the GitHub repository [jupyterhub/gr
 
 +++ {"user_expressions": []}
 
-Evaluate the query over the last 3 months with a step size of 1 day and output to a pandas dataframe.
+Evaluate the query over the last 3 months with a step size of 1 day and output the results to a pandas dataframe.
 
 ```{code-cell} ipython3
 df = prometheus.query_range(
@@ -226,7 +251,7 @@ df = prometheus.query_range(
 
 +++ {"user_expressions": []}
 
-Round datetime index to nearest calendar day
+Round the datetime index to nearest calendar day.
 
 ```{code-cell} ipython3
 df.index = df.index.floor('D')
@@ -234,7 +259,7 @@ df.index = df.index.floor('D')
 
 +++ {"user_expressions": []}
 
-Rename hubs to a human readable format.
+Rename the hubs to a human readable format with regex.
 
 ```{code-cell} ipython3
 df.columns = [re.findall(r'[^"]+', col)[1] for col in df.columns]
@@ -266,8 +291,4 @@ fig.update_layout(
     legend_traceorder="normal",
     )
 fig.show()
-```
-
-```{code-cell} ipython3
-
 ```
