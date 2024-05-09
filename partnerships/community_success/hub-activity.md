@@ -70,7 +70,7 @@ This section describes how to create a secret for an individual repository. To c
 1. Enter `GRAFANA_TOKEN` as the secret name field and paste in your Grafana token in the *Secret* field.
 1. Click *Add secret* to confirm.
 
-Following this, adjust your GitHub action workflow file to make the secret available to your job with the `env` key value. See the [GitHub Docs – Using secrets in GitHub actions](https://docs.github.com/en/actions/security-guides/using-secrets-in-github-actions#using-secrets-in-a-workflow) or the example snippet below:
+Following this, adjust your GitHub action workflow file to make the secret available to your job with the `env` key value. See the [GitHub Docs – Using secrets in GitHub actions](https://docs.github.com/en/actions/security-guides/using-secrets-in-github-actions#using-secrets-in-a-workflow) or the example code snippet from the `team-compass/.github/workflows/test-docs.yaml` file below:
 
 ```yaml
 jobs:
@@ -99,6 +99,17 @@ We require the following Python packages to run the code in this guide:
 - `plotly` – visualize interactive plots
 
 +++ {"user_expressions": []}
+
+### Javascript
+
+In your local development environment, enable the [`jupyter-dash`](https://github.com/plotly/jupyter-dash) extension for JupyterLab.
+
+For Jupyter Book/MyST deployments, enable the following Javascript libraries in your configuration file:
+
+```yaml
+https://cdn.plot.ly/plotly-2.31.1.min.js", #  NOTE: load plotly before require.js
+https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"
+```
 
 ## Import packages and define functions
 
