@@ -177,12 +177,12 @@ def get_default_prometheus_uid(grafana_url: str, grafana_token: str) -> str:
 
 +++ {"user_expressions": []}
 
-Define the `get_pandas_prometheus` function that formats data into a pandas dataframe.
+Define the `get_pandas_prometheus` function that creates and Prometheus client and formats the result into a pandas dataframe.
 
 ```{code-cell} ipython3
 def get_pandas_prometheus(grafana_url: str, grafana_token: str, prometheus_uid: str):
     """
-    Create a Prometheus client and format the result as a Pandas data stucture.
+    Create a Prometheus client and format the result as a pandas data stucture.
 
     Parameters
     ----------
@@ -226,7 +226,7 @@ prometheus = get_pandas_prometheus("https://grafana.pilot.2i2c.cloud", GRAFANA_T
 
 +++ {"user_expressions": []}
 
-Define a query for the data source using [PromQL](https://prometheus.io/docs/prometheus/latest/querying/basics/), formatted as a string. This query finds the maximum number of unique users over the last 24 hour period and aggregrates by hub name.
+Define a query for the data source using [PromQL](https://prometheus.io/docs/prometheus/latest/querying/basics/), formatted as a string. The query below finds the maximum number of unique users over the last 24 hour period and aggregrates by hub name.
 
 ```{code-cell} ipython3
 query = """
@@ -247,7 +247,7 @@ You can borrow a lot of useful queries from the GitHub repository [jupyterhub/gr
 
 +++ {"user_expressions": []}
 
-Evaluate the query over the last 3 months with a step size of 1 day and output the results to a pandas dataframe.
+Evaluate the query from the last 3 months to now with a step size of 1 day and output the results to a pandas dataframe.
 
 ```{code-cell} ipython3
 df = prometheus.query_range(
@@ -272,7 +272,7 @@ df.index = df.index.floor('D')
 
 +++ {"user_expressions": []}
 
-Rename the hubs to a human readable format with regex.
+Rename the hubs from `{namespace="<hub_name>"}` to a human readable format using regex to extract the `<hub_name>` from the `"` double-quotes.
 
 ```{code-cell} ipython3
 df.columns = [re.findall(r'[^"]+', col)[1] for col in df.columns]
