@@ -58,7 +58,7 @@ Keep your Grafana token secure and do not upload this to a Git repo. Add `.env` 
 
 ### Access the Grafana Token in GitHub actions
 
-Add your Grafana token as a GitHub repository secret to be used in GitHub actions when you build and publish your notebook on GitHub pages.
+Add your Grafana token as a GitHub repository secret to be used in GitHub actions when you build and publish online.
 
 :::{note}
 This section describes how to create a secret for an individual repository. To create a secret for the 2i2c organization, see the [GitHub Docs – Using secrets in GitHub actions](https://docs.github.com/en/actions/security-guides/using-secrets-in-github-actions#creating-secrets-for-an-organization).
@@ -86,6 +86,10 @@ jobs:
 :::{caution}
 Repository secrets are not passed to workflows that are triggered by a pull request from a forked repository.
 :::
+
+### Access the Grafana token on Read the Docs
+
+2i2c deploys documentation using Read the Docs. To ensure the 
 
 +++ {"user_expressions": []}
 
@@ -272,7 +276,7 @@ df.index = df.index.floor('D')
 
 +++ {"user_expressions": []}
 
-Rename the hubs from `{namespace="<hub_name>"}` to a human readable format using regex to extract the `<hub_name>` from the `"` double-quotes.
+Rename the hubs from the raw data, `{namespace="<hub_name>"}`, to a human readable format using regex to extract the `<hub_name>` from the `"` double-quotes.
 
 ```{code-cell} ipython3
 df.columns = [re.findall(r'[^"]+', col)[1] for col in df.columns]
