@@ -43,68 +43,9 @@ See [Grafana docs – Service Accounts](https://grafana.com/docs/grafana/latest/
 
 [^token]: After the token expires, you will need to regenerate a new token and update its value in the local `.env` file, GitHub action secret and/or Read the Docs environment variable.
 
-### Access the Grafana Token locally in a .env file 
+### Configure Grafana Token access
 
-Access your Grafana token in a local development environment by storing it in a `.env` file. A `.env` file is a popular language-agnostic solution for secrets management and is parsed {ref}`later in this guide<hub-activity:python-packages>` with the `python-dotenv` package.
-
-:::{caution}
-Keep your Grafana token secure and do not upload this to a Git repo. Add `.env` to your `.gitignore` file.
-:::
-
-1. Create a new `.env` file in the root folder of your project.
-1. Edit the `.env` file to include
-
-   ```bash
-   GRAFANA_TOKEN=<paste your Grafana token here>
-   ```
-1. Save and close.
-
-### Access the Grafana Token in GitHub actions
-
-Add your Grafana token as a GitHub repository secret to be used in GitHub actions when you build and publish online.
-
-:::{note}
-This section describes how to create a secret for an individual repository. To create a secret for the 2i2c organization, see the [GitHub Docs – Using secrets in GitHub actions](https://docs.github.com/en/actions/security-guides/using-secrets-in-github-actions#creating-secrets-for-an-organization).
-:::
-
-1. Navigate to your repository online on GitHub.
-1. In the *{octicon}`gear` Settings* menu, click on *{octicon}`key-asterisk` Secrets and Tokens > Actions* in the left-side menu. 
-1. Under the *Repository Secrets* section, click on the {guilabel}`New repository secret` button.
-1. Enter `GRAFANA_TOKEN` as the secret name field and paste in your Grafana token in the *Secret* field.
-1. Click {guilabel}`Add secret` to confirm.
-
-Following this, adjust your GitHub action workflow file to make the secret available to your job with the `env` key value. See the [GitHub Docs – Using secrets in GitHub actions](https://docs.github.com/en/actions/security-guides/using-secrets-in-github-actions#using-secrets-in-a-workflow) or the example code snippet from the `team-compass/.github/workflows/test-docs.yaml` file below:
-
-```yaml
-jobs:
-  test-docs:
-    steps:
-      - name: make dirhtml
-        env:
-          GRAFANA_TOKEN: ${{ secrets.GRAFANA_TOKEN }}
-        run: |
-          make dirhtml SPHINXOPTS='--color -W --keep-going'
-```
-
-:::{caution}
-Repository secrets are not passed to workflows that are triggered by a pull request from a forked repository.
-:::
-
-### Access the Grafana token on Read the Docs
-
-2i2c deploys documentation using Read the Docs. We need to ensure that the Grafana token is available as an environment variable in the Read the Docs build environment:
-
-1. Navigate to [readthedocs.org](https://readthedocs.org) https://readthedocs.org and log into your account.
-1. Click on the name of the project you wish to enable hub activity tracking for, e.g. 2i2c Team Compass.
-1. Click the *{octicon}`gear` Admin* button.
-1. Click the *Environment Variables* section in the left sidebar and then click on {guilabel}`Add Environment Variable`.
-1. Enter `GRAFANA_TOKEN` into the *Name* field and paste in your Grafana token into the *Value* field.
-1. **Important:** leave the box *Expose this environment variable in PR builds?* unchecked to keep your token secret.
-1. Confirm by clicking {guilabel}`Save`.
-
-:::{note}
-In pull request builds, custom environment variables not marked as public are not available. See the [readthedocs docs – Environment variables and build process](https://docs.readthedocs.io/en/stable/environment-variables.html).
-:::
+See [](../../reference/documentation/secrets.md) for a general guide to configuring access to the Grafana Token in a local development environment, or while deploying documentation with GitHub actions or Read the Docs. 
 
 +++ {"user_expressions": []}
 
@@ -156,7 +97,7 @@ pd.options.plotting.backend = "plotly"
 
 +++ {"user_expressions": []}
 
-Load the Grafana token as an environment variable from the `.env` file or GitHub secret.
+Load the Grafana token as an environment variable from the `.env` file or GitHub/Read the Docs secret.
 
 ```{code-cell} ipython3
 load_dotenv()
