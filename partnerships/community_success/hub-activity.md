@@ -4,8 +4,7 @@ jupytext:
     extension: .md
     format_name: myst
     format_version: 0.13
-    jupytext_version: 1.16.1
-    
+    jupytext_version: 1.16.2
 kernelspec:
   display_name: Python 3 (ipykernel)
   language: python
@@ -45,7 +44,7 @@ See [Grafana docs – Service Accounts](https://grafana.com/docs/grafana/latest/
 
 ### Configure Grafana Token access
 
-See [](../../reference/documentation/secrets.md) for a general guide to configuring access to the Grafana Token in a local development environment, or while deploying documentation with GitHub actions or Read the Docs. 
+See [](../../reference/documentation/secrets.md) for a general guide to configuring access to the Grafana Token in a local development environment, or while deploying documentation with GitHub actions or Read the Docs.
 
 +++ {"user_expressions": []}
 
@@ -109,7 +108,7 @@ GRAFANA_TOKEN = os.environ["GRAFANA_TOKEN"]
 Define a `get_default_prometheus_uid` function to get the unique id of the Prometheus data source.
 
 ```{code-cell} ipython3
-def get_default_prometheus_uid(grafana_url: str, grafana_token: str) -> str:
+def get_prometheus_datasources(grafana_url: str, grafana_token: str) -> str:
     """
     Get the uid of the default Prometheus configured for this Grafana.
     
@@ -129,10 +128,14 @@ def get_default_prometheus_uid(grafana_url: str, grafana_token: str) -> str:
             "Content-Type": "application/json",
             "Authorization": f"Bearer {grafana_token}",
         }
-    ).json()
-    for ds in datasources:
-        if ds["type"] == "prometheus":
-            return ds["uid"]
+    )
+    # Convert to a dataframe so that we can manipulate more easily
+    df = pd.DataFrame.from_dict(datasources.json())
+    # Move "name" to the first column by setting and resetting it as the index
+    df = df.set_index("name").reset_index()
+    # Filter for sources with type prometheus
+    df = df.query("type == 'prometheus'")
+    return df
             
 ```
 
@@ -170,19 +173,10 @@ def get_pandas_prometheus(grafana_url: str, grafana_token: str, prometheus_uid: 
 
 +++ {"user_expressions": []}
 
-Obtain the unique ID of the data source.
+Fetch all available data sources from Prometheus.
 
 ```{code-cell} ipython3
-prometheus_uid = get_default_prometheus_uid(
-    "https://grafana.pilot.2i2c.cloud", GRAFANA_TOKEN)
-```
-
-+++ {"user_expressions": []}
-
-Call the `get_pandas_prometheus()` function to create a Prometheus client for querying the server with the API.
-
-```{code-cell} ipython3
-prometheus = get_pandas_prometheus("https://grafana.pilot.2i2c.cloud", GRAFANA_TOKEN, prometheus_uid)
+datasources = get_prometheus_datasources("https://grafana.pilot.2i2c.cloud", GRAFANA_TOKEN)
 ```
 
 +++ {"user_expressions": []}
@@ -208,15 +202,20 @@ You can borrow a lot of useful queries from the GitHub repository [jupyterhub/gr
 
 +++ {"user_expressions": []}
 
-Evaluate the query from the last 3 months to now with a step size of 1 day and output the results to a pandas dataframe.
+Loop over each datasource and call the `get_pandas_prometheus()` function to create a Prometheus client for querying the server with the API. Evaluate the query from the last month to now with a step size of 1 day and output the results to a pandas dataframe. Save each output into an `activity` list item and then concatenate the results together at the end.
 
 ```{code-cell} ipython3
-df = prometheus.query_range(
-    query,
-    dateparser_parse("3 months ago"),
-    dateparser_parse("now"),
-    "1d",
-)
+activity=[]
+for prometheus_uid in datasources['uid']:
+    prometheus = get_pandas_prometheus("https://grafana.pilot.2i2c.cloud", GRAFANA_TOKEN, prometheus_uid)
+    df = prometheus.query_range(
+        query,
+        dateparser_parse("1 month ago"),
+        dateparser_parse("now"),
+        "1d",
+    )
+    activity.append(df)
+df = pd.concat(activity)
 ```
 
 +++ {"user_expressions": []}
@@ -237,6 +236,14 @@ Rename the hubs from the raw data, `{namespace="<hub_name>"}`, to a human readab
 
 ```{code-cell} ipython3
 df.columns = [re.findall(r'[^"]+', col)[1] for col in df.columns]
+```
+
++++ {"user_expressions": []}
+
+Sort hubs by most number of unique users over time.
+
+```{code-cell} ipython3
+df = df.reindex(df.sum().sort_values(ascending=False).index, axis=1)
 ```
 
 +++ {"user_expressions": []}
@@ -265,4 +272,8 @@ fig.update_layout(
     legend_traceorder="normal",
     )
 fig.show()
+```
+
+```{code-cell} ipython3
+
 ```
