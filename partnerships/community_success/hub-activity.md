@@ -5,6 +5,7 @@ jupytext:
     format_name: myst
     format_version: 0.13
     jupytext_version: 1.16.1
+    
 kernelspec:
   display_name: Python 3 (ipykernel)
   language: python
@@ -32,13 +33,15 @@ Grafana dashboard deployments for 2i2c hubs (k8s+JupyterHub) follow the template
 See [Grafana docs – Service Accounts](https://grafana.com/docs/grafana/latest/administration/service-accounts/) for more details.
 
 1. Navigate to the [2i2c Grafana](https://grafana.pilot.2i2c.cloud) website at `https://grafana.pilot.2i2c.cloud`.
-1. Open the {octicon}`three-bars` Menu and click on *{octicon}`gear` Administration > Users and access > Service accounts*.
-1. Click on the *Add service account* button on the top-right.
-1. Choose a descriptive *Display name*, e.g. `username-local-prometheus-access` and leave the role as *Viewer*. Click the *Create* button to confirm.
-1. You will see a new page with the details of the service account you have created. In the section *Tokens*, click the *Add service account token* button to generate a token to authenticate with the Grafana API.
-1. Choose a descriptive name for the token and then set a token expiry date. We recommend 1 month from now.
-1. Click the *Generate token button* to confirm.
+1. Open the *{octicon}`three-bars` Menu* and click on *{octicon}`gear` Administration > Users and access > Service accounts*.
+1. Click on the {guilabel}`Add service account` button on the top-right.
+1. Choose a descriptive *Display name*, e.g. `username-local-prometheus-access` and leave the role as *Viewer*. Click the {guilabel}`Create` button to confirm.
+1. You will see a new page with the details of the service account you have created. In the section *Tokens*, click the {guilabel}`Add service account token` button to generate a token to authenticate with the Grafana API.
+1. Choose a descriptive name for the token and then set a token expiry date. We recommend 1 month from now.[^token]
+1. Click the {guilabel}`Generate token button` to confirm.
 1. **Important:** Copy the token and keep a copy somewhere safe. You will not be able to see it again. Losing a token requires creating a new one.
+
+[^token]: After the token expires, you will need to regenerate a new token and update its value in the local `.env` file, GitHub action secret and/or Read the Docs environment variable.
 
 ### Access the Grafana Token locally in a .env file 
 
@@ -66,9 +69,9 @@ This section describes how to create a secret for an individual repository. To c
 
 1. Navigate to your repository online on GitHub.
 1. In the *{octicon}`gear` Settings* menu, click on *{octicon}`key-asterisk` Secrets and Tokens > Actions* in the left-side menu. 
-1. Under the *Repository Secrets* section, click on the *New repository secret* button.
+1. Under the *Repository Secrets* section, click on the {guilabel}`New repository secret` button.
 1. Enter `GRAFANA_TOKEN` as the secret name field and paste in your Grafana token in the *Secret* field.
-1. Click *Add secret* to confirm.
+1. Click {guilabel}`Add secret` to confirm.
 
 Following this, adjust your GitHub action workflow file to make the secret available to your job with the `env` key value. See the [GitHub Docs – Using secrets in GitHub actions](https://docs.github.com/en/actions/security-guides/using-secrets-in-github-actions#using-secrets-in-a-workflow) or the example code snippet from the `team-compass/.github/workflows/test-docs.yaml` file below:
 
@@ -89,7 +92,19 @@ Repository secrets are not passed to workflows that are triggered by a pull requ
 
 ### Access the Grafana token on Read the Docs
 
-2i2c deploys documentation using Read the Docs. To ensure the 
+2i2c deploys documentation using Read the Docs. We need to ensure that the Grafana token is available as an environment variable in the Read the Docs build environment:
+
+1. Navigate to [readthedocs.org](https://readthedocs.org) https://readthedocs.org and log into your account.
+1. Click on the name of the project you wish to enable hub activity tracking for, e.g. 2i2c Team Compass.
+1. Click the *{octicon}`gear` Admin* button.
+1. Click the *Environment Variables* section in the left sidebar and then click on {guilabel}`Add Environment Variable`.
+1. Enter `GRAFANA_TOKEN` into the *Name* field and paste in your Grafana token into the *Value* field.
+1. **Important:** leave the box *Expose this environment variable in PR builds?* unchecked to keep your token secret.
+1. Confirm by clicking {guilabel}`Save`.
+
+:::{note}
+In pull request builds, custom environment variables not marked as public are not available. See the [readthedocs docs – Environment variables and build process](https://docs.readthedocs.io/en/stable/environment-variables.html).
+:::
 
 +++ {"user_expressions": []}
 
@@ -97,7 +112,7 @@ Repository secrets are not passed to workflows that are triggered by a pull requ
 
 We require the following Python packages to run the code in this guide:
 
-- `python-dotenv` – load environment variables defined in .env to your notebook session
+- `python-dotenv` – load environment variables defined in `.env` to your notebook session
 - `dateparser` – parse human readable dates
 - `prometheus-pandas` – query Prometheus and format into Pandas data structures
 - `plotly` – visualize interactive plots
