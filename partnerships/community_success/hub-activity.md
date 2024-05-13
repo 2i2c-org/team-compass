@@ -21,7 +21,7 @@ kernelspec:
 
 Grafana is an open source analytics and interactive visualization web application. Prometheus is an open-source monitoring and alerting platform that collects and stores metrics as time-series data, which feeds into Grafana as a data source.
 
-Grafana dashboard deployments for 2i2c hubs (k8s+JupyterHub) follow the templates outlined in the GitHub repository [jupyterhub/grafana-dashboards](https://github.com/jupyterhub/grafana-dashboards). Note that Prometheus data is retained for 1 year on 2i2c hubs.
+Grafana dashboard deployments for 2i2c hubs (k8s+JupyterHub) follow the templates outlined in the GitHub repository https://github.com/jupyterhub/grafana-dashboards. Note that Prometheus data is retained for 1 year on 2i2c hubs.
 
 +++ {"user_expressions": []}
 
