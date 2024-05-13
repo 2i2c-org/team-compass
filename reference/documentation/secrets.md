@@ -22,7 +22,7 @@ Keep your secret secure and do not upload the `.env` file to a Git repo. Add `.e
 Access your secret in a Python code with
 
 ```python
-!pip install python-dotenv
+pip install python-dotenv
 from dotenv import load_dotenv
 load_dotenv()
 SECRET_NAME = os.environ["SECRET_NAME"]
