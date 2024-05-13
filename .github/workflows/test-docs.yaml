@@ -21,10 +21,13 @@ jobs:
           python-version: "3.11"
 
       - name: Install deps
-        run: pip install -r requirements.txt
+        run: |
+          pip install -r requirements.txt
 
       # linkcheck is done separately from this in doc-links.yml, scheduled to
       # run every day and open/update an issue
       - name: make dirhtml
+        env:
+          GRAFANA_TOKEN: ${{ secrets.GRAFANA_TOKEN }}
         run: |
           make dirhtml SPHINXOPTS='--color -W --keep-going'

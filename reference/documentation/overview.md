@@ -10,6 +10,7 @@ See the sections below for more information about the structure and instructions
 edit
 content
 environment
+secrets
 structure
 sources
 ```

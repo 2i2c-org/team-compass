@@ -9,5 +9,6 @@ structure.md
 workflow.md
 ../communication/index.md
 community_success/freshdesk.md
+community_success/hub-activity.ipynb
 stickers.md
 ```

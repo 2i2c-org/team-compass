@@ -1,9 +1,10 @@
 _build
 .vscode
-*/.ipynb_checkpoints/*
+**/.ipynb_checkpoints/*
 tmp/
 .DS_Store
 .nox
+.env
 __pycache__
 
 # Assets generated at build
