@@ -51,7 +51,7 @@ Access your Grafana token in a local development environment by storing it in a 
 Keep your Grafana token secure and do not upload this to a Git repo. Add `.env` to your `.gitignore` file.
 :::
 
-1. Create a new `.env` file in your working directory.
+1. Create a new `.env` file in the root folder of your project.
 1. Edit the `.env` file to include
 
    ```bash
@@ -159,7 +159,7 @@ pd.options.plotting.backend = "plotly"
 Load the Grafana token as an environment variable from the `.env` file or GitHub secret.
 
 ```{code-cell} ipython3
-load_dotenv(override=False)
+load_dotenv()
 GRAFANA_TOKEN = os.environ["GRAFANA_TOKEN"]
 ```
 
