@@ -45,7 +45,7 @@ See [Grafana docs – Service Accounts](https://grafana.com/docs/grafana/latest/
 
 ### Access the Grafana Token locally in a .env file 
 
-Access your Grafana token in a local development environment by storing it in a `.env` file.
+Access your Grafana token in a local development environment by storing it in a `.env` file. A `.env` file is a popular language-agnostic solution for secrets management and is parsed {ref}`later in this guide<hub-activity:python-packages>` with the `python-dotenv` package.
 
 :::{caution}
 Keep your Grafana token secure and do not upload this to a Git repo. Add `.env` to your `.gitignore` file.
@@ -108,6 +108,7 @@ In pull request builds, custom environment variables not marked as public are no
 
 +++ {"user_expressions": []}
 
+(hub-activity:python-packages)=
 ### Python packages
 
 We require the following Python packages to run the code in this guide:
