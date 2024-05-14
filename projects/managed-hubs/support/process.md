@@ -177,6 +177,9 @@ _Support triagers should, when they unassign from a ticket ensure a handover not
 
 A ticket handover note should _summarize whats relevant_ to know in order to drive the ticket towards a resolution without needing to read through the conversation up to that point.
 
+This should be written using the [private notes](https://support.freshdesk.com/en/support/solutions/articles/37580-private-notes-for-internal-sharing)
+feature of freshdesk.
+
 
 (support:prioritize-requests)=
 ## Prioritizing non-incident support requests
