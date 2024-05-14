@@ -40,6 +40,7 @@ This process is carried out in an ongoing basis by the {term}`Support Triagers`.
 4. **Categorize the Support Ticket** in FreshDesk.
 5. **If an Incident**, go to [](support:incident-response).
 6. **If not an Incident**, go to [](support:non-incident-response).
+7. **End of rotation hand-off**, see [below](support:end-of-rotation-hand-off).
 
 [^working-day]: We define a working day as a continuous 24 hour period of time from Monday through Friday. This is because our team and the communities we serve are distributed across many time zones, so there is no single "working day" for everyone.
 
@@ -152,6 +153,33 @@ When a new ticket lands in Freshdesk under the support group and it is not an in
 11. `Who: Support Triager`
 
     **Close the request**. If the Community Representative confirms that their request has been fulfilled, consider this request closed. In FreshDesk, mark the incident as {guilabel}`Closed`.
+
+(support:end-of-rotation-hand-off)=
+### End of rotation hand-off
+
+Below is the process describing the expectations before a triager's end of rotation.
+
+1. Processed ~all unassigned tickets
+
+_Support triagers should aim to process each unassigned ticket before the end of the rotation._
+
+This helps us ensure no tickets becomes stale and unattended, and nudges us to get tickets closed or resolved rather than stuck open or pending indefinitively. Tickets left open becomes weight over time.
+
+2. Unassign from tickets
+
+_Support triagers should by end of rotation unassign themselves as agents from all tickets._
+
+This helps making responsibilities unambigious. A ticket's assigned agent should be either nobody or one of the current triagers.
+
+3. Write handover notes
+
+_Support triagers should, when they unassign from a ticket ensure a handover note is available and up to date towards the end of the ticket._
+
+A ticket handover note should _summarize whats relevant_ to know in order to drive the ticket towards a resolution without needing to read through the conversation up to that point.
+
+This should be written using the [private notes](https://support.freshdesk.com/en/support/solutions/articles/37580-private-notes-for-internal-sharing)
+feature of freshdesk.
+
 
 (support:prioritize-requests)=
 ## Prioritizing non-incident support requests
