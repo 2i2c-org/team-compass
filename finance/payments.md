@@ -6,11 +6,6 @@ This section describes them.
 (admin:credit-card)=
 ## Credit cards
 
-We have two Ramp credit cards.
-
-**Chris Holdgraf** has the credit card information for these cards.
-Ask him if you need to use them.
-
 ```{seealso}
 See [](admin:reimbursement) for our reimbursement processes.
 ```
@@ -20,6 +15,8 @@ See [](admin:reimbursement) for our reimbursement processes.
 Ends in `4164`.
 
 This is used for most purchases by 2i2c, including recurring service payments, travel payments on behalf of team members, etc.
+
+The information for this card can be found in our [BitWarden account](account:bitwarden).
 
 ### Cloud credits card
 
