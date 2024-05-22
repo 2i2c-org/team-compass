@@ -25,7 +25,7 @@ See [](development:merge-policy).
 ## Team Sprints
 
 The 2i2c team uses Sprints to coordinate with one another in focused cycles of work.
-To begin each sprint, we collectively choose items to work on in the next sprint.
+To begin each sprint, we collectively choose items to work on in the next sprint during the [](meetings:sprint-planning).
 Each item should have a person assigned to it, who will be responsible for ensuring that the work gets done.
 However, our work within a sprint is a **team commitment**, and we are all responsible for helping one another accomplish our tasks.
 Each sprint ends with a [](meetings:retrospective) in which the team reflects on what went well, what could be improved, and how to go about implementing those improvements.
@@ -59,6 +59,8 @@ See [the Sprint Planning issue template](https://github.com/2i2c-org/team-compas
 (coordination:sprint-board)=
 ### The Sprint Board
 
+% TODO: Add a link to the sprint board
+
 The Sprint Board is a place to keep track of the [Deliverables and tasks](coordination:deliverables) our team intends to work on for the week.
 It is a GitHub Projects board that is created for each week, and closed at the end of each week.
 The team's goal is to complete all items on the Sprint Board by the end of the Sprint.
@@ -78,6 +80,7 @@ The Sprint Board is broken down into these columns:
 - {guilabel}`In progress` An item that a team member is currently working towards.
 - {guilabel}`Done` Items that are complete! These should be celebrated archived in the next Sprint Planning meeting.
 
+% Unfinished sentence below?
 In addition, we have a few other pieces of metadata to signal different kind of actions that would be needed 
 
 (meetings:retrospective)=
