@@ -138,7 +138,7 @@ The [**Engineering board**](https://github.com/orgs/2i2c-org/projects/49): A "sp
 
 ## Retrospective boards
 
-We use EasyRetro to facilitate our retrospectives. 
+We use [EasyRetro](https://easyretro.io) to facilitate our retrospectives. 
 
 ### Board links
 The paid user account is admin@2i2c.org and the credentails are stored in BitWarden.
