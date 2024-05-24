@@ -136,6 +136,21 @@ The [**Engineering board**](https://github.com/orgs/2i2c-org/projects/49): A "sp
 - [**`#engineering`**](https://2i2c.slack.com/archives/C055A1J1DRP) is the Slack channel for this board.
 - **Meetings**: Bi-weekly Engineering sprint planning meetings.
 
+## Retrospective boards
+
+We use [EasyRetro](https://easyretro.io) to facilitate our retrospectives. 
+
+### Board links
+The paid user account is admin@2i2c.org and the credentails are stored in [our shared BitWarden account](#account:bitwarden).
+
+Follow the links below to the different retro boards.
+- Engineering Retrospective [board link](https://easyretro.io/publicboard/A8bu34hcK2eyg0s5MxNX0AfQXG02/7e47da43-a12b-4d21-842d-22361b799a92)
+- Operations Retrospective [board link](https://easyretro.io/publicboard/A8bu34hcK2eyg0s5MxNX0AfQXG02/8581f72e-b714-4018-9737-903272c42f36)
+- Initiatives Retrospective [board link](https://easyretro.io/publicboard/A8bu34hcK2eyg0s5MxNX0AfQXG02/2f4284bb-4ea6-4c60-94cd-1c8a4f292106)
+
+### Engineering retrospective policy
+TBD
+
 (slack:team-updates)=
 ## The `#team-updates` Slack channel
 
