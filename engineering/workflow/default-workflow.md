@@ -55,93 +55,128 @@ The team conducts a Sprint Planning meeting for 60 minutes at the beginning of e
 The goal of this meeting is to review our major work items, synchronize with one another, and prioritize work across team members.
 
 See [the Sprint Planning issue template](https://github.com/2i2c-org/team-compass/blob/main/.github/ISSUE_TEMPLATE/meeting-sprint-planning.md) for the agenda / structure of these meetings.
- 
+
 (coordination:sprint-board)=
 ### The Sprint Board
 
-% TODO: Add a link to the sprint board
+The [Sprint Board](https://github.com/orgs/2i2c-org/projects/49/views/1) is a place to keep track of the [Deliverables and tasks](coordination:deliverables) our team intends to work on for a two week iteration.
 
-The Sprint Board is a place to keep track of the [Deliverables and tasks](coordination:deliverables) our team intends to work on for the week.
-It is a GitHub Projects board that is created for each week, and closed at the end of each week.
+The board is a GitHub Projects board that is populated with with work items during the teams Itereation Planning activity.
+
 The team's goal is to complete all items on the Sprint Board by the end of the Sprint.
 This is a team commitment - while one person may be assigned to a deliverable, we all commit to working together to get the work done.
 
 :::{admonition} The Sprint Board should...
 :class: tip
-- Have enough items to keep the team occupied for the week
+- Be driven by 2i2c's product roadmap
+- With the exception of support tickets, work items should be related back to Initiatives.
+- Have enough items to keep the team occupied for the two week iteration
 - Not have so many items that a team member gets overwhelmed
 - Under-estimate our team's total capacity, to provide room for unexpected work (e.g., support work)
-- Have a team member assigned to each item on the board
+- Have at least one team member assigned to each item on the board
 :::
 
-The Sprint Board is broken down into these columns:
+The Sprint Board is broken down into different columns that represent the teams delivery workflow. The team own the design of this workflow and should change the workflow process that best suit their way of work to optimize for sustainable delivery.
 
-- {guilabel}`Up Next` Items that are ready to be worked on.
-- {guilabel}`In progress` An item that a team member is currently working towards.
-- {guilabel}`Done` Items that are complete! These should be celebrated archived in the next Sprint Planning meeting.
+The current queues of work represented by the board are:
 
-% Unfinished sentence below?
-In addition, we have a few other pieces of metadata to signal different kind of actions that would be needed 
+- {guilabel} `Backlog` represents items that haven't been started and not in Sprint.
+- {guilabel} `Refined` represents a list of items that have been refined and are ready to be worked on. The items in this queue are not committed items.
+- {guilabel} `Committed` items haven't been started and are expected to be completed by end of the Sprint. These items are identified during the Iteration Planning activity.
+- {guilabel} `In Progress` represents a queue of items being *actively* worked on. Each item should have at least one owner.
+- {guilabel} `In Review/Blocked` contains items that need to be review before being marked as done or that cannot be completed without additional actions/support. A long list of items in this queue indicate deficiencies in the team's Refinement activity.
+- {guilabel} `Done` contains the list of items that are complete! These should be celebrated archived in the next Sprint Planning meeting.
+
 
 (meetings:retrospective)=
 ### The Retrospective Meeting
 
-At the end of each sprint, the team holds a retrospective meeting to reflect and generate some improvements.
+At the end of each sprint, the team holds a retrospective meeting to reflect and identify actions to improve the team's ways of working and delivery process. The retrospective is the process through which the team achieves continuous improvement for **all** their other process.
 
 #### The Duration of the Retrospective
 
-The retrospective is one hour long on the last day of each sprint.
+The retrospective is one hour long and is usually held on the last day of each sprint.
 It is held at a time to maximise attendance from the engineering team.
+
+On rare occasions, when the team experiences duress or unpredictable and disruptive events, they may choose to have a specific retrospective to learn from those events.
 
 % TODO: Move the meeting into the team calendar for visibility: https://calendar.google.com/calendar/embed?src=c_4hjjouojd8psql9i1a8nd1uff4%40group.calendar.google.com
 
 #### The Roster for Facilitating Retrospectives
 
 There is a [Google Sheet](https://docs.google.com/spreadsheets/d/1s0ZSAxwFzJ-_WgDkZeicfuUadSFEjkjS6ZcNk4N7Mmg/edit?usp=sharing) in the shared team drive that determines who will be facilitating each retrospective meeting (as well as [sprint planning](meetings:sprint-planning) and backlog refinement meetings).
-Members of the engineering team are encouraged to self-nominate for this role.
+Members of the engineering team are expected to self-nominate for this role because it is their improvement process.
 
 #### Retrospective Tool
 
-The team uses an [EasyRetro board](https://easyretro.io/) to collect cards representing feedback concerning the last sprint.
-There are columns for: Thanks and Celebrations, things that Went Well, things To Improve, and Action Items to take forward into the next sprint.
+The team uses an [EasyRetro board](https://easyretro.io/publicboard/A8bu34hcK2eyg0s5MxNX0AfQXG02/7e47da43-a12b-4d21-842d-22361b799a92) to collect cards representing feedback concerning the last sprint.
+There are columns for:
 
-% TODO: Add information about how to access the easyretro account
+- Thanks and Celebrations
+- Things that Went Well
+- Things To Improve
+- Actions (Items to take forward into the next sprint).
 
-#### When should the Retro Board be Populated
+This template can be changed by tne facilitator. There are [many](https://retromat.org/) different template formats and the facilitator should choose one that is most appropriate for the team's need.
 
-The team are expected to populate the retro board before the meeting - either as thoughts occur to them throughout the sprint, or by taking some time to fill it in the day of the meeting.
-This is to ensure that team members have enough time to properly articulate their thoughts and recall as much of what they want to feedback on as possible.
-Some time will be reserved in the meeting to add cards to the board in case extenuating circumstances prevented team members from adding their thoughts, but this will only be a few minutes since we want to utilise the synchronous time for discussion.
+### EasyRetro user account
 
-#### The Retrospective Process
+We have a paid Team subscription for EasyRetro, to make it easier to facilitate retrospectives. The user account is **admin@2i2c.org**. The credentials are stored in BitWarden.
+
+
+#### The General Format of a Iteartion Retrospective
 
 The retrospective meeting follows the below outline.
 
+1. _Identify a facilitator._
+
+The facilitator has the responsibility to:
+
+    * Ensure that their is psychological safety in the meeting.
+    * Ensure that the meeting isn't used as a blaming/ranting/finger pointing session.
+    * Share the [Retrospective Prime directive](https://retrospectivewiki.org/index.php?title=The_Prime_Directive) with the participants.
+
+1. _Set the context for the Iteration retrospective._
+
+   This involves explaining the period under observation, which process we are trying to improve and what has be achieved by the current process. This could involve reviewing the 'Done' column in [](coordination:sprint-board).
+
 1. _Review the previous retrospective actions._
 
-   % TODO: Clarify: what are we reviewing *for*?
-   % TODO: Document where and how to previous retro actions can be found.
+    Reviewing previous retrospective actions involves:
 
-1. _Set the context for the retrospective._
+    * checking if the team completed all of the previous actions that they committed to
+    * noting how many actions were completed
+    * briefly discussing if the action has had the intended impact.
 
-   This could involve reviewing the 'Done' column in [](coordination:sprint-board).
+   Retrospective actions are stored in the team's Sprint board and are tagged with the `Retro action` label.
 
-1. _Set aside a short amount of time for the team to add any last minute cards._
-   
-   This should only be a few minutes.
+1. _Set aside time for the team reflect and capture input on cards._
 
-1. _Everyone reads through (quietly to themselves) the Thanks and Celebrations, Went Well, and To Improve columns._
+   Team members need ample time to reflect on their work, interactions and the effectiveness of process from the past iteration. This time will vary based on the size of the team, the duration of the retrospective and temperament of the team.
 
-   During this time, the Facilitator can also add themes to the cards (in the form of hashtags) in the To Improve column to form categories, and potentially merge cards that are discussing similar issues.
+   This duration of this step is usually between 5 - 15 minutes.
+
+   In some cases, the team is invited to pre-populate the board with input before the actual retrospective.
+
+1. _~~Everyone reads through (quietly to themselves) the~~ Thanks and Celebrations_
+
+    Ultimately, the team needs to find a way to celebrate each other. In some cases, this may be simply the team reading the cards themselves or the facilitator doing this.
+
+1. _Create shared understanding on Went Well, and To Improve columns._
+
+   During this time, the facilitator groups the cards into themes (in the form of hashtags), potentially merging similar cards.
 
 1. _Discussion amongst the team on the To Improve items._
 
-   Team members can ask clarifying questions of each other.
+   For cards that are unclear, the facilitator should encourage the person that wrote the card to provide context. Team members can ask clarifying questions of each other.
+
+   **NOTE**: It is important to discourage "solutioning" at this stage.
 
 1. _Voting on the To Improve items._
 
    The team can then vote on which To Improve items they think are the most important.
-   Each member gets 3 votes that they can distribute as they see fit, e.g., give all 3 votes to one item, 2 to one item and 1 to another, or 1 vote for 3 items.
+
+   _For example: Each member gets 3 votes that they can distribute as they see fit, e.g., give all 3 votes to one item, 2 to one item and 1 to another, or 1 vote for 3 items._
 
 1. _Identify actions._
 
@@ -152,11 +187,21 @@ The retrospective meeting follows the below outline.
 
   After the meeting, the facilitator is responsible for converting the Action Items into GitHub issues to be refined for the next sprint, and then clearing the retro board.
 
+#### When should the Retro Board be Populated
+
+Ideally, the team is expected to populate the retrospective board during the meeting. However, team members can pre-populate the board prior to the meeting if they have fleeting thoughts they'd like to capture throughout the sprint.
+
 #### How do Generated Actions move into and get committed to the Team's Next Sprint?
 
-_TBA_
+The general rule is that actions are also work and should be prioritized like any other work.
 
-% TODO: We need to decide on this, but likely this will be in the sprint planning meeting.
+As such actions will enter the team's next sprint through the following process:
+
+1. At the end of the retrospective, the facilitator should create issues representing the actions on the Team's iteration board, in the `Backlog` or `Refined` queue depending on the level of detail/information detailed in the action. 
+
+1. The retro action (having also met the team's Definition of Ready), is discussed during Iteration Planning and if committed, then it is added to the Committed Queue.
+
+1. Do the work :)
 
 (coordination:deliverables)=
 ## Deliverables and work issues
