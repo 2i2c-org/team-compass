@@ -76,7 +76,7 @@ This is a team commitment - while one person may be assigned to a deliverable, w
 - Have at least one team member assigned to each item on the board
 :::
 
-The Sprint Board is broken down into different columns that represent the teams delivery workflow. The team own the design of this workflow and should change the workflow process that best suit their way of work to optimize for sustainable delivery.
+The Sprint Board is broken down into different columns that represent the teams delivery workflow. The team owns the design of this workflow and should change the workflow process that best suits their way of working to optimize for sustainable delivery.
 
 The current queues of work represented by the board are:
 
@@ -91,7 +91,7 @@ The current queues of work represented by the board are:
 (meetings:retrospective)=
 ### The Retrospective Meeting
 
-At the end of each sprint, the team holds a retrospective meeting to reflect and identify actions to improve the team's ways of working and delivery process. The retrospective is the process through which the team achieves continuous improvement for **all** their other process.
+At the end of each sprint, the team holds a retrospective meeting to reflect and identify actions to improve the team's ways of working and delivery process. The retrospective is the process through which the team achieves continuous improvement for **all** their other processes.
 
 #### The Duration of the Retrospective
 
@@ -121,7 +121,7 @@ This template can be changed by tne facilitator. There are [many](https://retrom
 
 ### EasyRetro user account
 
-We have a paid Team subscription for EasyRetro, to make it easier to facilitate retrospectives. The user account is **admin@2i2c.org**. The credentials are stored in BitWarden.
+We have a paid Team subscription for EasyRetro, to make it easier to facilitate retrospectives. The user account is **admin@2i2c.org**. The credentials are stored in our [shared BitWarden account](https://vault.bitwarden.com/#/vault?organizationId=11313781-4b83-41a3-9d35-afe200c8e9f1).
 
 
 #### The General Format of a Iteartion Retrospective
@@ -138,7 +138,7 @@ The facilitator has the responsibility to:
 
 1. _Set the context for the Iteration retrospective._
 
-   This involves explaining the period under observation, which process we are trying to improve and what has be achieved by the current process. This could involve reviewing the 'Done' column in [](coordination:sprint-board).
+   This involves explaining the period under observation, which process(es) we are trying to improve and what has been achieved by the current process. This could involve reviewing the 'Done' column in [](coordination:sprint-board).
 
 1. _Review the previous retrospective actions._
 
