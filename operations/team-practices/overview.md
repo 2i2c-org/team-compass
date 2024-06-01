@@ -5,4 +5,5 @@ Collectively, these practicess can be used to increase psychological safety by a
 
 ```{toctree}
 feedback
+conversations
 ```
