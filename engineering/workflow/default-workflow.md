@@ -1,5 +1,5 @@
 (coordination:workflow)=
-# Workflow
+# 2-week iterations - Our default process
 
 ```{admonition} Out of date!
 
