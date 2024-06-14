@@ -12,14 +12,16 @@ The goal of the 1-week iteration system of work is to:
 
 We introduce a new principle called **Principle 1** into our diction that is intended to help guide our decisions when there are ambiguities related to our process.
 
-**Principle 1**; General statement that is true 90% of the time: Better to always move forward than not moving forward once we are moving forward in the direction of the Iteration/Team goal. Make a decision and communicate it. The exception is busy work and unplanned work - that will kill us - better to help someone else. Move the team forward. If you can’t, move a member of the team forward.
+**Principle 1**; General statement that is true 90% of the time: Better to always move forward than not, as long as we are moving forward in the direction of the Iteration/Team goal.
+The exception is busy work and unplanned work - that will kill us - so it's better to help someone else instead.  Move the team forward. If you can’t, move a member of the team forward.
+Make a decision and communicate it.
 
 ## Process changes
 
-The introduction of the 1-week iterations address the following:
+The introduction of the 1-week iterations addresses the following:
 1. How to prevent waiting
-1. What are the queue on the board and their purposes
-1. How do deal with getting block
+1. What are the different queues in the board and their purposes
+1. How do deal with getting blocked
 1. Process time-box and evaluation
 1. How will the ceremonies change
 
@@ -32,7 +34,7 @@ The introduction of the 1-week iterations address the following:
     1. Avoid unplanned work
     1. Raise this in the retrospective
 
-### 2. What are the queue on the board and their purposes
+### 2. What are the different queues in the board and their purposes
 
 1. The team will continue to use the [github project board](https://github.com/orgs/2i2c-org/projects/49/views/1) to manage their day to day tasks.
 
@@ -46,12 +48,12 @@ The introduction of the 1-week iterations address the following:
 
 1. In the unlikely event that an engineer has ran out of work, find a way to support another engineer to complete their tasks, pull work from the committed queue, or make a decision on work to do next based on **Principle 1**. Note: Our goal is to reduce unplanned work. However, if we are forced to introduce unplanned work, this should be made clear to the team and should considered a topic of discussion in the subsequent retrospective.
 
-### 3. How do deal with getting block
+### 3. How do deal with getting blocked
 
 Getting blocked happens for various reasons. The most common is related to _unforeseen or poorly managed dependencies_. The guidelines for dealing with impediments (i.e. blockers) is:
 1. Use the Engineering slack channel to ask for help (async)
 1. Avoid unplanned work (see Principle 1) and [Accidental complexity](https://www.nutshell.com/blog/accidental-complexity-software-design).
-1. We'll adopt Sync check-ins (15 minutes). This will help to create alignment in the team on what's the most important tasks to work on. The check-ins are just to surface progress, we we plan to work on next, highlight things that can derail delivery. Deep-dives are addressed through conversations after the sync (e.g. “can we talk afterwards?”)
+1. We'll adopt Sync check-ins (15 minutes). This will help to create alignment in the team on what's the most important tasks to work on. The check-ins are just to surface progress, what we plan to work on next, highlight things that can derail delivery. Deep-dives are addressed through conversations after the sync (e.g. “can we talk afterwards?”)
 
 **Activity Dates (Badass Team)**
 * Mon
@@ -85,7 +87,7 @@ We want to be able to do things long enough to have some opinions about this pro
 **Retrospective**
 - Duration: 1hr
 - What’s the most important thing that we need to learn to improve each iteration
-- Push filling the board outside of the sync time - _Concern: Getting people online at the same time is a lot of effort, and we should protect our synchronous time for synchronous activities (i.e. discussion and alignment) We shouldn’t be spending precious synchronous time watching either other silently write things down._
+- Push filling the board outside of the sync time - _Concern: Getting people online at the same time is a lot of effort, and we should protect our synchronous time for synchronous activities (i.e. discussion and alignment) We shouldn’t be spending precious synchronous time watching each other silently write things down._
 
 **Sync alignment**
 - Duration: 15 mins?
