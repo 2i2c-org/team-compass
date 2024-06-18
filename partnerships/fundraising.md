@@ -77,7 +77,7 @@ These are opportunities to pursue only if there’s a natural opportunity.
 
 **Development-focused grants.** These are grants designed to expand technical capabilities of some aspect of our hubs service. We should only pursue them if they are (1) Substantial in size, (2) Clearly aligned with our product strategy.
 
-**Organization-wide grants.** This is a 2i2c-wide grant that funds our vision and intended impact, and is not attached to any specific service. It is similar to a "Series A" round of funding for a non-profit.
+**Strategic and core support grants.** This is a 2i2c-wide grant that funds our vision and intended impact, and is not attached to any specific service. It funds the core roles needed to execute on our mission, and is similar to a "Series A" round of funding for a non-profit.
 
 ## Appendix: Options available to us
 
