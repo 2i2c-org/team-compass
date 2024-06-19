@@ -113,11 +113,11 @@ The team uses an [EasyRetro board](https://easyretro.io/publicboard/A8bu34hcK2ey
 There are columns for:
 
 - Thanks and Celebrations
-- Things that Went Well
+- Things That Went Well
 - Things To Improve
 - Actions (Items to take forward into the next sprint).
 
-This template can be changed by tne facilitator. There are [many](https://retromat.org/) different template formats and the facilitator should choose one that is most appropriate for the team's need.
+This template can be changed by the facilitator. There are [many](https://retromat.org/) different template formats and the facilitator should choose one that is most appropriate for the team's need.
 
 #### EasyRetro user account
 
