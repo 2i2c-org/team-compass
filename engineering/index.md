@@ -5,7 +5,7 @@ These sections have information about accounts, technology, and practices that a
 ```{toctree}
 overview
 structure
-workflow/default-workflow
+workflow/index
 definition-of-ready
 strategy
 access
