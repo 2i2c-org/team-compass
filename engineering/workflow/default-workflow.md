@@ -105,7 +105,7 @@ On rare occasions, when the team experiences duress or unpredictable and disrupt
 #### The Roster for Facilitating Retrospectives
 
 There is a [Google Sheet](https://docs.google.com/spreadsheets/d/1s0ZSAxwFzJ-_WgDkZeicfuUadSFEjkjS6ZcNk4N7Mmg/edit?usp=sharing) in the shared team drive that determines who will be facilitating each retrospective meeting (as well as [sprint planning](meetings:sprint-planning) and backlog refinement meetings).
-Members of the engineering team are expected to self-nominate for this role because it is their improvement process.
+Members of the engineering team are expected to self-nominate for this role because it is _their_ improvement process.
 
 #### Retrospective Tool
 
