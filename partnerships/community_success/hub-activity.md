@@ -11,11 +11,11 @@ kernelspec:
   name: python3
 ---
 
-+++ {"editable": true, "slideshow": {"slide_type": ""}, "user_expressions": []}
++++ {"editable": true, "slideshow": {"slide_type": ""}}
 
 # Track Hub Usage with Grafana
 
-+++ {"user_expressions": []}
++++
 
 ## Overview
 
@@ -23,7 +23,7 @@ Grafana is an open source analytics and interactive visualization web applicatio
 
 Grafana dashboard deployments for 2i2c hubs (k8s+JupyterHub) follow the templates outlined in the GitHub repository https://github.com/jupyterhub/grafana-dashboards. Note that Prometheus data is retained for 1 year on 2i2c hubs.
 
-+++ {"user_expressions": []}
++++
 
 ## Prerequisites
 
@@ -46,7 +46,7 @@ See [Grafana docs – Service Accounts](https://grafana.com/docs/grafana/latest/
 
 See [](../../reference/documentation/secrets.md) for a general guide to configuring access to the Grafana Token in a local development environment, or while deploying documentation with GitHub actions or Read the Docs.
 
-+++ {"user_expressions": []}
++++
 
 (hub-activity:python-packages)=
 ### Python packages
@@ -58,7 +58,7 @@ We require the following Python packages to run the code in this guide:
 - `prometheus-pandas` – query Prometheus and format into Pandas data structures
 - `plotly` – visualize interactive plots
 
-+++ {"user_expressions": []}
++++
 
 ### Javascript
 
@@ -75,7 +75,7 @@ https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"
 
 ## Import packages and define functions
 
-+++ {"user_expressions": []}
++++
 
 Import packages and set the Pandas plotting backend to the Plotly engine.
 
@@ -84,7 +84,6 @@ import os
 import re
 import requests
 from dotenv import load_dotenv
-from urllib.parse import urlencode
 from datetime import datetime
 from dateparser import parse as dateparser_parse
 from prometheus_pandas.query import Prometheus
@@ -94,16 +93,12 @@ import plotly.graph_objects as go
 pd.options.plotting.backend = "plotly"
 ```
 
-+++ {"user_expressions": []}
-
 Load the Grafana token as an environment variable from the `.env` file or GitHub/Read the Docs secret.
 
 ```{code-cell} ipython3
 load_dotenv()
 GRAFANA_TOKEN = os.environ["GRAFANA_TOKEN"]
 ```
-
-+++ {"user_expressions": []}
 
 Define a `get_default_prometheus_uid` function to get the unique id of the Prometheus data source.
 
@@ -139,8 +134,6 @@ def get_prometheus_datasources(grafana_url: str, grafana_token: str) -> str:
             
 ```
 
-+++ {"user_expressions": []}
-
 Define the `get_pandas_prometheus` function that creates and Prometheus client and formats the result into a pandas dataframe.
 
 ```{code-cell} ipython3
@@ -167,19 +160,15 @@ def get_pandas_prometheus(grafana_url: str, grafana_token: str, prometheus_uid: 
     return Prometheus(proxy_url, session)
 ```
 
-+++ {"user_expressions": []}
-
 ## Execute the main program
 
-+++ {"user_expressions": []}
++++
 
 Fetch all available data sources from Prometheus.
 
 ```{code-cell} ipython3
 datasources = get_prometheus_datasources("https://grafana.pilot.2i2c.cloud", GRAFANA_TOKEN)
 ```
-
-+++ {"user_expressions": []}
 
 Define a query for the data source using [PromQL](https://prometheus.io/docs/prometheus/latest/querying/basics/), formatted as a string. The query below finds the maximum number of unique users over the last 24 hour period and aggregrates by hub name.
 
@@ -191,8 +180,6 @@ query = """
         """
 ```
 
-+++ {"user_expressions": []}
-
 :::{note}
 
 Writing efficient PromQL queries is important to make sure that the query actually completes, especially over large periods of time. However, most queries users of JupyterHub are bound to make are fairly simple, and you don't need to be a PromQL expert.
@@ -200,13 +187,20 @@ Writing efficient PromQL queries is important to make sure that the query actual
 You can borrow a lot of useful queries from the GitHub repository [jupyterhub/grafana-dashboards](https://github.com/jupyterhub/grafana-dashboards), from inside the `jsonnet` files. The primary thing you may need to modify is getting rid of the `$hub` template parameter from queries.
 :::
 
-+++ {"user_expressions": []}
++++
 
-Loop over each datasource and call the `get_pandas_prometheus()` function to create a Prometheus client for querying the server with the API. Evaluate the query from the last month to now with a step size of 1 day and output the results to a pandas dataframe. Save each output into an `activity` list item and then concatenate the results together at the end.
+Loop over each datasource, test the connection to the hub and then call the `get_pandas_prometheus()` function to create a Prometheus client for querying the server with the API. Evaluate the query from the last month to now with a step size of 1 day and output the results to a pandas dataframe. Save each output into an `activity` list item and then concatenate the results together at the end.
 
 ```{code-cell} ipython3
 activity=[]
 for prometheus_uid in datasources['uid']:
+    # Test connection to hub
+    try:
+        r = requests.get(datasources.loc[datasources['uid']==prometheus_uid, 'url'].values[0])
+    except requests.exceptions.RequestException as err:
+        print(f"{datasources.loc[datasources['uid']==prometheus_uid, 'name'].values[0]}: Error{err}: ")
+        continue
+    # Query Prometheus server
     prometheus = get_pandas_prometheus("https://grafana.pilot.2i2c.cloud", GRAFANA_TOKEN, prometheus_uid)
     df = prometheus.query_range(
         query,
@@ -218,11 +212,9 @@ for prometheus_uid in datasources['uid']:
 df = pd.concat(activity)
 ```
 
-+++ {"user_expressions": []}
-
 ## Pre-process and visualize the results
 
-+++ {"user_expressions": []}
++++
 
 Round the datetime index to nearest calendar day.
 
@@ -230,15 +222,11 @@ Round the datetime index to nearest calendar day.
 df.index = df.index.floor('D')
 ```
 
-+++ {"user_expressions": []}
-
 Rename the hubs from the raw data, `{namespace="<hub_name>"}`, to a human readable format using regex to extract the `<hub_name>` from the `"` double-quotes.
 
 ```{code-cell} ipython3
 df.columns = [re.findall(r'[^"]+', col)[1] for col in df.columns]
 ```
-
-+++ {"user_expressions": []}
 
 Sort hubs by most number of unique users over time.
 
@@ -246,11 +234,9 @@ Sort hubs by most number of unique users over time.
 df = df.reindex(df.sum().sort_values(ascending=False).index, axis=1)
 ```
 
-+++ {"user_expressions": []}
-
 ### Unique users in the last 24 hours
 
-+++ {"user_expressions": []}
++++
 
 Plot the data! 📊
 
