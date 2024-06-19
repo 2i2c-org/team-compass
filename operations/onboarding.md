@@ -85,4 +85,4 @@ Here are the right places to learn more about our workflow:
   Different teams each interpret these in a different way, but this covers the basics.
 
 Beyond these, your workflow will likely depend on the functional area where you work.
-For example, [the engineering team](../engineering/workflow.md) tends to work heavily on GitHub and uses many GitHub Issues tickets to track its work.
+For example, [the engineering team](../engineering/workflow/default-workflow.md) tends to work heavily on GitHub and uses many GitHub Issues tickets to track its work.
