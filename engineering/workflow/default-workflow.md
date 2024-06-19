@@ -119,18 +119,18 @@ There are columns for:
 
 This template can be changed by tne facilitator. There are [many](https://retromat.org/) different template formats and the facilitator should choose one that is most appropriate for the team's need.
 
-### EasyRetro user account
+#### EasyRetro user account
 
 We have a paid Team subscription for EasyRetro, to make it easier to facilitate retrospectives. The user account is **admin@2i2c.org**. The credentials are stored in our [shared BitWarden account](https://vault.bitwarden.com/#/vault?organizationId=11313781-4b83-41a3-9d35-afe200c8e9f1).
 
 
-#### The General Format of a Iteartion Retrospective
+#### The General Format of an Iteration Retrospective
 
 The retrospective meeting follows the below outline.
 
 1. _Identify a facilitator._
 
-The facilitator has the responsibility to:
+    The facilitator has the responsibility to:
 
     * Ensure that their is psychological safety in the meeting.
     * Ensure that the meeting isn't used as a blaming/ranting/finger pointing session.
@@ -170,7 +170,9 @@ The facilitator has the responsibility to:
 
    For cards that are unclear, the facilitator should encourage the person that wrote the card to provide context. Team members can ask clarifying questions of each other.
 
-   **NOTE**: It is important to discourage "solutioning" at this stage.
+   :::{note}
+   It is important to discourage "solutioning" at this stage.
+   :::
 
 1. _Voting on the To Improve items._
 
