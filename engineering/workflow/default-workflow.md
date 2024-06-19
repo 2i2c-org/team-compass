@@ -187,15 +187,15 @@ The retrospective meeting follows the below outline.
 
 1. _Close the meeting._
 
-  After the meeting, the facilitator is responsible for converting the Action Items into GitHub issues to be refined for the next sprint, and then clearing the retro board.
+  After the meeting, the facilitator is responsible for converting the Action Items into GitHub issues to be put in the sprint board's backlog column, and then clearing the retro board.
 
 #### When should the Retro Board be Populated
 
-Ideally, the team is expected to populate the retrospective board during the meeting. However, team members can pre-populate the board prior to the meeting if they have fleeting thoughts they'd like to capture throughout the sprint.
+Team members are expected to try populate the board ahead of time to the extent that what remains could be populated in five minutes just-in-time during the meeting.
 
 #### How do Generated Actions move into and get committed to the Team's Next Sprint?
 
-The general rule is that actions are also work and should be prioritized like any other work.
+The general rule is that actions are also work and should be refined and prioritized like any other work.
 
 As such actions will enter the team's next sprint through the following process:
 
