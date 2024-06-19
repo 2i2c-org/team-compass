@@ -80,12 +80,12 @@ The Sprint Board is broken down into different columns that represent the team's
 
 The current queues of work represented by the board are:
 
-- {guilabel} `Backlog` represents items that haven't been started and not in Sprint.
-- {guilabel} `Refined` represents a list of items that have been refined and are ready to be worked on. The items in this queue are not committed items.
-- {guilabel} `Committed` items haven't been started and are expected to be completed by end of the Sprint. These items are identified during the Iteration Planning activity.
-- {guilabel} `In Progress` represents a queue of items being *actively* worked on. Each item should have at least one owner.
-- {guilabel} `In Review/Blocked` contains items that need to be review before being marked as done or that cannot be completed without additional actions/support. A long list of items in this queue indicate deficiencies in the team's Refinement activity.
-- {guilabel} `Done` contains the list of items that are complete! These should be celebrated archived in the next Sprint Planning meeting.
+- {guilabel}`Backlog` represents items that haven't been started and not in Sprint.
+- {guilabel}`Refined` represents a list of items that have been refined and are ready to be worked on. The items in this queue are not committed items.
+- {guilabel}`Committed` items haven't been started and are expected to be completed by end of the Sprint. These items are identified during the Iteration Planning activity.
+- {guilabel}`In Progress` represents a queue of items being *actively* worked on. Each item should have at least one owner.
+- {guilabel}`In Review/Blocked` contains items that need to be review before being marked as done or that cannot be completed without additional actions/support. A long list of items in this queue indicate deficiencies in the team's Refinement activity.
+- {guilabel}`Done` contains the list of items that are complete! These should be celebrated archived in the next Sprint Planning meeting.
 
 
 (meetings:retrospective)=
