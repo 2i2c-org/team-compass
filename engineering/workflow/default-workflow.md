@@ -61,7 +61,7 @@ See [the Sprint Planning issue template](https://github.com/2i2c-org/team-compas
 
 The [Sprint Board](https://github.com/orgs/2i2c-org/projects/49/views/1) is a place to keep track of the [Deliverables and tasks](coordination:deliverables) our team intends to work on for a two week iteration.
 
-The board is a GitHub Projects board that is populated with with work items during the teams Itereation Planning activity.
+The board is a GitHub Projects board that is populated with with work items during the teams Iteration Planning activity.
 
 The team's goal is to complete all items on the Sprint Board by the end of the Sprint.
 This is a team commitment - while one person may be assigned to a deliverable, we all commit to working together to get the work done.
@@ -73,10 +73,10 @@ This is a team commitment - while one person may be assigned to a deliverable, w
 - Have enough items to keep the team occupied for the two week iteration
 - Not have so many items that a team member gets overwhelmed
 - Under-estimate our team's total capacity, to provide room for unexpected work (e.g., support work)
-- Have at least one team member assigned to each item on the board
+- Have at least one team member assigned to each committed item on the board
 :::
 
-The Sprint Board is broken down into different columns that represent the teams delivery workflow. The team owns the design of this workflow and should change the workflow process that best suits their way of working to optimize for sustainable delivery.
+The Sprint Board is broken down into different columns that represent the team's delivery workflow. The team owns the design of this workflow and should change the workflow process that best suits their way of working to optimize for sustainable delivery.
 
 The current queues of work represented by the board are:
 
