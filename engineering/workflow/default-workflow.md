@@ -58,13 +58,20 @@ Backlog refinement meetings should drive:
 - promotion of tasks into the sprint board's refined column
 - prioritization of task in the sprint board's refined column
 
-Tasks should tie back to initiatives.
+Tasks should tie back to initiatives, and the refined column should also
+function as a buffer of uncommitted work to pull from if needed.
 
 (meetings:sprint-planning)=
 ### Sprint planning meeting
 
-The team conducts a Sprint Planning meeting for 60 minutes at the beginning of each sprint.
-The goal of this meeting is to review our major work items, synchronize with one another, and prioritize work across team members.
+The team conducts a sprint iteration planning meeting for 60 minutes at the beginning of each sprint.
+
+The goal of this meeting is to synchronize with one another and commit to work to do during the sprint.
+
+As part of this meeting, we look to:
+- Not overwhelm any team member
+- Under-estimate our team's total capacity, to provide room for unexpected work (e.g., support work)
+- Have at least one team member assigned to each committed item on the board
 
 See [the Sprint Planning issue template](https://github.com/2i2c-org/team-compass/blob/main/.github/ISSUE_TEMPLATE/meeting-sprint-planning.md) for the agenda / structure of these meetings.
 
@@ -73,31 +80,21 @@ See [the Sprint Planning issue template](https://github.com/2i2c-org/team-compas
 
 The [Sprint Board](https://github.com/orgs/2i2c-org/projects/49/views/1) is a place to keep track of the [Deliverables and tasks](coordination:deliverables) our team intends to work on for a two week iteration.
 
-The board is a GitHub Projects board that is populated with with work items during the teams Iteration Planning activity.
+The board is a GitHub Projects board that is populated with tasks during the teams Iteration Planning activity.
 
 The team's goal is to complete all items on the Sprint Board by the end of the Sprint.
 This is a team commitment - while one person may be assigned to a deliverable, we all commit to working together to get the work done.
-
-:::{admonition} The Sprint Board should...
-:class: tip
-- Be driven by 2i2c's product roadmap
-- With the exception of support tickets, work items should be related back to Initiatives.
-- Have enough items to keep the team occupied for the two week iteration
-- Not have so many items that a team member gets overwhelmed
-- Under-estimate our team's total capacity, to provide room for unexpected work (e.g., support work)
-- Have at least one team member assigned to each committed item on the board
-:::
 
 The Sprint Board is broken down into different columns that represent the team's delivery workflow. The team owns the design of this workflow and should change the workflow process to best suit their way of working and to optimize for sustainable delivery.
 
 The current queues of work represented by the board are:
 
-- {guilabel}`Backlog` represents items that haven't been started and not in Sprint.
-- {guilabel}`Refined` represents a list of items that have been refined and are ready to be worked on. The items in this queue are not committed items.
-- {guilabel}`Committed` items haven't been started and are expected to be completed by end of the Sprint. These items are identified during the Iteration Planning activity.
-- {guilabel}`In Progress` represents a queue of items being *actively* worked on. Each item should have at least one owner.
-- {guilabel}`In Review/Blocked` contains items that need to be review before being marked as done or that cannot be completed without additional actions/support. A long list of items in this queue indicate deficiencies in the team's Refinement activity.
-- {guilabel}`Done` contains the list of items that are complete! These should be celebrated and archived in the next Sprint Planning meeting.
+- {guilabel}`Backlog` represents tasks pending refinement as driven by backlog refinement meetings.
+- {guilabel}`Refined` represents prioritized tasks ready to be worked, with the highest priority towards the top.
+- {guilabel}`Committed` represents tasks we've committed to complete during the current sprint in the most recent sprint planning meeting. Each item should have at least one owner.
+- {guilabel}`In Progress` represents actively worked tasks.
+- {guilabel}`In Review/Blocked` represents tasks that need to be review before being marked as done or that cannot be completed without additional actions/support.
+- {guilabel}`Done` represents completed tasks to be celebrated and archived in the next sprint planning meeting.
 
 
 (meetings:retrospective)=
