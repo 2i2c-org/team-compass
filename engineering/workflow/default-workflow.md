@@ -112,8 +112,6 @@ It is held at a time to maximise attendance from the engineering team.
 
 On rare occasions, when the team experiences duress or unpredictable and disruptive events, they may choose to have a specific retrospective to learn from those events.
 
-% TODO: Move the meeting into the team calendar for visibility: https://calendar.google.com/calendar/embed?src=c_4hjjouojd8psql9i1a8nd1uff4%40group.calendar.google.com
-
 #### The Roster for Facilitating Retrospectives
 
 There is a [Google Sheet](https://docs.google.com/spreadsheets/d/1s0ZSAxwFzJ-_WgDkZeicfuUadSFEjkjS6ZcNk4N7Mmg/edit?usp=sharing) in the shared team drive that determines who will be facilitating each retrospective meeting (as well as [sprint planning](meetings:sprint-planning) and backlog refinement meetings).
