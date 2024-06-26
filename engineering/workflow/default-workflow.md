@@ -12,8 +12,6 @@ This section describes how our development team carries out its planning and day
 👉 [Here's a link to all 2i2c GitHub Issues that have been assigned to you](https://github.com/issues?q=is%3Aissue+is%3Aopen+archived%3Afalse+sort%3Aupdated-desc+assignee%3A%40me+user%3A2i2c-org)
 
 👉 [Here's a link to see all Pull Requests for which your review is requested](https://github.com/issues?q=is%3Aopen+archived%3Afalse+sort%3Aupdated-desc+user%3A2i2c-org+type%3Apr+review-requested%3A%40me)
-
-👉 [Here's a link to all GitHub Issues that are open but are not (yet) being tracked on a Project Board](https://github.com/search?q=is%3Aissue+org%3A2i2c-org+archived%3Afalse+is%3Aopen+no%3Aproject)
 :::
 
 (coordination:decisions)=
