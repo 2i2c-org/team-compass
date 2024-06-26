@@ -76,7 +76,7 @@ This is a team commitment - while one person may be assigned to a deliverable, w
 - Have at least one team member assigned to each committed item on the board
 :::
 
-The Sprint Board is broken down into different columns that represent the team's delivery workflow. The team owns the design of this workflow and should change the workflow process that best suits their way of working to optimize for sustainable delivery.
+The Sprint Board is broken down into different columns that represent the team's delivery workflow. The team owns the design of this workflow and should change the workflow process to best suit their way of working and to optimize for sustainable delivery.
 
 The current queues of work represented by the board are:
 
@@ -85,7 +85,7 @@ The current queues of work represented by the board are:
 - {guilabel}`Committed` items haven't been started and are expected to be completed by end of the Sprint. These items are identified during the Iteration Planning activity.
 - {guilabel}`In Progress` represents a queue of items being *actively* worked on. Each item should have at least one owner.
 - {guilabel}`In Review/Blocked` contains items that need to be review before being marked as done or that cannot be completed without additional actions/support. A long list of items in this queue indicate deficiencies in the team's Refinement activity.
-- {guilabel}`Done` contains the list of items that are complete! These should be celebrated archived in the next Sprint Planning meeting.
+- {guilabel}`Done` contains the list of items that are complete! These should be celebrated and archived in the next Sprint Planning meeting.
 
 
 (meetings:retrospective)=
@@ -95,7 +95,7 @@ At the end of each sprint, the team holds a retrospective meeting to reflect and
 
 #### The Duration of the Retrospective
 
-The retrospective is one hour long and is usually held on the last day of each sprint.
+The retrospective is 45 minutes long and is usually held on the last day of each sprint.
 It is held at a time to maximise attendance from the engineering team.
 
 On rare occasions, when the team experiences duress or unpredictable and disruptive events, they may choose to have a specific retrospective to learn from those events.
