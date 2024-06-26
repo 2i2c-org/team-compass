@@ -165,7 +165,7 @@ The retrospective meeting follows the below outline.
 
    In some cases, the team is invited to pre-populate the board with input before the actual retrospective.
 
-1. _~~Everyone reads through (quietly to themselves) the~~ Thanks and Celebrations_
+1. _Thanks and Celebrations_
 
     Ultimately, the team needs to find a way to celebrate each other. In some cases, this may be simply the team reading the cards themselves or the facilitator doing this.
 
