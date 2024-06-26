@@ -244,7 +244,7 @@ Tasks to complete
   For more complex deliverables, these tasks may be what goes onto the Sprint Board, rather than the deliverable itself.
 
 (coordination:deliverables-backlog)=
-## The Team Backlog
+## The Team Backlog (OUTDATED)
 
 [Click here to go to the Team Backlog](https://github.com/orgs/2i2c-org/projects/22).
 
