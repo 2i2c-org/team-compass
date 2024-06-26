@@ -197,14 +197,6 @@ Team members are expected to try populate the board ahead of time to the extent 
 
 The general rule is that actions are also work and should be refined and prioritized like any other work.
 
-As such actions will enter the team's next sprint through the following process:
-
-1. At the end of the retrospective, the facilitator should create issues representing the actions on the Team's iteration board, in the `Backlog` or `Refined` queue depending on the level of detail/information detailed in the action. 
-
-1. The retro action (having also met the team's Definition of Ready), is discussed during Iteration Planning and if committed, then it is added to the Committed Queue.
-
-1. Do the work :)
-
 (coordination:deliverables)=
 ## Deliverables and work issues
 
