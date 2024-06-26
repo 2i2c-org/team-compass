@@ -46,6 +46,20 @@ During the sprint
 Last day of sprint
 : By the end of the day, team members should have completed all of their items for that sprint.
 
+(meetings:backlog-refinement)=
+### Backlog refinement meetings
+
+Backlog refinement meetings prepares the sprint board for the iteration planning
+meetings, which relies on prioritized tasks to be available in the sprint
+board's refined column.
+
+Backlog refinement meetings should drive:
+- creation of tasks into the sprint board's backlog column
+- promotion of tasks into the sprint board's refined column
+- prioritization of task in the sprint board's refined column
+
+Tasks should tie back to initiatives.
+
 (meetings:sprint-planning)=
 ### Sprint planning meeting
 
