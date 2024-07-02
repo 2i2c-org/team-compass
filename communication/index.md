@@ -6,6 +6,7 @@ These sections describe our external marketing, communications, and outreach str
 overview
 strategy
 blog
+testimonials
 social
 mailinglist
 design
