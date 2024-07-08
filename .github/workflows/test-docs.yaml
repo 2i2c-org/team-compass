@@ -31,3 +31,9 @@ jobs:
           GRAFANA_TOKEN: ${{ secrets.GRAFANA_TOKEN }}
         run: |
           make dirhtml SPHINXOPTS='--color -W --keep-going'
+
+      - name: Upload Logs and Build
+        uses: actions/upload-artifact@v3
+        with:
+          name: sphinx-logs
+          path: book/_build          
