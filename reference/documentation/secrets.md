@@ -28,18 +28,19 @@ load_dotenv()
 SECRET_NAME = os.environ["SECRET_NAME"]
 ```
 
-### Access secret in GitHub actions
+### Access organization-level secrets in GitHub actions
 
-Add your secret as a GitHub repository secret to be used in GitHub actions when you build and publish online.
+Add your secret as a GitHub an organizational-level repository secret to be used in GitHub actions when you build and publish online.
 
 :::{note}
-This section describes how to create a secret for an individual repository. To create a secret for the 2i2c organization for multiple users, see the [GitHub Docs – Using secrets in GitHub actions](https://docs.github.com/en/actions/security-guides/using-secrets-in-github-actions#creating-secrets-for-an-organization).
+To create a secret for the 2i2c organization for multiple users, see the [GitHub Docs – Using secrets in GitHub actions](https://docs.github.com/en/actions/security-guides/using-secrets-in-github-actions#creating-secrets-for-an-organization). We recommend organization-level secrets against individual-level secrets to minimize the need to create duplicate secrets for multiple repositories.
 :::
 
-1. Navigate to your repository online on GitHub.
+1. Navigate to the 2i2c GitHub organization.
 1. In the *{octicon}`gear` Settings* menu, click on *{octicon}`key-asterisk` Secrets and Tokens > Actions* in the left-side menu. 
-1. Under the *Repository Secrets* section, click on the {guilabel}`New repository secret` button.
+1. Under the *Organization Secrets* section, click on the {guilabel}`New organization secret` button.
 1. Enter the name of your secret in the *Name* field and paste in the value of your secret in the *Secret* field.
+1. Scope the secret to the relevant select repositories under the *Repository access* dropdown.
 1. Click {guilabel}`Add secret` to confirm.
 
 Following this, adjust your GitHub action workflow file to make the secret available to your job with the `env` key value. See the [GitHub Docs – Using secrets in GitHub actions](https://docs.github.com/en/actions/security-guides/using-secrets-in-github-actions#using-secrets-in-a-workflow) or the example code snippet from the `team-compass/.github/workflows/test-docs.yaml` file below:
