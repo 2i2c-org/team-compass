@@ -29,3 +29,7 @@ To build live documentation that updates when you update local files, run the fo
 ```console
 $ nox -s docs-live
 ```
+
+## Organization Secrets
+
+This repo requires access to organizational-level secrets that cannot be access via forked PR. Therefore the GH action `test-docs.yaml` will fail unless you push a non-forked PR.
