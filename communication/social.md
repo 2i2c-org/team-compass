@@ -38,3 +38,9 @@ We use LinkedIn roughly the same way that we use Twitter, though focus it more o
 
 **How to access**: We can add **page admins** to our LinkedIn account, which gives others the ability to manage the account and post content.
 If you'd like to be added, ask one of [the pre-existing account admins](https://www.linkedin.com/company/70495902/admin/manage-admins/).
+
+## Buffer
+
+This is a productivity tool for posting across our Twitter, Mastodon and LinkedIn channels simultaneously and scheduling social media campaigns with a content calendar.
+
+**How to access**: See [](account:bitwarden).
