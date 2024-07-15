@@ -23,4 +23,5 @@ process
 timeboxed-initial-ticket-evaluation
 communication
 time-off
+templates/index
 ```
