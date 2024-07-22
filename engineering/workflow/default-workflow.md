@@ -20,92 +20,123 @@ This section describes how our development team carries out its planning and day
 See [](development:merge-policy).
 
 (coordination:sprints)=
-## Team Sprints
+## Team Iterations
 
-The 2i2c team uses Sprints to coordinate with one another in focused cycles of work.
-To begin each sprint, we collectively choose items to work on in the next sprint during the [](meetings:sprint-planning).
-Each item should have a person assigned to it, who will be responsible for ensuring that the work gets done.
-However, our work within a sprint is a **team commitment**, and we are all responsible for helping one another accomplish our tasks.
-Each sprint ends with a [](meetings:retrospective) in which the team reflects on what went well, what could be improved, and how to go about implementing those improvements.
+The 2i2c team uses Iterations to coordinate with one another in focused cycles of work (referred to as our [Iteration Cadence](coordination:iteration-cadence)). Our team works in **two-week iterations**.
 
-### Sprint cadence
+We rely on 5 sub-processes to move work through the delivery workflow. Namely: 
+- _Refinement_
+- _Planning_
+- _Progress Update_
+- _Showcase_
+- _Retrospective_.
 
-Our team works in **two-week sprints**.
-Here is a brief overview of each sprint.
+These sub-processes are defined in more detail below.
 
-Beginning of sprint
-: Sprint begins with our [sprint planning meeting](meetings:sprint-planning).
+(coordination:iteration-cadence)=
+### Iteration cadence
 
-  In this meeting we discuss major accomplishments in the previous sprint. We then prioritize and assign the items that each team member will work on for the next sprint, and review items that require discussion and planning.
+Our team works in **two-week iterations**. Here is a brief overview of each Iteration.
 
-During the sprint
-: Team members work on the items assigned to them at the sprint planning meeting.
-  We use [the Sprint Board](coordination:sprint-board) to coordinate our activities during the sprint.
+Before Iteration
+: Ensure the Refined column has ranked (prioritized and sequenced) work items 
+
+Beginning of Iteartion
+: Iteration begins with our [Iteration planning meeting](meetings:sprint-planning).
+
+  In this meeting we discuss major accomplishments in the previous iteration, review past capacity committments. We then size and assign the items that each team member will work on for the next iteartion, and review items that require discussion and planning.
+
+During the Iteration
+: Team members work on the items assigned to them at the iteration planning meeting.
+  We use [the Iteration Board](coordination:sprint-board) to coordinate our activities during the iteration.
   We provide updates about what we've been up to, what we're doing next, and where we need help via regular **asynchronous Slack stand-ups**.
 
-Last day of sprint
-: By the end of the day, team members should have completed all of their items for that sprint.
+Last day of Iteration
+: By the end of the day, team members should have completed all of their items for that iteration. The iteration is closed off with a Retrospective to identify improvement opportunities.
+
+:::{admonition} Iteration Cadence
+- Default: Two weeks.
+- Funding-crunch: One Weekly.
+:::
 
 (meetings:backlog-refinement)=
-### Backlog refinement meetings
+### 1. Pre-planning and refinement
 
-Backlog refinement meetings prepares the sprint board for the iteration planning
-meetings, which relies on prioritized tasks to be available in the sprint
-board's refined column.
+The Refinement meetings prepares the Iteration board for the Iteration planning
+meetings, which relies on having sequenced and prioritized tasks to be available in board's Refined column.
 
 Backlog refinement meetings should drive:
 - creation of tasks into the sprint board's backlog column
 - promotion of tasks into the sprint board's refined column
 - prioritization of task in the sprint board's refined column
 
-Tasks should tie back to initiatives, and the refined column should also
-function as a buffer of uncommitted work to pull from if needed.
+Tasks should tie back to initiatives, and the refined column should also function as a buffer of uncommitted work to pull from if needed.
+
+Attendees of the Refinement meeting should include representatives from the following teams:
+- Engineering: for technical decision-making
+- Product: for product decision-making
+- Partnerships and Community Success: for community/grant decision-making.
 
 (meetings:sprint-planning)=
-### Sprint planning meeting
+### 2. Iteration Planning
 
-The team conducts a sprint iteration planning meeting for 60 minutes at the beginning of each sprint.
+The team conducts a synchronous iteration planning meeting for 60 minutes at the beginning of each iteration.
 
-The goal of this meeting is to synchronize with one another and commit to work to do during the sprint.
+The goal of this meeting is to synchronize with one another and commit to work to do during the iteration that gets us closer to achieving the initiatives objectives.
 
-As part of this meeting, we look to:
+#### Planning Outcomes:
+At the end of this meeting, we will have:
+1. A list of team deliverables that the team commits to completing within the iteration time box. These deliverables will represent work from:
+    - Grant/Funding
+    - Partnerships
+    - Product Roadmap
+    - Support request
+    - Internal Engineering
+    - Upstream community
+
+1. Identified and shared the core risks impacting the deliverables. NB: The meeting will not be used to brainstorm solutions to resolve the risks.
+
+1. Owners assigned to resolve the different risks. These individuals will create working sessions and coordinate the necessary domain experts who will be responsible for resolving the risks. NB: The owner is accountable to ensure the working sessions happen. They are not responsible for the actual solutions as this may belong to separate domain experts. A deliverable cannot be committed as part of the iteration if there are dependencies with other teams AND those other teams have not committed to completing the work within the current iteration or if the work was not previously completed in an earlier iteration.
+
+Tip 🥷: This meetings provides us a golden opportunity to:
 - Not overwhelm any team member
-- Under-estimate our team's total capacity, to provide room for unexpected work (e.g., support work)
-- Have at least one team member assigned to each committed item on the board
+- Under-estimate our team's total capacity and to provide room for unexpected work (e.g., support work)
+- Limit the amount of work in process across Engineering (system optimisation)
+- Ensure that we are focused on delivering the highest value work (value optimisation).
 
 See [the Sprint Planning issue template](https://github.com/2i2c-org/team-compass/blob/main/.github/ISSUE_TEMPLATE/meeting-sprint-planning.md) for the agenda / structure of these meetings.
 
-(coordination:sprint-board)=
-### The Sprint Board
+### 3. Progress Update (and blockers)
 
-The [Sprint Board](https://github.com/orgs/2i2c-org/projects/49/views/1) is a place to keep track of the [Deliverables and tasks](coordination:deliverables) our team intends to work on for a two week iteration.
+This is a short, synchronous, alignment meeting (sometimes referred to as a "_Standup_"). It occurs on Tuesdays and Thursdays, and is designed to help us coordinate and realign ourselves around the work. 
 
-The board is a GitHub Projects board that is populated with tasks during the teams Iteration Planning activity.
+Each sync ensures team members focus on the most important tasks and allows the team to pivot and self-organize when unforeseen changes occur. It helps catch and address unplanned challenges, work, and risks, providing a way to transparently discuss any issues that may hinder achieving our iteration goals.
 
-The team's goal is to complete all items on the Sprint Board by the end of the Sprint.
-This is a team commitment - while one person may be assigned to a deliverable, we all commit to working together to get the work done.
+#### Guidelines for the standup
+These are guidelines for the standup. Ideally, these meetings should not extend beyond 15 minutes and each person will answer these questions:
+- _What am I working on?_ This helps the team to understand their progress towoards completing work towards their iteration goal.
+- _What will I work on next?_ This ensure that we working on the "right things" and limiting work unplanned work.
+- _What am I blocked on, or what do I foresee could be a blocker?_ This provides an opportunity for team members to ask for help and surface issues that may prevent the team from achiving it's iteration goal. 
+- _Have I learned anything that needs to be addressed by/shared with the group?_ This maximizes shared-learning across the team (e.g. Here's a faster way to configure and deploy docker scripts from Kubernetes).
 
-The Sprint Board is broken down into different columns that represent the team's delivery workflow. The team owns the design of this workflow and should change the workflow process to best suit their way of working and to optimize for sustainable delivery.
+This is done in conjunction to using the board to identify:
+- Work that has become stuck (or will become blocked)
+- Work that is unplanned or should not be started
+- Work that is urgent
+- People that need assistance (or ask for help)
+- Opportunities to pair/collaborate with team members to complete work.
 
-The current queues of work represented by the board are:
-
-- {guilabel}`Backlog` represents tasks pending refinement as driven by backlog refinement meetings.
-- {guilabel}`Refined` represents prioritized tasks ready to be worked, with the highest priority towards the top.
-- {guilabel}`Committed` represents tasks we've committed to complete during the current sprint in the most recent sprint planning meeting. Each item should have at least one owner.
-- {guilabel}`In Progress` represents actively worked tasks.
-- {guilabel}`In Review/Blocked` represents tasks that need to be review before being marked as done or that cannot be completed without additional actions/support.
-- {guilabel}`Done` represents completed tasks to be celebrated and archived in the next sprint planning meeting.
-
+### 4. Demo/Showcase (NOT CURRENTLY IMPLEMENTED)
+To be implemented.
 
 (meetings:retrospective)=
-### The Retrospective Meeting
+### 5.Retrospective/Continuous improvement
 
-At the end of each sprint, the team holds a retrospective meeting to reflect and identify actions to improve the team's ways of working and delivery process. The retrospective is the process through which the team achieves continuous improvement for **all** their other processes.
+At the end of each iteration, the team holds a retrospective meeting to reflect and identify actions to improve the team's ways of working and delivery process. The retrospective is the process through which the team achieves continuous improvement for **all** their other processes. When done effectively, this event will enable us to make data-informed decisions regarding what key changes to adopt, amplify or discard from our processes.
 
 #### The Duration of the Retrospective
 
-The retrospective is 45 minutes long and is usually held on the last day of each sprint.
-It is held at a time to maximise attendance from the engineering team.
+The retrospective is 45 minutes long and is usually held on the last day of each iteration. It is held at a time to maximise attendance from the engineering team.
 
 On rare occasions, when the team experiences duress or unpredictable and disruptive events, they may choose to have a specific retrospective to learn from those events.
 
@@ -202,7 +233,28 @@ Team members are expected to try populate the board ahead of time to the extent 
 
 #### How do Generated Actions move into and get committed to the Team's Next Sprint?
 
-The general rule is that actions are also work and should be refined and prioritized like any other work.
+The __general rule__ is that actions are also work and should be refined and prioritized like any other work.
+
+(coordination:sprint-board)=
+### The Iteration Board
+
+The [Iteration Board](https://github.com/orgs/2i2c-org/projects/49/views/1) is a place to keep track of the [Deliverables and tasks](coordination:deliverables) our team intends to work on for a two week iteration.
+
+The board is a GitHub Projects board that is populated with tasks during the teams Iteration Planning activity.
+
+The team's goal is to complete all items on the Sprint Board by the end of the Sprint.
+This is a team commitment - while one person may be assigned to a deliverable, we all commit to working together to get the work done.
+
+The Sprint Board is broken down into different columns that represent the team's delivery workflow. The team owns the design of this workflow and should change the workflow process to best suit their way of working and to optimize for sustainable delivery.
+
+The current queues of work represented by the board are:
+
+- {guilabel}`Backlog` represents tasks pending refinement as driven by backlog refinement meetings.
+- {guilabel}`Refined` represents prioritized tasks ready to be worked, with the highest priority towards the top.
+- {guilabel}`Committed` represents tasks we've committed to complete during the current sprint in the most recent sprint planning meeting. Each item should have at least one owner.
+- {guilabel}`In Progress` represents actively worked tasks.
+- {guilabel}`In Review/Blocked` represents tasks that need to be review before being marked as done or that cannot be completed without additional actions/support.
+- {guilabel}`Done` represents completed tasks to be celebrated and archived in the next sprint planning meeting.
 
 (coordination:deliverables)=
 ## Deliverables and work issues
@@ -212,13 +264,11 @@ They are **encoded as GitHub Issues** and updated over time as we learn more abo
 Most issues in our repositories are deliverables, in varying states of readiness.
 
 :::{note}
-
 We use the word "deliverable" loosely here - some issues may be more like tasks rather than an end-product.
 The important thing is that they have high-quality information and structure, clearly denote value, and are actionable.
-
 :::
 
-### How are deliverables structured?
+### How are deliverables structured? (OUTDATED)
 
 There are a few special sections of a deliverable issue.
 Not all of them are strictly required, but are particularly useful for more complex or long-lasting deliverables.
@@ -256,19 +306,19 @@ These items adhere to the following principles:
 - Items on the board should have a **status** that signals whether they are ready to work or need more refinement before working.
 - If an item has multiple components or would otherwise take longer than a sprint to complete, create new issues as sub-tasks, and add *them* to the Sprint Board.
 
-### Assigning to an issue
+### Assigning to an issue (OUTDATED)
 
 Only assign a backlog issue to somebody if it is **actively being worked on**.
-We assume that once somebody is assigned to an issue, it is part of an active sprint.
-Note that **all** issues on our Sprint Backlog should have somebody assigned to them.
+We assume that once somebody is assigned to an issue, it is part of an active iteration.
+Note that **all** issues on our Iteration Backlog should have somebody assigned to them.
 
 :::{admonition} Our definition of "Work in Progress"
 Because issues that are actively being worked on must have somebody assigned to them, we use "the issues that have somebody assigned to them" as our definition of Work in Progress.
 :::
 
-### Backlog item limits
+### Backlog item limits (OUTDATED)
 
-Our goal is to have backlog items that roughly cover the next 3 [sprint cycles](coordination:sprints).
+Our goal is to have backlog items that roughly cover the next 3 [iteration cycles](coordination:sprints).
 We **should not have more backlog items than this amount**.
 
 You can estimate the number of items on the board at any one time by assuming that **each team member (at 100% FTE) can accomplish about 2 items per sprint**.
