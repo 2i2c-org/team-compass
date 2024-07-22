@@ -193,21 +193,26 @@ Loop over each datasource, test the connection to the hub and then call the `get
 
 ```{code-cell} ipython3
 activity=[]
+# datasources = datasources.drop([0], axis=0)  # Remove support server
 for prometheus_uid in datasources['uid']:
     # Test connection to hub
     try:
         r = requests.get(datasources.loc[datasources['uid']==prometheus_uid, 'url'].values[0])
     except requests.exceptions.RequestException as err:
-        print(f"{datasources.loc[datasources['uid']==prometheus_uid, 'name'].values[0]}: Error{err}: ")
+        print(f"{datasources.loc[datasources['uid']==prometheus_uid, 'name'].values[0]}: Error {err}")
         continue
     # Query Prometheus server
     prometheus = get_pandas_prometheus("https://grafana.pilot.2i2c.cloud", GRAFANA_TOKEN, prometheus_uid)
-    df = prometheus.query_range(
-        query,
-        dateparser_parse("1 month ago"),
-        dateparser_parse("now"),
-        "1d",
-    )
+    try:
+        df = prometheus.query_range(
+            query,
+            dateparser_parse("1 month ago"),
+            dateparser_parse("now"),
+            "1d",
+        )
+    except ValueError as err:
+        print(f"datasources.loc[datasources['uid']==prometheus_uid, 'url'].values[0]: Error {err}")
+
     activity.append(df)
 df = pd.concat(activity)
 ```
