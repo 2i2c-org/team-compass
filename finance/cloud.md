@@ -31,8 +31,8 @@ Here's an issue where we are refining this process:
 
 ## Shared clusters
 
-:::{admonition} Currently unavailable for new clusters
-We are not offering any new shared clusters that are shared by multiple communities. The overhead of managing a shared cluster currently outweighs the administrative overheads. We will revisit this later as we refine our product process.
+:::{admonition} Currently unavailable for new communities
+We are not offering any new shared hubs on the clusters centrally managed by 2i2c at this point.  We will revisit this later as we refine our product process.
 :::
 
 When usage on a cluster is shared by many communities, we must divide the monthly cloud infrastructure cost between each of these communities.
