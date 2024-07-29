@@ -41,10 +41,10 @@ Our team works in **two-week iterations**. Here is a brief overview of each Iter
 Before Iteration
 : Ensure the Refined column has ranked (prioritized and sequenced) work items 
 
-Beginning of Iteartion
+Beginning of Iteration
 : Iteration begins with our [Iteration planning meeting](meetings:sprint-planning).
 
-  In this meeting we discuss major accomplishments in the previous iteration, review past capacity committments. We then size and assign the items that each team member will work on for the next iteartion, and review items that require discussion and planning.
+  In this meeting we discuss major accomplishments in the previous iteration, review past capacity committments. We then size and assign the items that each team member will work on for the next iteration, and review items that require discussion and planning.
 
 During the Iteration
 : Team members work on the items assigned to them at the iteration planning meeting.
@@ -63,7 +63,7 @@ Last day of Iteration
 ### 1. Pre-planning and refinement
 
 The Refinement meetings prepares the Iteration board for the Iteration planning
-meetings, which relies on having sequenced and prioritized tasks to be available in board's Refined column.
+meetings, which relies on having sequenced and prioritized tasks to be available in the board's Refined column.
 
 Backlog refinement meetings should drive:
 - creation of tasks into the sprint board's backlog column
@@ -98,11 +98,13 @@ At the end of this meeting, we will have:
 
 1. Owners assigned to resolve the different risks. These individuals will create working sessions and coordinate the necessary domain experts who will be responsible for resolving the risks. NB: The owner is accountable to ensure the working sessions happen. They are not responsible for the actual solutions as this may belong to separate domain experts. A deliverable cannot be committed as part of the iteration if there are dependencies with other teams AND those other teams have not committed to completing the work within the current iteration or if the work was not previously completed in an earlier iteration.
 
-Tip 🥷: This meetings provides us a golden opportunity to:
+```{tip}
+This meeting provides us a golden opportunity to:
 - Not overwhelm any team member
 - Under-estimate our team's total capacity and to provide room for unexpected work (e.g., support work)
 - Limit the amount of work in process across Engineering (system optimisation)
 - Ensure that we are focused on delivering the highest value work (value optimisation).
+```
 
 See [the Sprint Planning issue template](https://github.com/2i2c-org/team-compass/blob/main/.github/ISSUE_TEMPLATE/meeting-sprint-planning.md) for the agenda / structure of these meetings.
 
@@ -114,8 +116,8 @@ Each sync ensures team members focus on the most important tasks and allows the 
 
 #### Guidelines for the standup
 These are guidelines for the standup. Ideally, these meetings should not extend beyond 15 minutes and each person will answer these questions:
-- _What am I working on?_ This helps the team to understand their progress towoards completing work towards their iteration goal.
-- _What will I work on next?_ This ensure that we working on the "right things" and limiting work unplanned work.
+- _What am I working on?_ This helps the team to understand their progress towards completing work towards their iteration goal.
+- _What will I work on next?_ This ensures that we working on the "right things" and limiting unplanned work.
 - _What am I blocked on, or what do I foresee could be a blocker?_ This provides an opportunity for team members to ask for help and surface issues that may prevent the team from achiving it's iteration goal. 
 - _Have I learned anything that needs to be addressed by/shared with the group?_ This maximizes shared-learning across the team (e.g. Here's a faster way to configure and deploy docker scripts from Kubernetes).
 
@@ -233,7 +235,7 @@ Team members are expected to try populate the board ahead of time to the extent 
 
 #### How do Generated Actions move into and get committed to the Team's Next Sprint?
 
-The __general rule__ is that actions are also work and should be refined and prioritized like any other work.
+The _general rule_ is that actions are also work and should be refined and prioritized like any other work.
 
 (coordination:sprint-board)=
 ### The Iteration Board
