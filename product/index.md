@@ -5,7 +5,6 @@ They work alongside engineering teams to define ways in which we aim to improve 
 
 ```{toctree}
 overview.md
-principles.md
 structure.md
 deliveryflow.md
 prioritization.md

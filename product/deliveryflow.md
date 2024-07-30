@@ -24,7 +24,7 @@ To learn how to do this, see [the Productboard team primer and guide](https://do
 
 ## 0. Our product operations principles
 
-First off, read [](principles.md) to understand the high-level goals and principles that drive this work, and lead to the system below.
+First off, read [the Product overview and principles section](overview.md) to understand the high-level goals and principles that drive this work, and lead to the system below.
 
 ## 1. The insights board
 
