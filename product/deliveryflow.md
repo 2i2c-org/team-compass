@@ -9,18 +9,18 @@ Process diagram of 2i2c's [Product Delivery Flow](https://miro.com/app/board/uXj
 
 This document outlines such a process, designed to be transparent to the organization about what’s been worked on at any time, and to provide clear communication and collaboration points between Product, Engineering and any stakeholders, internal or external, that have a vested interest in the outcome of a project.
 
-:::{admonition} ProductBoard is where most Product conversation happens
+:::{admonition} Productboard is where most Product conversation happens
 
-We use a tool called [ProductBoard](https://www.ProductBoard.com/) to provide us with a centralized place for storing, tagging and later mining ideas around our product roadmap.
+We use a tool called [Productboard](https://www.productboard.com/) to provide us with a centralized place for storing, tagging and later mining ideas around our product roadmap.
 This gives our team the ability to fully consider, prioritize, and potentially action the most important ideas.
 
-[The ProductBoard team guide and primer](https://docs.google.com/document/d/1UkFcv2klEBOEnZ4CoB7PnVYS6MNOn5fCfM7unbco2lI/edit?usp=sharing) describes how anyone on our team can use ProductBoard.
+[The Productboard team guide and primer](https://docs.google.com/document/d/1UkFcv2klEBOEnZ4CoB7PnVYS6MNOn5fCfM7unbco2lI/edit?usp=sharing) describes how anyone on our team can use Productboard.
 :::
 
 ## How most team members participate in this process
 
 All team members are encouraged to participate in the Product process by **providing, refining, and discussing Insights**.
-To learn how to do this, see [the ProductBoard team primer and guide](https://docs.google.com/document/d/1UkFcv2klEBOEnZ4CoB7PnVYS6MNOn5fCfM7unbco2lI/edit#bookmark=id.27fegmw16krg).
+To learn how to do this, see [the Productboard team primer and guide](https://docs.google.com/document/d/1UkFcv2klEBOEnZ4CoB7PnVYS6MNOn5fCfM7unbco2lI/edit#bookmark=id.27fegmw16krg).
 
 ## 0. Our product operations principles
 
@@ -28,10 +28,10 @@ First off, read [](principles.md) to understand the high-level goals and princip
 
 ## 1. The insights board
 
-Insights are tracked in [our Insights Boards](https://2i2c.ProductBoard.com/folder/MTpOYXZpZ2F0aW9uRm9sZGVyOjQ0OTc5ZmRmLWU0MTYtNDNiMS1hYzg1LTllZjFkZmQ4N2Q1Zg==).
+Insights are tracked in [our Insights Boards](https://2i2c.productboard.com/folder/MTpOYXZpZ2F0aW9uRm9sZGVyOjQ0OTc5ZmRmLWU0MTYtNDNiMS1hYzg1LTllZjFkZmQ4N2Q1Zg==).
 
 :::{admonition} How to add Insights to Product Board
-See the [Guide to adding Insights in ProductBoard](https://docs.google.com/document/d/1UkFcv2klEBOEnZ4CoB7PnVYS6MNOn5fCfM7unbco2lI/edit?usp=sharing).
+See the [Guide to adding Insights in Productboard](https://docs.google.com/document/d/1UkFcv2klEBOEnZ4CoB7PnVYS6MNOn5fCfM7unbco2lI/edit?usp=sharing).
 :::
 
 Any good product delivery flow starts with establishing a centralized repository for insights, a place to collect our knowledge of the wants and needs of the community partners and other customers we serve, and to record conversations we’ve had with partners about specific product enhancements we may want to consider. 
@@ -46,7 +46,7 @@ Formerly, insights relevant to product improvements were captured on GitHub as c
 
 ## 2. The Ideas board
 
-Ideas are tracked in [our Roadmaps boards](https://2i2c.ProductBoard.com/folder/MTpOYXZpZ2F0aW9uRm9sZGVyOjExNGJhMzQxLWQwN2EtNDhlNy05MjVlLWZiNTY4OWVmODBmYw==) as well as [our Feature boards](https://2i2c.ProductBoard.com/folder/MTpOYXZpZ2F0aW9uRm9sZGVyOmQ2YmY3ZTVkLTFhY2UtNGU4My1hMDJjLTRmMzhhOGUyZDkxMw==).
+Ideas are tracked in [our Roadmaps boards](https://2i2c.productboard.com/folder/MTpOYXZpZ2F0aW9uRm9sZGVyOjExNGJhMzQxLWQwN2EtNDhlNy05MjVlLWZiNTY4OWVmODBmYw==) as well as [our Feature boards](https://2i2c.productboard.com/folder/MTpOYXZpZ2F0aW9uRm9sZGVyOmQ2YmY3ZTVkLTFhY2UtNGU4My1hMDJjLTRmMzhhOGUyZDkxMw==).
 
 ### What is an idea
 
@@ -89,7 +89,7 @@ Ideas should be classified as one of the following, each with its own ticket tem
 
 ## 3. Product Initiatives
 
-Initiatives are tracked in [our Roadmaps boards](https://2i2c.ProductBoard.com/folder/MTpOYXZpZ2F0aW9uRm9sZGVyOjExNGJhMzQxLWQwN2EtNDhlNy05MjVlLWZiNTY4OWVmODBmYw==) as well as [our Feature boards](https://2i2c.ProductBoard.com/folder/MTpOYXZpZ2F0aW9uRm9sZGVyOmQ2YmY3ZTVkLTFhY2UtNGU4My1hMDJjLTRmMzhhOGUyZDkxMw==).
+Initiatives are tracked in [our Roadmaps boards](https://2i2c.productboard.com/folder/MTpOYXZpZ2F0aW9uRm9sZGVyOjExNGJhMzQxLWQwN2EtNDhlNy05MjVlLWZiNTY4OWVmODBmYw==) as well as [our Feature boards](https://2i2c.productboard.com/folder/MTpOYXZpZ2F0aW9uRm9sZGVyOmQ2YmY3ZTVkLTFhY2UtNGU4My1hMDJjLTRmMzhhOGUyZDkxMw==).
 
 Product Initiatives are ideas that we have decided to take a deeper look at, with a view to implementing them to produce value for 2i2c or its communities. The Product Lead, in collaboration with any relevant stakeholders and 2i2c’s Leadership team, will normally determine when an idea is worth taking forward to the Initiative stage. 
 
