@@ -5,9 +5,10 @@ They work alongside engineering teams to define ways in which we aim to improve 
 
 ```{toctree}
 overview.md
+principles.md
 structure.md
 deliveryflow.md
 prioritization.md
-pricing/strategy
-pricing/cost-model
+pricing/strategy.md
+pricing/cost-model.md
 ```

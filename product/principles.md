@@ -1,9 +1,4 @@
-# Scope and responsibilities
-
-Product describes the services and technology that 2i2c provides, the value they are meant to provide, and the stakeholders and user archetypes that are meant for.
-
-This section is used to collect and share broad product-related information and strategy.
-It is maintained by the {role}`Product Lead <product-lead>`.
+# Product Operations Principles
 
 ## Background
 
@@ -25,6 +20,8 @@ This will necessarily affect the interaction between Partnerships, Product and E
 
 The product delivery flow outlined herein is meant to provide a framework whereby input from community stakeholders can be recorded, assessed, triaged and prioritized in alignment with what it is we want to achieve as an organization. 
 
+## Principles of our Product function
+
 Here are some basic principles we need to keep in mind as we adopt a more intentional way of building product:
 
 - Not all feature requests are equally important.
@@ -36,3 +33,11 @@ Here are some basic principles we need to keep in mind as we adopt a more intent
 - We need to balance competing interests. What’s best for science? What’s best for this community? What’s best for 2i2c? What’s best for the upstream open source projects we contribute to?
 
 By collectively signing up to these principles, we have given ourselves permission to say no to projects that are not aligned with our long term goals or those of the communities we serve, and preserve our ability to intentionally move towards those goals.
+
+## The importance of a multi-stakeholder product flow
+
+2i2c faces three key challenges in the coming years: (1) expanding its community partner base, (2) achieving a pricing model that fosters sustainable growth, (3) lessen our dependence on external funding.
+
+In order to achieve these, we need to adopt a process that lets us balance pro-active tasks (e.g. developing new features for our products and services in line with our Value Proposition) against reactive tasks (e.g. community support tickets).
+
+It’s key that this process be agreed upon by all stakeholders within the organization, but specifically the Product Lead and Delivery Manager, with the Product Lead being responsible for defining the priority of major strategic initiatives, projects and milestones, and the Delivery Manager being responsible for how those projects are broken down into tasks for our Engineering team to work on, and how progress and team performance is tracked.
