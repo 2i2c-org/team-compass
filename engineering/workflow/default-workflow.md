@@ -86,7 +86,7 @@ The goal of this meeting is to synchronize with one another and commit to work t
 
 #### Planning Outcomes:
 At the end of this meeting, we will have:
-1. A list of team deliverables that the team commits to completing within the iteration time box. These deliverables will represent work from:
+1. A [_sized_](eng:processes:task-sizing) list of team deliverables that the team commits to completing within the iteration time box. These deliverables will represent work from:
     - Grant/Funding
     - Partnerships
     - Product Roadmap
