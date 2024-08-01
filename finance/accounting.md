@@ -4,6 +4,10 @@ Accounting data describes the money that we **know** we have spent or that we **
 
 ## Accounting transactions airtable
 
+:::{admonition} This is not reliable
+This is not currently reliable, and we should update this section once it is.
+:::
+
 {term}`CS&S` provides us a monthly dataset of the last 6 months of all of all our accounting transactions.
 This is [in a Google Sheet that is automatically updated each day][gsheet].
 It includes the last 6 months of any transaction 2i2c has made (if we need more than 6 months of history, ask `fsp@2i2c.org` for a custom data dump).
@@ -48,6 +52,8 @@ Here's a brief video describing the above process.
 
 CS&S generates monthly reports for our current financial situation.
 You can find them in [our financial reports folder](https://drive.google.com/drive/folders/1vM_QX1J8GW5z8W5WemxhhVjcCS2kEovN?usp=sharing).
+
+When these monthly reports come in, it triggers [the monthly budget projection process](monthly-process.md).
 
 Below are some Frequently Asked Questions along with a more detailed description of these reports.
 
