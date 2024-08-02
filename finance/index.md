@@ -7,6 +7,7 @@ overview
 strategy
 accounting
 contracts
+fundraising
 projections
 payments
 cloud
