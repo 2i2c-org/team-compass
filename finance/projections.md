@@ -16,6 +16,10 @@ It is stored as a Google Sheet at the following link:
 Budget projections model
 ```
 
+:::{admonition} Check out this video overview
+See [this video overview of the budget model](https://drive.google.com/file/d/1acDkO3jWifNtDl2LDkD37lKHtnjRf_jC/view?usp=drive_link) for an idea of how it is structured and how to use it.
+:::
+
 ## Update our budget projections model
 
 Each month, we get a new batch of accounting data from CS&S.
