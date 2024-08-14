@@ -20,7 +20,7 @@ We just have not had the resources to plan for this kind of engagement.
 ## Twitter
 
 Our Twitter handle is ([@2i2c_org](https://twitter.com/2i2c_org)).
-Currently, there is nobody activately monitoring the Twitter account.
+Currently, there is nobody actively monitoring the Twitter account.
 
 **How to access**: See [](account:bitwarden).
 
