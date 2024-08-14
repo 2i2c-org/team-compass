@@ -1,21 +1,21 @@
 ---
-jupytext:
-  text_representation:
-    extension: .md
-    format_name: myst
-    format_version: 0.13
-    jupytext_version: 1.16.2
-kernelspec:
-  display_name: Python 3 (ipykernel)
-  language: python
-  name: python3
+jupyter:
+  jupytext:
+    custom_cell_magics: kql
+    text_representation:
+      extension: .md
+      format_name: markdown
+      format_version: '1.3'
+      jupytext_version: 1.11.2
+  kernelspec:
+    display_name: Python 3 (ipykernel)
+    language: python
+    name: python3
 ---
 
-+++ {"editable": true, "slideshow": {"slide_type": ""}}
-
+<!-- #region editable=true slideshow={"slide_type": ""} -->
 # Track Hub Usage with Grafana
-
-+++
+<!-- #endregion -->
 
 ## Overview
 
@@ -23,7 +23,6 @@ Grafana is an open source analytics and interactive visualization web applicatio
 
 Grafana dashboard deployments for 2i2c hubs (k8s+JupyterHub) follow the templates outlined in the GitHub repository https://github.com/jupyterhub/grafana-dashboards. Note that Prometheus data is retained for 1 year on 2i2c hubs.
 
-+++
 
 ## Prerequisites
 
@@ -46,7 +45,6 @@ See [Grafana docs – Service Accounts](https://grafana.com/docs/grafana/latest/
 
 See [](../../reference/documentation/secrets.md) for a general guide to configuring access to the Grafana Token in a local development environment, or while deploying documentation with GitHub actions or Read the Docs.
 
-+++
 
 (hub-activity:python-packages)=
 ### Python packages
@@ -58,7 +56,6 @@ We require the following Python packages to run the code in this guide:
 - `prometheus-pandas` – query Prometheus and format into Pandas data structures
 - `plotly` – visualize interactive plots
 
-+++
 
 ### Javascript
 
@@ -75,11 +72,11 @@ https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"
 
 ## Import packages and define functions
 
-+++
 
 Import packages and set the Pandas plotting backend to the Plotly engine.
 
-```{code-cell} ipython3
+<!-- #region -->
+```python
 import os
 import re
 import requests
@@ -92,17 +89,21 @@ import plotly.graph_objects as go
 
 pd.options.plotting.backend = "plotly"
 ```
+<!-- #endregion -->
 
 Load the Grafana token as an environment variable from the `.env` file or GitHub/Read the Docs secret.
 
-```{code-cell} ipython3
+<!-- #region -->
+```python
 load_dotenv()
 GRAFANA_TOKEN = os.environ["GRAFANA_TOKEN"]
 ```
+<!-- #endregion -->
 
 Define a `get_default_prometheus_uid` function to get the unique id of the Prometheus data source.
 
-```{code-cell} ipython3
+<!-- #region -->
+```python
 def get_prometheus_datasources(grafana_url: str, grafana_token: str) -> str:
     """
     Get the uid of the default Prometheus configured for this Grafana.
@@ -131,12 +132,13 @@ def get_prometheus_datasources(grafana_url: str, grafana_token: str) -> str:
     # Filter for sources with type prometheus
     df = df.query("type == 'prometheus'")
     return df
-            
 ```
+<!-- #endregion -->
 
 Define the `get_pandas_prometheus` function that creates and Prometheus client and formats the result into a pandas dataframe.
 
-```{code-cell} ipython3
+<!-- #region -->
+```python
 def get_pandas_prometheus(grafana_url: str, grafana_token: str, prometheus_uid: str):
     """
     Create a Prometheus client and format the result as a pandas data stucture.
@@ -159,26 +161,30 @@ def get_pandas_prometheus(grafana_url: str, grafana_token: str, prometheus_uid: 
     proxy_url = f"{grafana_url}/api/datasources/proxy/uid/{prometheus_uid}/"  # API URL to query server
     return Prometheus(proxy_url, session)
 ```
+<!-- #endregion -->
 
 ## Execute the main program
 
-+++
 
 Fetch all available data sources from Prometheus.
 
-```{code-cell} ipython3
+<!-- #region -->
+```python
 datasources = get_prometheus_datasources("https://grafana.pilot.2i2c.cloud", GRAFANA_TOKEN)
 ```
+<!-- #endregion -->
 
 Define a query for the data source using [PromQL](https://prometheus.io/docs/prometheus/latest/querying/basics/), formatted as a string. The query below finds the maximum number of unique users over the last 24 hour period and aggregrates by hub name.
 
-```{code-cell} ipython3
+<!-- #region -->
+```python
 query = """
         max(
           jupyterhub_active_users{period="24h", namespace=~".*"}
         ) by (namespace)
         """
 ```
+<!-- #endregion -->
 
 :::{note}
 
@@ -187,11 +193,11 @@ Writing efficient PromQL queries is important to make sure that the query actual
 You can borrow a lot of useful queries from the GitHub repository [jupyterhub/grafana-dashboards](https://github.com/jupyterhub/grafana-dashboards), from inside the `jsonnet` files. The primary thing you may need to modify is getting rid of the `$hub` template parameter from queries.
 :::
 
-+++
 
 Loop over each datasource, test the connection to the hub and then call the `get_pandas_prometheus()` function to create a Prometheus client for querying the server with the API. Evaluate the query from the last month to now with a step size of 1 day and output the results to a pandas dataframe. Save each output into an `activity` list item and then concatenate the results together at the end.
 
-```{code-cell} ipython3
+<!-- #region -->
+```python
 activity=[]
 # datasources = datasources.drop([0], axis=0)  # Remove support server
 for prometheus_uid in datasources['uid']:
@@ -216,36 +222,42 @@ for prometheus_uid in datasources['uid']:
     activity.append(df)
 df = pd.concat(activity)
 ```
+<!-- #endregion -->
 
 ## Pre-process and visualize the results
 
-+++
 
 Round the datetime index to nearest calendar day.
 
-```{code-cell} ipython3
+<!-- #region -->
+```python
 df.index = df.index.floor('D')
 ```
+<!-- #endregion -->
 
 Rename the hubs from the raw data, `{namespace="<hub_name>"}`, to a human readable format using regex to extract the `<hub_name>` from the `"` double-quotes.
 
-```{code-cell} ipython3
+<!-- #region -->
+```python
 df.columns = [re.findall(r'[^"]+', col)[1] for col in df.columns]
 ```
+<!-- #endregion -->
 
 Sort hubs by most number of unique users over time.
 
-```{code-cell} ipython3
+<!-- #region -->
+```python
 df = df.reindex(df.sum().sort_values(ascending=False).index, axis=1)
 ```
+<!-- #endregion -->
 
 ### Unique users in the last 24 hours
 
-+++
 
 Plot the data! 📊
 
-```{code-cell} ipython3
+<!-- #region -->
+```python
 fig = go.Figure()
 for col in df.columns:
     fig.add_trace(go.Bar(
@@ -264,7 +276,6 @@ fig.update_layout(
     )
 fig.show()
 ```
+<!-- #endregion -->
 
-```{code-cell} ipython3
-
-```
+![](../images/hub-activity.png)

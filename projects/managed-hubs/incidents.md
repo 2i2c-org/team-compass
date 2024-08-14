@@ -2,7 +2,7 @@
 # Incident response
 
 When an {term}`Incident` is declared, we trigger a special response in order to ensure that it is resolved quickly.
-This section describes our incident response process, major roles and terminology, and what to expect.[^google-sre][^acm-blog][^wikimedia-clinic-duty].
+This section describes our incident response process, major roles and terminology, and what to expect.[^incident-refs][^google-sre][^acm-blog][^wikimedia-clinic-duty].
 
 [^incident-refs]: The [PagerDuty Incident Response Guide](https://response.pagerduty.com/) is a good description of the Incident Command role and how it relates to similar roles.
 
