@@ -79,6 +79,14 @@ This table contains a list of standard services that are rendered by engineering
 
 Every deliverable that is [added to a grant or project](grants-and-projects:leads) in the Leads table (see above) is displayed as a row on this table with a collection of leads associated with each one. As noted above, services that do not exist yet can be updated here. **Take care not to introduce similar entries to minimize complexity**, e.g. "run a training workshop" can be represented by the broader "run an event" deliverable, and **consider whether the new item needs to go through the [Product Delivery Flow](../../product/deliveryflow.md).**
 
+There are 5 broad Service Types that each deliverable is categorized under. These are:
+
+1. Hub service - standard services that can be provided "out-of-the-box".
+1. Software Development - engineering services that are non-standard and do not feed into the Product Delivery Flow, e.g. feature development in collaboration with an external partner.
+1. Technical guidance - the generally includes support for using hub services that can be handled by the community success team on the frontline and may be escalated to engineering where needed.
+1. Community guidance/consultancy - community success services that are usually written into grants and projects and implicit work that is done to support community partners, e.g. participation in community meetings.
+1. Training and events - any services related to time-sensitive support for an event or training delivery.
+
 *This ensures we have a reliable way to answer "which contracts will deliverable X feed into?"*
 
 ##### Area of responsibility
@@ -91,15 +99,7 @@ Every deliverable that is [added to a grant or project](grants-and-projects:lead
 
 This table contains a unique row for **each deliverable per project**. The table is populated using an AirTable automation to expand the collection of deliverables associated with each grant and project in the Leads table each time a record is updated.
 
-There are 5 broad Service Types that each deliverable is categorized under. These are:
-
-1. Hub service - standard services that can be provided "out-of-the-box".
-1. Software Development - engineering services that are non-standard and do not feed into the Product Delivery Flow, e.g. feature development in collaboration with an external partner.
-1. Technical guidance - the generally includes support for using hub services that can be handled by the community success team on the frontline and may be escalated to engineering where needed.
-1. Community guidance/consultancy - community success services that are usually written into grants and projects and implicit work that is done to support community partners, e.g. participation in community meetings.
-1. Training and events - any services related to time-sensitive support for an event or training delivery.
-
-This data is useful for assigning deadlines and capacity planning. This gives a
+This data is useful for assigning deadlines and capacity planning. This collates distributed knowledge across the 2i2c team and requires upkeep on a case-by-case basis, e.g. deliverable deadlines, hub event dates, etc.
 
 *A reliable way to answer "what deliverables _must_ we complete by date Y because of contracts?"*
 
@@ -109,4 +109,4 @@ and
 
 ##### Area of responsibility
 
-- [ ] {role}`Chief of Staff` and {role}`Engineering Manager` with support from the Partnerships team to ascertain deadlines.
+- [ ] {role}`Chief of Staff` and {role}`Engineering Manager` with support from across the 2i2c team to ascertain deadlines, etc.
