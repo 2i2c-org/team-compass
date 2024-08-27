@@ -1,3 +1,4 @@
+import os
 from pathlib import Path
 from subprocess import run
 
@@ -146,3 +147,15 @@ run(f"python {path_script}", shell=True)
 nb_execution_timeout = -1  # no timeout
 nb_execution_mode = 'auto'
 suppress_warnings = ["mystnb.unknown_mime_type"]
+
+# -- Set canonical custom domain via html_baseurl -----------
+# -- See https://github.com/2i2c-org/infrastructure/issues/4629
+
+html_context = {}
+
+# Set canonical URL from the Read the Docs Domain
+html_baseurl = os.environ.get("READTHEDOCS_CANONICAL_URL", "")
+
+# Tell Jinja2 templates the build is running on Read the Docs
+if os.environ.get("READTHEDOCS", "") == "True":
+    html_context["READTHEDOCS"] = True
