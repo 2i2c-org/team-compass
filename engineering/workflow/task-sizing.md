@@ -17,6 +17,8 @@ The practices documented below are unconventional and the team may wish to refle
 
 ### Unplanned work
 
+Unplanned work is any item worked on during an iteration that was not explicitly committed to, by means of being added to the Committed column of the Engineering board, during the Iteration Planning meeting.
+
 Sometimes unplanned work comes in via channels outside of the planning meeting, such as partnerships support or tech support.
 The team member assigned to complete the task assigns story points as they see fit.
 
