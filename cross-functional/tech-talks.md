@@ -54,7 +54,7 @@ Here is a list of topic areas that could generate a Tech Talk _in order of prefe
 There is a [wiki page](https://github.com/2i2c-org/meta/wiki/%22Brown-Bag%22-Tech-Talks) within the `meta` repository (so requires GitHub org membership to access) which tracks the upcoming schedule and topics.
 We also maintain a list of requested topics on that page.
 
-For posterity, there is also a [previous talks wiki page](https://github.com/2i2c-org/meta/wiki/Previous-%22Brown-Bag%22-Tech-Talks) which will record
+For posterity, there is also a [previous talks wiki page](https://github.com/2i2c-org/meta/wiki/Previous-%22Brown-Bag%22-Tech-Talks) which will record what the series has already covered, along with any resources.
 
 ## Presentation formats
 
