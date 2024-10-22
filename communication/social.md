@@ -17,6 +17,10 @@ Here are a few things to post:
 We don't usually use social media to engage directly with other individuals or organizations, though it's not explicitly forbidden.
 We just have not had the resources to plan for this kind of engagement.
 
+## Scheduling social media campaigns
+
+
+
 ## Twitter
 
 Our Twitter handle is ([@2i2c_org](https://twitter.com/2i2c_org)).
