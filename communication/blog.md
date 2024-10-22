@@ -36,9 +36,10 @@ We use AirTable for systematically planning content and scheduling blog posts. T
 Do not include sensitive information in the AirTable. Information will become public on our open-source, website GitHub repository when scheduling content.
 :::
 
+(blog:airtable-form)=
 ### AirTable Form
 
-Use the form linked below to schedule new content pieces for [2i2c.org/blog](https://2i2c.org/blog). There is also the option to schedule a social media campaign along with the blog post – see [Social Media](social.md#scheduling-social-media-campaigns-with-airtable) for more details on this workflow.
+Use the form linked below to schedule new content pieces for [2i2c.org/blog](https://2i2c.org/blog). There is also the option to schedule a social media campaign along with the blog post – see [Social Media](social:scheduling) for more details on this workflow.
 
 :::{button-link} https://airtable.com/appM2L2x1uglMU0hy/pagy7CvM0msgqRCcA/form 
 :color: primary
@@ -47,7 +48,7 @@ Submit Your Content
 
 ### Scheduling blog posts
 
-Information collected from the [AirTable form](#airtable-form) is stored in the *Content* table of the [Content Planning and Scheduling](https://airtable.com/appM2L2x1uglMU0hy?ao=cmVjZW50) AirTable base that is used to prioritize content for publication, and coordinate the work for publication using [GitHub issues](https://github.com/2i2c-org/2i2c-org.github.io/issues) in our website repository.
+Information collected from the [AirTable form](blog:airtable-form) is stored in the *Content* table of the [Content Planning and Scheduling](https://airtable.com/appM2L2x1uglMU0hy?ao=cmVjZW50) AirTable base that is used to prioritize content for publication, and coordinate the work for publication using [GitHub issues](https://github.com/2i2c-org/2i2c-org.github.io/issues) in our website repository.
 
 ![AirTable Content table](images/blog-airtable-content.png)
 
@@ -74,7 +75,7 @@ An example of an automated GitHub issue triggered from setting the {bdg-primary}
 
 #### Social Media Campaign?
 
-The form includes an option to schedule a social media campaign to promote the blog post. This may initially be left unchecked. If the box is checked and the *Social media campaign date* is specified, then this triggers an AirTable automation to populate the *Campaigns* table. See [Scheduling social media campaigns](social.md#scheduling-social-media-campaigns-with-airtable) for more information.
+The form includes an option to schedule a social media campaign to promote the blog post. This may initially be left unchecked. If the box is checked and the *Social media campaign date* is specified, then this triggers an AirTable automation to populate the *Campaigns* table. See [Scheduling social media campaigns](social:scheduling) for more information.
 
 #### Other fields
 
