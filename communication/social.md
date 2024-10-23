@@ -14,8 +14,8 @@ Here are a few things to post:
 - Advertising job posts and other items we want to draw attention to
 - Re-tweeting and boosting other team members and their accounts
 
-We don't usually use social media to engage directly with other individuals or organizations, though it's not explicitly forbidden.
-We just have not had the resources to plan for this kind of engagement.
+We don't usually use 2i2c's social media accounts to engage directly with other individuals or organizations, though we encourage individual team members to interact as themselves. 
+We have not had the resources to plan extensive social engagement as an organization.
 
 (social:scheduling)=
 ## Scheduling social media campaigns with AirTable
