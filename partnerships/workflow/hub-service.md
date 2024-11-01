@@ -35,22 +35,23 @@ These follow a process of `Lead` --> `Prospect` --> `Partner`.
 
 ### SOP: Hail the Lead
 
-A member of the 2i2c Partnerships Team sends an email to partnerships@2i2c.org requesting `Hail the Lead` action for **contact(s) with email addresses**. This message creates an issue in FreshDesk that will be used to track the lead as it progresses through the arc toward a singed partnership agreement.  2i2c's Partnerships Assistant carries out this action sequence:
+A member of the 2i2c Partnerships Team sends an email to partnerships@2i2c.org requesting `Hail the Lead` action for **contact(s) with email addresses**. This message creates an issue in FreshDesk that will be used to track the lead as it progresses through the arc toward a singed partnership agreement. 2i2c's Partnerships Assistant carries out this action sequence:
 
 
 1. Send Canned Response "Hail the Lead" from FreshDesk to contact email(s):
    ```
    Hello!
 
-   Thank you for your interest in learning more about 2i2c. Please find a service description with pricing information attached to this email. If you have questions or wish to connect for a conversation, reach out to us by email using partnerships@2i2c.org or [schedule a virtual meeting by clicking here](https://calendly.com/colliand/25-minute-zoom-meeting). 
+   Thank you for your interest in learning more about 2i2c.
+
+   If you wish to connect for a conversation, I invite you to [schedule a virtual meeting by clicking here](https://calendly.com/colliand/2i2c-30-minute-zoom-meeting). 
 
    Best regards, 
    2i2c's Partnerships Team
    ```
-2. Change `From` field to `partnerships@2i2c.org`.
-3. Add cc: partnerships@2i2c.org
-4. Confirm that service description has been automatically attached
-5. Confirm canned response includes a meeting invitation with 30 minute Calendly link
+1. Change `From` field to `partnerships@2i2c.org`.
+1. Add cc: partnerships@2i2c.org
+1. Confirm canned response includes a meeting invitation with 30 minute Calendly link
 
 ### SOP: Create running notes for the lead
 
