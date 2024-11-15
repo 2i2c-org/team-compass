@@ -60,6 +60,7 @@ Functional areas each have their own leads, goals, and structures.
 :caption: Functional Areas
 :maxdepth: 2
 
+biz-dev/index
 cross-functional/index
 engineering/index
 partnerships/index
