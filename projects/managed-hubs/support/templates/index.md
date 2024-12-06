@@ -5,7 +5,7 @@ Here are a collection of templates you can use when communicating with a communi
 in a support capacity. Ensure the values enclosed by `{{ }}` are filled in before
 sending.
 
-(support:templates:budget-alerts)
+(support:templates:budget-alerts)=
 ## Notifying a community champion of a budget alert trigger
 
 > **Subject line:** Notice of increased usage on JupyterHub cluster {{ cluser_name }}
