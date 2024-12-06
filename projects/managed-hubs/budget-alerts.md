@@ -16,3 +16,4 @@ There is a template message to help you get started at [](support:templates:budg
 1. Create a new email from freshdesk at https://2i2c.freshdesk.com/a/tickets/compose-email
 2. Get the community contact's information from https://airtable.com/appbjBTRIbgRiElkr/pagD3XyZjqBunYMnC
 3. Copy the message template from [](support:templates:budget-alerts) and paste it into the email's body editing it where appropriate
+4. Mark the original budget alert ticket as resolved.
