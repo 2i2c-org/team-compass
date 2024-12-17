@@ -1,9 +1,9 @@
 (documentation-secrets)=
 # Secrets, passwords and access tokens
 
-You may require access to secrets, passwords and access tokens for your documentation in a local development environment, or while deploying documentation using GitHub actions or Read the Docs. This section documents the recommended workflows for each of these cases.
+You may require access to secrets, passwords and access tokens for managing your hub in a local development environment, or during deployment using GitHub actions or Read the Docs. This section documents the recommended workflows for each of these cases.
 
-## Access a secret locally in a .env file 
+## Access a secret locally in a .env file
 
 Access your secret as an environment variable in a local development environment by storing it in a `.env` file. A `.env` file is a popular language-agnostic solution for secrets management and is parsed with the `python-dotenv` package.
 
@@ -17,6 +17,7 @@ Keep your secret secure and do not upload the `.env` file to a Git repo. Add `.e
    ```bash
    SECRET_NAME=<enter your secret here>
    ```
+
 1. Save and close.
 
 Access your secret in a Python code with
@@ -33,17 +34,17 @@ SECRET_NAME = os.environ["SECRET_NAME"]
 Add your secret as a GitHub an organizational-level repository secret to be used in GitHub actions when you build and publish online.
 
 :::{note}
-To create a secret for the 2i2c organization for multiple users, see the [GitHub Docs – Using secrets in GitHub actions](https://docs.github.com/en/actions/security-guides/using-secrets-in-github-actions#creating-secrets-for-an-organization). We recommend organization-level secrets against individual-level secrets to minimize the need to create duplicate secrets for multiple repositories.
+To create a secret for the GitHub organization for multiple users, see the [GitHub Docs – Using secrets in GitHub actions](https://docs.github.com/en/actions/security-guides/using-secrets-in-github-actions#creating-secrets-for-an-organization). We recommend organization-level secrets against individual-level secrets to minimize the need to create duplicate secrets for multiple repositories.
 :::
 
-1. Navigate to the 2i2c GitHub organization.
+1. Navigate to the GitHub organization.
 1. In the *{octicon}`gear` Settings* menu, click on *{octicon}`key-asterisk` Secrets and Tokens > Actions* in the left-side menu. 
 1. Under the *Organization Secrets* section, click on the {guilabel}`New organization secret` button.
 1. Enter the name of your secret in the *Name* field and paste in the value of your secret in the *Secret* field.
 1. Scope the secret to the relevant select repositories under the *Repository access* dropdown.
 1. Click {guilabel}`Add secret` to confirm.
 
-Following this, adjust your GitHub action workflow file to make the secret available to your job with the `env` key value. See the [GitHub Docs – Using secrets in GitHub actions](https://docs.github.com/en/actions/security-guides/using-secrets-in-github-actions#using-secrets-in-a-workflow) or the example code snippet from the `team-compass/.github/workflows/test-docs.yaml` file below:
+Following this, adjust your GitHub action workflow file to make the secret available to your job with the `env` key value. See the [GitHub Docs – Using secrets in GitHub actions](https://docs.github.com/en/actions/security-guides/using-secrets-in-github-actions#using-secrets-in-a-workflow) for a full guide. Here is an example snippet of the configuration below:
 
 ```yaml
 jobs:
