@@ -2,7 +2,7 @@
 ```
 # Head of Product and Services
 
-Primarily responsible for leading the [Product and Services](/product/index.md) group, ensuring the delivery of value for 2i2c in accordance with our KPIs, strategic direction, and Value Proposition. Additionally responsible for the Platform roadmap.
+Primarily responsible for leading the [Product and Services](/product-and-services/index.md) group, ensuring the delivery of value for 2i2c in accordance with our KPIs, strategic direction, and Value Proposition. Additionally responsible for the Platform roadmap.
 
 Strategic oversight of the Product and Services group, ensuring a coordinated and collaborative effort across skill sets to deliver value aligned with our business and community objectives.
 

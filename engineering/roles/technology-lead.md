@@ -20,7 +20,7 @@ Below is a short list of expectations for this role.
 - Acts as a point of escalation for complex technical problems, preferring to
   solve them with collaborative guidance rather than 'just doing it'.
 
-- Coordinate with product/business teams on roadmap priorities, and provide
+- Coordinate with product and services/business teams on roadmap priorities, and provide
   implementation suggestions and effort estimates.
 
 - Provide guidance on major strategic questions in infrastructure and

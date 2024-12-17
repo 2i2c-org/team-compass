@@ -2,7 +2,7 @@
 ```
 # Product Manager, Platform and Services
 
-Primarily responsible for direct community engagement to ensure the alignment of [Product and Services](/product/index.md) value streams to the needs of the communities we serve, as well as communicating new value stream deliveries to communities at large. Additionally responsible for providing technical expertise pertaining to the scoping of Platform and Service efforts.
+Primarily responsible for direct community engagement to ensure the alignment of [Product and Services](/product-and-services/index.md) value streams to the needs of the communities we serve, as well as communicating new value stream deliveries to communities at large. Additionally responsible for providing technical expertise pertaining to the scoping of Platform and Service efforts.
 
 User testing and validation of features and services at the idea, prototype and delivery stages, ensuring we’re always on track to build the right solution for the right problem.
 
