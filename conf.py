@@ -119,6 +119,16 @@ linkcheck_ignore = [
 rediraffe_branch = "main"
 rediraffe_redirects = {
     "get-started": "operations/index",
+    "product/deliveryflow.md": "product-and-services/deliveryflow.md",
+    "product/index.md": "product-and-services/index.md",
+    "product/overview.md": "product-and-services/overview.md",
+    "product/pricing/cost-model.md": "product-and-services/pricing/cost-model.md",
+    "product/pricing/strategy.md": "product-and-services/pricing/strategy.md",
+    "product/prioritization.md": "product-and-services/prioritization.md",
+    "product/roles/product-lead.md": "product-and-services/roles/product-lead.md",
+    "product/roles/product-manager.md": "product-and-services/roles/product-manager.md",
+    "product/roles/senior-product-manager.md": "product-and-services/roles/senior-product-manager.md",
+    "product/structure.md": "product-and-services/structure.md",
 }
 
 
