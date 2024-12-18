@@ -64,7 +64,7 @@ biz-dev/index
 cross-functional/index
 engineering/index
 partnerships/index
-product/index
+product-and-services/index
 ```
 
 (index:hubs-service)=
