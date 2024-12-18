@@ -58,7 +58,7 @@ Getting blocked happens for various reasons. The most common is related to _unfo
 **Activity Dates (Badass Team)**
 * Mon
 * Tue
-    * [Sync] Refinement (Erik/Yuvi)
+    * [Sync] Refinement (Yuvi)
     * [Sync] - standup (15 mins)
 * Wed
     * a.m. [Sync] Retro | break | p.m. [Sync] Planning
@@ -93,7 +93,7 @@ We want to be able to do things long enough to have some opinions about this pro
 - Duration: 15 mins?
 - Time: Team to choose
 - Days: Team to choose
-- Attendees: Erik, Georgiana, Sarah
+- Attendees: Georgiana, Sarah
 - Cascading information: How will we keep Ale, Damian, HMC, and Yuvi informed?
 
 **Partnership #support-channel**
