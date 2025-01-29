@@ -96,7 +96,7 @@ The [`#initiatives` Slack channel](https://2i2c.slack.com/archives/C06G5FAAT63) 
 - @choldgraf : To represent 2i2c's overall strategy and policies
 - @colliand: To represent our overall Business Development strategy
 - @Gman0909 : To represent our product and services strategy
-- @jmunroe: To represent our community success efforts
+- @jmunroe: To represent our community services strategy
 - @yuvipanda : To represent our technical and open source strategy
 - @haroldcampbell : To represent 2i2c's overall system of work and operations
 - @aprilmj : To represent 2i2c's People Operations and team support
