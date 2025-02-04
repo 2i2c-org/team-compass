@@ -113,11 +113,14 @@ There are two delivery boards:
 
 ### Operations board
 
-The [**Operations board**](https://github.com/orgs/2i2c-org/projects/50) is a team-wide board focused around delivery. Includes all organizational tasks/actions except for Engineering.
+The [**Operations board**](https://github.com/orgs/2i2c-org/projects/50) is a board focused on delivering operational initiatives, like building and improving processes. It's owned by our Delivery Enablement team and supports all other members of the organization. This isn’t a “just catch all the other things board"; everything flows from our strategic goals and initiatives. 
 
 - [**Board link**](https://github.com/orgs/2i2c-org/projects/50)
 - [**`#initiatives`**](https://2i2c.slack.com/archives/C06G5FAAT63) is the Slack channel for this board.
-- **Meetings**: Bi-weekly organization-wide sprint planning meetings.
+- **Meetings**:
+    - Weekly coordination
+    - Every-two-weeks planning
+    - Monthly retrospective
 
 ### Product and Services board
 
@@ -125,7 +128,11 @@ The [**Product and Services board**](https://github.com/orgs/2i2c-org/projects/5
 
 - [**Board link**](https://github.com/orgs/2i2c-org/projects/57)
 - [**`#product-and-services`**](https://2i2c.slack.com/archives/C07SJJWVCAD) is the Slack channel for this board.
-- **Meetings**: Bi-weekly P&S sprint planning meetings.
+- **Meetings**:
+    - Twice a week synchronous standups
+    - Every-two-weeks P&S sprint planning
+    - Every-two-weeks showcase
+    - Every-two-weeks retrospective
 
 ## Retrospective boards
 
