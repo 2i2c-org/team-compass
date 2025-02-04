@@ -117,7 +117,10 @@ The [**Operations board**](https://github.com/orgs/2i2c-org/projects/50) is a bo
 
 - [**Board link**](https://github.com/orgs/2i2c-org/projects/50)
 - [**`#initiatives`**](https://2i2c.slack.com/archives/C06G5FAAT63) is the Slack channel for this board.
-- **Meetings**: Fortnightly planning, monthly retrospective, and weekly coordination.
+- **Meetings**:
+    - Weekly coordination
+    - Every-two-weeks planning
+    - Monthly retrospective
 
 ### Product and Services board
 
