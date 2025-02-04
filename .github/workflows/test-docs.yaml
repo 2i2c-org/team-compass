@@ -33,7 +33,7 @@ jobs:
           make dirhtml SPHINXOPTS='--color -W --keep-going'
 
       - name: Upload Logs and Build
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: sphinx-logs
-          path: book/_build          
+          path: book/_build
