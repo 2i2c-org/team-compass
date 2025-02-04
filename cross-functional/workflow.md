@@ -125,7 +125,11 @@ The [**Product and Services board**](https://github.com/orgs/2i2c-org/projects/5
 
 - [**Board link**](https://github.com/orgs/2i2c-org/projects/57)
 - [**`#product-and-services`**](https://2i2c.slack.com/archives/C07SJJWVCAD) is the Slack channel for this board.
-- **Meetings**: Fortnightly P&S sprint planning, showcase and retrospective meetings, synchronous standups twice weekly.
+- **Meetings**:
+    - Twice a week synchronous standups
+    - Every-two-weeks P&S sprint planning
+    - Every-two-weeks showcase
+    - Every-two-weeks retrospective
 
 ## Retrospective boards
 
