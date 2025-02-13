@@ -9,4 +9,5 @@ Some links might be missing or in-the-works.
 bd-overview.md
 sales-operations.md
 engagement.md
+coordination-ceremonies.md
 ```
