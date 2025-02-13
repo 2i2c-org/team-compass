@@ -10,13 +10,21 @@
 An Open Source Infrastructure (OSIE) focuses on infrastructure that supports interactive computing.
 It intersects job titles such as “dev-ops engineer”, “site reliability engineer”, “software engineer”, and “cloud engineer”.
 
-## Key responsibilities
+## Outcomes 
+**Ensure the reliable operation of the 2i2c infrastructure** by deploying and being responsible for various tools we deploy (such as Kubernetes, Dask, JupyterHub, Prometheus/Grafana, etc), subject to various SLOs and SLAs (when they exist)
 
-- Ensure the reliable operation of the 2i2c infrastructure (leveraging production-ready cloud-based tools such as JupyterHub, BinderHub and Dask).
-- Resolve operational issues that are surfaced by our support team
-- Explore emerging technologies in the Cloud / DevOps space, design and implement cloud computing architecture in partnership with our team.
-- Participate in upstream open source communities we rely on (such as JupyterHub, BinderHub, Dask, etc) in partnership with the established leaders of those communities and collaborate with the Community Lead in the education and outreach around cloud computing.
+**Develop a scalable system that minimizes operational toil.** That includes making the platform itself as automated and push-button as possible, and continuously improving our systems of work to reduce manual labor and complexity.  
+
+
+## Key responsibilities
+- Ensure the reliable operation of the 2i2c infrastructure by deploying and consistently being responsible for tools such as JupyterHub, Kubernetes, Grafana, Prometheus, BinderHub and Dask
+- Proactively monitor for issues in our infrastructure and participate in processes that resolve them before they become emergencies, and resolve operational issues that are surfaced by our support team
+- Explore and learn emerging technologies as we identify needs within our communities - this role may co-create new infrastructure alongside research and education user communities
+- Participate in upstream open source communities we rely on (such as JupyterHub, BinderHub, Dask, Kubernetes, etc), advocating for our communities’ common operational needs
+- Collaborate with members of the Product group in the education and outreach around cloud computing; advise and support community members’ use of 2i2c’s services
+- Work in fast, flexible, agile ways as part of a highly collaborative product & services team
 - Work with a distributed and global team - team members are given a lot of autonomy, and expected to be proactive at communicating with one another and working with others to allocate effort that will maximize our impact.
+
 
 ## Necessary qualities
 
