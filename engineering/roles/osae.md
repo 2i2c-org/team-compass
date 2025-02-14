@@ -2,8 +2,7 @@
 
 ```{role} Open Source Applications Engineer
 ```
-```{role} Engineer
-```
+
 
 # Open Source Applications Engineer
 
