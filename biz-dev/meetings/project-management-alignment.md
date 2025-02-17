@@ -61,7 +61,7 @@ Fortnightly for 1 hr
 -   **Senior Product Manager, Open Science Enablement** [James Munroe] - Provides insights and updates based on community engagements. Help to guide the prioritization of work into the P&S team.
 -   **Engineering Lead/People Operations Lead** [April Johnson] - Helps to shape delivery outcomes.
 
-Optional:
+Optional members:
 
 -   **Head of Product** [Giuliano Maciocci]
 -   **Technical Lead** [Yuvi Panda]
