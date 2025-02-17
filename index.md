@@ -16,25 +16,26 @@ To propose an edit directly from the documentation, click {fab}`github` -> {fas}
 
 The team compass is roughly divided into four sections:
 
-- [Organizational documents](index:organizational-documents) are relevant to the entire organization.
-  Everything from our mission and values, to our processes for administration.
-- [Functional Areas](index:functional-areas) are major focus areas of 2i2c that have their own practices and roles.
-- [Managed JupyterHub Service](index:hubs-service) is cross-functional documentation aimed at describing our Managed JupyterHub Service processes.
-- [Reference](index:reference) collects reference material, lists, and guides for doing many things across 2i2c.
+-   [Organizational documents](index:organizational-documents) are relevant to the entire organization.
+    Everything from our mission and values, to our processes for administration.
+-   [Functional Areas](index:functional-areas) are major focus areas of 2i2c that have their own practices and roles.
+-   [Managed JupyterHub Service](index:hubs-service) is cross-functional documentation aimed at describing our Managed JupyterHub Service processes.
+-   [Reference](index:reference) collects reference material, lists, and guides for doing many things across 2i2c.
 
 ### Common pages in each section
 
 Each of our top-level sections tends to have one or more of the same four pages:
 
-- **Scope and responsibilities** (`overview.md`) describes the major focus areas and responsibility for this area.
-- **Structure and roles** (`structure.md`) describes any formal roles, job titles, and team structures for this area.
-- **Workflow** (`workflow.md`) describes how this area coordinates and works with one another.
-- **Governance** (`governance.md`) how this area makes decisions, and what roles have decision-making authority if any non-standard structure is used.
-- **Strategy** (`strategy.md`) describes the major approach that this area takes towards its work and accomplishing its goals.
+-   **Scope and responsibilities** (`overview.md`) describes the major focus areas and responsibility for this area.
+-   **Structure and roles** (`structure.md`) describes any formal roles, job titles, and team structures for this area.
+-   **Workflow** (`workflow.md`) describes how this area coordinates and works with one another.
+-   **Governance** (`governance.md`) how this area makes decisions, and what roles have decision-making authority if any non-standard structure is used.
+-   **Strategy** (`strategy.md`) describes the major approach that this area takes towards its work and accomplishing its goals.
 
 Below you'll find a list of the sections in our Team Compass.
 
 (index:organizational-documents)=
+
 ## Organizational documents
 
 These documents cover the whole organization and are relevant to everybody at 2i2c.
@@ -52,6 +53,7 @@ administration/index
 ```
 
 (index:functional-areas)=
+
 ## Functional Areas
 
 Functional areas each have their own leads, goals, and structures.
@@ -65,9 +67,11 @@ cross-functional/index
 engineering/index
 partnerships/index
 product-and-services/index
+delivery-enablement/index
 ```
 
 (index:hubs-service)=
+
 ## Managed JupyterHubs Service
 
 2i2c oversees a single major effort, which is building a sustainable service to make interactive computing with open source infrastructure more accessible and scalable.
@@ -88,6 +92,7 @@ List of running hubs <https://infrastructure.2i2c.org/reference/hubs/>
 ```
 
 (index:reference)=
+
 ## Team Reference
 
 Reference and archival information for our teams.
