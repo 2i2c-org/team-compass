@@ -9,7 +9,7 @@ There are roughly three levels of work at play in 2i2c's team[^flight-levels]:
 
 **Level 3: Strategy**. 2i2c's overall strategic goals and the initiatives that make progress towards them. [Defined as items in the initiatives board](#board:initiatives).
 
-**Level 2: Coordination**. The sequence of actions that is carried out in order to complete an initiative, and the cross-team coordination needed to accomplish them. Defined as tasklists within initiatives [on the initiatives board](#board:initiatives).
+**Level 2: Coordination**. The sequence of actions that is carried out in order to complete an initiative, and the cross-team coordination needed to accomplish them. Defined as sub-issues within initiatives [on the initiatives board](#board:initiatives).
 
 **Level 1: Operations**. The work that a team intends to deliver now and next. This is a combination of strategic work that drives an initiative forward, as well as reactive work that is driven by external processes. [Defined as items on team delivery boards](#board:delivery).
 
@@ -25,30 +25,19 @@ Teams pull work from these sequences and complete them in their daily workflow (
 (board:initiatives)=
 ## Initiatives board
 
-The [**Initiatives board**](https://github.com/orgs/2i2c-org/projects/46) is where we define our team's strategic priorities, and coordinate across the team to ensure that each one has a clear plan of action.
+Initiative-led work is driven by our overall [](/operations/strategy.md) that define success for 2i2c. These are defined during our quarterly goals planning meetings. Goals should be outcome-based, measurable, and directional in nature. For example, the goals of a high value funding proposal could include checkpoint milestones written into the work plan that we need to target by certain dates.
 
-There are three types of items on the initiatives board:
+The [**Initiatives board**](https://github.com/orgs/2i2c-org/projects/46) is where we define our team's strategic priorities, and coordinate across sub-teams to ensure that each one has a clear plan of action. An **Initiative** is an effort that makes progress towards our goals, and usually requires coordination from multiple people or many actions over time.
 
-- **Strategic goals**: A high-level goal that defines success for 2i2c. This should be outcome-based, measurable, and directional in nature. All strategic initiatives should be linked to a goal.
-- **Initiatives**: An effort that makes progress towards our goals, and usually requires coordination from multiple people or many actions over time. All non-reactive work should be tied to an initiative.
-
-  - Strategic initiatives represent progress made towards a strategic goal or a major project. These should all result in value delivered to communities.
-  - Investment initiatives are an investment in our team, technology, etc that does not immediately deliver value to communities, but helps us build a better foundation to do so.
-- **Lists of Tasks and Epics**: Are the sequence of steps or deliverables that are taken to complete an initiative. These are defined as `[tasklist]` objects in each initiative, and are the main units of work that drive our actions.
-
-:::{admonition} What about community projects?
-
-We also track community projects as initiatives.
-When 2i2c is actively engaged in work for upstream projects or communities we serve, we add those to our initiatives list, and follow the planning process outlined here. 
-
-Note this is a work in progress, and we’re continuing to evolve our process for collaborating within and outside 2i2c.
+:::{note}
+All initiatives should be driven by a goal, and all non-reactive work should be parented with an initiative via [GitHub sub-issues](https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/adding-sub-issues) where possible.
 :::
 
 ### Structure of an initiative
 
 Initiatives should provide enough context for anyone to understand its importance and outcomes or measures for completion.
 It should provide enough information that our team can prioritize the initiative in our [](#initiatives:meetings).
-They should also provide a single point of access to any related epics, tasks, and subtasks.
+They should also provide a *single point of access* for visibility into any related epics, tasks, and subtasks.
 
 `````{admonition} Example structure of an initiative
 :class: dropdown
@@ -72,45 +61,47 @@ what kind of work it will entail, and why it is important to 2i2c's overall goal
 - We expect to see XXX
 - This will be complete when YYY
 
-```[tasklist]
-- [ ] A growing list of tasks and actions used to coordinate work around this initiative.
+### Sub-issues
+
+```
+- [ ] A list of sub-issues of tasks and actions used to coordinate work around this initiative.
 - [ ] Each should be an actionable issue that we track independently.
-- [ ] This may be empty when the initiative is created! The initiative's goals should be used to decide what action issues to create next.
+- [ ] This may be empty when the initiative is created! The initiative's purpose should be used to decide what action issues to create next.
 ```
 ````
 `````
 
-`In Progress` initiatives should have a **task list of steps to complete the initiative**.
+`In Progress` initiatives should have a **sub-issues list of steps to complete the initiative**.
 These become the issues that we plan in [Delivery Boards](#board:delivery) and iteration planning.
 
-Ensure that every initiative has the right `[tasklist]` items and linked issues so that:
+Ensure that every initiative has linked sub-issues so that:
 
 1. Every task can be traced back to its parent initiative by clicking upward through parent issues.
-2. You can reach each task by clicking downward through issues linked in an initiative's `[tasklist]`
+2. You can reach each task by clicking downward through issues linked in an initiative's sub-issues list.
 
 (initiatives:meetings)=
 ### Bi-weekly initiatives meetings
 
-There are two bi-weekly meetings with the initiatives team.
+There is one bi-weekly meeting with the initiatives team for planning and prioritization. We first walk the board and ensure each initiative has clear next steps, assigned people, and that any coordination between teams is clear. We next zoom out and discuss our overall portfolio of initiatives to ensure we're sequencing them properly and that any upcoming high-priority work is clearly flagged. This should inform priorities for sprint planning and delivery.
 
-- **Initiative planning and refinement**: A combination of **coordination** and **prioritization**. We first walk the board and ensure each initiative has clear next steps, assigned people, and that any coordination between teams is clear. We next zoom out and discuss our overall portfolio of initiatives to ensure we're sequencing them properly. This should inform priorities for sprint planning and delivery.
-- **Initiative retrospectives**: The Initiatives team follows the same retrospective structure we follow for any team. This should consider the results generated from sprint delivery and team retrospectives.
+Please refine issues *before* these meetings by updating and reviewing the Initiatives board.
 
 (slack:solution-forum)=
-### The `#initiatives` slack channel
+### The `#initiatives` Slack channel
 
 The [`#initiatives` Slack channel](https://2i2c.slack.com/archives/C06G5FAAT63) is a space for cross-organization initiatives and strategic conversation.
 
 ### Initiatives team
 
 - @choldgraf : To represent 2i2c's overall strategy and policies
-- @colliand: To represent our overall partnerships strategy and team
-- @jmunroe: To represent our community success efforts
-- @Gman0909 : To represent our product operations and strategy
-- @damianavila : To represent our engineering team's needs
+- @colliand: To represent our overall Business Development strategy
+- @Gman0909 : To represent our product and services strategy
+- @jmunroe: To represent our community services strategy
 - @yuvipanda : To represent our technical and open source strategy
 - @haroldcampbell : To represent 2i2c's overall system of work and operations
 - @aprilmj : To represent 2i2c's People Operations and team support
+
+The above list represents mandatory team members. The initiatives process is however open to all members of 2i2c.
 
 (board:delivery)=
 ## Delivery boards
@@ -126,30 +117,33 @@ The [**Operations board**](https://github.com/orgs/2i2c-org/projects/50) is a te
 
 - [**Board link**](https://github.com/orgs/2i2c-org/projects/50)
 - [**`#initiatives`**](https://2i2c.slack.com/archives/C06G5FAAT63) is the Slack channel for this board.
-- **Meetings**: Bi-weekly organization-wide sprint planning meetings (except for engineering).
+- **Meetings**: Bi-weekly organization-wide sprint planning meetings.
 
-### Engineering board
+### Product and Services board
 
-The [**Engineering board**](https://github.com/orgs/2i2c-org/projects/49): A "special case" of the Operations board. It is functionally the same but focused on tech development cycles and largely attended to by the engineering team.
+The [**Product and Services board**](https://github.com/orgs/2i2c-org/projects/57): This is the main board used to coordinate work for the P&S team.
 
-- [**Board link**](https://github.com/orgs/2i2c-org/projects/47)
-- [**`#engineering`**](https://2i2c.slack.com/archives/C055A1J1DRP) is the Slack channel for this board.
-- **Meetings**: Bi-weekly Engineering sprint planning meetings.
+- [**Board link**](https://github.com/orgs/2i2c-org/projects/57)
+- [**`#product-and-services`**](https://2i2c.slack.com/archives/C07SJJWVCAD) is the Slack channel for this board.
+- **Meetings**: Bi-weekly P&S sprint planning meetings.
 
 ## Retrospective boards
 
-We use [EasyRetro](https://easyretro.io) to facilitate our retrospectives. 
+We use [EasyRetro](https://easyretro.io) to facilitate our retrospectives.
 
 ### Board links
-The paid user account is admin@2i2c.org and the credentails are stored in [our shared BitWarden account](#account:bitwarden).
+
+The paid user account is `admin@2i2c.org` and the credentails are stored in [our shared BitWarden account](#account:bitwarden).
 
 Follow the links below to the different retro boards.
-- Engineering Retrospective [board link](https://easyretro.io/publicboard/A8bu34hcK2eyg0s5MxNX0AfQXG02/7e47da43-a12b-4d21-842d-22361b799a92)
+
+- Product and Services Retrospective [board link](https://easyretro.io/publicboard/A8bu34hcK2eyg0s5MxNX0AfQXG02/7e47da43-a12b-4d21-842d-22361b799a92)
 - Operations Retrospective [board link](https://easyretro.io/publicboard/A8bu34hcK2eyg0s5MxNX0AfQXG02/8581f72e-b714-4018-9737-903272c42f36)
 - Initiatives Retrospective [board link](https://easyretro.io/publicboard/A8bu34hcK2eyg0s5MxNX0AfQXG02/2f4284bb-4ea6-4c60-94cd-1c8a4f292106)
 
-### Engineering retrospective policy
-TBD
+### Product and Services retrospective policy
+
+The Product and Services team holds a retrospective every two weeks.
 
 (slack:team-updates)=
 ## The `#team-updates` Slack channel
