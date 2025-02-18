@@ -107,7 +107,7 @@ To preview your post locally:
 
 This will run a server that can be used to inspect your post.
 
-### How to do all of this via GitHub in the browser without doing anything locally
+### How to edit the blog in the browser without doing anything locally
 
 The easiest way to do all of the above _without ever leaving the browser_ is to do the following:
 
