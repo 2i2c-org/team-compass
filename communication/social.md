@@ -56,7 +56,7 @@ For the purposes of tracking metrics, links to the public social media posts sho
 (social:buffer)=
 ## Buffer for scheduling posts
 
-This is a productivity tool for posting across our Twitter, Mastodon and LinkedIn channels simultaneously and scheduling social media campaigns with a content calendar.
+This is a productivity tool for posting across our Bluesky, Mastodon and LinkedIn channels simultaneously and scheduling social media campaigns with a content calendar.
 
 **How to access**: See [](account:bitwarden).
 
@@ -85,7 +85,7 @@ Currently, there is nobody actively monitoring the Mastodon account.
 ### LinkedIn
 
 Here is [our LinkedIn page](https://www.linkedin.com/company/70495902/).
-We use LinkedIn roughly the same way that we use Twitter, though focus it more on signal-boosting blog posts and updates because fewer team members regularly use LinkedIn.
+We use LinkedIn roughly the same way that we use Bluesky, though focus it more on signal-boosting blog posts and updates because fewer team members regularly use LinkedIn.
 
 **How to access**: We can add **page admins** to our LinkedIn account, which gives others the ability to manage the account and post content.
 If you'd like to be added, ask one of [the pre-existing account admins](https://www.linkedin.com/company/70495902/admin/manage-admins/).
