@@ -1,4 +1,4 @@
-# About the team compass
+# About the Team Compass
 
 This is about our Team Compass, how to understand and read it, and how to make changes if you need.
 
@@ -15,11 +15,26 @@ There are a few major reasons why we use a Team Compass:
 - **Provenance**. Almost all organizational decisions are made via edits to the Team Compass, or in documentation that we link to from the Team Compass.
   Because we conduct most discussions in GitHub repositories and issues, we have a historical record of the evolution of 2i2c, as well as provenance behind its decisions.
 
-## Update the team compass
+## How to update the Team Compass
 
-The Team Compass should be updated frequently as information about 2i2c changes.
+The 2i2c Team Compass is a living document and should be frequently updated reflect our current practices 
+and policies. Any 2i2c team member is encouraged to propose changes to the Team Compass to ensure it serves as the {term}`Source of Truth` for the organization.
+
 Do not hesitate to propose a change!
 See [our Documentation Guide](../reference/documentation/overview.md) for instructions of how to edit our Team Compass (and other documentation that 2i2c uses).
+
+The following procedure provides guidance on submitting, reviewing, and merging pull requests for the Team Compass. 
+If there is an ambiguity in this procedure, see [Making decisions at 2i2c](governance.md#making-decisions-at-2i2c) for the principles motivating these guidelines.
+
+- If a PR is related to an issue from another repository with the 2i2c organization, include a reference to that issue in the PR description. **Leave a paper trail**.
+- PRs that concern minor grammatical fixes, updates of broken links, or a style changes that improves readability should be self-merged without review. **Trust one another**.
+- PRs that involve a policy or procedural change within a team should be reviewed by at least one other member of that team. **Consult the right people**.
+ - If a team has already decided on a process, and the Team Compass is simply out-of-date, then it's acceptable to self-merge a PR without approval (even if the PR is simply to delete out-of-date process and link to another document that defines our current process).  **Iterate on the core ideas.**
+- Once a PR has been approved via a review, it can be merged by anyone. **Bias towards action**.
+- A PR should not remain open for more than a week. **Timebox the discussion**.
+- PRs are always welcome. If something seems unclear or incorrect to you, it likely needs improvement. **Make it safe to try**.
+
+If there a concern that "it is too much work to adapt `<pre-existing process doc>` to make a PR" and that is blocking updating the Team Compass, it is better to delete a section and add a sentence like "the process for this is documented at `[this link]()` ". The Team Compass can delegate authority for a process to other places.
 
 ## What is a Source of Truth
 
