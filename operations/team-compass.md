@@ -34,7 +34,7 @@ If there is an ambiguity in this procedure, see [Making decisions at 2i2c](gover
 - A PR should not remain open for more than a week. **Timebox the discussion**.
 - PRs are always welcome. If something seems unclear or incorrect to you, it likely needs improvement. **Make it safe to try**.
 
-If there a concern that "it is too much work to adapt `<pre-existing process doc>` to make a PR" and that is blocking updating the Team Compass, it is better to delete a section and add a sentence like "the process for this is documented at [this link]() ". The Team Compass can delegate authority for a process to other places.
+If there a concern that "it is too much work to adapt `<pre-existing process doc>` to make a PR" and that is blocking updating the Team Compass, it is better to delete a section and add a sentence like "the process for this is documented at `[this link]()` ". The Team Compass can delegate authority for a process to other places.
 
 ## What is a Source of Truth
 
