@@ -53,16 +53,28 @@ There are 4 possible states: {bdg-secondary}`Unplanned` (default), {bdg-muted}`P
 
 For the purposes of tracking metrics, links to the public social media posts should be recorded in this field for future reference.
 
-(social:twitter)=
-## Twitter
+(social:buffer)=
+## Buffer for scheduling posts
 
-Our Twitter handle is ([@2i2c_org](https://twitter.com/2i2c_org)).
-Currently, there is nobody actively monitoring the Twitter account.
+This is a productivity tool for posting across our Bluesky, Mastodon and LinkedIn channels simultaneously and scheduling social media campaigns with a content calendar.
+
+**How to access**: See [](account:bitwarden).
+
+
+## List of our social media accounts
+
+We use the following accounts for social media.
+
+(social:bluesky)=
+### BlueSky
+
+Our BlueSky handle is [@2i2c.org](https://bsky.app/profile/2i2c.org).
+Currently, there is nobody actively monitoring the BlueSky account.
 
 **How to access**: See [](account:bitwarden).
 
 (social:mastodon)=
-## Mastodon
+### Mastodon
 
 Our Mastodon handle is ([@2i2c_org](https://hachyderm.io/@2i2c_org)).
 Currently, there is nobody actively monitoring the Mastodon account.
@@ -70,17 +82,21 @@ Currently, there is nobody actively monitoring the Mastodon account.
 **How to access**: See [](account:bitwarden).
 
 (social:linkedin)=
-## LinkedIn
+### LinkedIn
 
 Here is [our LinkedIn page](https://www.linkedin.com/company/70495902/).
-We use LinkedIn roughly the same way that we use Twitter, though focus it more on signal-boosting blog posts and updates because fewer team members regularly use LinkedIn.
+We use LinkedIn roughly the same way that we use Bluesky, though focus it more on signal-boosting blog posts and updates because fewer team members regularly use LinkedIn.
 
 **How to access**: We can add **page admins** to our LinkedIn account, which gives others the ability to manage the account and post content.
 If you'd like to be added, ask one of [the pre-existing account admins](https://www.linkedin.com/company/70495902/admin/manage-admins/).
 
-(social:buffer)=
-## Buffer
 
-This is a productivity tool for posting across our Twitter, Mastodon and LinkedIn channels simultaneously and scheduling social media campaigns with a content calendar.
+(social:twitter)=
+### Twitter / X
+
+_We do not currently use Twitter/X, but leave this here for reference_
+
+Our Twitter handle is ([@2i2c_org](https://twitter.com/2i2c_org)).
+Currently, there is nobody actively monitoring the Twitter account.
 
 **How to access**: See [](account:bitwarden).
