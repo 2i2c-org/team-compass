@@ -6,7 +6,7 @@ It is our team's primary knowledge base.
 **The Team Compass is the {term}`Source of Truth`!**
 
 If you see information that is out of date, propose an edit in [the team compass repository](https://github.com/2i2c-org/team-compass).
-To propose an edit directly from the documentation, click {fab}`github` -> {fas}`pencil-alt`. See [Update the Team Compass](operations/team-compass.md#update-the-team-compass) for more details.
+To propose an edit directly from the documentation, click {fab}`github` -> {fas}`pencil-alt`. See [How to update the Team Compass](operations/team-compass.md#how-to-update-the-team-compass) for more details.
 
 [^team-compass]: For more about the Team Compass itself, see [](operations/team-compass.md).
 

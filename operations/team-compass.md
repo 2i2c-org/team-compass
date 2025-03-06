@@ -1,4 +1,4 @@
-# About the team compass
+# About the Team Compass
 
 This is about our Team Compass, how to understand and read it, and how to make changes if you need.
 
@@ -15,7 +15,7 @@ There are a few major reasons why we use a Team Compass:
 - **Provenance**. Almost all organizational decisions are made via edits to the Team Compass, or in documentation that we link to from the Team Compass.
   Because we conduct most discussions in GitHub repositories and issues, we have a historical record of the evolution of 2i2c, as well as provenance behind its decisions.
 
-## Update the team compass
+## How to update the Team Compass
 
 The 2i2c Team Compass is a living document and should be frequently updated reflect our current practices 
 and policies. Any 2i2c team member is welcome and encouraged to propose changes to the Team Compass to ensure it 
