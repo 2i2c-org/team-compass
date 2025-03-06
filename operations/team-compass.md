@@ -18,8 +18,7 @@ There are a few major reasons why we use a Team Compass:
 ## How to update the Team Compass
 
 The 2i2c Team Compass is a living document and should be frequently updated reflect our current practices 
-and policies. Any 2i2c team member is welcome and encouraged to propose changes to the Team Compass to ensure it 
-serves it function as the {term}`Source of Truth` for the organization.
+and policies. Any 2i2c team member is encouraged to propose changes to the Team Compass to ensure it serves as the {term}`Source of Truth` for the organization.
 
 Do not hesitate to propose a change!
 See [our Documentation Guide](../reference/documentation/overview.md) for instructions of how to edit our Team Compass (and other documentation that 2i2c uses).
