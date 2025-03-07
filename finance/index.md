@@ -7,6 +7,7 @@ overview
 strategy
 accounting
 contracts
+fundraising
 projections
 monthly-process
 payments
