@@ -23,7 +23,6 @@ Implicit to the structure are the following:
 1. The delivery of value requires distinct units of work (i.e. Engagement, Project and Project Deliverables, etc.)
 1. The Delivery Enablement team can trigger renewal conversation in the BD team.
 
-
 ## Relationship between work activities
 
 A successful sale (closed-won), triggers a sequence of processes in the Delivery Enablement and Product and Services team.
@@ -55,10 +54,11 @@ Within 2i2c, there are two types of Opportunities:
 Within 2i2c, Engagement management simply tries to determine: _Did we actually deliver all of the commitments?_
 
 This results in a workflow that allows us to answer sustainability questions that include:
-- *What things* do we need to deliver?
-- *When will we deliver* those things?
-- Some agreements have FTE clauses. Did we deliver on those?
-- Can we *extend the existing relationship*?
+
+-   _What things_ do we need to deliver?
+-   _When will we deliver_ those things?
+-   Some agreements have FTE clauses. Did we deliver on those?
+-   Can we _extend the existing relationship_?
 
 **We don’t only care about the 2i2c side of things.**
 
@@ -68,5 +68,6 @@ From a communities perspective Engagement Management means:
 2. What’s the health of all of the active contracts?
 3. Which satisfaction metric of our product offerings?
 
+### Engagement Workflow
 
 More details can be found in the [Engagement Workflow](crm/engagement-workflow.md)
