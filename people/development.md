@@ -1,4 +1,4 @@
-# Personal and professional development
+# Personal and professional development: time and money
 
 Growing our skills is part of what makes 2i2c an effective team. Our professional development policy exists to remind us all to spend time and money on learning. 
 Key points: 
