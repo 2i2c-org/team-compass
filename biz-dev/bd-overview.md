@@ -25,3 +25,19 @@ The Business Development team is guided by the following goals
     -   Growth / Sales strategy
     -   Feasibility assessments (i.e. making sure the work we sell is work we can do)
     -   Deliverables-based fundraising (grants and projects).
+
+## Capabilities & Capacity Needed
+
+1. Know science and philanthropy well enough to sell and seek grants
+2. Strategic enough to prioritize and focus on highest value sales
+3. Uses & improves systems to triage & manage work
+4. Builds "executive" client relationships with org leaders, program directors
+5. Maintain relationships, escalation point if those people aren't happy
+6. Comfort with selling / asking for money
+7. Influencing the wider world of science?
+8. Capability to report on value delivery to purchasers
+
+## Key Roles
+
+-   [Business Development Lead](roles/bd-lead.md)
+-   [Sales Account Executive](roles/sales-account-executive.md)
