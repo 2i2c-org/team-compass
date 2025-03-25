@@ -6,8 +6,7 @@
 
 (role:business-development-lead)=
 
-**TL;DR;**
-**One sentence description**: Develops and leads 2i2c’s business strategy, growth, and revenue operations.
+**TL;DR;** Develops and leads 2i2c’s business strategy, growth, and revenue operations.
 
 ### AREAS OF RESPONSIBILITY
 
