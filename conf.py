@@ -20,6 +20,7 @@ extensions = [
     "sphinx.ext.intersphinx",
     "sphinx_togglebutton",
     "sphinxext.rediraffe",
+    "sphinxcontrib.mermaid",
 ]
 exclude_patterns = ["_build", "Thumbs.db", ".DS_Store", ".github", ".nox", "README.md"]
 

@@ -1,8 +1,8 @@
 # Partnerships
 
-:::{note}
+:::{warning}
 This page will be retired as a result of our organisation's restructuring in Oct 2024.
-Key areas of responsibility have been moved into a newly created Product and Services, Business Development and Sales.
+Key areas of responsibility have been moved into a newly created [Product and Services](../product-and-services/index.md) and [Business Development](../biz-dev/index.md) section.
 :::
 
 Partnerships oversee the strategy and systems that 2i2c uses to sustain itself via partnerships with other communities.
