@@ -1,5 +1,10 @@
 # Scope and responsibilities
 
+:::{warning}
+This page will be retired as a result of our organisation's restructuring in Oct 2024.
+Key areas of responsibility have been moved into a newly created [Product and Services](../product-and-services/index.md) and [Business Development](../biz-dev/index.md) section.
+:::
+
 ## Key goals
 
 1. **Sustainability**: Establish, support and renew partnerships so that 2i2c has the financial resources to advance on its mission.

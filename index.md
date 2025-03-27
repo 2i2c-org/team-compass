@@ -62,12 +62,12 @@ Functional areas each have their own leads, goals, and structures.
 :caption: Functional Areas
 :maxdepth: 2
 
-biz-dev/index
 cross-functional/index
+delivery-enablement/index
+biz-dev/index
+product-and-services/index
 engineering/index
 partnerships/index
-product-and-services/index
-delivery-enablement/index
 ```
 
 (index:hubs-service)=
