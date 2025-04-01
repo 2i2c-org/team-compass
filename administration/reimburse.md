@@ -6,8 +6,9 @@ Our fiscal sponsor, {term}`CS&S`, use [a service called Ramp](https://ramp.com/)
 If you'd like access to our Ramp account or need to use it, reach out to one of these people.
 
 :::{admonition} You can use the organization credit card
-We have an [organizational credit card](admin:credit-card) to purchase things directly with 2i2c funds if you do not wish to file a reimbursement yourself.
+- We have an [organizational credit card](admin:credit-card) to purchase things directly with 2i2c funds if you do not wish to file a reimbursement yourself.
 To do this, contact the {role}`Executive Director` or the {role}`Partnerships Lead`.
+- If you attempt to use the card and it is blocked or declined, alert the team via the Slack #team-updates channel. That's a problem that needs immediate attention.
 :::
 
 We do all of our reimbursements via our fiscal sponsor, {term}`CS&S`.
