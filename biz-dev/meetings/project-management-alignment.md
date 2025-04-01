@@ -56,13 +56,12 @@ Fortnightly for 1 hr
 
 ### ATTENDEES (and the rational for their attendance)
 
--   **Delivery Manager/Chief of Staff** [Harold Campbell] - Meeting owner (required).
--   **Product Manager** [Jenny Wong] - Provides insights and updates based on community engagements. Help to guide the prioritization of work into the P&S team.
--   **Senior Product Manager, Open Science Enablement** [James Munroe] - Provides insights and updates based on community engagements. Help to guide the prioritization of work into the P&S team.
--   **Engineering Lead/People Operations Lead** [April Johnson] - Helps to shape delivery outcomes.
+-   **Delivery Manager/Chief of Staff** - Meeting owner (required).
+-   **Senior Product Manager, Open Science Enablement**  - Provides insights and updates based on service delivery and expertise on community. Help to guide the prioritization of work into the P&S team.
+-   **Engineering Manager** - Helps to shape delivery outcomes.
 
 Optional members:
 
--   **Head of Product** [Giuliano Maciocci]
--   **Technical Lead** [Yuvi Panda]
--   **Senior Account Executive** [Jim Colliand]
+-   **Head of Product** 
+-   **Technical Lead** 
+-   **Senior Account Executive** 
