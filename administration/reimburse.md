@@ -14,6 +14,9 @@ To do this, contact the {role}`Executive Director` or the {role}`Partnerships Le
 We do all of our reimbursements via our fiscal sponsor, {term}`CS&S`.
 There is a different process for employees vs. contractors, see below for more details.
 
+## Where should I ask questions about reimbursement?
+
+If you've got a question about Ramp and reimbursement policy, send an [e-mail to the CS&S team](#css-contact).
 
 ## What can be reimbursed?
 
