@@ -3,28 +3,20 @@
 There are a few ways in which we interact with {term}`Code for Science and Society`.
 This page provides an overview.
 
-## Our FSP Advisor
+(css-contact)=
+## How do I contact CS&S?
 
-Our FSP Advisor is [Jess Hardwicke](https://www.codeforsociety.org/about/people/848).
-She is the point-person for most of our questions, comments, etc.
-We can discuss most major operational and strategic questions with her.
-
-To communicate, we should use the genercal CS&S intake e-mail.
+CS&S has a generic e-mail address that they use for triaging any questions from their FSPs.
+You can find it below.
+Feel free to use for any questions:
 
 E-mail address: **`fsp@codeforscience.org`**.
 
-## CS&S Handbooks
+## Where can I find the CS&S Employee Handbook?
 
-CS&S has two handbooks that have information and policy for the organization.
-These apply to anybody that is employed or contracted by 2i2c.
-Below are links to each:
+Find the [CS&S employee handbook here](https://drive.google.com/file/d/1bBBwWq_Q9-yQyzFFGtiDoHWCiqtOvxf1/view?usp=drive_link).
 
-- [The CS&S Handbook](https://www.notion.so/CS-S-Handbook-18cd12a6e44c4393857642da6a6b0fdf) is similar to our Team Compass.
-- [CS&S Employee Handbook](https://docs.google.com/document/d/1LDN8-iSak391uQC5AzvtzD9dIOmfHg8kihwlvzn8Cy8/edit#heading=h.gjdgxs) is more like an employee policy guide.
-
-```{tip}
-📧 Please avoid emailing individual CS&S email addresses where possible. This ensures CS&S staff have maximum visibility of incoming email addresses and your query may be resolved more quickly as a result.
-```
+It describes all of the policies for their employees (which includes all of 2i2c's staff).
 
 ```{role} CS&S Operations
 ```
@@ -39,18 +31,6 @@ E-mail address: **`fsp@codeforscience.org`**.
 
 ```{role} CS&S FSP
 ```
-
-## CS&S HR
-
-For confidential Human Resources needs.
-
-E-mail address: **`hr@codeforscience.org`**.
-
-## CS&S Bills
-
-For sending invoices. This inbox is automated and not monitored.
-
-E-mail address: **`bills@codeforscience.org`**.
 
 ## Google Group
 
