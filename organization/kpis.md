@@ -1,8 +1,6 @@
 # Key Performance Indicators
 
-We use **Key Performance Indicators** to measure and track our progress and impact as an organization.[^1]
-These are tracked along with other important metrics in [our KPIs dashboard site](http://2i2c.org/kpis/).
-Here are links to the major sections of that site:
+
 
 ````{grid}
 ```{grid-item-card} Cloud and hub usage ☁️
