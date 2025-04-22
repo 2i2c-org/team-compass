@@ -5,7 +5,7 @@ Product describes the services and technology that 2i2c provides, the value they
 This section is used to collect and share broad product-related information and strategy.
 It is maintained by the {role}`Product Lead <product-lead>`.
 
-## Background
+## Background part two!
 
 Since its formation, 2i2c has been successful in acquiring and maintaining a good number of client organizations that have benefited from its open, replicable cloud infrastructure services. 2i2c has maintained the ability to remain responsive to the needs of the communities it serves, but in doing so it has taken a somewhat reactive, ad-hoc approach to answering community partner or other customer requests.
 
