@@ -1,3 +1,4 @@
+(making-decisions)=
 # Making decisions at 2i2c
 
 This page describes principles to efficiently make decisions throughout the organization.

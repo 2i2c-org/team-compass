@@ -6,7 +6,7 @@ The primary mechanism to create alignment between Business Developement (BD) tea
 
 The current structure of this meeting is defined below.
 
-### WHY
+## WHY
 
 This meeting is a ceremony to track the progress of opportunities in our sales pipeline. It is intended to involve those on in the "sales / biz dev / fundraising" side of our operations.
 
@@ -14,11 +14,11 @@ This meeting is a ceremony to track the progress of opportunities in our sales p
 
 The status of any individual lead should already be available in the CRM interface (see our 2i2c Airtable) so we do not expect to review each and every opportunity in the pipeline. However, this meeting can be used to address opportunities that are stale or stuck or in need of reprioritization.
 
-### CADENCE
+## CADENCE
 
 Weekly meeting to review the "Sales Opportunities Pipeline" (as being prototyped in https://github.com/2i2c-org/meta/issues/1455)
 
-### ATTENDEES (and the rational for their attendance)
+## ATTENDEES (and the rational for their attendance)
 
 -   **Senior Account Executive** [Jim Colliand], meeting owner (required)
 -   **Senior Product Manager, Open Science Enablement** [James Munroe] (required until the sales system is robust) he is helping to design, implement and prototype systems for the sales workflow and the sales <> P&S information exchange

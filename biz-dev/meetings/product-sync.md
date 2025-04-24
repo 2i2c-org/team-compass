@@ -4,11 +4,11 @@ An extended version of our current product backlog grooming meeting, it will be 
 
 **Team Calendar Link**: [BizDev - Product Sync](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=MXM3cTY5YWJjdTdnNXIxamppaHMzY2lzbWNfMjAyNTAyMDRUMTYwMDAwWiBoY2FtcGJlbGxAMmkyYy5vcmc&tmsrc=hcampbell%402i2c.org&scp=ALL)
 
-### CADENCE
+## CADENCE
 
 Fortnightly for 1 hr
 
-### ATTENDEES (and the rational for their attendance)
+## ATTENDEES (and the rational for their attendance)
 
 -   **Head of Product** [Giuliano Maciocci] - Meeting owner
 -   **Senior Account Executive** [Jim Colliand] - Provides Sales and Business insights

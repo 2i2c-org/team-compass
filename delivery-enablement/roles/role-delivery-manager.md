@@ -1,3 +1,4 @@
+(role:delivery-manager)=
 # Delivery Manager Role
 
 ```{role} Delivery Manager
