@@ -2,17 +2,17 @@
 
 **Team Calendar Link**: [Delivery Enablement/Operations Retro](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=M3RsMzk2c3FiaGd0aTVsNXVua241NnRsZGFfMjAyNTAyMjdUMjEwMDAwWiBoY2FtcGJlbGxAMmkyYy5vcmc&tmsrc=hcampbell%402i2c.org&scp=ALL)
 
-### WHY
+## WHY
 
 We use this meeting to review how we've been managing the work flowing through the [Operations board](https://github.com/orgs/2i2c-org/projects/50/views/14).
 
-### CADENCE
+## CADENCE
 
 Monthly on last Thursday (45-minutes)
 
-### ATTENDEES (and rational for their attendance)
+## ATTENDEES (and rational for their attendance)
 
-### Resources
+## Resources
 
 -   GitHub
 
