@@ -1,7 +1,6 @@
 # Chief of Staff Role
 
 ```{role} Chief of Staff
-
 ```
 
 (role:chief-of-staff)=
