@@ -11,7 +11,10 @@ kpis.md
 sales-operations.md
 engagement.md
 coordination-ceremonies.md
+crm/hub-service.md
+crm/grants-and-projects.md
 crm/engagement-workflow.md
 meetings/index.md
+marketing/stickers.md
 roles/index.md
 ```

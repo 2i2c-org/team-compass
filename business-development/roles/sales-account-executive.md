@@ -1,10 +1,9 @@
+(role:sales-account-executive)=
 # Sales 1
 
 ```{role} Sales Account Executive
 
 ```
-
-(role:sales-account-executive)=
 
 **TL;DR;** Sells 2i2c's menu of offerings and builds strategic relationships to drive sustainable revenue growth.
 

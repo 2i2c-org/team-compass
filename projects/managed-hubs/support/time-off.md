@@ -24,7 +24,6 @@ Below is our policy for support during expected time off:
 Here are the steps we take to set expectations for our team and for other organizations during expected time off:
 
 - **One month before the start of time off**. Add footer content to our `support@2i2c.org` and `hello@2i2c.org` responses that communicates our intent.
-  See [](freshdesk:footer) for instructions on doing this.
 
   Example text:
 

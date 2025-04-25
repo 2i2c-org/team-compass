@@ -49,6 +49,7 @@ operations/index
 people/index
 open-source/index
 finance/index
+communication/index
 administration/index
 ```
 
@@ -64,10 +65,9 @@ Functional areas each have their own leads, goals, and structures.
 
 cross-functional/index
 delivery-enablement/index
-biz-dev/index
+business-development/index
 product-and-services/index
 engineering/index
-partnerships/index
 ```
 
 (index:hubs-service)=

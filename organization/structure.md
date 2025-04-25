@@ -35,7 +35,7 @@ They have dedicated leads that are defined in the **Structure and roles** sectio
 Reporting lines are within a functional area, meaning that team members should report to somebody that has held a similar job in the past.
 
 - **[Engineering](../engineering/structure.md)**: Develop and operate our technical and cloud infrastructure, to ensure that it is reliable and scalable.
-- **[Partnerships](../partnerships/structure.md)**: Identify opportunities for impact, cultivate new relationships, and oversee our sustainability plan to ensure that we have sustainable and scalable impact.
+- **[Business Development](../business-development/bd-overview.md)**: Identify opportunities for impact, cultivate new relationships, and develop 2i2c's business to ensure that we have sustainable and scalable impact.
 - **[Product and Services](/product-and-services/index.md)**: Understand the perspective of our partner communities and guide the evolution of our infrastructure and services, in order to ensure they have a positive impact.
 
 (structure:steerco)=
