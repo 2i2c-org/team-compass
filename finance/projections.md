@@ -33,7 +33,7 @@ We use this as an opportunity to update our budget projections, which includes t
 
 ## Roles and responsibility for tracking our contracts portfolio
 
-Our monthly process for tracking our contracts portfolio requires input from CS&S, the [](#role:delivery-manager) and the [](#role:bd-lead).
+Our monthly process for tracking our contracts portfolio requires input from CS&S, the [](#role:delivery-manager) and the [](#role:business-development-lead).
 Both need to cultivate an ongoing understanding of the portfolio to:
 
 - Be able to update it as a source of truth

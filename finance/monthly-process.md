@@ -13,6 +13,6 @@ Here's information about expectations and accountability for the process:
 - **When**: This process is triggered by the arrival of [new accounting reports](#accounting:statements) from CS&S.
 - **Who**:
   - **The [](#role:delivery-manager)** is responsible for the overall process, and for monitoring the accounting and contracts statements each month.
-  - The **[](#role:bd-lead)** is expected to coordinate with [](#role:delivery-manager), and is responsible for taking action to follow up with communities and/or trigger the proper processes in CS&S to move things forward. 
+  - The **[](#role:business-development-lead)** is expected to coordinate with [](#role:delivery-manager), and is responsible for taking action to follow up with communities and/or trigger the proper processes in CS&S to move things forward. 
 
 - **What**: [Here's a document with the process that we follow](https://docs.google.com/document/d/1iG2USbvccMGeobKpH52j37LZpmeNASKedJrb0mX8R8Y/edit?usp=sharing).
