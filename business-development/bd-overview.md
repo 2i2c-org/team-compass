@@ -37,6 +37,12 @@ The Business Development team is guided by the following goals
 7. Influencing the wider world of science?
 8. Capability to report on value delivery to purchasers
 
+(slack:business-development)=
+### The Business Development Slack channel
+
+- The [`#business-development` Slack channel](https://2i2c.slack.com/archives/G015W2KSBCP) is for discussions around the business and membership lifecycle.
+- The [`#business-development-airtable-updates`](https://2i2c.slack.com/archives/C08AZTGAUBX) is for tracking ongoing conversations around sales opportunities. It is auto-updated with updates in our CRM.
+
 ## Key Roles
 
 -   [Business Development Lead](roles/bd-lead.md)

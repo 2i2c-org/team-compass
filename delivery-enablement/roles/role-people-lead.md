@@ -1,10 +1,9 @@
+(role:people-lead)=
 # People Lead Role
 
 ```{role} People Lead
 
 ```
-
-(role:people-lead)=
 
 **_TL;DR;_** The People Lead is accountable for shaping strategies and processes crucial for fostering a supportive and growth-oriented work environment. They support and advise our teams while also managing the day-to-day people practices that shape our organizational ethos.
 

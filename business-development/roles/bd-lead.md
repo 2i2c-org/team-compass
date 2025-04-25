@@ -1,10 +1,10 @@
+(role:business-development-lead)=
 # Business Development Lead (BD Lead)
 
 ```{role} Business Development Lead
 
 ```
 
-(role:business-development-lead)=
 
 **TL;DR;** Develops and leads 2i2c's business strategy, growth, and revenue operations.
 
