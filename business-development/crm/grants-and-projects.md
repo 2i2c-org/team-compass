@@ -1,5 +1,9 @@
 # Grants and projects workflow
 
+:::{note}
+This page includes some out-of-date content as we refine our ways of working in 2i2c. Some links might be missing.
+:::
+
 Grants and projects are partnerships that are more complex and bespoke than our [hub service contracts](./hub-service.md).
 They often require more work to achieve, as well as more work to deliver.
 
@@ -11,9 +15,8 @@ We split our workflow around a few Sources of Truth:
 
 1. **[Our `Leads/Grants and projects` AirTable](https://airtable.com/appbjBTRIbgRiElkr/tblmRU6U53i8o7z2I/viwQoT7EO2K97mMEu?blocks=hide) captures metadata about each grant**.
    Each entry has a mirrored GitHub issue with an auto-generated table that shares its metadata on GitHub.
-2. **[Issues in the `leads/` repository](https://github.com/2i2c-org/leads) capture our conversation around a grant lead**, such as coordinating the actions we must take to complete its application.
-3. **Extra GitHub issues capture specific deliverables and tasks**, such as completing a grant application. These should be linked from the mirrored issue described above.
-4. **[Our `Active Grants and projects` AirTable](https://airtable.com/appbjBTRIbgRiElkr/tblCUDimpwHgiWbPq/viwzqESsgIqWZoVZf?blocks=hide) tracks grants we've been awarded**.
+2. **Extra GitHub issues capture specific deliverables and tasks**, such as completing a grant application. These should be linked from the mirrored issue described above.
+3. **[Our `Active Grants and projects` AirTable](https://airtable.com/appbjBTRIbgRiElkr/tblCUDimpwHgiWbPq/viwzqESsgIqWZoVZf?blocks=hide) tracks grants we've been awarded**.
    This is where we coordinate the actions needed to deliver on the goals of the grant and track its progress.
 
 :::{figure} ./images/grants-airtable.png
