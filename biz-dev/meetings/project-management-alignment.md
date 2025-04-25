@@ -4,7 +4,7 @@ The P&S Project Management meeting is a cross-team alignment ceremony between De
 
 **Team Calendar Link**: [P&S: Project Management](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=OGtvb2JsODlvN2I3MzhpMmVhdWpkY2NscDlfMjAyNTAyMTBUMTcwMDAwWiBoY2FtcGJlbGxAMmkyYy5vcmc&tmsrc=hcampbell%402i2c.org&scp=ALL)
 
-### WHY
+## WHY
 
 We need to know the progress of projects that have been sold via contracts (and grants) so that we can prioritize and sequence work in the P&S team's backlog.
 
@@ -28,7 +28,7 @@ Consequently, the outcomes of the meeting are defined below.
 
     A. **Delayed** – As a team we’ll need to understand how to move those projects forward and identify a steward to move the project forward. Delayed projects are projects that haven’t been started and we are beyond the contract start date.
 
-### How we work?
+## How we work?
 
 1. **Prework** - Ensure that the **Engagements** [AirTable Link](https://airtable.com/appbjBTRIbgRiElkr/pagpZcdEaghJQiYH3) all have Opportunities
 2. Use the Delivery Enablement Engagements interface in [Airtable](https://airtable.com/appbjBTRIbgRiElkr/pagpZcdEaghJQiYH3), sorted by Start Date
@@ -50,11 +50,11 @@ Consequently, the outcomes of the meeting are defined below.
     1. Review any **Lapsed Active engagements** (we’re still doing work post contract period, pending renewals - these require BD action)
     2. Review any **Active & Needs Renewed** (reaching the end of an engagement to look at things that need renewals, which the automation in Airtable will flag for any engagement with an end date &lt; 6 months)
 
-### CADENCE
+## CADENCE
 
 Fortnightly for 1 hr
 
-### ATTENDEES (and the rational for their attendance)
+## ATTENDEES (and the rational for their attendance)
 
 -   **Delivery Manager/Chief of Staff** - Meeting owner (required).
 -   **Senior Product Manager, Open Science Enablement**  - Provides insights and updates based on service delivery and expertise on community. Help to guide the prioritization of work into the P&S team.

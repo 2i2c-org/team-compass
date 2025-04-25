@@ -15,6 +15,7 @@ There are a few major reasons why we use a Team Compass:
 - **Provenance**. Almost all organizational decisions are made via edits to the Team Compass, or in documentation that we link to from the Team Compass.
   Because we conduct most discussions in GitHub repositories and issues, we have a historical record of the evolution of 2i2c, as well as provenance behind its decisions.
 
+(how-to-update-compass)=
 ## How to update the Team Compass
 
 The 2i2c Team Compass is a living document and should be frequently updated reflect our current practices 
@@ -24,7 +25,7 @@ Do not hesitate to propose a change!
 See [our Documentation Guide](../reference/documentation/overview.md) for instructions of how to edit our Team Compass (and other documentation that 2i2c uses).
 
 The following procedure provides guidance on submitting, reviewing, and merging pull requests for the Team Compass. 
-If there is an ambiguity in this procedure, see [Making decisions at 2i2c](governance.md#making-decisions-at-2i2c) for the principles motivating these guidelines.
+If there is an ambiguity in this procedure, see [Making decisions at 2i2c](#making-decisions) for the principles motivating these guidelines.
 
 - If a PR is related to an issue from another repository with the 2i2c organization, include a reference to that issue in the PR description. **Leave a paper trail**.
 - PRs that concern minor grammatical fixes, updates of broken links, or a style changes that improves readability should be self-merged without review. **Trust one another**.

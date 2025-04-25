@@ -6,13 +6,13 @@
 
 (role:business-development-lead)=
 
-**TL;DR;** Develops and leads 2i2c’s business strategy, growth, and revenue operations.
+**TL;DR;** Develops and leads 2i2c's business strategy, growth, and revenue operations.
 
-### AREAS OF RESPONSIBILITY
+## AREAS OF RESPONSIBILITY
 
 **BD: Strategy and Integration**
 
--   Develop and lead 2i2c’s business model and long-term growth strategy.
+-   Develop and lead 2i2c's business model and long-term growth strategy.
 -   Coordinate with the ED on strategy, targets, and sustainability planning.
 -   Synthesize Sales Team insights into guidance for ED, P&S, and Delivery
 -   Collaborate with P&S and Delivery Teams to ensure users, champions and purchasers clearly - understand 2i2c's value proposition.

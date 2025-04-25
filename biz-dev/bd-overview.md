@@ -8,7 +8,7 @@ Business Development is critical to 2i2c and is responsible for:
 -   Providing thought leadership to industry stakeholders
 -   Connecting communities to amplify science (e.g. funding, research opportunities, etc.).
 
-### High-level goals of the Business Development Team
+## High-level goals of the Business Development Team
 
 The Business Development team is guided by the following goals
 
@@ -16,7 +16,7 @@ The Business Development team is guided by the following goals
 1. Selling the right things in an effective way.
 1. Collaborate with communities to provide thought-leadership.
 
-### General responsibilities of the Business Development Team
+## General responsibilities of the Business Development Team
 
 -   Consultative thought-leadership (informed by our Product strategy)
 -   Market Research

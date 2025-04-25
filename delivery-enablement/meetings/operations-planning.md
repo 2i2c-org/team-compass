@@ -2,17 +2,17 @@
 
 **Team Calendar Link**: [Review Operations Board](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=MmoxMDVycjB2M2FoM2c4dGwyZ3Vxbm9mNThfMjAyNTAyMThUMTgwMDAwWiBoY2FtcGJlbGxAMmkyYy5vcmc&tmsrc=hcampbell%402i2c.org&scp=ALL)
 
-### WHY
+## WHY
 
 Provides an opportunity for the delivery enablement cohort to review, prioritize and schedule work that needs to be delievred by the cohort by the end of the next iteration.
 
 As of Q1 2025, the team is experimenting with iterations that are one week long.
 
-### CADENCE
+## CADENCE
 
 Fortnightly on Tuesdays (45-minutes)
 
-### ATTENDEES (and rational for their attendance)
+## ATTENDEES (and rational for their attendance)
 
 -   **Delivery Manager/Chief of Staff** [Harold Campbell] - Meeting organizer
 

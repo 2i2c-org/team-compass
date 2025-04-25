@@ -18,15 +18,19 @@ The following sections describe these KPIs in more detail, provide the rationale
 
 **Will what we measure address the imporant answers to "why" we want to track revenue?** Yes. We will build tools that convert information about opportunities captured with our CRM. These tools will spread out the total revenue value of each opportunity across the months in the opportunity's interval of service. The likelihood that an opportunity will convert into actual revenue will be defined based on its stage in the sales pipeline. KPIs can be generated from these tools to track expected total revenue as an indicator of business performance. The tools are designed to provide insights for sustainability planning and steering the BD team. 
 
-:::info
+:::{note} **Forecast Monthly Recurring Revenue (FMRR)** formula
 The **Forecast Monthly Recurring Revenue (FMRR)** is defined by the formula
+
 $$
 FMRR = CMRR + \rho ({\mbox{Renewal-}}MRR) + \eta ({\mbox{New-}}MRR)
 $$
-+ FMRR presents the sales pipeline value in expected revenue spread out across all the months of 2i2c's past and future. 
-+ FMRR can be localized in time by restricting attention to months between a start and end date and aggregating all the contributions into a single number. For example, the expected total revenue over the next six months
-$$FMRR_6 = SUM(FMRR([\mbox{Now}, \mbox{Now} + \mbox{6 months}])).
-$$
+
+- FMRR presents the sales pipeline value in expected revenue spread out across all the months of 2i2c's past and future. 
+- FMRR can be localized in time by restricting attention to months between a start and end date and aggregating all the contributions into a single number. For example, the expected total revenue over the next six months
+
+  $$
+  FMRR_6 = SUM(FMRR([\mbox{Now}, \mbox{Now} + \mbox{6 months}])).
+  $$
 :::
 
 The ingredients in the FMRR formula are defined and explained below. 
@@ -79,7 +83,7 @@ A Prospect is a qualified opportunity tracked in our CRM with data (`Total-Value
 
 **Why** are conversion rates and sales velocity important indicators for the BD team? Our plan to grow 2i2c's business involves maintaining our current customers and adding new customers. Maintaining our customer base involves carefully tracking renewals and taking actions to avoid losing any customers. We will run marketing experiments or campaigns to generate leads. The effectiveness of these campaigns as strategies to acquire new customers is measured with conversion rates. We measure sales velocity so that we can take actions to decrease the time between first contact and first revenue. 
 
-The Renewal Prospect Conversion rate $\rho$ and the New Prospect Conversion Rate $\eta$ quantify how likely a given prospect will convert to `Closed-Won` and contribute revenue. The actual sales pipeline is more fine-grained as shown in [this more exploded view](/S6d1JGTvSVei-pPMY-vN7Q). Each prospect's journey through the ensuing stages toward `Closed-Won` or landing in `Closed-Lost`. These journeys are packed with information that 2i2c should use for learning about our business operation. Pipeline Conversion is a way to systematically collect the information as opportunities move through the sales pipeline to support decision-making. For example, [Sankey diagrams](https://hackmd.io/_uploads/HJ15Tfkaye.png) -- visualizations of the flow and conversion rates between each stage -- provide insights into actions 2i2c can take to improve our business.
+The Renewal Prospect Conversion rate $\rho$ and the New Prospect Conversion Rate $\eta$ quantify how likely a given prospect will convert to `Closed-Won` and contribute revenue. The actual sales pipeline is more fine-grained as shown in [this more exploded view](https://hackmd.io/S6d1JGTvSVei-pPMY-vN7Q). Each prospect's journey through the ensuing stages toward `Closed-Won` or landing in `Closed-Lost`. These journeys are packed with information that 2i2c should use for learning about our business operation. Pipeline Conversion is a way to systematically collect the information as opportunities move through the sales pipeline to support decision-making. For example, [Sankey diagrams](https://hackmd.io/_uploads/HJ15Tfkaye.png) -- visualizations of the flow and conversion rates between each stage -- provide insights into actions 2i2c can take to improve our business.
 
 
 
@@ -89,7 +93,7 @@ The Renewal Prospect Conversion rate $\rho$ and the New Prospect Conversion Rate
 
 ### Example: Lead Generation Experiments
 
-2i2c will run experiments (e.g. market 2i2c by participating in a conference, Facebook ad campaign, transactional email blasts) to generate leads. 2i2c will use Pipeline Conversion and Pipeline Velocity to **measure the business outcomes of lead generation experiments**. 2i2c might spend $5,000 and 6 employee-days to participate in an RSE event to generate a cohort `RSE25Leads` of opportunties. 2i2c might spend $750 on a Facebook ad campaign targeting "Vice Provosts Teaching and Learning" to generate another cohort `FBProvosts25Leads` of opportunities. By tracking the business outcomes of lead generation experiments, 2i2c can use the scientific method to find a robust way to acquire customers at scale. 
+2i2c will run experiments (e.g. market 2i2c by participating in a conference, Facebook ad campaign, transactional email blasts) to generate leads. 2i2c will use Pipeline Conversion and Pipeline Velocity to **measure the business outcomes of lead generation experiments**. 2i2c might spend \$5,000 and 6 employee-days to participate in an RSE event to generate a cohort `RSE25Leads` of opportunties. 2i2c might spend \$750 on a Facebook ad campaign targeting "Vice Provosts Teaching and Learning" to generate another cohort `FBProvosts25Leads` of opportunities. By tracking the business outcomes of lead generation experiments, 2i2c can use the scientific method to find a robust way to acquire customers at scale. 
 
 ### Example: Improving Renewal Prospect Conversion Rate based on engagement
 
