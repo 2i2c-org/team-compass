@@ -2,46 +2,47 @@
 
 Business Development is critical to 2i2c and is responsible for:
 
--   Interfacing with customer (future and existing) to understand their challenges
--   Operating as our sales arm (securing contracts, grants and renewals)
+-   Interfacing with customers (future and existing) to understand their challenges
+-   Developing our business through sales (securing contracts, grants and renewals) and marketing
 -   Providing product guidance to the Product and Services Team (P&S) based on market insights
 -   Providing thought leadership to industry stakeholders
 -   Connecting communities to amplify science (e.g. funding, research opportunities, etc.).
 
 ## High-level goals of the Business Development Team
 
-The Business Development team is guided by the following goals
+The Business Development team is guided by the following three-pronged strategy:
 
-1. Generate revenue that is sustainable for 2i2c in order to enable this service.
-1. Selling the right things in an effective way.
-1. Collaborate with communities to provide thought-leadership.
+1. **Maintain base.**  Make current users happy. Strive for zero churn. Resolve support issues. Empower champions to describe the value 2i2c enables. Make renewals easy. 
+2. **Growth.** System to get more leads (marketing). System to convert leads to customers (new sales). System to get more revenue through renewals (renewal sales).
+3. **Capture revenue.** Collect membership fees, usage fees, fees for add-on services. Recover cloud costs. Strive for zero losses.
 
 ## General responsibilities of the Business Development Team
 
--   Consultative thought-leadership (informed by our Product strategy)
--   Market Research
 -   Sales
     -   Account Management
     -   Growth / Sales strategy
     -   Feasibility assessments (i.e. making sure the work we sell is work we can do)
     -   Deliverables-based fundraising (grants and projects).
+-   Consultative thought-leadership (informed by our Product strategy)
+-   Market Research
 
 ## Capabilities & Capacity Needed
 
-1. Know science and philanthropy well enough to sell and seek grants
+1. Iteratively improve 2i2c's business model
+2. Know science and philanthropy well enough to sell and seek grants
 2. Strategic enough to prioritize and focus on highest value sales
 3. Uses & improves systems to triage & manage work
 4. Builds "executive" client relationships with org leaders, program directors
 5. Maintain relationships, escalation point if those people aren't happy
 6. Comfort with selling / asking for money
-7. Influencing the wider world of science?
-8. Capability to report on value delivery to purchasers
+7. Capability to report on value delivery to purchasers
 
 (slack:business-development)=
 ### The Business Development Slack channel
 
 - The [`#business-development` Slack channel](https://2i2c.slack.com/archives/G015W2KSBCP) is for discussions around the business and membership lifecycle.
-- The [`#business-development-airtable-updates`](https://2i2c.slack.com/archives/C08AZTGAUBX) is for tracking ongoing conversations around sales opportunities. It is auto-updated with updates in our CRM.
+- The [`#business-development-airtable-updates`](https://2i2c.slack.com/archives/C08AZTGAUBX) is for tracking ongoing conversations around automated updates from AirTable.
+- The [`#business-development-hubspot-updates`](https://2i2c.slack.com/archives/C08PQQHH3U5) is for tracking ongoing conversations around automated updates from HubSpot.
 
 ## Key Roles
 

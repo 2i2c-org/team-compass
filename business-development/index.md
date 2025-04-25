@@ -14,6 +14,8 @@ coordination-ceremonies.md
 crm/hub-service.md
 crm/grants-and-projects.md
 crm/engagement-workflow.md
+customer-success/freshdesk.md
+customer-success/hub-activity.md
 meetings/index.md
 marketing/stickers.md
 roles/index.md
