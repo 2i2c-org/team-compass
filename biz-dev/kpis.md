@@ -18,15 +18,19 @@ The following sections describe these KPIs in more detail, provide the rationale
 
 **Will what we measure address the imporant answers to "why" we want to track revenue?** Yes. We will build tools that convert information about opportunities captured with our CRM. These tools will spread out the total revenue value of each opportunity across the months in the opportunity's interval of service. The likelihood that an opportunity will convert into actual revenue will be defined based on its stage in the sales pipeline. KPIs can be generated from these tools to track expected total revenue as an indicator of business performance. The tools are designed to provide insights for sustainability planning and steering the BD team. 
 
-:::info
+:::{note} **Forecast Monthly Recurring Revenue (FMRR)** formula
 The **Forecast Monthly Recurring Revenue (FMRR)** is defined by the formula
+
 $$
 FMRR = CMRR + \rho ({\mbox{Renewal-}}MRR) + \eta ({\mbox{New-}}MRR)
 $$
-+ FMRR presents the sales pipeline value in expected revenue spread out across all the months of 2i2c's past and future. 
-+ FMRR can be localized in time by restricting attention to months between a start and end date and aggregating all the contributions into a single number. For example, the expected total revenue over the next six months
-$$FMRR_6 = SUM(FMRR([\mbox{Now}, \mbox{Now} + \mbox{6 months}])).
-$$
+
+- FMRR presents the sales pipeline value in expected revenue spread out across all the months of 2i2c's past and future. 
+- FMRR can be localized in time by restricting attention to months between a start and end date and aggregating all the contributions into a single number. For example, the expected total revenue over the next six months
+
+  $$
+  FMRR_6 = SUM(FMRR([\mbox{Now}, \mbox{Now} + \mbox{6 months}])).
+  $$
 :::
 
 The ingredients in the FMRR formula are defined and explained below. 
@@ -89,7 +93,7 @@ The Renewal Prospect Conversion rate $\rho$ and the New Prospect Conversion Rate
 
 ### Example: Lead Generation Experiments
 
-2i2c will run experiments (e.g. market 2i2c by participating in a conference, Facebook ad campaign, transactional email blasts) to generate leads. 2i2c will use Pipeline Conversion and Pipeline Velocity to **measure the business outcomes of lead generation experiments**. 2i2c might spend $5,000 and 6 employee-days to participate in an RSE event to generate a cohort `RSE25Leads` of opportunties. 2i2c might spend $750 on a Facebook ad campaign targeting "Vice Provosts Teaching and Learning" to generate another cohort `FBProvosts25Leads` of opportunities. By tracking the business outcomes of lead generation experiments, 2i2c can use the scientific method to find a robust way to acquire customers at scale. 
+2i2c will run experiments (e.g. market 2i2c by participating in a conference, Facebook ad campaign, transactional email blasts) to generate leads. 2i2c will use Pipeline Conversion and Pipeline Velocity to **measure the business outcomes of lead generation experiments**. 2i2c might spend \$5,000 and 6 employee-days to participate in an RSE event to generate a cohort `RSE25Leads` of opportunties. 2i2c might spend \$750 on a Facebook ad campaign targeting "Vice Provosts Teaching and Learning" to generate another cohort `FBProvosts25Leads` of opportunities. By tracking the business outcomes of lead generation experiments, 2i2c can use the scientific method to find a robust way to acquire customers at scale. 
 
 ### Example: Improving Renewal Prospect Conversion Rate based on engagement
 
