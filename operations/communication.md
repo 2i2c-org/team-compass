@@ -36,7 +36,7 @@ For these channels, **all 2i2c staff may get access**.
 
 - [`#team-updates`](slack:team-updates)
 - [`#solution-forum`](#slack:solution-forum)
-- [`#partnerships`](#slack:partnerships)
+- [`#business-development`](#slack:business-development)
 - [`#engineering`](#slack:engineering)
 
 In addition, we occasionally create private channels for specific projects or topics.

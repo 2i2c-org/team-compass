@@ -33,7 +33,7 @@ We use this as an opportunity to update our budget projections, which includes t
 
 ## Roles and responsibility for tracking our contracts portfolio
 
-Our monthly process for tracking our contracts portfolio requires input from CS&S, the [](#role:delivery-manager) and the [](#role:partnerships-lead).
+Our monthly process for tracking our contracts portfolio requires input from CS&S, the [](#role:delivery-manager) and the [](#role:bd-lead).
 Both need to cultivate an ongoing understanding of the portfolio to:
 
 - Be able to update it as a source of truth
@@ -46,6 +46,6 @@ Accounting deviations or concerns will be reported to the Partnership Lead.
 
 The Delivery Manager is responsible for refining this process over time.
 
-### Partnership Lead's responsibilities
+### Business Development Lead's responsibilities
 
-The Partnership Lead is responsible for taking actions to follow up with communities and/or triggering processes in CS&S to move actions forward. They work closely with the Delivery Manager to ensure the system is working effectively.
+The Business Development Lead is responsible for taking actions to follow up with communities and/or triggering processes in CS&S to move actions forward. They work closely with the Delivery Manager to ensure the system is working effectively.

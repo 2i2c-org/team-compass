@@ -1,4 +1,4 @@
 (managed-hubs:sales)=
 # Sales and invoicing process
 
-See [the Partnerships workflow](../../partnerships/workflow.md) for our processes around leads, sales, and invoicing.
+See [the Business Development workflow](../../partnerships/crm/hub-service.md) for our processes around leads, sales, and invoicing.
