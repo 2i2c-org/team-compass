@@ -49,6 +49,7 @@ operations/index
 people/index
 open-source/index
 finance/index
+communication/index
 administration/index
 ```
 
