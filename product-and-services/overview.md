@@ -47,17 +47,42 @@ In order to achieve these, we need to adopt a process that lets us balance pro-a
 
 It’s key that this process be agreed upon by all stakeholders within the organization, but specifically the Product Lead and Delivery Manager, with the Product Lead being responsible for defining the priority of major strategic initiatives, projects and milestones, and the Delivery Manager being responsible for how those projects are broken down into tasks for our Engineering team to work on, and how progress and team performance is tracked.
 
+(product-and-services-kpis)=
 ## KPIs
 
 The Product and Services team tracks its value delivery and performance through the following KPIs:
 
+```{list-table}
+:header-rows: 1
 
-|                                                          |                                                                                                                                                                                |                                                                                        |                                                                      |                                                                        |
-| -------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------- | -------------------------------------------------------------------- | ---------------------------------------------------------------------- |
-| Metric                                                   | Description                                                                                                                                                                    | Jan 2025 (Proj Start)                                                                  | Jan 2026                                                             | Jan 2027                                                               |
-| PRIMARY<br><br>Average delivery time<br><br>(cycle-time) | Reflects our Delivery Cadence, it tracks our ability to efficiently release new product features to the market within a fixed time box.                                        | Untracked, as long as  3 months to deliver new features to our community network       | < 1 month                                                            | < 2 weeks                                                              |
-| PRIMARY<br><br>User satisfaction score                   | Qualitative User Satisfaction survey sent out at regular touchpoints (e.g. feature release blogs, quarterly updates) measuring community response to 2i2c’s product direction. | Survey designed but not yet implemented. Due 30th May ‘25.                             | Average of 60% users report being satisfied                          | Average score of 85% users report being satisfied                      |
-| PRIMARY<br><br>Engagement                                | A quantitative metric representing the level of engagement with our platform over time, across our entire user base.                                                           | Not yet tracked. Implementation due end of July 25.                                    |                                                                      |                                                                        |
-| SECONDARY<br><br>Velocity                                | A measure of the volume of tasks delivered by the team within a single sprint, indicating the team’s delivery efficiency                                                       | Tracked [here](https://github.com/orgs/2i2c-org/projects/57/insights/6)                | ?                                                                    | ~75 points                                                                     |
-| Time to resolve support tickets (50th / 90th percentile) | Reflects our Support Response Time indicating the ability of our team to respond to community requests and resolve them in an efficient manner.                                | Informal commitments to resolve service issues, some overdue tickets > 14 working days | 50th percentile:  <br>7 days<br><br>90th percentile: <br>15 days | 50th percentile:  <br>3 days<br><br>  90th percentile:<br> 10 days |
-|                                                          |                                                                                                                                                                                |                                                                                        |                                                                      |                                                                        |
+* - Metric
+  - Description
+  - Jan 2025 (Proj Start)
+  - Jan 2026
+  - Jan 2027
+* - PRIMARY: Average delivery time (cycle-time)
+  - Reflects our Delivery Cadence, it tracks our ability to efficiently release new product features to the market within a fixed time box.
+  - Untracked, as long as 3 months to deliver new features to our community network
+  - < 1 month
+  - < 2 weeks
+* - PRIMARY: User satisfaction score
+  - Qualitative User Satisfaction survey sent out at regular touchpoints (e.g. feature release blogs, quarterly updates) measuring community response to 2i2c’s product direction.
+  - Survey designed but not yet implemented. Due 30th May ‘25.
+  - Average of 60% users report being satisfied
+  - Average score of 85% users report being satisfied
+* - PRIMARY: Engagement
+  - A quantitative metric representing the level of engagement with our platform over time, across our entire user base.
+  - Not yet tracked. Implementation due end of July 25.
+  - ???
+  - ???
+* - SECONDARY: Velocity
+  - A measure of the volume of tasks delivered by the team within a single sprint, indicating the team’s delivery efficiency
+  - Tracked [here](https://github.com/orgs/2i2c-org/projects/57/insights/6)
+  - ???
+  - ~75 points
+* - Time to resolve support tickets (50th / 90th percentile)
+  - Reflects our Support Response Time indicating the ability of our team to respond to community requests and resolve them in an efficient manner.
+  - Informal commitments to resolve service issues, some overdue tickets > 14 working days
+  - 50th percentile: 7 days; 90th percentile: 15 days
+  - 50th percentile: 3 days; 90th percentile: 10 days
+```
