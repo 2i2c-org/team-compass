@@ -36,8 +36,7 @@ In order to make progress towards our quarterly objectives, we define [_initiati
 
 ### Structure of an initiative
 
-Initiatives should provide enough context for anyone to understand its importance and outcomes or measures for completion.
-It should provide enough information that our team can prioritize the initiative in our [](#initiatives:meetings).
+Initiatives should provide enough context for anyone to understand its importance and outcomes, and prioritize it against our other initiatives.
 They should also provide a *single point of access* for visibility into any related epics, tasks, and subtasks.
 
 Here's the minimal information that must be in an initiative in order to be Ready to Work.
