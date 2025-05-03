@@ -1,5 +1,5 @@
 (making-decisions)=
-# Making decisions at 2i2c
+# Decision making guide
 
 This page describes principles to efficiently make decisions throughout the organization.
 We want to create a culture of trust, transparency, and action that is grounded in rigorous practices of doing the work to make the right decision.

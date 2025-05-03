@@ -1,3 +1,4 @@
+(product-delivery-flow)=
 # Product delivery flow
 
 As we are a small organization with a relatively large proportion of engineering talent, we work with a lightweight product and delivery flow, with an emphasis on up-front macro-level prioritization that empowers the Engineering team with the flexibility to define how to problem solve, break down, and prioritize their work at the micro level.

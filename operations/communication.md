@@ -30,18 +30,22 @@ Generally speaking, anybody can be invited or added to a public channel.
 
 Private channels are spaces for the 2i2c staff to have internal discussions that benefit from extra privacy and clearer scope.
 We use them in order to have a space for our team to speak freely with one another, discuss sensitive topics, etc.
-
-Below are a list of private channels for our teams.
-For these channels, **all 2i2c staff may get access**.
-
-- [`#team-updates`](slack:team-updates)
-- [`#solution-forum`](#slack:solution-forum)
-- [`#business-development`](#slack:business-development)
-- [`#engineering`](#slack:engineering)
-
 In addition, we occasionally create private channels for specific projects or topics.
 In this case, the channel creator can invite the people that they believe need visibility into the conversation.
 
+For access to these channels, ask a 2i2c team member.
+
+(slack:team-updates)=
+#### The `#team-updates` Slack channel
+
+The [`#team-updates` Slack channel](https://2i2c.slack.com/archives/C01GLCC1VCN) is for organization-wide announcements and team discussion.
+It is a place for the whole organization to talk to one another, share status and life updates, etc.
+There's not a strict limit to topics for discussion, but if your conversation fits within the scope of another Slack channel it's better to discuss there.
+
+(slack:initiatives)=
+#### The `#initiatives` Slack channel
+
+The [`#initiatives` Slack channel](https://2i2c.slack.com/archives/C06G5FAAT63) is a space for cross-organization initiatives and strategic conversation.
 
 ### Conversations that should not be in Slack
 

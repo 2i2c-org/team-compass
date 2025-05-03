@@ -1,4 +1,4 @@
-# Coordination strategy and goals
+# Workflow goals and strategy
 
 2i2c is a distributed organization, and believes strongly in following practices that are inclusive, participatory, and collaborative.
 It has team members spread out over many time zones working on a variety of projects.
@@ -30,8 +30,6 @@ Different people have different preferred methods of engagement and communicatio
 ## Update early and often
 
 Err on the side of updating the team more often than not.  Nobody should be surprised when something gets done - especially nothing major. Your work should be as transparent to others as possible!
-
-rems
 
 ## Distributed-first operations
 

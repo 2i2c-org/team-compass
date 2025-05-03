@@ -43,4 +43,3 @@ There are a few repositories that we use for tracking private conversations and 
 This is usually personally sensitive or identifiable information, or information that needs to be private until decisions or deals are finalized.
 
 - [**`2i2c-org/meta`**](https://github.com/2i2c-org/meta): Private team and organizational conversation.
-- [**`2i2c-org/leads`**](https://github.com/2i2c-org/leads): Tracking and discussing potential collaborations, partnerships, and communities for our hub service.

@@ -37,4 +37,5 @@ roles/role-chief-of-staff.md
 roles/role-delivery-manager.md
 roles/role-operations-manager.md
 roles/role-people-lead.md
+roles/executive-assistant.md
 ```
