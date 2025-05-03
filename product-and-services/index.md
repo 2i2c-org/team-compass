@@ -8,6 +8,5 @@ overview.md
 structure.md
 deliveryflow.md
 prioritization.md
-pricing/strategy.md
-pricing/cost-model.md
+cost-model.md
 ```

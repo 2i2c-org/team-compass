@@ -1,6 +1,6 @@
 (costs:human)=
 
-# Staffing costs
+# Estimating costs of delivery
 
 This page is a short description of how we define our costs, for the purposes of guiding our pricing and budget writing activities.
 
