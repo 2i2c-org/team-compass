@@ -7,6 +7,7 @@ overview
 strategy
 accounting
 contracts
+spending-money
 fundraising
 projections
 monthly-process

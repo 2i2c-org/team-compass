@@ -45,7 +45,6 @@ These documents cover the whole organization and are relevant to everybody at 2i
 :maxdepth: 2
 
 organization/index
-operations/index
 people/index
 open-source/index
 finance/index
@@ -60,10 +59,10 @@ administration/index
 Functional areas each have their own leads, goals, and structures.
 
 ```{toctree}
-:caption: Functional Areas
+:caption: Areas of work
 :maxdepth: 2
 
-cross-functional/index
+operations/index
 delivery-enablement/index
 business-development/index
 product-and-services/index

@@ -8,6 +8,8 @@ Some links might be missing or in-the-works.
 ```{toctree}
 bd-overview.md
 kpis.md
+roles/index.md
+pricing-strategy.md
 sales-operations.md
 engagement.md
 coordination-ceremonies.md
@@ -18,5 +20,4 @@ customer-success/freshdesk.md
 customer-success/hub-activity.md
 meetings/index.md
 marketing/stickers.md
-roles/index.md
 ```

@@ -1,4 +1,4 @@
-# Delivery Enablement processes
+# Delivery Enablement
 
 ```{toctree}
 overview.md

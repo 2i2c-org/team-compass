@@ -1,8 +1,7 @@
-# Scope and responsibilities
+# Expectations of all team members
 
-Our cross-functional processes focus on high-level priorities, strategy, and ensures we are distributing attention and resources across the organization correctly.
-
-Here are this area's major responsibilities:
+These are expectations that we have of all team members at 2i2c.
+Our area leads should particularly embody these practices and guide others in following them.
 
 ## Embody our values and team practices
 

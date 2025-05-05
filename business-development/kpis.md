@@ -2,11 +2,28 @@
 
 2i2c's business plan involves (1) maintain our current customer base, (2) grow overall revenue, and (3) find a repeatable way to acquire new customers. We define three _scalar_ time-series as key performance indicators (KPIs) using systems that also provide insight into business performance over time. 
 
-| Metric | Definition | Description | Target |
-| --- | --- | --- | --- |
-| (6-Month Backward) **Retention KPI** | $ Renewal_6 = 1 - Churn_6 $ | $Churn_6$ is the ratio of customers who discontinue their membership or have stopped paying over the previous six months. $Renewal_6$ is the ratio of customers retained over the previous six months.  | >0.8 |
-| (6-Month Forward) **Revenue KPI** | $FMRR_6 = SUM(FMRR([\mbox{Now}, \mbox{Now} + \mbox{6 months}]))$ | Expected total revenue over the next 6 months. It is a _leading revenue indicator_ based on assumptions about conversion rates. | TBD |
-| **Customer Acquisition KPI** | $LQR = \frac{\#[\mbox{Qualified Leads}]}{\#[\mbox{Leads}]}$ | Ratio of qualified leads to leads generated from an experiment or campaign. This indicator will be used to compare different approaches we try to acquire customers. | 0.15 |
+```{list-table} Key Performance Indicators
+:header-rows: 1
+:widths: 20 25 40 15
+:name: kpi-table
+
+* - Metric
+  - Definition
+  - Description
+  - Target
+* - (6-Month Backward) **Retention KPI**
+  - $ Renewal_6 = 1 - Churn_6 $
+  - $Churn_6$ is the ratio of customers who discontinue their membership or have stopped paying over the previous six months. $Renewal_6$ is the ratio of customers retained over the previous six months.
+  - `>0.8`
+* - (6-Month Forward) **Revenue KPI**
+  - $FMRR_6 = SUM(FMRR([\mbox{Now}, \mbox{Now} + \mbox{6 months}]))$
+  - Expected total revenue over the next 6 months. It is a _leading revenue indicator_ based on assumptions about conversion rates.
+  - TBD
+* - **Customer Acquisition KPI**
+  - $LQR = \frac{\#[\mbox{Qualified Leads}]}{\#[\mbox{Leads}]}$
+  - Ratio of qualified leads to leads generated from an experiment or campaign. This indicator will be used to compare different approaches we try to acquire customers.
+  - 0.15
+```
 
 The following sections describe these KPIs in more detail, provide the rationale for why they are important to 2i2c, and contextualize their role in 2i2c's sales system.
 

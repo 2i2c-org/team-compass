@@ -14,7 +14,7 @@ tomlkit
 # Slack SDK for pulling Support Steward info
 slack-sdk
 
-# For partnerships/community_success/hub-activity.md
+# For /hub-activity.md
 python-dotenv
 dateparser
 prometheus-pandas
