@@ -27,7 +27,7 @@ This should create a local environment in a `.nox` folder, build the documentati
 To build live documentation that updates when you update local files, run the following command:
 
 ```console
-$ nox -s docs-live
+$ nox -s docs -- live
 ```
 
 ## Organization Secrets
