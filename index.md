@@ -85,6 +85,7 @@ projects/managed-hubs/index
 projects/managed-hubs/showcase-hub
 projects/managed-hubs/sales
 projects/managed-hubs/support/index
+projects/community-enablement/index
 projects/managed-hubs/incidents
 projects/managed-hubs/budget-alerts
 List of running hubs <https://infrastructure.2i2c.org/reference/hubs/>
