@@ -1,25 +1,16 @@
 (community-enablement:index)=
 # Community Enablement Service
 
-:::{admonition} In Development
-:class: warning
-The content on this page might change over time, and we welcome suggested changes and pull requests!
+Community Enablement Service is a type of collaborative support that empowers community leaders and organizations to succeed with open, interactive computing infrastructure. 
+This is guidance, strategic partnership, and capacity-building beyond our 
+standard [Technical Support Service](../managed-hubs/support/index.md).
 
-See [Service Documentation (Google Doc)](https://docs.google.com/document/d/1Di9bsKoMkUrluxSHZGq19XmMdCX6VkMna0WGwP2I6Qc/edit?usp=sharing) and [Service Blueprint (Miro)](https://miro.com/app/board/uXjVIdLC25c=/) for additional information.
-:::
-
-Community Enablement is a collaborative support service that empowers community leaders and organizations to 
-succeed with open, interactive computing infrastructure. 
-We offer guidance, strategic partnership, and capacity-building beyond 
-standard [Technical Support](../managed-hubs/support/index.md).
-
-This documentation outlines the service's scope, procedures, implementation guidance, and reporting practices.
+This documentation outlines the service's scope and implementation procedures.
 
 ```{toctree}
-overview
+Overview <overview>
 scenarios
-sow-template
-implementation
+Detailed Process <implementation>
 reporting
 pricing
 ```
