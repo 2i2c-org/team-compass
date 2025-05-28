@@ -1,4 +1,4 @@
-## Ramp Cards Policy (for individual use)
+# Ramp Cards Policy (for individual use)
 
 This policy is intended to guide the allocation and use of CS&S Ramp cards. It should be considered an extension of the Team Compass policy on [Spending money](spending-money).
 
@@ -13,7 +13,7 @@ The Ramp Cards should be treated as an additional mechanism for spending money o
 Examples of good ways to use Ramp cards:
 
 -   [Reimbursable expenses for our 2i2c team members](https://compass.2i2c.org/people/compensation/#list-of-additional-reimbursable-expenses-for-our-2i2c-team-members), including hardware, internet and wellness
--   [Personal and professional development](), including coaching, books, classes, conferences
+-   Personal and professional development, including coaching, books, classes, conferences
 -   Travel, team celebration, and meeting expenses, including marketing/swag
 
 Examples of ways _not to use_ your individual Ramp cards:
