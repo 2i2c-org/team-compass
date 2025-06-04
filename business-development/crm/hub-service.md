@@ -101,17 +101,31 @@ A member of 2i2c Partnerships Team sends email to partnerships@2i2c.org requesti
 + Specify addenda (statement of work; deliverables; ...)
 + Target: get to "ready to sign"
 
-### SOP: DocuSign Agreement
+### SOP: Dropbox Sign Agreement
 
-2i2c's Partnershps Team sends email to fsp@codeforscience.org requesting that the executable agreement be circulated for DocuSigning by all signatories.
+2i2c's Business Development Team sends email to fsp@codeforscience.org requesting that the executable agreement be circulated for Dropbox Sign by all signatories.
 
-CS&S arranges for DocuSign requests from signatories.
+CS&S arranges for Dropbox Sign requests from signatories. <partnerships@2i2c.org> is copied on the signature process.  When the agreement is fully signed and executed, Dropbox Sign attaches a copy of the email and sends it to <partnerships@2i2c.org>
+
+CS&S will eventually (who? when?) update their Airtable with this signed agreement.  2i2c will be able see this agreement through the `Contracts` table in the 2i2c Airtable.  
+
+Business Development updates the Opportunity in the Airtable by
+- Adding the contract to the Opportunity
+- Changing the status to 'Closed-Won'
+- Celebrates the closing with a posting to the internal #dollar-wins Slack channel
+- The update to should be reviewed during the weekly BD Sales Sync meeting to ensure that this status change to closed-won has occured and there is a signed agreement added to Airtable if not done prior to the meeting.
+
+The changing of the status to Closed-Won by Business Development is the official hand off to Delivery Enablement.
+
+Delivery Enablement receives notics that an opportunity is now Closed-Won and performs the following
+- Create the corresponding Engagement
+- Validate that the metadata (contract amount, start dates, end dates) are consistent with both the opportunity metadata and the contract data. In the case of difference, the contract is the source of truth for an engagement.
 
 ## Partnership Phase SOPs
 
 ### SOP: Launch Meeting
 
-2i2c's Community and Partnerships Teams will work to specify standard operating procedures for kickoff events to launch partnerships.
+2i2c's Partnerships and Service team schedules and hosts a roll out meeting with the community.
 
 ### SOP: Invoicing 
 
