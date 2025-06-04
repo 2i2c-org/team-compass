@@ -81,6 +81,9 @@ _This is only relevant for others that are joining our Engineering team._
     - An agreement has to be signed first for the smce-accounts
 - [ ] Add to appropriate Azure projects
   - [ ] Outside-organization subscription for `utoronto` see https://github.com/2i2c-org/team-compass/issues/386
+- [ ] Add to appropriate JetStream2 projects
+  - [ ] CIS250031 - Multicloud and HPC support for interactive computing in open science
+  - [ ] SEE240014 - A Scalable Community Computing and Knowledge Gateway for Project Pythia
 - [ ] Add to [quay.io 2i2c team](https://quay.io/organization/2i2c/teams/owners)
 - [ ] NameCheap administration privileges to `2i2c.org` and `2i2c.cloud`
 
