@@ -67,7 +67,7 @@ The image below provides an overview of all the stages.
 Expanded sales process
 :::
 
-### Agreements
+### Service Agreements template and guidelines
 
 2i2c establishes relationships with our customers using a service agreement. These agreements start from the [Outbound Services Agreement template](https://docs.google.com/document/d/1kPgSddJ_Sob0XcTbkDy5UShIAVKPmm04P9ZLsYiOV20/edit?usp=sharing) developed in collaboration with 2i2c's fiscal sponsor Code for Science and Society. The agreement template includes tables that can be filled out collaboratively using Google drive with 2i2c's customer. Other tables are filled out by 2i2c to describe work plans and other terms required for 2i2c to effectively deliver value to our customer. 
 
