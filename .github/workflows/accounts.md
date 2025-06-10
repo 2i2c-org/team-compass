@@ -1,6 +1,3 @@
-
-**Cloud engineering permissions**
-
 _This is only relevant for Product and services team._
 
 - [ ] 2i2c hubs admin [`helm-charts/basehub/values.yaml`](https://github.com/2i2c-org/infrastructure/blob/master/helm-charts/basehub/values.yaml)
