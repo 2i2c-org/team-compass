@@ -8,8 +8,8 @@ jobs:
     runs-on: ubuntu-latest
 
     if: |
-      contains(github.event.issue.labels.*.name, 'onboard') ||
-      contains(github.event.issue.labels.*.name, 'offboard')
+      contains(github.event.issue.labels.*.name, 'type: onboard') ||
+      contains(github.event.issue.labels.*.name, 'type: offboard')
 
     steps:
       - uses: actions/checkout@v4
@@ -18,7 +18,7 @@ jobs:
         id: readfile
         run: |
           echo "content<<EOF" >> $GITHUB_ENV
-          cat accounts.md >> $GITHUB_ENV
+          cat .github/workflows/accounts.md >> $GITHUB_ENV
           echo "EOF" >> $GITHUB_ENV
 
       - name: Add comment with accounts list
