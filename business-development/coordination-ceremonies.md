@@ -7,7 +7,7 @@ These meetings are currently:
 -   Project Management alignment (_[P&S: Project Management](meetings/project-management-alignment.md)_)
 -   Horizon Scanning (_[P&S: Horizon Scanning](meetings/horizon-scanning.md)_)
 
-### Process related alignment
+## Process related alignment
 
 We work in iterations and use Agile delivery practices to deliver our work.
 This naturally results in the following ceremonies:
