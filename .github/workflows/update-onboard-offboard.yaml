@@ -18,8 +18,8 @@ jobs:
         run: |
           {
             echo 'accounts<<EOF'
-            cat .github/workflows/accounts.md >> $GITHUB_OUTPUT
-            echo 'EOF'
+            cat .github/workflows/accounts.md
+            echo EOF
           } >> "$GITHUB_OUTPUT"
 
       - name: Add comment with accounts list
