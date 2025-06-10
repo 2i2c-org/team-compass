@@ -1,0 +1,31 @@
+name: Auto-update onboarding/offboarding issues with accounts list
+on:
+  issues:
+    types: [opened, labeled]
+
+jobs:
+  update-issue:
+    runs-on: ubuntu-latest
+
+    if: |
+      contains(github.event.issue.labels.*.name, 'onboarding') ||
+      contains(github.event.issue.labels.*.name, 'offboarding')
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Read accounts.md
+        id: readfile
+        run: |
+          echo "content<<EOF" >> $GITHUB_ENV
+          cat accounts.md >> $GITHUB_ENV
+          echo "EOF" >> $GITHUB_ENV
+
+      - name: Add comment with accounts list
+        uses: peter-evans/create-or-update-comment@v4
+        with:
+          issue-number: ${{ github.event.issue.number }}
+          body: |
+            ### Current Account List
+
+            ${{ env.content }}
