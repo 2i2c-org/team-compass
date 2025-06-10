@@ -8,8 +8,8 @@ jobs:
     runs-on: ubuntu-latest
 
     if: |
-      contains(github.event.issue.labels.*.name, 'onboarding') ||
-      contains(github.event.issue.labels.*.name, 'offboarding')
+      contains(github.event.issue.labels.*.name, 'onboard') ||
+      contains(github.event.issue.labels.*.name, 'offboard')
 
     steps:
       - uses: actions/checkout@v4
