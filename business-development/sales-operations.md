@@ -34,7 +34,7 @@ The key artefacts generated at this stage include:
 -   Quotes
 -   Signed Agreement
 -   Partner onboarding
--   Asana (2i2c <> CS&S)
+-   [Asana](#delivery:asana) (2i2c <> CS&S)
 -   HelloSign (CS&S)
 -   Invoice (CS&S)
 -   Airtable (CS&S)
