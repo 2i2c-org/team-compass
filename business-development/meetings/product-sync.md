@@ -8,7 +8,7 @@ An extended version of our current product backlog grooming meeting, it will be 
 
 Fortnightly for 1 hr
 
-## ATTENDEES (and the rational for their attendance)
+## Attendees (and the rationale for their attendance)
 
 -   **Head of Product** [Giuliano Maciocci] - Meeting owner
 -   **Senior Account Executive** [Jim Colliand] - Provides Sales and Business insights
