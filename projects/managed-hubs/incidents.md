@@ -42,7 +42,7 @@ External Liasons
 
 Subject Matter Expert
 Subject Matter Experts
-  A member on the {term}`Incident Response Team` with expertise in an area of relevance to an Incident. SMEs have a variety of backgrounds and abilities, and they should be pulled in to the Response Team as-needed by the {term}`Incident Commander`. Their goal is to take actions as-directed by the {term}`Incident Commander` to resolve an incident.
+  A member on the {term}`Incident Response Team` with expertise in an area of relevance to an Incident. SMEs have a variety of backgrounds and abilities, and they should be pulled in to the Response Team as-needed by the {term}`Incident Commander`. Their goal is to take actions as-directed by the {term}`Incident Commander` to resolve an incident. The Tech Lead must always be included as a Subject Matter Expert, as they have unique expertise in solving certain problems and are ultimately accountable for successful incident resolution. 
 ```
 
 (incidents:what)=
@@ -124,7 +124,7 @@ Here is the process that we follow for incidents:
    Hence if the cause of an incident was established in a thread, this cannot be reflected automatically in the incident report.
    ```
 
-4. **Delegate to Subject Matter Experts as-needed**. The Incident Commander is empowered to delegate actions to Subject Matter Experts in order to investigate and resolve the incident quickly.[^note-on-delegation]
+4. **Delegate to Subject Matter Experts as-needed**. The Incident Commander is empowered to delegate actions to Subject Matter Experts in order to investigate and resolve the incident quickly. The {role}`Technology Lead` is available to validate and review recommended actions along with other Subject Matter Experts. When in doubt, delegate to the Tech Lead. [^note-on-delegation]
 5. **Communicate our status every few hours**. The {term}`External Liason` is
    expected to communicate incident status and plan with the {term}`Community
    Representative`s. If the incident commander wants to delegate External Liason duties
@@ -150,7 +150,7 @@ Here is the process that we follow for incidents:
 7. **Create an incident report**.
    See [](incidents:create-report) for more information.
 
-[^note-on-delegation]: If you cannot find somebody to take on this work, or feel uncomfortable delegating, the {role}`Project Manager` should help you, and is empowered to delegate on your behalf.
+[^note-on-delegation]: If you cannot find somebody to take on this work, or feel uncomfortable delegating, the {role}`Technology Lead` should help you, and is empowered to delegate on your behalf.
 
 (incidents:create-report)=
 ## Create an Incident Report
