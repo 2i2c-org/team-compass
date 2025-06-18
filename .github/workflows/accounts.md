@@ -18,6 +18,7 @@ _This is only relevant for Product and services team._
   - [ ] Outside-SSO account [`disasters`](https://smce-aws-disasters.signin.aws.amazon.com/console)
   - [ ] Outside-SSO account [`earthscope`](https://762698921361.signin.aws.amazon.com/console)
   - [ ] Outside-SSO account [`projectpythia`](https://590183926898.signin.aws.amazon.com/console)
+  - [ ] Outside-SSO account [`victor`](https://129856558350.signin.aws.amazon.com/console)
     - An agreement has to be signed first for the smce-accounts
 - [ ] Azure projects
   - [ ] Outside-organization subscription for `utoronto` see https://github.com/2i2c-org/team-compass/issues/386
