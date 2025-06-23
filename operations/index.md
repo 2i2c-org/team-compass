@@ -5,6 +5,7 @@ It also defines expectations for all team members across 2i2c.
 
 ```{toctree}
 strategy
+../code-of-conduct/index.md
 workflow
 team-practices/overview
 onboarding
