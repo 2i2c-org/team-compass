@@ -10,6 +10,7 @@ sphinx-togglebutton
 sphinxcontrib-mermaid
 sphinxext-rediraffe
 tomlkit
+sphinx-last-updated-by-git
 
 # Slack SDK for pulling Support Steward info
 slack-sdk

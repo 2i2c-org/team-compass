@@ -2,6 +2,34 @@
 
 Accounting data describes the money that we **know** we have spent or that we **highly expect** to receive.
 
+## Our custom accounting GL codes
+
+We have a few custom GL Codes for use within the CS&S accounting system.
+These help us categorize transactions more effectively. Here is a summary: 
+
+```{list-table}
+:header-rows: 1
+- - Code
+  - Description
+- - 4220 Revenues: Services
+  - A parent category for this collection of services, we need this as a parent category for CS&S's system.
+- - 4221 Revenues: Services: Membership fees
+  - For recurring membership fees. This is the recurring part of our 3-tier menu.
+- - 4222 Revenues: Services: Cloud cost recovery
+  - For pass-through cloud costs. For when we pay for infrastructure on behalf of communities and then pass the costs to them.
+- - 4223 Revenues: Services: Usage fees
+  - Calculated each month based on a community's usage. Currently defined by Monthly Active Users.
+- - 4224 Revenues: Services: Service fees
+  - Fees for services not included in recurring membership fees. Basically, anything that isn't cloud costs, usage, or recurring monthly membership fees.
+- - 7060 Program Expenses: Cloud Costs
+  - A parent category for cloud costs.
+- - 7061 Program Expenses: Cloud Costs: Recoverable
+  - Cloud costs that we aim to recover from communities. Our goal is to make this equal `$0` after subtracting recovered costs from `4222: Revenues: Services: Cloud cost recovery`.
+- - 7062 Program Expenses: Cloud Costs: Nonrecoverable
+  - Cloud costs for running our own infrastructure. We do not recover any of these costs.
+```
+
+
 ## Accounting transactions airtable
 
 :::{admonition} This is not reliable

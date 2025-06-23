@@ -8,6 +8,10 @@ build:
   tools:
     python: "3.12"
     nodejs: "16"
+  jobs:
+    post_checkout:
+      # Make sure last-updated commits are available
+      - git fetch --unshallow || true
 
 sphinx:
   configuration: conf.py

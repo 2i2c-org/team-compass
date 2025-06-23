@@ -55,30 +55,6 @@ Remove 2i2c accounts and remove from team accounts:
   - [ ] https://readthedocs.org/dashboard/2i2c-team-compass/users/
   - [ ] https://readthedocs.org/dashboard/2i2c-pilot-documentation/users/
 
-**Cloud engineering permissions**
-
-_This is only relevant for others that are leaving our Engineering team._
-
-- [ ] Remove from 2i2c hubs as an admin
-- [ ] Remove from appropriate GCP organizations and projects
-  - [ ] Organization `2i2c.org`'s [admin group](https://console.cloud.google.com/iam-admin/groups/03znysh73qbio4n?organizationId=184174754493)
-  - [ ] Organization `2i2c.org`s [engineering group](https://console.cloud.google.com/iam-admin/groups/01opuj5n2qnifml?organizationId=184174754493)
-  - [ ] Outside-organization project for [`cloudbank`](https://console.cloud.google.com/iam-admin/iam?project=cb-1003-1696)
-  - [ ] Outside-organization project for [`meom-ige`](https://console.cloud.google.com/iam-admin/iam?project=meom-ige-cnrs)
-  - [ ] Outside-organization project for [`callysto`](https://console.cloud.google.com/iam-admin/iam?project=callysto-202316)
-  - [ ] (optional) Outside-organization project for [`pangeo-hubs`](https://console.cloud.google.com/iam-admin/iam?project=columbia)
-
-- [ ] Remove from appropriate AWS projects
-  - [ ] Management account [`2i2c-sandbox`](https://2i2c.awsapps.com/start/#/) (Grants SSO access at https://2i2c.awsapps.com/start#/)
-  - [ ] Outside-SSO account [`carbonplan`](https://631969445205.signin.aws.amazon.com/console)
-  - [ ] Outside-SSO account [`openscapes`](https://783616723547.signin.aws.amazon.com/console)
-  - [ ] Outside-SSO account [`nasa-veda`](https://smce-veda.signin.aws.amazon.com/console)
-    - An agreement has to be signed first, see https://github.com/2i2c-org/leads/issues/104
-- [ ] Remove from appropriate Azure projects
-  - [ ] Outside-organization `utoronto` contact them for removal 
-- [ ] Remove from [quay.io 2i2c team](https://quay.io/organization/2i2c/teams/owners)
-- [ ] Remove NameCheap administration privileges to `2i2c.org` and `2i2c.cloud`
-
 **External**
 
 - [ ] Remove from [2i2c website](https://2i2c.org/organization/)

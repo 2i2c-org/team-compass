@@ -129,6 +129,7 @@ The [**Product and Services board**](https://github.com/orgs/2i2c-org/projects/5
 - [**Board link**](https://github.com/orgs/2i2c-org/projects/57)
 - [**`#product-and-services`**](https://2i2c.slack.com/archives/C07SJJWVCAD) is the Slack channel for this board.
 
+(delivery:asana)=
 ## Asana project with CS&S
 
 2i2c uses [this Asana project](https://app.asana.com/1/1159648458748488/project/1208704062483139/list/1208704065114251) to coordinate asks to and from CS&S. This is the primary way to request action from any CS&S team member.
