@@ -21,7 +21,7 @@ Sometimes different subsets of 2i2c team members need to meet with specific exte
 
 1. Specific sales calls that require technical input
 2. Meetings during onboarding of a new community to our service
-3. ???
+3. Community enablement service delivery that needs multiple 2i2c contributors
 
 We use [cal.com](https://cal.com/) to schedule these. There is a '2i2c team' that you will be added to the first time you
 need to use this service (since there's a 15$ per month per member fee). Current owners are Jim Colliander, Yuvi and April -
