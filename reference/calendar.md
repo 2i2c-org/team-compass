@@ -14,6 +14,23 @@ Below is a calendar with some relevant events for the 2i2c Team and Community.
 
 ```
 
+(calendars:external-meetings)=
+## Scheduling meetings with external communities with `Cal.com`
+
+Sometimes different subsets of 2i2c team members need to meet with specific external communities. Examples of these would be:
+
+1. Specific sales calls that require technical input
+2. Meetings during onboarding of a new community to our service
+3. ???
+
+We use [cal.com](https://cal.com/) to schedule these. There is a '2i2c team' that you will be added to the first time you
+need to use this service (since there's a 15$ per month per member fee). Current owners are Jim Colliander, Yuvi and April -
+one of them should be able to invite you.
+
+We are currently creating a unique [Collective Meeting](https://cal.com/features/collective-events) for each meeting,
+so we can customize which set of users need to be in it. As we gain more experience with these, we will improve how we use
+these.
+
 (team-roles-calendar)=
 ## Team Roles Calendar
 
