@@ -31,6 +31,11 @@ We are currently creating a unique [Collective Meeting](https://cal.com/features
 so we can customize which set of users need to be in it. As we gain more experience with these, we will improve how we use
 these.
 
+```{note}
+Why cal.com instead of the more popular [calendly](https://calendly.com/)? Because cal.com is [open source software](https://github.com/calcom/cal.com)
+available on a fairly normal license! While it probably is not exactly community maintained, it is closer enough aligned with our values that it is preferred, given that there seems to be no UX penalty.
+```
+
 (team-roles-calendar)=
 ## Team Roles Calendar
 
