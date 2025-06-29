@@ -23,7 +23,7 @@ The Executive Director leads 2i2c's organization, and reports to the Steering Co
 
 ```{toctree}
 :maxdepth: 2
-executive-director.md
+role/executive-director.md
 ```
 
 (structure:steerco)=
@@ -34,5 +34,5 @@ The Steering Council provides accountability to the Executive Director, and prov
 
 ```{toctree}
 :maxdepth: 2
-steering-council.md
+role/steering-council.md
 ```

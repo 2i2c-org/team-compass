@@ -4,10 +4,11 @@ We use several meetings to create alignment and coordinate business development 
 These meetings are currently:
 
 -   Sales Sync (_[BizDev: Sales Sync](meetings/sales-sync.md)_)
+-   Product Sync (_[BizDev - Product Sync](meetings/product-sync.md)_)
 -   Project Management alignment (_[P&S: Project Management](meetings/project-management-alignment.md)_)
 -   Horizon Scanning (_[P&S: Horizon Scanning](meetings/horizon-scanning.md)_)
 
-### Process related alignment
+## Process related alignment
 
 We work in iterations and use Agile delivery practices to deliver our work.
 This naturally results in the following ceremonies:
