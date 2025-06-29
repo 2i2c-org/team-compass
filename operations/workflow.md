@@ -29,15 +29,34 @@ Each quarter, we consider the progress that we made last quarter, and set object
 
 In order to make progress towards our quarterly objectives, we define [_initiatives_](#board:initiatives).
 
+
 (board:initiatives)=
 ## Initiatives
 
-**Initiatives** are major efforts that represent significant progress towards our quarterly objectives. We define and prioritize them on [our Initiatives Board](https://github.com/orgs/2i2c-org/projects/46). An initiative usually requires coordination from multiple people or many actions over time.
+### What is an initiative?
+
+Initiatives represent significant progress towards a strategic goal. They are usually *accountable* to one area of 2i2c, but require action from many people across the organization to complete. Initiatives are not single actions, and often span multiple weeks of time. However, they should still be time-boxed and have a definition of “done”. A rule of thumb is that quarterly goals should take 2-5 initiatives to complete.
+
+An initiative IS:
+
+- Significant progress towards a quarterly goal  
+- Described as an outcome or created artifact  
+- A child of a quarterly objective
+
+An initiative is NOT:
+
+- An action, quarterly objective, or routine task.  
+- (usually) not completable with a single day’s work.
+
+### How we track initiatives on our initiatives board
+
+We define and prioritize initiatives on [our Initiatives Board](https://github.com/orgs/2i2c-org/projects/46). It has **three** types of cards:
+
+1. **Quarterly objectives.** Objectives that guide the creation of initiatives. At the end of quarterly planning, we should have one issue for each quarterly objective.  
+2. **Initiatives.** Outcomes-based cards that describe significant progress toward a quarterly objective.
+3. **Exceptionally complex and critical upcoming efforts.** Non-initiative cards may exist on the board if they are exceptionally important for us to track cross-functionally.
 
 ### Structure of an initiative
-
-Initiatives should provide enough context for anyone to understand its importance and outcomes, and prioritize it against our other initiatives.
-They should also provide a *single point of access* for visibility into any related epics, tasks, and subtasks.
 
 Here's the minimal information that must be in an initiative in order to be Ready to Work.
 
@@ -63,15 +82,30 @@ what kind of work it will entail, and why it is important to 2i2c's overall goal
 
 ### Next actions
 
-```
 - [ ] A list of sub-issues of tasks and actions used to coordinate work around this initiative.
 - [ ] Each should be an actionable issue that we track independently.
 - [ ] This may be empty when the initiative is created! The initiative's purpose should be used to decide what action issues to create next.
-```
+
 ````
 
 `In Progress` initiatives should have a **sub-issues list of steps to complete the initiative**.
 These become the issues that we plan in [Delivery Boards](#board:delivery) and iteration planning.
+
+### Initiatives cycle 
+
+We operate on a monthly sprint cycle for initiatives.
+
+**On an ongoing basis,** area leads are responsible for:
+
+- Providing guidance, refinement, and accountability to ensure initiatives are completed by their responsible individuals.
+- The Executive Director is responsible for ensuring that area leads follow this process, and have the support they need to do it effectively.
+
+**At the start of each month**, we have an initiatives planning meeting with the following goals:
+
+- Align on progress towards our quarterly objectives  
+- Share the strategic priorities that are area-specific, and that might impact our capacity to complete org-wide initiatives (e.g., major product or sales initiatives and effort).
+- Identify risks that mean we may not complete an initiative.
+- Decide if we have new information that should shift our quarterly objectives.
 
 (board:delivery)=
 ## Delivery boards
