@@ -9,4 +9,5 @@ structure.md
 deliveryflow.md
 prioritization.md
 cost-model.md
+kpis.md
 ```
