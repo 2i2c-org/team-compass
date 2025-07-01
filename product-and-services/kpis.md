@@ -8,7 +8,7 @@ The Product and Services team at 2i2c tracks its value delivery and performance 
 
 ### User Satisfaction Score
 
-There are three main touchpoints for gathering user satisfaction scores:
+There are three main touch points for gathering user satisfaction scores:
 
 1. Quarterly updates
 2. Feature release blogs

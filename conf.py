@@ -38,7 +38,7 @@ myst_enable_extensions = [
     "tasklist",
 ]
 
-
+myst_heading_anchors = 3
 
 # -- Options for HTML output -------------------------------------------------
 # ref: https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
