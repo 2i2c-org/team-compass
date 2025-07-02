@@ -4,6 +4,8 @@ This section describes the major structure of 2i2c and how it is broken into fun
 
 Here's an overview of our organizational structure and reporting lines. See the links in the digram for more information about each team.
 
+% To modify, see the following link:
+% https://miro.com/app/board/uXjVIiFUM3Q=/?moveToWidget=3458764633437513770&cot=14
 <iframe width="768" height="496" src="https://miro.com/app/live-embed/uXjVIiFUM3Q=/?focusWidget=3458764633437513770&embedMode=view_only_without_ui&embedId=915001613516" frameborder="0" scrolling="no" allow="fullscreen; clipboard-read; clipboard-write" allowfullscreen></iframe>
 
 (structure:areas)=
