@@ -6,11 +6,8 @@ There are three major sources of information within 2i2c:
 
 The most stable form of information in 2i2c is documentation that our teams maintain.
 This is where most information about 2i2c exists.
-Here are a few major documentation sources for 2i2c:
 
-- [**`compass.2i2c.org`**](https://compass.2i2c.org) (this website): The {term}`Source of Truth` for all 2i2c information and policies.
-- [**`infrastructure.2i2c.org`**](https://infrastructure.2i2c.org): Information about our cloud infrastructure and deployment configuration.
-- [**`docs.2i2c.org`**](https://docs.2i2c.org): Documentation about our Managed JupyterHub Service.
+See [](./documentation.md) for information about documentation at 2i2c.
 
 ## Google Drive
 

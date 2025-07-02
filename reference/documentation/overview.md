@@ -7,10 +7,10 @@ See the sections below for more information about the structure and instructions
 
 ```{toctree}
 :maxdepth: 2
+structure
 edit
 content
 environment
 secrets
-structure
 sources
 ```

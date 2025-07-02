@@ -145,7 +145,7 @@ As more detail is added to a Initiative through these activities, the Initiative
 
 ### User stories
 
-User stories describing a Initiative should be in the format of:
+User stories describing an Initiative should be in the format of:
 
 **As a ______ I want to ______ in order to ______**
 
@@ -156,6 +156,12 @@ _“As a community leader I want to have a list of all available add-ons, and th
 User stories in this format are extremely helpful in ensuring all stakeholders have a common understanding of what the goal of a particular idea might be. These user stories can also form the basis of engineering tasks. 
 
 Initiatives are moved through these stages while they are with Engineering, and will remain there until they are ready to be moved to the next stage, Review.
+
+### Documenting new features and services
+
+Good documentation is critical to ensuring that our team and our communities have the information they need to have impact with our product and services. As part of building any piece of 2i2c's product, documentation is a pre-requisite for completion.
+
+See [our guidelines for documentation](#documentation:well-documented) for our minimal definition of "documented".
 
 ## 6. Review
 

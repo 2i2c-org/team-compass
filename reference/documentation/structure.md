@@ -1,4 +1,4 @@
-# Guidelines for documentation structure
+# Guidelines and targets for writing documentation
 
 We primarily offer documentation, peace of mind and expertise to
 our users - and code/configuration is simply an implementation
@@ -9,6 +9,10 @@ we serve, what type of docs they might expect, and where we provide them.
 For each feature we add or change we make, we should create & update
 documentation for all of these audiences, as applicable. There are a
 few key audiences that are outlined below.
+
+
+(documentation:well-documented)=
+
 
 ## The general public
 
