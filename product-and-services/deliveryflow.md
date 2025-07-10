@@ -133,7 +133,17 @@ We use Statements of Work (SOWs) or Software Design Documents (SDDs) as a tool t
 
 The difference between an SOW and SDD is that an SOW is written for an external buyer that could potentially commission the work and hence require more rigorous timeline estimates, while an SDD is written for internal review and alignment without the same rigour for timeline estimates (but still recommended).
 
+
+The following table summarises the relevant parties that can sign off on an SOW/SDD before implementation:
+
+| | SOW | SDD |
+|--|--|--|
+| Head of Product | ✅ | ✅ | 
+| Tech Lead | ✅ | ✅ |
+| Business Development Lead | ✅ | ❌ |
+
 Once an SOW or SDD is signed off, it can be used to break down an initiative into tasks with [GitHub sub-issues](https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/adding-sub-issues). A single document is easier to read and review than a collection of GitHub issues while the initiative is being scoped, but once the initiative is ready to be built, work in progress is tracked in GitHub issues on the [P&S board](/operations/workflow.md#product-and-services-board).
+
 
 - [SOW/SDD template](https://hackmd.io/boBV8E_kSJOo_tkMCU29Eg?both)
 - [Example of an SOW](https://github.com/2i2c-org/infrastructure/issues/6150)
