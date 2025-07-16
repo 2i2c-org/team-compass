@@ -16,7 +16,7 @@ There are 3 critical abstractions for Engagement management that have been encod
 
 Additional properties of _Engagements_ include:
 
--   Each Engagement can have only one parent Opportunity.
+-   Each Engagement can have only one parent Opportunity (_Hubspot Deal_).
 -   Engagements can have multiple projects.
 -   RAG Statuses
 
@@ -57,5 +57,3 @@ Key properties of _Project Deliverables_ include:
 -   These are discreet measurable units of work
 -   We must be able to determine if the work is done
 -   These discreet units of work are linked to GitHub issues
-
-## Key terminologies

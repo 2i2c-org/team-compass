@@ -1,6 +1,13 @@
 # Engagement management
 
-2i2c's **Engagement management** is a sub-step of the [Sales Operation's](sales-operations.md) Delivery stage and includes activities required to manage delivery commitments (including reporting), ensuring that customers derive value from 2i2c's offerings.
+```{toctree}
+engagement-workflow.md
+renewals.md
+hub-service.md
+grants-and-projects.md
+```
+
+2i2c's **Engagement management** is a sub-step of the [Sales Operation's](/business-development/sales/sales-operations.md) Delivery stage and includes activities required to manage delivery commitments (including reporting), ensuring that customers derive value from 2i2c's offerings.
 
 :::{figure} images/engagements-workflow.png
 
@@ -70,4 +77,4 @@ From a communities perspective Engagement Management means:
 
 ## Engagement Workflow
 
-More details can be found in the [Engagement Workflow](crm/engagement-workflow.md)
+More details can be found in the [Engagement Workflow](engagement-workflow.md)
