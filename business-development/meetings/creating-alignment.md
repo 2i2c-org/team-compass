@@ -8,7 +8,7 @@ These meetings are currently:
 -   Project Management alignment (_[P&S: Project Management](meetings/project-management-alignment.md)_)
 -   Horizon Scanning (_[P&S: Horizon Scanning](meetings/horizon-scanning.md)_)
 
-## Process related alignment
+## Processes related alignment
 
 We work in iterations and use Agile delivery practices to deliver our work.
 This naturally results in the following ceremonies:
@@ -30,3 +30,11 @@ We have two, 15 minute synchronous checkins each week. These help us to:
 
 **Continuous improvement**
 We have a retrospective at the end of each iteration to provide opportunities to improve our way of working.
+
+(slack:business-development)=
+
+## The Business Development Slack channel
+
+-   The [`#business-development` Slack channel](https://2i2c.slack.com/archives/G015W2KSBCP) is for discussions around the business and membership lifecycle.
+-   The [`#business-development-airtable-updates`](https://2i2c.slack.com/archives/C08AZTGAUBX) is for tracking ongoing conversations around automated updates from AirTable.
+-   The [`#business-development-hubspot-updates`](https://2i2c.slack.com/archives/C08PQQHH3U5) is for tracking ongoing conversations around automated updates from HubSpot.

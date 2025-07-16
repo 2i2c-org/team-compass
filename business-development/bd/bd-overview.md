@@ -1,5 +1,12 @@
 # Business Development Overview
 
+```{toctree}
+strategy.md
+pricing-strategy.md
+sales-operations.md
+kpis.md
+```
+
 Business Development is critical to 2i2c and is responsible for:
 
 -   Interfacing with customers (future and existing) to understand their challenges
@@ -36,14 +43,6 @@ The Business Development team is guided by the following three-pronged strategy:
 6. Maintain relationships, escalation point if those people aren't happy
 7. Comfort with selling / asking for money
 8. Capability to report on value delivery to purchasers
-
-(slack:business-development)=
-
-### The Business Development Slack channel
-
--   The [`#business-development` Slack channel](https://2i2c.slack.com/archives/G015W2KSBCP) is for discussions around the business and membership lifecycle.
--   The [`#business-development-airtable-updates`](https://2i2c.slack.com/archives/C08AZTGAUBX) is for tracking ongoing conversations around automated updates from AirTable.
--   The [`#business-development-hubspot-updates`](https://2i2c.slack.com/archives/C08PQQHH3U5) is for tracking ongoing conversations around automated updates from HubSpot.
 
 ## Key Roles
 
