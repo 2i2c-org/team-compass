@@ -8,6 +8,8 @@ The Tech Lead is the leadership team member responsible for our technology decis
 
 They pair with the Head of Products & Services to make technology choices that meet our communities’ needs, and with the Engineering Manager to support the team as a whole delivering on the commitments we make. They have authority and responsibility to make best effort, “safe to try” technological choices when we cannot reach consensus.
 
+The Tech Lead and Engineering manager are co-equals in the case of hiring or exit decisions, and the two roles must either reach consensus or disagree but commit. 
+
 
 ## Responsibilities
 ### Building engineering capacity & capability. 
