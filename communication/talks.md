@@ -10,14 +10,17 @@ If you publish your talk on Zenodo, please add it to [our Zenodo community](publ
 
 ## When to give talks
 
-If a talk is virtual and a "standard" talk length, feel free to accept these opportunities to signal-boost our mission and impact.
-If a talk is in-person and requires travel that is not reimbursed by the organizers, or if it is particularly complex or important, get approval from a team lead at 2i2c before giving the talk.
+If a talk is virtual and a "standard" talk length, feel free to accept these opportunities to signal-boost our mission and impact, while also growing your own professional reach.
+
+For talks and conferences that take place in-person and require travel that is not reimbursed by the organizers, or if it is particularly complex or important, get approval from a team lead at 2i2c before deciding to attend. Conferences are great opportunities for 2i2c to learn, showcase our abilities, and potentially gather sales leads. 
 
 Below is information to help understand what kinds of opportunities we should look for.
 
-## How to prioritize talking opportunities
+## How to prioritize conference talks and sponsorship opportunities
 
-Here are a few kinds of talking opportunities that we should particularly prioritize.
+We're building a [Playbook for conference attendance and sponsorship](https://docs.google.com/document/d/1jynjVxVPgRlS5_cbI_B6sKMTsZG58dsO9b6RyUaNQnA/edit?tab=t.0), which offers more detail on what actions to take, including goal-setting and prioritization of different opportunities. 
+
+Here are a few kinds of conference opportunities that we should particularly prioritize.
 
 **Relevant communities that may not know about 2i2c.** These are communities that seem well-suited for our services (research/education/public that have need for cloud infrastructure for interactive computing). Our talks here may generate new leads and customers.
 
