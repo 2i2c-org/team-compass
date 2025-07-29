@@ -242,6 +242,12 @@ To designate another team member as the Incident Commander, follow these steps:
 2. **Reassign the incident on PagerDuty** to the new commander. This should produce a message in the slack channel for this event,
    thus communicating this change to the rest of the team.
 
+## Post-incident action items
+
+After the incident is over, we *must* prioritize any action items that prevent this kind of incident at the same level as a contract deliverable, and attempt to bring it into the next sprint. While we can't guarantee there shall be no outages, we must do everything we can to prevent known causes of outages from recurring.
+
+It's the tech lead's responsibility to shape an absolute minimum sized task to mitigate the issue that caused this incident, and the responsibility of the tech lead & engineering manager to advocate for bringing it in during the next sprint.
+
 ## Key terms
 
 ```{glossary}
