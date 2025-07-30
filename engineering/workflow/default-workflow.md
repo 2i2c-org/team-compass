@@ -60,29 +60,148 @@ Last day of Iteration
 :::
 
 (meetings:backlog-refinement)=
+
 ### 1. Pre-planning and refinement
 
-The Refinement meetings prepares the Iteration board for the Iteration planning
-meetings, which relies on having sequenced and prioritized tasks to be available in the board's Refined column.
+Tasks in the backlog are continually added and refined asynchronously by the whole team, ready for Iteration planning meetings, which rely on having sequenced and prioritized tasks to be available in the board's Refined column.
+The backlog is regularly culled of tasks that are stale, in a monthly Backlog refinement meeting 
 
-Backlog refinement meetings should drive:
-- creation of tasks into the sprint board's backlog column
-- promotion of tasks into the sprint board's refined column
-- prioritization of task in the sprint board's refined column
+Backlog refinement meetings should aim to
+- Identify and remove tasks that are stale or obsolete
+- Identify and action tasks that are in the wrong status or priority on the board
+- Identify tasks that need further asynchronous refinement
 
-Tasks should tie back to initiatives, and the refined column should also function as a buffer of uncommitted work to pull from if needed.
+Tasks should tie back to initiatives or contract deliverables, and the refined column should also function as a buffer of uncommitted work to pull from if needed.
 
 Attendees of the Refinement meeting should include representatives from the following teams:
 - Engineering: for technical decision-making
 - Product: for product decision-making
-- Partnerships and Community Success: for community/grant decision-making.
+
+Product Managers at the meeting should ensure to come prepared to represent Business Development interests.
 
 (meetings:sprint-planning)=
-### 2. Iteration Planning
 
-The team conducts a synchronous iteration planning meeting for 60 minutes at the beginning of each iteration.
+### 2. Iteration Planning Guide
 
-The goal of this meeting is to synchronize with one another and commit to work to do during the iteration that gets us closer to achieving the initiatives objectives.
+#### 🗓️ Between Refinement and Planning
+
+A Product Manager will:
+
+- **Add deadlines to issues that need them**  
+  A Product Manager will ensure that any issue with a contractual obligation or expected delivery has a clear due date.
+
+- **Mark contract deliverables with dates**  
+  Use labels to easily identify Contract Deliverables.
+
+- **Assign preferred sprint-end dates**  
+  If a card is intended for the upcoming sprint, let a Product Manager know and they will mark it with this sprint’s end date.
+
+- **Organize in 'Up Next'**  
+  A Product Manager manages and sorts cards in the ‘Up Next’ column for visibility.
+
+The Team will:
+
+- **Review open-source contributions**  
+  Include relevant contributions and initiatives in planning discussions.
+
+- **Advocate for priority cards**  
+  Team members should speak up for issues they’re most invested in or want to lead. Reach out to a Product Manager in the days leading up to a sprint to discuss the priority of the issues you wish to champion:
+  - First check that the issues you want to suggest are not already in the Up Next column and dated for the upcoming sprint. 
+  - Send a message to the PM at least one day prior to the planning session with a list of issues you feel need to be included in the upcoming sprint.
+  - Please include as much context as needed for the PM to understand why these issues need to be in the upcoming sprint
+  - The PM will take your suggestions under advisement and make a best effort to include them, but cannot guarantee that to be the case as other priorities and capacity will need to be considered. 
+
+#### 🗺️ Roadmap & Initiative Review
+
+The Product Manager will:
+
+- **Review roadmap tab for issues with dates**  
+  - Pull in overdue items.
+  - Reassign unrealistic dates to achievable ones.
+  - Ensure no items lag behind without follow-up.
+ 
+#### ✅ Preparing for Planning
+
+The Team will:
+
+- **Ensure issues are current**  
+  - All team members should update and clean up any issues to which they are assigned prior to the planning session
+  - Ensure the use of the Standard Definition of Done available in the General Issue template where possible.
+
+The Engineering Manager will:
+
+- **Report on last sprint’s progress**  
+  Add totals for:
+  - ✅ Done  
+  - 📂 Open  
+  - ❌ Unplanned  
+  to the previous sprint’s **Status Update**.
+
+#### 📆 At the Planning Session 
+
+The Engineering Manager will:
+
+#### 🔁 Sprint Review & Retrospective
+
+- **Review last sprint’s outcomes**
+  - Compare *actual velocity* vs. target
+  - Document the *status update*
+  - Identify questions or blockers on leftover cards
+  - Incorporate *retro feedback* to adjust workflows
+
+#### 🎯 Define Sprint Goals
+
+The Engineering Manager will:
+
+- **Establish sprint themes**
+  - Ask the Head of Product and the Technical Lead to share focus areas or big goals
+  - Invite input from the whole team for broader context
+
+The Team will:
+
+- **Identify a “1” (low-effort card)**  
+  Start with the easiest, quickest win for the sprint.
+
+#### 🃏 Committing Cards
+
+The Team will:
+
+- **Sort Board by date**  
+  - Focus first on items due or overdue before exploring the rest.
+  - Make sure to check dated items in the Up Next, Refined, Upcoming and In Flight columns are not being left behind
+
+- **Start from the top of ‘Up Next’**
+  - ✍️ Summarize each card for shared understanding  
+  - 🧠 Estimate effort using Planning Poker or expert judgment  
+  - 🙋 Assign responsible team member(s)  
+  - 🔖 Move card to **Committed** and tag with sprint iteration
+
+- **Prioritize initiative-linked and Contract Deliverable tasks**  
+  - Reinforce the importance of completing tasks tied to Initiatives in Flight and Contract Deliverables.
+
+- **Ensure coverage of key categories**  
+  Explicitly address:
+  - Contract Deliverables
+  - Incident Mitigation issues
+  - Platform Initiatives  
+  - Service Initiatives  
+before moving on to anything else. 
+
+- **Continue until reaching target velocity**  
+  Adjust as needed to fill capacity without overloading.
+
+- **Balance workloads**  
+  - Review assignments for each member  
+  - Shuffle cards to prevent burnout or neglect  
+  - Add or remove cards to ensure smooth sprint flow
+
+#### 📊 Final Sprint Setup
+
+- Ping anyone who was not able to attend the meeting and ensure they are aware of the tasks they have been assigned. 
+
+- **Update new sprint’s status dashboard**
+  - Include total points in **Committed**
+  - Ensure visibility across stakeholders
 
 #### Planning Outcomes:
 At the end of this meeting, we will have:
@@ -105,8 +224,6 @@ This meeting provides us a golden opportunity to:
 - Limit the amount of work in process across Engineering (system optimisation)
 - Ensure that we are focused on delivering the highest value work (value optimisation).
 ```
-
-See [the Sprint Planning issue template](https://github.com/2i2c-org/team-compass/blob/main/.github/ISSUE_TEMPLATE/meeting-sprint-planning.md) for the agenda / structure of these meetings.
 
 ### 3. Progress Update (and blockers)
 
@@ -240,7 +357,7 @@ The _general rule_ is that actions are also work and should be refined and prior
 (coordination:sprint-board)=
 ### The Iteration Board
 
-The [Iteration Board](https://github.com/orgs/2i2c-org/projects/49/views/1) is a place to keep track of the [Deliverables and tasks](coordination:deliverables) our team intends to work on for a two week iteration.
+The [Iteration Board](https://github.com/orgs/2i2c-org/projects/57/views/1) is a place to keep track of the [Deliverables and tasks](coordination:deliverables) our team intends to work on for a two week iteration.
 
 The board is a GitHub Projects board that is populated with tasks during the teams Iteration Planning activity.
 
@@ -251,8 +368,10 @@ The Sprint Board is broken down into different columns that represent the team's
 
 The current queues of work represented by the board are:
 
-- {guilabel}`Backlog` represents tasks pending refinement as driven by backlog refinement meetings.
+- {guilabel}`Upcoming P&S Initiatives` represents high level initiatives waiting to be picked up, with highest priority towards the top.
+- {guilabel}`P&S Initiatives in flight` represents high level initiatives that are actovely being worked on, with highest priority towards the top.
 - {guilabel}`Refined` represents prioritized tasks ready to be worked, with the highest priority towards the top.
+- {guilabel}`Up Next` represents prioritized tasks that will be included into the upcoming sprint(s) with the highest priority towards the top.
 - {guilabel}`Committed` represents tasks we've committed to complete during the current sprint in the most recent sprint planning meeting. Each item should have at least one owner.
 - {guilabel}`In Progress` represents actively worked tasks.
 - {guilabel}`In Review/Blocked` represents tasks that need to be review before being marked as done or that cannot be completed without additional actions/support.
@@ -275,152 +394,39 @@ The important thing is that they have high-quality information and structure, cl
 There are a few special sections of a deliverable issue.
 Not all of them are strictly required, but are particularly useful for more complex or long-lasting deliverables.
 
-See [this Github Issue template](https://github.com/2i2c-org/team-compass/blob/main/.github/ISSUE_TEMPLATE/01_new-issue.yml) for an example of a deliverable's structure.
+See [this Github Issue template](https://github.com/2i2c-org/infrastructure/blob/main/.github/ISSUE_TEMPLATE/01_new-issue.yaml) for an example of a deliverable's structure.
 Below are some major sections that are common:
 
-Top Comment
+Context
 : The top comment of a deliverable has meta information associated with that deliverable.
   This includes background information, user stories, task lists, etc.
   **The top comment should be frequently updated** by anybody on the team with relevant information to add.
   Do not hesitate to update somebody's top comment with new information, even if you didn't open the issue (though you're encouraged to leave a comment noting what has changed!).
 
-Benefit
-: What is the benefit for completing this deliverable?
-  This should be in the form of [user stories](https://www.atlassian.com/agile/project-management/user-stories) that explicitly define the stakeholders that care about a deliverable, and why.
+What we need to do
+: What is the intended aim of the deliverable?
+  This should be in the form of [user stories](https://www.atlassian.com/agile/project-management/user-stories) or a thorough description that explicitly define the stakeholders that care about a deliverable, and why.
 
-Tasks to complete
+Definition of Done
 : Use task lists encode discrete steps to take in order to complete a deliverable.
   All deliverables should have either a set of concrete steps to take to meet the deliverable, or at least one task with the **acceptance criteria** for when the deliverable will be complete.
   Task lists should be in the top comment of the deliverable, and are encoded as markdown tasks lists (e.g. with `- [ ]`).
   Task lists should be updated over time as we learn the steps needed to close the deliverable.
   For more complex deliverables, these tasks may be what goes onto the Sprint Board, rather than the deliverable itself.
 
-(coordination:deliverables-backlog)=
-## The Team Backlog (OUTDATED)
+  We use a Standard Definition of Done to guide the creation of any issue's DoD, suggesting a selection of the following steps to delivery:
 
-[Click here to go to the Team Backlog](https://github.com/orgs/2i2c-org/projects/22).
+      - [ ] The feature/service is technically complete
+      - [ ] The feature/service been tested with one or more users (if applicable)
+      - [ ] The feature/service been deployed to a production cluster
+      - [ ] The feature/service has been shown to be replicably deployable
+      - [ ] The feature/service is well documented, and the documentation is accessible for the target user base
+      - [ ] The feature/service has been added to our product menu (if applicable).
+      - [ ] Lessons learned have been documented
+      - [ ] The feature's availability has been communicated to Sales
+      - [ ] The feature has been communicated to our communities
 
-The Team Backlog is a GitHub Projects Board with a list of [Deliverables and tasks](coordination:deliverables) across all of our active projects.
-This represents the work that the team is planning to do in the near future.
-These items adhere to the following principles:
 
-- The order of items should be roughly according to priority, with higher priority items at the top of lists.
-- Items on the board should have a **status** that signals whether they are ready to work or need more refinement before working.
-- If an item has multiple components or would otherwise take longer than a sprint to complete, create new issues as sub-tasks, and add *them* to the Sprint Board.
+## The `#product-and-services` Slack channel
 
-### Assigning to an issue (OUTDATED)
-
-Only assign a backlog issue to somebody if it is **actively being worked on**.
-We assume that once somebody is assigned to an issue, it is part of an active iteration.
-Note that **all** issues on our Iteration Backlog should have somebody assigned to them.
-
-:::{admonition} Our definition of "Work in Progress"
-Because issues that are actively being worked on must have somebody assigned to them, we use "the issues that have somebody assigned to them" as our definition of Work in Progress.
-:::
-
-### Backlog item limits (OUTDATED)
-
-Our goal is to have backlog items that roughly cover the next 3 [iteration cycles](coordination:sprints).
-We **should not have more backlog items than this amount**.
-
-You can estimate the number of items on the board at any one time by assuming that **each team member (at 100% FTE) can accomplish about 2 items per sprint**.
-You can then calculate the rough number of items on this board with the equation:
-
-```
-n_team_members * 2 (items per sprint) * 3 (sprints on the board)
-```
-
-So if we have 5.5 team members available (if one of them is at 50% FTE), then the team backlog should have around `5.5 * 2 * 3 = 33 deliverables` on it.
-
-### Adding backlog items
-
-We should add items to our team backlog when we have capacity to do the work in the next 3 sprints, and when those items are ready to be prioritized over all the other work that we *could* do (e.g., all issues in our repositories and encoded in project backlogs).
-
-:::{tip}
-
-It can be difficult to keep track of issues across all of our repositories, so using a [Project Backlog](coordination:project-backlog) can be helpful to track longer-term planning for a specific project.
-
-:::
-
-To add an item to the backlog, take the following steps:
-
-- Look at the team backlog to make sure that it has capacity to absorb a new item.
-- If it does not have capacity
-  - Consider adding it to a [Project Backlog](coordination:project-backlog) or leave it in the issues of a repository.
-    We can always get to it later.
-  - Choose whether you wish to **remove** an item from the backlog in order to make space.
-    Use your best judgment about whether this is the right thing to do, depending on the priority of the backlog items that are already on there.
-- Place the new backlog item in the appropriate location, according to its perceived importance and urgency.
-
-### How to prioritize backlog items
-
-It can be difficult to prioritize backlog items, and is ultimately a subjective decision.
-These criteria can be used to help guide your actions:
-
-- **Impact**: How impactful will it be to resolve this item?
-  Will it affect many users or be particularly useful?
-- **Urgency**: How important is it that we resolve this item quickly?
-  If it is lower impact, but urgent to accomplish, we may nonetheless wish to prioritize it.
-- **Effort**: How many moving pieces does this item have and how much deep thinking will it take to resolve?
-  All else being equal, we should prioritize backlog items that are easier or faster to accomplish since this will be more bang for our buck.
-  This is obviously very subjective, so is probably best-estimated when there's a candidate person to work on an item.
-
-### Working on backlog items
-
-Backlog items are ready to work when they have enough context and tasks so that a team member can begin making progress towards closing them.
-This doesn't mean that we know **all** of the tasks needed to complete the item, but that there's enough information to begin work. [^invest]
-
-[^invest]: A good resource for considering what kinds of information makes a deliverable "ready" is [the INVEST methodology](https://agileforall.com/new-to-agile-invest-in-good-user-stories).
-
-The team picks up work associated with a backlog item via our Sprint Planning meeting.
-In this case, there are two options:
-
-1. **Add the item to the Sprint Board**. If an item is scoped tightly enough that it can be completed within one sprint, then add it to the [Sprint Board](coordination:sprint-board) and complete it in a sprint.
-2. **Generate issues from tasks and add them to the Sprint Board**. For items that are more complex and require tasks that would take more than one sprint, use the **Task List** in the issue to generate new issues for use on the Sprint Board.
-
-   :::{tip}
-   You can [use GitHub's task issue tracking features](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-task-lists) to keep track of tasks associated with an issue.
-   :::
-
-As work is done towards a backlog item, **update the top comment of the issue** with new information and tasks.
-Each parent issue is the {term}`Source of Truth` for all work associated with it (instead of, for example, an issue created as a sub-task for that item).
-
-(coordination:deliverables:upstream)=
-### Tracking upstream issues
-
-In some cases we want to do work in an upstream repository or project.
-To do this, add upstream issues to our Team Backlog as we would add any other issue.
-
-## How to keep track of projects
-
-Longer-term projects are generally more complex and may be made up of many actions and deliverables to accomplish.
-There is no official way to track long-term projects within 2i2c, but there are a few patterns that may be useful to do so, described in this section.
-
-% TODO: We should define a more reliable process for tracking long-term projects
-
-### Tracking issues
-
-The simplest way to track longer-term efforts is with a **Tracking Issue**.
-This is a GitHub Issue whose job is to keep track of many actions and deliverables over time that are needed to close the issue.
-They are generally encoded as **Task Lists** in the issue's top comment.
-Each item in the list tends to be a deliverable, and can be converted into its own GitHub Issue (e.g., to put on the [Sprint Board](coordination:sprint-board)) as-needed.
-
-(coordination:project-backlog)=
-### Project Backlogs
-
-For more complex efforts, it can be useful to create a Project Backlog.
-These are GitHub Projects boards that contain all of the deliverables that will complete a given project.
-These are often organized into a few columns, representing the _state_ of each deliverable.
-Here is a common column structure:
-
-- {guilabel}`Needs Discussion/Refinement`: Deliverables that are high-priority but un-refined. Our goal should be having discussion and doing research in order to get these deliverables ready for work.
-- {guilabel}`Ready to Work`: Deliverables that are well-scoped and have a clear path forward, and are thus ready to implement. As deliverables in {guilabel}`In progress` are completed, we should replace them with deliverables from this column. Generally speaking, deliverables near the top have higher priority than those at the bottom.
-- {guilabel}`In progress`: Deliverables that we are currently working towards. This means that they should be added to the [Sprint Board](coordination:sprint-board) to track its completion.
-- {guilabel}`Blocked`: Deliverables that require another action or delivearable from the 2i2c team to complete before they can move forward.
-- {guilabel}`Waiting`: Deliverables that require another action from a **non-2i2c team member** before they can move forward.
-- {guilabel}`Done`: Deliverables that have been completed. We should close these issues and celebrate the improvements that we have made!
-
-(slack:engineering)=
-## The `#engineering` Slack channel
-
-The [`#engineering` Slack channel](https://2i2c.slack.com/archives/C055A1J1DRP) is a place for the engineering team to coordinate, plan, and discuss their work.
+The [`#product-and-services` Slack channel](https://2i2c.slack.com/archives/C07SJJWVCAD) is a place for the P&S team to coordinate, plan, and discuss their work.
