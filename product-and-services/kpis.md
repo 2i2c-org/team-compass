@@ -6,6 +6,7 @@ The Product and Services team at 2i2c tracks its value delivery and performance 
 
 ## Primary KPIs
 
+(kpi:csat)=
 ### Community Satisfaction Score (CSAT)
 
 We gather Community Satisfaction Scores (CSAT) (or User Satisfaction Scores) to understand whether we're delivering value to our communities.
