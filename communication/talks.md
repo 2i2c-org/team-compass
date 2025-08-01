@@ -18,7 +18,7 @@ Below is information to help understand what kinds of opportunities we should lo
 
 ## How to prioritize conference talks and sponsorship opportunities
 
-We're building a [Playbook for conference attendance and sponsorship](https://docs.google.com/document/d/1jynjVxVPgRlS5_cbI_B6sKMTsZG58dsO9b6RyUaNQnA/edit?tab=t.0), which offers more detail on what actions to take, including goal-setting and prioritization of different opportunities. 
+Use the [Playbook for conference attendance and sponsorship](https://docs.google.com/document/d/1jynjVxVPgRlS5_cbI_B6sKMTsZG58dsO9b6RyUaNQnA/edit?tab=t.0) for ideas of what actions to take, including goal-setting and prioritization of different opportunities. 
 
 Here are a few kinds of conference opportunities that we should particularly prioritize.
 
