@@ -63,7 +63,7 @@ Last day of Iteration
 
 ### 1. Pre-planning and refinement
 
-Tasks in the backlog are continually added and refined asynchronously by the whole team, ready for Iteration planning meetings, which rely on having sequenced and prioritized tasks to be available in the board's Refined column.
+Tasks in the backlog are continually added and refined asynchronously by the whole team, ready for Iteration planning meetings, which rely on having sequenced and prioritized tasks to be available in the board's Up next column.
 The backlog is regularly culled of tasks that are stale, in a monthly Backlog refinement meeting 
 
 Backlog refinement meetings should aim to
