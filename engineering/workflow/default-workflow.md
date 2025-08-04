@@ -126,7 +126,7 @@ The Team will:
 
 - **Ensure issues are current**  
   - All team members should update and clean up any issues to which they are assigned prior to the planning session
-  - Ensure the use of the Standard Definition of Done available in the General Issue template where possible.
+  - Ensure the use of the Standard Definition of Done available in the General Issue template where possible (See "How are Deliverabled Structured", below).
 
 The Engineering Manager will:
 
@@ -180,11 +180,11 @@ The Team will:
   - Reinforce the importance of completing tasks tied to Initiatives in Flight and Contract Deliverables.
 
 - **Ensure coverage of key categories**  
-  Explicitly address:
-  - Contract Deliverables
-  - Incident Mitigation issues
-  - Platform Initiatives  
-  - Service Initiatives  
+Explicitly address:
+  1. Contract Deliverables
+  2. Incident Mitigation issues
+  3. Platform Initiatives  
+  4. Service Initiatives  
 before moving on to anything else. 
 
 - **Continue until reaching target velocity**  
@@ -389,7 +389,7 @@ We use the word "deliverable" loosely here - some issues may be more like tasks 
 The important thing is that they have high-quality information and structure, clearly denote value, and are actionable.
 :::
 
-### How are deliverables structured? (OUTDATED)
+### How are deliverables structured?
 
 There are a few special sections of a deliverable issue.
 Not all of them are strictly required, but are particularly useful for more complex or long-lasting deliverables.
