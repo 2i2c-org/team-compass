@@ -77,7 +77,7 @@ Attendees of the Refinement meeting should include representatives from the foll
 - Engineering: for technical decision-making
 - Product: for product decision-making
 
-Product Managers at the meeting should ensure to come prepared to represent Business Development interests.
+Product Managers at the meeting should come prepared to represent and advocate for Business Development interests.
 
 (meetings:sprint-planning)=
 
