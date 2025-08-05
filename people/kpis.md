@@ -10,7 +10,9 @@ Engagement is a broad category of things that touches on motivation, connection 
 Here are our last survey results from April 2025. Our target, what we'd consider "good" scores for each, is 70%. A lower score means we want to take action to improve. 
 
 ```{csv-table}
-:header: "category", "response", "description"
+:header-rows: 1
+
+"Category", "Response", "Description"
 "Well-being", "73%", "are we feeling good?"
 "Leadership", "76%", "are leaders inspiring and supporting each other and the team?"
 "Enablement", "67%", "does each of us have what they need to be successful?"
