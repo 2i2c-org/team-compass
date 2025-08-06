@@ -182,9 +182,10 @@ The Team will:
 - **Ensure coverage of key categories**  
 Explicitly address:
   1. Contract Deliverables
-  2. Incident Mitigation issues
-  3. Platform Initiatives  
-  4. Service Initiatives  
+  2. BD requests
+  3. Incident Mitigation issues
+  4. Platform Initiatives  
+  5. Service Initiatives  
 before moving on to anything else. 
 
 - **Continue until reaching target velocity**  
