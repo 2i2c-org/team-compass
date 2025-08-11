@@ -7,6 +7,7 @@ kpis.md
 expectations.md
 hiring.md
 compensation.md
+managers.md
 development-process.md
 development.md
 titles.md
