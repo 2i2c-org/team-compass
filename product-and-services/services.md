@@ -26,4 +26,4 @@ the priority for resolution based on the number of users impacted and the commun
 
 ### Community Enablement
 
-2i2c personel are available to work directly with communities through our (Community Enablement Service)[https://compass.2i2c.org/projects/community-enablement/].  
+2i2c personel are available to work directly with communities through our [Community Enablement Service(https://compass.2i2c.org/projects/community-enablement/).
