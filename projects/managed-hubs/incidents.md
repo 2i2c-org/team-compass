@@ -64,8 +64,8 @@ We do not have a limit on the support time we provide related to incidents (as
 opposed to Change and Guidance requests, which have a {term}`Support Budget`).
 
 We use the "Severity" field in Pagerduty to count incidents. If an incident affects end users,
-please *manually* set the Severity field to "P1" in pagerduty. This allows us to gain metrics
-on user facing outages [measured by PagerDuty](https://2i2c-org.pagerduty.com/analytics/overview-dashboard/NjW0L-tdZdvnQxz6BjhsCQ).
+please *manually* set the Severity field to "P1" in pagerduty if it hasn't been set by automation or if you manually created the incident. This allows us to gain metrics
+on user facing outages [measured by PagerDuty](https://2i2c-org.pagerduty.com/analytics/overview-dashboard/NjW0L-tdZdvnQxz6BjhsCQ) and to share them publicly on the [2i2c PagerDuty status page](https://2i2c-hubs.trust.pagerduty.com).
 
 ## Communication channels
 
