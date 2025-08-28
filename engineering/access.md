@@ -18,7 +18,7 @@ The list of 2i2c staff that have access to our infrastructure is here: {external
 
 We have [a paid PagerDuty account at `2i2c-org.pagerduty.com`](https://2i2c-org.pagerduty.com/).
 This is used for our uptime monitoring and reporting services.
-See {external+infra:doc}`topic/monitoring-alerting/uptime-checks` for more details.
+See {external+infra:doc}`topic/monitoring-alerting/alerting` for more details.
 
 ## GitHub bot accounts
 
