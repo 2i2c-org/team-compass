@@ -40,7 +40,7 @@ Our product is...
 
 ## Constraints and considerations
 
-- We have no dedicated communications and marketing capacity, and must make do with limited resources.
+- We have no dedicated communications and marketing capacity, so we do our best with limited resources by integrating external communications into our workflows.
 - We do most of our work in public and in asynchronous spaces with breadcrumbs of activity.
 - Much of our impact happens in non-2i2c spaces, like open source communities or member community actions.
 - Many of our member communities see us as a collaborator with shared impact.
