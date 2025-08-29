@@ -139,15 +139,22 @@ The Engineering Manager will:
 
 #### 📆 At the Planning Session 
 
-The Engineering Manager will:
 
 #### 🔁 Sprint Review & Retrospective
+
+The Engineering Manager will:
 
 - **Review last sprint’s outcomes**
   - Compare *actual velocity* vs. target
   - Document the *status update*
   - Identify questions or blockers on leftover cards
   - Incorporate *retro feedback* to adjust workflows
+
+The Tech Lead will:
+
+- **Review last sprint's outages** (maximum 3 minutes)
+  - List all the P1 outages during the last sprint
+  - Flag any pending incident reports that have not been completed
 
 #### 🎯 Define Sprint Goals
 
