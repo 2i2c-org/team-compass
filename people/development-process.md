@@ -11,18 +11,21 @@ When you have clarity about what’s expected of you, and what you could be doin
 * Asking for help when you want or need it
 
 ## Our process
-Development planning is a series of two-way conversations about what each member of the team needs and wants to learn. Engineers have these conversations with the Engineering Manager and Tech Lead; other team members have conversations with their managers and/or coaches.
+Development planning is a series of two-way conversations about what each member of the team needs and wants to learn. Engineers have these conversations with the Engineering Manager and Tech Lead; other team members have conversations with their managers and/or coaches. 
+
+Professional growth can feel very personal, and each person has their own style. This process gives us guidelines for the steps we should follow, in whatever format and style clicks for them.
 
 ### Once (or twice) a year 
-Regularly stepping back from day-to-day work to reflect on the bigger picture helps you set bigger goals and notice that you've grown. 
+Regularly stepping back from day-to-day work to reflect on the bigger picture helps you set bigger goals and notice that you've grown. Each person at 2i2c has someone who serves as a manager and can help them think through this process. 
 
-Talk to your manager about your work performance, how you've learned and grown over the past year.  
+Reflect and talk to your manager about your work performance, how you've learned and grown over the past year.  
 * Expectations you started with
 * What you learned, including what you can do now that you couldn't a year ago
 * Where you needed help and where you went above & beyond
-* Your impact on the team and our users
+* Your impact on the team and the communities we serve
   
 It's also useful to discuss your wider career goals (if you have them) with your manager or a coach, and consider what's next. That can include: 
+* Your broader career path
 * Goals for the next year 
 * Changes to the organization's needs and expectations
 * Things you want to learn, use more, or teach
@@ -51,6 +54,6 @@ Learning doesn't happen in big chunks at the end of a quarter; it happens every 
 * Share feedback and thanks with others, especially compliments - we often don’t notice the things we do well.
 
 ## Resources
-While team members can use any tools that suit, most of use our [Development Plan template](https://docs.google.com/presentation/d/1E79-Jx_eD0RO94LW4Cp6ySn9YCowU7iqleqIXF2o-qA/edit?usp=sharing).
+While team members can use any tools that suit, most of us use our [Development Plan template](https://docs.google.com/presentation/d/1E79-Jx_eD0RO94LW4Cp6ySn9YCowU7iqleqIXF2o-qA/edit?usp=sharing).
 
 Engineers on the team also use a self-assessment across our core technical and team skills, included in the [Engineering Development Plan template](https://docs.google.com/presentation/d/1M4cNiZGlHG1lfSPzSw5pByFJcjCjURQ6jd0HRkrBNKw/edit?usp=sharing).

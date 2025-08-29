@@ -9,7 +9,7 @@ The Engineering Manager focuses on creating a high functioning team. They work c
 
 ### Managing engineering capacity & capability. 
 
-The Engineering Manager is responsible for strategic professional development, ensuring that we grow the capabilities we need and use the capabilities we have well. They partner with the Technical Lead in identifying capability needs, hiring, advising team members, creating structures to grow capabilities, and evaluating our collective progress. Ultimately the Engineering Manager is responsible (and accountable) for the team’s engineering capacity and capabilities.
+The Engineering Manager is responsible for strategic professional development, ensuring that we grow the capabilities we need and use the capabilities we have well. They partner with the Technical Lead in identifying capability needs, hiring, advising team members, creating structures to grow capabilities, and evaluating our collective progress. Ultimately the Engineering Manager is responsible (and accountable) for the team’s engineering capacity and capabilities, but in the case of hiring or exit decisions, they are co-equal with the Technical Lead and the two roles must either reach consensus or disagree but commit. 
 
 ### Health of our delivery.
 They’re primarily responsible for the engineering group’s delivery of the socio-technical product we provide, by creating a team culture and a system of roles and processes that makes our product & services team successful, and allows our team members to thrive. 

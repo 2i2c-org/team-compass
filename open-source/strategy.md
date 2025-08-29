@@ -7,7 +7,7 @@ For policies related to funding, see [](funding.md).
 
 Whenever possible, we should improve our own infrastructure via _upstream contributions_ to communities where we are not the sole stakeholder.
 We should prioritize [key communities](key-communities.md) and upstream communities that [align with our values](organization:values).
-We know this will take extra effort from us - doing things on your own is faster, but doing them together with open source communities leads to a healthier and more sustianable ecosystem.
+We know this will take extra effort from us - doing things on your own is faster, but doing them together with open source communities leads to a healthier and more sustainable ecosystem.
 
 ## Upstream work can't be done on nights and weekends
 
