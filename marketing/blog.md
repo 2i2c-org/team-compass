@@ -130,7 +130,7 @@ We try to keep the number of categories small, and non-overlapping in their mean
 
 ### Common tags
 
-We have a lot of tags, so don't worry about creatin a new one if you don't think your tag has been covered yet. [Here's a list of all our tags](https://2i2c.org/tags/).
+We have a lot of tags, so don't worry about creating a new one if you don't think your tag has been covered yet. [Here's a list of all our tags](https://2i2c.org/tags/).
 
 ## How to optimize images
 
