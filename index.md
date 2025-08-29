@@ -48,7 +48,6 @@ organization/index
 people/index
 open-source/index
 finance/index
-communication/index
 administration/index
 ```
 
@@ -65,6 +64,7 @@ Functional areas each have their own leads, goals, and structures.
 operations/index
 delivery-enablement/index
 business-development/index
+marketing/index
 product-and-services/index
 engineering/index
 ```

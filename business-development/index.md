@@ -20,5 +20,4 @@ crm/engagement-workflow.md
 customer-success/freshdesk.md
 customer-success/hub-activity.md
 meetings/index.md
-marketing/stickers.md
 ```

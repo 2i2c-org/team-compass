@@ -60,7 +60,6 @@ This is a productivity tool for posting across our Bluesky, Mastodon and LinkedI
 
 **How to access**: See [](account:bitwarden).
 
-
 ## List of our social media accounts
 
 We use the following accounts for social media.

@@ -1,14 +1,8 @@
 # Contribute to the blog
 
-[The blog at 2i2c.org/blog](https://2i2c.org/blog) is the primary way that we communicate our work to the external world.
+The [blog at `2i2c.org/blog`](https://2i2c.org/blog) is the primary way that we communicate our work to the external world.
 
-## Why do we blog?
-
-Blogging serves a few key purposes:
-
-- **Provide transparency**. It is a way for us to show others what we've been up to and where we are going next.
-- **Communicate our impact**. It is a way to share how our work has impacted communities we serve either in domain areas or in open source.
-- **Invite feedback**. It is a way to create content we can reference to others to facilitate conversations and ask questions.
+See [](./strategy.md) for how the blog fits into our communications strategy.
 
 ## Where is the blog hosted?
 
@@ -16,14 +10,6 @@ Our blog is a subset of our [website repository for 2i2c.org](https://github.com
 
 It exists at the [`/blog` subdirectory](https://github.com/2i2c-org/2i2c-org.github.io/tree/main/content/blog). Each page is a folder in that directory, with the folder name being the URL for the blog entry, and `index.md` having the blog's content.
 For example, the post at https://2i2c.org/blog/2025/jupyter-book-cors/ exists in a markdown file at [`/content/blog/2025/jupyter-book-cors/index.md](https://github.com/2i2c-org/2i2c-org.github.io/blob/main/content/blog/2025/jupyter-book-cors/index.md).
-
-
-## Principles to follow
-
-- **Blog regularly and often**. The most important thing is that we are in a habit of regularly communicating our work.
-- **Keep it short**. Blog posts should be quick and easily digestible. Ideally around 300-500 words.
-- **Keep it simple**. Don't use this to make complex arguments or long reports. Blogs should be bite-sized and to-the-point.
-- **Make it "safe to try" over perfect**. Don't get bogged down in writing the perfect post. Just get something up there and move on.
 
 ## A simple blog post template for new development
 
@@ -44,37 +30,6 @@ The following could be section headers (e.g. `##`) or just sentences in a short 
 4. What did we do to solve it?
 5. What does this unlock?
 ```
-
-## How do add a category and tags
-
-Each post has one category and multiple tags. Categories describe the post's intent, and tags cover its main themes or topics. You add them to the frontmatter of posts like so:
-
-```markdown
----
-title: Post title
-date: "2025-01-01"
-category: updates
-tags:
-  - open source
-  - geoscience
----
-```
-
-### How to format categories and tags
-
-We use **lowercase formatting** as well as **spaces instead of hyphens** for both tags and categories. For example, `open source`, not `open-source` and not `Open Source`.
-
-### Common categories
-
-We try to keep the number of categories small, and non-overlapping in their meaning. [Here's a list of all our categories](https://2i2c.org/categories/), but we try to keep it only to the ones below:
-
-- `impact` - telling stories of impact that 2i2c has had, either via contributors to a domain / open source community, or via communities we've enabled with our service.
-- `service` - updates about our service and work we've recently done for it.
-- `organization` - updates about our organization that isn't directly related to our service
-
-### Common tags
-
-We have a lot of tags, so don't worry about creatin a new one if you don't think your tag has been covered yet. [Here's a list of all our tags](https://2i2c.org/tags/).
 
 ## How to write a new blog post
 
@@ -122,26 +77,60 @@ The easiest way to do all of the above _without ever leaving the browser_ is to 
     ![Image](https://github.com/user-attachments/assets/7cad310d-2620-4ad8-aa99-6e13bb3e4174)
 5. Follow the prompts to create a new pull request from within VSCode, or navigate to https://github.com/2i2c-org/2i2c-org.github.io/ and open the PR from there
 
-(blog:topics)=
-## What to post on the blog
+### How to add an external blog post
 
-Generally speaking, we can post as often as we wish.
-Our blog should be a running heartbeat of our organization, and it is OK if the information on there isn't perfect.
-Be creative and experiment with formats that you think might be interesting or fun.
-If there's something particularly important, we can signal-boost it with our [Mailing list](mailinglist.md).
+We can link to blog posts that were written by the 2i2c team but published in other locations. These show up in our blog roll but are just pointers to other websites.
 
-Here are a few ideas for blog post topics for inspiration:
+To add an external blog post to our blog, create a blog post with an `external_link:` metadata field like, and a body that _summarizes_ the post. For example:
 
-- **2i2c organizational updates**. Provide updates about important organizational decisions and changes. For example:
-  - Major changes to strategy
-  - Governance or other organizational changes
-  - New hires
-- **Major project updates**. For major projects and collaborations, we should provide regular updates about the work that we've done. This shouldn't frame 2i2c as the sole producer for these projects (unless we really are the sole producer), but demonstrate how 2i2c has contributed to the overall effort. For example:
-  - Major deliverables that we’ve met on a project
-  - New collaborations
-- **Open source updates**. If we do particular service work, or make a strong technical improvement in an open source project, we should tell the world about it.
-- **Updates from the Managed JupyterHub Serivce**. As hub service infrastructure grows and evolves, and as we serve more communities with it, we should tell others about the impact we are having.
-- **Topic dives**. There may be particular topics that we want to write about, like open culture, cloud optimization, etc. These will help us crystallize our thoughts, demonstrate expertise, and share knowledge with others.
+```
+---
+title: "An external post title"
+date: 2025-03-03
+external_link: https://your-post-url.org
+tags:
+  - upstream
+  - open source
+categories:
+  - impact
+---
+
+This content will be displayed as a summary of the post in the blog landing page.
+```
+
+Note that all other metadata fields are the same as any other blog post.
+See [this blog post as an example](https://github.com/2i2c-org/2i2c-org.github.io/blob/main/content/blog/2025/binder-buildkit/index.md).
+
+## How to add a category and tags
+
+Each post has one category and multiple tags. Categories describe the post's intent, and tags cover its main themes or topics. You add them to the frontmatter of posts like so:
+
+```markdown
+---
+title: Post title
+date: "2025-01-01"
+category: updates
+tags:
+  - open source
+  - geoscience
+---
+```
+
+### How to format categories and tags
+
+We use **lowercase formatting** as well as **spaces instead of hyphens** for both tags and categories. For example, `open source`, not `open-source` and not `Open Source`.
+
+### Common categories
+
+We try to keep the number of categories small, and non-overlapping in their meaning. [Here's a list of all our categories](https://2i2c.org/categories/), but we try to keep it only to the ones below:
+
+- `impact` - telling stories of impact that 2i2c has had, either via contributors to a domain / open source community, or via communities we've enabled with our service.
+- `service` - updates about our service and work we've recently done for it.
+- `organization` - updates about our organization that isn't directly related to our service
+
+### Common tags
+
+We have a lot of tags, so don't worry about creating a new one if you don't think your tag has been covered yet. [Here's a list of all our tags](https://2i2c.org/tags/).
 
 ## How to optimize images
 
