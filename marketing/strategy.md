@@ -9,7 +9,11 @@
 ## Measure of progress
 
 In the short-term, our goal is simply to start blogging more reliably according to the principles described below.
-For this reason, our goal is to have **one blog post every two weeks**.
+For this reason, our goal is to have at least:
+
+- **one blog post every two weeks**
+- **one mailing list e-mail every two months**
+
 We'll revisit this goal once we've built up enough momentum to focus on improving our conversion efficiency.
 
 ## Our audience
