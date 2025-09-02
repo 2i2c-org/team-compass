@@ -7,6 +7,7 @@ overview
 structure
 workflow/index
 definition-of-ready
+communicating-changes
 strategy
 access
 secrets
