@@ -145,6 +145,9 @@ def setup(app):
     # ref: https://www.sphinx-doc.org/en/master/extdev/appapi.html#sphinx.application.Sphinx.add_crossref_type
     app.add_crossref_type("role", "role")
     app.add_crossref_type("team", "team")
+    # Plausible.io tracking
+    app.add_js_file("https://plausible.io/js/script.file-downloads.hash.outbound-links.js", **{"data-comain": "compass.2i2c.org", "defer": ""})
+    app.add_js_file(filename=None, body="window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }")
 
 # -- Generate table of Support Stewards --------------------------------------
 # This requires a token to be set, but will fail semi-gracefully if it is not.
