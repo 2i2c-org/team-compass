@@ -36,13 +36,36 @@ This process is carried out in an ongoing basis by the {term}`Support Triagers`.
 1. **Monitor our support channels**. We use FreshDesk for all support requests, and the Support Triagers should regularly keep an eye on this account for new requests.
    When a new support requests comes in, move to the next step.
 2. **Read and understand**. Within one working day[^working-day], read the support request and try to understand what action would resolve it.
-3. **Decide if there is an incident**. Determine if a request meets {term}`the definition of an incident <Incident>`.
-4. **Categorize the Support Ticket** in FreshDesk.
-5. **If an Incident**, go to [](support:incident-response).
-6. **If not an Incident**, go to [](support:non-incident-response).
-7. **End of rotation hand-off**, see [below](support:end-of-rotation-hand-off).
+3. **Associate Ticket with a Community**. Verify the support ticket is associated with the correct community.
+4. **Decide if there is an incident**. Determine if a request meets {term}`the definition of an incident <Incident>`.
+5. **Categorize the Support Ticket** in FreshDesk.
+6. **If an Incident**, go to [](support:incident-response).
+7. **If not an Incident**, go to [](support:non-incident-response).
+8. **End of rotation hand-off**, see [below](support:end-of-rotation-hand-off).
 
 [^working-day]: We define a working day as a continuous 24 hour period of time from Monday through Friday. This is because our team and the communities we serve are distributed across many time zones, so there is no single "working day" for everyone.
+
+:::{admonition} Freshdesk Communities and Contacts
+FreshDesk has the concept of a 'Company' that can be associated independently with both tickets and contacts. We interpret the 'Company' in Freshdesk to mean the 2i2c Community that is being served.
+
+When a ticket comes into FreshDesk is automatically associated with the Community based on the 'Company' of the Community Representative submitting the ticket.
+
+When a new Community is being onboarding, create a new "company" in FreshDesk:
+```{image} /images/support/freshdesk_newcompany.png
+:width: 200
+```
+
+To update the list of Community Representatives, edit the Company:
+```{image} /images/support/freshdesk_company.png
+:width: 500
+```
+
+For each Community Representative, create a new Contact entry. Contacts may be affliated with multiple Communities if required:
+```{image} /images/support/freshdesk_associatecommunity.png
+:width: 500
+```
+:::
+
 
 (support:non-incident-response)=
 ### Non-incident response process
@@ -73,11 +96,7 @@ When a new ticket lands in Freshdesk under the support group and it is not an in
     :width: 500
     ```
 
-   You can update Community Representatives by editing a Company within Freshdesk:
-  
-    ```{image} /images/support/freshdesk_company.png
-    :width: 500
-    ```
+
 
 2. `Who: Support Triager`
 
