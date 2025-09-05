@@ -67,9 +67,17 @@ When a new ticket lands in Freshdesk under the support group and it is not an in
    >
    > Thanks.
 
-   You can use [this airtable](https://airtable.com/appbjBTRIbgRiElkr/pagD3XyZjqBunYMnC) as the *source of truth*
-   for who can initiate support requests for which communities. You should find the username & password for 2i2c airtable account in the organizational
-   bitwarden.
+   The *source of truth* for Community Representatives is the FreshDesk "Company" entry that is used to represent each of our Communities. Community Representatives are shown adjacent to each FreshDesk ticket:
+
+    ```{image} /images/support/freshdesk_ticket.png
+    :width: 500
+    ```
+
+   You can update Community Representatives by editing a Company within Freshdesk:
+  
+    ```{image} /images/support/freshdesk_company.png
+    :width: 500
+    ```
 
 2. `Who: Support Triager`
 
