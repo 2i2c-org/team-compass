@@ -13,6 +13,7 @@ invoices
 google-workspace
 github
 airtable
+domains
 authentication
 passwords
 zoom
