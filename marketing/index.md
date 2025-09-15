@@ -4,6 +4,7 @@
 
 Marketing covers our strategy, policy, and systems for engaging with the broader market in which 2i2c operates. This includes communicating with external stakeholders as well as gathering information from them to serve both [](../product-and-services/index.md) and [](../business-development/index.md) goals.
 
+(team)=
 ## Team
 
 Chris Holdgraf is the part-time lead of Marketing and outreach.
@@ -17,6 +18,7 @@ Use the [BD Team Board in GitHub](https://github.com/orgs/2i2c-org/projects/61) 
 ```{toctree}
 :maxdepth: 2
 strategy
+workflow
 blog
 social
 mailinglist

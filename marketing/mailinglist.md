@@ -1,6 +1,7 @@
 # Mailing list
 
 We use [Mailchimp](https://mailchimp.com/) for our mailing list.
+See [our Mailing List landing page](https://2i2c.org/mailing-list) for a sign-up form.
 
 See [](./strategy.md) for how our mailing list fits into our communications strategy.
 
@@ -11,9 +12,6 @@ See [](account:bitwarden) for access.
 
 ## Send e-mails via Mailchimp
 
-Mailchimp is a little complex for our needs, as it is a full community management and communications service.
-However, it is still the simplest solution out there so here's a quick guide on how to use it.
-
 Mailchimp calls each e-mail a **Campaign**.
 
 **To see our preview e-mails**: Click {guilabel}`Campaigns` -> {guilabel}`All campaigns`. You'll see a list of the previous e-mails we've sent to our communities via Mailchimp.
@@ -22,14 +20,9 @@ Mailchimp calls each e-mail a **Campaign**.
 
 Send new campaigns as your personal e-mail address (if you wish to identify personally with the e-mail), or with `hello@2i2c.org`.
 
-## Sign up for the mailing list
+## Add contacts to our mailing list
 
-Anyone can sign up for the mailing list [with this subscribe link](http://eepurl.com/hjHbff).
-
-## Our contact list
-
-Users sign up to the newsletter via our landing page's contact form at [2i2c.org#contact](https://2i2c.org#contact).
-Email addresses are imported into Mailchimp for the newsletter.
+Users sign up to the newsletter via our landing page's contact form at [2i2c.org/mailing-list](https://2i2c.org/mailing-list).
 **Do not manually add e-mail addresses** unless you know somebody wants to be on this list.
 
 To see our contact list in Mailchimp, go to {guilabel}`Audience` -> {guilabel}`All contacts`.
