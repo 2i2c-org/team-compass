@@ -181,9 +181,7 @@ Initiatives are moved through these stages while they are with Engineering, and 
 
 ### Documenting new features and services
 
-Good documentation is critical to ensuring that our team and our communities have the information they need to have impact with our product and services. As part of building any piece of 2i2c's product, documentation is a pre-requisite for completion.
-
-See [our guidelines for documentation](#documentation:well-documented) for our minimal definition of "documented".
+All new platform features and services must meet our [definition of minimally documented](#minimally-documented) before a product initiative is complete.
 
 ## 6. Review
 

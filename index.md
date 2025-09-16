@@ -49,6 +49,7 @@ people/index
 open-source/index
 finance/index
 administration/index
+operations/index
 ```
 
 (index:functional-areas)=
@@ -61,7 +62,6 @@ Functional areas each have their own leads, goals, and structures.
 :caption: Areas of work
 :maxdepth: 2
 
-operations/index
 delivery-enablement/index
 business-development/index
 marketing/index

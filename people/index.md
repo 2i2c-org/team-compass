@@ -1,3 +1,4 @@
+(people-operations)=
 # People operations
 
 ```{toctree}

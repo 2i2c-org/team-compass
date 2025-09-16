@@ -1,7 +1,7 @@
-# Team operations
+# Team-wide practices
 
 The Team Operations section defines our systems for work coordination, planning, and accountability.
-It also defines expectations for all team members across 2i2c.
+It applies to all team members across 2i2c.
 
 ```{toctree}
 strategy
