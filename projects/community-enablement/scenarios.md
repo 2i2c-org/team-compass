@@ -8,12 +8,13 @@ This service may be used for:
 - Supporting grant co-writing and open science governance structures.
 
 ## Examples in Membership Tiers
+
 - **Advanced Tier**: 4 hours/quarter of dedicated support.
 - **Premier Tier**: 8 hours/quarter of dedicated support.
 
 ## SOW Templates
 
-In Statements of Work (SOW) documents, describe the Community Enablement Service with the pattern:
+In [Statements of Work (SOW)](/product-and-services/deliveryflow.md#statements-of-work-sows-and-software-design-documents-sdds), describe the Community Enablement Service with the pattern:
 
 | Section      | Details                  |
 |--------------------------|-------------------|
@@ -22,7 +23,6 @@ In Statements of Work (SOW) documents, describe the Community Enablement Service
 | **Other Terms**             | Hours available resets quarterly (Jan 1, Apr 1, Jul 1, Oct 1)      |
 
 ### Specific Examples
-
 
 **Consulting for Environment Customization**
 

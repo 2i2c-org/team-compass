@@ -7,6 +7,7 @@ Some links might be missing or in-the-works.
 
 ```{toctree}
 bd-overview.md
+strategy.md
 kpis.md
 roles/index.md
 pricing-strategy.md
@@ -19,5 +20,4 @@ crm/engagement-workflow.md
 customer-success/freshdesk.md
 customer-success/hub-activity.md
 meetings/index.md
-marketing/stickers.md
 ```

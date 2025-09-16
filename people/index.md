@@ -3,12 +3,14 @@
 ```{toctree}
 :maxdepth: 2
 overview.md
+kpis.md
 expectations.md
-compensation.md
-cost-reduction.md
-development.md
-development-process.md
 hiring.md
+compensation.md
+managers.md
+development-process.md
+development.md
 titles.md
 time-off.md
+cost-reduction.md
 ```

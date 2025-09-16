@@ -42,7 +42,7 @@ External Liasons
 
 Subject Matter Expert
 Subject Matter Experts
-  A member on the {term}`Incident Response Team` with expertise in an area of relevance to an Incident. SMEs have a variety of backgrounds and abilities, and they should be pulled in to the Response Team as-needed by the {term}`Incident Commander`. Their goal is to take actions as-directed by the {term}`Incident Commander` to resolve an incident. The Tech Lead must always be included as a Subject Matter Expert, as they have unique expertise in solving certain problems and are ultimately accountable for successful incident resolution. 
+  A member on the {term}`Incident Response Team` with expertise in an area of relevance to an Incident. SMEs have a variety of backgrounds and abilities, and they should be pulled in to the Response Team as-needed by the {term}`Incident Commander`. Their goal is to take actions as-directed by the {term}`Incident Commander` to resolve an incident. The Tech Lead must always be included as a Subject Matter Expert, as they have unique expertise in solving certain problems and are ultimately accountable for successful incident resolution.
 ```
 
 (incidents:what)=
@@ -63,9 +63,9 @@ the future as our process matures.
 We do not have a limit on the support time we provide related to incidents (as
 opposed to Change and Guidance requests, which have a {term}`Support Budget`).
 
-```{note}
-PagerDuty has a 'Severity' field for incidents. We do not use this field currently.
-```
+We use the "Severity" field in Pagerduty to count incidents. If an incident affects end users,
+please *manually* set the Severity field to "P1" in pagerduty if it hasn't been set by automation or if you manually created the incident. This allows us to gain metrics
+on user facing outages [measured by PagerDuty](https://2i2c-org.pagerduty.com/analytics/overview-dashboard/NjW0L-tdZdvnQxz6BjhsCQ) and to share them publicly on the [2i2c PagerDuty status page](https://2i2c-hubs.trust.pagerduty.com).
 
 ## Communication channels
 
@@ -113,7 +113,9 @@ Here is the process that we follow for incidents:
 
    This officially marks the beginning of an incident, and will help make sure we don't accidentally miss steps during or after the incident.
 
-3. **Try resolving the issue** and communicate on the incident-specific channel while you gather information and perform actions - even if only to mark these as notes to yourself.
+3. **Set priority on PagerDuty**: If this incident affects end users, please set Priority field in PagerDuty to "P1".
+
+4. **Try resolving the issue** and communicate on the incident-specific channel while you gather information and perform actions - even if only to mark these as notes to yourself.
 
    ```{admonition} Do not use threaded Slack messages
    :class: warning
@@ -124,8 +126,9 @@ Here is the process that we follow for incidents:
    Hence if the cause of an incident was established in a thread, this cannot be reflected automatically in the incident report.
    ```
 
-4. **Delegate to Subject Matter Experts as-needed**. The Incident Commander is empowered to delegate actions to Subject Matter Experts in order to investigate and resolve the incident quickly. The {role}`Technology Lead` is available to validate and review recommended actions along with other Subject Matter Experts. When in doubt, delegate to the Tech Lead. [^note-on-delegation]
-5. **Communicate our status every few hours**. The {term}`External Liason` is
+5. **Delegate to Subject Matter Experts as-needed**. The Incident Commander is empowered to delegate actions to Subject Matter Experts in order to investigate and resolve the incident quickly. The {role}`Technology Lead` is available to validate and review recommended actions along with other Subject Matter Experts. When in doubt, delegate to the Tech Lead. [^note-on-delegation]
+
+6. **Communicate our status every few hours**. The {term}`External Liason` is
    expected to communicate incident status and plan with the {term}`Community
    Representative`s. If the incident commander wants to delegate External Liason duties
    to someone else, they should:
@@ -144,10 +147,10 @@ Here is the process that we follow for incidents:
    Incident update template
    ```
 
-6. **Communicate when the incident is resolved**. When we believe the incident is resolved, communicate with the Community Representative that things should be back to normal.
+7 **Communicate when the incident is resolved**. When we believe the incident is resolved, communicate with the Community Representative that things should be back to normal.
    - Mark the incident as "Resolved" in pagerduty.
    - Mark the FreshDesk ticket as {guilabel}`Closed`.
-7. **Create an incident report**.
+8. **Create an incident report**.
    See [](incidents:create-report) for more information.
 
 [^note-on-delegation]: If you cannot find somebody to take on this work, or feel uncomfortable delegating, the {role}`Technology Lead` should help you, and is empowered to delegate on your behalf.
@@ -241,6 +244,12 @@ To designate another team member as the Incident Commander, follow these steps:
 1. **Confirm with them** that they are able and willing to serve as the Incident Commander.
 2. **Reassign the incident on PagerDuty** to the new commander. This should produce a message in the slack channel for this event,
    thus communicating this change to the rest of the team.
+
+## Post-incident action items
+
+After the incident is over, we *must* prioritize any action items that prevent this kind of incident at the same level as a contract deliverable, and attempt to bring it into the next sprint. While we can't guarantee there shall be no outages, we must do everything we can to prevent known causes of outages from recurring.
+
+It's the tech lead's responsibility to shape an absolute minimum sized task to mitigate the issue that caused this incident, and the responsibility of the tech lead & engineering manager to advocate for bringing it in during the next sprint.
 
 ## Key terms
 

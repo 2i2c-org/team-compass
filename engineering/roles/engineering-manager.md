@@ -8,13 +8,14 @@ The Engineering Manager focuses on creating a high functioning team. They work c
 ## Responsibilities
 
 ### Managing engineering capacity & capability. 
-As our product evolves, our team will need to learn and adapt. The Engineering Manager is responsible for strategic professional development, ensuring that we grow the capabilities we need and use the capabilities we have well. They partner with the Technical Lead in identifying capability needs, hiring, advising team members, creating structures to grow capabilities, and evaluating our collective progress. Ultimately the Engineering Manager is responsible (and accountable) for the team’s engineering capacity and capabilities.
 
-### Health of our delivery. 
+The Engineering Manager is responsible for strategic professional development, ensuring that we grow the capabilities we need and use the capabilities we have well. They partner with the Technical Lead in identifying capability needs, hiring, advising team members, creating structures to grow capabilities, and evaluating our collective progress. Ultimately the Engineering Manager is responsible (and accountable) for the team’s engineering capacity and capabilities, but in the case of hiring or exit decisions, they are co-equal with the Technical Lead and the two roles must either reach consensus or disagree but commit. 
+
+### Health of our delivery.
 They’re primarily responsible for the engineering group’s delivery of the socio-technical product we provide, by creating a team culture and a system of roles and processes that makes our product & services team successful, and allows our team members to thrive. 
 
-
 ## How they work with the team
+
 - Advocates for the needs and goals of our engineers in defining organizational and team goals, in partnership with the Executive Director and other group leads
 - Owns systems of work - in partnership with the Delivery Enablement team, ensures engineering follows agreed processes and structures for managing work, following through on deliverables and holds ourselves accountable 
 - Makes sure work is consistently completed and showcased within each sprint 
