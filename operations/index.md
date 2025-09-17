@@ -10,8 +10,8 @@ workflow
 team-practices/overview
 onboarding
 sources
-documentation
 meetings
 communication
 team-compass
+documentation
 ```
