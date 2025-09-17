@@ -3,9 +3,9 @@
 (product:documentation-sources)=
 ## Sources of documentation
 
-- [2i2c Service Guide](https://docs.2i2c.org/): **what** our product is, **why** it is useful, and **how to use** our features and services.
-- [2i2c Infrastructure repository](https://infrastructure.2i2c.org): **how to operate** our infrastructure.
-- [2i2c Services guide](https://github.com/2i2c-org/services): **how to operate** our services.
+- [2i2c User Guide](https://docs.2i2c.org/): **what** our product is, **why** it is useful, and **how to use** our features and services.
+- [2i2c Infrastructure Documentation](https://infrastructure.2i2c.org): **how to operate** our infrastructure.
+- [2i2c Services Documentation](./services.md): **how to operate** our services.
 
 (minimally-documented)=
 ## Our minimal definition of "documented"

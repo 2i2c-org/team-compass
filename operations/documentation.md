@@ -2,6 +2,8 @@
 
 The following table lists the major sources of documentation and the area primarily responsible for their structure and content.
 
+- [Product & Services](#product:documentation-sources)
+
 ```{list-table}
 :header-rows: 1
 
