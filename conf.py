@@ -53,6 +53,7 @@ html_css_files = ["custom.css"]
 # sphinx-book-theme ref:   https://sphinx-book-theme.readthedocs.io/en/stable/reference.html
 # pydata-sphinx-theme ref: https://pydata-sphinx-theme.readthedocs.io/en/stable/user_guide/index.html
 #
+html_title = "Team Compass"
 html_theme = "sphinx_2i2c_theme"
 html_theme_options = {
     "repository_url": "https://github.com/2i2c-org/team-compass",

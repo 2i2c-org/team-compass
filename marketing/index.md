@@ -13,6 +13,11 @@ Chris Holdgraf is the part-time lead of Marketing and outreach.
 
 Use the [BD Team Board in GitHub](https://github.com/orgs/2i2c-org/projects/61) to track its work.
 
+:::{admonition} External documentation sources
+:class: seealso
+See [](#external-documentation).
+:::
+
 ## Documentation sections
 
 ```{toctree}

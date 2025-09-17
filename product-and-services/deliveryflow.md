@@ -167,7 +167,7 @@ As more detail is added to a Initiative through these activities, the Initiative
 
 ### User stories
 
-User stories describing a Initiative should be in the format of:
+User stories describing an Initiative should be in the format of:
 
 **As a ______ I want to ______ in order to ______**
 
@@ -178,6 +178,10 @@ _“As a community leader I want to have a list of all available add-ons, and th
 User stories in this format are extremely helpful in ensuring all stakeholders have a common understanding of what the goal of a particular idea might be. These user stories can also form the basis of engineering tasks. 
 
 Initiatives are moved through these stages while they are with Engineering, and will remain there until they are ready to be moved to the next stage, Review.
+
+### Documenting new features and services
+
+All new platform features and services must meet our [definition of minimally documented](#minimally-documented) before a product initiative is complete.
 
 ## 6. Review
 
