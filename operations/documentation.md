@@ -37,8 +37,8 @@ The following table lists the major sources of external documentation and the ar
   - P&S Team
   - P&S
 * - Service Operations Guide
-  - [2i2c Services Documentation](./services.md)
-  - [2i2c Services Documentation](./services.md)
+  - [2i2c Services Documentation](../product-and-services/services.md)
+  - [2i2c Services Documentation](../product-and-services/services.md)
   - **How to operate** our services.
   - P&S Team
   - P&S
