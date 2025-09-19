@@ -56,10 +56,4 @@ The Operations Manager reports to the [Delivery Manager](role-delivery-manager.m
 -   Process owners within teams
 -   CS&S Operations team
 
-## 3-MONTHS GOALS
 
-_Current: Review end of March 2025_
-
-1. Map and document core operational processes
-2. Identify high-impact automation opportunities
-3. Establish baseline process performance metrics

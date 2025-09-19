@@ -42,10 +42,4 @@ The Delivery Manager reports to the Executive Director
     -   **_Delivery processes_**: The Product and Services lead, the Engineering Manager and the Tech Lead
     -   **_Sales processes_**: Head of Business Development/Snr. Account Executive and the Executive Director
 
-## 3-MONTHS GOALS
 
-_Current: Review end of March 2025_
-
-1. System of work and process for Business Development are defined and implemented
-2. Project Cycle Time (from lead to project delivery) is known
-3. Product and Services team know their velocity
