@@ -34,10 +34,10 @@ We know the **People Lead** is failing if team members are all overwhelmed and b
     1. Increased focus and skill around people management & leadership
     2. All team members have clear expectations and feedback on their performance
     3. Team members and managers are able to make development plans that embrace a growth mindset
-3. **Other elements of building and running 2i2c's People function**,
+3. **Other elements of building and running 2i2c's People function**
     1. Working with CS&S, we maintain team members' records in a way that maximizes autonomy and care for individuals while minimizing toil
     2. Team members can use the policies and practice we put in place with relative ease
-4. **Advise and support Executive Director and leadership team **
+4. **Advise and support Executive Director and leadership team**
     1. Foster growth of leadership stance
     2. Contribute to strategy and scale, with particular attention to guiding change in a way that reflects our culture and care for each other
 5. **Provide expertise and "burst capacity" in people management to teams**
@@ -54,13 +54,6 @@ The People Lead reports to the Chief of Staff.
 -   CS&S HR: Jamille White (to borrow and share people management practices and avoid reinventing wheels)
 -   Individual team members (guiding and supporting change and also offering people advice, coaching and an escalation point for people-related matters)
 
-## 3-MONTHS GOALS
-
-[Current: Review March 2025]
-
-1. Everyone has clear expectations for their roles
-2. Everyone has had a meaningful performance review with their manager, their previous manager and the people lead
-3. Cost of living adjustments for employee salaries and contract renewals
 
 <!-- Footnotes themselves at the bottom. -->
 
