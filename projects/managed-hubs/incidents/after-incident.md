@@ -6,7 +6,7 @@ After an incident is resolved, there are a few important steps to take to ensure
 
 After the incident is over, we *must* prioritize any action items that prevent this kind of incident at the same level as a contract deliverable, and attempt to bring it into the next sprint. While we can't guarantee there shall be no outages, we must do everything we can to prevent known causes of outages from recurring.
 
-It's the tech lead's responsibility to shape an absolute minimum sized task to mitigate the issue that caused this incident, and the responsibility of the tech lead & engineering manager to advocate for bringing it in during the next sprint.
+It's the {role}`Technical Lead`'s responsibility to shape an absolute minimum sized task to mitigate the issue that caused this incident, and the responsibility of the {role}`Technical Lead` & {role}`Engineering Manager` to advocate for bringing it in during the next sprint.
 
 (incidents:create-report)=
 ## Create an Incident Report
@@ -38,8 +38,8 @@ This lets us use notes, status updates from pagerduty as well as messages from S
    - In particular, the `Action Items` should be a list with items linked out to GitHub issues created for follow-up.
 5. **Click "Save & View Report"** when you are done
    - Ask other members of the incident response team to review the incident report
-   - In particular, the {term}`Tech Lead` should review and approve the report before it is marked as "Reviewed".
-6. After sufficient review, and if the {term}`Tech Lead` is happy with its completeness, edit the report again, **mark the Status dropdown as "Reviewed"**, and then click "Save & View Report" again.
+   - In particular, the {role}`Technical Lead` should review and approve the report before it is marked as "Reviewed".
+6. After sufficient review, and if the {role}`Technical Lead` is happy with its completeness, edit the report again, **mark the Status dropdown as "Reviewed"**, and then click "Save & View Report" again.
 7. **Download the PDF**, and add it to the [`2i2c/incident-reports`](https://github.com/2i2c-org/incident-reports) repository
    - Given review is already completed in the pagerduty interface, you don't need to wait for review to add the report here.
 8. **Email** a link to the incident report to the community representative, ideally via the Freshdesk ticket used to communicate with them during the incident itself.
