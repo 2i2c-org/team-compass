@@ -26,14 +26,14 @@ When an incident is identified via any of the above sources, the following steps
    ```
    ````
 
-### Acknowledge the incident
-   To acknowledge an incident, we need to make sure that:
+### Officially start the incident
+   ```{important}
+   An incident officially starts when:
    - a **PagerDuty P1 incident** exists
    - someone has **acknowledged the incident** in PagerDuty
    - a separate **Slack channel** for this incident exists
    - the **community has been informed** via Freshdesk of the ongoing incident
-
-   Once these conditions are met, this **officially marks the beginning of an incident**, and will help make sure we don't accidentally miss steps during or after the incident.
+   ```
 
    `````{tab-set}
    ````{tab-item} Pagerduty alert
@@ -76,7 +76,7 @@ When an incident is identified via any of the above sources, the following steps
    ```
 
 ### Get all hands on deck
-   If there are other Infrastructure Engineering team members available, pull them in as Subject Matter Experts in order to investigate and resolve the incident quickly. When in doubt, delegate to the Tech Lead.[^note-on-delegation]
+   If there are other Infrastructure Engineering team members available, pull them in as {term}`Subject Matter Experts` in order to investigate and resolve the incident quickly. When in doubt, delegate to the Tech Lead.[^note-on-delegation]
 
 ### Communicate our status every few hours
    The {term}`Communication Liaison` is expected to communicate incident status and plan with the {term}`Community Representative`s.
@@ -93,8 +93,8 @@ When an incident is identified via any of the above sources, the following steps
 
 ### Communicate when the incident is resolved
    When we believe the incident is resolved, communicate with the Community Representative that things should be back to normal.
-   - Mark the incident as "Resolved" in pagerduty.
-   - Mark the FreshDesk ticket as {guilabel}`Resolved`.
+   - Mark the incident as {guilabel}`Resolved` in PagerDuty.
+   - Mark the FreshDesk ticket as {guilabel}`Resolved`
 
 ### Take follow-up actions
    See [](incidents:create-report) for more information.
