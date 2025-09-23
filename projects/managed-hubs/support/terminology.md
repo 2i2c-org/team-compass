@@ -18,7 +18,7 @@ Incidents
   We do not have a limit on the support time we provide related to incidents (as opposed to Change and Guidance requests, which have a {term}`Support Budget`).
 
   :::{seealso}
-  See [](incidents) for more information.
+  See [](incidents:index) for more information.
   :::
 
 Change Request
