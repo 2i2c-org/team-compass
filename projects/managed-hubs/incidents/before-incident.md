@@ -12,15 +12,16 @@ An incident, as defined in this document, is distinct from a "PagerDuty Incident
 Only P1 incidents in PagerDuty correspond to outages and trigger the incident response process as defined here.
 ```
 
-## When is the incident response process triggered?
+## When is the incident response process triggered
 
 Whenever an outage has been identified, the incident response process should be triggered by the person who identified the outage.
+If they are part of the Infrastructure Engineering team, they become the {term}`Incident Responder`, otherwise they should notify the Infrastructure Engineering team via the `#pagerduty-notifications` Slack channel or the `#product-and-services-team` channel.
 
 ## Communication channels
 
 ### External communication
 
-- The person filling in the {term}`External Liason` role acts as the primary point of communication with external stakeholders like the {term}`Community Representative`s. This is typically the {term}`Support Triager`. But in their absence, this role becomes the responsability of the {term}`Incident Responder` 
+- The person filling in the {term}`External Liason` role acts as the primary point of communication with external stakeholders like the {term}`Community Representative`s. This is typically the {term}`Support Triager`. But, in their absence, this role becomes the responsibility of the {term}`Incident Responder` 
 - The communication happens via Freshdesk
 
 (incidents:communications)=
