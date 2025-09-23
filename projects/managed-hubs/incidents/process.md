@@ -8,10 +8,10 @@ We prioritize the resolution of incidents above all other kinds of work, and hav
 1. [Automated Pagerduty alerts](https://infrastructure.2i2c.org/topic/monitoring-alerting/alerting)
 2. [Support Freshdesk tickets](support:index)
 
-## Steps to take
+## Steps
 When an incident is identified via any of the above sources, the following steps must be taken:
 
-### Validate that we are dealing with an outage
+### 1. Validate that we are dealing with an outage
    ````{tab-set}
    ```{tab-item} Pagerduty alert
    :sync: pagerduty
@@ -26,7 +26,7 @@ When an incident is identified via any of the above sources, the following steps
    ```
    ````
 
-### Officially mark the beginning of the incident
+### 2. Officially mark the beginning of the incident
    ```{important}
    An incident officially starts when:
    - a **PagerDuty P1 incident** exists
@@ -63,7 +63,7 @@ When an incident is identified via any of the above sources, the following steps
    ````
    `````
 
-### Try resolving the issue
+### 3. Try resolving the issue
    At all times, try to communicate on the incident-specific channel while you gather information and perform actions - even if only to mark these as notes to yourself.
 
    ```{admonition} Do not use threaded Slack messages
@@ -75,10 +75,11 @@ When an incident is identified via any of the above sources, the following steps
    Hence if the cause of an incident was established in a thread, this cannot be reflected automatically in the incident report.
    ```
 
-### Get all hands on deck
-   If there are other Infrastructure Engineering team members available, pull them in as {term}`Subject Matter Experts` in order to investigate and resolve the incident quickly. When in doubt, delegate to the Tech Lead.[^note-on-delegation]
+### 4. Get all hands on deck
+   If there are other Infrastructure Engineering team members available, pull them in as {term}`Subject Matter Experts` in order to investigate and resolve the inci
+   dent quickly. When in doubt, delegate to the Tech Lead.[^note-on-delegation]
 
-### Communicate our status every few hours
+### 5. Communicate our status every few hours
    The {term}`Communication Liaison` is expected to communicate incident status and plan with the {term}`Community Representative`s.
 
    They should provide periodic updates that describe the current state of the incident, what we have tried, and our intended next steps. Here is a canned response to get started:
@@ -88,19 +89,18 @@ When an incident is identified via any of the above sources, the following steps
 
    Incident update template
    ```
-### Make sure the incident is resolved
+### 6. Make sure the incident is resolved
    The {role}`Technology Lead` should be pulled in to validate and review the actions taken and suggested to be taken next.
 
-### Communicate when the incident is resolved
+### 7. Communicate when the incident is resolved
    When we believe the incident is resolved, communicate with the Community Representative that things should be back to normal.
    - Mark the incident as {guilabel}`Resolved` in PagerDuty.
    - Mark the FreshDesk ticket as {guilabel}`Resolved`
 
-### Take follow-up actions
+### 8. Take follow-up actions
    See [](incidents:after) for more information.
 
 [^note-on-delegation]: If you cannot find somebody to take on this work, or feel uncomfortable delegating, the {role}`Technology Lead` should help you, and is empowered to delegate on your behalf.
-
 
 ## Handing off Incident Responder status
 
