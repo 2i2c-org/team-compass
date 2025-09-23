@@ -1,13 +1,13 @@
 # The incident team
 A team is formed when the incident response process is triggered. The goal of the team is to collectively and quickly resolve the incident.
 
-The team is currently formed organically with the the available members of the Infrastructure Engineering team, and may include other members of the 2i2c team as-needed. A rough way to approximate this team is "the people that have communicated in internal and external channels to resolve an incident."
+The team is **currently formed organically** with the the available members of the Infrastructure Engineering team, and may include other members of the 2i2c team as-needed. A rough way to approximate this team is _"the people that have communicated in internal and external channels to resolve an incident."_
 
 This team needs to fulfill three roles, which ideally are filled by different people, but can be same person.
 
-- An {term}`Incident Responder` (IR)
-- The {term}`Communication Liaison` (CL)
-- One or more {term}`Subject Matter Experts` (SMEs)
+- An {term}`Incident Responder`
+- The {term}`Communication Liaison`
+- One or more {term}`Subject Matter Experts`
 
 ## Roles and responsibilities
 
@@ -19,7 +19,7 @@ Incident Responder
     - be the {term}`Source of Truth` about the current state and action plan surrounding the incident
     - review the {term}`Incident Report` after the incident is resolved
 
-Communication Liason
+Communication Liaison
   The person that communicates with external stakeholders about an Incident. This is typically the {term}`Support Triager`
   Their **responsibility** is to:
     - communicate the status of the incident
