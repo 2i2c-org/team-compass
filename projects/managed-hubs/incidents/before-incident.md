@@ -18,20 +18,6 @@ Only P1 incidents in PagerDuty correspond to outages and trigger the incident re
 Whenever an outage has been identified, the incident response process should be triggered by the person who identified the outage.
 If they are part of the Infrastructure Engineering team, they become the {term}`Incident Responder`, otherwise they should notify the Infrastructure Engineering team via the `#pagerduty-notifications` Slack channel or the `#product-and-services-team` channel.
 
-## Communication channels
-
-### External communication
-
-- The person filling in the {term}`Communication Liason` role acts as the primary point of communication with external stakeholders like the {term}`Community Representative`s. This is typically the {term}`Support Triager`. But, in their absence, this role becomes the responsibility of the {term}`Incident Responder` 
-- The communication happens via Freshdesk
-
-(incidents:communications)=
-### Internal communication
-
-- A channel *dedicated* to each incident must be created through pagerduty once an incident has been identified and given a P1 priority. This is where most of the
-  discussion about the incident should happen.
-- [`2i2c-org.pagerduty.com`](https://2i2c-org.pagerduty.com/) is a dashboard for managing incidents.
-  This is the "source of truth" for any active or historical incidents.
-- [The `#pagerduty-notifications` Slack channel](https://2i2c.slack.com/archives/C041E05LVHB) is *primarily* used to trigger
-  new incidents and control pagerduty in other ways. Discussion of *specific* incidents should not happen here.
-
+```{important}
+Here is a list of [Important Pagerduty pages to know about](https://infrastructure.2i2c.org/topic/monitoring-alerting/alerting/#important-pagerduty-pages-to-know-about).
+```
