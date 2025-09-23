@@ -26,7 +26,7 @@ When an incident is identified via any of the above sources, the following steps
    ```
    ````
 
-### Officially start the incident
+### Officially mark the beginning of the incident
    ```{important}
    An incident officially starts when:
    - a **PagerDuty P1 incident** exists
@@ -97,7 +97,7 @@ When an incident is identified via any of the above sources, the following steps
    - Mark the FreshDesk ticket as {guilabel}`Resolved`
 
 ### Take follow-up actions
-   See [](incidents:create-report) for more information.
+   See [](incidents:after) for more information.
 
 [^note-on-delegation]: If you cannot find somebody to take on this work, or feel uncomfortable delegating, the {role}`Technology Lead` should help you, and is empowered to delegate on your behalf.
 
