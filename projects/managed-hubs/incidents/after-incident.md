@@ -6,10 +6,9 @@ After an incident is resolved, there are a few important steps to take to ensure
 ## Create an Incident Report
 
 Once the incident is resolved, we must create an {term}`Incident Report`.
-The **Incident Commander** is responsible for **starting the incident report process**, and **making sure the Incident Report is completed**.
+The {term}`Incident Responder` is responsible for **starting the incident report process**, and **making sure the Incident Report is completed**.
 They are not required to fill out all of the information in the report, though they may do so if they wish.
-If another person will fill out the report, check with them first and then assign them as `Owner of the Review Process`.
-See more detailed steps below.
+If another person will fill out the report, check with them first. See more detailed steps below.
 
 We practice a [blameless culture](https://www.blameless.com/sre/what-are-blameless-postmortems-do-they-work-how) around incident reports.
 Incidents are **always** caused by systemic issues, and hence solutions must be systemic too.

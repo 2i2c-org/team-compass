@@ -6,12 +6,11 @@ We prioritize the resolution of incidents above all other kinds of work, and hav
 ## Incident sources
 
 1. [Automated Pagerduty alerts](https://infrastructure.2i2c.org/topic/monitoring-alerting/alerting)
-2. [Support Freshdesk tickets](support:index))
+2. [Support Freshdesk tickets](support:index)
 
 ## Steps to take
 When an incident is identified via any of the above sources, the following steps must be taken:
 
-e and you can follow the steps in https://infrastructure.2i2c.org/howto/manage-alerts/#what-to-do-when-an-alert-fires-based-on-its-type-and-severity to fix it.
 ### Validate that we are dealing with an outage
    ````{tab-set}
    ```{tab-item} Pagerduty alert
@@ -29,24 +28,23 @@ e and you can follow the steps in https://infrastructure.2i2c.org/howto/manage-a
 
 ### Acknowledge the incident
    To acknowledge an incident, we need to make sure that:
-   - a PagerDuty P1 incident exists
-   - someone has acknowledged the incident in PagerDuty
-   - a separate Slack channel for this incident exists
-   - the community has been informed of the ongoing incident
+   - a **PagerDuty P1 incident** exists
+   - someone has **acknowledged the incident** in PagerDuty
+   - a separate **Slack channel** for this incident exists
+   - the **community has been informed** via Freshdesk of the ongoing incident
 
-   Once these conditions are met, this officially marks the beginning of an incident, and will help make sure we don't accidentally miss steps during or after the incident.
+   Once these conditions are met, this **officially marks the beginning of an incident**, and will help make sure we don't accidentally miss steps during or after the incident.
 
    `````{tab-set}
    ````{tab-item} Pagerduty alert
    :sync: pagerduty
-   1. Acknowledge the incident in PagerDuty and assign it a `P1` priority.
-   2. Create a new Slack channel from pagerduty this incident. Use this channel for all conversations about the incident.
-   2. Let the community know via Freshdesk that an incident that is affecting their hub has been identified and we are working on it.
+   The incident already exists in PagerDuty, so make sure the conditions above are met.
    ````
 
    ````{tab-item} Freshdesk ticket
    :sync: freshdesk
-   1. Create a `P1` incident in PagerDuty
+   1. You need to first create a `P1` incident in PagerDuty
+
       The fields are self-explanatory, but the most important ones are:
       - Setting the priority to `P1`
       - Choosing one of the Impacted Services that matches best the affected hub service. If not sure, choose `Misc alerts from Prometheus Alert Manager`.
