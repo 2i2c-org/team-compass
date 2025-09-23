@@ -12,7 +12,7 @@ The steps to follow depend greatly on the type of ticket. To simplify, only thre
 ## Category 1: Something is not working
 
 ```{important}
-If something is not working, you might be dealing with an incident, so depending on the scale of the issue and its nature, you might want to consider following the [Incident Response Process](https://compass.2i2c.org/projects/managed-hubs/incidents/#incident-response-process).
+If something is not working, you might be dealing with an incident, so depending on the scale of the issue and its nature, you might want to consider following the [Incident Response Process](https://compass.2i2c.org/projects/managed-hubs/incidents/process).
 ```
 
 1. ✅ Ask for any additional info might be needed

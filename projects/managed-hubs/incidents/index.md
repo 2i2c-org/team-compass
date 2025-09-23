@@ -21,7 +21,6 @@ The content on this page might change over time, and we welcome suggested change
 
 ```{toctree}
 before-incident
-roles-and-team
 process
-after-an-incident
+after-incident
 ```
