@@ -76,9 +76,7 @@ When an incident is identified via any of the above sources, the following steps
    ```
 
 ### Get all hands on deck
-   If there are other Infrastructure Engineering team members available, pull them in as Subject Matter Experts in order to investigate and resolve the incident quickly.
-
-   When the {role}`Technology Lead` will be available, they will validate and review recommended actions. When in doubt, delegate to the Tech Lead.[^note-on-delegation]
+   If there are other Infrastructure Engineering team members available, pull them in as Subject Matter Experts in order to investigate and resolve the incident quickly. When in doubt, delegate to the Tech Lead.[^note-on-delegation]
 
 ### Communicate our status every few hours
    The {term}`Communication Liaison` is expected to communicate incident status and plan with the {term}`Community Representative`s.
@@ -90,6 +88,8 @@ When an incident is identified via any of the above sources, the following steps
 
    Incident update template
    ```
+### Make sure the incident is resolved
+   The {role}`Technology Lead` should be pulled in to validate and review the actions taken and suggested to be taken next.
 
 ### Communicate when the incident is resolved
    When we believe the incident is resolved, communicate with the Community Representative that things should be back to normal.
@@ -100,3 +100,15 @@ When an incident is identified via any of the above sources, the following steps
    See [](incidents:create-report) for more information.
 
 [^note-on-delegation]: If you cannot find somebody to take on this work, or feel uncomfortable delegating, the {role}`Technology Lead` should help you, and is empowered to delegate on your behalf.
+
+
+## Handing off Incident Responder status
+
+During an incident, it may be necessary to designate another person to be the Incident Responder.
+For example, if it is getting late in the current IC's time zone, they feel burnt out from leading the incident response, or there is someone with better visibility or experience to be the Incident Responder.
+This is encouraged and expected, especially for more complex or longer incidents!
+
+To designate another team member as the Incident Responder, follow these steps:
+
+1. **Confirm with them** that they are able and willing to serve as the Incident Responder
+2. **Reassign the incident on PagerDuty** to the new Responder

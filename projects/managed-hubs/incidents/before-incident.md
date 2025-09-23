@@ -13,14 +13,14 @@ An incident, as defined in this document, is distinct from a "PagerDuty Incident
 Only P1 incidents in PagerDuty correspond to outages and trigger the incident response process as defined here.
 ```
 
+```{note}
+Here is a list of [Important Pagerduty pages to know about](https://infrastructure.2i2c.org/topic/monitoring-alerting/alerting/#important-pagerduty-pages-to-know-about).
+```
+
 ## When is the incident response process triggered
 
 Whenever an outage has been identified, the incident response process should be triggered by the person who identified the outage.
 If they are part of the Infrastructure Engineering team, they become the {term}`Incident Responder`, otherwise they should notify the Infrastructure Engineering team via the `#pagerduty-notifications` Slack channel or the `#product-and-services-team` channel.
-
-```{important}
-Here is a list of [Important Pagerduty pages to know about](https://infrastructure.2i2c.org/topic/monitoring-alerting/alerting/#important-pagerduty-pages-to-know-about).
-```
 
 ## The incident team
 A team is formed when the incident response process is triggered. The goal of the team is to collectively and quickly resolve the incident.
@@ -60,4 +60,4 @@ Subject Matter Experts
 
 ### Accountability
 
-Each of the roles is accountable for their responsibilities, and the {term}`Technology Lead` and the {term}`Engineering Manager` are ultimately accountable for the success of the incident response and how well the process has been followed.
+Each of the roles is accountable for their responsibilities, and the {role}`Technology Lead` and the {role}`Engineering Manager` are ultimately accountable for the success of the incident response and how well the process has been followed.
