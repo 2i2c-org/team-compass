@@ -88,8 +88,7 @@ e and you can follow the steps in https://infrastructure.2i2c.org/howto/manage-a
    When the {role}`Technology Lead` will be available, they will validate and review recommended actions. When in doubt, delegate to the Tech Lead.[^note-on-delegation]
 
 1. **Communicate our status every few hours**
-   The {term}`External Liason` is
-   expected to communicate incident status and plan with the {term}`Community Representative`s.
+   The {term}`Communication Liason` is expected to communicate incident status and plan with the {term}`Community Representative`s.
 
    They should provide periodic updates that describe the current state of the incident, what we have tried, and our intended next steps. Here is a canned response to get started:
 

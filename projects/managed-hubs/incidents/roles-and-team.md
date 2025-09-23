@@ -19,7 +19,7 @@ Incident Responder
     - be the {term}`Source of Truth` about the current state and action plan surrounding the incident
     - review the {term}`Incident Report` after the incident is resolved
 
-External Liason
+Communication Liason
   The person that communicates with external stakeholders about an Incident. This is typically the {term}`Support Triager`
   Their **responsibility** is to:
     - communicate the status of the incident
@@ -27,6 +27,7 @@ External Liason
     - write the {term}`Incident Report` after the incident is resolved
 
 Subject Matter Expert
+Subject Matter Experts
   A team member with expertise in an area of relevance to an Incident. They should be pulled in to the Response Team as-needed by the {term}`Incident Responder`. 
   Their **responsibility** is to:
     - help resolve the incident by providing expertise and taking actions
@@ -35,4 +36,4 @@ Subject Matter Expert
 
 ## Accountability
 
-Each of the roles is accountable for their responsibilities, and the {term}`Tech Lead` and the {term}`Engineering Manager` are ultimately accountable for the success of the incident response and how well the process has been followed.
+Each of the roles is accountable for their responsibilities, and the Tech Lead and the Engineering Manager are ultimately accountable for the success of the incident response and how well the process has been followed.

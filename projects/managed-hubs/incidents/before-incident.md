@@ -1,6 +1,7 @@
 
 # Things to know before an incident
 
+(incidents:what)=
 ## What is an incident
 
 An incident is an unplanned interruption to the hub service, or reduction in the quality of it. It is an external representation of an outage.
@@ -21,7 +22,7 @@ If they are part of the Infrastructure Engineering team, they become the {term}`
 
 ### External communication
 
-- The person filling in the {term}`External Liason` role acts as the primary point of communication with external stakeholders like the {term}`Community Representative`s. This is typically the {term}`Support Triager`. But, in their absence, this role becomes the responsibility of the {term}`Incident Responder` 
+- The person filling in the {term}`Communication Liason` role acts as the primary point of communication with external stakeholders like the {term}`Community Representative`s. This is typically the {term}`Support Triager`. But, in their absence, this role becomes the responsibility of the {term}`Incident Responder` 
 - The communication happens via Freshdesk
 
 (incidents:communications)=
