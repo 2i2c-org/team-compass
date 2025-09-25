@@ -13,7 +13,7 @@ The group is also responsible for providing unique technical expertise directly 
 ## Contribute to community engagements
 - Expert socio-technical contributions to community engagements, improving how our communities derive value from our platform and services
 - Close collaboration with our communities to provide technical expertise and support - so we provide fast, high quality responses to community support issues
-- Oversee our [Incident Response process](incidents).
+- Oversee our [Incident Response process](incidents:index).
 - Design the system of roles and practices that defines our [Support process](support:index).
 
 ## Maintain our cloud infrastructure
