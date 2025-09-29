@@ -15,9 +15,8 @@ Here's a brief overview of our support process[^github-support-issues]:
 - This request is triaged by our {term}`Support Triager`.
   - We will acknowledge the request within one working day[^working-day].
 - If the issue is an {term}`Incident`
-  - We will designate an {term}`Incident Commander` to orchestrate our efforts around the incident.
+  - We will designate an {term}`Incident Responder` to orchestrate our efforts around the incident.
   - We will prioritize resolving it over everything else.
-  - We will open a dedicated [Incident issue](support:incident-response) to track its progress.
   - We will provide regular communication to the {term}`Community Representative` as we investigate and work to resolve the issue.
   - We will notify them once the incident is resolved.
 - If the issue is a {term}`Change Request`, {term}`Guidance Request`, or [](support:workshop-request)
