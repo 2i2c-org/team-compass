@@ -22,7 +22,7 @@ They are not required to fill out all of the information in the report, though t
 
 ### Steps
 We use [PagerDuty's postmortem feature](https://support.pagerduty.com/docs/postmortems) to create the Incident Report.
-This lets us use notes, status updates from pagerduty as well as messages from Slack easily in the incident report!
+This lets us use notes, status updates from PagerDuty as well as messages from Slack easily in the incident report!
 
 1. **Open the incident** in the PagerDuty web interface, and click the `New Postmortem Report` button on top.
    - `Owner of the Review Process` should be set to the person writing the incident report.
@@ -30,7 +30,7 @@ This lets us use notes, status updates from pagerduty as well as messages from S
    - `Impact End Time` is when service was restored.
    Best guesses will do!
 2. **Add Data Sources**
-   - Link to the slack channel we created for this incident, with an appropriate time to cover all the messages
+   - Link to the Slack channel we created for this incident, with an appropriate time to cover all the messages
 3. **Fill out the timeline**
    - The goal is to be concise but make it possible for someone reading it to answer "what happened, and when?".
    - See [](incidents:postmortem-timeline) for more information.
@@ -58,7 +58,7 @@ The timeline should include:
 2. When the incident was brought to our attention, with a link to the source (Freshdesk ticket, slack message, etc).
 3. When we responded to the incident. This would coincide with the creation of the PagerDuty incident.
 4. Various debugging actions performed to ascertain the cause of the issue.
-   Talking to yourself as you do this on the slack channel helps a lot here, as it helps communicate your methods to others on the team as well as help improve
+   Talking to yourself as you do this on the Slack channel helps a lot here, as it helps communicate your methods to others on the team as well as help improve
    processes in the future more easily.
 
    For example:
@@ -72,7 +72,7 @@ The timeline should include:
    Paste commands executed if possible, as well as any GitHub PRs made.
    If you've already done this in the incident Slack channel you may simply copy/paste text here.
 6. Any extra communication from the community affected that helped.
-7. Whenever the incident was fixed, and how that was verified.
+7. When the incident was fixed, and how that was verified.
 8. Whatever else you think would be helpful to someone who finds this incident report a few months from now, trying to fix a similar incident.
 
 ## Key terms

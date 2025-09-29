@@ -13,9 +13,9 @@ When an incident is identified via any of the above sources, the following steps
 
 ### 1. Validate that we are dealing with an outage
    ````{tab-set}
-   ```{tab-item} Pagerduty alert
+   ```{tab-item} PagerDuty alert
    :sync: pagerduty
-   - If the incident came via an automated Pagerduty alert and has a `take immediate action` tag, then **it is definitely an outage**.
+   - If the incident came via an automated PagerDuty alert and has a `take immediate action` tag, then **it is definitely an outage**.
    - If if doesn't have this tag, then based on the alert's type follow the [Manage Alerts guide](https://infrastructure.2i2c.org/howto/manage-alerts/#what-to-do-when-an-alert-fires-based-on-its-type-and-severity) and manually test the infrastructure to determine if it's matching the [definition of an outage](https://2i2c-pilot-documentation--272.org.readthedocs.build/admin/topics/outages/#outages) or not.
    ```
 
@@ -36,7 +36,7 @@ When an incident is identified via any of the above sources, the following steps
    ```
 
    `````{tab-set}
-   ````{tab-item} Pagerduty alert
+   ````{tab-item} PagerDuty alert
    :sync: pagerduty
    The incident already exists in PagerDuty, so make sure the conditions above are met.
    ````

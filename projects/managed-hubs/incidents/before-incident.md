@@ -10,7 +10,7 @@ The definition of an outage and the outage categories are tracked in more detail
 ```{important}
 An incident, as defined in this document, is distinct from a "PagerDuty Incident"! The later is is a construct in PagerDuty that can represent alerts of any severity and priority. A PagerDuty Incident may or may not correspond to an actual incident as defined here.
 
-Only P1 incidents in PagerDuty correspond to outages and trigger the incident response process as defined here.
+**Only P1 incidents in PagerDuty correspond to outages and trigger the incident response process as defined here.**
 ```
 
 ```{note}
