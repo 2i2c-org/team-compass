@@ -105,7 +105,7 @@ When an incident is identified via any of the above sources, the following steps
 ## Handing off Incident Responder status
 
 During an incident, it may be necessary to designate another person to be the Incident Responder.
-For example, if it is getting late in the current IC's time zone, they feel burnt out from leading the incident response, or there is someone with better visibility or experience to be the Incident Responder.
+For example, if it is getting late in the current IR's time zone, they feel burnt out from leading the incident response, or there is someone with better visibility or experience to be the Incident Responder.
 This is encouraged and expected, especially for more complex or longer incidents!
 
 To designate another team member as the Incident Responder, follow these steps:
