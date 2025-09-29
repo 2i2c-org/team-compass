@@ -76,8 +76,7 @@ When an incident is identified via any of the above sources, the following steps
    ```
 
 ### 4. Get all hands on deck
-   If there are other Infrastructure Engineering team members available, pull them in as {term}`Subject Matter Experts` in order to investigate and resolve the inci
-   dent quickly. When in doubt, delegate to the Tech Lead.[^note-on-delegation]
+   If there are other Infrastructure Engineering team members available, pull them in as {term}`Subject Matter Experts` in order to investigate and resolve the incident quickly. When in doubt, delegate to the Tech Lead.[^note-on-delegation]
 
 ### 5. Communicate our status every few hours
    The {term}`Communication Liaison` is expected to communicate incident status and plan with the {term}`Community Representative`s.
