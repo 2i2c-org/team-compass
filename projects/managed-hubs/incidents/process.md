@@ -29,10 +29,10 @@ When an incident is identified via any of the above sources, the following steps
 ### 2. Officially mark the beginning of the incident
    ```{important}
    An incident officially starts when:
-   - a **PagerDuty P1 incident** exists
-   - someone has **acknowledged the incident** in PagerDuty
-   - a separate **Slack channel** for this incident exists
-   - the **community has been informed** via Freshdesk of the ongoing incident
+   1. A **PagerDuty P1 incident** exists
+   2. Someone has **acknowledged the incident** in PagerDuty
+   3. A separate **Slack channel** for this incident exists
+   4. The **community has been informed** via Freshdesk of the ongoing incident
    ```
 
    `````{tab-set}
