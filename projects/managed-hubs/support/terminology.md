@@ -5,7 +5,7 @@ The following are important terms in the support process.
 ```{glossary}
 Support Request
 Support Requests
-  Any request that a community sends to us via `support@2i2c.org`.
+  Any request that a community sends to us via `support@2i2c.org` or the FreshDesk Support widget.
   Support requests are generally un-planned and happen in response to a community needing assistance with something unexpected.
   There are a few main categories of support that we consider, each is described below.
 
@@ -18,7 +18,7 @@ Incidents
   We do not have a limit on the support time we provide related to incidents (as opposed to Change and Guidance requests, which have a {term}`Support Budget`).
 
   :::{seealso}
-  See [](incidents) for more information.
+  See [](incidents:index) for more information.
   :::
 
 Change Request

@@ -14,18 +14,18 @@ As our team grows, we’re collectively identifying skills needed for each role.
 
 ## Coaching
 Many 2i2c team members have had great experiences working with a coach. Having an external partner in your journey can help you reflect, explore and creatively realize your potential.
-All team members are encouraged to try working with a coach: [guidance on working with a coach is in this Google Doc] (https://docs.google.com/presentation/d/1r5Sb4BmBgZM3Gyz4gLHfv2kxk6vFfmz2tczrMAqihLg/edit?usp=sharing). 
+All team members are encouraged to try working with a coach. We've even written some [guidance on coaching](https://docs.google.com/presentation/d/1r5Sb4BmBgZM3Gyz4gLHfv2kxk6vFfmz2tczrMAqihLg/edit?usp=sharing). 
 Team members can expense up to USD 1800/year without approval, or ask their area lead to approve more.  
 
 
 ## Additional professional and personal development
-Team members should also identify opportunities related to their own learning goals, and that will improve their ability to perform their current role or grow into other areas. 
+We expect team members to identify opportunities related to their own learning goals (as identified in their [development plans](development-process.md), and that will improve their ability to perform their current role or grow into other areas. 
 
-We particularly encourage area leads and managers to identify these opportunities for others in their area (and for themselves). Opportunities should be identified by any team member, and approved by an area lead or manager. 2i2c will cover the cost and time commitment of these opportunities when approved. 
+Area leads and managers can help identifying and prioritizing other development expenses, and are responsible for approving them. 2i2c will cover the cost and time commitment of these opportunities when approved. 
 
 
 ## Budget for development
-This is an evolving area of 2i2c. We are piloting a targeted reimbursement budget for the Engineering team, with an aim to reimburse at least USD 2500/person for any professional development expenses listed above. 
+This is an evolving area of 2i2c. We currently have a targeted reimbursement budget for team members, with an aim to reimburse at least USD 2500/person for any professional development expenses listed above. 
 
 There is currently no upper limit on the funds that can be spent on development, while we work to find the right target amount. Our current approach should be sustainable while we are small.
 

@@ -1,15 +1,9 @@
 # Mailing list
 
-We use [Mailchimp](https://mailchimp.com/) to send e-mails to individuals that have signed up for 2i2c's mailing list.
+We use [Mailchimp](https://mailchimp.com/) for our mailing list.
+See [our Mailing List landing page](https://2i2c.org/mailing-list) for a sign-up form.
 
-This is a more attentive and personal audience than our blog, so we use the mailing list to **signal boost particularly important information**, or to **ask others to signal-boost for us**.
-
-(mailinglist:topics)=
-## What to post on our mailing list
-
-- **Major community updates**. Our quarterly / annual community updates that summarize our major progress and challenges.
-- **Job postings**. When we post a new job, share it with our mailing list and ask them to share it with their networks.
-- **Major blog posts**. If we write a blog post about our service that is particularly impactful or important, we can post it to our mailing list for extra visibility.
+See [](./strategy.md) for how our mailing list fits into our communications strategy.
 
 ## Access Mailchimp
 
@@ -17,9 +11,6 @@ We have a single Mailchimp account and share access to team members via a single
 See [](account:bitwarden) for access.
 
 ## Send e-mails via Mailchimp
-
-Mailchimp is a little complex for our needs, as it is a full community management and communications service.
-However, it is still the simplest solution out there so here's a quick guide on how to use it.
 
 Mailchimp calls each e-mail a **Campaign**.
 
@@ -29,10 +20,9 @@ Mailchimp calls each e-mail a **Campaign**.
 
 Send new campaigns as your personal e-mail address (if you wish to identify personally with the e-mail), or with `hello@2i2c.org`.
 
-## Our contact list
+## Add contacts to our mailing list
 
-Users sign up to the newsletter via our landing page's contact form at [2i2c.org#contact](https://2i2c.org#contact).
-Email addresses are imported into Mailchimp for the newsletter.
+Users sign up to the newsletter via our landing page's contact form at [2i2c.org/mailing-list](https://2i2c.org/mailing-list).
 **Do not manually add e-mail addresses** unless you know somebody wants to be on this list.
 
 To see our contact list in Mailchimp, go to {guilabel}`Audience` -> {guilabel}`All contacts`.

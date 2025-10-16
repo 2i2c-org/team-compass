@@ -53,6 +53,7 @@ html_css_files = ["custom.css"]
 # sphinx-book-theme ref:   https://sphinx-book-theme.readthedocs.io/en/stable/reference.html
 # pydata-sphinx-theme ref: https://pydata-sphinx-theme.readthedocs.io/en/stable/user_guide/index.html
 #
+html_title = "Team Compass"
 html_theme = "sphinx_2i2c_theme"
 html_theme_options = {
     "repository_url": "https://github.com/2i2c-org/team-compass",
@@ -145,6 +146,9 @@ def setup(app):
     # ref: https://www.sphinx-doc.org/en/master/extdev/appapi.html#sphinx.application.Sphinx.add_crossref_type
     app.add_crossref_type("role", "role")
     app.add_crossref_type("team", "team")
+    # Plausible.io tracking
+    app.add_js_file("https://plausible.io/js/script.file-downloads.hash.outbound-links.js", **{"data-comain": "compass.2i2c.org", "defer": ""})
+    app.add_js_file(filename=None, body="window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }")
 
 # -- Generate table of Support Stewards --------------------------------------
 # This requires a token to be set, but will fail semi-gracefully if it is not.

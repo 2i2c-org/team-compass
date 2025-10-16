@@ -27,7 +27,7 @@ Role
 : Positions are specific areas of focus and skills in 2i2c. The expectations and focus-areas within that role are set by Levels and Steps.
 
 Levels
-: Levels are large and distinct jumps in terms of area knowledge, role complexity and overall scope. Higher levels generally mean less-oversight and more autonomy, higher expectations of quality, more work on design / strategy than implementation, etc.
+: Levels are large and distinct jumps in terms of area knowledge, role complexity and overall scope. Higher levels generally mean less-oversight and more autonomy, higher expectations of quality, more work on design / strategy than implementation, etc. We have a more thorough set of [working definitions of levels](https://docs.google.com/document/d/1Vf8-11ZW-5tqr5s-DiSPqCeeYP6gxf1Hqb1Q0xxS-HI/edit?usp=sharing) that team members can use for planning their own growth or determining the appropriate level for a new role before hiring.
 
 Moreover, each role should have a few key pieces of information:
 
