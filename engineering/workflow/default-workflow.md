@@ -180,13 +180,13 @@ The Team will:
   - Reinforce the importance of completing tasks tied to Initiatives in Flight and Contract Deliverables.
 
 - **Ensure coverage of key categories**  
-Explicitly address:
+Explicitly address these before moving to anything else:
   1. Contract Deliverables
   2. BD requests
   3. Incident Mitigation issues
-  4. Platform Initiatives  
-  5. Service Initiatives  
-before moving on to anything else. 
+  4. Support Tickets (including workshop requests and support issues that can't be resolved in 30 minutes)  
+  5. Platform Initiatives
+  6. Service Initiatives
 
 - **Continue until reaching target velocity**  
   Adjust as needed to fill capacity without overloading.
