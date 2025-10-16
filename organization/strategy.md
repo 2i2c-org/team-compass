@@ -28,7 +28,7 @@ A shared cloud service team with a commitment to open infrastructure and open sc
    - Deliver excellent service with reliable operations, responsive support, and strong customer success.
    - De-risk the most common community concerns with shared infrastructure and the cloud.
    - Focus on the core data science workflow (learn → create → share), and encourage external specialized tools and services where possible.  
-2. **Grow reliable and recurring revenue streams via a network of paying communities in research and education.**  
+2. **Grow reliable and recurring revenue streams via a network of paying communities in research and education.*-
    - Drive our revenue with standard recurring services rather than one-off projects.  
    - Drive revenue with community buyers that have low year-to-year variability in budget (e.g., an institution rather than a single research group).  
    - Focus on products that make recurring service more valuable for a paying community.  
@@ -41,3 +41,13 @@ A shared cloud service team with a commitment to open infrastructure and open sc
    - Make both directed contributions (improving our service via upstream) and foundational contributions (improving the overall health of upstream communities).
    - Be a standard-bearer for an "open organization": lean into reproducibility, transparency, and inviting others to participate in our work.
    - Communicate our impact and share credit across our community network and the open source ecosystem.
+
+## Putting strategy into practice
+
+This strategy should guide everyone's actions and decisions.
+Here are a few ways we can translate this strategy into impact:
+
+- **Defining quarterly objectives.** Quarterly objectives should represent significant progress towards our strategic priorities. This is our primary mechanism for ensuring our day-to-day work is aligned with our strategy. See [](#quarterly-objectives).
+- **Guiding our roadmaps.** Our platform and service roadmaps should lean into the value proposition and strategic priorities. When we decide what to work on next, we should ask ourselves how the work will contribute to these priorities. See [](../product-and-services/overview.md).
+- **Informing our decisions.** Every team member should feel empowered to use this strategy as a guide for their own decision-making. When faced with a choice, consider which option best aligns with our goal, our theory for impact, and our priorities.
+- **Communicating our work.** This strategy gives us a shared language for talking about our work with each other and with the broader community. When we communicate about our work, we should connect it back to the "why" outlined in this strategy. See [](../marketing/strategy.md).
