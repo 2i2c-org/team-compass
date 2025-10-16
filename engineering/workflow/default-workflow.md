@@ -183,7 +183,7 @@ The Team will:
 Explicitly address:
   1. Contract Deliverables
   2. Incident Mitigation issues
-  3. Support Tickets
+  3. Support Tickets (including workshop requests and support issues that can't be resolved in 30 minutes)  
   4. Platform Initiatives
   5. Service Initiatives
 before moving on to anything else.
