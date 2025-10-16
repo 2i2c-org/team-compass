@@ -27,3 +27,8 @@
 **Break down silos** by spreading innovation and best practices across institutional and disciplinary boundaries.
 
 **Prove community-driven infrastructure works** as a powerful alternative to proprietary platforms.
+
+## References
+
+- [Deck: value proposition brainstorm in 2024Q2](https://docs.google.com/presentation/d/1kjxPAS7ZptK1OLPiAWmi7WjS5EaDHQtg3E_Gig8ldzE/edit?usp=sharing).  
+- [Deck: Fundraising pitch deck](https://docs.google.com/presentation/d/1d3GDTfI9WtNzCzKFV4oUO8dWhuPdsCaTEJrytTHwejw/edit?usp=sharing)
