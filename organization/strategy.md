@@ -1,36 +1,43 @@
 # Goals and strategy
 
+## The challenge
+
+Communities in research and education face a difficult choice: proprietary services with lock-in risks and accessibility barriers, or managing their own infrastructure and being distracted from their mission. They lack efficient ways to collaborate, share knowledge, and contribute to open source. This creates silos and duplication of effort.
+
 ## Our goal
 
-Build a shared infrastructure platform and services model that gives communities what they need to create and share knowledge with open infrastructure. Do so with a platform, service, and business that is reliable, accessible, and scalable to both us and to our communities, and that acts as a benefit to the entire open science ecosystem.
+Build a shared platform and service that enables communities to co-create impact through collaborative data science and computing.
+
+Do so in a way that is **impactful** (benefiting the entire ecosystem), **accessible** (serving diverse communities), and **reliable** (sustainable for everyone).
 
 ## Our theory for impact
 
 A shared cloud service team with a commitment to open infrastructure and open science will give communities more reliable and impactful access to key data science workflows, without the downside of proprietary technology. **They’ll achieve an outcome similar to hiring an in-house engineer, at a fraction of the cost and risk**.
 
-- With **open source expertise**, we can develop technology more efficiently and sustainably.
+- With **a deep understanding of open source communities and workflows**, we can develop technology more efficiently and sustainably.
 - With a **deep understanding of research and education communities**, we can identify shared needs and make better decisions for what to build.
-- By **cultivating a network of communities**, we can build trust and facilitate the spread of value across communities.
+- By **cultivating a network of communities**, we can facilitate the spread of value across communities and increase the value of the service.
 - By serving this network with a **shared infrastructure platform** that **gives communities autonomy and control**, we can efficiently operate and enhance technology across the network without sacrificing their agency.
-- With a membership model rooted in ongoing services, we can build **recurring revenue streams** to sustain and scale our team’s impact.
+- By **enabling co-creation with interactive data and computing**, we focus on a core workflow that helps communities collaborate internally, learn from each other, and accomplish their goals more efficiently.
+- With a membership model across a network of diverse communities, we can build **recurring revenue streams** that sustain and scale our team's impact without dependence on any single contract.
 
 ## Our priorities
 
-Here are our priorities for leaning into this thesis:
-
-1. **Build a shared and standardized technology platform and service.**   
-   - Use standardized and open tools for the foundation, with flexibility to let communities self-serve their own customization.  
-   - De-risk the most common community concerns with shared infrastructure and the cloud.  
+1. **Build a shared and standardized technology platform and service.**
+   - Use the same 80% of technical building blocks across all communities, with customization functionality and guidance for communities to self-serve their own 20%.
+   - Deliver excellent service with reliable operations, responsive support, and strong customer success.
+   - De-risk the most common community concerns with shared infrastructure and the cloud.
    - Focus on the core data science workflow (learn → create → share), and encourage external specialized tools and services where possible.  
 2. **Grow reliable and recurring revenue streams via a network of paying communities in research and education.**  
    - Drive our revenue with standard recurring services rather than one-off projects.  
    - Drive revenue with community buyers that have low year-to-year variability in budget (e.g., an institution rather than a single research group).  
    - Focus on products that make recurring service more valuable for a paying community.  
-3. **Leverage this network to facilitate learning, collaboration, and development.**  
-   - Empower and uplevel community leaders to cultivate impactful communities.  
-   - Build connection and loyalty within our network of communities. Make the network valuable to each member to improve retention.  
-   - Leverage the ideas and resources across the network to help communities learn from one another and have the most impact.  
-4. **Do it in a healthy and sustainable way with open communities.**  
-   - Build an excellent culture of efficient and sustainable open source contribution.  
-   - Be a standard-bearer for an “open organization”. Lean into reproducibility, transparency, inviting others to participate in our work, etc.  
+3. **Facilitate co-creation within, between, and alongside communities.**
+   - **Within communities:** Provide shared data, computing, and tools that enable members to co-create discoveries through interactive workflows.
+   - **Between communities:** Identify shared needs, coordinate co-funding, and deploy enhancements network-wide to create shared value more efficiently than any community could achieve alone.
+   - **With open source:** Deploy improvements that benefit all communities while strengthening the open source tools we depend on.  
+4. **Do it in a healthy and sustainable way with open communities.**
+   - Take an upstream-first approach: contribute to open source whenever possible, build internal tooling only when truly 2i2c-specific or when no upstream alternative exists.
+   - Make both directed contributions (improving our service via upstream) and foundational contributions (improving the overall health of upstream communities).
+   - Be a standard-bearer for an "open organization": lean into reproducibility, transparency, and inviting others to participate in our work.
    - Communicate our impact and share credit across our community network and the open source ecosystem.
