@@ -28,7 +28,7 @@ A shared cloud service team with a commitment to open infrastructure and open sc
    - Deliver excellent service with reliable operations, responsive support, and strong customer success.
    - De-risk the most common community concerns with shared infrastructure and the cloud.
    - Focus on the core data science workflow (learn → create → share), and encourage external specialized tools and services where possible.  
-2. **Grow reliable and recurring revenue streams via a network of paying communities in research and education.*-
+2. **Grow reliable and recurring revenue streams via a network of paying communities in research and education.**
    - Drive our revenue with standard recurring services rather than one-off projects.  
    - Drive revenue with community buyers that have low year-to-year variability in budget (e.g., an institution rather than a single research group).  
    - Focus on products that make recurring service more valuable for a paying community.  
