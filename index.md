@@ -63,6 +63,7 @@ We document some major aspects of this service in the sections below.
 :glob:
 projects/managed-hubs/index
 projects/managed-hubs/showcase-hub
+projects/managed-hubs/clusters
 projects/managed-hubs/sales
 projects/managed-hubs/support/index
 projects/community-enablement/index
