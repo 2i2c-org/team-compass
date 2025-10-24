@@ -7,8 +7,8 @@ Organization-wide strategy, policy, and structure.
 :caption: Organizational policy
 mission
 strategy
-plan
 value-proposition
+plan
 structure
 kpis
 ```
