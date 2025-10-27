@@ -7,26 +7,7 @@ The following things must exist to meet our definition of **Minimum Viable Docum
 
 ### User and value documentation
 
-In a [source of truth for user documentation](../operations/documentation.md), provide information along the following template:
-
-```md
-(a-myst-label)=
-# A short, discoverable page title or section header
-
-A few sentences answering: What does this allow you to do? Why is it useful? When should you use it? Who is it for?
-
-## How it works
-
-A few sentences describing how to use it, and what what it looks like when it works. What should you expect to happen as a user?
-
-## Where to learn more
-
-(optional) Links to upstream documentation or product-specific documentation where users can go into more detail.
-
-## Who can access it?
-
-(optional) if this is only available to subsets of communities or users, state which users/tiers/etc can use it.
-```
+In a [source of truth for user documentation](../operations/documentation.md), provide information along the template defined in [our minimal viable documentation guidelines](inv:docs#mvp).
 
 ### Team operations documentation
 
