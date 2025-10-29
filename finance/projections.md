@@ -8,28 +8,25 @@ The projections sheet is a **tool** to be used to understand how our hiring and 
 Feel free to experiment with adding new line items to help guide decision-making about our costs.
 ```
 
-It is stored as a Google Sheet at the following link:
+## Our budget projections model
 
-```{button-link} https://docs.google.com/spreadsheets/d/1zDO_kqnJ1PH3GWOMks5E_1oIpoAJgseWhj3oCohUVZk/edit#gid=929955044
+Find our budget projections model at the link below:
+
+```{button-link} https://docs.google.com/spreadsheets/d/1IXRWeQ0MV5h_94h9HIAmw8RQDWAFcy8vNs5mqM8iKuc/edit?gid=0#gid=0
 :color: primary
 
 Budget projections model
 ```
 
-:::{admonition} Check out this video overview
-See [this video overview of the budget model](https://drive.google.com/file/d/1acDkO3jWifNtDl2LDkD37lKHtnjRf_jC/view?usp=drive_link) for an idea of how it is structured and how to use it.
-:::
+Update the model by following these instructions:
 
-## Update our budget projections model
+```{button-link} https://docs.google.com/document/d/1iG2USbvccMGeobKpH52j37LZpmeNASKedJrb0mX8R8Y/edit?usp=sharing
+:color: primary
 
-Each month, we get a new batch of accounting data from CS&S.
-We use this as an opportunity to update our budget projections, which includes the following actions:
+Instructions to update the model
+```
 
-- Confirm that our Contracts information is correct.
-- Flag any items that require extra attention, such as Contracts that will expire soon.
-- Update our financial projections and calculate a new runway for 2i2c.
-
-[Here's a document with the process to update the budget projections](https://docs.google.com/document/d/1iG2USbvccMGeobKpH52j37LZpmeNASKedJrb0mX8R8Y/edit?usp=sharing).
+We should update our model each month as new data comes in.
 
 ## Roles and responsibility for tracking our contracts portfolio
 
