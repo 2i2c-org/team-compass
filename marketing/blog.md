@@ -10,10 +10,12 @@ Our blog is a subset of our [website repository for 2i2c.org](https://github.com
 See [the blog README](https://github.com/2i2c-org/2i2c-org.github.io/blob/main/content/blog/README.md) for more explanation.
 
 (blog:template)=
-## How to create a blog post issue
+## How to submit a blog post idea
 
-[Click here](https://github.com/2i2c-org/2i2c-org.github.io/issues/new?template=blog-post.md) and fill out the template as quickly and as best as you can.
-Don't worry about getting it perfect.
+All team members are encouraged to submit blog ideas as they do their work.
+Do so at this URL:
+
+https://2i2c.org/blog/idea
 
 (blog:write)=
 ## How to write a blog post
