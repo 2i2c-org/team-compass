@@ -3,10 +3,12 @@
 ## Our mission
 
 ```{epigraph}
-2i2c’s mission is to make research and education more **impactful**, **accessible**, and **delightful** by developing, operating, and supporting open infrastructure for interactive computing.
+2i2c enables communities to co-create discoveries and learning through shared data, computing, and tools.
 ```
 
-By pursuing this mission, we grow the world’s collective ability to make discoveries and learn from one another. By using open infrastructure, we ensure that these benefits are shared globally and cannot be captured by private interests.
+By pursuing this mission, we grow the world's collective ability to make discoveries and learn from one another. By using open infrastructure, we ensure that these benefits are shared globally and cannot be captured by private interests.
+
+Sustaining co-creation requires financial sustainability: open source needs capacity, communities need reliable services, and people need sustainable careers.
 
 (organization:values)=
 ## Our values
