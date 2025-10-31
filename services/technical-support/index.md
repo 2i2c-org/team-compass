@@ -1,4 +1,4 @@
-(technical-support:index)=
+(support:index)=
 
 # Technical Support
 
