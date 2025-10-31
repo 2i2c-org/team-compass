@@ -11,7 +11,6 @@ The Managed Interactive Computing Service (MICS) is a service to **sustain and s
 ```{toctree}
 onboard
 offboard
-decommission
 clusters
 budget-alerts
 showcase-hub
