@@ -1,10 +1,9 @@
 (support:index)=
-# Support
 
-:::{admonition} In Beta!
-:class: warning
-We are currently working out our support process.
-The content on this page might change over time, and we welcome suggested changes and pull requests!
+# Technical Support
+
+:::{attention}
+Are you a community representative looking for Technical Support for your 2i2c hub? Please go our [Support Page](https://docs.2i2c.org/support/).
 :::
 
 This section contains information that our team uses to triage, communicate, and

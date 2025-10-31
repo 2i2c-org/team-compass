@@ -1,4 +1,4 @@
-# Showcase hub
+# Showcase Hub
 
 ## Purpose
 
