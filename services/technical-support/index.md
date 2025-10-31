@@ -2,6 +2,10 @@
 
 # Technical Support
 
+:::{attention}
+Are you a community representative looking for Technical Support for your 2i2c hub? Please go our [Support Page](https://docs.2i2c.org/support/).
+:::
+
 This section contains information that our team uses to triage, communicate, and
 resolve {term}`Support Requests` that come from communities.
 
