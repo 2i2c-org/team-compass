@@ -1,11 +1,6 @@
-(support:index)=
-# Support
+(technical-support:index)=
 
-:::{admonition} In Beta!
-:class: warning
-We are currently working out our support process.
-The content on this page might change over time, and we welcome suggested changes and pull requests!
-:::
+# Technical Support
 
 This section contains information that our team uses to triage, communicate, and
 resolve {term}`Support Requests` that come from communities.
