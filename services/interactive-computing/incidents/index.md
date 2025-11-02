@@ -1,5 +1,5 @@
 (incidents:index)=
-# Incident response
+# Incident Response
 
 When an {term}`Incident` is declared, we follow a specific process in order to ensure that it is resolved quickly.
 This section describes our incident response process, major roles and what to expect after an incident has been mitigated. We continually refine this process, taking lessons from our own experience and other experts. [^incident-refs][^google-sre][^acm-blog][^wikimedia-clinic-duty].
