@@ -12,7 +12,7 @@ Do so in a way that is **impactful** (benefiting the entire ecosystem), **access
 
 ## Our theory for impact
 
-A shared cloud service team with a commitment to open infrastructure and open science will give communities more reliable and impactful access to key data science workflows, without the downside of proprietary technology. **They’ll achieve an outcome similar to hiring an in-house engineer, at a fraction of the cost and risk**.
+A shared cloud service team with a commitment to open infrastructure and open science will give communities more reliable and impactful access to key data science workflows, without the downside of proprietary technology. **They’ll have access to solutions beyond what they can get by hiring an in-house engineer, at a fraction of the cost and risk**.
 
 - With **a deep understanding of open source communities and workflows**, we can develop technology more efficiently and sustainably.
 - With a **deep understanding of research and education communities**, we can identify shared needs and make better decisions for what to build.
