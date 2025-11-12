@@ -45,6 +45,10 @@ Usually, a report is published only after a second team member reviews it.
 We use [PagerDuty's postmortem feature](https://support.pagerduty.com/docs/postmortems) to create the Incident Report.
 This lets us use notes, status updates from PagerDuty as well as messages from Slack easily in the incident report!
 
+```{note}
+The [Oct 2025 UToronto Incident Report](https://github.com/2i2c-org/incident-reports/blob/main/reports/2025-10-03-utoronto-new-server-startup.pdf) is a good example of a short, simple and clear incident report.
+```
+
 1. **Open the incident** in the PagerDuty web interface, and click the `New Postmortem Report` button on top.
    - `Owner of the Review Process` should be set to the person writing the incident report.
    - `Impact Start Time` is our best guess for when the incident started (*not* when the report came in).
