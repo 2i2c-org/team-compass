@@ -1,3 +1,5 @@
+(sales-operations:index)=
+
 # Sales Operations
 
 Our sales operations are divided into five distinct stages. These are described below.
