@@ -21,7 +21,7 @@ The {term}`Communication Liaison` is responsible for **starting the incident rep
 They are not required to fill out all of the information in the report, though they may do so if they wish.
 
 ### Team Incident Report Writing Process
-If the Incident Report is not written within a few days after the incident has been resolved, there is a fallback process that makes sure all incident reports are published.
+If the incident participants haven't finished writing a report within a few days after the incident has been resolved, the Infrastructure Engineering team will take action. It's the team's responsibility to ensure all incident reports are published.
 
 **Each month, the Infrastructure Engineering team is scheduled to review past incidents and write up any missing Incident Report.**
 
