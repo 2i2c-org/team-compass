@@ -69,7 +69,7 @@ services/interactive-computing/index
 services/technical-support/index
 services/community-enablement/index
 services/open-source-development/index
-services/engagements/index
+services/delivery/index
 List of running hubs <https://infrastructure.2i2c.org/reference/hubs/>
 ```
 

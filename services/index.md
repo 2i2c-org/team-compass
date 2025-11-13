@@ -73,19 +73,19 @@ Services are delivered to communities as part of an Engagement. To make the comp
 
 :::{grid-item-card} Essential Tier Membership
 :text-align: center
-:link: engagements/essential-tier
+:link: delivery/essential-tier
 :link-type: doc
 :::
 
 :::{grid-item-card} Advanced Tier Membership
 :text-align: center
-:link: engagements/advanced-tier
+:link: delivery/advanced-tier
 :link-type: doc
 :::
 
 :::{grid-item-card} Premier Tier Membership
 :text-align: center
-:link: engagements/premier-tier
+:link: delivery/premier-tier
 :link-type: doc
 :::
 
