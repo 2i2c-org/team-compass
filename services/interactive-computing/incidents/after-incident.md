@@ -20,9 +20,33 @@ Incidents are **always** caused by systemic issues, and hence solutions must be 
 The {term}`Communication Liaison` is responsible for **starting the incident report process**, and **making sure the Incident Report is completed**.
 They are not required to fill out all of the information in the report, though they may do so if they wish.
 
+### Team Incident Report Writing Process
+If the incident participants haven't finished writing a report within a few days after the incident has been resolved, the Infrastructure Engineering team will take action. It's the team's responsibility to ensure all incident reports are published.
+
+**Each month, the Infrastructure Engineering team is scheduled to review past incidents and write up any missing Incident Report.**
+
+There is a calendar entry for each timezone, every last Tuesday of the month, that lasts an hour. During this time, the team asynchronously:
+1. Checks if there are any entries in the list of TODOs in the HackMD document linked to the meeting invite
+   - if the list is empty, then
+      - gets the list of [P1 incidents](https://2i2c-org.pagerduty.com/incidents?status=acknowledged%2Ctriggered%2Cresolved)
+      - compares that list with the list of [Postmortems](https://2i2c-org.pagerduty.com/postmortems)
+      - checks which incidents do not have postmortems, and adds them to the appropriate list in the HackMD document
+      - same for any incidents that have drafts but are not yet published in the [2i2c-org/incident-reports](https://github.com/2i2c-org/incident-reports)
+   - if the list is not empty, then go to Step 2
+2. Reviews any drafts in the `Drafts to Review` section of the HackMD document, and publishes them to the 2i2c-org/incident-reports repository
+3. Picks an incident from the `Write a Report For` section of the HackMD document, and writes up a Incident Report for it following the steps in the next section. Once a draft is complete, move it to the `Drafts to Review` section for another engineer to review.
+
+```{important}
+Usually, a report is published only after a second team member reviews it.
+```
+
 ### Steps
 We use [PagerDuty's postmortem feature](https://support.pagerduty.com/docs/postmortems) to create the Incident Report.
 This lets us use notes, status updates from PagerDuty as well as messages from Slack easily in the incident report!
+
+```{note}
+The [Oct 2025 UToronto Incident Report](https://github.com/2i2c-org/incident-reports/blob/main/reports/2025-10-03-utoronto-new-server-startup.pdf) is a good example of a short, simple and clear incident report.
+```
 
 1. **Open the incident** in the PagerDuty web interface, and click the `New Postmortem Report` button on top.
    - `Owner of the Review Process` should be set to the person writing the incident report.
