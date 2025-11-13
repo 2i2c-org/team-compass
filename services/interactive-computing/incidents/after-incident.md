@@ -20,7 +20,7 @@ Incidents are **always** caused by systemic issues, and hence solutions must be 
 The {term}`Communication Liaison` is responsible for **starting the incident report process**, and **making sure the Incident Report is completed**.
 They are not required to fill out all of the information in the report, though they may do so if they wish.
 
-### Fallback Incident Report Writing Process
+### Team Incident Report Writing Process
 If the Incident Report is not written within a few days after the incident has been resolved, there is a fallback process that makes sure all incident reports are published.
 
 **Each month, the Infrastructure Engineering team is scheduled to review past incidents and write up any missing Incident Report.**
