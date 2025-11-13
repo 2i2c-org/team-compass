@@ -26,14 +26,13 @@ If the incident participants haven't finished writing a report within a few days
 **Each month, the Infrastructure Engineering team is scheduled to review past incidents and write up any missing Incident Report.**
 
 There is a calendar entry for each timezone, every last Tuesday of the month, that lasts an hour. During this time, the team asynchronously:
-1. checks if there are any entries in the list of TODOs in the HackMD document linked to the meeting invite
+1. Checks if there are any entries in the list of TODOs in the HackMD document linked to the meeting invite
    - if the list is empty, then
       - gets the list of [P1 incidents](https://2i2c-org.pagerduty.com/incidents?status=acknowledged%2Ctriggered%2Cresolved)
       - compares that list with the list of [Postmortems](https://2i2c-org.pagerduty.com/postmortems)
       - checks which incidents do not have postmortems, and adds them to the appropriate list in the HackMD document
       - same for any incidents that have drafts but are not yet published in the [2i2c-org/incident-reports](https://github.com/2i2c-org/incident-reports)
    - if the list is not empty, then go to Step 2
-         in reviews past incidents that do not have Incident Reports, and write them up, or review and publish to  any outstanding drafts.
 2. Reviews any drafts in the `Drafts to Review` section of the HackMD document, and publishes them to the 2i2c-org/incident-reports repository
 3. Picks an incident from the `Write a Report For` section of the HackMD document, and writes up a Incident Report for it following the steps in the next section. Once a draft is complete, move it to the `Drafts to Review` section for another engineer to review.
 
