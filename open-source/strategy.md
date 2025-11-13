@@ -39,6 +39,17 @@ For example:
 - Invite reviews of pull requests from non-2i2c team members and make sure others are on board with our proposals before taking action.
 - Put extra effort into documentation to ensure that we share context with others in the community.
 
+### Represent our communities, not just 2i2c
+
+When we advocate for 2i2c's needs in GitHub issues, forums, etc, root your arguments in the communities we serve, not just "2i2c" as an organization.
+This makes it clear that our job is to represent the network of research and education communities that we support.
+It is a small but impactful way to frame our needs, and brings our mission into focus for those that don't have context on 2i2c.
+
+For example, instead of saying "2i2c wants ____", try saying:
+
+* "Our communities would benefit from ____"
+* "One of our communities (community X) would like ____ because..."
+
 ## Don't plant flags
 
 We are in a privileged position to have both connections to established universities and funding bodies, as well as several team members with leadership roles in open source communities.
