@@ -2,7 +2,7 @@
 # Value proposition
 
 ```{pull-quote}
-2i2c co-creates a virtuous cycle: we support communities with managed infrastructure to power their science, and reinvest their resources to strengthen the open source tools we all depend on.
+2i2c co-creates a virtuous cycle with a network of communities: we support research communities with interactive computing hubs to power their learning and discovery, and reinvest their resources into open source communities to strengthen the tools that the world uses to create and share knowledge.
 ```
 
 % Source: https://docs.google.com/presentation/d/1Pqp4nmLW3EfPDsYjsHgA2R0e6AIxcFkmzgkHE0Zubqs/edit?slide=id.g38426b4bd47_0_122#slide=id.g38426b4bd47_0_122
