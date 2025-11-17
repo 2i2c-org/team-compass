@@ -12,4 +12,4 @@
 6. The hub is deployed and configured.
 7. The community is notified (via an email sent through Freshdesk) that the new hub is available
 8. BD is notified that the hub has been delivered
-9. BD confirms value is being received by this community by checking the Grafana [Engagement Details](https://grafana.pilot.2i2c.cloud/d/eb191919-5ca0-40b4-a696-a0415daf7c6a) dashboard. We expect at least 5 non-2i2c sessions of usage to declare that First Value is being received by a community for this new hub.
+9. BD confirms value is being received by this community by checking the Grafana [Engagement Details](https://grafana.pilot.2i2c.cloud/d/eb191919-5ca0-40b4-a696-a0415daf7c6a) dashboard. We expect at least 5 non-2i2c sessions of usage to declare that First Value is being received by a community for this new hub. (See [](communityvalue:tfv) for more information.)
