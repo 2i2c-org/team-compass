@@ -66,7 +66,7 @@ Community Context questions:
 - Q: Can you describe the data? Collaborating open science communities orbit around the heaviest objects in their science space -- their data. Where is it?
 :::
 
-5. To reach the Contract Admin stage, the Lead needs to be verbally closed. CS&S is requested to collect the signatures on the Service Agreement.  CS&S sets up sage to prepare for invoices.
+5. To reach the Contract Admin stage, the Lead needs to be verbally closed. CS&S is requested to collect the signatures on the Service Agreement.  CS&S sets up SAGE to prepare for invoices.
 
 A Deal move out of Contract Admin when two conditions are satisfied:
 - There is a fully executed (signed by all parties) Service Agreement or Purchase Order to complete the work described in the Deal.
@@ -82,6 +82,13 @@ BD uses the Order concept within HubSpot to initiate the request for Delivery.  
 We are trying to automate using n8n but this does not yet capture everything about a Deal to guarantee delivery. It remains important for information held within BD about related to the Deal to be transferred to PS.
 
 We need to build structures and system so that BD can verify the delivery by PS has been completed successfully. 
+:::
+
+:::{note}
+# Engagements, Projects, and Deliverables
+
+
+
 :::
 
 6. Closed Won. The Sales phase of the deal has concluded and we move into the Delivery phase. 
