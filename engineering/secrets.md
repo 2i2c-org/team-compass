@@ -101,3 +101,12 @@ For more information about using `sops`, here are a few links to `sops` document
 ## 2i2c-wide passwords
 
 For information about 2i2c-wide passwords, see [](account:bitwarden).
+
+## Using sensitive credentials and tokens
+
+When using private keys/tokens that can access sensitive user information:
+
+- **Recommended: develop locally**: Use your own laptop and use the token there, never push it to the internet.
+- **Acceptable: GitHub Actions in `2i2c-org` if they are not run in PRs from external contributors**: Within the `2i2c-org` organization only, put the token in a repository secret and use that in a GitHub action. If PRs from external contributors will trigger the action w/o prior review, do not do this.
+- **Ask for approval: Any managed service**: If you're using a token in a cloud service, script in a SaaS application, etc then ask the tech lead for approval first.
+- **❌ Never acceptable: Publicly accessible**: Never make a private credential or token publicly accessible. If you do, even temporarily, notify our tech lead and immediately revoke that token's permissions.
