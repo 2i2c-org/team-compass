@@ -4,4 +4,5 @@ This section captures the various processes that are managed by the Delivery Ena
 
 ```{toctree}
 cloud-cost-monitoring.md
+mau-data.md
 ```
