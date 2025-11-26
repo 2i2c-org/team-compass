@@ -1,5 +1,12 @@
 # 2i2c Business Strategy: Learning to Scale Co-Creation
 
+We are in the process of refining our business strategy.
+We'll update the content in the team compass over the coming weeks.
+
+This Google Doc: [Business plan](https://docs.google.com/document/d/1HgSqAWeZZjcph3eHuWfv56WYopEHwrtmb-pAL3wMxco/edit?tab=t.7m8j6wkb7byt) has the latest version of our Business Plan.
+
+Over time we are adapting content from that plan for the team compass.
+
 ## Where We Are Today
 
 2i2c is in a discovery phase between two business models:
