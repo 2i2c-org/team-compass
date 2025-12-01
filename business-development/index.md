@@ -19,5 +19,6 @@ crm/grants-and-projects.md
 crm/engagement-workflow.md
 customer-success/freshdesk.md
 customer-success/hub-activity.md
+customer-success/community-checkin.md
 meetings/index.md
 ```
