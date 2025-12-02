@@ -25,7 +25,21 @@ Purpose: To learn the value received by a community for community retention, upg
   - Share summary of check-in with the 2i2c team
 
 
-## What information can PS provide to prepare for community check-in?
+## What information is available to prepare for a community check-in?
+
+1. Contracts and engagements that describe the relationship between 2i2c and the community.
+2. List of services provided to the community.
+3. Invoices and historical billing information.
+4. Monthly Active Users data.
+5. Usage report (number of sessions and session duration by user).
+6. Usage information on environment image is used.
+7. Cloud costs passed through (if paid directly by 2i2c)
+8. Cloud costs break down by group and users (AWS only).
+9. Community representatives, technical contacts, and authorized PR submitters.
+10. Home directory usage information
+11. Metrics on  FreshDesk tickets submitted and resolved.
+12. Progress to date on sponsored SOW development activity.
+13. Community Enablement activity.
 
 
 
