@@ -12,7 +12,7 @@ Assuming an engagement has not been renewed, here is a process to gracefully off
 3. 2 weeks before the end of the engagement, email the Community Representatives CRs that 2i2c is planning process of shutting down their hub.
   - Use FreshDesk to send out email:
     - Click 'New ticket'
-    - Choose at one community representative as the **Contact**
+    - Choose at least one community representative as the **Contact**
     - Click Ticket Template 'Offboard a Community'
     - Click 'Create'
     - (This creates a ticket without notifying the community)
@@ -27,8 +27,8 @@ Assuming an engagement has not been renewed, here is a process to gracefully off
 7. Finalize and record the Cloud Billing and MAUs usage. Costs incurred up this point can be allocated to the community.  Cost incurred after this point need to be covered by 2i2c.
 
 8. Delete the cluster.
-  - Removing the cluster also removes the support services such as a the Grafana/Prometheus data.
   - Before deleting the cluster, verify that `federated-prometheus` has the MAU data for the hubs that are being deleted for the full duration of the engagement.
+  - Removing the cluster also removes the support services such as a the Grafana/Prometheus data.
   - _Add a link to infrastructure docs to delete the cluster_
 
 9. If applicable, close the cloud provider account.
