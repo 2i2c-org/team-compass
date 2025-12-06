@@ -14,19 +14,19 @@
 
 ### For research & education communities
 
-**For hub users:** One-click access to pre-configured environments with scalable resources. Focus on your research and teaching, not infrastructure.
+**For hub users:** Instant, standardized access. Get the same battle-tested infrastructure used by top research communities globally. Focus on your science, not the server.
 
-**For hub administrators:** Self-service customization, user management, and monitoring. Control your configuration with expert guidance when needed.
+**For hub administrators:** Customize your hub using tools and workflows co-developed by the scientific community. Instantly benefit from open source enhancements and learn from a network of administrators like you.
 
-**For community leaders:** Expert cloud partnership with transparent costs and the Right to Replicate (no vendor lock-in). Access shared investments and a network of peer communities that amplify your impact.
+**For community leaders:** Control your infrastructure with the [Right to Replicate](https://2i2c.org/right-to-replicate). Join a network of peer organizations that pool resources to fund the open source tools you rely on.
 
 ### For the open science ecosystem
 
-**Strengthen open-source toolchains** by connecting scientific needs directly to software development.
+**Strengthen the open source ecosystem**. We turn the _usage_ of open source into active investment. By connecting scientific needs directly to upstream development, we ensure the tools powering research are sustainable and responsive.
 
-**Break down silos** by spreading innovation and best practices across institutional and disciplinary boundaries.
+**Spread innovation across community silos**. We break down the barriers between institutions and domains. Our shared infrastructure and member service allows best practices, workflows, and new tools to spread rapidly across disciplinary boundaries.
 
-**Prove community-driven infrastructure works** as a powerful alternative to proprietary platforms.
+**Establish a robust community-driven alternative**. We demonstrate that community-governed infrastructure is a scalable, reliable choice. We offer a proven path for research communities to operate at scale without proprietary lock-in.
 
 ## References
 

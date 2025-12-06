@@ -1,5 +1,6 @@
 # Mission and values
 
+(org:mission)=
 ## Our mission
 
 ```{epigraph}
