@@ -23,7 +23,7 @@ extensions = [
     "sphinxcontrib.mermaid",
     "sphinx_last_updated_by_git",
 ]
-exclude_patterns = ["_build", "Thumbs.db", ".DS_Store", ".github", ".nox", "README.md"]
+exclude_patterns = ["**/_build/**", "Thumbs.db", ".DS_Store", ".github", ".nox", "README.md"]
 
 
 
