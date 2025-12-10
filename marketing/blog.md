@@ -1,3 +1,5 @@
+(blog:index)=
+
 # Our blog
 
 The [blog at `2i2c.org/blog`](https://2i2c.org/blog) is the primary way that we communicate our work to the external world.
