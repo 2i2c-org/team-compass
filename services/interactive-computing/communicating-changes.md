@@ -1,4 +1,4 @@
-# Communicating changes to our communities
+# Communicating Changes
 
 We're working to be more proactive in planning and communicating infrastructure changes that don't directly impact communities, in addition to sharing new features. This process focuses on changes that match the following description:
 
