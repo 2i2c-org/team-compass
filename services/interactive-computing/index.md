@@ -13,6 +13,7 @@ onboard
 offboard
 community-value
 communicating-changes
+multiple-hub-upgrades
 clusters
 budget-alerts
 showcase-hub
