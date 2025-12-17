@@ -21,7 +21,7 @@ Assuming an engagement has not been renewed, here is a process to gracefully off
 
 5. Delete the hub(s). Follow https://infrastructure.2i2c.org/hub-deployment-guide/hubs/delete-hub/#delete-a-hub for the steps.
 
-6. Email the CRs confirming that the hub has been deleted.
+6. Email the CRs confirming that the hub has been deleted. The FreshDesk ticket can be marked as closed. If the community responsed it will be automatically reopened.
 
 7. Finalize and record the Cloud Billing and MAUs usage. Costs incurred up this point can be allocated to the community. Cost incurred after this point need to be covered by 2i2c.
 
