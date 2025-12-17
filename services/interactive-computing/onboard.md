@@ -56,8 +56,9 @@ Under 'Community Context', here is information that is useful:
 - The ideal is that that there has already been sufficient information collected from the community to proceed without having to schedule a second technical meeting. If information is still missing blocking the creation of the New Hub Turnup issues, then:
     - Contact the community to request the missing information
     - Update the above process to collect this missing information to improve our process.
-
 5. The New Hub Turnup issues are scheduled for the next P&S interation. The hub is deployed and configured.
+ - *Bias towards action* and make a reasonable assumption if there is lack of explicit information. If something can be re-configured after deployment that is better to make a choice than blocking the deployment.
+ - Once there is hub deployed it will be much easier to show a community what additional information is required and why.
 
 6. The community is notified (via an email sent through Freshdesk) that the new hub is available
 
