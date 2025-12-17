@@ -66,7 +66,7 @@ Community Context questions:
 - Q: Can you describe the data? Collaborating open science communities orbit around the heaviest objects in their science space -- their data. Where is it?
 :::
 
-5. To reach the Contract Admin stage, the Lead needs to be verbally closed. CS&S is requested to collect the signatures on the Service Agreement.  CS&S sets up SAGE to prepare for invoices.
+5. To reach the Contract Admin stage, the Deal needs to be verbally closed. CS&S is requested to collect the signatures on the Service Agreement.  CS&S sets up SAGE to prepare for invoices.
 
 A Deal move out of Contract Admin when two conditions are satisfied:
 - There is a fully executed (signed by all parties) Service Agreement or Purchase Order to complete the work described in the Deal.
@@ -104,7 +104,7 @@ There is a 1:1 correspondance between a Deal in HubSpot and a **Engagement** as 
 :::
 
 :::{attention}
-We are using AirTable to project and delivery management of our engagements. We use GitHub to manage our task level activities using GitHub Projects. We recognize that neither software platform is ideal for our needs and remain open to suggestions for considering a different implementation.
+We are using Asana to project and delivery management of our engagements. We use GitHub to manage our task level activities using GitHub Projects. We recognize that neither software platform is ideal for our needs and remain open to suggestions for considering a different implementation.
 :::
 
 
