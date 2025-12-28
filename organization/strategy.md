@@ -1,6 +1,6 @@
 # Goals and strategy
 
-The 1-2 year challenge we must overcome as an organization, and the major policies and actions we must take to solve it[^gsbs].
+The 2-3 year challenge we must overcome as an organization, and the major policies and actions we must take to solve it[^gsbs].
 
 [^gsbs]: This is inspired by the [Good Strategy, Bad Strategy framework](https://www.amazon.com/Good-Strategy-Bad-Difference-Matters/dp/0307886239).
 

@@ -36,14 +36,14 @@ Leverage tools and workflows co-developed by the scientific community. Benefit i
 
 Join a network of peer organizations that collectively fund the open source tools you all rely on. Control your infrastructure with the Right to Replicate.
 
-**What you get with Membership:**
+**What you get with General Membership:**
 - Reliable managed infrastructure at sustainable cost
 - Participation in roadmapping and co-funding opportunities
 - [Right to Replicate](https://2i2c.org/right-to-replicate) - full control over your infrastructure
 - Pool resources with peer organizations to fund shared needs
 
 **What you get with Premier Membership:**
-- Everything in Membership, plus:
+- Everything in General Membership, plus:
 - Strategic engagement and direction over our roadmap
 - Dedicated coordination for technical improvements
 - Tighter feedback loop between your needs and our development

@@ -15,7 +15,7 @@ We must **align our consultative work and our membership service** to ensure tha
 
 ## 2026 strategic focus
 
-Our [service model strategy](#service-model) describes three membership tiers: Membership, Premier, and Essential. In 2026, we focus on building a strong foundation with standard Membership while laying groundwork for future growth:
+Our [service model strategy](#service-model) describes three membership tiers: General Membership, Premier Membership, and Essential Membership. In 2026, we focus on building a strong foundation with General Membership while laying groundwork for future growth:
 
 **Primary focus: General Membership tier**
 - Build a member network that can be served with one roadmap
@@ -23,8 +23,8 @@ Our [service model strategy](#service-model) describes three membership tiers: M
 - Establish efficient operations that can support future growth
 
 **Not a focus in 2026:**
-- _Essential membership:_ We do not see Essential hubs as a sales target for 2026. We will allow essential-style hubs when a member community does all the sales on our behalf (e.g., CloudBank classrooms). We must revisit the value proposition of essential tier when we have a stronger sustainable foundation.
-- _Direct Premier sales:_ Premier member organizations require time to develop. We aim to "land and expand" by building trust at the General Membership level first. We anticipate gradual ramping up of Premier sales but are not prioritizing direct sales in 2026.
+- _Essential Membership:_ We do not see Essential hubs as a sales target for 2026. We will allow essential-style hubs when a member community does all the sales on our behalf (e.g., CloudBank classrooms). We must revisit the value proposition of Essential Membership when we have a stronger sustainable foundation.
+- _Direct Premier Membership sales:_ Premier member organizations require time to develop. We aim to "land and expand" by building trust at the General Membership level first. We anticipate gradual ramping up of Premier Membership sales but are not prioritizing direct sales in 2026.
 
 ## Major actions to take
 
