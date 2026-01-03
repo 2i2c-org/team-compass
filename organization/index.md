@@ -2,7 +2,7 @@
 
 Organization-wide strategy, policy, and structure.
 
-## Core organizational strategy
+## Core strategy
 
 Our strategy documents form a progression from **why we exist** to **how we execute**:
 
@@ -15,13 +15,13 @@ Our strategy documents form a progression from **why we exist** to **how we exec
 
 ```{toctree}
 :maxdepth: 2
-:caption: Organizational policy
+:caption: Core strategy
 :hidden:
 mission
 theory-of-impact
 strategy
-plan
 value-proposition
+plan
 ```
 
 ## Organizational structure

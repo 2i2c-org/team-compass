@@ -16,25 +16,20 @@ At the same time, **open source communities are builders, not service providers.
 
 ## Our theory of impact
 
-> We support research communities with interactive computing hubs, and reinvest their resources into open source communities to strengthen the tools they depend on.
+> By creating a high-bandwidth connection between people **developing** technology in open source, people **operating** the technology as a managed service, and people **using** the technology in research domains, we can improve the effectiveness and speed with which new development serves the research community.
 
-- **Remove the accidental complexity of shared infrastructure with open tools**: By offering a sustainable, shared infrastructure service, we can resolve the accidental complexity of infrastructure management so communities can focus on their work.
-- **Facilitate effective cycles of development**: By creating a high-bandwidth connection between people **developing** open technology, people **operating** the technology, and people **using** the technology, we can improve the effectiveness and speed with which new development serves the research community.
-- **Facilitate learning between communities**: By bringing communities together and standardizing on the same infrastructure, we can facilitate learning and collaboration between them.
-- **Reliable and scalable support for open communities**. By being stewards and collaborators with open source projects (not "owners" of them), we can use the engine above to facilitate contributions from ourselves and our collaborators into open source.
+- **Make cloud environments accessible by removing the accidental complexity of managed infrastructure**: By offering a sustainable, shared infrastructure service, we can resolve the accidental complexity of infrastructure management so communities can focus on their work.
+- **Align community workflows with standardized, open technology**. By using standard, community-driven tools, we align the workflows of each community we serve. This makes it easier for them to learn from one another, and for us to serve them all at once.
+- **Facilitate learning between communities by actively engaging them**: By creating pathways for communities to share and learn from one another, and facilitating their collaboration, they can more efficiently gain inspiration from one another's workflows. This makes new ideas, tools, and methodologies spread faster across communities.
+- **Facilitate design and development on behalf of all communities**: With a network of communities that have aligned workflows, shared technology, and mechanisms to learn from one another, we can identify opportunities for enhancements that serve them all, and leverage our community network to identify fundin to make it happen.
+- **Implement enhancements in open communities**. By building our service entirely with open tools, any new development supports the open ecosystem, and can be rapidly used by anybody in the world (including our communities).
+- **Deploy these enhancements to the entire network**. By developing in partnership with our operations team, we can quickly prototype, learn, and iterate on new ideas, and get them in the hands of research communities quickly.
 
-This turns a negative loop into a virtuous cycle of co-creation, where research and education directly guide and support the open source ecosystem. **Our goal is to build this service in a way that is sustainable and scalable**.
+This turns a negative loop into a virtuous cycle of co-creation. By managing infrastructure for our communities, and enhancing open source tools with their guidance, we drive resources into open source communities and ensure they represent the interests of research and education.
 
-## The virtuous cycle we aim to enable
-
-This proximity enables a virtuous cycle of co-creation:
-
-1. **A shared platform creates technical leverage:** By running independent community hubs on a single standardized platform and team, we can serve many communities more efficiently by enhancing technology and deploying it for all of them at once.
-2. **Service facilitates connection:** Because we manage relationships with both our communities and the open source ecosystem, we can act as a bridge. We help communities navigate this network of collaborators, cross-pollinating knowledge to solve shared problems.
-3. **Connection and shared tooling enable collaboration:** The combination of social proximity and a heavy overlap in tooling allows us to coordinate efforts that generate and channel resources. We help communities pool their funding, expertise, and capacity to tackle challenges that no single community could solve alone.
-4. **Collaboration fuels the ecosystem:** We channel these resources and contributions back into the open source tools we rely on. This turns the "negative feedback loop" of the challenge into a virtuous cycle: better tools lead to better research, which leads to more resources for the tools.
+As the tools improve, so does the managed infrastructure for each community, growing the value of membership for our entire network, and growing the value of open infrastructure for the world.
 
 % Source: https://docs.google.com/presentation/d/1Pqp4nmLW3EfPDsYjsHgA2R0e6AIxcFkmzgkHE0Zubqs/edit?slide=id.g38426b4bd47_0_122#slide=id.g38426b4bd47_0_122
 ```{figure} images/flywheel.png
-2i2c's virtuous cycle of co-creation: we provide communities access to shared data, computing, and tools to co-create discoveries, which generates resources to support open source communities, which leads to technology enhancements that benefit everyone and that we can deploy to our community network. This continuous co-creation between science communities and open source communities sustains and grows the impact of open infrastructure.
+2i2c's virtuous cycle of co-creation. See above for a deeper description.
 ```
