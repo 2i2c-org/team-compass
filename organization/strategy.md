@@ -37,7 +37,7 @@ Our service offers a centralized technical system that serves a network of indep
 
 Here are several principles that follow this policy:
 
-1. **Scalable agency and collaboration is the unique value of Membership**. The unique value of our membership is in the ability to interact with our team, other member communities, and open source communities. This should be whwere we spend most of our time. We must make it clear how membership is a way to direct support to open source tools, influence our roadmap, and make their own contributions.
+1. **Scalable agency and collaboration is the unique value of Membership**. The unique value of our membership is in the ability to interact with our team, other member communities, and open source communities. This should be where we spend most of our time. We must make it clear how membership is a way to direct support to open source tools, influence our roadmap, and make their own contributions.
 
 2. **Efficiently operate infrastructure to have more cycles for development**. Communities will not use infrastructure that is fundamentally unreliable, though it it is not our core value. Our site reliability team must be efficient to ensure our infrastructure is reliable, while recognizing that most of our time should go towards collaboration and new development.
 
