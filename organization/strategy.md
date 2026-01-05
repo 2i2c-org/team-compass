@@ -98,7 +98,7 @@ Our target business model includes three membership tiers:
   - Coordination and guidance in planning and delivering technical improvements.
   - Tighter feedback loops and reporting between development and operations.
 
-**Essential Membership** (TDB, not currently prioritized)
+**Essential Membership** (TBD, not currently prioritized)
 - **For**: Communities that need standardized, commodity infrastructure with minimal customization.
 - **Offers**: Commodified SRE evolving with open source. Automated operations with community-driven support.
 - **Impact**: Makes open infrastructure largely accessible, even to communities that cannot cover the costs of foundational contributions and development.
