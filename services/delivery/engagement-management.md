@@ -1,13 +1,13 @@
 # Engagement Management
 
-Project Management Tool: Asana
+Project Management Tool: [Asana](https://app.asana.com/)
 
 ## Creating a new Engagement
 
 When a HubSpot Deal has reached the pipeline stage of either 'Contract Admin' or 'Closed Won' we need to create an corresponding Asana Project to track the delivery for this engagement.
 
 :::{note}
-As of January 2025, we have not, **yet**, automated the creation of Asana Projects from Hubspot Deals. Until then, follow the instructions below to create a new Asana Project when needed.
+We have not, **yet**, automated the creation of Asana Projects from Hubspot Deals. Until then, follow the instructions below to create a new Asana Project when needed.
 :::
 
 Engagements are encoded in Asana as *Projects*.  To create a new Engagement, click **Create** in Asana and selection **Project**.
