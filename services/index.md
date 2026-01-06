@@ -52,6 +52,17 @@ Leadership orientation
 2i2c partners with our communities to create a virtuous cycle between open science communities that **create knowledge** and open source communities that **build the tools** to do so.
 :::
 
+:::{grid-item-card}
+:link: dedicated-delivery-management/index
+:link-type: doc
+
+👥🎯 **Dedicated Delivery Management**
+
+2i2c Team Members coordinate work via community-specific project management for complex community projects and strategic partnerships. 
+
+:::
+
+
 ::::
 
 ## Engagements and Sales Processes
