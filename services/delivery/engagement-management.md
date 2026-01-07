@@ -40,6 +40,22 @@ Edit the custom fields
 
 to match the metadata for the corresponding Hubspot Deal.
 
+:::{note}
+Hubspot Deal ID.  Within Hubspot, look the URL in browser when look at the Deal page.  The URL is something of the form
+
+`https://app-na2.hubspot.com/contacts/242496330/record/0-3/86933236464?eschref=%2Fconta[…]496330%2Fobjects%2F0-3%2Fviews%2Fall%2Flist%3Fquery%3Diveda`
+
+The HubSpot Deal URL is the string
+
+`https://app-na2.hubspot.com/contacts/242496330/record/0-3/86933236464`
+
+The HubSpot Deal ID is the identifier
+
+`86933236464`
+
+The intention is for this to eventually automated.
+:::
+
 ## Adding tasks to an Engagement
 
 Within an engagement, add tasks that need to completed deliver value to our community partner.  Tasks can be divided into sub-tasks.
