@@ -26,7 +26,7 @@ or equivalents for any class of Engagements that should have the same overall st
   
 The templates sets the visibility of this new project to be "Everyone at 2i2c" and grants everyone "Project admin" access rights.  The project creator is automatically joins the project -- remove yourself from the project unless you personally want to receive notifications for each for every message, status update, and added task. 
 
-This new project is automatically added to the portfolio of "Active Engagements".
+This new project is automatically added to the portfolio of "Active Engagements". We use the "Active Engagements portfolio in Asana to drive 2i2c discussions about the health of our delivery. All new engagements need to be added to this portfolio. If the engagement serves a community with more than one contract, make sure the new engagement is also added to that community's portfolio.
 
 After creating a new project, click the down arrow to the right of the project name (tooltip: 'Actions') and select 'Edit project details'.
 
