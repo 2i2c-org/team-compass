@@ -53,7 +53,7 @@ Our 2026 actions are organized by the three [strategic priorities](#strategic-pr
 By end of Q1:
 
 - **Wrap up infrastructure reliability work to focus on development.** Quickly finish our monitoring, reporting, and alerting efforts so that we can safely spend more time engaging in development with member communities.
-- **Create an MVP system for engaging communities on our own times.** Define the general system of community engagement we aim for, and the most important thing to develop first. Use learning from this quarter to decide what to prioritize for Q2.
+- **Create an MVP system for intentional community engagement.** Define a system of actively engaging our network of communities in a way that still feels collaborative with them, and the most important thing to develop first. Use learning from this quarter to decide what to prioritize for Q2.
 - **Make our development cycle more participatory and iterative**.
   - **Roadmap**: Our roadmapping and planning must invite regular participation from communities, and should be easy to follow-along as we build.
   - **Development**: Our design / development / feedback / reporting loop must be tighter, so that we can engage in more development work to sustain the organization.
