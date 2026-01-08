@@ -1,8 +1,8 @@
-# Plan for 2026
+# Annual plan for 2026
 
 This is our annual plan, and serves as an input to quarterly planning. It is updated more frequently as we learn throughout the year.
 
-Last updated: **January 2025**.
+Last updated: **January 2026**.
 
 ## Current business reality
 
@@ -12,18 +12,20 @@ We currently have two lines of business:
 - **A consultative service that is subsidizing the membership service.** We perform grant- and SOW-based work that subsidizes the cost of our membership service. This is risky if this work is not aligned with our membership service needs.
 
 :::{note}
-We are in the middle of finalizing new financial systems that will sharpen these financial predictions, so put error bars of a few months on everything here.
+We are in the middle of finalizing new financial systems that will sharpen these financial predictions, so **dont' try to get these numbers to add up exactly**, and **put error bars of a few months on everything here**.
 :::
 
-- **Revenue** `$172K/month` revenue.  
+- **Revenue** `~$172K/month` revenue.  
   - Small contracts (2%), Medium contracts (11%), Large contracts (48%), MAUs (8%), Fundraising and gifts (32%)  
-- **Costs:** `$180K/month` burn  
+- **Costs:** `~$180K/month` burn  
   - Almost all personnel and FSP fees.  
 - **2026 outlook:** Provided 2i2c maintains the current customer base, we are set up to operate at nearly break-even through 2026.  
 - **Future outlook:**   
   - Our largest philanthropy gift (Navigation Fund) runs out Dec 31, 2026.  
   - Creates a `-$66K/month` gap in 2027.  
-  - To extend into 2027 with the current cost structure, we must establish monthly cash-flow of `$66K/month` (`$700K annual`) in revenue in 2027.  
+  - To extend into 2027 with the current cost structure, we must establish monthly cash-flow of `$66K/month` (`$700K annual`) in revenue in 2027. Here's a rough breakdown we imagine:
+    - Sell `+$300K` in Memberships during 2026 so that the resulting revenue continues to flow during 2027. Sales made early in 2026 provide some buffer revenue for 2027.
+    - Get `+$500K` in development commitments from members, either acting as individuals or in syndicates (joint ventures), to pay for Projects (SOWs) with work carried out in late 2026 and 2027.
 
 We have **enough runway with current contracts to last us the year, but a $700K annual gap starting in 2027**.
 
@@ -33,26 +35,35 @@ We must:
 
 - **Align and streamline our membership and our development work** to ensure that we have capacity to deliver on both, and to ensure they feed into one another.
 - **Create a sales system that reliably generates new funded development opportunities** so that we can efficiently drive development opportunities via members.
+- **Identify the breakdown of revenue types that is sustainable for us** to ensure we focus our sales and delivery growth in the right areas.
 - **Grow our member network to generate enough development work** so that we have enough sales volume to cover our cost gap in 2027.
 
 ## 2026 strategic focus
 
-Our [service model strategy](#service-model) describes three membership tiers: General Membership, Premier Membership, and Essential Membership. In 2026, we focus on building a strong foundation with General Membership while laying groundwork for future growth:
+Our [service model strategy](service-model) describes two membership tiers: General Membership and Premier Membership. In 2026, we focus on building a strong foundation with General Membership while laying groundwork for future growth in Premier:
 
 **Primary focus: General Membership and a co-funding system**
 - Build a member network that can be served with one roadmap
+- Systematize sales and delivery for project work via our member network.
 - Prove the co-funding model works at scale
 - Establish efficient operations that can support future growth
 
+:::{admonition} Questions we are not prioritizing now
+There are two types of service we consider strategically important, but that we aren't investing time into right now while we focus on sustainability:
+
+- **A maximally-accessible tier**, where communities have access to infrastructure for which they could not cover our cost of service. This may be called `Essential` or `Starter` tier, but we need to work out the details.
+- **A globally-accessible service**, where communities in parts of the world without the funding to cover competitive global salaries can nonetheless participate and benefit from our service.
+:::
+
 ## Major actions to take
 
-Our 2026 actions are organized by the three [strategic priorities](#strategic-priorities) defined in our strategy (quarterly estimates are rough, and not set in stone):
+Our 2026 actions are organized by the three [strategic priorities](strategic-priorities) defined in our strategy (quarterly estimates are rough, and not set in stone):
 
 ### Platform and services
 
 By end of Q1:
 
-- **Wrap up infrastructure reliability work to focus on development.** Quickly finish our monitoring, reporting, and alerting efforts so that we can safely spend more time engaging in development with member communities.
+- **Wrap up infrastructure reliability work to shift focus to development.** Quickly finish our monitoring, reporting, and alerting efforts so that we can safely spend more time engaging in development with member communities. Reliability work will shift to an ongoing baseline rather than a quarterly priority and "push".
 - **Create an MVP system for intentional community engagement.** Define a system of actively engaging our network of communities in a way that still feels collaborative with them, and the most important thing to develop first. Use learning from this quarter to decide what to prioritize for Q2.
 - **Make our development cycle more participatory and iterative**.
   - **Roadmap**: Our roadmapping and planning must invite regular participation from communities, and should be easy to follow-along as we build.
@@ -70,10 +81,12 @@ End of Q1:
 - **Turn our roadmap into a sales asset**. It must be accessible, with all the information needed for a community to decide to buy.
   - **Proactively use the roadmap.** Build proactive roadmap sales efforts into our sales activities.
   - **Don't sell a delivery time, sell a slot in a queue.** In our sales work, tell communities that we aren't selling a specific date. We are selling a commitment that something will be built and we are adding it to the queue.
+- **Define a target breakdown of revenue types.** It must help us prioritize where to focus our efforts in building team capacity and capabilities, and set sales targets for Q2.
 
 End of Q2:
 
 - **Grow General members enough to drive development.** Build a member network that can be served with one roadmap. Refine our model of member communities so that one roadmap can be useful to them all.
+- **Have reliable financial projections that suggest we are on track.** We must make budget decisions by the end of Q2. By this point we'll need a financial model that helps us decide to continue with our current cost structure, or to change strategies.
 
 End of Q4+:
 
