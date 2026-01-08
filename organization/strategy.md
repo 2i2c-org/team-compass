@@ -14,6 +14,13 @@ These two services are in tension:
 - Operations focuses on standardization, stability, and scale. It draws from practices like "Site Reliability Engineering". It requires upstream communities to fix bugs quickly, to be stable, and to be responsive.
 - Development work focuses on short-term improvements that tend towards bespoke solutions. It is more uncertain because you're building new things. It requires upstream communities to efficiently design, prioritize, and iterate.
 
+However, they can also complement one another if this tension is handled well:
+
+- Operations ensures that new development actually gets into the hands of users, and works under realistic usage scenarios.
+- Development iterates more effectively when operations makes new improvements rapidly accessible.
+
+Our goal is to ensure that **development** and **operations** complement one another, rather than being in unproductive tension with one another.
+
 [^gsbs]: This is inspired by the [Good Strategy, Bad Strategy framework](https://www.amazon.com/Good-Strategy-Bad-Difference-Matters/dp/0307886239).
 
 ## Our big challenge
