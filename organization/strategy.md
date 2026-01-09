@@ -1,6 +1,6 @@
 # Goals and strategy
 
-This is the 2-3 year challenge we must overcome as an organization, and the major policies and actions we must take to carry out our [theory of impact](./theory-of-impact.md)[^gsbs]. Our [value proposition](./value-proposition.md) provides more guidance for how we deliver value to members following this strategy.
+This is the 2-3 year challenge we must overcome as an organization, and the major policies and actions we must take to carry out our [theory of impact](./theory-of-impact.md)[^gsbs]. Our [](./service-model.md) describes how we engage member communities to execute this strategy, and our [value proposition](./value-proposition.md) provides persona-driven guidance for how we deliver value to key stakeholders.
 
 Our [theory of impact](./theory-of-impact.md) describes a flywheel in which we **develop** open technology with open source communities, and **operate** standardized community infrastructure that uses this technology.
 
@@ -68,65 +68,7 @@ If we achieve these goals, here are a few targets we're interested in achieving:
 - There is an accessible infrastructure option for communities that cannot pay. (subsidized by the two lines of business above)
 - We have multiple operations and development teams co-located geographically or by domain.
 
-(service-model)=
-## Our service model
-
-Our primary engagement model is **membership**.
-This centers our mission-driven nature, and builds a feeling of mutual support and status between our member organizations.
-
-All members have the option to participate in **co-funded project work**, which is a way for them to pool their resources to support open source development.
-
-### Membership tiers
-
-- **Framing**: Membership is a way to pool resources on a shared service team (operations, development, and community engagement).
-- **Cost recovery**: Membership covers core costs in operations, engagement, and upstream support.
-- **Benefit**:
-  - Participation in our core DevOps system.
-  - Comes with managed infrastructure. This ensures we have a cycle between operations and development work.
-  - Access to spaces and conversations communities otherwise would not have.
-  - A way for communities to pool resources to contribute upstream.
-
-Our target business model includes two membership tiers:
-
-**General Membership**
-- **For**: Discrete communities with a homogeneous user base (e.g., a single research group or collaboration).
-- **Impact**: The core loop that sustains 2i2c and covers the cost of making open infrastructure accessible and supported with foundational contributions.
-- **Offers**:
-  - Site Reliability Engineering for managed infrastructure.
-  - Basic guidance in usage.
-  - Participation in roadmapping exercises and co-funding opportunities.
-
-**Premier Membership**
-- **For**: Strategic partners that want deeper engagement or investment in open source development. Usually serve more than one community that fits our membership profile.
-- **Impact**: Drives deeper engagement and investment in open source, strategic guidance for 2i2c, and larger-scale growth within a community.
-- **Offers**:
-  - Strategic-level engagement from 2i2c, with more direction over our roadmap.
-  - Coordination and guidance in planning and delivering technical improvements.
-  - Tighter feedback loops and reporting between development and operations.
-
-**Essential Membership** (TBD, not currently prioritized)
-- **For**: Communities that need standardized, commodity infrastructure with minimal customization.
-- **Offers**: Commodified SRE evolving with open source. Automated operations with community-driven support.
-- **Impact**: Makes open infrastructure largely accessible, even to communities that cannot cover the costs of foundational contributions and development.
-
-### Co-funded projects with members
-
-Project-based work gives members a way to influence our new development, and make it possible with funding. It is the engine that drives innovation and enhancement of our shared technical system.
-
-- **For**: Any member organization that wants their infrastructure to be better (we do not distinguish between "premier" and "general" members for co-funding).
-- **Cost recovery**: Covers all R&D-style costs for new development. 
-- **Benefits**:
-  - A mechanism to fund fractions of new development work to make it more likely to happen faster.
-  - Engages communities to talk about shared problems, and to learn from one another.
-  - A way to get credit for supporting open source infrastructure development.
-
-### How membership and project work feed into one another
-
-Each line of business benefits from network effects, and crucially depends on our development work and our operations work feeding into one another. As the number of member communities grows:
-
-- They share more of the cost of operations, which decreases cost of service or increases support for open infrastructure.
-- They increase the resources available for new development, which benefits the entire network.
-- They have a larger group of communities to learn from, which increases learning and adoption of new workflows.
+For details on how we engage with member communities (membership tiers + co-funded projects), see [](service-model).
 
 (strategic-priorities)=
 ## Our strategic priorities

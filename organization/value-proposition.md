@@ -1,9 +1,9 @@
 (mission:value-proposition)=
 # Value proposition
 
-We create a high-bandwidth connection between people **developing** open technology, people **operating** the technology, and people **using** the technology. We only develop infrastructure that serves the network of communities for whom we manage infrastructure.
+This describes the value [our service model](./service-model.md) provides to key stakeholder personas for 2i2c.
 
-See [our service model](service-model) for membership tier details.
+We create a high-bandwidth connection between people **developing** open technology, people **operating** the technology, and people **using** the technology. We only develop infrastructure that serves the network of communities for whom we manage infrastructure.
 
 ## For hub users (researchers, students, practitioners)
 
@@ -35,19 +35,12 @@ Leverage tools and workflows co-developed by the scientific community. Benefit i
 
 Join a network of peer organizations that collectively fund the open source tools you all rely on. Control your infrastructure with the Right to Replicate.
 
-**What you get with General Membership:**
+**What you get:**
 - Reliable managed infrastructure at sustainable cost
 - Participation in roadmapping and co-funding opportunities
 - [Right to Replicate](https://2i2c.org/right-to-replicate) - full control over your infrastructure
 - Pool resources with peer organizations to fund shared needs
-
-**What you get with Premier Membership:**
-- Everything in General Membership, plus:
-- Strategic engagement and direction over our roadmap
-- Dedicated coordination for technical improvements
-- Tighter feedback loop between your needs and our development
-
-2026 note: We expect Premier Membership to be mostly "land and expand" from General Membership rather than a primary sales motion. See [Business Plan 2026](./plan.md) for details.
+- Optional deeper strategic engagement and tighter feedback loops (see [](./service-model.md))
 
 ## For the open science ecosystem (funders, OSS maintainers, advocates)
 
