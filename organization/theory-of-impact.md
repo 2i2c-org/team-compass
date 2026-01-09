@@ -1,22 +1,26 @@
 # Theory of Impact
 
-Our theory for how we can best achieve our organizational mission in the long term.
+Our theory for how we can best achieve [our mission](./mission.md) in the long term.
 Our [strategy](./strategy.md) describes more concrete guiding policies and actions we must take to follow this theory.
 
 ## The challenge
 
 > Research and Education communities are trapped in a choice between managing fragile bespoke infrastructure or paying for proprietary silos. This fragmentation prevents them from leveraging their collective power and contributing back to the open source tools they rely on.
 
-Communities in research and education struggle with technical barriers to deploying and managing the infrastructure they need, and social barriers in navigating the open source ecosystems that power their work.
+Communities in research and education struggle with: 
+
+- Technical barriers to deploying and managing the infrastructure they need
+- Social barriers in navigating the open source ecosystems that power their work.
+
 They often have to choose between proprietary services that risk vendor lock-in and ignore the community's unique identity, or self-managed infrastructure that distracts from their actual research.
 
-At the same time, **open source communities are builders, not service providers.** They provide crucial infrastructure for scientific research, but are under-resourced and lack the capacity to run reliable services or dedicated support. This leaves research communities with the burden of managing complex infrastructure themselves, or turning to proprietary vendors who do not share their values.
+At the same time, **open source communities are builders, not service providers.** They create crucial infrastructure for scientific research, but are under-resourced to provide managed services or dedicated support. This leaves research communities with the burden of managing complex infrastructure themselves, or turning to proprietary vendors who do not share their values.
 
 **This disconnect creates a negative feedback loop:** Research communities are trapped in inefficient silos, unable to contribute back to the tools they use. Open source communities lack the resources and engagement they need to thrive.
 
 ## Our theory of impact
 
-> By creating a high-bandwidth connection between people **developing** technology in open source, people **operating** the technology as a managed service, and people **using** the technology in research domains, we can improve the effectiveness and speed with which new development serves the research community.
+> By creating a high-bandwidth connection between people **developing** technology in open source, **operating** the technology as a managed service, and **using** the technology in research domains, we can improve the effectiveness and speed with which new development serves the research community.
 
 - **Make cloud environments accessible by removing the accidental complexity of managed infrastructure**: By offering a sustainable, shared infrastructure service, we can resolve the accidental complexity of infrastructure management so communities can focus on their work.
 - **Align community workflows with standardized, open technology**. By using standard, community-driven tools, we align the workflows of each community we serve. This makes it easier for them to learn from one another, and for us to serve them all at once.

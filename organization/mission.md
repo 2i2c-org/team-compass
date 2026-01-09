@@ -7,7 +7,7 @@ Our [theory of impact](./theory-of-impact.md) represents our bet for how we'll a
 ## Our mission
 
 ```{epigraph}
-2i2c's mission is to grow the world's collective ability to make discoveries and learn from one another by enabling communities to co-create through interactive computing and open infrastructure.
+2i2c's mission is to grow the world's collective ability to make discoveries and learn from one another. We do so by enabling communities to co-create through interactive computing and open infrastructure.
 ```
 
 By focusing on networks of people and communities, we act as a force-multiplier that helps them be greater than the sum of their parts. By using open infrastructure, we ensure that these benefits are shared globally and cannot be captured by private interests.

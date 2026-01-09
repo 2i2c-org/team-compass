@@ -1,6 +1,6 @@
 # Goals and strategy
 
-This is the 2-3 year challenge we must overcome as an organization, and the major policies and actions we must take to solve it[^gsbs].
+This is the 2-3 year challenge we must overcome as an organization, and the major policies and actions we must take to carry out our [theory of impact](./theory-of-impact.md)[^gsbs]. Our [value proposition](./value-proposition.md) provides more guidance for how we deliver value to members following this strategy.
 
 Our [theory of impact](./theory-of-impact.md) describes a flywheel in which we **develop** open technology with open source communities, and **operate** standardized community infrastructure that uses this technology.
 
@@ -11,8 +11,8 @@ This means running **two lines of business**:
 
 These two services are in tension:
 
-- Operations focuses on standardization, stability, and scale. It draws from practices like "Site Reliability Engineering". It requires upstream communities to fix bugs quickly, to be stable, and to be responsive.
-- Development work focuses on short-term improvements that tend towards bespoke solutions. It is more uncertain because you're building new things. It requires upstream communities to efficiently design, prioritize, and iterate.
+- Operations focuses on standardization, stability, and scale. It draws from practices like "Site Reliability Engineering". It optimizes for stability, fixing bugs, responsiveness, and optimizing for efficiency.
+- Development work focuses on scoped improvements that tend towards bespoke solutions. It optimizes for experimentation, design, and iteration.
 
 However, they can also complement one another if this tension is handled well:
 
@@ -34,19 +34,19 @@ Our service offers a centralized technical system that serves a network of indep
 - Managed infrastructure
   - Provides a stable base that our member communities can rely on
   - Provides upstream support to provide a similar level of stability
-  - Rapidly benefits from development work
+  - Makes upstream development accessible as quickly as it is developed
 - Development work
   - Provides a steady stream of _improvements_ to open technology
   - Provides upstream support that drives innovation
-  - Always benefits our managed infrastructure
+  - Must benefit our managed infrastructure services
 
 ## Operating principles
 
 Here are several principles that follow this policy:
 
-1. **Scalable agency and collaboration is the unique value of Membership**. The unique value of our membership is in the ability to interact with our team, other member communities, and open source communities. This should be where we spend most of our time. We must make it clear how membership is a way to direct support to open source tools, influence our roadmap, and make their own contributions.
+1. **Participation in our development and operations flywheel is the unique value of Membership**. The unique value of our membership is in the ability to interact with our team, other member communities, and open source communities. This should be where we spend most of our time. We must make it clear how membership is a way to direct support to open source tools, influence our roadmap, and make their own contributions while rapidly getting access these improvements for their hubs.
 
-2. **Efficiently operate infrastructure to have more cycles for development**. Communities will not use infrastructure that is fundamentally unreliable, though it it is not our core value. Our site reliability team must be efficient to ensure our infrastructure is reliable, while recognizing that most of our time should go towards collaboration and new development.
+2. **Operations must be efficient to have more cycles for development**. Communities will not use infrastructure that is fundamentally unreliable, though it it is not our core value. Our site reliability team must be efficient to ensure our infrastructure is reliable, while recognizing that most of our time should go towards collaboration and new development.
 
 
 3. **ONLY develop improvements that benefit MANY member communities.** This ensures we develop broadly useful and flexible technology that is designed for an ecosystem rather than a single client. We must identify problems shared by many communities and build solutions that bring value to many of our customers and many others through our platform services operation.
@@ -78,16 +78,15 @@ All members have the option to participate in **co-funded project work**, which 
 
 ### Membership tiers
 
-Membership should:
-
 - **Framing**: Membership is a way to pool resources on a shared service team (operations, development, and community engagement).
 - **Cost recovery**: Membership covers core costs in operations, engagement, and upstream support.
 - **Benefit**:
+  - Participation in our core DevOps system.
   - Comes with managed infrastructure. This ensures we have a cycle between operations and development work.
   - Access to spaces and conversations communities otherwise would not have.
   - A way for communities to pool resources to contribute upstream.
 
-Our target business model includes three membership tiers:
+Our target business model includes two membership tiers:
 
 **General Membership**
 - **For**: Discrete communities with a homogeneous user base (e.g., a single research group or collaboration).
