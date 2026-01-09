@@ -1,32 +1,57 @@
 (mission:value-proposition)=
 # Value proposition
 
-```{pull-quote}
-2i2c co-creates a virtuous cycle with a network of communities: we support research communities with interactive computing hubs to power their learning and discovery, and reinvest their resources into open source communities to strengthen the tools that the world uses to create and share knowledge.
-```
+This describes the value [our service model](./service-model.md) provides to key stakeholder personas for 2i2c.
 
-% Source: https://docs.google.com/presentation/d/1Pqp4nmLW3EfPDsYjsHgA2R0e6AIxcFkmzgkHE0Zubqs/edit?slide=id.g38426b4bd47_0_122#slide=id.g38426b4bd47_0_122
-```{figure} images/flywheel.png
-2i2c's virtuous cycle of co-creation: we provide communities access to shared data, computing, and tools to co-create discoveries, which generates resources to support open source communities, which leads to technology enhancements that benefit everyone and that we can deploy to our community network. This continuous co-creation between science communities and open source communities sustains and grows the impact of open infrastructure.
-```
+We create a high-bandwidth connection between people **developing** open technology, people **operating** the technology, and people **using** the technology. We only develop infrastructure that serves the network of communities for whom we manage infrastructure.
 
-## Our value to stakeholders
+## For hub users (researchers, students, practitioners)
 
-### For research & education communities
+**Stop managing servers. Start doing your work.**
 
-**For hub users:** Instant, standardized access. Get the same battle-tested infrastructure used by top research communities globally. Focus on your science, not the server.
+Get instant access to the same battle-tested interactive computing infrastructure used by top research communities globally. Focus on your science, not the server.
 
-**For hub administrators:** Customize your hub using tools and workflows co-developed by the scientific community. Instantly benefit from open source enhancements and learn from a network of administrators like you.
+**What you get:**
+- Instant, standardized access to JupyterHub and interactive computing tools
+- Battle-tested infrastructure that just works
+- Access to shared data, computing resources, and collaborative tools
 
-**For community leaders:** Control your infrastructure with the [Right to Replicate](https://2i2c.org/right-to-replicate). Join a network of peer organizations that pool resources to fund the open source tools you rely on.
+## For hub administrators (technical leads, research computing staff)
 
-### For the open science ecosystem
+**Customize and control without the operational burden.**
 
-**Strengthen the open source ecosystem**. We turn the _usage_ of open source into active investment. By connecting scientific needs directly to upstream development, we ensure the tools powering research are sustainable and responsive.
+Leverage tools and workflows co-developed by the scientific community. Benefit instantly from open source enhancements while learning from a network of administrators like you.
 
-**Spread innovation across community silos**. We break down the barriers between institutions and domains. Our shared infrastructure and member service allows best practices, workflows, and new tools to spread rapidly across disciplinary boundaries.
+**What you get:**
+- Community-standard tools you could run yourself.
+- Self-service customization using community-standard tools
+- Automatic deployment of ecosystem improvements
+- Peer learning network of administrators solving similar challenges
+- Freedom to replicate and modify ([Right to Replicate](https://2i2c.org/right-to-replicate))
 
-**Establish a robust community-driven alternative**. We demonstrate that community-governed infrastructure is a scalable, reliable choice. We offer a proven path for research communities to operate at scale without proprietary lock-in.
+## For community leaders (PIs, directors, decision-makers)
+
+**Pool resources. Amplify impact. Keep control.**
+
+Join a network of peer organizations that collectively fund the open source tools you all rely on. Control your infrastructure with the Right to Replicate.
+
+**What you get:**
+- Reliable managed infrastructure at sustainable cost
+- Participation in roadmapping and co-funding opportunities
+- [Right to Replicate](https://2i2c.org/right-to-replicate) - full control over your infrastructure
+- Pool resources with peer organizations to fund shared needs
+- Optional deeper strategic engagement and tighter feedback loops (see [](./service-model.md))
+
+## For the open science ecosystem (funders, OSS maintainers, advocates)
+
+**Turn usage into investment. Drive systemic change.**
+
+We demonstrate that community-governed infrastructure is a scalable, reliable alternative to proprietary silos.
+
+**What we enable:**
+- **Strengthen OSS sustainability**: Usage becomes active investment in the tools research depends on
+- **Spread innovation**: Best practices and tools flow rapidly across disciplinary boundaries
+- **Prove the alternative**: Scalable, community-driven infrastructure without vendor lock-in
 
 ## References
 
