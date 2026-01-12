@@ -26,20 +26,28 @@ The _pre-sales process_ focuses on the identification of possible customers/comm
 The _sales process_ focuses on moving the customers/communities through our CRM pipeline. The CRM pipeline is a workflow that consists of the following stages:
 
 1. **Qualifying** - Establishes if a community presents a possible _sales opportunity_.
-1. **Prospecting** - Allows us to filter and prioritise "sales opportunities" that can benefit from our products and services that could become future customers.
-1. **Partnering** - Finalises the statement of work that needs to be delivered by 2i2c to the future-customer/community for them to realise value from our partnership.
-1. **Invoicing** - Presents the future-customer with a contract or Memorandum of understanding (MoU) and an invoice that allows us to get paid. This formally moves the future-customer to a 2i2c customer relationship.
+2. **Prospecting** - Allows us to filter and prioritise "sales opportunities" that can benefit from our products and services that could become future customers.
+3. **Closing** - Finalises the agreement between 2i2c and customer/community.
+4. **Ordering** - Specifies the hub configuration using the [hub configurator](https://2i2c.org/hub-configurator)
+5. **Invoicing** - Presents the future-customer with a contract or Memorandum of understanding (MoU) and an invoice that allows us to get paid. This formally moves the future-customer to a 2i2c customer relationship.
 
 The key artefacts generated at this stage include:
 
 -   Proposals
 -   Quotes
 -   Signed Agreement
--   Partner onboarding
+-   Order
 -   [Asana](#delivery:asana) (2i2c <> CS&S)
 -   HelloSign (CS&S)
 -   Invoice (CS&S)
 -   Airtable (CS&S)
+
+### SOP: Ordering
+
+1. The Account Manager guides the customer to make technical choices using the [Hub Configurator](https://2i2c.org/hub-configurator).
+2. The Hub Configurator generates a long URL with the choices made during the exchange with the customer. These choices provide the initial specification of the hub to be deployed.
+3. The Account Manager creates an Order in HubSpot using the URL created with the Hub Configurator. The associated Deal needs to have line items specified so that 2i2c's P&S Team is aware of the Membership details.
+4. The Account Manager reviews the Order and then moves it from `Open` to the `Ready for P&S Request` column on the Orders Board. This triggers an automation action that generates GitHub issues for deploying the hub.
 
 ### Delivery
 
@@ -47,11 +55,9 @@ The **Delivery** stage is used to "roll-out" the products and services to our cu
 
 The steps include the following:
 
-1. **Provisioning** - This step kicks-off activities that ensure effective project management of our contractual obligations (see [Engagement management](engagement.md)). The key artefacts here are: AirTable records; and a Statement of Work (SoW).
-
-1. **Ongoing services** delivery - At this step, we generate tasks that are provisioned via the P&S Team's delivery process. Additionally, we provide infrastructure monitoring and support at this step. Key artefacts are P&S Backlog items and delivery commitments.
-
-1. **Milestone reporting** - The final sub-step for delivery is Impact reporting. This helps 2i2c and our customers (and their communities) evaluate if we met the goals of the contracts (or grants). Key artefacts are reports.
+1. **Provisioning** - This step kicks-off activities that ensure effective project management of our contractual obligations (see [Engagement management](engagement.md)). The key artefacts here are: Hub Configurator URL and Hubspot Order; AirTable records; and a Statement of Work (SoW).
+2. **Ongoing services** delivery - At this step, we generate tasks that are provisioned via the P&S Team's delivery process. Additionally, we provide infrastructure monitoring and support at this step. Key artefacts are P&S Backlog items and delivery commitments.
+3. **Milestone reporting** - The final sub-step for delivery is Impact reporting. This helps 2i2c and our customers (and their communities) evaluate if we met the goals of the contracts (or grants). Key artefacts are reports.
 
 ### Renewals
 
