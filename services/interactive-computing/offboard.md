@@ -27,7 +27,9 @@ Assuming an engagement has not been renewed, here is a process to gracefully off
 
 8. Delete the cluster.
    - Before deleting the cluster, verify that `federated-prometheus` has the MAU data for the hubs that are being deleted for the full duration of the engagement.
+   - 2i2c needs to keep the data that we use to address any questions about MAU counts and cloud cost invoicing. 2i2c/CSS to retain this data for at least one year after decommissioning.
    - Removing the cluster also removes the data for support services such as Grafana and Prometheus.
+   - After a cluster is deleted, all other Grafana/Prometheus metrics and associated dashboards are no longer available.
      % - _Add a link to infrastructure docs to delete the cluster_
 
 9. If applicable, close the cloud provider account.
