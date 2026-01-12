@@ -7,7 +7,7 @@ The following things must exist to meet our definition of **Minimum Viable Docum
 
 ### User and value documentation
 
-In a [source of truth for user documentation](../operations/documentation.md), provide information along the template defined in [our minimal viable documentation guidelines](inv:docs#mvp).
+In a [source of truth for user documentation](../operations/documentation.md), provide information along the template defined in [our minimal viable documentation guidelines](https://docs.2i2c.org/contribute/mvp/).
 
 ### Team operations documentation
 
