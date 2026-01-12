@@ -15,13 +15,7 @@ Engagements are encoded in Asana as *Projects*.  To create a new Engagement, cli
 Use the project template *Engagement Project*. Set the name of the project to be the same string as the HubSpot Deal Name. (If the HubSpot Deal Name is incorrect, fix this first).
 
 :::{attention}
-Today, there is only one template called *Engagement Project*. In a future iteration of these instructions there could be templates of the form
-
-- Premier Member Engagement
-- Advanced Member Engagement
-- Essential Member Enagagement
-
-or equivalents for any class of Engagements that should have the same overall structure
+Today, there is only one template called *Engagement Project*. In a future iteration of these instructions there could be templates for each type of membership, or equivalents for any class of Engagements that should have the same overall structure
 :::
   
 The templates sets the visibility of this new project to be "Everyone at 2i2c" and grants everyone "Project admin" access rights.  The project creator is automatically joins the project -- remove yourself from the project unless you personally want to receive notifications for each for every message, status update, and added task. 
@@ -36,7 +30,7 @@ Edit the custom fields
 - Contract Value
 - HubSpot Deal ID
 - HubSpot Deal URL
-- Membership Tier
+- Membership status (Member, Premier, Starter)
 
 to match the metadata for the corresponding Hubspot Deal.
 

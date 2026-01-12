@@ -76,7 +76,7 @@ If we achieve these goals, here are a few targets we're interested in achieving:
 - There is an accessible infrastructure option for communities that cannot pay. (subsidized by the two lines of business above)
 - We have multiple operations and development teams co-located geographically or by domain.
 
-For details on how we engage with member communities (membership tiers + co-funded projects), see [](service-model).
+For details on how we engage with member communities (membership + co-funded projects), see [](service-model).
 
 (strategic-priorities)=
 ## Our strategic priorities

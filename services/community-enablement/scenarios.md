@@ -7,10 +7,10 @@ This service may be used for:
 - Providing expert guidance on JupyterHub, image management, and open science workflows.
 - Supporting grant co-writing and open science governance structures.
 
-## Examples in Membership Tiers
+## Examples in Membership Engagements
 
-- **Advanced Tier**: 4 hours/quarter of dedicated support.
-- **Premier Tier**: 8 hours/quarter of dedicated support.
+- **Membership**: 4 hours/quarter of dedicated support.
+- **Premier membership**: 8 hours/quarter of dedicated support.
 
 ## SOW Templates
 
@@ -26,7 +26,7 @@ In [Statements of Work (SOW)](/product-and-services/deliveryflow.md#statements-o
 
 **Consulting for Environment Customization**
 
-_Example for Advanced Tier (up to 4 hours / quarter)_
+_Example for Membership (up to 4 hours / quarter)_
 
 | Section     | Details   |
 |------------------------|---------------------------------------------------------------------------------------------|
@@ -36,4 +36,3 @@ _Example for Advanced Tier (up to 4 hours / quarter)_
 |       | Consulting for debugging of version conflicts between software packages            |
 | **Budget / Expected Hours** | Up to 4 hours / quarter by 2i2c’s Product and Services Team      |
 | **Other Terms**            | Hours available for environment customization reset at the start of each quarter (Jan 1, Apr 1, Jul 1, Oct 1) |
-
