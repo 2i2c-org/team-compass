@@ -1,6 +1,6 @@
 # Making Changes to Multiple Hubs
 
-As we continue to refine and improve our infrastructure, we encounter situations where we need to modify the infrastruce that impacts multiple hubs and communities.
+As we continue to refine and improve our infrastructure, we encounter situations where we need to modify the infrastructure that impacts multiple hubs and communities.
 
 :::{note}
 As **motivation** for this process is used, consider [[Infrastructure Refactor] EKS clusters refactor Q4 2025  ](https://github.com/2i2c-org/infrastructure/issues/6756) as an example.
