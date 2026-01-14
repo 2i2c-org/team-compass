@@ -12,16 +12,17 @@ While each strategic partner has unique needs, dedicated delivery management inc
 - Monthly or quarterly strategy session for your community
 - Co-funding kickoffs for one or many communities who support specific feature delivery
 - Quarterly showcase with other strategic partner communities
+- Acknowledgement of the impact we enable together in our stakeholder and public communications
 
 
 ## Kickoff meeting
 Goals of the meeting: understand the community’s strategy and desired outcomes, establish first priorities, points of contact, and how we work together. This meeting can happen alongside community onboarding to 2i2c hub(s). 
  
 Agenda:
-Most important priorities for the community - could be feature work, strategic co-creation, upcoming events and dates where you need hubs
-Engagement plan with 2i2c - set up meetings, etc
-How to reach us to ask for help, feedback, etc
-How we’ll communicate with you - following GH, Slack, etc
+- Most important priorities for the community - could be feature work, strategic co-creation, upcoming events and dates where you need hubs
+- Engagement plan with 2i2c - set up meetings, etc
+- How to reach us to ask for help, feedback, etc
+- How we’ll communicate with you - following GH, Slack, etc
 
 Who attends: 2i2c delivery partner, Community champion & team members either requests
 
@@ -36,7 +37,7 @@ Input on the next quarterly showcase & prioritization call we host for all commu
 Who attends: 2i2c delivery partner and/or at least one engineer, Community champion & team members either requests
 
 ## Co-funding Kickoff 
-Goals of the meeting: with one or many communities co-funding a given piece of work, we want to make sure everyone understand the scope of work, that communities have a clear channel for design input, and we understand any implicit or explicit deadlines
+Goals of the meeting: with one or many communities co-funding a given piece of work, we want to make sure everyone understands the scope of work, that communities have a clear channel for design input, and we understand any implicit or explicit deadlines
  
 Agenda:
 Review scope and approach
@@ -48,7 +49,7 @@ Note - this meeting may be folded into a strategy session if a single community 
 Who attends: 2i2c delivery partner, product lead, at least one engineer, Community champions and technical contacts from co-funding communities
 
 
-## Quarterly showcase
+## Quarterly showcase (for all strategic member communities)
 Goals of the meeting:
 Learn from and share accomplishments with other strategic member communities
 Stay current on new 2i2c platform and service features
