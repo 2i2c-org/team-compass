@@ -17,9 +17,9 @@ The technical details will be different but the overall structure is repeatable.
 
 A typical pattern is the an upgrade, new feature, or fix has been completed for one hub and now needs to be rolled to many other hubs and communities.
 
-Create a new [Platform Initiative] issue on the P&S Project Board that uses the following template:
+Create a new `[Platform Initiative]` issue on the [P&S Project Board](https://github.com/orgs/2i2c-org/projects/57/) that uses the following template:
 
-```
+```markdown
 We want to <describe the migration>. This will save us future time, make all our infrastructure easier to support, and get us <rationale for completing this migration>.  
 
 This change was previously implemented for <link to the issue where the change was made for one community>
