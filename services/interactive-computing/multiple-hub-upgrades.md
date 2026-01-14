@@ -13,7 +13,7 @@ Other examples:
 The technical details will be different but the overall structure is repeatable.
 :::
 
-## Define the rational and scope of the change
+## Define the rationale and scope of the change
 
 A typical pattern is the an upgrade, new feature, or fix has been completed for one hub and now needs to be rolled to many other hubs and communities.
 
