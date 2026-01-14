@@ -1,4 +1,4 @@
-(communitcate-changes:index)=
+(communicate-changes:index)=
 
 # Communicating Changes
 
