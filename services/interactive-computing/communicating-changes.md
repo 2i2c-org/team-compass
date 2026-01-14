@@ -24,7 +24,7 @@ Here is an explicit list of the types of changes that will be communicated out t
 2. _Structural_ changes in how we provide our service. Examples of this would be:
    1. Moving from using cloud provider home directories to `jupyterhub-home-nfs`.
    2. Modifying our `profileList` options to match memory requests to guarantees.
-   3. Changing from Auth0` to CILogon for authenticating by default.
+   3. Changing from Auth0 to CILogon for authenticating by default.
    4. Switching the base instance type from one node type to another.
 
 ## Responsibility
