@@ -13,19 +13,19 @@ This means explicit new feature deployments, working with specific communities, 
 Here is an explicit list of the types of changes that will be communicated out through this channel:
 
 1. Version upgrades of:
-    1. z2jh
-    2. kubernetes
+    1. `z2jh`
+    2. Kubernetes
     3. `jupyterhub-fancy-profiles`
-    4. `jupyterhub-home-nfs
-    5. dask-gateway
-    6. binderhub
+    4. `jupyterhub-home-nfs`
+    5. `dask-gateway`
+    6. `binderhub`
     7. [Our home page default implementation](https://github.com/2i2c-org/infrastructure/issues/5399)
 
 2. *Structural* changes in how we provide our service. Examples of this would be:
-    1. Moving from using cloud provider home dirs to `jupyterhub-home-nfs`
-    2. Switching our profileList options to match memory requests to guarantees
-    3. Changing from auth0 to CILogon for authenticating by default
-    4. Switching base instance type from one node type to another
+    1. Moving from using cloud provider home directories to `jupyterhub-home-nfs`.
+    2. Modifying our `profileList` options to match memory requests to guarantees.
+    3. Changing from Auth0` to CILogon for authenticating by default.
+    4. Switching the base instance type from one node type to another.
 
 ## Responsibility
 
