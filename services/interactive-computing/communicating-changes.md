@@ -30,8 +30,9 @@ Here is an explicit list of the types of changes that will be communicated out t
 ## Responsibility
 
 Where a communicable change takes place, the engineering manager and the tech leads have the following responsibilities:
+
 1. To ensure that all parties involved in executing or shaping the work are _explicitly_ aware of the need to give notice.
-1. To confirm that the notice has been given before the change can be considered "implemented". 
+1. To confirm that the notice has been given before the change can be considered "implemented".
 
 It is the responsibility of the person making this change to write the message and ensure it is sent out. This may change in the future as we add more things to the list above.
 
@@ -43,7 +44,7 @@ Writing, and sending these messages out should take less than 15 minutes. We do 
 
 To create an email to communities via Freshdesk, we need a list of emails, companies (organizations) and names in a .csv file to import into FreshDesk.
 
-- For authorized technical contacts, export a list from FreshDesk, making sure Authorized Technical Contact is checked. FreshDesk has further isntructions to [export contacts from FreshDesk](https://support.freshdesk.com/support/solutions/articles/196491-importing-and-exporting-customer-data)
+- For authorized technical contacts, export a list from FreshDesk, making sure Authorized Technical Contact is checked. FreshDesk has further instructions to [export contacts from FreshDesk](https://support.freshdesk.com/support/solutions/articles/196491-importing-and-exporting-customer-data)
 - Then open the resulting file as a spreadsheet and filter on Authorized Technical Contact = TRUE.
 - Save that filtered file as a CSV.
 
