@@ -206,23 +206,8 @@ When deciding how to prioritize a Change Request, ask for guidance from these tw
     :width: 500
     ```
 
-:::{admonition} Freshdesk Communities and Contacts
-FreshDesk has the concept of a 'Company' that can be associated independently with both tickets and contacts. We interpret the 'Company' in Freshdesk to mean the 2i2c Community that is being served.
+:::{warning}
+## Missing FreshDesk contact information?
 
-When a ticket comes into FreshDesk is automatically associated with the Community based on the 'Company' of the Community Representative submitting the ticket.
-
-When a new Community is being onboarding, create a new "company" in FreshDesk:
-```{image} /images/support/freshdesk_newcompany.png
-:width: 200
-```
-
-To update the list of Community Representatives, edit the Company:
-```{image} /images/support/freshdesk_company.png
-:width: 500
-```
-
-For each Community Representative, create a new Contact entry. Contacts may be affliated with multiple Communities if required:
-```{image} /images/support/freshdesk_associatecommunity.png
-:width: 500
-```
+See [](technical-support:update-contacts).
 :::
