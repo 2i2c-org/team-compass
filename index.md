@@ -1,4 +1,4 @@
-# The 2i2c Team Compass
+ The 2i2c Team Compass
 
 This team compass defines the policies and practices for 2i2c.
 
@@ -65,7 +65,7 @@ Overviews and detailed 2i2c processes of our services are documented in the sect
 :maxdepth: 2
 :glob:
 services/index
-services/delivery-enablement/index
+services/dedicated-delivery-management/index
 services/interactive-computing/index
 services/technical-support/index
 services/community-enablement/index
