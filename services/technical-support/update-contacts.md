@@ -1,12 +1,14 @@
-# Backfill or update community contacts
+(technical-support:update-contacts)=
 
-Scenario: A already has an Engagement with 2i2c for **Technical Support**. Community Representative information is missing in FreshDesk.
+# Add or update community representatives
+
+Scenario: A community has an engagement with 2i2c for **Technical Support**. Community Representative information is missing in FreshDesk.
 
 During the sales or renewal process, BD is asked to fill out the field "Community Representatives" *Community* tab on a Deal in HubSpot. For some historical deals and renewals, this process may not have occurred.
 
 This procedure is also used when a community is renewing a previous engagement.
 
-To back fill this missing information:
+To fill in this missing information:
 
 1. Make an educated guess based on information in HubSpot, previous FreshDesk tickets, and historical community interactions who is likely a Community Representatives (CR), Authorized PR Submitter (PR), and/or Technical Contact (TC)
 2. Fill these names in on FreshDesk
