@@ -2,15 +2,8 @@
 # After the incident
 After an incident is resolved, there are a few important steps to take to ensure that we learn from the incident and make sure it doesn't happen again.
 
-## 1. Create post-incident action items
-
-After the incident is over, we *must* prioritize any action items that prevent this kind of incident at the same level as a contract deliverable, and attempt to bring it into the next sprint. While we can't guarantee there shall be no outages, we must do everything we can to prevent known causes of outages from recurring.
-
-### Responsibility
-It's the {role}`Technical Lead`'s responsibility to shape an absolute minimum sized task to mitigate the issue that caused this incident, and the responsibility of the {role}`Technical Lead` & {role}`Engineering Manager` to advocate for bringing it in during the next sprint.
-
 (incidents:create-report)=
-## 2. Create an Incident Report
+## 1. Create an Incident Report
 Once the incident is resolved, we must create an {term}`Incident Report`. Our incidents are all [*public*](https://github.com/2i2c-org/incident-reports/tree/main/reports), so others can learn from them as well.
 
 We practice a [blameless culture](https://www.blameless.com/sre/what-are-blameless-postmortems-do-they-work-how) around incident reports.
@@ -98,6 +91,16 @@ The timeline should include:
 6. Any extra communication from the community affected that helped.
 7. When the incident was fixed, and how that was verified.
 8. Whatever else you think would be helpful to someone who finds this incident report a few months from now, trying to fix a similar incident.
+
+
+## 2. Create post-incident action items
+
+After the incident is over, we *must* prioritize any action items that prevent this kind of incident at the same level as a contract deliverable, and attempt to bring it into the next sprint. While we can't guarantee there shall be no outages, we must do everything we can to prevent known causes of outages from recurring.
+
+Use the {guilabel}`Incident Action Item` template to create an issue in the [infrastructure repository](https://github.com/2i2c-org/infrastructure/issues)
+
+### Responsibility
+It's the {role}`Technical Lead`'s responsibility to shape an absolute minimum sized task to mitigate the issue that caused this incident, and the responsibility of the {role}`Technical Lead` & {role}`Engineering Manager` to advocate for bringing it in during the next sprint.
 
 ## Key terms
 
