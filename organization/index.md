@@ -2,6 +2,7 @@
 
 Organization-wide strategy, policy, and structure.
 
+(core-strategy)=
 ## Core strategy
 
 Our strategy documents form a progression from **why we exist** to **how we execute**:

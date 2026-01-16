@@ -23,20 +23,7 @@ Assume that our blog and mailing list is made up of research scientists, educato
 (brand:ideas)=
 ## The ideas we want to be associated with
 
-Generally, ideas that align with our [value proposition](#mission:value-proposition). For example:
-
-2i2c is...
-
-- A leader of open science practices and principles.
-- An enabler of scientific impact via our communities.
-- An enabler of open source contribution.
-- A vehicle of shared impact with its collaborators.
-
-Our product is...
-
-- A reliable service you can trust on the cloud.
-- An easy way to get all the resources your community needs for their workflows.
-- A way to access cutting edge environments for interactive computing.
+See our [strategy](../organization/strategy.md) as well as our [value proposition](../organization/value-proposition.md).
 
 ## Constraints and considerations
 

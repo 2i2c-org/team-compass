@@ -1,6 +1,6 @@
 # Service model
 
-This page describes how we engage with member communities and fund our work (membership tiers + co-funded projects).
+This page describes how we engage with member communities and fund our work.
 It's the primary way we implement [our strategy](./strategy.md).
 For persona-driven messaging about outcomes for stakeholders, see [our value proposition](./value-proposition.md).
 
@@ -21,11 +21,11 @@ This creates a collaborative flywheel where our relatively  small team can effic
   - Access to spaces and conversations communities otherwise would not have.
   - A way for communities to pool resources to contribute upstream.
 
-## Membership tiers
+## Membership
 
-Our target business model includes two membership tiers:
+Our target business model includes membership with an optional "Premier membership" upgrade:
 
-**General Membership**
+**Membership**
 - **For**: Discrete communities with a homogeneous user base (e.g., a single research group or collaboration).
 - **Impact**: The core loop that sustains 2i2c and covers the cost of making open infrastructure accessible and supported with foundational contributions.
 - **Offers**:
@@ -33,7 +33,7 @@ Our target business model includes two membership tiers:
   - Basic guidance in usage.
   - Participation in roadmapping exercises and co-funding opportunities.
 
-**Premier Membership**
+**Premier membership option** (strategic for some communities)
 - **For**: Strategic partners that want deeper engagement or investment in open source development. Usually serve more than one community that fits our membership profile.
 - **Impact**: Drives deeper engagement and investment in open source, strategic guidance for 2i2c, and larger-scale growth within a community.
 - **Offers**:
@@ -41,7 +41,7 @@ Our target business model includes two membership tiers:
   - Coordination and guidance in planning and delivering technical improvements.
   - Tighter feedback loops and reporting between development and operations.
 
-**Essential Membership** (TBD, not currently prioritized)
+**Accessible service mechanism** (WIP, described as "Starter" membership; not currently prioritized)
 - **For**: Communities that need standardized, commodity infrastructure with minimal customization.
 - **Offers**: Commodified SRE evolving with open source. Automated operations with community-driven support.
 - **Impact**: Makes open infrastructure largely accessible, even to communities that cannot cover the costs of foundational contributions and development.
@@ -50,7 +50,7 @@ Our target business model includes two membership tiers:
 
 Project-based work gives members a way to influence our new development, and make it possible with funding. It is the engine that drives innovation and enhancement of our shared technical system.
 
-- **For**: Any member organization that wants their infrastructure to be better (we do not distinguish between "premier" and "general" members for co-funding).
+- **For**: Any member organization that wants their infrastructure to be better (we do not distinguish between members with Premier membership and other members for co-funding).
 - **Cost recovery**: Covers all R&D-style costs for new development.
 - **Benefits**:
   - A mechanism to fund fractions of new development work to make it more likely to happen faster.

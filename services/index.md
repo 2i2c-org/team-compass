@@ -30,7 +30,7 @@ Leadership orientation
 
 🧰📬 **Technical Support**
 
-2i2c provides email based [Technical Support](https://docs.2i2c.org/support/) using FreshDesk to our community members. Our service level objective is to respond to all ticket requests within one business day with the priority for resolution based on the number of users impacted and the community's Membership Tier.
+2i2c provides email based [Technical Support](https://docs.2i2c.org/support/) using FreshDesk to our community members. Our service level objective is to respond to all ticket requests within one business day with the priority for resolution based on the number of users impacted and the community's membership status (if we have resource constraints, premier members are generally prioritized).
 
 :::
 
@@ -67,7 +67,7 @@ Leadership orientation
 
 ## Engagements and Sales Processes
 
-Our Services are normally bundled together into Engagements at different Membership Tiers (Essential, Advanced, Premier) which define the level of each service and the features and options available for hubs. 
+Our Services are normally bundled together into Engagements with membership which define the level of each service and the features and options available for hubs. 
 
 Business Development is responsible for assembling services together into a Deal which represents the business arrangement that 2i2c has with a community.
 
@@ -77,33 +77,33 @@ See [the Business Development workflow](../../business-development/sales-operati
 See [Engagement Management](../../business-development/engagement/) for more documentation on Engagements, Projects, and Deliverables.
 :::
 
-Services are delivered to communities as part of an Engagement. To make the components explicit for our cross-functional team, here different Engagement life cycles for communities at different Membership Tiers. Each Engagement represents a bundling of services together that provides value to a community.
+Services are delivered to communities as part of an Engagement. To make the components explicit for our cross-functional team, there are different Engagement life cycles for communities with different membership options and service mechanisms. Each Engagement represents a bundling of services together that provides value to a community.
 
 ::::{grid} 1
 :gutter: 0
 
-:::{grid-item-card} Essential Tier Membership
-:text-align: center
-:link: delivery/essential-tier
-:link-type: doc
-:::
-
-:::{grid-item-card} Advanced Tier Membership
+:::{grid-item-card} Membership
 :text-align: center
 :link: delivery/advanced-tier
 :link-type: doc
 :::
 
-:::{grid-item-card} Premier Tier Membership
+:::{grid-item-card} Premier Membership
 :text-align: center
 :link: delivery/premier-tier
+:link-type: doc
+:::
+
+:::{grid-item-card} Essential / Accessible Service (WIP)
+:text-align: center
+:link: delivery/essential-tier
 :link-type: doc
 :::
 
 ::::
 
 :::{note}
-Membership Tier Engagements are not a exhaustive list of the possible Engagements that 2i2c can offer. Special projects, grants, and multi-institutional partnerships are also possible that go beyond one of these standardized Membership Tiers.
+Membership engagements and service mechanisms are not a exhaustive list of the possible Engagements that 2i2c can offer. Special projects, grants, and multi-institutional partnerships are also possible that go beyond one of these standardized options.
 
 Business Development, in consultation with other functional areas of 2i2c, is responsible for defining these kind of **Special Engagements**.
 :::
