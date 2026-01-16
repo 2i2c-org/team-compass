@@ -1,4 +1,4 @@
- The 2i2c Team Compass
+# The 2i2c Team Compass
 
 This team compass defines the policies and practices for 2i2c.
 
