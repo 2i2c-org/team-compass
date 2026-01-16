@@ -17,6 +17,7 @@ needed to fill those roles.
 terminology
 roles-and-team
 process
+update-contacts
 timeboxed-initial-ticket-evaluation
 communication
 time-off

@@ -205,6 +205,7 @@ When deciding how to prioritize a Change Request, ask for guidance from these tw
     ```{image} /images/support/freshdesk_ticket.png
     :width: 500
     ```
+
 :::{admonition} Freshdesk Communities and Contacts
 FreshDesk has the concept of a 'Company' that can be associated independently with both tickets and contacts. We interpret the 'Company' in Freshdesk to mean the 2i2c Community that is being served.
 
