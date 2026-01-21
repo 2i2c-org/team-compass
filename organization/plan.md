@@ -40,9 +40,9 @@ We must:
 
 ## 2026 strategic focus
 
-Our [service model strategy](service-model) describes two membership tiers: General Membership and Premier Membership. In 2026, we focus on building a strong foundation with General Membership while laying groundwork for future growth in Premier:
+Our [service model strategy](service-model) describes membership, with Premier membership as a strategic option for some communities. In 2026, we focus on building a strong foundation for membership while laying groundwork for future growth in Premier membership options:
 
-**Primary focus: General Membership and a co-funding system**
+**Primary focus: Non-premier membership and a co-funding system**
 - Build a member network that can be served with one roadmap
 - Systematize sales and delivery for project work via our member network.
 - Prove the co-funding model works at scale
@@ -51,7 +51,7 @@ Our [service model strategy](service-model) describes two membership tiers: Gene
 :::{admonition} Questions we are not prioritizing now
 There are two types of service we consider strategically important, but that we aren't investing time into right now while we focus on sustainability:
 
-- **A maximally-accessible tier**, where communities have access to infrastructure for which they could not cover our cost of service. This may be called `Essential` or `Starter` tier, but we need to work out the details.
+- **A maximally-accessible service mechanism**, where communities have access to infrastructure for which they could not cover our cost of service. This may be called `Essential` or `Starter`, but we need to work out the details.
 - **A globally-accessible service**, where communities in parts of the world without the funding to cover competitive global salaries can nonetheless participate and benefit from our service.
 :::
 
@@ -85,7 +85,7 @@ End of Q1:
 
 End of Q2:
 
-- **Grow General members enough to drive development.** Build a member network that can be served with one roadmap. Refine our model of member communities so that one roadmap can be useful to them all.
+- **Grow members enough to drive development.** Build a member network that can be served with one roadmap. Refine our model of member communities so that one roadmap can be useful to them all.
 - **Have reliable financial projections that suggest we are on track.** We must make budget decisions by the end of Q2. By this point we'll need a financial model that helps us decide to continue with our current cost structure, or to change strategies.
 
 End of Q4+:
@@ -118,7 +118,7 @@ End of Q1:
    * Total: $2.7M (some buffer)  
 2. New growth  
    * Grow NRR/project work to cover $500K in the next year (2027, replaces Navigation Fund)  
-   * Advanced volume sales (target: 20, +$300K)
+   * Membership volume sales (target: 20, +$300K)
 
 **2027 forecast**: $1.8M ARR + $500K (SOW) = $2.3M (tight; track 2026 buffer; manage cash flow)
 
@@ -134,10 +134,10 @@ End of Q1:
 - **Sales costs**
   - **Co-funding actually multiplies our sales cost and complexity.** It is basically engaging in N sales conversations to co-fund something, rather than a simpler 1:1 mapping. This will grow the complexity and confusion around sales costs.
 - **Sales growth**
-  - **We can't grow general memberships quickly enough to hit our targets.** The sales cycle is long and low-probability. We may not get it up and running.
+  - **We can't grow memberships quickly enough to hit our targets.** The sales cycle is long and low-probability. We may not get it up and running.
   - **Communities don't see enough value in getting a "slot" rather than a guaranteed deliverable.** They need more guarantees of the outcomes or timelines and won't commit funding without a lot of work.
 - **Delivery**
-  - **Our delivery team does not have the capacity to deliver SOWs *and* serve growing member organizations.** We learn that we cannot both onboard new advanced tier communities AND complete the SOW-based work we're committing to in 2026 and 2027. We hit a lot of "that can't be done on time because our team is busy dealing with fires" signals.
+  - **Our delivery team does not have the capacity to deliver SOWs *and* serve growing member organizations.** We learn that we cannot both onboard new member communities AND complete the SOW-based work we're committing to in 2026 and 2027. We hit a lot of "that can't be done on time because our team is busy dealing with fires" signals.
   - **We force communities into an unrealistic amount of detail before an SOW can be funded.** We might over-index on the need for "specificity" and force ourselves into a state where we demand "waterfall-style" project planning before we can engage in an SOW.
   - **Contributions from us are rejected by upstream communities.** We might take costed work that an upstream community rejects, because we don't have the alignment with their roadmap or the trust with them.
 - **Value proposition**
@@ -145,5 +145,5 @@ End of Q1:
 
 ## Not a focus in 2026
 
-- _Essential Membership:_ We do not see Essential hubs as a sales target for 2026. We will allow essential-style hubs when a member community does all the sales on our behalf (e.g., CloudBank classrooms). We must revisit the value proposition of Essential Membership when we have a stronger sustainable foundation.
-- _Direct Premier Membership sales:_ Premier member organizations require time to develop. We aim to "land and expand" by building trust at the General Membership level first. We anticipate gradual ramping up of Premier Membership sales but are not prioritizing direct sales in 2026.
+- _Essential service mechanism:_ We do not see Essential hubs as a sales target for 2026. We will allow essential-style hubs when a member community does all the sales on our behalf (e.g., CloudBank classrooms). We must revisit the value proposition of Essential when we have a stronger sustainable foundation.
+- _Premier membership sales:_ Organizations that opt for Premier membership require time to develop. We aim to "land and expand" by building trust at the membership level first. We anticipate gradual ramping up of Premier membership option sales but are not prioritizing direct sales in 2026.

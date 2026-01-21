@@ -26,7 +26,7 @@ The service blueprint describes the stages of interaction between a community an
 This is more verbose description of the implementation described in [Overview](overview) and is intended to be understood in conjuction with the Service Blueprint.
 ```
 
-1. 2i2c Business Development decides to offer Community Enablement to prospective customers. This offer should be made if a community will benefit from an active collaboration with 2i2c to achieve a shared objective or outcome that collaboration requires the allocation of specific individuals from our team. This is usually part of a broader membership tier but may be sold as a separate add-on service.
+1. 2i2c Business Development decides to offer Community Enablement to prospective customers. This offer should be made if a community will benefit from an active collaboration with 2i2c to achieve a shared objective or outcome that collaboration requires the allocation of specific individuals from our team. This is usually part of a broader membership engagement but may be sold as a separate add-on service.
 
 2. During the negotiation phase, Business Development needs to make explicit what a community should expect from 2i2c while allowing 2i2c to continue to sustainably manage its capacity. 
 
@@ -58,7 +58,7 @@ Placeholder example of total committed capacity. See monthly report for real dat
         - Engagement name – a combination of the community name, engagement start year, and engagement title.
         - Engagement start date
         - Engagement end date
-        - Engagement description – a description of the overall scope and nature of the engagement. When applicable, this simply the Membership Tier (Essential Tier, Advanced Tier,  Premier Tier). The first line in the description needs to be a one line title.
+        - Engagement description – a description of the overall scope and nature of the engagement. When applicable, this is simply the membership engagement (Membership or Premier membership). The first line in the description needs to be a one line title.
         - Community – name of the customer’s organization or suborganization that 2i2c should refer to as the primary beneficiary of the Community Enablement Service. This may be different from the buying organization especially if a 2i2c has been contracted through a third party management service or a university.
         - Link to the signed service agreement
         - Administrative and Technical Contacts information (name, email, GitHub id, phone number, organization, position title) of one or more persons from the community who are the primary points of contact for delivering the Community Enablement Service

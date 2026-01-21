@@ -53,8 +53,7 @@ Here is information BD is asked to provide for P&S to be able to deliver the ser
 - Community GitHub organization and representative repos (if applicable)
 - Logo (as url)
 - Cloud and region preferences (if known). This important to identify early so that infrastructure is deployed close to data and other compute resources.
-
--Service Tier  (Essential, Advanced, Premier)
+- Membership level
 :::
 
 :::{note}

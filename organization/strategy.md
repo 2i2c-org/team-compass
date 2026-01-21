@@ -29,7 +29,17 @@ We must ensure these two services are strongly aligned with one another, instead
 
 ## Our guiding policy
 
-Our service offers a centralized technical system that serves a network of independent communities. Our unique value is the way in which we improve that system by engaging member communities to learn, identify problems, and develop solutions together with the open source community.
+> We serve independent communities with a single roadmap and service team.
+> 
+> Operations must use the same 80% infrastructure stack across all communities. Say no to communities that need infrastructure that deviates from this rule.
+> 
+> Development work must be attached to roadmap items. Roadmap items must deliver value to many communities instead of just one. Say no to project opportunities that deviate from this rule.
+
+Our assumption is that by constraining ourselves to serve multiple member communities, we'll force ourselves to make the technology useful for the broader open source user ecosystem as well. By choosing communities that are aligned in their workflows and values, we'll be able to do this with a single team and roadmap in a cost-effective way.
+
+## Operating principles
+
+Here's a brief breakdown of how managed infrastructure and co-development relate to one another:
 
 - Managed infrastructure
   - Provides a stable base that our member communities can rely on
@@ -39,8 +49,6 @@ Our service offers a centralized technical system that serves a network of indep
   - Provides a steady stream of _improvements_ to open technology
   - Provides upstream support that drives innovation
   - Must benefit our managed infrastructure services
-
-## Operating principles
 
 Here are several principles that follow this policy:
 
@@ -68,7 +76,7 @@ If we achieve these goals, here are a few targets we're interested in achieving:
 - There is an accessible infrastructure option for communities that cannot pay. (subsidized by the two lines of business above)
 - We have multiple operations and development teams co-located geographically or by domain.
 
-For details on how we engage with member communities (membership tiers + co-funded projects), see [](service-model).
+For details on how we engage with member communities (membership + co-funded projects), see [](service-model).
 
 (strategic-priorities)=
 ## Our strategic priorities

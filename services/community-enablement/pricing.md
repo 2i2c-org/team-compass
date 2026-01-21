@@ -5,7 +5,7 @@
 - Captures effort from both direct and indirect contributors.
 
 ## External Price
-- Included in tiered offerings (e.g., Advanced, Premier).
+- Included in membership offerings.
 - Can be negotiated as part of broader service agreements.
 - May be provided pro bono when aligned with strategic goals.
 
@@ -19,6 +19,6 @@ It is the responsibility of the Product & Services Team to report on the costs i
 
 ## Price of the service
 
-Community Enablement Service is meant to formalize the implicit value that 1i2c provides to our communities. The price charged for Community Enablement Service should scale with the “units of time” being offered but also may be included in a service agreement as a part of the overall negotiation of the price.  For example, our Advanced and Premier tiers include ‘4 hours’ and ‘8 hours’ (quarterly) of guidance on the software libraries and applications included in an image environment. This is an example of a Community Enablement Service agreement where 2i2c is committing to offering bespoke guidance, up to a predefined limit, to achieve the shared outcome of the community being able to effectively use our Managed JupyterHub Service.  
+Community Enablement Service is meant to formalize the implicit value that 1i2c provides to our communities. The price charged for Community Enablement Service should scale with the “units of time” being offered but also may be included in a service agreement as a part of the overall negotiation of the price.  For example, membership includes `4 hours` and Premier membership (for some communities) includes `8 hours` (quarterly) of guidance on the software libraries and applications included in an image environment. This is an example of a Community Enablement Service agreement where 2i2c is committing to offering bespoke guidance, up to a predefined limit, to achieve the shared outcome of the community being able to effectively use our Managed JupyterHub Service.  
 
 Business Development may also offer a certain number of “units of time” to achieve a certain shared outcome without explicitly collecting additional revenue. If a community needs assistance co-creating some resource or guidance on how to build their open source technology stack on top of the interactive cloud computing base already provided, Community Enablement Service  could be priced as a ‘for free’ add on.  A service contract could then provide an additional Community Enablement Service agreement for more collaborative activity with 1i2c team members under an agreed price for effort model. Ultimately, the price of the service should be driven by the value received by the community while ensuring that it covers 2i2c’s internal and opportunity cost to provide the service.
