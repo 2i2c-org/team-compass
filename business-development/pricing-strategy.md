@@ -3,17 +3,8 @@
 
 This page describes the rationale and strategy behind our pricing.
 
-```{list-table}
-:widths: auto
-:stub-columns: 1
-
-- - Last Updated
-  - 2022-05-06
-- - Next checkpoint
-  - 2022-08
-```
-
-## Guiding principles of our prices
+**Last Updated:** `2026-01-22`
+## Guiding principles
 
 The following principles guide our decision-making around pricing our services.
 We believe that following these principles allows us to deliver the best services for our communities in a way that aligns with our mission and values.
@@ -28,11 +19,15 @@ Our prices should:
 
 ## Pricing structure
 
-A description of 2i2c's service offering is [available here](https://sales.2i2c.org/service-description). Here is how 2i2c's pricing is structured.
+See [2i2c's service offering](https://sales.2i2c.org/service-description) for a public description of the information in this page.
 
 ### Membership
 
-2i2c provides two tiers of managed interactive computing platform services: General Member and Premier Member. The General Member service is priced at $15,000 per year. Premier Membership pricing is customized based on your institution's specific needs and the depth of engagement required. Typical annual investments range from $50,000 to $150,000+, depending on factors such as the number of hubs, level of customization, consulting hours needed, and strategic collaboration scope.
+2i2c provides two tiers of managed interactive computing platform services: General Member and Premier Member.
+
+- **General Membership** is priced at $15,000 per year.
+- **Premier Membership** pricing is customized based on your institution's specific needs and the depth of engagement required.
+  - Typical annual investments range from `$50,000` to `$150,000+`, depending on factors such as the number of hubs, level of customization, consulting hours needed, and strategic collaboration scope.
 
 
 ### Pass-through cloud costs
@@ -53,11 +48,11 @@ We do this for two reasons:
 + 1001-10000 MAU $1.25 / month
 + 10001+ MAU $0 / month
 
-For example, 280 active users in a month costs $1,000 since $10X10 + $5X90 + $2.50X180 = $1,000.
+For example, 280 active users in a month costs `$1,000` since `$10x10 + $5x90 + $2.50x180 = $1,000`.
 
 ## Projects
 
-2i2c provides open source software development to some of our members. We develop software following [our roadmap](https://2i2c.org/roadmap/about/) using a co-funding model and consistent with the [Right to Replicate](https://2i2c.org/right-to-replicate/) and our [Commitment to Open Technology](https://2i2c.org/open-technology/#:~:text=Open%20Source%20Projects%20originating%20at,includes%20Copyright%20Assignment%20to%202i2c.&text=The%20list%20of%20external%20organizations,the%20Organization%20for%20Ethical%20Source.). 
+2i2c provides open source software development to some of our members. We develop software following [our roadmap](https://2i2c.org/roadmap/about/) using a co-funding model and consistent with the [Right to Replicate](https://2i2c.org/right-to-replicate/) and our [Commitment to Open Technology](https://2i2c.org/open-technology/). 
 
 ## What we are missing
 
