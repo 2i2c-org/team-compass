@@ -28,17 +28,12 @@ Our prices should:
 
 ## Pricing structure
 
-Currently, we base our pricing on two major items:
+A description of 2i2c's service offering is [available here](https://sales.2i2c.org/service-description). Here is how 2i2c's pricing is structured.
 
-### Flat monthly fees
+### Membership
 
-We charge a flat monthly fee to cover [our personnel costs](costs:human).
-We estimate the number of hubs an engineer can run, and use this to estimate our costs per hub after adding in project management and administration costs.
+2i2c provides two tiers of managed interactive computing platform services: General Member and Premier Member. The General Member service is priced at $15,000 per year. Premier Membership pricing is customized based on your institution's specific needs and the depth of engagement required. Typical annual investments range from $50,000 to $150,000+, depending on factors such as the number of hubs, level of customization, consulting hours needed, and strategic collaboration scope.
 
-Most hubs take extra effort during the _set up_ phase, and relatively less effort to maintain over time (depending on how many change requests a community makes).
-As such we suspect that this pricing structure does not cover our costs in the first month or two, but regains those costs in subsequent months.
-
-In the future we may try to perform a more nuanced mapping of costs onto effort from our team, but for now we wish to keep things simple and predictable while we learn more.
 
 ### Pass-through cloud costs
 
@@ -48,27 +43,21 @@ We do this for two reasons:
 1. In our eyes, we are running infrastructure _on behalf of each community_, and wish to act as if a member of that community were running the infrastructure themselves. We are simply being compensated for our time and expertise.
 2. Adding a percentage markup on cloud costs may create perverse incentives for us to avoid optimizing down a community's cloud costs.
 
-## Base fees for three service types
+### Usage costs
 
-These are based on major use-cases in the communities we have served.
+2i2c charges a monthly usage fees based on Monthly Active Users (MAU) as follows:
 
-- **Educational communities** need basic hubs that are reliable, secure, and that serve a community of users. They tend to charge course fees and can recoup some costs this way. Assume 22 educational hubs per engineer.
-- **Research communities** need a bit more power and complexity, and potentially access to more cloud infrastructure and data. They tend to have grant funding for fixed periods of time that is enough to cover an internal FTE. Assume 13 research hubs per engineer.
-- **Partnerships** happen with more advanced / well-resourced communities that want more bespoke infrastructure and new development, and we want a service option that allows for this flexibility. It takes significant extra effort to define and carry out these more complex relationships, and we should only engage in them if they cover a larger percentage of our costs. We'll use a lower-bound of 20% FTE per engineer for these engagements (ie, at-most 5 partnership-level engagements per engineer), though we suspect most will require more FTE time than this.
++ First 10 MAU $10.00 / month
++ 11-100 MAU $5.00 / month
++ 101-1000 MAU $2.50 / month
++ 1001-10000 MAU $1.25 / month
++ 10001+ MAU $0 / month
 
-Below is a table which summarizes these major points
+For example, 280 active users in a month costs $1,000 since $10X10 + $5X90 + $2.50X180 = $1,000.
 
-% Generated with https://www.tablesgenerator.com/markdown_tables
+## Projects
 
-| Type of service | Annual cost / engineer | % Eng. FTE | N Hubs / Eng. | Monthly fee | Annual fee total |
-|:---------------:|:----------------------:|:----------:|:-------------:|:-----------:|:----------------:|
-|    Education    |       $250,000.00      |    4-5%    |       22      |  $1,000.00  |    $12,000.00    |
-|     Research    |       $250,000.00      |    7-8%    |       14      |  $1,500.00  |    $18,000.00    |
-|   Partnership   |       $250,000.00      |    >=20%   |      <=5      | >=$4,166.67 |   >=$50,000.00   |
-
-### Markup for running on dedicated clusters
-
-In general we want our fees to scale with the amount of complexity that we have to manage. If we run JupyterHubs on community-specific cloud infrastructure, we have more responsibility and moving parts to keep track of. For example, we’ll need to manage credentials for cloud accounts, set up infrastructure that connects with those accounts, and manage a dedicated kubernetes cluster for the community. We’ll also need to provide billing reports per-cluster for cloud costs. All of this is extra complexity we must deal with, and so a 50% markup is a conservative estimate to cover this labor.
+2i2c provides open source software development to some of our members. We develop software following [our roadmap](https://2i2c.org/roadmap/about/) using a co-funding model and consistent with the [Right to Replicate](https://2i2c.org/right-to-replicate/) and our [Commitment to Open Technology](https://2i2c.org/open-technology/#:~:text=Open%20Source%20Projects%20originating%20at,includes%20Copyright%20Assignment%20to%202i2c.&text=The%20list%20of%20external%20organizations,the%20Organization%20for%20Ethical%20Source.). 
 
 ## What we are missing
 
