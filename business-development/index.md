@@ -8,9 +8,9 @@ See [](#external-documentation).
 ```{toctree}
 bd-overview.md
 strategy.md
+pricing-strategy.md
 kpis.md
 roles/index.md
-pricing-strategy.md
 sales-operations.md
 engagement.md
 coordination-ceremonies.md
