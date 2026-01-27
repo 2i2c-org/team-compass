@@ -82,21 +82,21 @@ Services are delivered to communities as part of an Engagement. To make the comp
 ::::{grid} 1
 :gutter: 0
 
-:::{grid-item-card} Membership
+:::{grid-item-card} General Membership
 :text-align: center
-:link: delivery/advanced-tier
+:link: delivery/general-membership
 :link-type: doc
 :::
 
 :::{grid-item-card} Premier Membership
 :text-align: center
-:link: delivery/premier-tier
+:link: delivery/premier-membership
 :link-type: doc
 :::
 
-:::{grid-item-card} Essential / Accessible Service (WIP)
+:::{grid-item-card} starter / Accessible Service (WIP)
 :text-align: center
-:link: delivery/essential-tier
+:link: delivery/starter-membership
 :link-type: doc
 :::
 

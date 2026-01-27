@@ -9,7 +9,7 @@ This service may be used for:
 
 ## Examples in Membership Engagements
 
-- **Membership**: 4 hours/quarter of dedicated support.
+- **General Membership**: 4 hours/quarter of dedicated support.
 - **Premier membership**: 8 hours/quarter of dedicated support.
 
 ## SOW Templates
