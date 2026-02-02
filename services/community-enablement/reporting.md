@@ -10,4 +10,3 @@
       - Description of the Community Enablement activity. Details of the activity should be proportional to the number of consulting hours delivered. If it was 1 hour of consulting, it might be “attended the weekly community meeting”. If it was 24 hours of consulting activity, a two page report may be more appropriate.
 
 2. Follow-up with BD and communities
-    

@@ -10,6 +10,7 @@ This documentation outlines the service's scope and implementation procedures.
 
 ```{toctree}
 Overview <overview>
+implementation
 scenarios
 reporting
 pricing
