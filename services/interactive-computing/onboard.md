@@ -10,7 +10,7 @@ Onboarding assumes there is already a Deal in HubSpot with with either the statu
 
 BD fills in the following fields in the *Community* tab on a Deal in HubSpot:
 
-Propery Label | Description
+Property Label | Description
 -- | --
 Community Name | one word, will be used to create an machine-readable identifier for naming clusters, accounts, database keys, and other infrastructure internal to 2i2c
 Community Long Name | Community Long Name (Long version, full formal name, for display on in public facing webpages )
@@ -43,10 +43,11 @@ Under 'Community Context', here is information that is useful:
 2. Use the Hub Configurator to capture information about the hub request. Capture additional additional information not in the Hub Configurator as free form notes.  With permission of the community, using Google Gemini to record a transcript of the request gathering meeting with the community.
 
   - The Hub Configurator is found at https://2i2c.org/hub-configurator
+    <!-- Update the tier verbiage -->
 
-3. BD requests this new hub use the 'Hub Spot Order' workflow. This kicks off an automation that generates a 'BD request type ticket' that PS can then pick up. This automation has been used a few times so far. It is not yest perfect but the way to improve that process is to use it continuously iterate.
+3. BD requests this new hub use the 'Hub Spot Order' workflow. This kicks off an automation that generates a 'BD request type ticket' that PS can then pick up. This automation has been used a few times so far. It is not yet perfect but the way to improve that process is to use it to continuously iterate.
 
-4. Follow [](technical-support:update-contacts) to ensure this community is set up in FreshDesk.
+4. Follow [](technical-support:update-contacts) to ensure this community is set up in FreshDesk. <!-- Who owns this action? -->
 
 5. Once the new hub order is received, PS creates the new hub issue(s)
  - The means creating the New Hub GitHub issues (using the `New Hub Turnup - Setup` templates )

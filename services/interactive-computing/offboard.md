@@ -2,7 +2,7 @@
 
 # Offboard a Community
 
-Assuming an engagement has not been renewed, here is a process to gracefully offboard a community from the Mangaged Interactive Computing Service.
+Assuming an engagement has not been renewed, here is a process to gracefully offboard a community from the Managed Interactive Computing Service.
 
 1. 60 days before the end of an engagement BD initiates a renewal process to determine if the community wants to continue with a the Managed Interactive Computing Service.
    - _Each engagement needs to have a task defined to make this explicit._
@@ -17,11 +17,11 @@ Assuming an engagement has not been renewed, here is a process to gracefully off
      - Click {guilabel}`Create`. This creates a ticket without notifying the community.
      - Follow the instructions in the body of the created ticket.
 
-4. 2 days before the date of decomissioning, a reminder email should be sent to the CRs confirming that we intended to shut down the hub. If we have not already received confirmation that the user data has been migrated off, we should seek that confirmation in this email.
+4. 2 days before the date of decommissioning, a reminder email should be sent to the CRs confirming that we intended to shut down the hub. If we have not already received confirmation that the user data has been migrated off, we should seek that confirmation in this email.
 
 5. Delete the hub(s). Follow https://infrastructure.2i2c.org/hub-deployment-guide/hubs/delete-hub/#delete-a-hub for the steps.
 
-6. Email the CRs confirming that the hub has been deleted. The FreshDesk ticket can be marked as closed. If the community responsed it will be automatically reopened.
+6. Email the CRs confirming that the hub has been deleted. The FreshDesk ticket can be marked as closed. If the community responds it will be automatically reopened.
 
 7. Finalize and record the Cloud Billing and MAUs usage. Costs incurred up this point can be allocated to the community. Cost incurred after this point need to be covered by 2i2c.
 
