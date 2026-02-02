@@ -14,6 +14,7 @@ offboard
 community-value
 communicating-changes
 multiple-hub-upgrades
+addhub
 clusters
 budget-alerts
 showcase-hub
