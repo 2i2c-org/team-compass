@@ -40,3 +40,18 @@ The following questions must be answered before proceeding:
 - Cost and scope understanding
 - Technical information sufficient for PS to deploy the hub
 
+
+## Example: LEAP additional GPU hub
+
+In the LEAP community, an additional hub was proposed to isolate expensive GPU workloads and allow stricter idle-culling policies without impacting other users.
+
+Key considerations in this case:
+- No increase to 2i2c engineering or operations costs
+- No material change to the service agreement
+- Clear benefit to the community in managing cloud spend
+- BD informed of the additional hub as an expansion of support
+
+**Decision:** Proceeded with deploying an additional GPU-focused hub for LEAP under the existing service agreement, as there was no increase to 2i2c engineering or operations costs and clear benefit to the community.
+
+This example illustrates how the process can be applied in practice.
+
