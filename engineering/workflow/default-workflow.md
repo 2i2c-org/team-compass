@@ -66,12 +66,14 @@ Last day of Iteration
 Tasks in the backlog are continually added and refined asynchronously by the whole team, ready for Iteration planning meetings, which rely on having sequenced and prioritized tasks to be available in the board's Up next column.
 The backlog is regularly culled of tasks that are stale, in a monthly Backlog refinement meeting 
 
-Backlog refinement meetings should aim to
-- Identify and remove tasks that are stale or obsolete
-- Identify and action tasks that are in the wrong status or priority on the board
-- Identify tasks that need further asynchronous refinement
+Backlog refinement meetings should aim to prepare our backlog for planning by
+- Gaining a shared understanding of work to be done
+- Estimating work
+- Identifying and removing tasks that are stale or obsolete
+- Adjusting tasks that are in the wrong status or priority on the board
+- Identifying tasks that need further asynchronous refinement
 
-Tasks should tie back to initiatives or contract deliverables, and the refined column should also function as a buffer of uncommitted work to pull from if needed.
+Tasks should tie back to initiatives or contract deliverables, and the refined column should also function as a buffer of uncommitted work to pull from if needed. This also allows initiative owners to queue up more than one sprint worth of work when they have a solid understanding of an initiative.
 
 Attendees of the Refinement meeting should include representatives from the following teams:
 - Engineering: for technical decision-making
@@ -94,7 +96,7 @@ A Product Manager will:
   Use labels to easily identify Contract Deliverables.
 
 - **Assign preferred sprint-end dates**  
-  If a card is intended for the upcoming sprint, let a Product Manager know and they will mark it with this sprint’s end date.
+  If a card is intended for the upcoming sprint, team members let a Product Manager know and they will mark it with this sprint’s end date.
 
 - **Organize in 'Up Next'**  
   A Product Manager manages and sorts cards in the ‘Up Next’ column for visibility.
@@ -105,7 +107,7 @@ The Team will:
   Include relevant contributions and initiatives in planning discussions.
 
 - **Advocate for priority cards**  
-  Team members should speak up for issues they’re most invested in or want to lead. Reach out to a Product Manager in the days leading up to a sprint to discuss the priority of the issues you wish to champion:
+Team members are expected to speak up for issues they’re most invested in or want to lead. For quarterly objective and initiative owners, that does not mean they need to do all the work of refinement, but they should make sure refinement is complete. Reach out to a Product Manager in the days leading up to a sprint to discuss the priority of the issues you wish to champion:
   - First check that the issues you want to suggest are not already in the Up Next column and dated for the upcoming sprint. 
   - Send a message to the PM at least one day prior to the planning session with a list of issues you feel need to be included in the upcoming sprint.
   - Please include as much context as needed for the PM to understand why these issues need to be in the upcoming sprint
@@ -162,6 +164,7 @@ The Engineering Manager will:
 
 - **Establish sprint themes**
   - Ask the Head of Product and the Technical Lead to share focus areas or big goals
+  - Ask initiative owners to highlight the next demo reel or learning we're aiming for 
   - Invite input from the whole team for broader context
 
 The Team will:
