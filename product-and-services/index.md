@@ -14,6 +14,7 @@ structure.md
 deliveryflow.md
 documentation.md
 prioritization.md
+community-relations.md
 services.md
 cost-model.md
 kpis.md
