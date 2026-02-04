@@ -8,7 +8,7 @@ There are four key elements of Community Relations, all supporting member commun
 Today (early 2026) many of these elements are more ad hoc than we would like, which makes it challenging for communities to engage with us and with each other. We'll be building and refining Community Relations throughout 2026; early thoughts are captured in our [services strategy](https://docs.google.com/document/d/1djix1YrzMRxc7rketJLXgl-R3g8kplljPPCbWIMmh0o/edit?tab=t.ktsf3e28gj1x#heading=h.eldsuysfzza2_).
 
 ### Community Experience & Enablement  
-This element focuses on the product itself. How good is the documentation? How quickly can a community get from "zero" to "hello world"? They advocate for all 2i2c member communities back to the product team. Part of how we do this today is via hands-on work in support of communities, so this overlaps significantly with service delivery (onboarding, community enablement, offboarding).
+This element focuses on the product itself, and on the ways we support its adoption and use by our member communities. How good is our community-facing documentation? How quickly can a community get from "zero" to "hello world"? Community Experience and Enablement are practices that advocate for all 2i2c member communities back to the product team. Part of how we do this today is via hands-on work in support of communities, so this overlaps significantly with service delivery (onboarding, community enablement, offboarding).
 Elements of Community Experience and Enablement include:
 - Welcoming new communities and helping them navigate the service
 - 1:1 problem solving / [community enablement](https://compass.2i2c.org/services/community-enablement/)
