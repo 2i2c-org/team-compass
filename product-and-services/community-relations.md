@@ -9,6 +9,7 @@ Today (early 2026) many of these elements are more ad hoc than we would like, wh
 
 ### Community Experience & Enablement  
 This element focuses on the product itself. How good is the documentation? How quickly can a community get from "zero" to "hello world"? They advocate for all 2i2c member communities back to the product team. Part of how we do this today is via hands-on work in support of communities, so this overlaps significantly with service delivery (onboarding, community enablement, offboarding).
+Elements of Community Experience and Enablement include:
 - Welcoming new communities and helping them navigate the service
 - 1:1 problem solving / [community enablement](https://compass.2i2c.org/services/community-enablement/)
 - Other forms of learning together 
