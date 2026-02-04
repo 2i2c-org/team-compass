@@ -3,7 +3,7 @@
 One of 2i2c's key differentiators is how we combine our technical expertise with social knowledge across science, education and open source communities. We call the social side of that work _Community Relations_, which is focused on growing members’ collective impact. Community Relations is a collection of processes and services provided by the Product & Services team.  
 
 ## Elements of Community Relations
-There are four key elements of Community Relations, all supporting member communities' collective impact through our shared infrastructure.Our core infrastructure service is a reliable, functional part of science and education community building. The technical aspects of our service delivery are documented in our services and infrastructure docs. Community Relations work supports communities' use of our core service.  
+There are four key elements of Community Relations, all supporting member communities' collective impact through our shared infrastructure. Our core infrastructure service is a reliable, functional part of community building for science and education. The technical aspects of our service delivery are documented in our services and infrastructure docs. Community Relations work supports communities' use of our core service.  
 
 Today (early 2026) many of these elements are more ad hoc than we would like, which makes it challenging for communities to engage with us and with each other. We'll be building and refining Community Relations throughout 2026; early thoughts are captured in our [services strategy](https://docs.google.com/document/d/1djix1YrzMRxc7rketJLXgl-R3g8kplljPPCbWIMmh0o/edit?tab=t.ktsf3e28gj1x#heading=h.eldsuysfzza2_).
 
