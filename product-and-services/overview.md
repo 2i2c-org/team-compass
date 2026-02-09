@@ -62,9 +62,9 @@ The Product and Services team tracks its value delivery and performance through 
   - Jan 2027
 * - PRIMARY: Average delivery time (cycle-time)
   - Reflects our Delivery Cadence, it tracks our ability to efficiently release new product features to the market within a fixed time box.
-  - Untracked, as long as 3 months to deliver new features to our community network
-  - < 1 month
-  - < 2 weeks
+  - Untracked, as long as 3 months to deliver new features to our community network (was actually as long as 6 months)
+  - Varies based on feature size, 2 weeks-4 months
+  - < 2 weeks for a small feature or piece of a larger feature; predictable wait times for larger feature groups
 * - PRIMARY: [Community satisfaction score](#kpi:csat)
   - Qualitative User Satisfaction survey sent out at regular touchpoints (e.g. feature release blogs, quarterly updates) measuring community response to 2i2c’s product direction.
   - Survey designed but not yet implemented. Due 30th May ‘25.
@@ -73,16 +73,16 @@ The Product and Services team tracks its value delivery and performance through 
 * - PRIMARY: Engagement
   - A quantitative metric representing the level of engagement with our platform over time, across our entire user base.
   - Not yet tracked. Implementation due end of July 25.
-  - ???
+  - Still not reliably tracked.
   - ???
 * - SECONDARY: Velocity
-  - A measure of the volume of tasks delivered by the team within a single sprint, indicating the team’s delivery efficiency
-  - Tracked [here](https://github.com/orgs/2i2c-org/projects/57/insights/6)
-  - ???
-  - ~75 points
+  - A measure of the volume of tasks delivered by the team within a single sprint, indicating the team’s delivery efficiency and predictability. Tracked [alongside our GitHub project board](https://github.com/orgs/2i2c-org/projects/57/insights/6). Our goal isn't to increase points but to becom more predictable.
+  - Ranges 40-80pts
+  - Ranges 60-80 pts
+  - Averages 70-75 points
 * - Time to resolve support tickets (50th / 90th percentile)
   - Reflects our Support Response Time indicating the ability of our team to respond to community requests and resolve them in an efficient manner.
   - Informal commitments to resolve service issues, some overdue tickets > 14 working days
-  - 50th percentile: 7 days; 90th percentile: 15 days
-  - 50th percentile: 3 days; 90th percentile: 10 days
+  - (Actual results) 50th percentile: 3 days; 90th percentile: 5 days
+  - (Target) 50th percentile: 3 days; 90th percentile: 5 days
 ```
