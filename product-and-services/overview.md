@@ -72,7 +72,7 @@ The Product and Services team tracks its value delivery and performance through 
   - Average score of 85% users report being satisfied
 * - PRIMARY: Engagement
   - A quantitative metric representing the level of engagement with our platform over time, across our entire user base.
-  - Not yet tracked. Implementation due end of July 25.
+  - Tracked as Monthly Active Users
   - Still not reliably tracked.
   - ???
 * - SECONDARY: Velocity
