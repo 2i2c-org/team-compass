@@ -65,7 +65,6 @@ The Product and Services team tracks its value delivery and performance through 
   - Untracked, as long as 3 months to deliver new features to our community network (was actually as long as 6 months)
   - Varies based on feature size, 2 weeks-4 months
   - < 2 weeks for a small feature or piece of a larger feature; predictable wait times for larger feature groups
-  - Survey designed but not yet implemented. Due 30th May ‘25.
   - Average of 60% users report being satisfied
   - Average score of 85% users report being satisfied
 * - PRIMARY: Engagement
