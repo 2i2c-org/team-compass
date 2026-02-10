@@ -67,17 +67,28 @@ Our Customer Relationship Manager (CRM) pipeline (managed in HubSpot) consists o
 
 ## Key Metrics (Tracked Weekly)
 
-Our learning-driven approach requires visibility into pipeline health and conversion effectiveness:
+Our learning-driven approach requires visibility into pipeline health and conversion effectiveness.
+
+Deals in HubSpot are labeled with `Deal Type` ("existing business", "new business"). Renewals are "existing business". Net new business opportunities are "new business". The `Deal Type` is used to filter deals to enable tracking of new business and renewal business opportunities in our pipeline. 
+
+New business is tracked with these metrics (**implemented**, _planned_):
 
 - **Sales Qualified Deals (SQD)**: Count of deals in Outreach + Discovery + Renewals + Proposal stages
 - **SQD Net New**: Deals that entered SQD stages in the last 7 days (leading indicator of pipeline growth)
 - **Meetings Per Week (MPW)**: Discovery, renewal, and proposal meetings held (activity indicator)
-- **Outreach → Discovery conversion rate**: Validates outreach quality and ICP targeting
-- **Discovery → Proposal conversion rate**: Validates qualification effectiveness
-- **Days in Pipeline**: Average time from Enrichment to Closed Won (velocity indicator)
-- **Days in Discovery**: Average time in Discovery stage (identifies stalled deals)
+- _Outreach Email Open Rates_: Do the emails we send get opened? Which emails get opened and which don't?
+- _Outreach → Discovery conversion rate_: Validates outreach quality and ICP targeting
+- _Discovery → Proposal conversion rate_: Validates qualification effectiveness
+- _Days in Pipeline_: Average time from Enrichment to Closed Won (velocity indicator)
+- _Days in Discovery_: Average time in Discovery stage (identifies stalled deals)
 
-Deals in HubSpot are labeled with `Deal Type` ("existing business", "new business"). Renewals are "existing business". Net new business opportunities are "new business". The `Deal Type` is used to filter deals to enable tracking of new business and renewal business opportunities in our pipeline.   
+Existing business flowing into the Renewals stage are tracked with these metrics (**implemented, _planned_):
+
+- **Existing Business Active**: Count of current active deals (Closed Won, and Now is after contract start and before contract end).
+- **Overdue Renewal**: Count of deals with ongoing service with Now after contract end.
+- **[0,30] Renewal**: Count of deals with Now before but within 30 days of contract end.
+- **[31,90] Renewal**: Count of deals with Now before but within 31 to 90 days of contract end.
+- **[91,180] Renewal**: Count of deals with Now before but within 91 to 180 days of contract end.
 
 These metrics guide weekly sales reviews where we identify experiments to run, diagnose bottlenecks, and decide when to pivot strategy.
 
