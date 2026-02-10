@@ -109,8 +109,6 @@ These segments are the **authoritative source** for strategic outreach and repor
 
 ## Task-Specific Guidance
 
----
-
 ## How to Get a List of Strategic Contacts
 
 Use HubSpot **Segments** (Lists):
