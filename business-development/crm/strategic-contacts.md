@@ -1,184 +1,104 @@
-# Strategic Contacts
+# Strategic Contacts — HubSpot Guide
 
-This document explains to use HubSpot to track **strategic contacts** across members, collaborators, and funders.  
+This document explains how to use HubSpot to track **strategic contacts** across members, collaborators, and funders.
 
-This system is intentionally simple and optimized for:
-- Strategic communications
-- Leadership outreach
-- Reliable list exports
+This system is optimized for strategic communications, leadership outreach, and reliable list exports. It is **not** meant to capture every operational or technical relationship.
 
-It is **not** meant to capture every operational or technical relationship.
+## What Is a Strategic Contact?
 
-## What is a Strategic Contact?
+A **strategic contact** is someone who should reasonably receive executive communications, funding or partnership messages, or high-level coordination updates.
 
-A **strategic contact** is someone who should reasonably receive:
-- Executive or leadership communications
-- Funding or partnership-related messages
-- High-level coordination or decision-oriented updates
+> **The test:** Would leadership expect this person to receive strategic communications?  
+> If not, they are **not** a strategic contact.
 
-If leadership would *not* expect this person to receive those messages, they are **not** a strategic contact.
-
-## TASK: How to Export a List of Strategic Contacts
-
-Use HubSpot **Segments** (Lists):
+## How to Export a List of Strategic Contacts
 
 1. Go to **Contacts → Segments**
-2. Open the appropriate saved segment:
-   - *All Strategic Contacts*
-   - *Strategic Contacts of All Members*
-   - *Strategic Contacts at Premier Members*
-   - *Strategic Contacts of Major Collaborators*
-   - *Strategic Contacts of All Funders*
-3. Use **Export segment** to download the list if needed
+2. Open one of the saved segments:
+   - All Strategic Contacts
+   - Strategic Contacts of All Members
+   - Strategic Contacts at Premier Members
+   - Strategic Contacts of Major Collaborators
+   - Strategic Contacts of All Funders
+3. Use **Export segment** to download
 
+## How to Add or Update a Strategic Contact
 
-## TASK: How to Add or Update a Strategic Contact
+### Step 1 — Is this person strategic?
 
-When adding or editing a contact:
-
-### Step 1 — Decide if they are strategic
-Ask:
-> Would leadership expect this person to receive strategic communications?
-
-- If **yes** → set `Strategic Contact Status = Strategic Contact`
-- If **no** → set `Strategic Contact Status = Not Strategic` and stop
-
+- **Yes** → set `Strategic Contact Status = Strategic Contact` and continue to Step 2.
+- **No** → set `Strategic Contact Status = Not Strategic` and **stop here. Nothing else is needed.**
 
 ### Step 2 — Assign Coverage Category
-Select all applicable:
-- Member – Premier
-- Member – General
+
+Select **all** that apply:
+
+- Member — Premier
+- Member — General
 - Collaborator
 - Funder
 
 ### Step 3 — Assign Coverage Detail
+
 Select the **specific** communities, grants, or funders where this person is strategic.
 
-Examples:
-- A Premier community director →  
-  `Member – Premier` + `Member – Premier – VEDA`
-- A funder program officer →  
-  `Funder` + `Funder – Sloan`
-- A grant co-PI →  
-  `Collaborator` + `Collaborator – NSF Project Pythia`
+**Examples:**
 
+| Scenario | Category | Detail |
+|----------|----------|--------|
+| Premier community director | Member — Premier | Member — Premier — VEDA |
+| Funder program officer | Funder | Funder — Sloan |
+| Grant co-PI | Collaborator | Collaborator — NSF Project Pythia |
 
-### Step 4 — Final check before saving
-Confirm:
-- Status is set correctly
-- Category and Detail are both filled
-- Category matches Detail
+### Step 4 — Validate before saving
 
-If any of these fail, fix them before saving.
+Confirm the contact passes the **Core Rules** (see below). Fix any issues before saving.
 
+## How to Add a New Coverage Detail Option
 
-## TASK: How to Add a New Strategic Coverage Detail Option
-
-New communities, grants, or funders **must** be added centrally.
-
-### When to add a new option
-- A new member community joins
-- A new major grant or collaboration starts
-- A new funder relationship is established
-
-
-### TASK: How to add a new option
+When a new member community joins, a new major grant starts, or a new funder relationship is established, the option must be added centrally.
 
 1. Go to **Settings → Properties → Contacts**
 2. Open **Strategic Coverage Detail**
-3. Add a new checkbox value using the required naming format:
+3. Add a new checkbox value using this naming format:
 
-<Member – Premier | Member – General | Collaborator | Funder> – <Name>
+   `<Category> — <Name>`
 
-**Examples:**
-- `Member – General – New Community`
-- `Collaborator – New Grant Name`
-- `Funder – New Foundation`
+   Where `<Category>` is one of: `Member — Premier`, `Member — General`, `Collaborator`, or `Funder`.
+
+   **Examples:**
+   - `Member — General — New Community`
+   - `Collaborator — New Grant Name`
+   - `Funder — New Foundation`
 
 4. Save the property
 5. Update relevant contacts
 
+**Rules:** Do not invent new naming patterns or add abbreviations unless they are canonical. The Category prefix must match what will be used in the Category property.
 
-### Important rules for new options
-- Do **not** invent new naming patterns
-- Do **not** add abbreviations unless they are canonical
-- Always match the **Category** that will be used with the Detail
+## Core Rules
 
+When `Strategic Contact Status = Strategic Contact`:
+
+1. **Coverage Category must not be empty.**
+2. **Coverage Detail must not be empty.**
+3. **Category and Detail must be consistent** — e.g., if "Funder" is selected in Category, at least one "Funder — …" value must appear in Detail.
+
+Contacts that violate these rules are **invalid** and must be fixed.
 
 ## Reference: The Three Contact Properties
 
-All strategic contact tracking is handled using **three contact properties**.
-
 ### 1. Strategic Contact Status
-**Type:** Dropdown select (single)
-
-**Values:**
-- Strategic Contact
-- Not Strategic
-
-**Purpose:**  
-Determines whether the contact should *ever* appear in strategic lists.
-
-**Rule:**
-- If this is set to **Not Strategic**, the other two properties do not matter.
-- If set to **Strategic Contact**, the other two properties **must** be populated.
-
+- **Type:** Dropdown (single select)
+- **Values:** `Strategic Contact` · `Not Strategic`
+- **Rule:** If set to "Not Strategic," the other two properties are ignored. If set to "Strategic Contact," the other two **must** be populated.
 
 ### 2. Strategic Coverage Category
-**Type:** Multiple checkboxes
-
-**Values:**
-- Member – Premier
-- Member – General
-- Collaborator
-- Funder
-
-**Purpose:**  
-This property exists to make **filtering and segmentation easy**.
-
-**Rule:**
-- Select **all categories** for which this person is a strategic contact.
-- This property must always align with the Detail property below.
-
+- **Type:** Multiple checkboxes
+- **Values:** `Member — Premier` · `Member — General` · `Collaborator` · `Funder`
+- **Rule:** Select all categories that apply. Must align with Detail.
 
 ### 3. Strategic Coverage Detail
-**Type:** Multiple checkboxes
-
-**Purpose:**  
-Specifies **exactly which communities, grants, or funders** this person is a strategic contact for.
-
-**Examples:**
-- Member – Premier – VEDA
-- Member – General – NASA Openscapes
-- Collaborator – NSF Project Pythia
-- Funder – Sloan
-
-**Rule:**
-- Only select entries where the person is a *strategic-level* contact.
-- Do not include technical-only or delivery-only relationships.
-
-
-## Core Rules (Non-Negotiable)
-
-When **Strategic Contact Status = Strategic Contact**:
-
-1. **Strategic Coverage Category must not be empty**
-2. **Strategic Coverage Detail must not be empty**
-3. Category and Detail must be consistent  
-   - Example: If “Funder” is selected in Category, at least one “Funder – …” value must appear in Detail
-
-Contacts that violate these rules are considered **invalid** and must be fixed.
-
-
-# HubSpot Segments (Saved Lists)
-
-HubSpot includes pre-built segments that allow downloading of the following lists:
-
-- **All Strategic Contacts**
-- **Strategic Contacts of All Members**
-- **Strategic Contacts at Premier Members**
-- **Strategic Contacts of Major Collaborators**
-- **Strategic Contacts of All Funders**
-
-These segments are the **authoritative source** for strategic outreach and reporting.
-
+- **Type:** Multiple checkboxes
+- **Values:** Specific entries like `Member — Premier — VEDA`, `Funder — Sloan`, `Collaborator — NSF Project Pythia`, etc.
+- **Rule:** Only select entries where the person is a strategic-level contact. Do not include technical-only or delivery-only relationships.
