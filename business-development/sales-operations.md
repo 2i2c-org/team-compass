@@ -77,6 +77,8 @@ Our learning-driven approach requires visibility into pipeline health and conver
 - **Days in Pipeline**: Average time from Enrichment to Closed Won (velocity indicator)
 - **Days in Discovery**: Average time in Discovery stage (identifies stalled deals)
 
+Deals in HubSpot are labeled with `Deal Type` ("existing business", "new business"). Renewals are "existing business". Net new business opportunities are "new business". The `Deal Type` is used to filter deals to enable tracking of new business and renewal business opportunities in our pipeline.   
+
 These metrics guide weekly sales reviews where we identify experiments to run, diagnose bottlenecks, and decide when to pivot strategy.
 
 ## Team Roles (Current Bootstrap Phase)
