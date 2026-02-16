@@ -12,6 +12,7 @@ pricing-strategy.md
 kpis.md
 roles/index.md
 sales-operations.md
+hubspot.md
 engagement.md
 coordination-ceremonies.md
 crm/hub-service.md
