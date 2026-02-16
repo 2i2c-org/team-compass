@@ -4,6 +4,21 @@
 
 After an incident is resolved, there are a few important steps to take to ensure that we learn from the incident and make sure it doesn't happen again.
 
+These steps are encoded in three GitHub issues that are automatically opened in https://github.com/2i2c-org/infrastructure, whenever a PagerDuty incident is assigned a P1 priority.
+
+1. One representing the ongoing outage
+   - this issue must be sized, added to the current iteration and closed after the incident is over
+   - the responsibility goes to the people assigned to the issues, but especially the incident responder
+   - e.g. https://github.com/2i2c-org/infrastructure/issues/7638
+
+2. One representing the incident report and action items drafting
+   - the responsibility goes to the people assigned to the issues, but especially the incident responder
+   - e.g. https://github.com/2i2c-org/infrastructure/issues/7639
+
+3. One representing the review of the incident resolution, report and action items and making the report public
+   - the responsability goes to the Team Lead and Engineer Manager
+   - e.g. https://github.com/2i2c-org/infrastructure/issues/7640
+
 ## 1. Create an Incident Report in PagerDuty
 
 We use [PagerDuty's postmortem feature](https://support.pagerduty.com/docs/postmortems) to create the Incident Report. This lets us use notes, status updates from PagerDuty as well as messages from Slack easily in the incident report!
@@ -19,7 +34,7 @@ Use the {guilabel}`Incident Action Item` template to create an issue in the [inf
 
 ### Responsibility
 
-It's the {role}`Technical Lead`'s responsibility to shape an absolute minimum sized task to mitigate the issue that caused this incident, and the responsibility of the {role}`Technical Lead` & {role}`Engineering Manager` to advocate for bringing it in during the next sprint.
+It's the {role}`Technical Lead`'s responsibility to make sure that an absolute minimum sized task to mitigate the issue that caused this incident, exists and the responsibility of the {role}`Technical Lead` & {role}`Engineering Manager` to advocate for bringing it in during the next sprint.
 
 (incidents:create-report)=
 
@@ -30,32 +45,19 @@ Once the incident is resolved, we must create an {term}`Incident Report`. Our in
 We practice a [blameless culture](https://www.blameless.com/sre/what-are-blameless-postmortems-do-they-work-how) around incident reports.
 Incidents are **always** caused by systemic issues, and hence solutions must be systemic too. Go out of your way to make sure there is no finger-pointing.
 
+### Report lifecycle
+
+The incident report goes through a few stages before it gets public:
+
+1. The incident report has a `Draft` status in PagerDuty, after it was redacted by the first person
+2. The incident report has a `Reviewed` status in PagerDuty, after the second person has reviewed it
+3. The incident report has a `Closed` status in PagerDuty, after the `Tech Lead` has reviewed it, its resolution and its action items
+
 ### Responsibility
 
-The {term}`Communication Liaison` is responsible for **starting the incident report process**, and **making sure the Incident Report is completed**.
-They are not required to fill out all of the information in the report, though they may do so if they wish.
+The Incident Responder and the incident team are responsible for **drafting the incident report process**, and **doing an initial review of the report and action items**
 
-### Team Incident Report Writing Process
-
-If the incident participants haven't finished writing a report within a few days after the incident has been resolved, the Infrastructure Engineering team will take action. It's the team's responsibility to ensure all incident reports are published.
-
-**Each month, the Infrastructure Engineering team is scheduled to review past incidents and write up any missing Incident Report.**
-
-There is a calendar entry for each timezone, every last Tuesday of the month, that lasts an hour. During this time, the team asynchronously:
-
-1. Checks if there are any entries in the list of TODOs in the HackMD document linked to the meeting invite
-   - if the list is empty, then
-     - gets the list of [P1 incidents](https://2i2c-org.pagerduty.com/incidents?status=acknowledged%2Ctriggered%2Cresolved)
-     - compares that list with the list of [Postmortems](https://2i2c-org.pagerduty.com/postmortems)
-     - checks which incidents do not have postmortems, and adds them to the appropriate list in the HackMD document
-     - same for any incidents that have drafts but are not yet published in the [2i2c-org/incident-reports](https://github.com/2i2c-org/incident-reports)
-   - if the list is not empty, then go to Step 2
-2. Reviews any drafts in the `Drafts to Review` section of the HackMD document, and publishes them to the 2i2c-org/incident-reports repository
-3. Picks an incident from the `Write a Report For` section of the HackMD document, and writes up a Incident Report for it following the steps in the next section. Once a draft is complete, move it to the `Drafts to Review` section for another engineer to review.
-
-```{important}
-Usually, a report is published only after a second team member reviews it.
-```
+Ultimately, {role}`Technical Lead` & {role}`Engineering Manager` are responsible for **making sure the Incident Resolution, Report and action items are completed, correct and public**.
 
 ### Steps
 
