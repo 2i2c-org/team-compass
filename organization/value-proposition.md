@@ -16,7 +16,7 @@ We create a high-bandwidth connection between people **developing** open technol
 7. advise on strategy (helping communities think bigger)
 8. transfer knowledge (about the infra and how to use it and the ecosystem and how to engage within it)
 
-These "value flavors" are building blocks for 2i2c's service design and differentiation from other infrastructure providers. 
+These `value activities` are building blocks for 2i2c's service design and differentiation from other infrastructure providers. 
 
 
 ## For hub users (researchers, students, practitioners)
