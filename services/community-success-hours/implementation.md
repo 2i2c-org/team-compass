@@ -1,6 +1,6 @@
-## Internal Details Implementation of CSH (Asana)
+# Internal Details Implementation of CSH (Asana)
 
-We track all all of our engagements in Asana.
+We track all engagements in Asana.
 
 When creating a New Membership Engagement, the template comes prepopluated with a `Community Success Hours` task.
 
