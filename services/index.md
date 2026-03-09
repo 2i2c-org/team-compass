@@ -35,12 +35,12 @@ Leadership orientation
 :::
 
 :::{grid-item-card}
-:link: community-enablement/index
+:link: community-success-hours/index
 :link-type: doc
 
-🌱🤝 **Community Enablement**
+🌱🤝 **Community Success Hours**
 
-2i2c Team Members are available to work directly with communities through our [Community Enablement Service](https://compass.2i2c.org/projects/community-enablement/) to co-create value.
+2i2c Team Members are available to work directly with communities through our [Community Success Hours Service](https://compass.2i2c.org/projects/community-success-hours/) to co-create value.
 :::
 
 :::{grid-item-card}
