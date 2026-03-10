@@ -7,6 +7,8 @@
 - Providing expert guidance on JupyterHub, image management, and open science workflows.
 - Supporting grant co-writing and open science governance structures.
 
+Community Success Hours can be proactively recommended to a community by any team member. Most commonly a community asks for help via a FreshDesk ticket or a question in a meeting. 
+
 ## Expectations for 2i2c Engineers and those delivering CSH
 
 - Mark GitHub issues on the P&S Project Board with the label `CSH` to indicate this is Community Success Hours activity.  
