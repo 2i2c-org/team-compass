@@ -11,7 +11,6 @@ Community Success Hours can be proactively recommended to a community by any tea
 
 ## Expectations for 2i2c Engineers and those delivering CSH
 
-- Mark GitHub issues on the P&S Project Board with the label `CSH` to indicate this is Community Success Hours activity.  
 - A GitHub automation will automatically create a corrsponding task in Asana to track this activity with a link provided in a GitHub issue comment to the newly created issue.
 - Use that link to associate, in Asana, this new CSH activity with the corresponding Community.
 - When the task is complete, use the GitHub project field `Hours Spent` to record the estimated time spent on the activity.
