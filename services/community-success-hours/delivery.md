@@ -15,7 +15,7 @@
 - Verify that the Actual Time spent on Community Success Hours has not significantly exceeded the Estimated time.
 - When the task is complete, use Asana's Actual Time tool to record the approximate time spent on the activity.
 
-## Expections for 2i2c Delivery and P&S teams
+## Expectations for 2i2c Delivery and P&S teams
 
 - Ensure New Engagements are created in Asana
 - Validate that CSH tasks are associated with the correct community and `Community Success Hours` task.
