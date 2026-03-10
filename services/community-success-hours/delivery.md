@@ -18,7 +18,7 @@ Community Success Hours can be proactively recommended to a community by any tea
 
 - A GitHub automation will automatically create a corrsponding task in Asana to track this activity with a link provided in a GitHub issue comment to the newly created issue.
 - Use that link to associate, in Asana, this new CSH activity with the corresponding Community.
-- Complete the task as describe (that will often require you to schedule a call with the community).
+- Complete the task as described (that will often require you to schedule a call with the community).
 - When the task is complete, use the GitHub project field `Hours Spent` to record the estimated time spent on the activity.
 
 ## Expectations for managing the work (Engagement Management and Community Relations)
