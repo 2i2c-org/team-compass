@@ -9,6 +9,11 @@
 
 Community Success Hours can be proactively recommended to a community by any team member. Most commonly a community asks for help via a FreshDesk ticket or a question in a meeting. 
 
+## Expectations when creating new CSH issues
+- Check that the `Hours Spent` Time spent on Community Success Hours has not already significantly exceeded the `Hours Total` in Asana.
+Create a new issue in GitHub 
+- Mark GitHub issues on the P&S Project Board with the label `CSH` to indicate this is Community Success Hours activity.  
+
 ## Expectations for 2i2c Engineers and those delivering CSH
 
 - A GitHub automation will automatically create a corrsponding task in Asana to track this activity with a link provided in a GitHub issue comment to the newly created issue.
@@ -16,7 +21,7 @@ Community Success Hours can be proactively recommended to a community by any tea
 - Complete the task as describe (that will often require you to schedule a call with the community).
 - When the task is complete, use the GitHub project field `Hours Spent` to record the estimated time spent on the activity.
 
-## Expectations for 2i2c Delivery and P&S teams
+## Expectations for managing the work (Engagement Management and Community Relations)
 
 - Ensure New Engagements are created in Asana
 - Validate that CSH tasks are associated with the correct community and correct `Community Success Hours` task.
