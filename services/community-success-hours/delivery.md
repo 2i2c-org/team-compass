@@ -1,7 +1,7 @@
 # Delivery of Community Success Hours
 
 2i2c team members deliver Community Success Hours
-- Completing technical support tasks that tracked on GitHub.
+- Responding to complex support questions, which we track on GitHub.
 - Attending and supporting community planning meetings.
 - Offering ongoing Slack-based consultation.
 - Providing expert guidance on JupyterHub, image management, and open science workflows.
