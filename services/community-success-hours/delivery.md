@@ -11,7 +11,7 @@ Community Success Hours can be proactively recommended to a community by any tea
 
 ## Expectations when creating new CSH issues
 - Check that the `Hours Spent` Time spent on Community Success Hours has not already significantly exceeded the `Hours Total` in Asana.
-Create a new issue in GitHub 
+- Create a new issue in GitHub 
 - Mark GitHub issues on the P&S Project Board with the label `CSH` to indicate this is Community Success Hours activity.  
 
 ## Expectations for 2i2c Engineers and those delivering CSH
