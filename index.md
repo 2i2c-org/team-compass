@@ -68,7 +68,7 @@ services/index
 services/dedicated-delivery-management/index
 services/interactive-computing/index
 services/technical-support/index
-services/community-enablement/index
+services/community-success-hours/index
 services/open-source-development/index
 services/delivery/index
 List of running hubs <https://infrastructure.2i2c.org/reference/hubs/>
