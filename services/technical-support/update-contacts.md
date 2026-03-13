@@ -4,35 +4,21 @@
 
 Scenario: A community has an engagement with 2i2c for **Technical Support**. Community Representative information is missing in FreshDesk.
 
-During the sales or renewal process, BD is asked to fill out the field "Community Representatives" *Community* tab on a Deal in HubSpot. For some historical deals and renewals, this process may not have occurred.
+During the sales or renewal process, BD is asked to associate *Contacts* with each *Community* in HubSpot.
 
-This procedure is also used when a community is renewing a previous engagement.
+HubSpot is the source of truth for this Community-Contact information. There is a GitHub action (see https://github.com/2i2c-org/hubspot-communities) that run four times a day to sync information from HubSpot to FreshDesk.
 
-To fill in this missing information:
+If information about Community Representatives (CRs) or Technical Contacts (TCs) is missing or outdated in FreshDesk, we need to update this information HubSpot.
 
-1. Make an educated guess based on information in HubSpot, previous FreshDesk tickets, and historical community interactions who is likely a Community Representatives (CR), Authorized PR Submitter (PR), and/or Technical Contact (TC)
-2. Fill these names in on FreshDesk
-3. Send an email to the CRs (use the canned response "Confirmation of Community Representatives for 2i2c hub") to confirm that these are the correct individuals and request changes as required.
-4. Update the Community Representatives field in FreshDesk
-5. Update the Community Representative field for this Deal in HubSpot
+1. Create a new Contact in HubSpot. Key fields: Name, email, GitHubID (if known)
+2. Look up the corresponding Community in [HubSpot->Communities](https://app-na2.hubspot.com/contacts/242496330/objects/0-410)
+3. Associate the Contact with the Community
+4. Add/remove assocation labels (Community Representative, Technical Contact) to indicate the role(s) for this contact in this community.
+
+You can manual sync this information by triggering the [HubSpot → Freshdesk Sync](https://github.com/2i2c-org/hubspot-communities/actions/workflows/sync_community_contacts.yml) workflow action in GitHub.
 
 :::{admonition} Freshdesk Communities and Contacts
 FreshDesk has the concept of a 'Company' that can be associated independently with both tickets and contacts. We interpret the 'Company' in Freshdesk to mean the 2i2c Community that is being served.
 
 When a ticket comes into FreshDesk is automatically associated with the Community based on the 'Company' of the Community Representative submitting the ticket.
-
-When a new Community is being onboarding, create a new "company" in FreshDesk:
-```{image} /images/support/freshdesk_newcompany.png
-:width: 200
-```
-
-To update the list of Community Representatives, edit the Company:
-```{image} /images/support/freshdesk_company.png
-:width: 500
-```
-
-For each Community Representative, create a new Contact entry. Contacts may be affliated with multiple Communities if required:
-```{image} /images/support/freshdesk_associatecommunity.png
-:width: 500
-```
 :::
