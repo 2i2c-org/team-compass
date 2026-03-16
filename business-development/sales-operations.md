@@ -65,6 +65,12 @@ Our Customer Relationship Manager (CRM) pipeline (managed in HubSpot) consists o
 - **Exit criteria**: Learnings documented, Sales Playbook updated if needed
 - **Learning focus**: Was ICP definition wrong, or was execution poor?
 
+### **8. Closed Won Complete**
+- **Purpose**: Memorialize deals that have been completed
+- **Activities**: Contextual information about completed engagements
+- **Exit criteria**: A final state on a completed engagement, no exit
+- **Learning focus**: Source of information for renewals, reports and back-casting 2i2c's business
+
 ## Key Metrics (Tracked Weekly)
 
 Our learning-driven approach requires visibility into pipeline health and conversion effectiveness.
