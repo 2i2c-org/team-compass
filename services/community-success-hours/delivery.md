@@ -11,15 +11,18 @@ Community Success Hours can be proactively recommended to a community by any tea
 
 ## Expectations when creating new CSH issues
 - Check that the `Hours Spent` Time spent on Community Success Hours has not already significantly exceeded the `Hours Total` in Asana.
-- Create a new issue in GitHub 
-- Mark GitHub issues on the P&S Project Board with the label `CSH` to indicate this is Community Success Hours activity.  
+- Create a new issue in GitHub.
+- Include the community's name and specific contact people for the request; if the request came from FreshDesk, add the FreshDesk link.
+- Mark GitHub issues on the P&S Project Board with the label `CSH` to indicate this is Community Success Hours activity.
 
 ## Expectations for 2i2c Engineers and those delivering CSH
 
-- A GitHub automation will automatically create a corrsponding task in Asana to track this activity with a link provided in a GitHub issue comment to the newly created issue.
-- Use that link to associate, in Asana, this new CSH activity with the corresponding Community.
-- Complete the task as described (that will often require you to schedule a call with the community).
+- Read any context about the community's problem and questions in the GitHub card. 
+- Reach out to the community contact to offer your time; that typically requires scheduling a call with the community - sending them your Cal.com link is helpful.
+- When you meet or exchange emails, listen to the community contact's problem and offer advice. That can include existing solutions or conversations about future solutions on our [public roadmap](https://2i2c.org/roadmap/).
+- After you meet, add notes about any outcome or follow up action to the GitHub card.
 - When the task is complete, use the GitHub project field `Hours Spent` to record the estimated time spent on the activity.
+- A GitHub automation will automatically create a corrsponding task in Asana to track this activity with a link provided in a GitHub issue comment to the newly created issue; we use that link to associate, in Asana, this new CSH activity with the corresponding Community.
 
 ## Expectations for managing the work (Engagement Management and Community Relations)
 
