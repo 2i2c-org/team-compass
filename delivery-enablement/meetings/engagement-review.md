@@ -4,7 +4,7 @@
 
 ## WHY
 
-Provides an opportunity for BD and P&S to review active engagements, coordinate delivery target, and reduce delivery risks.
+Provides an opportunity for BD and P&S to review newly closed and active engagements, coordinate delivery targets, and reduce delivery risks.
 
 ## HOW
 
