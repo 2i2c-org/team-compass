@@ -9,7 +9,7 @@ standard [Technical Support Service](support:index).
 This documentation outlines the service's scope and implementation procedures.
 
 ```{toctree}
-Overview <overview>
-implementation
+overview
 delivery
+implementation
 ```
