@@ -1,8 +1,12 @@
 (accounts:airtable)=
 # AirTable accounts
 
-We use AirTable to track some of our leads, contracts, and invoicing data.
-This page covers this account and how to access it.
+```{admonition} Deprecated
+:class: warning
+We no longer use AirTable for most things, so generally speaking you probably don't need to have access to it.
+```
+
+This page covers our legacy AirTable account and how to access it.
 
 ## Read-only access to the AirTable
 

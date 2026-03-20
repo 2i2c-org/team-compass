@@ -7,11 +7,9 @@ This includes our optimal burn rate and how we'll prioritize different kinds of 
 
 Monthly recurring revenue
 : Revenue brought in through **recurring** service contracts.
-  This is the only non-confirmed revenue that we _project into the future_ in our financial modeling.
-  
-  We **do not include grants in this number**, though in the future may find a way to incorporate grants that are specifically to cover hub service costs for communities. 
-  
-  Do **do not include development contracts** in this number, though may do so in the future once we create a development model.
+  This is the primary non-confirmed revenue that we _project into the future_ in our financial modeling.
+
+  Our [budget projections model](accounting:projections) uses **HubSpot deal data** to project future revenue, which may include grant-funded service contracts alongside regular service contracts.
 
 Cash on hand
 : The amount of disposable funds that we have in our CS&S accounts.
@@ -20,7 +18,7 @@ Cash on hand
 
 Monthly burn rate
 : `monthly recurring revenue - monthly costs`. This is the amount by which our cash-on-hand changes each month.
-  We do not include most grants in [our budget revenue projections](accounting:projections), as these are treated as one-off opportunities to grow our runway.
+  See [our budget projections](accounting:projections) for how we project future revenue using HubSpot deal data.
 
 Runway
 : `cash on hand / monthly burn rate`. This is the number of months at our current burn rate before we run out of funds.
