@@ -1,20 +1,20 @@
-# Making Changes to Multiple Hubs
+# Making Changes to Multiple Hubs (network-wide updates)
 
-As we continue to maintain, refine and improve our infrastructure, there are cases when we need to make updates that impact multiple hubs and communities. 
+As we continue to maintain, refine and improve our infrastructure, there will be cases when we'll need to make updates that impact multiple hubs and communities. 
 
 :::{note}
 Examples:
 - Infrastructure refactorings (https://github.com/2i2c-org/infrastructure/issues/6756)
-- Recurrent helm chart upgrades (https://github.com/2i2c-org/infrastructure/issues/6692)
-- Configuration change involving multiple hubs (https://github.com/2i2c-org/infrastructure/issues/6692)
-- Rolling out of a new feature (https://github.com/2i2c-org/infrastructure/issues/5477)
+- Recurrent upgrades (https://github.com/2i2c-org/infrastructure/issues/6692)
+- Network-wide configuration changes (https://github.com/2i2c-org/infrastructure/issues/6692)
+- New feature rollouts (https://github.com/2i2c-org/infrastructure/issues/5477)
 
 The technical details will be different but the overall structure is repeatable.
 :::
 
 ## Define the rationale, scope and rollout procedure of the change
 
-Create a new issue that uses the `Rollout` template defined in the infrastructure repository and add it on the [P&S Project Board](https://github.com/orgs/2i2c-org/projects/57/) `Refined` or `Up Next` column, depending on its readiness to be worked on.
+Create a new issue that uses the `Rollout` template defined in the infrastructure repository and add it to the [P&S Project Board](https://github.com/orgs/2i2c-org/projects/57/) `Refined` or `Up Next` column, depending on its readiness to be worked on.
 
 ## Schedule the migration
 
