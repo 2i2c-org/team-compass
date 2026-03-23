@@ -13,7 +13,7 @@ onboard
 offboard
 community-value
 communicating-changes
-network-wide-updates
+multiple-hub-upgrades
 addhub
 clusters
 budget-alerts
