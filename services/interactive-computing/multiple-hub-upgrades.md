@@ -38,9 +38,9 @@ Important guidelines to keep in mind when choosing which cluster should be in wh
 
 2. This allows us to deploy the change in a **maximum of two iterations**.
 
-3. Choosing which cluster should be in which batch is a non-trivial task, and it depends on the specific change being made as well as the usage patters of that cluster. Some general rules:
+3. Choosing which cluster should be in which batch is a non-trivial task, and it depends on the specific change being made as well as the usage patterns of that cluster. Some general rules:
 
-  - For the first batch **choose clusters that have steady usage patters, but are not having any major events coming up** (e.g. workshops, events, etc.)
+  - For the first batch **choose clusters that have steady usage patterns, but are not having any major events coming up** (e.g. workshops, events, etc.)
   - Also, try to **choose clusters with a diverse set of configurations**, so that we can test the change in a variety of environments. This way, we can identify any potential issues and address them before they impact a larger number of users. 
 
 4. Use the timezones wisely and deploy the change during a time where the cluster is not being used by a large number of users.
