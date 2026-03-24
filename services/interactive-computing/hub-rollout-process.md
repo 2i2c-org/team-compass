@@ -1,9 +1,5 @@
 # Hub Rollout Process
 
-Our interactive computing hubs are an opportunity for the Product & Services (PS) team to work directly with communities. Our expertise at 2i2c is solving *XY problems* — matching infrastructure and open source tooling to the needs of education and research communities. To do this well, we need a repeatable process for how PS engineers and BD interact with communities when deploying a hub.
-
-## Process Overview
-
 The hub rollout process is a collaboration between **Business Development (BD)** and **Product & Services (PS)**. BD bookends the process — identifying communities and tracking long-term value — while PS leads the technical engagement from sales engineering through validation.
 
 ```{mermaid}
@@ -42,11 +38,3 @@ flowchart
     style G fill:#50c878,color:#fff,stroke:#308050
     style BD3 fill:#3a7bc8,color:#fff,stroke:#2c5f8a
 ```
-
-## Step Guides
-
-Detailed documentation for each PS-led step:
-
-- **[Sales Engineer Guide](sales-engineer-guide.md)** — Step 2. What a PS engineer does in the sales call: listening to community needs, gathering technical context, and solving XY problems.
-- **[Needs Assessment Guide](needs-assessment-guide.md)** — Steps 4–5. Confirming requirements with the community and writing the GitHub issue with a technical plan and subtasks.
-- **[Validation Guide](validation-guide.md)** — Step 7. Verifying that community representatives and at least 5 users can log in and use the hub, and deciding whether the rollout is complete.

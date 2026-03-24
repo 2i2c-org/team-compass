@@ -71,6 +71,7 @@ services/technical-support/index
 services/community-success-hours/index
 services/open-source-development/index
 services/delivery/index
+services/incidents/index
 List of running hubs <https://infrastructure.2i2c.org/reference/hubs/>
 ```
 
