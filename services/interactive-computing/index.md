@@ -9,6 +9,10 @@ The Managed Interactive Computing Service (MICS) is a service to **sustain and s
 :::
 
 ```{toctree}
+hub-rollout-process
+sales-engineer-guide
+needs-assessment-guide
+validation-guide
 onboard
 offboard
 community-value

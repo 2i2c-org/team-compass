@@ -2,3 +2,10 @@
 dl.glossary dt + dt {
   display: none;
 }
+
+/* Let mermaid diagrams use their natural height instead of being squeezed */
+pre.mermaid > svg,
+.mermaid-container > pre > svg {
+  height: auto !important;
+  max-height: none !important;
+}

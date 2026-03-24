@@ -156,6 +156,16 @@ def setup(app):
 path_script = Path(__file__).parent / "_data/support_stewards/gen_support_stewards.py"
 run(f"python {path_script}", shell=True)
 
+# -- Mermaid configuration --
+mermaid_init_config = {
+    "securityLevel": "loose",
+    "flowchart": {
+        "useMaxWidth": True,
+        "htmlLabels": True,
+    },
+}
+mermaid_height = "100%"
+
 # -- myst_nb configuration --
 
 nb_execution_timeout = -1  # no timeout
