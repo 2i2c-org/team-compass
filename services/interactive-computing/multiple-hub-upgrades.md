@@ -1,92 +1,71 @@
-# Making Changes to Multiple Hubs
+# Making Changes to Multiple Hubs (network-wide updates)
 
-As we continue to refine and improve our infrastructure, we encounter situations where we need to modify the infrastructure that impacts multiple hubs and communities.
+As we continue to maintain, refine and improve our infrastructure, there will be cases when we'll need to make updates that impact multiple hubs and communities. 
 
 :::{note}
-As **motivation** for this process is used, consider [[Infrastructure Refactor] EKS clusters refactor Q4 2025 ](https://github.com/2i2c-org/infrastructure/issues/6756) as an example.
-
-Other examples:
-
-- Helm chart upgrades (https://github.com/2i2c-org/infrastructure/issues/6692)
-- Configuration change involving multiple hubs (https://github.com/2i2c-org/infrastructure/issues/6692)
-- Rolling out of a new feature (https://github.com/2i2c-org/infrastructure/issues/5477)
+Examples:
+- Infrastructure refactorings (https://github.com/2i2c-org/infrastructure/issues/6756)
+- Recurrent upgrades (https://github.com/2i2c-org/infrastructure/issues/6692)
+- Network-wide configuration changes (https://github.com/2i2c-org/infrastructure/issues/6692)
+- New feature rollouts (https://github.com/2i2c-org/infrastructure/issues/5477)
 
 The technical details will be different but the overall structure is repeatable.
 :::
 
-## Define the rationale and scope of the change
+## Define the rationale, scope and rollout procedure of the change
 
-A typical pattern is the an upgrade, new feature, or fix has been completed for one hub and now needs to be rolled to many other hubs and communities.
-
-Create a new `[Platform Initiative]` issue on the [P&S Project Board](https://github.com/orgs/2i2c-org/projects/57/) that uses the following template:
-
-```markdown
-We want to <describe the migration>. This will save us future time, make all our infrastructure easier to support, and get us <rationale for completing this migration>.
-
-This change was previously implemented for <link to the issue where the change was made for one community>
-
-## Changes
-
-- <list of the changes that are expected after the migration is complete>
-
-## Untested
-
-- <list posible areas of concern for thing we do not yet know but need to be aware of>
-
-## Timeline
-
-We want everything migrated by <timeline for the change>.
-
-## Clusters to Migrate
-
-All clusters must be migrated. <Replace with subset based on cloud provider if appropriate>
-
-- [ ] cluster1 <add link to issue once that cluster is migrated>
-- [ ] cluster2 <add link to issue once that cluster is migrated>
-- [ ] cluster3 <add link to issue once that cluster is migrated>
-
-## Migration procedure
-
-<Document the process anticipated for doing the upgrade or migration. Use sufficient detail so that multiple team members could pick up and assist with the work>
-
-<See https://github.com/2i2c-org/infrastructure/issues/6756 for an example>
-
-## Validation
-
-1. <steps to confirm that the change or migration worked as expected>
-2. <checks on any possible side effects that may need to be mitigated>
-```
+Create a new issue that uses the `Rollout` template defined in the infrastructure repository and add it to the [P&S Project Board](https://github.com/orgs/2i2c-org/projects/57/) `Refined` or `Up Next` column, depending on its readiness to be worked on.
 
 ## Schedule the migration
 
-1. For each cluster (or group of clusters) create a sub-issue to break the migration into iteration long substeps.
+Unless the change is:
+  - a security fix that needs to be rolled out as soon as possible
+  - a bugfix
+  - something small and straightforward
+  - a feature that has been extensively tested in at least one other production hub
+
+1. Break down the list of clusters that need to be updated into batches of clusters, each batch having its own sub-issue. 
 1. Schedule the migration as part P&S iteration planning process.
 
 ```{tip}
 Once a migration is started, it is recommended that we try and complete the migration relatively quickly (in one to three iterations depending on the complexity).
 ```
 
-## Communicate with our communites
+### How to choose which cluster should go in what batch
+Important guidelines to keep in mind when choosing which cluster should be in which batch:
 
-These migrations and updates often involve back end infrastruce that may not be visible to the community. Nonetheless, it is important to provide visibility to our Community Representatives and other Technical Contacts that their infrastructure is being changed.
+1. Ideally we would split the list of clusters we want to update into **two to four batches maximum**, depending of the number of the clusters that need to be updated and the complexity of the change.
 
-Reasons to communicate:
+2. This allows us to deploy the change in a **maximum of two iterations**.
 
-- Transparency. If we were to encounter an issue or there was degredation of performance, it is better that the Community is aware than being caught by surprise.
-- Cooperation. Some communities may have specific dates where the migration is better scheduled or critical times where no migration is possible. By proactively communicating with our communities we are demonstrating we are working with them to improve the interactive computing infrastructure that they depend upon.
-- Value. We need to continue demonstrate the value we are providing to our communities. Especially for infrastructure changes that will not be visible to their end users, regular communication with community stakeholders show how and where 2i2c is provide critical value.
+3. Choosing which cluster should be in which batch is a non-trivial task, and it depends on the specific change being made as well as the usage patterns of that cluster. Some general rules:
 
-See [](communicating-changes) for specific steps.
+  - For the first batch **choose clusters that have steady usage patterns, but are not having any major events coming up** (e.g. workshops, events, etc.)
+  - Also, try to **choose clusters with a diverse set of configurations**, so that we can test the change in a variety of environments. This way, we can identify any potential issues and address them before they impact a larger number of users. 
+
+4. Use the timezones wisely and deploy the change during a time where the cluster is not being used by a large number of users.
 
 ## Complete the migration
 
-1. Pull in the sub-issues into P&S interations.
+1. Pull in the sub-issues into P&S iterations, keeping in mind that ideally they should be completed in a maximum of two iterations.
 1. Update the main issue as the work is completed cluster-by-cluster.
 1. Make any modifications to the technical procedures in the main issue as required.
 
 ```{note}
 The main issue is completed when all of its sub-issues are completed.
 ```
+
+## Communicate with our communities
+
+These migrations and updates often involve back end infrastructure that may not be visible to the community. Nonetheless, it is important to provide visibility to our Community Representatives and other Technical Contacts that their infrastructure is being changed.
+
+Reasons to communicate:
+
+- Transparency. If we were to encounter an issue or there was degradation of performance, it is better that the Community is aware than being caught by surprise.
+- Cooperation. Some communities may have specific dates where the migration is better scheduled or critical times where no migration is possible. By proactively communicating with our communities we are demonstrating we are working with them to improve the interactive computing infrastructure that they depend upon.
+- Value. We need to continue demonstrate the value we are providing to our communities. Especially for infrastructure changes that will not be visible to their end users, regular communication with community stakeholders show how and where 2i2c is provide critical value.
+
+See [](communicating-changes) for specific steps.
 
 ## Celebrate and share our success
 
