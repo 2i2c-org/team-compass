@@ -2,7 +2,7 @@
 
 1. There is a GitHub automation in https://github.com/2i2c-org/monthly-cloud-usage-costs set to run 2nd day of every month at 06:00 UTC
 2. Unique users for each clusters for the proceeding 30days (which will always included the last day of each month) is being automatically collected from prometheus by https://github.com/2i2c-org/kpis
-3. The KPIs work flows collects MAU data (by hub and and by unique users over each cluster) in .csv files
+3. The KPIs workflows collects MAU data (by hub and and by unique users over each cluster) in .csv files
 4. The monthly-cloud-usage-costs loads the data/maus-unique-by-cluster.csv data source and updates the MAU_data tab in the [Cloud Billing Sheet](https://docs.google.com/spreadsheets/d/1AWVCg0D_-ATub_cVsIy5XZCwqnC6uIcgwDGYK9Q7yno/edit?gid=906722595#gid=906722595).
 5. The MAU tab has formulas which lookup the corresponding value in the MAU_data and compute the MAU pricing as a formula.
   - The pricing formula: If `N` is the number of unique active users in the preceeding 30 days, the calculated MAU price is
