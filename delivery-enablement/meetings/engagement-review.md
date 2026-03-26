@@ -23,4 +23,4 @@ Weekly on Thursdays (60-minutes)
 -   **Engineering Lead/People Operations Lead** [April Johnson]
 -   **Senior Product Manager, Open Science Enablement** [James Munroe]
 -   **Head of Product** [Giuliano Maciocci]
--   **Business Development Lead** [Jim Colliand]
+-   **Business Development Lead** [Jim Colliander]
