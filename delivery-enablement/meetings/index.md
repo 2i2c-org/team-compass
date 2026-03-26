@@ -4,4 +4,5 @@
 operations-planning.md
 operations-sync.md
 retrospective.md
+engagement-review.md
 ```
