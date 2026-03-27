@@ -21,5 +21,6 @@ update-contacts
 timeboxed-initial-ticket-evaluation
 communication
 time-off
+budget-alerts
 templates/index
 ```
