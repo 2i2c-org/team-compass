@@ -58,4 +58,4 @@ Before logging new activity with either method, check that `Hours Spent` has not
 
 - Review the list of sub-tasks completed under `Community Success Hours` will be information on the community-specific delivery work that 2i2c has completed.
 - Ensure that the `Hours Total` associated with the each `Community Success Hours` task is consistent with any service agreement or contract 2i2c has with a community.
-- Communicate with the community about what has been accomplished under Communit Success Hours and identify future opportunities.
+- Communicate with the community about what has been accomplished under Community Success Hours and identify future opportunities.
