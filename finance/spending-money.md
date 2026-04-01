@@ -6,13 +6,6 @@ This page describes when and how to spend money at 2i2c.
 
 Each functional area has a **$2,000 annual (each fiscal year) discretionary budget** that they can use as they wish.
 
-The following areas receive this budget:
-
-- Cross-functional / operations (Harold Campbell)
-- Partnerships (Jim Colliander)
-- Engineering (Damian Avila)
-- Product (Giuliano Maciocci)
-
 :::{admonition} Revisit if this is hard to keep track of
 For now we do not strictly track the budgetary spending of each area, and expect area leads to be responsible for managing their budgets accordingly.
 We may revisit this if this becomes confusing or stressful for the team.
