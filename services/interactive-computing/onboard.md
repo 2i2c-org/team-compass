@@ -8,17 +8,23 @@ Onboarding assumes there is already a Deal in HubSpot with with either the statu
 
 ## Information collected about a community
 
-BD fills in the following fields in the *Community* tab on a Deal in HubSpot:
+HubSpot as a *Community* can needs to be created as part of onboarding.  BD generally will have this information and should create or update *Community* before request a hub deployment from PS. Associate the Community with the Deal.
 
 Propery Label | Description
 -- | --
-Community Name | one word, will be used to create an machine-readable identifier for naming clusters, accounts, database keys, and other infrastructure internal to 2i2c
-Community Long Name | Community Long Name (Long version, full formal name, for display on in public facing webpages )
-Community Website | Community's Website URL
-Community GitHub Organization  | Community's GitHub organization URL
-Community Logo | Community's Logo URL
-Community Representatives  | List of individual able to authorizes changes on behalf of this community
+Name | one word, will be used to create an machine-readable identifier for naming clusters, accounts, database keys, and other infrastructure internal to 2i2c
+Long Name | Community Long Name (Long version, full formal name, for display on in public facing webpages )
+Website | Community's Website URL
+GitHub Organization  | Community's GitHub organization URL
+Logo | Community's Logo URL
 Community Context | Notes on community goals and technical contraints
+
+We also need to associate Contacts with Communities:
+
+Associations | Descriptions
+-- | --
+Community Representatives  | List of individual able to authorizes changes on behalf of this community
+Technical Contacts | List of individuals to be notified when community infrastructure changes
 
 These fields may be already known or discoverable during the sales process. This information is used downstream by the P&S team to accelerate the deployment of infrastructure on behalf of a commuity.
 
@@ -46,13 +52,14 @@ Under 'Community Context', here is information that is useful:
 
 3. BD requests this new hub use the 'Hub Spot Order' workflow. This kicks off an automation that generates a 'BD request type ticket' that PS can then pick up. This automation has been used a few times so far. It is not yest perfect but the way to improve that process is to use it continuously iterate.
 
-4. Follow [](technical-support:update-contacts) to ensure this community is set up in FreshDesk.
+4. Follow [](technical-support:update-contacts) to ensure this community is set up in HubSpot and FreshDesk.
 
 5. Once the new hub order is received, PS creates the new hub issue(s)
  - The means creating the New Hub GitHub issues (using the `New Hub Turnup - Setup` templates )
  - Use the information contained in
     - The Hub Configurator link with selections made.
-    - HubSpot Deal information (see Community tab from on each HubSpot Deal).
+    - HubSpot Deal information.
+    - HubSpot Community information
     - Any additional free form notes attached to the Order.
     - The Gemini transcript from the meeting with the community in step 2.
 - The ideal is that that there has already been sufficient information collected from the community to proceed without having to schedule a second technical meeting. If information is still missing blocking the creation of the New Hub Turnup issues, then:
@@ -63,7 +70,7 @@ Under 'Community Context', here is information that is useful:
  - *Bias towards action* and make a reasonable assumption if there is lack of explicit information. If something can be re-configured after deployment that is better to make a choice than blocking the deployment.
  - Once there is hub deployed it will be much easier to show a community what additional information is required and why.
 
-7. The community is notified (via an email sent through Freshdesk) that the new hub is available
+7. The community is notified to all technical contacts(via an email sent through Freshdesk) that the new hub is available
 
 8. BD is notified that the hub has been delivered
 
