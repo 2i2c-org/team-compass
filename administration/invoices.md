@@ -32,4 +32,6 @@ The {role}`Executive Director` is the final say on which grant code is paying a 
 
 As new grants come in, CS&S and our team work together to allocate team members' time across grants. You will receive instructions from CS&S when you first start sending invoices and at any point when grant allocations need to change.
 
+Please use both the grant code and grant name on your invoices. CS&S will typically give you both those pieces of information.
+
 
