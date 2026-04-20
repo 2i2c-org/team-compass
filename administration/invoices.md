@@ -31,7 +31,9 @@ Each team member is paid from one or more grants so this helps CS&S know which a
 The {role}`Executive Director` is the final say on which grant code is paying a given team member, but generally it is the same grant paying you over time.
 
 As new grants come in, CS&S and our team work together to allocate team members' time across grants. You will receive instructions from CS&S when you first start sending invoices and at any point when grant allocations need to change.
+## If an invoice is not paid when expected
 
+If you have any difficulty in getting paid, reach out to the 2i2c People Lead or Chief of Staff. 
 Please use both the grant code and grant name on your invoices. CS&S will typically give you both those pieces of information.
 
 
