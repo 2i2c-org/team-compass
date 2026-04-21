@@ -13,15 +13,16 @@ This includes any team members that are paid off of fixed-term contracts and sub
    See [](reimburse:grant-code).
 4. **Send it to [`bills@codeforsociety.org`](mailto:bills@codeforsociety.org) and [`admin@2i2c.org`](mailto:admin@2i2c.org)**.
    These are both organizational accounts to track the invoices and ensure visibility across the organization.
-5. **Do not hesitate to ask about the status of your invoice**.
-   The above steps should be all you need to do, but do not hesitate to reach out again if things seem to be going slow.
+5. **CS&S confirms your invoice was received**.
+   Once your invoice is received, you'll get an automated email from Ramp. Once in Ramp, invoices are typically reviewed and approved weekly, on Thursdays.   
+6. **Do not hesitate to ask about the status of your invoice**.
+   The above steps should be all you need to do, but do not hesitate to reach out again if things seem to be going slow. 
 
 (invoices:template)=
 ## Invoice template
 
 [Here is an invoice template](https://docs.google.com/document/d/17aTwJkmYFXwqHa2QjYsy81hEXq64yfmo5g1SCGE6aK4/edit?usp=sharing) that you can copy and modify.
-It is designed for a contractor, so some fields may not be correct.
-Make the modifications needed to include the information requested in the CS&S link above.
+It includes all the information requested in the CS&S link above. Your invoice can be in any format, but needs to be a single file for Ramp to read it. 
 
 (reimburse:grant-code)=
 ## What is my grant code?
@@ -31,9 +32,11 @@ Each team member is paid from one or more grants so this helps CS&S know which a
 The {role}`Executive Director` is the final say on which grant code is paying a given team member, but generally it is the same grant paying you over time.
 
 As new grants come in, CS&S and our team work together to allocate team members' time across grants. You will receive instructions from CS&S when you first start sending invoices and at any point when grant allocations need to change.
+
+Please use both the grant code and grant name on your invoices. CS&S will typically give you both those pieces of information.
+
 ## If an invoice is not paid when expected
 
 If you have any difficulty in getting paid, reach out to the 2i2c People Lead or Chief of Staff. 
-Please use both the grant code and grant name on your invoices. CS&S will typically give you both those pieces of information.
 
 
