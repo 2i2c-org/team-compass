@@ -44,8 +44,8 @@ Writing, and sending these messages out should take less than 15 minutes. We do 
 
 To create an email to communities via Freshdesk, we need a list of emails, companies (organizations) and names in a .csv file to import into FreshDesk.
 
-- For authorized technical contacts, export a list from FreshDesk, making sure Authorized Technical Contact is checked. FreshDesk has further instructions to [export contacts from FreshDesk](https://support.freshdesk.com/support/solutions/articles/196491-importing-and-exporting-customer-data)
-- Then open the resulting file as a spreadsheet and filter on Authorized Technical Contact = TRUE.
+- For authorized technical contacts, export the "Companies" list from FreshDesk, making sure the Technical Contacts field is checked. FreshDesk has further instructions to [export contacts from FreshDesk](https://support.freshdesk.com/support/solutions/articles/196491-importing-and-exporting-customer-data)
+- Then open the resulting file as a spreadsheet and apply any filters as desired.
 - Save that filtered file as a CSV.
 
 ### Create an email using our template
