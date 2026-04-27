@@ -5,7 +5,7 @@ While each strategic partner has unique needs, dedicated delivery management inc
 - Kickoff meeting for your community, combined with onboarding
 - Monthly or quarterly strategy session for your community
 - Co-funding kickoffs for one or many communities who support specific feature delivery
-- Quarterly showcase with other strategic partner communities
+- Periodic showcases and consortium-building with other strategic partner communities
 - Acknowledgement of the impact we enable together in our stakeholder and public communications
 
 ## Kickoff meeting
@@ -48,18 +48,20 @@ Note - this meeting may be folded into a strategy session if a single community 
 
 Who attends: 2i2c delivery partner, product lead, at least one engineer, Community champions and technical contacts from co-funding communities
 
-## Quarterly showcase (for all strategic member communities)
+## Showcases and consortia (for all strategic member communities)
 
-Goals of the meeting:
+Goals of the meetings:
 
+- Validate shared problems and co-design solutions
 - Learn from and share accomplishments with other strategic member communities
 - Stay current on new 2i2c platform and service features
 - Provide input - including co-funding - on the upcoming 2i2c roadmap
 
 Agenda:
 
+- Roadmap updates and discussion
 - Storytelling - 1-2 experience reports from strategic member communities
 - 2i2c showcase
-- Roadmap updates and discussion
+
 
 Who attends: 2i2c Product & Services team, strategic partner community champions & the people they select, 2i2c Business Development team
