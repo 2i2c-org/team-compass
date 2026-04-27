@@ -17,6 +17,9 @@ While each strategic partner has unique needs, dedicated delivery management inc
 - Quarterly showcase with other strategic partner communities
 - Acknowledgement of the impact we enable together in our stakeholder and public communications
 
+## Time Tracking
+
+See [](./time-tracking)
 
 ## Kickoff meeting
 Goals of the meeting: understand the community’s strategy and desired outcomes, establish first priorities, points of contact, and how we work together. This meeting can happen alongside community onboarding to 2i2c hub(s). 
