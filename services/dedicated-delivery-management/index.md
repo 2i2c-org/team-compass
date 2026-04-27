@@ -5,6 +5,9 @@ The social aspects of coordinating work between 2i2c and member communities are 
 :::
 
 
+```{toctree}
+time-tracking
+```
 
 Dedicated delivery management - or community-specific project management - is an additional service for complex community projects and strategic partnerships. Communities using the dedicated delivery management service are assigned a delivery partner who’s responsible for managing co-created OSS via collaborative process and/or work that comes from co-funding the 2i2c roadmap. The delivery partner acts as a project manager and social coordinator, connecting the community to the 2i2c product team and other member communities working on similar efforts
 
