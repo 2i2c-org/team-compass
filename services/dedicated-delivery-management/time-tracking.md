@@ -7,7 +7,7 @@ Dedicated delivery may operate within the context of a contract that is billed h
 Typically, delivery can be decomposed into a discrete set of tasks, e.g. `Build feature X` or `Meet with client Y`. We can use an Asana Project to enumerate these tasks. Given that Asana can record connections to GitHub, our day-to-day project management tool, it is often useful to define Asana tasks such that they directly correspond to their GitHub counterparts. This simplifies the process of accurately reporting hours by ensuring that the high level task tracking aligns with the practical execution of these tasks on a day-to-day basis.
 
 ```{figure} ./images/asana-table.png
-:label: fig:ddm-asana-table
+:name: fig:ddm-asana-table
 
 A screenshot of the Asana table view for a typical statement of work. The "Estimated time" and "Actual time" columns help to track the expected vs delivered hours. GitHub Issues are l inked directly to subtasks, whilst high-level deliverables are defined as parent tasks.
 ```
@@ -16,7 +16,7 @@ A screenshot of the Asana table view for a typical statement of work. The "Estim
 To track time spent on delivery (e.g. authoring a pull-request and steering it through code review), we use Asana to track both estimated and actual (delivered) hours. See [](fig:ddm-asana-table) for an example built from our [Canvas Authentication and Authorization statement of work](https://2i2c.org/statements-of-work/sow/canvas-authentication/). Asana tracks time at minute-level granularity. These times should be recorded as best-effort — in practice, the time spent working on task is subject to interpretation and 2i2c team members should exercise reasonable judgement.
 
 ```{figure} ./images/asana-timer.png
-:label: fig:ddm-asana-timer
+:name: fig:ddm-asana-timer
 
 A screenshot o fthe Asana timer widget that can be used to help keep track of time spent on particular tasks.
 ```
