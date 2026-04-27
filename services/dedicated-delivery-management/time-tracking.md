@@ -18,7 +18,7 @@ To track time spent on delivery (e.g. authoring a pull-request and steering it t
 ```{figure} ./images/asana-timer.png
 :name: fig:ddm-asana-timer
 
-A screenshot o fthe Asana timer widget that can be used to help keep track of time spent on particular tasks.
+A screenshot of the Asana timer widget that can be used to help keep track of time spent on particular tasks.
 ```
 
 Asana ships with a timer widget (see [](fig:ddm-asana-timer) that makes it easy to keep track of time spent on a particular task (just as long as one remembers to pause it!) It can also be useful to make use of timing information like shell history e.g. [`atuin`](https://atuin.sh/) to derive time spent on a task from an auxiliary source of truth.
