@@ -1,4 +1,4 @@
-# Dedicated delivery management
+# Dedicated Delivery Management
 
 The social aspects of coordinating work between 2i2c and member communities are vital to community success. We aim to manage work in a way that multiplies community impact - connecting research and education communities to each other, to upstream communities and to 2i2c.
 
