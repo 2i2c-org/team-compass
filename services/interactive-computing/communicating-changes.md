@@ -42,18 +42,26 @@ Writing, and sending these messages out should take less than 15 minutes. We do 
 
 ### Create a CSV
 
-To create an email to communities via Freshdesk, we need a list of emails, companies (organizations) and names in a .csv file to import into FreshDesk.
+To create an email to communities via Freshdesk, we need a list of emails in a CSV file to import into FreshDesk.
 
 - For authorized technical contacts, export the "Companies" list from FreshDesk, making sure the Technical Contacts field is checked. FreshDesk has further instructions to [export contacts from FreshDesk](https://support.freshdesk.com/support/solutions/articles/196491-importing-and-exporting-customer-data)
-- Then open the resulting file as a spreadsheet and apply any filters as desired.
-- Save that filtered file as a CSV.
+- For some "Companies"/communities, there are multiple email contacts on one line. Unfortunately FreshDesk cannot parse this, so you may have to split these up into individual rows -- here's a Python snippet to do this:
+
+   ```python
+   import pandas as pd
+   df = pd.read_csv("emails.csv") # read CSV file exported from freshdesk
+   df["Technical Contacts"] = df["Technical Contacts"].str.split(',')
+   df = df.explode('Technical Contacts')
+   df["Technical Contacts"] = df["Technical Contacts"].str.lstrip()
+   df.to_csv('result.csv')
+   ```
 
 ### Create an email using our template
 
 We use FreshDesk's [Proactive Outreach](https://support.freshdesk.com/support/solutions/articles/239926-proactive-support-email-outreach) feature to send email alerts for changes.
 
 - Open [Proactive Outreach](https://2i2c.freshdesk.com/a/admin/proactive-support).
-- Upload the CSV you created above. This make take a few minutes.
+- Upload the CSV you created above. This may take a few minutes.
 - When prompted to compose an email, start by adding a canned response, and choose Technical Announcement.
 - Replace PROMPTs in the Technical Announcement template with text matching the specific change.
 - Hit Send.
