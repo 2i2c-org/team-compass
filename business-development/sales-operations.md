@@ -191,4 +191,4 @@ This approach allows us to build a scalable, repeatable sales motion while opera
 
 ## Questions or Want to Contribute?
 
-Sales operations are documented in our Sales Playbook (Asana). If you're working on deals, have insights from member interactions, or want to propose experiments, reach out to James Colliander (Business Development Lead) or use the Lead - Opportunity - Capture workflow in the business-development channel in Slack. 
+Sales operations are documented in our [Sales Playbook](https://app.asana.com/1/1200524400901350/project/1212757516638013/list/1212758290889099). If you're working on deals, have insights from member interactions, or want to propose experiments, reach out to James Colliander (Business Development Lead) or use the Lead - Opportunity - Capture workflow in the business-development channel in Slack. 
