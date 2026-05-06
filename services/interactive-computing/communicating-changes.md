@@ -42,7 +42,7 @@ Writing, and sending these messages out should take less than 15 minutes. We do 
 
 ### Create a CSV
 
-To create an email to communities via Freshdesk, we need a list of emails in a CSV file to import into FreshDesk.
+To create an email to communities via Freshdesk, we need a list of emails in a CSV file to import into FreshDesk. We're currently (May 2026) building a way to get contacts out of HubSpot, which may be faster - [try it next time we communicate a change](https://docs.google.com/spreadsheets/d/1XXMcDljWZIg08nHK-QU2ek0kiPnVZXpPJPil9CFl7Jo/edit?gid=0#gid=0). 
 
 - For authorized technical contacts, export the "Companies" list from FreshDesk, making sure the Technical Contacts field is checked. FreshDesk has further instructions to [export contacts from FreshDesk](https://support.freshdesk.com/support/solutions/articles/196491-importing-and-exporting-customer-data)
 - For some "Companies"/communities, there are multiple email contacts on one line. Unfortunately FreshDesk cannot parse this, so you may have to split these up into individual rows -- here's a Python snippet to do this:
