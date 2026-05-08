@@ -54,3 +54,7 @@ These help us categorize transactions more effectively. Here is a summary:
 Code for Science and Society has an accounting team that manages our books in SAGE Intacct, helps us define annual budgets, and can provide us guidance on accounting questions.
 We also have a dedicated **project accountant** named **Josmil Reyes** that focuses his time on 2i2c.
 If you have any questions for CS&S regarding accounting, send an e-mail to `fsp@codeforsociety.org` and it will be routed to Josmil.
+
+## Access to the Sage Intacct API
+
+See this [guide to accessing the Sage Intacct API](https://docs.google.com/document/d/13tVcDs2w2w_mxrXOQR7qnD4q7G-a60IYHrxKE-Xm_0U/edit?usp=sharing).
