@@ -26,6 +26,11 @@ CS&S manages all invoices in **SAGE Intacct**.
 When an invoice is authorized, it is recorded as realized revenue in our accounting actuals.
 See [](accounting.md) for a guide to navigating invoice and transaction data.
 
+(contracts:invoice-cloud)=
+### How to invoice communities for cloud costs
+
+This google document, [Defining processes to track 2i2c cost spend including cloud costs](https://docs.google.com/document/d/1fgKKLD0HZlgPetZhcwKhAarnZOED19XpHtUZozKslYY/edit?tab=t.gdtpnck2oli2#heading=h.a2fjdrf2j7sy), has all information about how we invoice cloud costs. The process to generate the cloud costs is located in the infrastructure repo at: [Calculate how much cloud infrastructure costs](https://infrastructure.2i2c.org/howto/budgeting-billing/bill/).
+
 (contracts:dashboards)=
 ## Grant folders
 
