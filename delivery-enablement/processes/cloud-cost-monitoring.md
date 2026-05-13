@@ -6,15 +6,15 @@
 -   Costs incurred by 2i2c because invoices cannot (or have not) been sent to communities
 -   In general, any cloud costs that 2i2c can’t recoup from a community
 
-# Cloud costs monitoring process
+## Cloud costs monitoring process
 
 2i2c’s cloud costs monitoring process consists of two phases.
 
-## Phase 1: Monitoring and reducing cost runaways
+### Phase 1: Monitoring and reducing cost runaways
 
 Preventing cost runaway involves actively responding to **cloud cost alerts** and **escalated community concerns** (from Freshdesk).
 
-### Cloud cost alerts
+#### Cloud cost alerts
 
 The P&S team configures public clouds (e.g. AWS, Azure) systems to raise usage alarms at specific thresholds.
 
@@ -27,7 +27,7 @@ When cloud cost alerts are triggered, these are the steps that should taken by t
 5. In the event of a cost overrun, the Delivery manager will decide if 2i2c will consume the cost and not pass it down to the community
 6. DE will communicate to CS&S if a discount should be applied to the communities next invoice
 
-### Escalated community concerns
+#### Escalated community concerns
 
 Community escalated cost concerns should be handled in a similar manner to cloud cost alerts.
 
@@ -41,7 +41,7 @@ Community escalated cost concerns should be handled in a similar manner to cloud
 5. In the event of a cost overrun, P&S support triagers will communicate costs/discount implications (and root causes) to impacted communities
 6. DE will communicate to CS&S if a discount should be applied to the communities next invoice
 
-## Phase 2: Invoicing communities
+### Phase 2: Invoicing communities
 
 Reporting and invoicing consist of getting the cloud costs from our different platforms, assessing for anomalies and dispatching adjusted costs for invoicing.
 
@@ -54,7 +54,9 @@ This phase involves the following steps:
     3. Coordinating discounts with CS&S
 3. **Dispatch for invoicing**: Cloud costs are sent to CS&S for invoicing. 4. This is done by consolidating the CSV files from P&S to a google cloud sheet 5. P&S is notified on Asana that the cloud costs are ready for invoicing
 
-# Decommissioning hubs
+See [](contracts:invoice-cloud) for the invoicing process and reference documents.
+
+## Decommissioning hubs
 
 In some extreme cases, 2i2c will have to discontinue services to communities.
 
