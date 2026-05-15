@@ -14,13 +14,13 @@ There are three places that BD tracks its work:
 
 **Cross-team work items**: BD items on the [Operations Board](https://github.com/orgs/2i2c-org/projects/64/views/5?sliceBy[value]=Business+Development)
 
-**Sales pipeline status and activities**: See [](./crm/index.md)
+**Sales pipeline status and activities**: See [](./crm.md)
 
-**Anything requiring CS&S action**: See [](#bd:asana)
+**Anything requiring CS&S action**: See [](#delivery:asana)
 
 ## Deal and CRM information
 
-See [](./crm/index.md).
+See [](./crm.md).
 
 ## Engagement and delivery project management
 

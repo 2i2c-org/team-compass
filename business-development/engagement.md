@@ -58,7 +58,3 @@ From a communities perspective Engagement Management means:
 1. Are we delivering value to communities?
 2. What's the health of all of the active contracts?
 3. Which satisfaction metric of our product offerings?
-
-## Engagement Workflow
-
-More details can be found in the [Engagement Workflow](crm/engagement-workflow.md)
