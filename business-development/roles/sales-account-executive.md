@@ -7,7 +7,7 @@
 
 **TL;DR;** Sells 2i2c's menu of offerings and builds strategic relationships to drive sustainable revenue growth.
 
-## AREAS OF RESPONSIBILITY
+## Areas of responsibility
 
 **Sell 2i2c's Offerings and Strengthen the Sales System**
 
@@ -19,7 +19,7 @@
     -   Manage and track key sales documentation, including quotes, proposals, agreements, reports, - and renewals.
     -   Capture onboarding and support insights to proactively prepare for contract renewals.
 -   Continuously Improve Sales Processes and Tools:
-    -   Provide feedback to improve sales workflows, internal tools (e.g., CRM, Airtable), and goal-setting practices to increase efficiency and effectiveness.
+    -   Provide feedback to improve sales workflows, internal tools (e.g., the CRM), and goal-setting practices to increase efficiency and effectiveness.
 
 **Maintain and Strengthen Customer Relationships**
 

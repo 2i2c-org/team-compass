@@ -8,7 +8,7 @@
 
 **TL;DR;** Develops and leads 2i2c's business strategy, growth, and revenue operations.
 
-## AREAS OF RESPONSIBILITY
+## Areas of responsibility
 
 **BD: Strategy and Integration**
 
