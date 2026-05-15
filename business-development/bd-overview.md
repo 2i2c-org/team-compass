@@ -8,6 +8,14 @@ Business Development is critical to 2i2c and is responsible for:
 -   Providing thought leadership to industry stakeholders
 -   Connecting communities to amplify science (e.g. funding, research opportunities, etc.).
 
+## Tools & Systems
+
+- **HubSpot**: CRM for pipeline tracking, deal stages, metrics dashboards, order creation
+- **Asana**: Deal strategy iteration, sales playbook development, experiment tracking
+- **Google Drive**: Proposal drafting, service agreement templates, shared documentation
+- **Dropbox Sign** (formerly HelloSign): Contract execution
+- **Hub Configurator**: Web-based tool for specifying hub configurations (up to 3 hubs for General Members)
+
 ## High-level goals of the Business Development Team
 
 The Business Development team is guided by the following three-pronged strategy:
