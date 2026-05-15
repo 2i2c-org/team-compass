@@ -6,7 +6,7 @@ See [](#external-documentation).
 :::
 
 ```{toctree}
-bd-overview.md
+overview.md
 strategy.md
 pricing-strategy.md
 kpis.md
