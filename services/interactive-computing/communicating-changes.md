@@ -1,16 +1,40 @@
 (communicate-changes:index)=
 
-# Communicating Changes
+# Communicating Changes to all communities
 
-We're working to be more proactive in planning and communicating infrastructure changes that don't directly impact communities, in addition to sharing new features. This process focuses on changes that match the following description:
+This page describes how to communicate changes to community infrastructure as part of ongoing operations.
 
-> We (2i2c) believe these should have no real user facing changes, but we want you to know this is happening. If you perceive any changes at this date, please let us know and we will respond to it promptly.
+## How to send an e-mail to all community representatives
 
-This means explicit new feature deployments, working with specific communities, etc are out of scope for this process at this stage.
+**First, download a CSV of community contacts**
+
+1. In HubSpot, go to the [**Active Communities View**](https://app-na2.hubspot.com/contacts/242496330/objects/0-410/views/350388040/list?noprefetch=). This is a list of communities with an "Active" member status[^note]
+2. Click {guilabel}`Export` -> {guilabel}`Export`
+3. Go to the [Export Audit page](https://app-na2.hubspot.com/sales-products-settings/242496330/importexport)
+4. Click the top-most **Active Communities** link. It will download a CSV of contacts.
+
+[^note]: This may change if we track active communities at the _deal_ level, but as of May 6 2026 this is how we define active communities.
+
+**Next, extract the e-mails with our helper sheet**
+
+1. Go to our [contacts helper google sheet](https://docs.google.com/spreadsheets/d/1XXMcDljWZIg08nHK-QU2ek0kiPnVZXpPJPil9CFl7Jo/edit?gid=641195895#gid=641195895). This is a convenience sheet to extract a unique list of contact e-mails from this export.
+2. Follow the instructions on the first tab of that sheet.
+3. **Option 1**: Paste the resulting e-mails into your e-mail client of choice and send!
+4. **Option 2**: Download the e-mails to a CSV file and follow the FreshDesk steps below.
+
+**Last, send an email using the FreshDesk template**
+
+We use FreshDesk's [Proactive Outreach](https://support.freshdesk.com/support/solutions/articles/239926-proactive-support-email-outreach) feature to send email alerts for changes.
+
+- Open [Proactive Outreach](https://2i2c.freshdesk.com/a/admin/proactive-support).
+- Upload the CSV you created above. This may take a few minutes.
+- When prompted to compose an email, start by adding a canned response, and choose Technical Announcement.
+- Replace PROMPTs in the Technical Announcement template with text matching the specific change.
+- Hit Send.
 
 ## When this process applies
 
-Here is an explicit list of the types of changes that will be communicated out through this channel:
+Here is a list of the types of changes that will be communicated out through this channel:
 
 1. Version upgrades of:
    1. `z2jh`
@@ -34,34 +58,5 @@ Where a communicable change takes place, the engineering manager and the tech le
 1. To ensure that all parties involved in executing or shaping the work are _explicitly_ aware of the need to give notice.
 1. To confirm that the notice has been given before the change can be considered "implemented".
 
-It is the responsibility of the person making this change to write the message and ensure it is sent out. This may change in the future as we add more things to the list above.
+It is the responsibility of the person making this change to write the message and ensure it is sent out.
 
-## How to send this out?
-
-Writing, and sending these messages out should take less than 15 minutes. We do **not** want this to be community specific, but be sent out to _all_ communities. Note that you must be logged in as a FreshDesk admin to complete this process.
-
-### Create a CSV
-
-To create an email to communities via Freshdesk, we need a list of emails in a CSV file to import into FreshDesk.
-
-- For authorized technical contacts, export the "Companies" list from FreshDesk, making sure the Technical Contacts field is checked. FreshDesk has further instructions to [export contacts from FreshDesk](https://support.freshdesk.com/support/solutions/articles/196491-importing-and-exporting-customer-data)
-- For some "Companies"/communities, there are multiple email contacts on one line. Unfortunately FreshDesk cannot parse this, so you may have to split these up into individual rows -- here's a Python snippet to do this:
-
-   ```python
-   import pandas as pd
-   df = pd.read_csv("emails.csv") # read CSV file exported from freshdesk
-   df["Technical Contacts"] = df["Technical Contacts"].str.split(',')
-   df = df.explode('Technical Contacts')
-   df["Technical Contacts"] = df["Technical Contacts"].str.lstrip()
-   df.to_csv('result.csv')
-   ```
-
-### Create an email using our template
-
-We use FreshDesk's [Proactive Outreach](https://support.freshdesk.com/support/solutions/articles/239926-proactive-support-email-outreach) feature to send email alerts for changes.
-
-- Open [Proactive Outreach](https://2i2c.freshdesk.com/a/admin/proactive-support).
-- Upload the CSV you created above. This may take a few minutes.
-- When prompted to compose an email, start by adding a canned response, and choose Technical Announcement.
-- Replace PROMPTs in the Technical Announcement template with text matching the specific change.
-- Hit Send.
