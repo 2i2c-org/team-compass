@@ -14,7 +14,6 @@ roles/index.md
 crm.md
 meetings/index.md
 engagement.md
-sales-workflows/hub-service.md
 customer-success/freshdesk.md
 customer-success/hub-activity.md
 customer-success/community-checkin.md
