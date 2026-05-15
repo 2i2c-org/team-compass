@@ -4,8 +4,8 @@
 Our budget projection model combines three sources of data to understand our financial position and project into the future:
 
 - **Actuals** (from SAGE): Historical revenue and expenses. Updated monthly by our CS&S project accountant.
-- **Committed projections** (from HubSpot): Future revenue from closed-won deals. We amortize each deal's total evenly across its period of performance.
-- **Estimated projections** (from HubSpot): Future revenue from pipeline deals that are not yet closed-won.
+- **Committed projections** (from [HubSpot](hubspot:index)): Future revenue from closed-won deals. We amortize each deal's total evenly across its period of performance.
+- **Estimated projections** (from [HubSpot](hubspot:index)): Future revenue from pipeline deals that are not yet closed-won.
 
 For months where accounting books have already closed, we use **Actuals** only.
 For future months, we use **HubSpot data** (committed + estimated) for revenue projections.

@@ -9,7 +9,7 @@ Monthly recurring revenue
 : Revenue brought in through **recurring** service contracts.
   This is the primary non-confirmed revenue that we _project into the future_ in our financial modeling.
 
-  Our [budget projections model](accounting:projections) uses **HubSpot deal data** to project future revenue, which may include grant-funded service contracts alongside regular service contracts.
+  Our [budget projections model](accounting:projections) uses deal data from [HubSpot](hubspot:index) to project future revenue, which may include grant-funded service contracts alongside regular service contracts.
 
 Cash on hand
 : The amount of disposable funds that we have in our CS&S accounts.

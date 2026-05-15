@@ -2,7 +2,7 @@
 
 # Delivery
 
-In [Sales Operations](sales-operations:index), we describe an broad structure for working with communities:
+In [Sales](#bd:overview), we describe an broad structure for working with communities:
 
 :::{figure} ../../business-development/images/sales-process.png
 Simplified sales process
@@ -12,13 +12,13 @@ This section describes what Delivery means for 2i2c.
 
 ## Sales to Delivery 
 
-Business Development uses [Hub Spot](https://app.hubspot.com/) as the source of truth for the development of agreements with communities.  In HubSpot, these records are called **deals** and each represents a transaction with a contact or company. Each deal tracks potential revenue through various stages of the sales process until it is marked as won or lost.
+Business Development uses [HubSpot](https://app.hubspot.com/) as the source of truth for the development of agreements with communities - see [](#hubspot:index) for our team's guide. In HubSpot, these records are called **deals** and each represents a transaction with a contact or company. Each deal tracks potential revenue through various stages of the sales process until it is marked as won or lost.
 
 :::{note}
 HubSpot Deal Stages: Lead, Qualified, Proposal, Negotiation, Contract Admin, Closed Won, Closed Lost
 :::
 
-1. The Lead and Qualified stages on BD owned stages. See [link here to sales operations].
+1. The Lead and Qualified stages are BD-owned stages. See [](hubspot:index) for our HubSpot CRM guide.
 
 2. At the Proposal stage, BD notifies PS if there is a need for additional input or review. This is the stage where the scheduling and capacity requirements for the work should be determined. 
 
@@ -75,7 +75,7 @@ A Deal move out of Contract Admin when two conditions are satisfied:
 
   - create new columns in the cloud billing spreadsheet for this new deal.
 
-BD uses the Order concept within HubSpot to initiate the request for Delivery.  We use n8n to automate the information transfer between HubSpot and GitHub/Airtable. 
+BD uses the Order concept within HubSpot to initiate the request for Delivery.  We use n8n to automate the information transfer between HubSpot and GitHub.
 
 :::{warning}
 We are trying to automate using n8n but this does not yet capture everything about a Deal to guarantee delivery. It remains important for information held within BD about related to the Deal to be transferred to PS.
@@ -115,7 +115,11 @@ On AWS, we set up Budget alerts to trigger actions (sent to support+<commuity>@2
 
 ## Renewal
 
-At 60 days before the end of an Engagement, a AirTable automation triggers an "Agreement expiring in 60 days" email to partnerships@2i2c.org
+At 60 days before the end of an Engagement, an automation triggers an "Agreement expiring in 60 days" email to partnerships@2i2c.org.
+
+:::{warning}
+This automation was previously powered by Airtable. As of the HubSpot migration, the equivalent renewal-trigger automation needs to be re-confirmed. See [](hubspot:index).
+:::
 
 
 
