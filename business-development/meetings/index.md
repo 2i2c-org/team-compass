@@ -19,15 +19,15 @@ We kick-off iterations with a planning ceremony, identifying the work that we ne
 The outcome of these planning meetings are captured on the [BD Team Board](https://github.com/orgs/2i2c-org/projects/61/views/1?filterQuery=).
 
 :::{note}
-CRM/Deal related information is stored in Hubspot.
+CRM/Deal related information is stored in HubSpot. See [](../crm.md).
 :::
 
 **Sync/checking**
 We have two, 15 minute synchronous checkins each week. These help us to:
 
--   Communicate if we are still on track to meeting the iteration's goals
--   Proactively pivot or redistribute focus/capacity based on challenges or new information
--   Identify and resolve blockers
+- Communicate if we are still on track to meeting the iteration's goals
+- Proactively pivot or redistribute focus/capacity based on challenges or new information
+- Identify and resolve blockers
 
 **Continuous improvement**
 We have a retrospective at the end of each iteration to provide opportunities to improve our way of working.

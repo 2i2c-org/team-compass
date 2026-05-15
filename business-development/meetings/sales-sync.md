@@ -20,7 +20,7 @@ Weekly meeting to review the "Sales Opportunities Pipeline" (as being prototyped
 
 ## Attendees (and the rationale for their attendance)
 
--   **Senior Account Executive** [Jim Colliand], meeting owner (required)
--   **Senior Product Manager, Open Science Enablement** [James Munroe] (required until the sales system is robust) he is helping to design, implement and prototype systems for the sales workflow and the sales <> P&S information exchange
--   **Delivery Manager/Chief of Staff** [Harold Campbell] (optional) - He is helping to set up the CRM and this makes him a natural attendee while we build muscle around using this system
--   **Executive Director** [Chris Holdgraf] (typically optional unless there is a hot lead to shape) - occasionally needs to attend because he is sometimes serving as an “Account Executive” on some of 2i2c’s opportunities
+- **Senior Account Executive** [Jim Colliand], meeting owner (required)
+- **Senior Product Manager, Open Science Enablement** [James Munroe] (required until the sales system is robust) he is helping to design, implement and prototype systems for the sales workflow and the sales <> P&S information exchange
+- **Delivery Manager/Chief of Staff** [Harold Campbell] (optional) - He is helping to set up the CRM and this makes him a natural attendee while we build muscle around using this system
+- **Executive Director** [Chris Holdgraf] (typically optional unless there is a hot lead to shape) - occasionally needs to attend because he is sometimes serving as an “Account Executive” on some of 2i2c’s opportunities

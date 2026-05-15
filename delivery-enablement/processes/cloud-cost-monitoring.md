@@ -2,9 +2,9 @@
 
 ## What are Cloud costs overruns?
 
--   Infrastructure costs that communities incur outside of an active service agreements
--   Costs incurred by 2i2c because invoices cannot (or have not) been sent to communities
--   In general, any cloud costs that 2i2c can’t recoup from a community
+- Infrastructure costs that communities incur outside of an active service agreements
+- Costs incurred by 2i2c because invoices cannot (or have not) been sent to communities
+- In general, any cloud costs that 2i2c can’t recoup from a community
 
 ## Cloud costs monitoring process
 
