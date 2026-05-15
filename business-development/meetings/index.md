@@ -5,10 +5,8 @@ We use several meetings to create alignment and coordinate business development 
 These meetings are currently:
 
 ```{toctree}
-horizon-scanning.md
-project-management-alignment.md
 sales-sync.md
-product-sync.md
+horizon-scanning.md
 ```
 
 ## Process related alignment
