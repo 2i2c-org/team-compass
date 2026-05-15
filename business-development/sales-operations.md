@@ -4,18 +4,7 @@
 
 Our [Sales Playbook](https://app.asana.com/1/1200524400901350/project/1212757516638013/list/1212758290889099) is an Asana project that describes common actions that must be taken throughout the sales process.
 
-## Team Roles (Current Bootstrap Phase)
 
-2i2c's sales operation is currently carried out by:
-
-- **James Colliander (Business Development Lead / Account Manager)**: Leads sales strategy, conducts discovery calls, owns ICP evolution
-- **Harold Campbell (Chief of Staff / Account Manager)**: Supports deal execution in burst capacity, contributes to qualification and proposal development
-- **April Johnson (Delivery Manager)**: Manages post-sale onboarding and ongoing service delivery, provides critical insights on member health that inform renewals and ICP refinement
-
-As the sales system matures, these activities will likely evolve into distinct roles:
-- **Business Development Lead**: Strategy, partnerships, ICP development
-- **Account Manager - New Sales** ("Hunter"): Outreach through proposal for net-new members
-- **Account Manager - Renewals** ("Farmer"): Customer success and renewal/expansion sales
 
 ## Tools & Systems
 
