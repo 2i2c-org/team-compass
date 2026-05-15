@@ -8,23 +8,13 @@ Broadly, our sales processes span two main flows:
 - **Customer Relationship Management (CRM)** - This covers Pre-sales and Sales stages, championed by the Business Development team
 - **Delivery** - This covers everything in the Delivery stage. The Delivery Enablement and P&S teams are the champions.
 
-## Project management
+## Where work lives
 
-There are three places that BD tracks its work:
+BD tracks its work across three places:
 
-**Cross-team work items**: BD items on the [Operations Board](https://github.com/orgs/2i2c-org/projects/64/views/5?sliceBy[value]=Business+Development)
-
-**Sales pipeline status and activities**: See [](./crm.md)
-
-**Anything requiring CS&S action**: See [](#delivery:asana)
-
-## Deal and CRM information
-
-See [](./crm.md).
-
-## Engagement and delivery project management
-
-See [](./engagement.md)
+- **Cross-team work items**: BD items on the [Operations Board](https://github.com/orgs/2i2c-org/projects/64/views/5?sliceBy[value]=Business+Development)
+- **Sales pipeline status and activities**: See [](./crm.md)
+- **Anything requiring CS&S action**: See [](#delivery:asana)
 
 (slack:business-development)=
 

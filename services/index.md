@@ -71,10 +71,6 @@ Our Services are normally bundled together into Engagements with membership whic
 
 Business Development is responsible for assembling services together into a Deal which represents the business arrangement that 2i2c has with a community.
 
-:::{note}
-See [Engagement Management](../../business-development/engagement/) for more documentation on Engagements, Projects, and Deliverables.
-:::
-
 Services are delivered to communities as part of an Engagement. To make the components explicit for our cross-functional team, there are different Engagement life cycles for communities with different membership options and service mechanisms. Each Engagement represents a bundling of services together that provides value to a community.
 
 ::::{grid} 1
