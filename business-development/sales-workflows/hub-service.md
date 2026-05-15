@@ -1,7 +1,6 @@
 # Workflow for hub service leads
 
 This workflow applies to communities that are interested in joining our community hub service.
-For more complex projects or grants, see [](./grants-and-projects.md).
 
 The sections below describe **Standard Operating Procedure (SOP)** that bring a community from first contact through to an active contract.
 

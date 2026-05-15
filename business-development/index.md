@@ -11,14 +11,11 @@ strategy.md
 pricing-strategy.md
 kpis.md
 roles/index.md
-coordination.md
-crm/index.md
-crm/hub-service.md
-crm/grants-and-projects.md
-crm/engagement-workflow.md
+crm.md
+meetings/index.md
 engagement.md
+sales-workflows/hub-service.md
 customer-success/freshdesk.md
 customer-success/hub-activity.md
 customer-success/community-checkin.md
-meetings/index.md
 ```
