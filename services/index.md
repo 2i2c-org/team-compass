@@ -72,8 +72,6 @@ Our Services are normally bundled together into Engagements with membership whic
 Business Development is responsible for assembling services together into a Deal which represents the business arrangement that 2i2c has with a community.
 
 :::{note}
-See [the Business Development workflow](../../business-development/sales-operations) for our processes around leads, sales, and invoicing.
-
 See [Engagement Management](../../business-development/engagement/) for more documentation on Engagements, Projects, and Deliverables.
 :::
 
