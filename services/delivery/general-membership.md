@@ -6,7 +6,7 @@ TBD
 ## Sales Cycle
 The sales process is owned by Business Development.  The Sales Operations section of the Team compass documents the procedures and process used.
 
-Source of Truth: HubSpot
+Source of Truth: [HubSpot](hubspot:index)
 
 Key concepts
 1. Deal

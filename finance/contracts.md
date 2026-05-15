@@ -8,7 +8,7 @@ We use **invoices** to exchange funds (incoming and outgoing) that are related t
 
 We track our contracts and deals in two systems:
 
-- **HubSpot** is our source of truth for all **deal-level information** — both pipeline opportunities and committed (closed-won) deals. See [](../business-development/hubspot.md) for more about how we use HubSpot.
+- **HubSpot** is our source of truth for all **deal-level information** — both pipeline opportunities and committed (closed-won) deals. See [](#hubspot:index) for more about how we use HubSpot.
 - **SAGE Intacct** is our source of truth for all **invoices and transactions** on a deal. See [](accounting.md) for how to navigate SAGE Intacct.
 
 (contracts:amount-remaining)=
