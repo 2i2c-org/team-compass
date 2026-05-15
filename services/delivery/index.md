@@ -2,7 +2,7 @@
 
 # Delivery
 
-In [Sales Operations](sales-operations:index), we describe an broad structure for working with communities:
+In [Sales](#bd:overview), we describe an broad structure for working with communities:
 
 :::{figure} ../../business-development/images/sales-process.png
 Simplified sales process

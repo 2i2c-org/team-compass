@@ -1,82 +1,49 @@
+(bd:overview)=
 # Business Development Overview
 
-Business Development is critical to 2i2c and is responsible for:
+The Business Development (BD) team in 2i2c is responsible for our system of sales and cost recovery.
 
--   Interfacing with customers (future and existing) to understand their challenges
--   Developing our business through sales (securing contracts, grants and renewals) and marketing
--   Providing product guidance to the Product and Services Team (P&S) based on market insights
--   Providing thought leadership to industry stakeholders
--   Connecting communities to amplify science (e.g. funding, research opportunities, etc.).
+Broadly, our sales processes span two main flows:
 
-## Tools & Systems
+- **Customer Relationship Management (CRM)** - This covers Pre-sales and Sales stages, championed by the Business Development team
+- **Delivery** - This covers everything in the Delivery stage. The Delivery Enablement and P&S teams are the champions.
 
-- **HubSpot**: CRM for pipeline tracking, deal stages, metrics dashboards, order creation
-- **Asana**: Deal strategy iteration, sales playbook development, experiment tracking
-- **Google Drive**: Proposal drafting, service agreement templates, shared documentation
-- **Dropbox Sign** (formerly HelloSign): Contract execution
-- **Hub Configurator**: Web-based tool for specifying hub configurations (up to 3 hubs for General Members)
+## Project management
 
-## High-level goals of the Business Development Team
+There are three places that BD tracks its work:
 
-The Business Development team is guided by the following three-pronged strategy:
+**Cross-team work items**: BD items on the [Operations Board](https://github.com/orgs/2i2c-org/projects/64/views/5?sliceBy[value]=Business+Development)
 
-1. **Maintain base.** Make current users happy. Strive for zero churn. Resolve support issues. Empower champions to describe the value 2i2c enables. Make renewals easy.
-2. **Growth.** System to get more leads (marketing). System to convert leads to customers (new sales). System to get more revenue through renewals (renewal sales).
-3. **Capture revenue.** Collect membership fees, usage fees, fees for add-on services. Recover cloud costs. Strive for zero losses.
+**Sales pipeline status and activities**: See [](./crm/index.md)
 
-## General responsibilities of the Business Development Team
+**Anything requiring CS&S action**: See [](#bd:asana)
 
--   Sales
-    -   Account Management
-    -   Growth / Sales strategy
-    -   Feasibility assessments (i.e. making sure the work we sell is work we can do)
-    -   Deliverables-based fundraising (grants and projects).
--   Consultative thought-leadership (informed by our Product strategy)
--   Market Research
+## Deal and CRM information
 
-## Capabilities & Capacity Needed
+See [](./crm/index.md).
 
-1. Iteratively improve 2i2c's business model
-2. Know science and philanthropy well enough to sell and seek grants
-3. Strategic enough to prioritize and focus on highest value sales
-4. Uses & improves systems to triage & manage work
-5. Builds "executive" client relationships with org leaders, program directors
-6. Maintain relationships, escalation point if those people aren't happy
-7. Comfort with selling / asking for money
-8. Capability to report on value delivery to purchasers
+## Engagement and delivery project management
+
+See [](./engagement.md)
 
 (slack:business-development)=
 
-### The Business Development Slack channel
+## Slack channels
 
--   The [`#business-development` Slack channel](https://2i2c.slack.com/archives/G015W2KSBCP) is for discussions around the business and membership lifecycle.
--   The [`#business-development-airtable-updates`](https://2i2c.slack.com/archives/C08AZTGAUBX) is for tracking ongoing conversations around automated updates from AirTable.
--   The [`#business-development-hubspot-updates`](https://2i2c.slack.com/archives/C08PQQHH3U5) is for tracking ongoing conversations around automated updates from HubSpot.
+- [`#business-development` Slack channel](https://2i2c.slack.com/archives/G015W2KSBCP) is for discussions around the business and membership lifecycle.
+- [`#business-development-hubspot-updates`](https://2i2c.slack.com/archives/C08PQQHH3U5) is for tracking ongoing conversations around automated updates from HubSpot.
 
-## Key Roles
+## Sales playbook
 
--   [Business Development Lead](roles/bd-lead.md)
--   [Sales Account Executive](roles/sales-account-executive.md)
+Our [Sales Playbook](https://app.asana.com/1/1200524400901350/project/1212757516638013/list/1212758290889099) is an Asana project that describes common actions that must be taken throughout the sales process.
 
-## Sources of Truth (where we store information)
+## Service agreements
 
-Business development stores information across different software platforms.
+Service agreements are based on the [Outbound Services Agreement template](https://docs.google.com/document/d/1kPgSddJ_Sob0XcTbkDy5UShIAVKPmm04P9ZLsYiOV20/edit?usp=sharing) developed collaboratively with CS&S. Agreements include:
 
-### Project management
+- Scope of services (hub specifications, support levels, consulting hours if applicable)
+- Pricing structure (annual membership fee + monthly usage fees)
+- Contract term and renewal provisions
+- Service level commitments
 
-The [BD Team Board](https://github.com/orgs/2i2c-org/projects/61/views/1?filterQuery=) Github project board is used to track tasks and activities that pertain to:
-
--   Operationalizing BD's strategy
--   Creating content supporting content (e.g. sales or marketing assets)
--   Improving the effectiveness of the team's processes.
-
-Additionally, BD related initiatives will be found on this board. Occasionally, some tasks are replicated on [Delivery Enablement/Operations](https://github.com/orgs/2i2c-org/projects/50/views/14) board because a member of that team is tasked with operationalizing the work.
-
-### Deal and CRM information
-
-We currently use Hubspot for managing our Sales/Deals pipeline. We previously used a custom built Airtable solution and are pivoting to Hubspot. All new Deals and sales opportunities should be stored in Hubspot with links back out to Airtable.
-
-### Engagement project management
-
-We use Airtable to manage Engagements. The primary interface is the [Engagement interface](https://airtable.com/appbjBTRIbgRiElkr/pagpZcdEaghJQiYH3).
-The [Engagement management](engagement.md) section goes into greater details about this delivery stage.
+Agreements are finalized through Dropbox Sign and trigger the delivery handoff process.

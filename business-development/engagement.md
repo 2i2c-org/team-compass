@@ -1,27 +1,18 @@
-# Engagement management
+# Engagement management and hand-off to delivery
 
-2i2c's **Engagement management** is a sub-step of the [Sales Operation's](sales-operations.md) Delivery stage and includes activities required to manage delivery commitments (including reporting), ensuring that customers derive value from 2i2c's offerings.
+When we make a sale, we must hand-off delivery-related components of the sale to our team to scope and begin work. This describes that system.
 
-:::{figure} images/engagements-workflow.png
+## How to shape a deal for the engagement team to deliver
 
-The structure of 2i2c's Engagement management workflow (linking CRM and Delivery Enablement)
-:::
+When a deal reaches **Closed - Won**, the handoff to delivery follows this sequence:
 
-## Why this structure
+1. **Account Manager updates HubSpot**: Ensures contract dates, MRR, and member details are accurate
+2. **Ordering process initiated**: Account Manager guides member through [Hub Configurator](https://2i2c.org/hub-configurator) to specify hub requirements (authentication, computing environment, storage, etc.)
+3. **Order created in HubSpot**: Uses Hub Configurator URL as initial specification
+4. **Automation triggers**: HubSpot → GitHub issues created automatically for P&S (Product & Services) team
+5. **Delivery Manager takes ownership**: April Johnson coordinates provisioning, ongoing services, and member success
+6. **Feedback loop established**: Delivery insights on member health, usage patterns, and satisfaction inform ICP refinement and renewal strategies
 
-Broadly, our sales processes span two main flows:
-
--   **Customer Relationship Management (CRM)** - This covers Pre-sales and Sales stages, championed by the Business Development team
--   **Delivery** - This covers everything in the Delivery stage. The Delivery Enablement and P&S teams are the champions.
-
-Consequently, we need distinct engagement and project activities to improve delivery management, reporting and collaboration between the teams.
-
-Implicit to the structure are the following:
-
-1. The end-to-end delivery of community value is the responsibility of multiple teams within 2i2c
-1. The Business Development (BD) team triggers the creation of delivery work after a customer agreement is created and,
-1. The delivery of value requires distinct units of work (i.e. Engagement, Project and Project Deliverables, etc.)
-1. The Delivery Enablement team can trigger renewal conversation in the BD team.
 
 ## Relationship between work activities
 

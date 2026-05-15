@@ -1,4 +1,6 @@
-# Creating alignment
+# Coordination and meetings
+
+## Meetings
 
 We use several meetings to create alignment and coordinate business development across our teams.
 These meetings are currently:
