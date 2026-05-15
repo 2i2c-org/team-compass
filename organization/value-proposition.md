@@ -5,6 +5,20 @@ This describes the value [our service model](./service-model.md) provides to key
 
 We create a high-bandwidth connection between people **developing** open technology, people **operating** the technology, and people **using** the technology. We only develop infrastructure that serves the network of communities for whom we manage infrastructure.
 
+2i2c delivers value to the communities we serve when we:
+
+1. run hubs (using reproducible, open infra)
+2. sense problems (shared by many communities with common factors)
+3. shape solutions (to those common problems)
+4. connect horizontally (across downstream user communities)
+5. connect vertically (to upstream software communities)
+6. nurture ecosystem (keeping OSS healthy)
+7. advise on strategy (helping communities think bigger)
+8. transfer knowledge (about the infra and how to use it and the ecosystem and how to engage within it)
+
+These `value activities` are building blocks for 2i2c's service design and differentiation from other infrastructure providers. 
+
+
 ## For hub users (researchers, students, practitioners)
 
 **Stop managing servers. Start doing your work.**
@@ -37,10 +51,10 @@ Join a network of peer organizations that collectively fund the open source tool
 
 **What you get:**
 - Reliable managed infrastructure at sustainable cost
-- Participation in roadmapping and co-funding opportunities
+- Participation in roadmapping and co-creation opportunities
 - [Right to Replicate](https://2i2c.org/right-to-replicate) - full control over your infrastructure
 - Pool resources with peer organizations to fund shared needs
-- Optional deeper strategic engagement and tighter feedback loops (see [](./service-model.md))
+- Strategic advising and tighter feedback loops (see [](./service-model.md))
 
 ## For the open science ecosystem (funders, OSS maintainers, advocates)
 
@@ -52,8 +66,10 @@ We demonstrate that community-governed infrastructure is a scalable, reliable al
 - **Strengthen OSS sustainability**: Usage becomes active investment in the tools research depends on
 - **Spread innovation**: Best practices and tools flow rapidly across disciplinary boundaries
 - **Prove the alternative**: Scalable, community-driven infrastructure without vendor lock-in
+- **Evidence of impact**: Connections to and reports from communities who get value from their use of open source software
 
 ## References
 
 - [Deck: value proposition brainstorm in 2024Q2](https://docs.google.com/presentation/d/1kjxPAS7ZptK1OLPiAWmi7WjS5EaDHQtg3E_Gig8ldzE/edit?usp=sharing).  
 - [Deck: Fundraising pitch deck](https://docs.google.com/presentation/d/1d3GDTfI9WtNzCzKFV4oUO8dWhuPdsCaTEJrytTHwejw/edit?usp=sharing)
+- [Deck: 2i2c Value Flavors](https://github.com/2i2c-org/2i2c-value-streams/blob/main/presentation/value_flavors_intro.pdf)
