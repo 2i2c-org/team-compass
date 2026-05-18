@@ -289,7 +289,7 @@ This template can be changed by the facilitator. There are [many](https://retrom
 
 #### EasyRetro user account
 
-We have a paid Team subscription for EasyRetro, to make it easier to facilitate retrospectives. The user account is **admin@2i2c.org**. The credentials are stored in our [shared BitWarden account](https://vault.bitwarden.com/#/vault?organizationId=11313781-4b83-41a3-9d35-afe200c8e9f1).
+We have a paid Team subscription for EasyRetro, to make it easier to facilitate retrospectives. The user account is [**admin@2i2c.org**](#workspace:admin). The credentials are stored in our [shared BitWarden account](https://vault.bitwarden.com/#/vault?organizationId=11313781-4b83-41a3-9d35-afe200c8e9f1).
 
 
 #### The General Format of an Iteration Retrospective
