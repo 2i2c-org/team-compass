@@ -1,6 +1,6 @@
 # Where to look for information
 
-There are three major sources of information within 2i2c:
+There are several major sources of information within 2i2c:
 
 ## Documentation
 
@@ -40,3 +40,15 @@ There are a few repositories that we use for tracking private conversations and 
 This is usually personally sensitive or identifiable information, or information that needs to be private until decisions or deals are finalized.
 
 - [**`2i2c-org/meta`**](https://github.com/2i2c-org/meta): Private team and organizational conversation.
+
+(sources:data-repos)=
+## Data repositories
+
+We maintain two repositories that publish snapshots of 2i2c's data on a daily schedule, so that other tools and repos can consume them without hitting upstream APIs.
+
+- [**`2i2c-org/data`**](https://github.com/2i2c-org/data): Public data about 2i2c's infrastructure and services (e.g. cloud usage, MAUs).
+  Datasets are published as GitHub Releases and rendered as a browsable [docs site](https://2i2c.org/data/).
+- [**`2i2c-org/data-private`**](https://github.com/2i2c-org/data-private): Private financial data (Sage Intacct accounting, HubSpot deals).
+  Datasets are published as GitHub Releases and to Google Sheets.
+
+Each repository's README describes the datasets it contains and how to download them from another repo.
