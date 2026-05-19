@@ -55,6 +55,30 @@ Code for Science and Society has an accounting team that manages our books in SA
 We also have a dedicated **project accountant** named **Josmil Reyes** that focuses his time on 2i2c.
 If you have any questions for CS&S regarding accounting, send an e-mail to `fsp@codeforsociety.org` and it will be routed to Josmil.
 
-## Access to the Sage Intacct API
+## Programmatic access to Sage data
 
-See this [guide to accessing the Sage Intacct API](https://docs.google.com/document/d/13tVcDs2w2w_mxrXOQR7qnD4q7G-a60IYHrxKE-Xm_0U/edit?usp=sharing).
+(sage:snapshots)=
+### Daily snapshots in `2i2c-org/data-private`
+
+We maintain a daily snapshot of our accounting actuals (GL transactions and related data) exported from Sage Intacct in the [`2i2c-org/data-private`][data-private-sage] repository.
+See [](#sources:data-repos) for an overview of our data repositories, or the [Sage dataset README][data-private-sage] for what's in the export, how it's refreshed, and how to download it from another repo.
+
+### Direct access to the Sage Intacct API
+
+The data above should be all that you need, but if you need to access the Sage API directly, here's a brief explanation.
+
+We use the [XML Gateway API](https://developer.intacct.com/api/) (not the newer REST API).
+See those docs for instructions.
+
+You need both a **Sender** and a **User** credential to access the API.
+Credentials are in our [team Bitwarden](#account:bitwarden) under the entry **`Sage Intacct API Admin`**.
+
+The values you'll need are:
+
+- `SENDER_ID`
+- `SENDER_PASSWORD`
+- `USER_ID`
+- `USER_PASSWORD`
+- `COMPANY_ID`
+
+[data-private-sage]: https://github.com/2i2c-org/data-private/blob/main/scripts/sage/README.md
