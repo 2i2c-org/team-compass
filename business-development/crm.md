@@ -13,9 +13,17 @@ We used to use AirTable for this, here's a link to [our old CRM in AirTable](htt
 ## How to log into the HubSpot admin account
 
 We have an admin account that gives the whole team edit access to our HubSpot data.
-Here are the steps to sign in:
+The easiest way to sign in is with a passkey stored in our [team Bitwarden](#account:bitwarden).
 
-- Go to the [HubSpot Account page](https://app.hubspot.com/home)
+- Go to the [HubSpot Account page](https://app.hubspot.com/home).
+- Username: `admin@2i2c.org`
+- Choose `Sign in with a passkey` and select the 2i2c Admin passkey from Bitwarden.
+
+### Fallback: username, password, and 2FA
+
+If the passkey isn't available, you can sign in with the username and password instead:
+
+- Go to the [HubSpot Account page](https://app.hubspot.com/home).
 - U: `2i2c Admin`. P: `See bitwarden`.
 - You'll see a 2FA prompt like this:
 
