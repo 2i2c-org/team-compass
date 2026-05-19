@@ -29,7 +29,7 @@ Runway projections instructions
 
 :::{admonition} ❗ New dashboard in prototype
 The [`2i2c-org/finance`](https://github.com/2i2c-org/finance) repository also publishes a private dashboard site at [finance.2i2c.org](https://finance.2i2c.org) that visualizes the same runway and pipeline data.
-The site is hosted on Netlify and password-protected - credentials are in our [team Bitwarden](#account:bitwarden).
+The site is hosted on [Netlify](#accounts:netlify) and password-protected - credentials are in our [team Bitwarden](#account:bitwarden).
 
 If this prototype becomes stable and reliable, we'll deprecate the Google Sheet above.
 :::
