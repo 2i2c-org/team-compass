@@ -38,13 +38,18 @@ This process is carried out in an ongoing basis by the {term}`Support Triager` a
 
 1. **Monitor our support channels**. We use FreshDesk for all support requests, and the Support Triager should regularly keep an eye on this account for new requests.
    When a new support requests comes in, move to the next step.
-2. **Associate Ticket with a Community**. Verify the support ticket is associated with the correct community. See [](support:community-association)
-3. **Assign a Support Agent to the Ticket**. The Support Triager assigns the ticket to a {term}`Support Agent` based on the considerations:
+2. **Assess whether the Ticket needs action**. Emails from PagerDuty and our cloud providers pass through the FreshDesk channel. Not all of these tickets require action: 
+   - Budget alerts from GCP and AWS: the {term}`Support Triager` should take action if there's a >20% increase in spend, which can include passing that email on to the {term}`Community Representative` or assigning a {term}`Support Agent` to research
+   - PagerDuty emails can typically be closed
+   - Service alerts, account closures and openings, etc. from AWS or GCP should be shared with all engineers via our Slack support-freshdesk channel
+3. **Associate Ticket with a Community**. Verify the support ticket is associated with the correct community. See [](support:community-association)
+4. **Convert Ticket to Community Support Hours**. If a community is requesting a meeting or an obvious deeper dive, move to the workflow for Community Success Hours. 
+5. **Assign a Support Agent to the Ticket**. The Support Triager assigns the ticket to a {term}`Support Agent` based on the considerations:
    - Who has touched this hub most recently?
    - Is this a documentation related question?
    - Who has capacity? Who is already loaded?
-   - Who has the skills? Who could use this as a learning opportunity.
-4. **Acknowledge and notify**. Notify the {term}`Community Representative` that the ticket has been assigned to a {term}`Support Agent`.
+   - Who has the skills? Who could use this as a learning opportunity, or just for fun?
+6. **Acknowledge and notify**. Notify the {term}`Community Representative` that the ticket has been assigned to a {term}`Support Agent`.
 
 The ticket has now been assigned a {term}`Support Agent` who continues the process
 
@@ -60,6 +65,7 @@ The ticket has now been assigned a {term}`Support Agent` who continues the proce
 ### Non-incident response process
 
 The goal of the non-incident response process is to bring standardization to our support response. This simple workflow tries to battle the bias towards a reactive response whereas it is also bringing some common patterns so all of our non-incident support responses are cohesive and shared among our support triagers.
+
 The current iteration of the workflow states each step and who should be responsible/accountable for the specific step, plus some other clarifications.
 
 When a new ticket lands in Freshdesk under the support group and it is not an incident, we aim to respond within 24 working hours with a suggested next action. The next steps should be followed when resolving a ticket:
@@ -152,6 +158,8 @@ Requests for set up of workshops (including changing shared passwords) are not a
   - Freshdesk ticket marked as Pending
   - When the request has been completed, mark the ticket as resolved.
 
+Note that our community-facing documentation tells communities to give us 2-3 weeks' notice before workshop support. If a request comes in later than that, the triager can decline the request. 
+
 (support:prioritize-requests)=
 ## Prioritizing non-incident support requests
 
@@ -167,15 +175,6 @@ We cannot sustainably prioritize all support requests over our other work, so he
 1. Our other work items
 1. Requests from communities that have no more {term}`Support Budget`.
 
-:::{admonition} Ask the PMs
-We have a few roles that are particularly useful for triaging and prioritizing our work items.
-
-- Our {role}`Project Manager` should have visibility over everybody's workload, and helps us prioritize work during sprints.
-- Our Product and Community Lead should understand which work items will be most impactful across our communities. (we currently do not have anybody serving in this role, but will soon!)
-
-When deciding how to prioritize a Change Request, ask for guidance from these two team members.
-
-:::
 
 
 (support:community-association)=
@@ -183,7 +182,7 @@ When deciding how to prioritize a Change Request, ask for guidance from these tw
 
 1. `Who: Support Triager`
 
-   Support Tickets are associated with Commuities based on the identity of the Ticket Requestor. 
+   Support Tickets are associated with Communities based on the identity of the Ticket Requestor. 
 
 1. `Who: Support Triager`
 
@@ -200,7 +199,7 @@ When deciding how to prioritize a Change Request, ask for guidance from these tw
    >
    > Thanks.
 
-   The *source of truth* for Community Representatives is the FreshDesk "Company" entry that is used to represent each of our Communities. Community Representatives are shown adjacent to each FreshDesk ticket:
+   The *source of truth* for Community Representatives is is HubSpot. That data is synced to the FreshDesk "Company" entry that is used to represent each of our Communities. Community Representatives are shown adjacent to each FreshDesk ticket:
 
     ```{image} /images/support/freshdesk_ticket.png
     :width: 500
