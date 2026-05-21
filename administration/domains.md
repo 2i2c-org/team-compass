@@ -28,7 +28,7 @@ We host most 2i2c websites on **GitHub Pages**, the static hosting tied to our G
 For sites that need features beyond what GitHub Pages provides, we use [Netlify](https://www.netlify.com/):
 
 - **Pull request previews** - for example, the [`2i2c.org` website](https://2i2c.org).
-- **Password-protected sites** - for example, the [finance dashboards](https://finance.2i2c.org) at `finance.2i2c.org`.
+- **Password-protected sites** - for example, the [finance dashboards](#finance:dashboards) at `finance.2i2c.org`.
 
 We are on Netlify's **Pro plan**, which comes with unlimited team members, so access is granted per individual rather than via a shared account.
 

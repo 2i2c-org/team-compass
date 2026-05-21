@@ -9,18 +9,13 @@ Our accounting actuals come from **SAGE Intacct**, managed by our CS&S project a
 Accounting infrastructure guide (SAGE Intacct)
 ```
 
-See [](accounting-statement-overview.md) for additional context on our SAGE Intacct reports.
+For visualizations of this data, see our [finance dashboards](#finance:dashboards).
 
 (accounting:statements)=
 ## Monthly reports and accounting actuals
 
 Each month, CS&S closes the books and updates our [budget projections](accounting:projections) with the latest actuals.
 See [the monthly process](monthly-process.md) for how this works.
-
-```{toctree}
-:hidden:
-accounting-statement-overview.md
-```
 
 ## Our custom accounting GL codes
 

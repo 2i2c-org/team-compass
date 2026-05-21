@@ -55,11 +55,7 @@ Here are a few tips to understand the GuideStar reports:
 
 ### List of salary bands
 
-:::{admonition} To be updated
-We are working on updating our salary bands across 2i2c, see [this issue for details](https://github.com/2i2c-org/meta/issues/171).
-:::
-
-We have an [internal salary sheet listing current positions and levels](https://docs.google.com/spreadsheets/d/1JZaudP91jABvlKof_A1EUHJAXa7DywLSG69PpQi-Cck/edit?usp=sharing).
+Current positions, roles, and salaries are tracked in our [AirTable Salaries base](#airtable:salaries).
 
 We recently developed an [internal Engineering-specific salary bands matrix](engineering:salary) as well.
 
