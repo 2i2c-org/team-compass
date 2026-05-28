@@ -59,6 +59,14 @@ Current positions, roles, and salaries are tracked in our [AirTable Salaries bas
 
 We recently developed an [internal Engineering-specific salary bands matrix](engineering:salary) as well.
 
+(compensation:cost-of-living)=
+## Cost of living adjustments (COLA)
+
+We aim to adjust salaries over time to offset the impact of inflation on team members' cost of living.
+Any annual adjustment is tied to our financial runway and benchmarked against the US Social Security Administration's [Cost of Living Adjustment (COLA)](https://www.ssa.gov/cola/), since we index our salaries to the US market.
+
+See the [DRAFT Cost of Living Adjustment Policy](https://docs.google.com/document/d/1n3_dDypuS8ANoyKORUo_MoLbmFQIjgc0lvtur4Azxjo/edit) for the current proposal, decision-making framework, and yearly decisions.
+
 ## Benefits and expenses policy
 
 This section describes our benefits and expenses policy across all team members at 2i2c. 2i2c team members include people who are designated as employees and as contractors, depending on their role at 2i2c.
