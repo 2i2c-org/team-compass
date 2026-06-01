@@ -31,6 +31,26 @@ See [](accounting.md) for a guide to navigating invoice and transaction data.
 
 This google document, [Defining processes to track 2i2c cost spend including cloud costs](https://docs.google.com/document/d/1fgKKLD0HZlgPetZhcwKhAarnZOED19XpHtUZozKslYY/edit?tab=t.gdtpnck2oli2#heading=h.a2fjdrf2j7sy), has all information about how we invoice cloud costs. The process to generate the cloud costs is located in the infrastructure repo at: [Calculate how much cloud infrastructure costs](https://infrastructure.2i2c.org/howto/budgeting-billing/bill/).
 
+#### Viewing Cloud Usage across clusters
+
+Occasionally customers will want to know their usage metrics across clusters. They can access aggregated cloud usage data from [https://2i2c.org/data/cloud/](https://2i2c.org/data/cloud/).
+
+General metrics include:
+- Total count of clusters and hubs
+- Unique monthly users by cluster
+- Active hubs by cluster
+
+On per-cluster pages the metrics include
+- Current MAU
+- Peak MAU
+- Active users by hub
+- Unique active users
+- Month-end unique MAUs
+
+:::{admonition} Data-consistency warning
+NOTE: We do not guarantee these URLs will persist over time, and are currently using this dashboard for feedback only. See [#3207 Decide on a home for the cluster usage statistics dashboard](https://github.com/2i2c-org/meta/issues/3207) for discussion around the final home of this dashboard
+:::
+
 ## Grant folders
 
 We use [the 2i2c Team Drive -> `Finances and Accounting -> Grants` folder](https://drive.google.com/drive/folders/1VvER_SxLDKjDYwfXYyEbPX9GN7YlsNpT?usp=sharing) to keep track of any materials related to a grant we are applying for or have received.
