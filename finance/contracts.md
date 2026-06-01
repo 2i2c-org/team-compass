@@ -47,6 +47,10 @@ On per-cluster pages the metrics include
 - Unique active users
 - Month-end unique MAUs
 
+:::{admonition} Data-consistency warning
+NOTE: We do not guarantee these URLs will persist over time, and are currently using this dashboard for feedback only. See [#3207 Decide on a home for the cluster usage statistics dashboard](https://github.com/2i2c-org/meta/issues/3207) for discussion around the final home of this dashboard
+:::
+
 ## Grant folders
 
 We use [the 2i2c Team Drive -> `Finances and Accounting -> Grants` folder](https://drive.google.com/drive/folders/1VvER_SxLDKjDYwfXYyEbPX9GN7YlsNpT?usp=sharing) to keep track of any materials related to a grant we are applying for or have received.
