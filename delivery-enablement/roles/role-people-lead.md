@@ -7,25 +7,25 @@
 
 **_TL;DR;_** The People Lead is accountable for shaping strategies and processes crucial for fostering a supportive and growth-oriented work environment. They support and advise our teams while also managing the day-to-day people practices that shape our organizational ethos.
 
-## AREAS OF RESPONSIBILITY & OUTCOMES
+## Areas of responsibility & outcomes
 
--   **Care for and grow people:** Their primary goal is to strategically support and advise our people, ensuring their well-being, growth, and effectiveness within a unique, globally distributed working model.
+- **Care for and grow people:** Their primary goal is to strategically support and advise our people, ensuring their well-being, growth, and effectiveness within a unique, globally distributed working model.
 
--   **Build and run our agile**[^1] **people practices:** The secondary goal is to act as a trusted advisor and operational expert for all people-related matters within the organization, providing coaching and guidance to people managers, designing and implementing structured, lightweight and responsive processes, and facilitating seamless operations.
+- **Build and run our agile**[^1] **people practices:** The secondary goal is to act as a trusted advisor and operational expert for all people-related matters within the organization, providing coaching and guidance to people managers, designing and implementing structured, lightweight and responsive processes, and facilitating seamless operations.
 
--   **Advise and support Executive Direction and leadership team, to make organizational work successful:** They play an active role in guiding change, so that we can tackle big changes and initiatives and build the organization we want to have in the future.
+- **Advise and support Executive Direction and leadership team, to make organizational work successful:** They play an active role in guiding change, so that we can tackle big changes and initiatives and build the organization we want to have in the future.
 
--   **Provide expertise and capacity to teams & leading from the center:** They're a hands-on supporter who lends capacity to every team. They're also a member of the leadership team, a facilitator and contributor to strategic initiatives.
+- **Provide expertise and capacity to teams & leading from the center:** They're a hands-on supporter who lends capacity to every team. They're also a member of the leadership team, a facilitator and contributor to strategic initiatives.
 
 :::{note}
 Caring for our people is not an isolated function within 2i2c.
 :::
 
-## FAILURE MODE
+## Failure mode
 
 We know the **People Lead** is failing if team members are all overwhelmed and burned out, aren't getting feedback, and are quitting.
 
-## KEY OUTCOMES
+## Key outcomes
 
 1. **Care for and grow people**
     1. Improved well-being, engagement and team cohesion (monitored through conversations or surveys)
@@ -44,15 +44,15 @@ We know the **People Lead** is failing if team members are all overwhelmed and b
     1. Fill in people management capacity when teams lack it (for example - coach team members, design roles, co-create development plans)
     2. Partner with managers and teams to resolve people management challenges
 
-## LINE-MANAGEMENT
+## Line-management
 
 The People Lead reports to the Chief of Staff.
 
-## KEY TOUCH POINTS
+## Key touch points
 
--   All people managers (coaching them to grow skills and work with them to make sure we're consistent and fair in our people practices)
--   CS&S HR: Jamille White (to borrow and share people management practices and avoid reinventing wheels)
--   Individual team members (guiding and supporting change and also offering people advice, coaching and an escalation point for people-related matters)
+- All people managers (coaching them to grow skills and work with them to make sure we're consistent and fair in our people practices)
+- CS&S HR: Jamille White (to borrow and share people management practices and avoid reinventing wheels)
+- Individual team members (guiding and supporting change and also offering people advice, coaching and an escalation point for people-related matters)
 
 
 <!-- Footnotes themselves at the bottom. -->

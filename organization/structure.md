@@ -17,7 +17,7 @@ Each area has a top-level section in our team compass, and it is that team's res
 
 - **[Delivery Enablement](../delivery-enablement/overview.md)**
 - **[Product and Services](../product-and-services/structure.md)**
-- **[Business Development](../business-development/bd-overview.md)**
+- **[Business Development](../business-development/overview.md)**
 
 ## Executive Director
 

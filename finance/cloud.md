@@ -5,6 +5,7 @@ All of our cloud costs are paid via [our Ramp credit card](admin:credit-card) wh
 These costs are recovered either by our central funds, or via reimbursement requests to our community partners.
 
 Below we describe how we recover these costs for various cloud infrastructure setups.
+See [](contracts:invoice-cloud) for how invoices for these costs are generated and dispatched.
 
 ## General principle
 

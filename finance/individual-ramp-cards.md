@@ -12,15 +12,15 @@ The Ramp Cards should be treated as an additional mechanism for spending money o
 
 Examples of good ways to use Ramp cards:
 
--   [Reimbursable expenses for our 2i2c team members](https://compass.2i2c.org/people/compensation/#list-of-additional-reimbursable-expenses-for-our-2i2c-team-members), including hardware, internet and wellness
--   Personal and professional development, including coaching, books, classes, conferences
--   Travel, team celebration, and meeting expenses, including marketing/swag
+- [Reimbursable expenses for our 2i2c team members](https://compass.2i2c.org/people/compensation/#list-of-additional-reimbursable-expenses-for-our-2i2c-team-members), including hardware, internet and wellness
+- Personal and professional development, including coaching, books, classes, conferences
+- Travel, team celebration, and meeting expenses, including marketing/swag
 
 Examples of ways _not to use_ your individual Ramp cards:
 
--   Cloud costs or other expenses incurred by communities - we have a separate card for that (look for the details in Bitwarden if you need it)
--   [Services purchased on behalf of a team by area leads](spending-money) - use the team card, also in Bitwarden for persistent services)
--   Any contracted services - those should be paid directly by CS&S using invoices
+- Cloud costs or other expenses incurred by communities - we have a separate card for that (look for the details in Bitwarden if you need it)
+- [Services purchased on behalf of a team by area leads](spending-money) - use the team card, also in Bitwarden for persistent services)
+- Any contracted services - those should be paid directly by CS&S using invoices
 
 ## Additional consideration when using Ramp cards
 
@@ -28,13 +28,13 @@ The allowed list above is not exhaustive (by design). 2i2c treats people like ad
 
 Questions team members should consider when using their cards in “_Good Faith_”:
 
--   Is this what's in the best interest of 2i2c?
--   Could this purchase or transaction be considered fraudulent (or unscrupulous)?
+- Is this what's in the best interest of 2i2c?
+- Could this purchase or transaction be considered fraudulent (or unscrupulous)?
 
 CS&S and 2i2c regularly review all transactions. Transactions that are deemed “Bad Faith” (opposite to _Good Faith_) will result in:
 
--   An internal review by the leadership team
--   Disciplinary actions (including possible termination).
+- An internal review by the leadership team
+- Disciplinary actions (including possible termination).
 
 These guidelines are (in parts) influenced by Netflix’s [expense policy](https://blog.pleo.io/en/netflix-doesnt-have-an-expense-policy-does-your-company-really-need-one).
 

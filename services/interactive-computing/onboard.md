@@ -4,7 +4,7 @@
 
 Scenario: A community is at the beginning of an Engagement with 2i2c for **Managed Interactive Computing hub**. This process assumes that the community is starting fresh with 2i2c but this process should also be used when a community is renewing a previous engagement.
 
-Onboarding assumes there is already a Deal in HubSpot with with either the status of 'Contract Admin' or 'Closed Won'.
+Onboarding assumes there is already a Deal in [HubSpot](hubspot:index) with with either the status of 'Contract Admin' or 'Closed Won'.
 
 ## Information collected about a community
 
@@ -41,37 +41,3 @@ Under 'Community Context', here is information that is useful:
 > - Q: Can you describe the data? Collaborating open science communities orbit around the heaviest objects in their science space -- their data. Where is it? (i.e. Do they have existing data in some cloud region or zone? Our default is AWS: us-west-2)
 
 
-## Process to deploy a new hub
-
-1. BD Acccount Manager initiates the converstion with the community to define the needs for a new hub.
-  - PS engineering should be included in this sync call while we are learning and refining this process.
-
-2. Use the Hub Configurator to capture information about the hub request. Capture additional additional information not in the Hub Configurator as free form notes.  With permission of the community, using Google Gemini to record a transcript of the request gathering meeting with the community.
-
-  - The Hub Configurator is found at https://2i2c.org/hub-configurator
-
-3. BD requests this new hub use the 'Hub Spot Order' workflow. This kicks off an automation that generates a 'BD request type ticket' that PS can then pick up. This automation has been used a few times so far. It is not yest perfect but the way to improve that process is to use it continuously iterate.
-
-4. Follow [](technical-support:update-contacts) to ensure this community is set up in HubSpot and FreshDesk.
-
-5. Once the new hub order is received, PS creates the new hub issue(s)
- - The means creating the New Hub GitHub issues (using the `New Hub Turnup - Setup` templates )
- - Use the information contained in
-    - The Hub Configurator link with selections made.
-    - HubSpot Deal information.
-    - HubSpot Community information
-    - Any additional free form notes attached to the Order.
-    - The Gemini transcript from the meeting with the community in step 2.
-- The ideal is that that there has already been sufficient information collected from the community to proceed without having to schedule a second technical meeting. If information is still missing blocking the creation of the New Hub Turnup issues, then:
-    - Contact the community to request the missing information
-    - Update the above process to collect this missing information to improve our process.
-
-6. The New Hub Turnup issues are scheduled for the next P&S interation. The hub is deployed and configured.
- - *Bias towards action* and make a reasonable assumption if there is lack of explicit information. If something can be re-configured after deployment that is better to make a choice than blocking the deployment.
- - Once there is hub deployed it will be much easier to show a community what additional information is required and why.
-
-7. The community is notified to all technical contacts(via an email sent through Freshdesk) that the new hub is available
-
-8. BD is notified that the hub has been delivered
-
-9. BD confirms value is being received by this community by checking the Grafana [Engagement Details](https://grafana.pilot.2i2c.cloud/d/eb191919-5ca0-40b4-a696-a0415daf7c6a) dashboard. We expect at least 5 non-2i2c sessions of usage to declare that First Value is being received by a community for this new hub. (See [](communityvalue:tfv) for more information.)

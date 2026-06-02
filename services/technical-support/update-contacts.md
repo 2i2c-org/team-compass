@@ -4,7 +4,7 @@
 
 Scenario: A community has an engagement with 2i2c for **Technical Support**. Community Representative information is missing in FreshDesk.
 
-During the sales or renewal process, BD is asked to associate *Contacts* with each *Community* in HubSpot.
+During the sales or renewal process, BD is asked to associate *Contacts* with each *Community* in [HubSpot](hubspot:index).
 
 HubSpot is the source of truth for this Community-Contact information. There is a GitHub action (see https://github.com/2i2c-org/hubspot-communities) that run four times a day to sync information from HubSpot to FreshDesk.
 

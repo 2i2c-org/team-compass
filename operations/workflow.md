@@ -144,7 +144,7 @@ The [**Product and Services board**](https://github.com/orgs/2i2c-org/projects/5
 ## Retrospective boards
 
 We use [EasyRetro](https://easyretro.io) to facilitate our retrospectives.
-The paid user account is `admin@2i2c.org` and the credentails are stored in [our shared BitWarden account](#account:bitwarden).
+The paid user account is [`admin@2i2c.org`](#workspace:admin) and the credentails are stored in [our shared BitWarden account](#account:bitwarden).
 
 Follow the links below to the different retro boards.
 

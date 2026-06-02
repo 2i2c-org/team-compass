@@ -7,19 +7,19 @@
 
 **TL;DR;** The Chief of Staff (CoS) extends the capacity of the Executive Director (ED) by identifying the crucial challenges or opportunities across the org and closing those gaps. They work across all Flight Levels, prioritizing opportunities to ensure that strategic outcomes are operationalized.
 
-## AREAS OF RESPONSIBILITY
+## Areas of responsibility
 
--   **Unblock strategically important initiatives** - The CoS works with the ED to identify critical initiatives that need moving forward then provide direction and extra capacity to move them forward.
+- **Unblock strategically important initiatives** - The CoS works with the ED to identify critical initiatives that need moving forward then provide direction and extra capacity to move them forward.
 
--   **Provide decision-making (by proxy for the ED)** - They make decisions on behalf of the ED, attend strategically important meetings on their behalf and use coaching conversations to transparently guide decision-making and cross-functional work in teams
+- **Provide decision-making (by proxy for the ED)** - They make decisions on behalf of the ED, attend strategically important meetings on their behalf and use coaching conversations to transparently guide decision-making and cross-functional work in teams
 
--   **Uplevel senior team members** - In conjunction with the People Lead, the CoS helps uplevel senior team members enabling them to operationalize their systems of work and to effectively support their team members.
+- **Uplevel senior team members** - In conjunction with the People Lead, the CoS helps uplevel senior team members enabling them to operationalize their systems of work and to effectively support their team members.
 
-## FAILURE MODE
+## Failure mode
 
 2i2c doesn't have information or any warnings to know that it's getting to a funding/financial crunch (like July 2024).
 
-## KEY OUTCOMES
+## Key outcomes
 
 1. Advise and support Executive Director (ED) and leadership team
 
@@ -37,15 +37,15 @@
     1. Co-host and support the creation ceremonies
     2. Participate in organizational future state design (including conversations pertaining to hiring and termination of staff)
 
-## LINE-MANAGEMENT
+## Line-management
 
 The Chief of Staff reports to the Executive Director.
 
-## KEY TOUCH POINTS
+## Key touch points
 
--   Executive Director
--   [People Lead](role-people-lead.md)
--   Business Development Leadership
--   Product and Services triumvirate
--   Key community governance teams (e.g. Catalyst governance cohort) and leadership partners (e.-g. Yo from OLS)
--   CS&S Operations: _Dr. Kena Mayberry_
+- Executive Director
+- [People Lead](role-people-lead.md)
+- Business Development Leadership
+- Product and Services triumvirate
+- Key community governance teams (e.g. Catalyst governance cohort) and leadership partners (e.-g. Yo from OLS)
+- CS&S Operations: _Dr. Kena Mayberry_

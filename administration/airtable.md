@@ -1,12 +1,13 @@
 (accounts:airtable)=
 # AirTable accounts
 
-```{admonition} Deprecated
+```{admonition} Mostly deprecated
 :class: warning
-We no longer use AirTable for most things, so generally speaking you probably don't need to have access to it.
+The only thing we actively use AirTable for is tracking team [salaries and contracts](#airtable:salaries).
+Most other historical content in AirTable is no longer maintained.
 ```
 
-This page covers our legacy AirTable account and how to access it.
+This page covers our AirTable account, how to access it, and what we use it for.
 
 ## Read-only access to the AirTable
 
@@ -23,14 +24,45 @@ It is the only account with edit permissions.
 
 To access this account, use our [shared passwords account](account:bitwarden) for credentials.
 
+(airtable:salaries)=
+## Salaries base
+
+We use a single AirTable base to track team salaries and internal contracts.
+
+[Open the Salaries base](https://airtable.com/appHxyAV6MR1g8e2w/tblhjCAPx1Fb1A0FE/viwAbKQOByVR92C09?blocks=hide).
+
+The base has three linked tables:
+
+People
+: Everyone who currently or has historically worked at 2i2c.
+
+Roles / Titles
+: Roles and levels at 2i2c with a start/end date and salary, capturing how roles evolve over time.
+
+Contracts
+: Internal team contracts that link a person to a role and represent an active contract.
+
+For our salary policy, bands, and benchmarking process, see [](../people/compensation.md).
+
+### How to update roles and contracts
+
+Every year, we update our roles to reflect cost of living (COLA) adjustments and changes to descriptions.
+Follow these steps:
+
+- For each role and for each contract that will continue:
+- Duplicate it
+- Update the Start / End date (usually July 1st -> June 30th of the next year)
+- Update the salary / description if necessary
+- Link the old item to the new item via the "Renewed by" field in the old item.
+
+## AirTable structure overview
+
 The rest of this page describes an overview of AirTable's structure in general.
 
 ## Bases
 
 A base is the highest unit of organization in AirTable.
 They are generally categorized by a broad topic that might have a number of related datasets inside.
-
-For example, we have [an accounting AirTable base](accounting:statements) that contains several tables with information about our incoming and outgoing funds and contracts.
 
 Each base has three types of elements in it: **data**, **automations**, and **interfaces**.
 Each is described below.
@@ -71,7 +103,7 @@ For example, we have [a Link Invoices automation](https://airtable.com/appbjBTRI
 ### Interfaces
 
 Are dashboards that provide quick and visual summaries of the tables in a base.
-For example, we have [a Monthly Invoices dashboard](contracts:dashboards) that summarizes major financial invoicing and contracts activity each month.
+For example, we have a Monthly Invoices dashboard that summarizes major financial invoicing and contracts activity each month.
 
 ### Example screenshot
 

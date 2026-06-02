@@ -55,13 +55,17 @@ Here are a few tips to understand the GuideStar reports:
 
 ### List of salary bands
 
-:::{admonition} To be updated
-We are working on updating our salary bands across 2i2c, see [this issue for details](https://github.com/2i2c-org/meta/issues/171).
-:::
-
-We have an [internal salary sheet listing current positions and levels](https://docs.google.com/spreadsheets/d/1JZaudP91jABvlKof_A1EUHJAXa7DywLSG69PpQi-Cck/edit?usp=sharing).
+Current positions, roles, and salaries are tracked in our [AirTable Salaries base](#airtable:salaries).
 
 We recently developed an [internal Engineering-specific salary bands matrix](engineering:salary) as well.
+
+(compensation:cost-of-living)=
+## Cost of living adjustments (COLA)
+
+We aim to adjust salaries over time to offset the impact of inflation on team members' cost of living.
+Any annual adjustment is tied to our financial runway and benchmarked against the US Social Security Administration's [Cost of Living Adjustment (COLA)](https://www.ssa.gov/cola/), since we index our salaries to the US market.
+
+See the [DRAFT Cost of Living Adjustment Policy](https://docs.google.com/document/d/1n3_dDypuS8ANoyKORUo_MoLbmFQIjgc0lvtur4Azxjo/edit) for the current proposal, decision-making framework, and yearly decisions.
 
 ## Benefits and expenses policy
 

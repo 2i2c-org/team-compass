@@ -10,6 +10,7 @@ contracts
 spending-money
 fundraising
 projections
+dashboards
 monthly-process
 payments
 cloud

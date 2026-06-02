@@ -8,7 +8,7 @@ We use **invoices** to exchange funds (incoming and outgoing) that are related t
 
 We track our contracts and deals in two systems:
 
-- **HubSpot** is our source of truth for all **deal-level information** — both pipeline opportunities and committed (closed-won) deals. See [](../business-development/hubspot.md) for more about how we use HubSpot.
+- **HubSpot** is our source of truth for all **deal-level information** — both pipeline opportunities and committed (closed-won) deals. See [](#hubspot:index) for more about how we use HubSpot.
 - **SAGE Intacct** is our source of truth for all **invoices and transactions** on a deal. See [](accounting.md) for how to navigate SAGE Intacct.
 
 (contracts:amount-remaining)=
@@ -26,7 +26,31 @@ CS&S manages all invoices in **SAGE Intacct**.
 When an invoice is authorized, it is recorded as realized revenue in our accounting actuals.
 See [](accounting.md) for a guide to navigating invoice and transaction data.
 
-(contracts:dashboards)=
+(contracts:invoice-cloud)=
+### How to invoice communities for cloud costs
+
+This google document, [Defining processes to track 2i2c cost spend including cloud costs](https://docs.google.com/document/d/1fgKKLD0HZlgPetZhcwKhAarnZOED19XpHtUZozKslYY/edit?tab=t.gdtpnck2oli2#heading=h.a2fjdrf2j7sy), has all information about how we invoice cloud costs. The process to generate the cloud costs is located in the infrastructure repo at: [Calculate how much cloud infrastructure costs](https://infrastructure.2i2c.org/howto/budgeting-billing/bill/).
+
+#### Viewing Cloud Usage across clusters
+
+Occasionally customers will want to know their usage metrics across clusters. They can access aggregated cloud usage data from [https://2i2c.org/data/cloud/](https://2i2c.org/data/cloud/).
+
+General metrics include:
+- Total count of clusters and hubs
+- Unique monthly users by cluster
+- Active hubs by cluster
+
+On per-cluster pages the metrics include
+- Current MAU
+- Peak MAU
+- Active users by hub
+- Unique active users
+- Month-end unique MAUs
+
+:::{admonition} Data-consistency warning
+NOTE: We do not guarantee these URLs will persist over time, and are currently using this dashboard for feedback only. See [#3207 Decide on a home for the cluster usage statistics dashboard](https://github.com/2i2c-org/meta/issues/3207) for discussion around the final home of this dashboard
+:::
+
 ## Grant folders
 
 We use [the 2i2c Team Drive -> `Finances and Accounting -> Grants` folder](https://drive.google.com/drive/folders/1VvER_SxLDKjDYwfXYyEbPX9GN7YlsNpT?usp=sharing) to keep track of any materials related to a grant we are applying for or have received.
