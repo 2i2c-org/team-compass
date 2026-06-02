@@ -43,3 +43,5 @@ These guidelines are (in parts) influenced by Netflix’s [expense policy](https
 **You must upload a receipt for all purchases, via ramp.com. **It is the responsibility of each 2i2c team member to upload receipts regarding transactions made with their personally assigned Ramp card.
 
 CS&S has requested that all Ramp information/transactions must be updated in Ramp by the end of day EVERY Friday. Failure to do so may result in the loss of access to a Ramp card.
+
+These receipts and transactions are reviewed during our weekly [Ramp approval process](#finance:managing-ramp).
