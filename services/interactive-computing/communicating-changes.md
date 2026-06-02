@@ -6,31 +6,19 @@ This page describes how to communicate changes to community infrastructure as pa
 
 ## How to send an e-mail to all community representatives
 
-**First, download a CSV of community contacts**
+We send these e-mails through HubSpot, which is configured to send from our `@2i2c.org` domain.
+See [](#hubspot:email) for the general process of e-mailing groups of contacts.
 
-1. In HubSpot, go to the [**Active Communities View**](https://app-na2.hubspot.com/contacts/242496330/objects/0-410/views/350388040/list?noprefetch=). This is a list of communities with an "Active" member status[^note]
-2. Click {guilabel}`Export` -> {guilabel}`Export`
-3. Go to the [Export Audit page](https://app-na2.hubspot.com/sales-products-settings/242496330/importexport)
-4. Click the top-most **Active Communities** link. It will download a CSV of contacts.
+Send to our **active community representatives**, which is the combination of these two segments[^note]:
+
+- [Community representatives for Active Communities](https://app-na2.hubspot.com/contacts/242496330/objectLists/54/filters)
+- [Technical contacts for Active Communities](https://app-na2.hubspot.com/contacts/242496330/objectLists/56/filters)
+
+See [](#hubspot:email) for instructions on sending an e-mail to segments.
+
+Replies to these e-mails are tracked in FreshDesk, so check there periodically for any responses.
 
 [^note]: This may change if we track active communities at the _deal_ level, but as of May 6 2026 this is how we define active communities.
-
-**Next, extract the e-mails with our helper sheet**
-
-1. Go to our [contacts helper google sheet](https://docs.google.com/spreadsheets/d/1XXMcDljWZIg08nHK-QU2ek0kiPnVZXpPJPil9CFl7Jo/edit?gid=641195895#gid=641195895). This is a convenience sheet to extract a unique list of contact e-mails from this export.
-2. Follow the instructions on the first tab of that sheet.
-3. **Option 1**: Paste the resulting e-mails into your e-mail client of choice and send!
-4. **Option 2**: Download the e-mails to a CSV file and follow the FreshDesk steps below.
-
-**Last, send an email using the FreshDesk template**
-
-We use FreshDesk's [Proactive Outreach](https://support.freshdesk.com/support/solutions/articles/239926-proactive-support-email-outreach) feature to send email alerts for changes.
-
-- Open [Proactive Outreach](https://2i2c.freshdesk.com/a/admin/proactive-support).
-- Upload the CSV you created above. This may take a few minutes.
-- When prompted to compose an email, start by adding a canned response, and choose Technical Announcement.
-- Replace PROMPTs in the Technical Announcement template with text matching the specific change.
-- Hit Send.
 
 ## When this process applies
 
