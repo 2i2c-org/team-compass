@@ -8,6 +8,8 @@ We use these channels for communicating with external stakeholders like Communit
 - **[The 2i2c FreshDesk account](support:freshdesk)** is where we track all support requests and communication.
 - **{doc}`the "Get Support" page <docs:support>`** provides guidance that communities may follow to get support.
 
+To e-mail a consortium, a group of communities, or specific community representatives, see [](#hubspot:email).
+
 (support:freshdesk)=
 ### FreshDesk
 
