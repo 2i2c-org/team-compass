@@ -5,6 +5,9 @@ See [our Mailing List landing page](https://2i2c.org/mailing-list) for a sign-up
 
 See [](./strategy.md) for how our mailing list fits into our communications strategy.
 
+The mailing list is for our public newsletter audience.
+To e-mail a consortium, a group of communities, or specific community representatives, see [](#hubspot:email) instead.
+
 ## Access Mailchimp
 
 We have a single Mailchimp account and share access to team members via a single `username`/`password`.
