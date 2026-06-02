@@ -14,5 +14,6 @@ dashboards
 monthly-process
 payments
 cloud
+managing-ramp
 individual-ramp-cards
 ```

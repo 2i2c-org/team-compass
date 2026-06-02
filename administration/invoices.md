@@ -1,3 +1,4 @@
+(admin:invoices)=
 # Send invoices to CS&S
 
 This page describes the process for sending invoices to our fiscal sponsor, {term}`Code for Science and Society`.
@@ -15,7 +16,7 @@ This includes any team members that are paid off of fixed-term contracts and sub
    These are both organizational accounts to track the invoices and ensure visibility across the organization.
    `admin@2i2c.org` is a [shared Google Group](#workspace:admin) that any 2i2c team member can join.
 5. **CS&S confirms your invoice was received**.
-   Once your invoice is received, you'll get an automated email from Ramp. Once in Ramp, invoices are typically reviewed and approved weekly, on Thursdays.   
+   Once your invoice is received, you'll get an automated email from Ramp. Once in Ramp, invoices are typically reviewed and approved weekly, on Thursdays (see [](#finance:managing-ramp)).
 6. **Do not hesitate to ask about the status of your invoice**.
    The above steps should be all you need to do, but do not hesitate to reach out again if things seem to be going slow. 
 
