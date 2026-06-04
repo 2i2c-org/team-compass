@@ -45,3 +45,20 @@ These guidelines are (in parts) influenced by Netflix’s [expense policy](https
 CS&S has requested that all Ramp information/transactions must be updated in Ramp by the end of day EVERY Friday. Failure to do so may result in the loss of access to a Ramp card.
 
 These receipts and transactions are reviewed during our weekly [Ramp approval process](#finance:managing-ramp).
+
+## CS&S expense policy
+
+All cardholders must read and sign the [CS&S Ramp expense policy](https://drive.google.com/file/d/1FyAEMZFrvjDGnRrNCT-jSjB5ybpRoFoq/view?usp=drive_link).
+This is also linked in the [Ramp guide doc](#finance:managing-ramp).
+
+The most important parts of the policy for cardholders:
+
+- **Reconcile Ramp by end of day every Friday.** All transactions from the week must be fully coded and approved.
+- **Attach a receipt to every transaction, no matter how small.** There's no minimum threshold. For lodging we need line items, not a generic credit card slip.
+- **Complete all Intacct fields on each transaction:** GL/category, Memo, Location, Department (our FSP name), Class, and Project (grant name + 5-digit number).
+- **Split multi-grant charges** one line per grant code.
+- **Submit out-of-pocket reimbursements within 10 days** of the expense.
+- **Never put alcohol on grant funds.**
+- **No personal charges or cash withdrawals on the card, ever.** Report a lost/stolen card to Accounting@codeforsociety.org and lock it in Ramp immediately.
+- **Missing data blocks month-end close for all FSPs.** One unreconciled transaction blocks month-end close for _every_ FSP, which is why the Friday deadline is enforced strictly.
+- **4-step non-compliance ladder:** written reminder -> reduced limit -> frozen card -> revoked card.
