@@ -1,7 +1,7 @@
 # Financial strategy
 
 Our financial strategy guides how we'll make decisions that impact our finances.
-This includes our optimal burn rate and how we'll prioritize different kinds of revenue streams.
+This includes the indicators we watch to stay sustainable and how we'll prioritize different kinds of revenue streams.
 
 ## Definitions
 
@@ -21,8 +21,12 @@ Monthly burn rate
   See [our budget projections](accounting:projections) for how we project future revenue using HubSpot deal data.
 
 Runway
-: `cash on hand / monthly burn rate`. This is the number of months at our current burn rate before we run out of funds.
-  If we know more about expected increases in funding, we can also calculate by [projecting current numbers into the future](accounting:projections) and seeing when we hit `$0`.
+: How many months before we run out of funds. We look at this two complementary ways:
+
+  - **Projected runway** [projects current numbers into the future](#accounting:projections) (for both committed and expected revenue) and sees when we hit `$0`. It tells us whether we can afford to grow.
+  - **Cash reserve** is the simpler `cash on hand / monthly costs`: how long we'd last _if revenue stopped today_. It tells us how resilient we are to disruption.
+
+  Both are tracked as [financial health indicators](#finance:financial-health-indicators) on our dashboard.
 
 ## Cycles of capacity growth
 
@@ -35,19 +39,57 @@ Here's what these cycles should look like:
 1. **Capacity growth**. Invest to grow our capacity to serve, develop, and experiment. This will _shorten our runway_ (by increasing our costs).
 2. **Commitment growth**. Invest in growing revenue via contracts and grants at a fixed capacity. This will _lengthen our runway_ (by increasing our revenue).
 
-## Optimal runway
+(finance:financial-health-indicators)=
+## Financial health indicators
 
-Our goal is to **keep our runway around 12 months, but to keep it roughly flat over time**[^practices]. Here are the bounds for our optimal burn rate:
+We track a handful of indicators to judge whether 2i2c is financially healthy and sustainable.
+Their live values, target thresholds, and color-coded bands live on the [financial health indicators](https://finance.2i2c.org/projections/) of our [finance dashboard](#finance:dashboards) - this section describes what each one asks and why it matters.
 
-[^practices]: Best-practices in the start-up ecosystem recommends a runway between 16-24 months.
-    The [Principles of Open Scholarly Infrastructure](https://openscholarlyinfrastructure.org/) recommend 12 months of operating costs on-hand.
+Committed runway
+: How many months we can operate before cash runs out, **assuming we fully collect our on-the-books contracts**.
+  It tells us whether we can afford to grow or hire with committed revenue.
+  We measure it in sales cycles (the time it takes to close new revenue) rather than absolute months, so the target scales with how quickly we can respond.
 
-- **24 months**: 🚨Alarm bells! We are spending too little, we should hire or pay others for work.
-- **18 months**: Focus on growing capacity. We can hire somebody without being too worried about finances.
-- **15 months**: Sweet spot, this should be our average runway over time.
-- **12 months**: Focus on growing revenue. We should only hire somebody if there's an absolute need.
-- **9 months**: 🚨Alarm bells! We are spending too much, we should focus on boosting revenue.
-- **3 months**: 🚨🚨Extra alarm bells! Reduce capacity or wind-down operations. Unless more funding is imminent, we should use our funds to support team members as they search for other positions.
+Estimated runway
+: How many months we can operate before cash runs out, **assuming our expected deals land as well**.
+  This is a more ambitious version of our "Committed" runway, with more assumptions being made.
+  It is our best estimate for what we think will happen, and generally our default definition of "our runway".
+
+Cash reserve
+: How many months we could operate **if revenue stopped today**.
+  Unlike projected runway it ignores future revenue, so it measures resilience to disruption.
+  Nonprofit best practice is to hold 3-6 months of operating costs in reserve[^reserves].
+
+Committed cost coverage
+: How much of our team's monthly cost is paid for by **already-signed** work.
+  This tells us whether our active contracts are covering our costs (ie, how quickly we're eating into our cash).
+
+Pipeline coverage
+: Whether our probability-weighted **pipeline** is large enough to fill the cost gap that signed work doesn't already cover.
+  This tells us whether we expect to cover our cost gap with new sales.
+
+Customer concentration
+: How much of our revenue depends on our largest few customers.
+  High concentration means losing a single relationship could threaten our solvency.
+
+[^reserves]: See [Nonprofit Operating Reserves: An Introduction](https://nonprofitaccountingbasics.org/sites/default/files/03-Nonprofit%20Operating%20Reserves-An%20Introduction_0.pdf) and [Nonprofit Operating Reserve: Policy, Ratios, and IRS Rules](https://legalclarity.org/nonprofit-operating-reserve-policy-ratios-and-irs-rules/) for the rationale and common benchmarks behind operating-reserve targets.
+
+## Cost recovery indicators
+
+Beyond the projections above, we informally track whether we're **collecting money we've already earned or been promised**.
+These live on the [recovery indicators](https://finance.2i2c.org/recovery/) page of our dashboard:
+
+Invoice collection
+: Are we collecting invoices we've already billed, or are they slipping overdue?
+
+Grant collection pace
+: Are we invoicing our active grants on pace with the time elapsed on each contract?
+
+MAU recovery
+: Are we billing the monthly-active-user usage fees that our hub usage implies?
+
+Cloud recovery
+: Are we billing back the cloud costs we incur on behalf of communities?
 
 ## Balance of contract revenue vs. grants
 
@@ -86,10 +128,10 @@ As an example of using the above principles in action, here are a few questions 
 - Will this role grow our capacity in the area of highest need?
 - Will this role contribute to bringing in more revenue from 2i2c?[^revenue]
   If so, we may update our budget projections before deciding on the financial impact of the hire.
-- Will hiring this role shorten our runway to less than 12 months?
-  Assume it will take 3 months for this person to ramp-up and begin contributing at full capacity.
-  So 12 months here is a reflection of our 9 month runway alarm window.
-  
+- Can we afford the role, and does signed work fund it?
+  Check the [**projected runway** and **committed cost coverage** indicators](#finance:financial-health-indicators) - we should only hire when both look healthy (the dashboard spells out this "should we hire?" logic).
+  Assume it will take about 3 months for a new hire to ramp up and contribute at full capacity.
+
 [^revenue]: For example:
 
     - They will grow our technical capacity, allowing us to bring on more managed hubs.
