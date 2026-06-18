@@ -1,3 +1,4 @@
+(delivery:engagement-management)=
 # Engagement Management
 
 Project Management Tool: [Asana](https://app.asana.com/)
@@ -13,7 +14,7 @@ We have not, **yet**, automated the creation of Asana Projects from Hubspot Deal
 Engagements are encoded in Asana as *Projects*.  To create a new Engagement, click **Create** in Asana and selection **Project**.
 
 Use the project template *Engagement Project*. Set the name of the project to be the same string as the HubSpot Deal Name. (If the HubSpot Deal Name is incorrect, fix this first).
-Once the `HubSpot Deal URL` field is set (see below), a daily automation ([sync-asana](https://github.com/2i2c-org/sync-asana)) keeps the project name matched to the HubSpot deal name, so later renames in HubSpot propagate automatically.
+Once the `HubSpot Deal URL` field is set (see below), a [daily automation](#operations:data-sync) keeps the project name, contract value, and start/end dates matched to the HubSpot deal, so later changes in HubSpot propagate automatically.
 
 :::{attention}
 Today, there is only one template called *Engagement Project*. In a future iteration of these instructions there could be templates for each type of membership, or equivalents for any class of Engagements that should have the same overall structure

@@ -24,7 +24,7 @@ Before logging new activity with either method, check that `Hours Spent` has not
 - Create a new issue in GitHub.
 - Include the community's name and specific contact people for the request; if the request came from FreshDesk, add the FreshDesk link.
 - Mark GitHub issues on the P&S Project Board with the label `CSH` to indicate this is Community Success Hours activity.
-- A GitHub automation ([sync-asana](https://github.com/2i2c-org/sync-asana)) will automatically create a corresponding task in Asana. Updates to the title, description, hours spent, and issue status sync one-directionally from GitHub to Asana (changes made in Asana will be overwritten).
+- A [GitHub automation](#operations:data-sync) will automatically create a corresponding task in Asana. Updates to the title, description, hours spent, and issue status sync one-directionally from GitHub to Asana (changes made in Asana will be overwritten).
 
 ### Logging via Asana
 
