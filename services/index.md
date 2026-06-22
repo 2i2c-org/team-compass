@@ -47,9 +47,9 @@ Leadership orientation
 :link: open-source-development/index
 :link-type: doc
 
-⚙️🌍 **Open Source Development**
+⚙️🌍 **Open Source Development via Consortia**
 
-2i2c partners with our communities to create a virtuous cycle between open science communities that **create knowledge** and open source communities that **build the tools** to do so.
+2i2c partners with our communities to create a virtuous cycle between open science communities that **create knowledge** and open source communities that **build the tools** to do so. We're exploring consortia - collecting groups of communities who are interested in solutions to similar problems - as a way to sustainably prioritize, fund, and design solutions together.  
 :::
 
 :::{grid-item-card}
