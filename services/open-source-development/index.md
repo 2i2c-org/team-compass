@@ -16,7 +16,7 @@ Consortia give us a structure for collectively refining and prioritizing 2i2c ro
 - A way to ensure that solutions work for many kinds of stakeholders.  
 - A way to join forces in design, development, and funding.
 
-And a consortium's shared goals are to build better solutions for all communities 2i2c serves, while collaborating and learning from each other.
+And a consortium's shared goals are to build better solutions for all communities 2i2c serves, while collaborating and learning from each other. Together, we're able to fund and solve problems by sharing resources and expertise.
 
 # How a consortium operates
 
