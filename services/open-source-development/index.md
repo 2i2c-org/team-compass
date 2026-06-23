@@ -34,16 +34,6 @@ Each consortium starts with a shared problem or narrative, and a gathering of pe
 
 Once a consortium has kicked off, each member community participates in our planning ceremonies and gets the same updates on our work together, although they may contribute in different ways. 
 
-#### How we communicate
-
-We currently have one active consortium, the Cloud Cost Optimization Consortium. It's organized around one narrative: [Optimize cloud spend on commercial cloud vendors](https://github.com/2i2c-org/narratives/issues/4). 
-
-- Consortia typically have a live (virtual) meeting quarterly to set priorities and demo recently completed work.  
-- Each consortium has a guide doc. Today that’s in Google Docs; you can find the [Cloud Cost Consortium’s README](https://docs.google.com/document/d/1_447531g-zozFRrJKXZz9x6hfafYzhe_djsCOqQ4dSQ/edit?tab=t.0#heading=h.7g1kmdukb6vh) in our Drive.   
-- We use [a private channel, #consortium-cloud-cost on Slack](https://2i2c.slack.com/archives/C0B25UEJETB) to share quick updates and requests, and as an open space for asynchronous discussion.   
-- We use email updates to send requests (for letters of support, co-proposals, user feedback on features) and demo reels of work in progress.  
-- When the consortium members are interested, we’ll try to organize in-person gatherings, typically as part of a conference where many member communities will already be present. 
-
 #### Roles consortium members play
 
 Each member community in a consortium is expected to contribute in at least one of the following:
