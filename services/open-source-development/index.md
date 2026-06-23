@@ -98,7 +98,7 @@ Membership focuses on the core support 2i2c provides a specific community:
 - Infrastructure hosting for (not every member community uses our infrastructure, but most do)  
 - Consortia-related development will still roll-out to any member communities
 
-Consortium adds connection 
+Consortium adds more connection between communities, a deeper focused on a particular area, and a vehicle for raising additional funds to do the work 
 
 - We’ll explore engaging people as consortia so that we can hear multiple voices at once.  
 - We hope this saves time in designing, validating, and developing solutions for shared problems  
