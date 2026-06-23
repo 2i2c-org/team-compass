@@ -6,7 +6,7 @@ Creating pathways for communities to share, learn, and collaborate helps us iden
 
 We work with many community leaders 1-to-1. This lets us see both problems and wins that they share with other communities. However, these leaders only see _each other_ if we make introductions between one community with a problem, and another community who has already come up with a solution. 
 
-Introducing consortia gives us a structure for collectively refining and prioritizing 2i2c roadmap work that multiple communities care about, working together to fund for that work, and uilding many:many connections, so communities learn from each other. 
+Consortia give us a structure for collectively refining and prioritizing 2i2c roadmap work that multiple communities care about, working together to fund that work, and building many-to-many connections, so communities learn from each other. 
 
 # What’s a consortium? 
 
