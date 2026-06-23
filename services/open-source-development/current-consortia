@@ -1,0 +1,15 @@
+# Current Consortia
+
+Each consortium represents a group of community stakeholders with a specific shared challenge. 
+
+## Cloud Cost Optimization
+We currently have one active consortium, the Cloud Cost Optimization Consortium. It's organized around one narrative: [Optimize cloud spend on commercial cloud vendors](https://github.com/2i2c-org/narratives/issues/4). 
+
+- This consortium has a live (virtual) meeting quarterly to set priorities and demo recently completed work.  
+- Each consortium has a guide doc. Today that’s in Google Docs; you can find the [Cloud Cost Consortium’s README](https://docs.google.com/document/d/1_447531g-zozFRrJKXZz9x6hfafYzhe_djsCOqQ4dSQ/edit?tab=t.0#heading=h.7g1kmdukb6vh) in our Drive.   
+- We use [a private channel, #consortium-cloud-cost on Slack](https://2i2c.slack.com/archives/C0B25UEJETB) to share quick updates and requests, and as an open space for asynchronous discussion.   
+- We use email updates via HubSpot to send requests (for letters of support, co-proposals, user feedback on features) and demo reels of work in progress. The Cloud Cost Consortium is organized as a segment in HubSpot. [TODO: add instructions for adding consortium member contacts]  
+- When the consortium members are interested, we’ll try to organize in-person gatherings, typically as part of a conference where many member communities will already be present. 
+
+## Future: Alternatives to Commercial Cloud
+Many of our member communities are using or interested in using [JetStream 2](https://jetstream-cloud.org/index.html), [CloudBank](https://www.cloudbank.org/), and the [National Research Platform](https://nrp.ai/). We expect a future consortium to form around this interest, with a goal of providing the same interface and service communities expect from 2i2c.
