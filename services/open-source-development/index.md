@@ -12,14 +12,11 @@ Consortia give us a structure for collectively refining and prioritizing 2i2c ro
 
 ## A consortium is:
 
-A network of stakeholders organized around a unifying problem.   
-A way to ensure that solutions work for many kinds of stakeholders.  
-A way to join forces in design, development, and funding.
+- A network of stakeholders organized around a shared challenge or goal.   
+- A way to ensure that solutions work for many kinds of stakeholders.  
+- A way to join forces in design, development, and funding.
 
-## With an aim to:
-
-Build better solutions for all communities 2i2c serves.   
-Collaborate and learn from each other.
+And a consortium's shared goals are to build better solutions for all communities 2i2c serves, while collaborating and learning from each other.
 
 # How a consortium operates
 
@@ -53,12 +50,12 @@ We currently have one active consortium, the Cloud Cost Optimization Consortium.
 
 Each member community in a consortium is expected to contribute in at least one of the following:
 
-1. React & prioritize \- Tell us what did or did not resonate in our most recent demo, weigh in on priorities   
-2. Endorse \- Sign a letter of support, tell a story that helps illustrate a problem, or consent to be named in a proposal   
-3. Test \- Be early adopters of new features and provide feedback  
-4. Connect \- Introduce us to a peer or funder  
-5. Co-propose \- Invite or join 2i2c on proposals?  
-6. Co-invest / co-fund \- Commit $X if others invest $3X
+1. **React & prioritize** - Tell us what did or did not resonate in our most recent demo, weigh in on priorities   
+2. **Endorse** - Sign a letter of support, tell a story that helps illustrate a problem, or consent to be named in a proposal   
+3. **Test** - Be early adopters of new features and provide feedback  
+4. **Connect** - Introduce us to a peer or funder  
+5. **Co-propose** - Invite or join 2i2c on proposals?  
+6. **Co-invest / co-fund** - Commit $X if others invest $3X
 
 Consortium members choose how much they want to co-create and influence design, share credit in our media & outreach, and have an opportunity to be early adopters of new features. They also ensure that 2i2c keeps building open source solutions that work for all research and education users. 
 
