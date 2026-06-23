@@ -25,10 +25,8 @@ And a consortium's shared goals are to build better solutions for all communitie
 Each consortium starts with a shared problem or narrative, and a gathering of people. 
 
 1. **Propose a shared problem.** This can be proposed by a 2i2c team member, or one or more community members. It most often emerges through discussions of the [2i2c roadmap](https://2i2c.org/roadmap/), where we recognize that several related initiatives serve a common narrative.  
-   * **Initiatives:** Units of work that deliver value to open source communities, technology that 2i2c builds, or infrastructure for our services. Designed around a problem statement and a proposed solution. Resolved in weeks-\>months. These are how we plan and share the [2i2c roadmap](https://2i2c.org/roadmap/)  
-   * **Narratives:** Stories of ongoing need for a large class of users or communities. Forms the basis of a consortium. Useful for funding pitches and grant-writing. Designed as a thread that ties multiple initiatives. Resolved in months-\>years.  
-   * So far we have one consortium, organized around one narrative: [Optimize cloud spend on commercial cloud vendors](https://github.com/2i2c-org/narratives/issues/4)   
-       
+   - **Initiatives:** Units of work that deliver value to open source communities, technology that 2i2c builds, or infrastructure for our services. Designed around a problem statement and a proposed solution. Resolved in weeks-\>months. These are how we plan and share the [2i2c roadmap](https://2i2c.org/roadmap/)  
+   - **Narratives:** Stories of ongoing need for a large class of users or communities. Forms the basis of a consortium. Useful for funding pitches and grant-writing. Designed as a thread that ties multiple initiatives. Resolved in months-\>years.           
 2. **Get critical mass.** Find enough other people who agree with the problem statement and are willing to participate in meetings about it.  
 3. **Meet to define goals.** Have a meeting with coalition members to refine the problem, and decide if there’s enough interest in moving forward.
 
@@ -36,17 +34,17 @@ Each consortium starts with a shared problem or narrative, and a gathering of pe
 
 Once a consortium has kicked off, each member community participates in our planning ceremonies and gets the same updates on our work together, although they may contribute in different ways. 
 
-### **How we communicate**
+### How we communicate
 
-We currently have one active consortium, the Cloud Cost Optimization Consortium. 
+We currently have one active consortium, the Cloud Cost Optimization Consortium. It's organized around one narrative: [Optimize cloud spend on commercial cloud vendors](https://github.com/2i2c-org/narratives/issues/4). 
 
-* Consortia typically have a live (virtual) meeting quarterly to set priorities and demo recently completed work.  
-* Each consortium has a guide doc. Today that’s in Google Docs; you can find the [Cloud Cost Consortium’s README](https://docs.google.com/document/d/1_447531g-zozFRrJKXZz9x6hfafYzhe_djsCOqQ4dSQ/edit?tab=t.0#heading=h.7g1kmdukb6vh) in our Drive.   
-* We use \#consortium-cloud-cost on Slack to share quick updates and requests, and as an open space for asynchronous discussion.   
-* We use email updates to send requests (for letters of support, co-proposals, user feedback on features) and demo reels of work in progress.  
-* When the consortium members are interested, we’ll try to organize in-person gatherings, typically as part of a conference where many member communities will already be present. 
+- Consortia typically have a live (virtual) meeting quarterly to set priorities and demo recently completed work.  
+- Each consortium has a guide doc. Today that’s in Google Docs; you can find the [Cloud Cost Consortium’s README](https://docs.google.com/document/d/1_447531g-zozFRrJKXZz9x6hfafYzhe_djsCOqQ4dSQ/edit?tab=t.0#heading=h.7g1kmdukb6vh) in our Drive.   
+- We use [a private channel, #consortium-cloud-cost on Slack](https://2i2c.slack.com/archives/C0B25UEJETB) to share quick updates and requests, and as an open space for asynchronous discussion.   
+- We use email updates to send requests (for letters of support, co-proposals, user feedback on features) and demo reels of work in progress.  
+- When the consortium members are interested, we’ll try to organize in-person gatherings, typically as part of a conference where many member communities will already be present. 
 
-### **Roles consortium members play**
+### Roles consortium members play
 
 Each member community in a consortium is expected to contribute in at least one of the following:
 
@@ -59,13 +57,13 @@ Each member community in a consortium is expected to contribute in at least one 
 
 Consortium members choose how much they want to co-create and influence design, share credit in our media & outreach, and have an opportunity to be early adopters of new features. They also ensure that 2i2c keeps building open source solutions that work for all research and education users. 
 
-### **Prioritizing (quarterly meeting)**
+### Prioritizing (quarterly meeting)
 
 We use every consortium member’s input to set next priorities, and plan to host a meeting once a quarter to showcase what’s done, what’s possible and gather input on what’s next. 
 
 Once we have a first set of priorities and start work, we share updates over Slack and email. We aim to make our updates and requests low effort and high value.
 
-### **Endorsing**
+### Endorsing
 
 When we bring a proposed piece of work that supports the consortium to a funder, we will ask for endorsements, which can include:
 
@@ -73,19 +71,19 @@ When we bring a proposed piece of work that supports the consortium to a funder,
 * User stories of impact  
 * Willingness to be listed as a collaborator on a proposal
 
-### **Testing**
+### Testing
 
 While we’re developing new solutions, testers serve as early adopters, and commit to trying out new features (which can include things that break). Their feedback helps us build the best solution for everyone. 
 
-### **Connecting** 
+### Connecting 
 
 Exactly what it sounds like: consortia members who connect us to other potential members, funders or collaborators directly create new sources of funding and ideas.  
 
-### **Co-proposing**
+### Co-proposing
 
 Member communities seeking grant funding themselves can add 2i2c as a subawardee or collaborator. We encourage consortium members to include initiatives from our roadmap in their proposals, and we can support them with estimates and co-writing. 
 
-### **Co-funding**
+### Co-funding
 
 When a community (or several communities) has funds they can direct towards open source development \- either specific initiatives/features they wish to “buy” or wider sustenance of the Jupyter ecosystem, they work with our Product and Business Development teams to describe and plan the work.   
 
