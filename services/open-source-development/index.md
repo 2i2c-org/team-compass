@@ -8,9 +8,9 @@ We work with many community leaders 1-to-1. This lets us see both problems and w
 
 Consortia give us a structure for collectively refining and prioritizing 2i2c roadmap work that multiple communities care about, working together to fund that work, and building many-to-many connections, so communities learn from each other. 
 
-# What’s a consortium? 
+## What’s a consortium? 
 
-## A consortium is:
+### A consortium is:
 
 - A network of stakeholders organized around a shared challenge or goal.   
 - A way to ensure that solutions work for many kinds of stakeholders.  
@@ -18,9 +18,9 @@ Consortia give us a structure for collectively refining and prioritizing 2i2c ro
 
 And a consortium's shared goals are to build better solutions for all communities 2i2c serves, while collaborating and learning from each other. Together, we're able to fund and solve problems by sharing resources and expertise.
 
-# How a consortium operates
+## How a consortium operates
 
-## Getting started. 
+### Getting started. 
 
 Each consortium starts with a shared problem or narrative, and a gathering of people. 
 
@@ -30,11 +30,11 @@ Each consortium starts with a shared problem or narrative, and a gathering of pe
 2. **Get critical mass.** Find enough other people who agree with the problem statement and are willing to participate in meetings about it.  
 3. **Meet to define goals.** Have a meeting with coalition members to refine the problem, and decide if there’s enough interest in moving forward.
 
-## Running the consortium
+### Running the consortium
 
 Once a consortium has kicked off, each member community participates in our planning ceremonies and gets the same updates on our work together, although they may contribute in different ways. 
 
-### How we communicate
+#### How we communicate
 
 We currently have one active consortium, the Cloud Cost Optimization Consortium. It's organized around one narrative: [Optimize cloud spend on commercial cloud vendors](https://github.com/2i2c-org/narratives/issues/4). 
 
@@ -44,7 +44,7 @@ We currently have one active consortium, the Cloud Cost Optimization Consortium.
 - We use email updates to send requests (for letters of support, co-proposals, user feedback on features) and demo reels of work in progress.  
 - When the consortium members are interested, we’ll try to organize in-person gatherings, typically as part of a conference where many member communities will already be present. 
 
-### Roles consortium members play
+#### Roles consortium members play
 
 Each member community in a consortium is expected to contribute in at least one of the following:
 
@@ -57,13 +57,13 @@ Each member community in a consortium is expected to contribute in at least one 
 
 Consortium members choose how much they want to co-create and influence design, share credit in our media & outreach, and have an opportunity to be early adopters of new features. They also ensure that 2i2c keeps building open source solutions that work for all research and education users. 
 
-### Prioritizing (quarterly meeting)
+##### Prioritizing (quarterly meeting)
 
 We use every consortium member’s input to set next priorities, and plan to host a meeting once a quarter to showcase what’s done, what’s possible and gather input on what’s next. 
 
 Once we have a first set of priorities and start work, we share updates over Slack and email. We aim to make our updates and requests low effort and high value.
 
-### Endorsing
+##### Endorsing
 
 When we bring a proposed piece of work that supports the consortium to a funder, we will ask for endorsements, which can include:
 
@@ -71,19 +71,19 @@ When we bring a proposed piece of work that supports the consortium to a funder,
 * User stories of impact  
 * Willingness to be listed as a collaborator on a proposal
 
-### Testing
+##### Testing
 
 While we’re developing new solutions, testers serve as early adopters, and commit to trying out new features (which can include things that break). Their feedback helps us build the best solution for everyone. 
 
-### Connecting 
+##### Connecting 
 
 Exactly what it sounds like: consortia members who connect us to other potential members, funders or collaborators directly create new sources of funding and ideas.  
 
-### Co-proposing
+##### Co-proposing
 
 Member communities seeking grant funding themselves can add 2i2c as a subawardee or collaborator. We encourage consortium members to include initiatives from our roadmap in their proposals, and we can support them with estimates and co-writing. 
 
-### Co-funding
+##### Co-funding
 
 When a community (or several communities) has funds they can direct towards open source development \- either specific initiatives/features they wish to “buy” or wider sustenance of the Jupyter ecosystem, they work with our Product and Business Development teams to describe and plan the work.   
 
@@ -96,7 +96,7 @@ Membership focuses on the core support 2i2c provides a specific community:
 - Infrastructure hosting for (not every member community uses our infrastructure, but most do)  
 - Consortia-related development will still roll-out to any member communities
 
-Consortium adds more connection between communities, a deeper focused on a particular area, and a vehicle for raising additional funds to do the work 
+Becoming part of a consortium adds more connection between communities, a deeper focused on a particular area, and a vehicle for raising additional funds to do the work 
 
 - We’ll explore engaging people as consortia so that we can hear multiple voices at once.  
 - We hope this saves time in designing, validating, and developing solutions for shared problems  
