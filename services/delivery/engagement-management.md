@@ -65,3 +65,16 @@ We don't, **yet**, have any automation to keep status or comments of GitHub issu
 Asana is a project planning tool. Use the Due Date fields for each task to capture the **anticipated** timeline when the task is to be scheduled.  Use the Estimated Time field to list the total time expected for the tast to be completed.  Due Dates and Estimate Time are needed for Asana to show the task on the Timeline view and to be used in capacity planning.
 
 One of the default tasks in any engagement could be 'Confirm Renewal with Community' with a due date set to 60 days before the end of the engagement.
+
+(delivery:tracking-time)=
+## Tracking time on tasks
+
+Each engagement shows a standard set of task columns: `Allocation`, `GitHub URL`, `Estimated time`, `GitHub Hours`, and `Total Time`, plus the native `Assignee`, `Due date`, and `Actual time`.
+
+Log your time in one place per task, and `Total Time` adds them up:
+
+- `Actual time`: time logged directly in Asana with its built-in timer, for work not tracked in a GitHub issue.
+- `GitHub Hours`: hours logged on the linked GitHub issue, synced into Asana automatically. Don't edit it in Asana, since the [sync](#operations:data-sync) overwrites it.
+- `Total Time`: `GitHub Hours` plus `Actual time`, the combined figure to report against an engagement.
+
+Use `Estimated time` for the hours a task is expected to take.

@@ -12,27 +12,27 @@ Community Success Hours can be proactively recommended to a community by any tea
 (csh:logging)=
 ## How to log CSH activity
 
-There are two ways to log CSH activity - use whichever fits your workflow:
+There are two ways to log CSH activity - use whichever fits your workflow, but log a given task in only one of them (see [](#delivery:tracking-time)):
 
 - **GitHub** - best if you're already tracking work in GitHub (e.g., engineering work). The instructions below show how to set it up to automatically sync the issue to Asana.
 - **Asana** - best if you need to log something retroactively or your work isn't tied to a GitHub issue.
 
-Before logging new activity with either method, check that `Hours Spent` has not already significantly exceeded `Hours Total` in Asana.
+Before logging new activity with either method, check that the engagement's `Total Time` has not already significantly exceeded the community's contracted hours.
 
 ### Logging via GitHub
 
 - Create a new issue in GitHub.
 - Include the community's name and specific contact people for the request; if the request came from FreshDesk, add the FreshDesk link.
 - Mark GitHub issues on the P&S Project Board with the label `CSH` to indicate this is Community Success Hours activity.
-- A [GitHub automation](#operations:data-sync) will automatically create a corresponding task in Asana. Updates to the title, description, hours spent, and issue status sync one-directionally from GitHub to Asana (changes made in Asana will be overwritten).
+- A [GitHub automation](#operations:data-sync) will automatically create a corresponding task in Asana. Updates to the title, description, `GitHub Hours`, and issue status sync one-directionally from GitHub to Asana (changes made in Asana will be overwritten).
 
 ### Logging via Asana
 
 - Go to [Active Engagements](https://app.asana.com/0/portfolio/1211914502801258/1211914511709245) in Asana.
 - Find the community you're doing CSH for and click it. Find the `Community Success Hours` sub-task for that community.
 - Create a new sub-task directly undern the `Community Success Hours` task.
-- Add a `Date` and `Hours spent` for the task.
-- Ignore the other fields (e.g., `GitHub Issue` is just for the automated workflow above)
+- Log your time on the sub-task with Asana's built-in timer (the `Actual time` field).
+- Ignore the other fields (e.g., `GitHub URL` is just for the automated workflow above)
 
 ## How to deliver Community Success Hours
 
@@ -45,13 +45,13 @@ Before logging new activity with either method, check that `Hours Spent` has not
 ### Counting hours
 
 - **Hours are counted per-person.** If two staff members attend a 1-hour meeting, log 2 hours total.
-- **Include follow-up work** (e.g., writing a summary, drafting a blog post) in the same GitHub issue and add that time to `Hours Spent`.
+- **Include follow-up work** (e.g., writing a summary, drafting a blog post) in the same GitHub issue and add that time to the hours you log there.
 
 ## Managing CSH work (Engagement Management and Community Relations)
 
 - Ensure New Engagements are created in Asana
 - Validate that CSH tasks are associated with the correct community and correct `Community Success Hours` task.
-- Confirm tasks that have been completed but do not have Hours Spent. If needed, estimate the Hours Spent based on the description of the task.
+- Confirm tasks that have been completed but have no time logged (`Total Time` is empty). If needed, estimate the time based on the description of the task.
 - Flag communities to BD that are either exceeding or underusing their expected Community Success Hours
 
 ## Reporting back to the community (BD)
