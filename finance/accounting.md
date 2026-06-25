@@ -29,7 +29,7 @@ These help us categorize transactions more effectively. Here is a summary:
 - - 4220 Revenues: Services
   - A parent category for this collection of services, we need this as a parent category for CS&S's system.
 - - 4221 Revenues: Services: Membership fees
-  - For recurring membership fees. This is the recurring part of our 3-tier menu.
+  - For recurring membership fees (the capped base fee for a General or Premier membership). Usage, cloud cost recovery, and service fees are tracked separately in the accounts below.
 - - 4222 Revenues: Services: Cloud cost recovery
   - For pass-through cloud costs. For when we pay for infrastructure on behalf of communities and then pass the costs to them.
 - - 4223 Revenues: Services: Usage fees
