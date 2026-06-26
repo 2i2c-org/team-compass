@@ -24,7 +24,9 @@ Before logging new activity with either method, check that the engagement's `Tot
 - Create a new issue in GitHub.
 - Include the community's name and specific contact people for the request; if the request came from FreshDesk, add the FreshDesk link.
 - Mark GitHub issues on the P&S Project Board with the label `CSH` to indicate this is Community Success Hours activity.
-- A [GitHub automation](#operations:data-sync) will automatically create a corresponding task in Asana. Updates to the title, description, `GitHub Hours`, and issue status sync one-directionally from GitHub to Asana (changes made in Asana will be overwritten).
+- A [GitHub automation](#operations:data-sync) will automatically create a corresponding task in Asana. Updates to the title, description, assignee, `GitHub Hours`, and issue status sync one-directionally from GitHub to Asana (changes made in Asana will be overwritten).
+- If the issue has **sub-issues**, they sync automatically as subtasks of the Asana task. You don't need to label each sub-issue.
+- Close the issue as **Completed** to mark the Asana task done. Closing it for any other reason (Not planned, Duplicate) removes the Asana task instead, since the work wasn't delivered.
 
 ### Logging via Asana
 
