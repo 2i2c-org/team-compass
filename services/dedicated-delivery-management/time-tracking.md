@@ -13,7 +13,7 @@ A screenshot of the Asana table view for a typical statement of work. The "Estim
 ```
 
 ## Time Tracking
-To track time spent on delivery (e.g. authoring a pull-request and steering it through code review), we use Asana to track both estimated and actual (delivered) hours. See [](fig:ddm-asana-table) for an example built from our [Canvas Authentication and Authorization statement of work](https://2i2c.org/statements-of-work/sow/canvas-authentication/). Asana tracks time at minute-level granularity. These times should be recorded as best-effort — in practice, the time spent working on task is subject to interpretation and 2i2c team members should exercise reasonable judgement.
+To track time spent on delivery (e.g. authoring a pull-request and steering it through code review), we use Asana to track both estimated and actual (delivered) hours. See [](fig:ddm-asana-table) for an example built from our [Canvas Authentication and Authorization statement of work](https://2i2c.org/statements-of-work/sow/canvas-authentication/). Asana tracks time at minute-level granularity. These times should be recorded as best effort. In practice, the time spent working on a task is subject to interpretation, and 2i2c team members should exercise reasonable judgement.
 
 ```{figure} ./images/asana-timer.png
 :name: fig:ddm-asana-timer
@@ -22,5 +22,7 @@ A screenshot of the Asana timer widget that can be used to help keep track of ti
 ```
 
 Asana ships with a timer widget (see [](fig:ddm-asana-timer) that makes it easy to keep track of time spent on a particular task (just as long as one remembers to pause it!) It can also be useful to make use of timing information like shell history e.g. [`atuin`](https://atuin.sh/) to derive time spent on a task from an auxiliary source of truth.
+
+The timer writes to the `Actual time` field, which feeds the engagement's `Total Time` along with any hours logged on linked GitHub issues. See [](#delivery:tracking-time).
 
 Anything outside of regular day-to-day 2i2c activities that is associated with a particular community deliverable should be tracked. This includes code-review from other team members, or work around project management in preparation for a meeting.
