@@ -1,3 +1,4 @@
+(delivery:engagement-management)=
 # Engagement Management
 
 Project Management Tool: [Asana](https://app.asana.com/)
@@ -12,8 +13,8 @@ We have not, **yet**, automated the creation of Asana Projects from Hubspot Deal
 
 Engagements are encoded in Asana as _Projects_. To create a new Engagement, click **Create** in Asana and selection **Project**.
 
-Use the project template _Engagement Project_. Set the name of the project to be the same string as the HubSpot Deal Name. (If the HubSpot Deal Name is incorrect, fix this first).
-Once the `HubSpot Deal URL` field is set (see below), a daily automation ([sync-asana](https://github.com/2i2c-org/sync-asana)) keeps the project name matched to the HubSpot deal name, so later renames in HubSpot propagate automatically.
+Use the project template *Engagement Project*. Set the name of the project to be the same string as the HubSpot Deal Name. (If the HubSpot Deal Name is incorrect, fix this first).
+Once the `HubSpot Deal URL` field is set (see below), a [daily automation](#operations:data-sync) keeps the project name, contract value, and start/end dates matched to the HubSpot deal, so later changes in HubSpot propagate automatically.
 
 The templates sets the visibility of this new project to be "Everyone at 2i2c" and grants everyone "Project admin" access rights. The project creator is automatically joins the project -- remove yourself from the project unless you personally want to receive notifications for each for every message, status update, and added task.
 
@@ -84,3 +85,17 @@ We don't, **yet**, have any automation to keep status or comments of GitHub issu
 
 - Ensure that actions are recorded and assigned to an owner via the Asana Status feature.
 - Whenever possible, create team visibility by creating a tracking GitHub issue on the [Operations board](https://github.com/orgs/2i2c-org/projects/64), then link that to the asana status.
+One of the default tasks in any engagement could be 'Confirm Renewal with Community' with a due date set to 60 days before the end of the engagement.
+
+(delivery:tracking-time)=
+## Tracking time on tasks
+
+Each engagement shows a standard set of task columns: `Allocation`, `GitHub URL`, `Estimated time`, `GitHub Hours`, and `Total Time`, plus the native `Assignee`, `Due date`, and `Actual time`.
+
+Log your time in one place per task, and `Total Time` adds them up:
+
+- `Actual time`: time logged directly in Asana with its built-in timer, for work not tracked in a GitHub issue.
+- `GitHub Hours`: hours logged on the linked GitHub issue, synced into Asana automatically. Don't edit it in Asana, since the [sync](#operations:data-sync) overwrites it.
+- `Total Time`: `GitHub Hours` plus `Actual time`, the combined figure to report against an engagement.
+
+Use `Estimated time` for the hours a task is expected to take.

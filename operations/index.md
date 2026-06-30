@@ -10,6 +10,7 @@ workflow
 team-practices/overview
 onboarding
 sources
+data-sync
 meetings
 communication
 team-compass
