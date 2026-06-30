@@ -1,4 +1,5 @@
 (bd:overview)=
+
 # Business Development Overview
 
 The Business Development (BD) team in 2i2c is responsible for our system of sales and cost recovery.
@@ -7,6 +8,16 @@ Broadly, our sales processes span two main flows:
 
 - **Customer Relationship Management (CRM)** - This covers Pre-sales and Sales stages, championed by the Business Development team
 - **Delivery** - This covers everything in the Delivery stage. The Delivery Enablement and P&S teams are the champions.
+
+## Core processes at a glance
+
+- [BD overview and agreements](#service-agreements)
+- [HubSpot CRM](/business-development/crm.md)
+- [Engagement setup](/services/delivery/engagement-management.md)
+- [Finance/contracts](/finance/contracts.md)
+- [Budget projections](/finance/projections.md)
+- [Community check-ins](/business-development/customer-success/community-checkin.md)
+- [Offboarding](/services/interactive-computing/offboard.md)
 
 ## Where work lives
 
