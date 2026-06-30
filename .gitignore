@@ -9,3 +9,5 @@ __pycache__
 
 # Assets generated at build
 _data/tmp
+
+logs/**
