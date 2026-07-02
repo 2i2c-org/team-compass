@@ -12,7 +12,7 @@ You can find all of the information about our infrastructure and how to access i
 Our [Engineering Team](engineering:structure) has access to all of the cloud infrastructure that we run for each community.
 In addition, some other team members may be given access in order to facilitate supporting and engaging with communities.
 
-The list of 2i2c staff that have access to our infrastructure is here: {external+infra:doc}`topic/access-creds/index`.
+The list of 2i2c staff that have access to our infrastructure is here: {external+infra:doc}`topic/access-creds`.
 
 ## PagerDuty Account
 
