@@ -1,5 +1,6 @@
 # Compensation and Benefits
 
+(compensation:philosophy)=
 ## Compensation philosophy
 
 :::{admonition} Aspirational

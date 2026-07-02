@@ -1,33 +1,23 @@
 (mission:value-proposition)=
 # Value proposition
 
-This describes the value [our service model](./service-model.md) provides to key stakeholder personas for 2i2c.
+The value [our service model](./service-model.md) provides to key stakeholder personas.
 
-We create a high-bandwidth connection between people **developing** open technology, people **operating** the technology, and people **using** the technology. We only develop infrastructure that serves the network of communities for whom we manage infrastructure.
+We create a high-bandwidth connection between those who **develop** open technology, those who **operate** it, and those who **use** it. We only develop infrastructure that serves the communities we manage it for.
 
-2i2c delivers value to the communities we serve when we:
+We also connect communities to each other, so a problem solved for one becomes a fix everyone shares, and we help funders invest in the open source they all rely on. Many groups can run a hub; the network we cultivate across these communities is what sets us apart, and the part we most want to grow.
 
-1. run hubs (using reproducible, open infra)
-2. sense problems (shared by many communities with common factors)
-3. shape solutions (to those common problems)
-4. connect horizontally (across downstream user communities)
-5. connect vertically (to upstream software communities)
-6. nurture ecosystem (keeping OSS healthy)
-7. advise on strategy (helping communities think bigger)
-8. transfer knowledge (about the infra and how to use it and the ecosystem and how to engage within it)
-
-These `value activities` are building blocks for 2i2c's service design and differentiation from other infrastructure providers. 
+We deliver this value through [four areas of work](mission:service-model): **Operate**, **Build**, **Steward**, and **Connect & Advise**.
 
 
 ## For hub users (researchers, students, practitioners)
 
 **Stop managing servers. Start doing your work.**
 
-Get instant access to the same battle-tested interactive computing infrastructure used by top research communities globally. Focus on your science, not the server.
+Get instant access to the same interactive computing infrastructure used by leading research communities. Focus on your science, not the server.
 
 **What you get:**
 - Instant, standardized access to JupyterHub and interactive computing tools
-- Battle-tested infrastructure that just works
 - Access to shared data, computing resources, and collaborative tools
 
 ## For hub administrators (technical leads, research computing staff)
@@ -37,8 +27,7 @@ Get instant access to the same battle-tested interactive computing infrastructur
 Leverage tools and workflows co-developed by the scientific community. Benefit instantly from open source enhancements while learning from a network of administrators like you.
 
 **What you get:**
-- Community-standard tools you could run yourself.
-- Self-service customization using community-standard tools
+- Self-service customization with community-standard tools you could run yourself
 - Automatic deployment of ecosystem improvements
 - Peer learning network of administrators solving similar challenges
 - Freedom to replicate and modify ([Right to Replicate](https://2i2c.org/right-to-replicate))
@@ -58,13 +47,13 @@ Join a network of peer organizations that collectively fund the open source tool
 
 ## For the open science ecosystem (funders, OSS maintainers, advocates)
 
-**Turn usage into investment. Drive systemic change.**
+**Turn usage into investment.**
 
 We demonstrate that community-governed infrastructure is a scalable, reliable alternative to proprietary silos.
 
 **What we enable:**
 - **Strengthen OSS sustainability**: Usage becomes active investment in the tools research depends on
-- **Spread innovation**: Best practices and tools flow rapidly across disciplinary boundaries
+- **Spread innovation**: Best practices and tools move quickly across disciplines
 - **Prove the alternative**: Scalable, community-driven infrastructure without vendor lock-in
 - **Evidence of impact**: Connections to and reports from communities who get value from their use of open source software
 
