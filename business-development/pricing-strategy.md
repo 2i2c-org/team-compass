@@ -94,16 +94,3 @@ We review these figures annually and adjust with our costs.
 For some funders (e.g., US federal government), we must directly bill all work that is relevant, rather than putting it behind an indirect.
 Where possible, we scope this work as a funded workstream with its own deliverables, rather than an indirect cost buried in the rate.
 When that is not possible, we may quote a lower rate and accept that we under-recover the open source work.
-
-## What we are missing
-
-Some communities won't be well-served by the options above. During the alpha we're building sustainability so we can meet them in future. If this model doesn't fit your needs (wrong kind of service, too expensive, etc.), please tell us so we can evolve it.
-
-A few things we know we are missing:
-
-- **Under-resourced communities**. $15,000 a year is too much for many communities, and our mission requires serving them too. Ideas to explore: sponsorships, budget-based tiered pricing, and lowering our internal costs.
-- **Lightweight hubs**. Our offerings are more complex than many individuals or small communities need. We'd like a scalable, lightweight hub people can quickly spin up, to prototype after the alpha.
-- **Communities that need multiple hubs**. Organizations with many sub-communities may need their own federation of hubs, with a different pricing and growth model. For now we treat these as partnership opportunities.
-- **Significant differences in community size**. Our pricing assumes communities are similar in size and complexity. Much larger communities create extra support and operations work; we need to understand those costs and recover them.
-- **Cloud payments as a service**. When we manage cloud billing and payments for a community, we take on extra work we don't currently charge for. We should estimate that cost with our fiscal sponsor.
-- **Liability for cloud payments**. Managing a community's cloud billing means paying the provider before they pay us (e.g. a community runs up $50,000, then refuses to pay). We have visibility via per-community [budget alerts](interactive-computing:budget-alerts) and [cost dashboards](https://docs.2i2c.org/admin/monitoring/), but still lack an *enforced* ceiling (a hard cap, pre-billing, or deposit) to bound the one uncapped part of our pricing.
