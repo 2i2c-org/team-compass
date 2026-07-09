@@ -3,7 +3,7 @@
 
 The value [our service model](./service-model.md) provides to key stakeholder personas.
 
-We create a high-bandwidth connection between those who **develop** open technology, those who **operate** it, and those who **use** it. We only develop infrastructure that serves the communities we manage it for.
+We create a high-bandwidth connection between those who **develop** open technology, those who **operate** it, and those who **use** it. We develop infrastructure that serves the communities we manage it for, and make those infrastructure changes widely available.
 
 We also connect communities to each other, so a problem solved for one becomes a fix everyone shares, and we help funders invest in the open source they all rely on. Many groups can run a hub; the network we cultivate across these communities is what sets us apart, and the part we most want to grow.
 

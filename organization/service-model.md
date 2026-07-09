@@ -15,7 +15,7 @@ Memberships blend all four, while directed engagements usually emphasize a subse
 * - Area
   - What it is
 * - **Operate**
-  - Deploy and run infrastructure on behalf of communities, usually via one or more JupyterHubs on commercial cloud.
+  - Deploy and run infrastructure on behalf of communities, usually via one or more JupyterHubs on s cloud service.
 * - **Build**
   - Develop and customize software to meet community needs, usually via upstream open source contributions.
 * - **Steward**
@@ -43,3 +43,5 @@ A member puts extra funding behind one or more areas and helps steer it.
 Example 1: a member community co-funds roadmap project that leads with **Build**, but also involves running a prototype hub (**Operate**) and extra upstream engagement (**Steward**) as result.
 
 Example 2: A member with no hub points a directed engagement entirely at **Steward** because they wish for directed support to go towards an upstream community they depend on.
+
+Example 3: A member joins another community's hub. They share the cost of that community's **Operate** and use **Connect & Advise** to design their shared sociotechnical community.
