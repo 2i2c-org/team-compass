@@ -6,7 +6,7 @@ This describes the process we follow to accomplish our [organizational goals and
 In short:
 
 - [Our goals and high-level strategy](../organization/strategy.md) drive all of our work.
-- Quarterly objecties allow us to define high-level outcomes in service of this strategy.
+- Quarterly objectives allow us to define high-level outcomes in service of this strategy.
 - Initiatives help us coordinate work to make significant progress towards these outcomes.
 - Sub-issues in initiatives have planning and coordination to make initiatives actionable.
 - Tasks and epics are chunks of work that drive our actions and complete initiatives.
@@ -144,7 +144,7 @@ The [**Product and Services board**](https://github.com/orgs/2i2c-org/projects/5
 ## Retrospective boards
 
 We use [EasyRetro](https://easyretro.io) to facilitate our retrospectives.
-The paid user account is [`admin@2i2c.org`](#workspace:admin) and the credentails are stored in [our shared BitWarden account](#account:bitwarden).
+The paid user account is [`admin@2i2c.org`](#workspace:admin) and the credentials are stored in [our shared BitWarden account](#account:bitwarden).
 
 Follow the links below to the different retro boards.
 
