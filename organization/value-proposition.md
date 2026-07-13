@@ -7,7 +7,7 @@ We create a high-bandwidth connection between those who **develop** open technol
 
 We also connect communities to each other, so a problem solved for one becomes a fix everyone shares, and we help funders invest in the open source they all rely on. Many groups can run a hub; the network we cultivate across these communities is what sets us apart, and the part we most want to grow.
 
-We deliver this value through [four areas of work](mission:service-model): **Operate**, **Build**, **Steward**, and **Connect & Advise**.
+We deliver this value through [four areas of work](#service-model:docs), which we call **DOCS**: **Develop**, **Operate**, **Connect & Advise**, and **Steward**.
 
 
 ## For hub users (researchers, students, practitioners)
