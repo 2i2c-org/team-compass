@@ -76,12 +76,6 @@ A Deal move out of Contract Admin when two conditions are satisfied:
 
   - create new columns in the cloud billing spreadsheet for this new deal.
 
-:::{note}
-
-# Engagements, Projects, and Deliverables
-
-:::
-
 6. Closed Won. The Sales phase of the deal has concluded and we move into the Delivery phase.
 
 ## Delivery to Renewal
