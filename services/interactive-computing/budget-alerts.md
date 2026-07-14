@@ -1,4 +1,4 @@
-
+(interactive-computing:budget-alerts)=
 # Budget alerts response
 
 We now have setup budget alerts for all cloud projects where we pay the bill from the cloud provider, independently if we pass through these costs or not to the community. However, we currently don’t look to setup budget alerts for communities paying their cloud provider bill directly.

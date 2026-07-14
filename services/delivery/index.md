@@ -2,7 +2,7 @@
 
 # Delivery
 
-In [Sales](#bd:overview), we describe an broad structure for working with communities:
+In [Sales](#bd:overview), we describe a broad structure for working with communities:
 
 :::{figure} ../../business-development/images/sales-process.png
 Simplified sales process
@@ -66,17 +66,16 @@ Community Context questions:
 - Q: Can you describe the data? Collaborating open science communities orbit around the heaviest objects in their science space -- their data. Where is it?
   :::
 
-5. To reach the Contract Admin stage, the Deal needs to be verbally closed. CS&S is requested to collect the signatures on the Service Agreement. CS&S sets up SAGE to prepare for invoices.
+4. To reach the Contract Admin stage, the Deal needs to be verbally closed. CS&S is requested to collect the signatures on the Service Agreement. CS&S sets up SAGE to prepare for invoices.
 
-A Deal move out of Contract Admin when two conditions are satisfied:
-
+A Deal moves out of Contract Admin when two conditions are satisfied:
 - There is a fully executed (signed by all parties) Service Agreement or Purchase Order to complete the work described in the Deal.
 - BD requests PS to start Delivery on hub deployments and interaction with the community. Outcomes of this request will be
   - create the Engagements, Project, and Deliverables to manage the project.
 
   - create new columns in the cloud billing spreadsheet for this new deal.
 
-6. Closed Won. The Sales phase of the deal has concluded and we move into the Delivery phase.
+5. Closed Won. The Sales phase of the deal has concluded and we move into the Delivery phase.
 
 ## Delivery to Renewal
 
@@ -89,7 +88,7 @@ There is a 1:1 correspondance between a Deal in HubSpot and a **Engagement** as 
 :::
 
 :::{attention}
-We are using Asana to project and delivery management of our engagements. We use GitHub to manage our task level activities using GitHub Projects. We recognize that neither software platform is ideal for our needs and remain open to suggestions for considering a different implementation.
+We manage engagements in Asana, which doubles as [our activity log](#operations:activity-log), and manage task-level work in GitHub Projects. We recognize that neither platform is ideal for our needs and remain open to a different implementation.
 :::
 
 ## Cloud Budget Alerts

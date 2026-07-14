@@ -7,6 +7,7 @@ It applies to all team members across 2i2c.
 strategy
 ../code-of-conduct/index.md
 workflow
+activity-log
 team-practices/overview
 onboarding
 sources

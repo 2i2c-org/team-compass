@@ -3,7 +3,7 @@
 
 ```{admonition} Mostly deprecated
 :class: warning
-The only thing we actively use AirTable for is tracking team [salaries and contracts](#airtable:salaries).
+The only things we actively use AirTable for are tracking team [salaries and contracts](#airtable:salaries) and [team contact info](#airtable:team-info).
 Most other historical content in AirTable is no longer maintained.
 ```
 
@@ -44,6 +44,15 @@ Contracts
 
 For our salary policy, bands, and benchmarking process, see [](../people/compensation.md).
 
+(airtable:team-info)=
+### Team info table
+
+We track team contact info (GitHub handle, e-mail, etc.) in a table in the same base.
+
+[Open the Team info table](https://airtable.com/appHxyAV6MR1g8e2w/tblP0d3WPPNaov34H/viwQ9qCbadOfdY0Rp?blocks=hide).
+
+It is published nightly to [`2i2c-org/data-private`](https://github.com/2i2c-org/data-private), so automated jobs can look up things like GitHub usernames without querying AirTable directly.
+
 ### How to update roles and contracts
 
 Every year, we update our roles to reflect cost of living (COLA) adjustments and changes to descriptions.
@@ -74,17 +83,12 @@ These are kind of like **databases**, in the sense that they have typed columns,
 
 A base usually has **many tables of data**, and these can then be interlinked with one another.
 
-For example, we have [our Contracts table](https://airtable.com/appbjBTRIbgRiElkr/tbliwB70vYg3hlkb1/viwOWxGxMBVmJFwiC) as well as [our Invoices table](https://airtable.com/appbjBTRIbgRiElkr/tblkmferOITqS2vH8/viwNA9Z2UhSchcuvA) in the same base.
-This lets us link records in `Invoices` with those in `Contracts` based on a unique ID in each.
 
 #### Views
 
 Views are ways to filter, group, and subset your data for visualizing purposes.
 They do not change the underlying dataset, they merely provide a way to look at it a different way.
-For example, our [Invoices table](https://airtable.com/appbjBTRIbgRiElkr/tblkmferOITqS2vH8) has two views:
 
-- [**Incoming**](https://airtable.com/appbjBTRIbgRiElkr/tblkmferOITqS2vH8/viwfuamzW4kbaQSSJ) to only show invoices that are for revenue.
-- [**Outgoing**](https://airtable.com/appbjBTRIbgRiElkr/tblkmferOITqS2vH8/viwNA9Z2UhSchcuvA) to only show invoices that are for costs.
 
 #### URL structure
 

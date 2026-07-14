@@ -1,66 +1,51 @@
+(mission:service-model)=
 # Service model
 
-This page describes how we engage with member communities and fund our work.
-It's the primary way we implement [our strategy](./strategy.md).
-For persona-driven messaging about outcomes for stakeholders, see [our value proposition](./value-proposition.md).
+What 2i2c does for member communities, and how we fund it.
+See [](product:pricing-strategy) for numbers and [](./value-proposition.md) for persona messaging.
 
-## Membership overview
+(service-model:docs)=
+## Areas of service: DOCS
 
-Our primary engagement model is **membership** in a network.
-This centers our mission-driven nature, and builds a feeling of mutual support and status between our member organizations.
+We support member communities in four key areas, which we call **DOCS**: **Develop**, **Operate**, **Connect & Advise**, and **Steward**.
+Memberships blend all four, while directed engagements usually emphasize a subset of them.
 
-Membership primarily drives cycles of a **development and operations flywheel**: membership **comes with standardized managed infrastructure**, and drives cycles of collaborative and **co-funded project work** that improve the infrastructure for everyone.
+```{list-table}
+:header-rows: 1
 
-This creates a collaborative flywheel where our relatively  small team can efficiently manage infrastructure and facilitate collaboration between many different communities to support open source development.
+* - Area
+  - What it is
+* - **Develop**
+  - Develop and customize software to meet community needs, usually via upstream open source contributions.
+* - **Operate**
+  - Deploy and run infrastructure on behalf of communities, usually via one or more JupyterHubs on a cloud service.
+* - **Connect & Advise**
+  - Connect communities and funders, sense shared problems, and advise on strategy and design with our communities.
+* - **Steward**
+  - Maintain and lead the upstream open source projects our communities depend on. This includes both technical and social support.
+```
 
-- **Framing**: Membership is a way to pool resources on a shared service team (operations, development, and community engagement).
-- **Cost recovery**: Membership covers core costs in operations, engagement, and upstream support.
-- **Benefit**:
-  - Participation in our core DevOps system.
-  - Comes with managed infrastructure. This ensures we have a cycle between operations and development work.
-  - Access to spaces and conversations communities otherwise would not have.
-  - A way for communities to pool resources to contribute upstream.
+**Develop** covers member-driven contributions that address a specific member community's need.
+**Steward** covers [foundational contributions](https://2i2c.org/blog/good-citizen/) that keep the ecosystem healthy regardless of any one member's need, along with broader project leadership and community support.
 
-## Membership
+## Membership and directed engagements
 
-Our target business model includes membership with an optional "Premier membership" upgrade:
+There are two ways to support our work - **membership** is a common base for every contract, and **directed engagements** stack in addition.
 
-**Membership**
-- **For**: Discrete communities with a homogeneous user base (e.g., a single research group or collaboration).
-- **Impact**: The core loop that sustains 2i2c and covers the cost of making open infrastructure accessible and supported with foundational contributions.
-- **Offers**:
-  - Site Reliability Engineering for managed infrastructure.
-  - Basic guidance in usage.
-  - Participation in roadmapping exercises and co-funding opportunities.
+General Membership
+: sustains a shared baseline across all four areas, renewed annually.
+  See the [service description](https://sales.2i2c.org/service-description) for what each tier includes.
+  It keeps hubs running and funds upstream work.
 
-**Premier membership option** (strategic for some communities)
-- **For**: Strategic partners that want deeper engagement or investment in open source development. Usually serve more than one community that fits our membership profile.
-- **Impact**: Drives deeper engagement and investment in open source, strategic guidance for 2i2c, and larger-scale growth within a community.
-- **Offers**:
-  - Strategic-level engagement from 2i2c, with more direction over our roadmap.
-  - Coordination and guidance in planning and delivering technical improvements.
-  - Tighter feedback loops and reporting between development and operations.
+Premier membership
+: adds additional capacity for our impact, provides deeper roadmap influence, as well as additional time for engaging in the four areas described above.
 
-**Accessible service mechanism** (WIP, described as "Starter" membership; not currently prioritized)
-- **For**: Communities that need standardized, commodity infrastructure with minimal customization.
-- **Offers**: Commodified SRE evolving with open source. Automated operations with community-driven support.
-- **Impact**: Makes open infrastructure largely accessible, even to communities that cannot cover the costs of foundational contributions and development.
+Directed engagements
+: add dedicated capacity on top, at [our rate](product:pricing-strategy).
+A member puts extra funding behind one or more areas and helps steer it.
 
-## Co-funded projects with members
+Example 1: a member community co-funds roadmap project that leads with **Develop**, but also involves running a prototype hub (**Operate**) and extra upstream engagement (**Steward**) as result.
 
-Project-based work gives members a way to influence our new development, and make it possible with funding. It is the engine that drives innovation and enhancement of our shared technical system.
+Example 2: A member with no hub points a directed engagement entirely at **Steward** because they wish for directed support to go towards an upstream community they depend on.
 
-- **For**: Any member organization that wants their infrastructure to be better (we do not distinguish between members with Premier membership and other members for co-funding).
-- **Cost recovery**: Covers all R&D-style costs for new development.
-- **Benefits**:
-  - A mechanism to fund fractions of new development work to make it more likely to happen faster.
-  - Engages communities to talk about shared problems, and to learn from one another.
-  - A way to get credit for supporting open source infrastructure development.
-
-## How membership and project work feed into one another
-
-Each line of business benefits from network effects, and crucially depends on our development work and our operations work feeding into one another. As the number of member communities grows:
-
-- They share more of the cost of operations, which decreases cost of service or increases support for open infrastructure.
-- They increase the resources available for new development, which benefits the entire network.
-- They have a larger group of communities to learn from, which increases learning and adoption of new workflows.
+Example 3: A member joins another community's hub. They share the cost of that community's **Operate** and use **Connect & Advise** to design their shared sociotechnical community.

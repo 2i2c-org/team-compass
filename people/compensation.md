@@ -1,5 +1,6 @@
 # Compensation and Benefits
 
+(compensation:philosophy)=
 ## Compensation philosophy
 
 :::{admonition} Aspirational
@@ -85,12 +86,18 @@ For anything that involves purchasing equipment, services, tickets, etc., our re
 
 ### List of additional reimbursable expenses for our 2i2c team members
 
+(compensation:equipment)=
 #### Equipment
 
-We inherit the Equipment Policy for Code for Science and Society.
-This defines a budget of $5,000 every 3 years for equipment for each team member.
-This includes computers, desks, monitors, microphones, etc.
-The goal is to make sure the team has the technical equipment they need to operate as a distributed team member that largely operates via video chat and text.
+We inherit the Equipment Policy of {term}`Code for Science and Society`.
+Each team member has a budget of **$5,000 every 3 years** for equipment (computers, monitors, desks, chairs, microphones, etc.).
+As a distributed team, good equipment is a work necessity, not a perk, and we trust team members to make reasonable decisions about it.
+
+- **Buying**: Use your judgment and follow our [reimbursement process](../administration/reimburse.md). If a purchase is unusually large or you're unsure it qualifies, check with your manager first.
+- **Ownership**: Equipment belongs to 2i2c (via our fiscal sponsor), but it lives with you and we don't track an inventory.
+- **Leaving 2i2c**: If you leave 2i2c, we may request that you return equipment. Here's a rough guideline:
+  - **More than a year after purchase**: Keep the equipment. Shipping it back usually costs more than it's worth.
+  - **Less than a year after purchase**: Work out something reasonable with your manager (return it, buy it out at a fair used price, or keep it).
 
 #### Internet
 
