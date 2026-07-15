@@ -4,7 +4,7 @@
 
 Scenario: A community has an engagement with 2i2c for **Technical Support**. Community Representative information is missing in FreshDesk.
 
-During the sales or renewal process, BD is asked to associate *Contacts* with each *Community* in [HubSpot](hubspot:index).
+During the sales or renewal process, BD is asked to associate _Contacts_ with each _Community_ in [HubSpot](hubspot:index).
 
 HubSpot is the source of truth for this Community-Contact information. There is a GitHub action (see https://github.com/2i2c-org/hubspot-communities) that run four times a day to sync information from HubSpot to FreshDesk.
 
@@ -14,6 +14,10 @@ If information about Community Representatives (CRs) or Technical Contacts (TCs)
 2. Look up the corresponding Community in [HubSpot->Communities](https://app-na2.hubspot.com/contacts/242496330/objects/0-410)
 3. Associate the Contact with the Community
 4. Add/remove assocation labels (Community Representative, Technical Contact) to indicate the role(s) for this contact in this community.
+
+:::{note} Contact Association labels
+See the "Contacts > [Association links](https://docs.google.com/document/d/1T6kl8bOt6S0ltt5ICxlmX-CKSgkrL3e1qmvGYDI1JNM/edit?tab=t.0#bookmark=id.fd7d7pinqg7g)" section in the [HubSpot and CRM guide](https://docs.google.com/document/d/1T6kl8bOt6S0ltt5ICxlmX-CKSgkrL3e1qmvGYDI1JNM/edit?usp=sharing).
+:::
 
 You can manual sync this information by triggering the [HubSpot → Freshdesk Sync](https://github.com/2i2c-org/hubspot-communities/actions/workflows/sync_community_contacts.yml) workflow action in GitHub.
 

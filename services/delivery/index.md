@@ -14,68 +14,9 @@ This section describes what Delivery means for 2i2c.
 
 Business Development uses [HubSpot](https://app.hubspot.com/) as the source of truth for the development of agreements with communities - see [](#hubspot:index) for our team's guide. In HubSpot, these records are called **deals** and each represents a transaction with a contact or company. Each deal tracks potential revenue through various stages of the sales process until it is marked as won or lost.
 
-:::{note}
-HubSpot Deal Stages: Lead, Qualified, Proposal, Negotiation, Contract Admin, Closed Won, Closed Lost
-:::
+### Pipelines for deals
 
-1. The Lead and Qualified stages are BD-owned stages. See [](hubspot:index) for our HubSpot CRM guide.
-
-2. At the Proposal stage, BD notifies PS if there is a need for additional input or review. This is the stage where the scheduling and capacity requirements for the work should be determined.
-
-During this stage requests from BD to PS are used to help develop Statements of Work.
-
-:::{warning}
-Missing step: Is there sufficient capacity in P&S to deliver on this proposal? Has the communication between BD and PS occurred?
-:::
-
-3. During the Negotiation stage the contractual details are need to be worked out. Specifics like start date, end dates, deliverable dates should be clearly identified during this stage. CS&S/Legal may need to be included in this stage.
-
-There needs to be an artefact (usually, a 'Service Agreement') that is used as the source of truth for deal.
-
-BD should also document what they know about a Community in HubSpot.
-
-:::{note}
-
-# What we want to learn about a community
-
-Here is information BD is asked to provide for P&S to be able to deliver the service. This information should be discoverable from HubSpot.
-
-- Community Short Name (Short version ~1 word)
-- Community Long Name (Long version -- full formal name)
-- community_id (one word, alphabetic and lowercase, to use for naming clusters, accounts, database keys, and other infrastructure internal to 2i2c. In most cases this may be a variation of the Community Short Name)
-- People contact information (Full name, first name, email address, github ids) with roles assigned for this engagement:
-  - Buyers
-  - Community Champion(s) / PI(s)
-  - Community Representatives
-  - Technical Community Leads
-  - Technical Contacts
-  - Authorized PR Submitters
-- Community Website
-- Community GitHub organization and representative repos (if applicable)
-- Logo (as url)
-- Cloud and region preferences (if known). This important to identify early so that infrastructure is deployed close to data and other compute resources.
-- Membership level
-  :::
-
-:::{note}
-Community Context questions:
-
-- Q: What do you want to achieve by working with 2i2c? Can you paint me a picture that describes the future you wish to materialize?
-- Q: Can you describe this research community more? Is it segmented? Are there archetypes or personas?
-- Q: At a high level, what is your community trying to achieve and how open data/compute infrastructure will help advance toward your mission/vision?
-- Q: Can you describe the data? Collaborating open science communities orbit around the heaviest objects in their science space -- their data. Where is it?
-  :::
-
-4. To reach the Contract Admin stage, the Deal needs to be verbally closed. CS&S is requested to collect the signatures on the Service Agreement. CS&S sets up SAGE to prepare for invoices.
-
-A Deal moves out of Contract Admin when two conditions are satisfied:
-- There is a fully executed (signed by all parties) Service Agreement or Purchase Order to complete the work described in the Deal.
-- BD requests PS to start Delivery on hub deployments and interaction with the community. Outcomes of this request will be
-  - create the Engagements, Project, and Deliverables to manage the project.
-
-  - create new columns in the cloud billing spreadsheet for this new deal.
-
-5. Closed Won. The Sales phase of the deal has concluded and we move into the Delivery phase.
+Refer to the [HubSpot and CRM guide](https://docs.google.com/document/d/1T6kl8bOt6S0ltt5ICxlmX-CKSgkrL3e1qmvGYDI1JNM/edit?usp=sharing) document for a list of the current [Pipelines for Deal](https://docs.google.com/document/d/1T6kl8bOt6S0ltt5ICxlmX-CKSgkrL3e1qmvGYDI1JNM/edit?tab=t.0#bookmark=id.umfzdd5uvzh0).
 
 ## Delivery to Renewal
 
@@ -91,17 +32,15 @@ There is a 1:1 correspondance between a Deal in HubSpot and a **Engagement** as 
 We manage engagements in Asana, which doubles as [our activity log](#operations:activity-log), and manage task-level work in GitHub Projects. We recognize that neither platform is ideal for our needs and remain open to a different implementation.
 :::
 
+See the [Renewal Membership Sales](https://docs.google.com/document/d/1T6kl8bOt6S0ltt5ICxlmX-CKSgkrL3e1qmvGYDI1JNM/edit?tab=t.0#bookmark=id.gv1qmymprbox) section in the [HubSpot and CRM guide](https://docs.google.com/document/d/1T6kl8bOt6S0ltt5ICxlmX-CKSgkrL3e1qmvGYDI1JNM/edit?usp=sharing) document for more information.
+
 ## Cloud Budget Alerts
 
 On AWS, we set up Budget alerts to trigger actions (sent to support+<commuity>@2i2c.org) when the budget threshhold is exceeded.
 
 ## Renewal
 
-At 60 days before the end of an Engagement, an automation triggers an "Agreement expiring in 60 days" email to partnerships@2i2c.org.
-
-:::{warning}
-This automation was previously powered by Airtable. As of the HubSpot migration, the equivalent renewal-trigger automation needs to be re-confirmed. See [](hubspot:index).
-:::
+See the [RENEWAL AUTOMATION](https://docs.google.com/document/d/1T6kl8bOt6S0ltt5ICxlmX-CKSgkrL3e1qmvGYDI1JNM/edit?tab=t.0#bookmark=id.8g6iz0ikfn1v) in the [HubSpot and CRM guide](https://docs.google.com/document/d/1T6kl8bOt6S0ltt5ICxlmX-CKSgkrL3e1qmvGYDI1JNM/edit?usp=sharing) document for more information.
 
 ```{toctree}
 engagement-management
