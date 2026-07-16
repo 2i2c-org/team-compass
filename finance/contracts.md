@@ -11,6 +11,8 @@ We track our contracts and deals in two systems:
 - **HubSpot** is our source of truth for all **deal-level information** — both pipeline opportunities and committed (closed-won) deals. See [](#hubspot:index) for more about how we use HubSpot.
 - **SAGE Intacct** is our source of truth for all **invoices and transactions** on a deal. See [](accounting.md) for how to navigate SAGE Intacct.
 
+See the [Where are the original contracts for a deal?](https://docs.google.com/document/d/1T6kl8bOt6S0ltt5ICxlmX-CKSgkrL3e1qmvGYDI1JNM/edit?tab=t.0#bookmark=id.bqy834qtuaiz) section in the [HubSpot and CRM guide](https://docs.google.com/document/d/1T6kl8bOt6S0ltt5ICxlmX-CKSgkrL3e1qmvGYDI1JNM/edit?usp=sharing) for more details.
+
 (contracts:amount-remaining)=
 ### What funds remain in a contract or grant?
 

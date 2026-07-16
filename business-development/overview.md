@@ -1,4 +1,5 @@
 (bd:overview)=
+
 # Business Development Overview
 
 The Business Development (BD) team in 2i2c is responsible for our system of sales and cost recovery.
@@ -26,6 +27,10 @@ BD tracks its work across three places:
 ## Sales playbook
 
 Our [Sales Playbook](https://app.asana.com/1/1200524400901350/project/1212757516638013/list/1212758290889099) is an Asana project that describes common actions that must be taken throughout the sales process.
+
+### Deal naming convention
+
+For HubSpot Deal naming, see the **How do I?** > **[Choose the name for a deal?](https://docs.google.com/document/d/1T6kl8bOt6S0ltt5ICxlmX-CKSgkrL3e1qmvGYDI1JNM/edit?tab=t.0#bookmark=id.xhkjsjply953)** section of the [HubSpot and CRM guide](https://docs.google.com/document/d/1T6kl8bOt6S0ltt5ICxlmX-CKSgkrL3e1qmvGYDI1JNM/edit?usp=sharing).
 
 ## Service agreements
 
