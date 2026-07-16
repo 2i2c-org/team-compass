@@ -14,7 +14,7 @@ For the current HubSpot object model and association labels, see "Communities" a
 
 HubSpot has a _Community_ field that needs to be created as part of onboarding. BD generally will have this information and should create or update _Community_ before request a hub deployment from PS. Associate the Community with the Deal.
 
-| Propery Label       | Description                                                                                                                                             |
+| Property Label       | Description                                                                                                                                             |
 | ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Name                | one word, will be used to create an machine-readable identifier for naming clusters, accounts, database keys, and other infrastructure internal to 2i2c |
 | Long Name           | Community Long Name (Long version, full formal name, for display on in public facing webpages )                                                         |
