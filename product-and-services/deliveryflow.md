@@ -10,32 +10,13 @@ Process diagram of 2i2c's [Product Delivery Flow](https://miro.com/app/board/uXj
 
 This document outlines such a process, designed to be transparent to the organization about what’s been worked on at any time, and to provide clear communication and collaboration points between Product, Engineering and any stakeholders, internal or external, that have a vested interest in the outcome of a project.
 
-:::{admonition} Productboard is where most Product conversation happens
-
-We use a tool called [Productboard](https://www.productboard.com/) to provide us with a centralized place for storing, tagging and later mining ideas around our product roadmap.
-This gives our team the ability to fully consider, prioritize, and potentially action the most important ideas.
-
-[The Productboard team guide and primer](https://docs.google.com/document/d/1UkFcv2klEBOEnZ4CoB7PnVYS6MNOn5fCfM7unbco2lI/edit?usp=sharing) describes how anyone on our team can use Productboard.
-:::
-
 ## How most team members participate in this process
 
-All team members are encouraged to participate in the Product process by **providing, refining, and discussing Insights**.
-To learn how to do this, see [the Productboard team primer and guide](https://docs.google.com/document/d/1UkFcv2klEBOEnZ4CoB7PnVYS6MNOn5fCfM7unbco2lI/edit#bookmark=id.27fegmw16krg).
+All team members are encouraged to participate in the Product process by **providing, refining, and discussing suggestions, needs and pain points with the Head of Product**. Suggestions for new streams of work to be prioritized can come from anywhere, and we encourage all team members to proactively engage with the product delivery flow to ensure their input and expertise contributes to our direction of travel.
 
-## 0. Our product operations principles
+## Our product operations principles
 
 First off, read [the Product overview and principles section](overview.md) to understand the high-level goals and principles that drive this work, and lead to the system below.
-
-## 1. The insights board
-
-Insights are tracked in [our Insights Boards](https://2i2c.productboard.com/folder/MTpOYXZpZ2F0aW9uRm9sZGVyOjQ0OTc5ZmRmLWU0MTYtNDNiMS1hYzg1LTllZjFkZmQ4N2Q1Zg==).
-
-:::{admonition} How to add Insights to Product Board
-See the [Guide to adding Insights in Productboard](https://docs.google.com/document/d/1UkFcv2klEBOEnZ4CoB7PnVYS6MNOn5fCfM7unbco2lI/edit?usp=sharing).
-:::
-
-Any good product delivery flow starts with establishing a centralized repository for insights, a place to collect our knowledge of the wants and needs of the community partners and other customers we serve, and to record conversations we’ve had with partners about specific product enhancements we may want to consider. 
 
 While insights naturally trickle in from our partnership support and sales efforts, community building initiatives, conferences, and other organic means, the most actionable and valuable insights come from intentional, active and engaged customer and UX research.
 
@@ -43,89 +24,48 @@ Insights are not tasks. They are not the basis of a backlog. They are knowledge 
 
 At 2i2c, we should always ensure that we are dedicating our skills, people and resources to fully understanding, capturing and responding to our communities’ most pressing needs, separating the signal from the noise and ensuring our efforts are always aligned with the most value with the widest community impact.
 
-Formerly, insights relevant to product improvements were captured on GitHub as conversations around projects, on Slack as casual conversations, or as emails between community partners and Partnership leads. As queries and comments on FreshDesk. They could easily get lost. 
+When it's clear that conversations and insights point towards a particular need, pain point or solution that may be worth capturing and implementing, we use Initiatives as a way of capturing that information. 
 
-## 2. The Ideas board
+## Product Initiatives
 
-Ideas are tracked in [our Roadmaps boards](https://2i2c.productboard.com/folder/MTpOYXZpZ2F0aW9uRm9sZGVyOjExNGJhMzQxLWQwN2EtNDhlNy05MjVlLWZiNTY4OWVmODBmYw==) as well as [our Feature boards](https://2i2c.productboard.com/folder/MTpOYXZpZ2F0aW9uRm9sZGVyOmQ2YmY3ZTVkLTFhY2UtNGU4My1hMDJjLTRmMzhhOGUyZDkxMw==).
-
-### What is an idea
-
-Any single insight, or collections of related insights, can give rise to an idea, which is an actionable and well formulated suggestion of a project we may want to look into. Ideas are the individual items in the Ideas board. 
-
-What typically is considered an idea that will go into the product’s ideas board:
-
-- Suggestions from community partners, other customers, partnership discussions, stakeholders, or community members that seem worth doing at some point.
-- Internally-sourced features that form the backbone of what we want to do to achieve our value proposition (e.g. a push towards a self-service interface for customization)
-- Big, strategically important projects spanning a collection of features (These will typically be broken down into multiple Initiatives later)
-- Non urgent user experience shortcomings that are likely to need acting on at some points
-- Technical debt reductions
-
-What is not an Idea and should not be included in the product backlog:
-
-Urgent or critical bugs - these will typically be short-cutted to the Build stage and sped through Testing and Release.
-Bugs that can be dealt with in the normal course of community support efforts.
-Day-to day partnership support requests that require relatively rapid response.
-
-#### Prioritization drivers
-
-Having a collection of ideas is not very useful if they are all treated equally. We need a way to rapidly get a sense of which ideas are likely to produce the most value. 
-
-To that end, each idea should be submitted with a set of drivers, which will help us prioritize our backlog of ideas, and decide which ideas we should look into more closely with a view to potentially implementing them  (see Initiatives).
-
-
-- **Impact**: How wide ranging is the impact of this feature on 2i2c or the entities it serves.
-- **Request frequency** (0, 1-4, 5+): how many individual community partners or other customers have mentioned this, or outright requested it. The more requests, the more we should pay attention.
-- **Strategic alignment** (Low, Med, High): How close is this idea to the goals of the organization, 	its mission, and value proposition? We should always aim to prioritize ideas that are closely aligned with those guiding principles.
-- **Effort** (Low, Med, High): How much effort would this take to implement (relative sizing, very guess-based).
-
-### Types of idea
-
-Ideas should be classified as one of the following, each with its own ticket template:
-
-- **Bug** - Something not working as it should. Non critical, not timely.
-- **Feature Request** - An enhancement to our product that has specifically originated from a community partner or other customer. The requester who raised it should be noted in the ticket.
-- **Feature Enhancement** - A proposal for improving the functionality of our product
-- **Technical Debt** - An Idea that will reduce our technical debt moving forward
-
-## 3. Product Initiatives
-
-Initiatives are tracked in [our Roadmaps boards](https://2i2c.productboard.com/folder/MTpOYXZpZ2F0aW9uRm9sZGVyOjExNGJhMzQxLWQwN2EtNDhlNy05MjVlLWZiNTY4OWVmODBmYw==) as well as [our Feature boards](https://2i2c.productboard.com/folder/MTpOYXZpZ2F0aW9uRm9sZGVyOmQ2YmY3ZTVkLTFhY2UtNGU4My1hMDJjLTRmMzhhOGUyZDkxMw==).
+Initiatives are tracked in [our Initiatives Repo](https://github.com/2i2c-org/initiatives/issues) as well as [our Public Roadmap](https://2i2c.org/roadmap).
 
 Product Initiatives are ideas that we have decided to take a deeper look at, with a view to implementing them to produce value for 2i2c or its communities. The Product Lead, in collaboration with any relevant stakeholders and 2i2c’s Leadership team, will normally determine when an idea is worth taking forward to the Initiative stage. 
 
-**Initiatives form the basis of the Product Backlog**, the list of tasks we are or soon expect to be working on. As such, unlike Ideas, Initiatives are deemed to be “on deck”, requiring stakeholder input to actively triage, scope, and potentially implement.
+**Initiatives form the basis of the Product Roadmap**, the list of tasks we are or soon expect to be working on. As such, unlike Ideas, Initiatives are deemed to be “on deck”, requiring stakeholder input to actively triage, scope, and potentially implement.
 
-**Initiatives within the scope of Product should have a software component, but do not have to be purely about software**, they can and often will contain activities that are complementary to the building of tangible software outputs. These could include, but not be limited to, the creation of training materials, copy, content, visual assets, or other non-software activities. 
+**Initiatives within the scope of Product should have a software component, but do not have to be purely about software**, they can and often will contain activities that are complementary to the building of tangible software outputs. These could include, but not be limited to, the creation of training materials, copy, content, visual assets, or other non-software activities. Initiatives that are related to our platform are labelles as "platform initiatives", whereas initiatives of a more general, non-software specific nature are labelled as "P&S Initiatives". Our public roadmap only shows platform initiatives. 
 
 **Initiatives need to be finite and have tangible deliverables.** Indefinite partnership commitments or policy efforts do not fit within the Delivery Flow, and will need to be prioritized and handled at the strategic level.
 
-## 4. Scoping initiatives
+**All initiatives default to the status of "Candidate initiative."**  They only officially enter our roadmap when they are promoted to the **"Upcoming P&S Initatives"** status in the [P&S backlog](https://github.com/orgs/2i2c-org/projects/57/views/1).
+
+## Scoping initiatives
 
 ### Goals
 
 Scoping an Initiative has two goals:
 
-1. Defining the specification of an Initiative to ensure a shared and thorough understanding of what needs to be built
+1. Defining the specification of an Initiative to ensure a shared and thorough understanding of what needs to be built, from both an internal and cusstomer perspective (as our initiatives are public).
 2. Establishing the level of effort required to implement it, usually in terms of days or engineering points. This task normally falls to the engineers who are most likely to be working on an Initiative’s implementation, and it is up to the Delivery Manager to ensure there is a process in place to carve time for scoping new Initiatives as they hit the backlog.
 
 The scoping stage requires active involvement and collaboration from a mix of stakeholders, product, designers and engineers, who all contribute their expertise to ensure a shared understanding of the task at hand. Scoping an Initiative is not a waterfall process.
 
-### Activities
+### Creating a valid initiative
 
-The up-front investment in thoroughly scoping an Initiative pays dividends in maximizing the chances of developing the right solution the first time round.
+Initatives are written following a [strict template](https://github.com/2i2c-org/initiatives/blob/main/.github/ISSUE_TEMPLATE/01_new-initiative.yaml) that ensures a minimum acceptable level of detail. The **Tech Lead** and **Head of Product** are responsible for ensuring the content of all initiatives on the roadmap meet this minimum level of detail.
 
-Typical activities that may be conducted during the scoping stage include, but are not limited to:
+#### Prioritizing initiatives
 
-- UX research
-- Customer research
-- Design sprints
-- Specification writing
-- UX wireframes
-- Prototype building
-- User testing
-- Engineering feasibility assessment
-- Engineering points estimation (a.k.a. hard scoping)
+Having a collection of candidate initiatives is not very useful if they are all treated equally. We need a way to rapidly get a sense of which initiatives are likely to produce the most value. 
+
+To that end, each candidate initiative is evaluated against a set of drivers to decide which should make it to our roadmap:
+
+- **Impact**: How wide ranging is the impact of this feature on 2i2c or the entities it serves.
+- **Request frequency** : how many individual community partners or other customers have mentioned this, or outright requested it. The more requests, the more we should pay attention.
+- **Strategic alignment** : How close is this idea to the goals of the organization, 	its mission, and value proposition? We should always aim to prioritize ideas that are closely aligned with those guiding principles.
+- **Effort**: How much effort would this take to implement (relative sizing, very guess-based).
+- **Co-funding interest**: Candidate initiatives that have received a commitment for funding by one or more communities are usually fast-tracked into the Roadmap for accelerated development. The ability to co-fund platform initiatives is one of the key benefits of our Premier Membership tier.  
 
 ### Statements of Work (SOWs) and Software Design Documents (SDDs)
 
@@ -133,6 +73,7 @@ We use Statements of Work (SOWs) or Software Design Documents (SDDs) as a tool t
 
 The difference between an SOW and SDD is that an SOW is written for an external buyer that could potentially commission the work and hence require more rigorous timeline estimates, while an SDD is written for internal review and alignment without the same rigour for timeline estimates (but still recommended).
 
+SDDs and SOWs are usually only defined when an initiative has received interest from a community, and can be used to drive conversations around funding of that initiative. 
 
 The following table summarises the relevant parties that can sign off on an SOW/SDD before implementation:
 
@@ -149,7 +90,7 @@ Once an SOW or SDD is signed off, it can be used to break down an initiative int
 - [Example of an SOW](https://github.com/2i2c-org/infrastructure/issues/6150)
 - [Example of an SDD](https://github.com/2i2c-org/infrastructure/issues/6315)
 
-## 5. Building
+## Building
 
 Scoped Initiatives are now ready to be executed upon, and be broken down into tasks that will allow for the right skill sets to contribute to the outcome. Engineering tasks will be broken down and assigned to the Engineering backlog, and non-engineering tasks (e.g. the production of training materials,content, or documentation) will be assigned to individuals within the relevant disciplines.
 
@@ -183,7 +124,7 @@ Initiatives are moved through these stages while they are with Engineering, and 
 
 All new platform features and services must meet our [definition of minimally documented](#minimally-documented) before a product initiative is complete.
 
-## 6. Review
+## Review
 
 At this stage, the Product Lead and/or any relevant internal or community partner stakeholders take the output of Engineering and validate it against the Initiative’s original user story, established Scope, relevant designs or blueprints, and/or documented customer requirements. 
 
@@ -194,13 +135,13 @@ Successful testing will move the Initiative to the next stage, Release, while un
 
 By default, the Engineering Lead will be responsible for signing off the Initiative’s code quality and implementation robustness, while the Product Lead will take responsibility for signing off that the Initiative’s implementation meets the intended use case and business value, taking in input from any relevant stakeholders, as needed. 
 
-## 7. Done
+## Done
 Successful release of a Initiative effectively concludes a Initiative’s lifecycle. Any new bugs or issues found after the release will be treated as new Ideas.
 
-## 8. Learn from what we have done
+## Learn from what we have done
 After every delivery, the team should have the space to reflect on what was achieved, celebrate the milestone, and record any learnings that could lead to improvements in the process for the next deliverable. Alongside regular iteration retrospectives, major milestones should be capped by a Milestone Retrospective, a ceremony designed to provide a safe and open environment for the team to express what they liked, didn’t like, and would improve about the process of delivering that milestone.
 
-## 9. Communicate what we have done
+## Communicate what we have done
 
 While it’s important to have a process that takes a concept from idea to release, it is just as important to make sure that we actively communicate what’s been done to our community.
 
