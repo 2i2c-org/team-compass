@@ -34,7 +34,9 @@ Product Initiatives are ideas that we have decided to take a deeper look at, wit
 
 **Initiatives form the basis of the Product Roadmap**, the list of tasks we are or soon expect to be working on. As such, unlike Ideas, Initiatives are deemed to be “on deck”, requiring stakeholder input to actively triage, scope, and potentially implement.
 
-**Initiatives within the scope of Product should have a software component, but do not have to be purely about software**, they can and often will contain activities that are complementary to the building of tangible software outputs. These could include, but not be limited to, the creation of training materials, copy, content, visual assets, or other non-software activities. Initiatives that are related to our platform are labelles as "platform initiatives", whereas initiatives of a more general, non-software specific nature are labelled as "P&S Initiatives". Our public roadmap only shows platform initiatives. 
+**Initiatives within the scope of Product should have a software component, but do not have to be purely about software**, they can and often will contain activities that are complementary to the building of tangible software outputs. These could include, but not be limited to, the creation of training materials, copy, content, visual assets, or other non-software activities. 
+
+Initiatives that are related to the technical aspects of our platform are labelled as **"platform initiatives"**, whereas initiatives of a more general, non-software specific nature are labelled as **"P&S Initiatives"**. Our public roadmap only shows platform initiatives. 
 
 **Initiatives need to be finite and have tangible deliverables.** Indefinite partnership commitments or policy efforts do not fit within the Delivery Flow, and will need to be prioritized and handled at the strategic level.
 
@@ -53,7 +55,7 @@ The scoping stage requires active involvement and collaboration from a mix of st
 
 ### Creating a valid initiative
 
-Initatives are written following a [strict template](https://github.com/2i2c-org/initiatives/blob/main/.github/ISSUE_TEMPLATE/01_new-initiative.yaml) that ensures a minimum acceptable level of detail. The **Tech Lead** and **Head of Product** are responsible for ensuring the content of all initiatives on the roadmap meet this minimum level of detail.
+Initatives are written following a [strict template](https://github.com/2i2c-org/initiatives/blob/main/.github/ISSUE_TEMPLATE/01_new-initiative.yaml) that ensures a minimum acceptable level of detail. **Anyone can write an initiative**, but it's the the **Tech Lead** and **Head of Product** who are ultimately responsible for ensuring the content of all initiatives on the roadmap meet this minimum level of detail.
 
 #### Prioritizing initiatives
 
