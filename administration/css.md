@@ -10,7 +10,13 @@ CS&S has a generic e-mail address that they use for triaging any questions from 
 You can find it below.
 Feel free to use for any questions:
 
-E-mail address: **`fsp@codeforscience.org`**.
+E-mail address: **`fsp@codeforsociety.org`**.
+
+For **grant-related correspondence** (incoming grants, grant applications, and proposal support), include the grants address below.
+Asana is still the preferred way to request this kind of support.
+See [](#bd:grants) for our grants process.
+
+E-mail address: **`grants@codeforsociety.org`**.
 
 ## Where can I find the CS&S Employee Handbook?
 
