@@ -5,7 +5,7 @@ Here are some helpful terms that we use at 2i2c.
 ```{glossary}
 CS&S
 Code for Science and Society
-  2i2c is a fiscally sponsored project of [Code for Science and Society](https://codeforscience.org), a US-based 501(c)(3) public charity.
+  2i2c is a fiscally sponsored project of [Code for Science and Society](https://codeforsociety.org), a US-based 501(c)(3) public charity.
   They support open collaboration in public interest technology through fiscal sponsorship and other programs supporting sustainable open source.
   
   CS&S provides fiscal sponsorship services to mission-aligned projects in research, data, and technology. 2i2c is one of CS&S's fiscally sponsored projects. As outlined in the fiscal sponsorship agreement (attached), CS&S manages finances, taxes, insurance, reporting, contracts, and compliance for 2i2c. 
@@ -18,7 +18,7 @@ Code for Science and Society
   - Project finances are reported as a part of CS&S's `990` and other tax filings. 
   - 2i2c is protected under CS&S's general liability and directors and officers insurance.
 
-  See [the CS&S documentation for more information about their organization](https://codeforscience.org/about/).
+  See [the CS&S documentation for more information about their organization](https://codeforsociety.org/about/).
 
 
 Fiscal Sponsor

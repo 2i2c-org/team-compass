@@ -27,7 +27,7 @@ This includes most "administrative actions" that we need help with, such as work
 
 To communicate, we should use the genercal CS&S intake e-mail.
 
-E-mail address: **`fsp@codeforscience.org`**.
+E-mail address: **`fsp@codeforsociety.org`**.
 
 ```{role} CS&S FSP
 ```
