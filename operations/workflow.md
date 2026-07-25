@@ -23,9 +23,12 @@ Teams pull work from these sequences and complete them in their daily workflow (
 (quarterly-objectives)=
 ## Quarterly objectives
 
-Each quarter, we consider the progress that we made last quarter, and set objectives for the next quarter.
+Our quarterly planning process evolves over time - here's a snapshot for what we do as of July 2026.
 
-[You can find the quarterly planning process we follow here](https://docs.google.com/document/d/1aI-NhVOqx6G1n8pBMS6oDSBaZlSoR2Z-jhudJMBbhg8/edit?usp=sharing). Duplicate the Google doc and update it for our next quarter.
+Each quarter we agree one intention (set by leadership) and one measurable goal, tracked in a single **Quarterly One-Pager**.
+
+- [Template to duplicate each quarter](https://drive.google.com/file/d/1Vfnoblrr6LAT0KjIAeayrV47svVzd5Mo/view)
+- Each quarter's filled-in one-pager lives in the [Quarterly Planning folder](https://drive.google.com/drive/folders/1DY3-HxUqY7RhbJ545PLbwXImdtrP5bLJ), named `YYYY-QN Quarterly planning`
 
 In order to make progress towards our quarterly objectives, we define [_initiatives_](#board:initiatives).
 
