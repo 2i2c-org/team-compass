@@ -21,17 +21,15 @@ Teams pull work from these sequences and complete them in their daily workflow (
 [^flight-levels]: These are heavily inspired [by the Flight Levels framework](https://www.flightlevels.io/).
 
 (quarterly-objectives)=
-## Quarterly objectives
+## Quarterly plan and objectives
 
-Our quarterly planning process evolves over time - here's a snapshot for what we do as of July 2026.
+Each quarter we make a quarterly plan.
+We put all of these plans into the following folder:
 
-Each quarter we agree one intention (set by leadership) and one measurable goal, tracked in a single **Quarterly One-Pager**.
+[**Quarterly planning folder**](https://drive.google.com/drive/folders/1DY3-HxUqY7RhbJ545PLbwXImdtrP5bLJ).
 
-- [Template to duplicate each quarter](https://drive.google.com/file/d/1Vfnoblrr6LAT0KjIAeayrV47svVzd5Mo/view)
-- Each quarter's filled-in one-pager lives in the [Quarterly Planning folder](https://drive.google.com/drive/folders/1DY3-HxUqY7RhbJ545PLbwXImdtrP5bLJ), named `YYYY-QN Quarterly planning`
-
-In order to make progress towards our quarterly objectives, we define [_initiatives_](#board:initiatives).
-
+Inside, you'll find a bunch of folders labeled like `YYYY-QN Quarterly planning`.
+Look for the latest one to understand our current quarterly plan and process.
 
 (board:initiatives)=
 ## Initiatives
