@@ -24,11 +24,10 @@ See [](development:merge-policy).
 
 The 2i2c team uses Iterations to coordinate with one another in focused cycles of work (referred to as our [Iteration Cadence](coordination:iteration-cadence)). Our team works in **two-week iterations**.
 
-We rely on 5 sub-processes to move work through the delivery workflow. Namely: 
+We rely on 4 sub-processes to move work through the delivery workflow. Namely: 
 - _Refinement_
 - _Planning_
 - _Progress Update_
-- _Showcase_
 - _Retrospective_.
 
 These sub-processes are defined in more detail below.
@@ -138,9 +137,6 @@ The Engineering Manager will:
   - 📂 Open  
   - ❌ Unplanned  
   to the previous sprint’s **Status Update**.
-
-#### 📆 At the Planning Session 
-
 
 #### 🔁 Sprint Review & Retrospective
 
@@ -256,11 +252,8 @@ This is done in conjunction to using the board to identify:
 - People that need assistance (or ask for help)
 - Opportunities to pair/collaborate with team members to complete work.
 
-### 4. Demo/Showcase (NOT CURRENTLY IMPLEMENTED)
-To be implemented.
-
 (meetings:retrospective)=
-### 5.Retrospective/Continuous improvement
+### 4. Retrospective/Continuous improvement
 
 At the end of each iteration, the team holds a retrospective meeting to reflect and identify actions to improve the team's ways of working and delivery process. The retrospective is the process through which the team achieves continuous improvement for **all** their other processes. When done effectively, this event will enable us to make data-informed decisions regarding what key changes to adopt, amplify or discard from our processes.
 
