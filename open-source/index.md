@@ -1,6 +1,6 @@
 # Open source strategy
 
-How 2i2c invests in the open source communities and tools that our services depend on.
+The open source communities and tools that 2i2c's services depend on, and how we invest in them.
 
 ```{tableofcontents}
 :context: children

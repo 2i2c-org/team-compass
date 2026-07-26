@@ -22,8 +22,9 @@ Here are a few examples of this:
 
 ## List of key communities
 
-Currently, the following communities are considered "key communities" for 2i2c.
-This is pulled directly from [the source of truth TOML file](data/key-communities.toml) — edit that file to update the list.
+Currently, the following communities are considered "key communities" for 2i2c.[^sot]
+
+[^sot]: This is pulled directly from [the source of truth TOML file](data/key-communities.toml). Edit that file to update the list.
 
 ```{listing}
 :source: toml
