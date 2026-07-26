@@ -43,13 +43,9 @@ The easiest way to do all of the above _without ever leaving the browser_ is to 
 
 1. Go to https://github.dev/2i2c-org/2i2c-org.github.io/ this will open a VSCode instance in-browser with the repository loaded up.
     1. Alternatively you can do this from the GitHub UI by going to a repository and pressing `.`
-2. Create a new branch that will track your changes by clicking the buttons below and typing in a new branch name: 
-    
-    ![Image](https://github.com/user-attachments/assets/9566db6d-6105-4b0e-9451-01722fcb2b26)
+2. Create a new branch that will track your changes by clicking the buttons below and typing in a new branch name.
 3. Follow the steps above (you won't be able to preview, don't worry about that).
-4. When you're ready to propose a new change, click the "changes" tab, and then the "commit and push" button. 
-
-    ![Image](https://github.com/user-attachments/assets/7cad310d-2620-4ad8-aa99-6e13bb3e4174)
+4. When you're ready to propose a new change, click the "changes" tab, and then the "commit and push" button.
 5. Follow the prompts to create a new pull request from within VSCode, or navigate to https://github.com/2i2c-org/2i2c-org.github.io/ and open the PR from there
 
 ## How to optimize images

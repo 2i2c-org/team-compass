@@ -36,7 +36,7 @@ See the [Renewal Membership Sales](https://docs.google.com/document/d/1T6kl8bOt6
 
 ## Cloud Budget Alerts
 
-On AWS, we set up Budget alerts to trigger actions (sent to support+<commuity>@2i2c.org) when the budget threshhold is exceeded.
+On AWS, we set up Budget alerts to trigger actions (sent to `support+<community>@2i2c.org`) when the budget threshhold is exceeded.
 
 ## Renewal
 

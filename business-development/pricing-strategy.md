@@ -58,6 +58,7 @@ For example, 280 active users in a month costs `$1,000` since `$10x10 + $5x90 + 
 Because the rate drops to $0 above 10,000 MAU, this fee is bounded.
 A single community's usage fee tops out at about `$14,050` per month (`$10x10 + $5x90 + $2.50x900 + $1.25x9000`) and never grows beyond that, no matter how large the community becomes.
 
+(directed-engagements)=
 ## Directed engagements
 
 Beyond membership, a member can fund a [directed engagement](#mission:service-model), such as a co-funded [project](https://2i2c.org/roadmap/about/) that follows our roadmap (consistent with the [Right to Replicate](https://2i2c.org/right-to-replicate/) and [Commitment to Open Technology](https://2i2c.org/open-technology/)).
