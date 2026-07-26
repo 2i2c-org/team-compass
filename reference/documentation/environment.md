@@ -77,7 +77,7 @@ Check the repository's own `README.md` and `noxfile.py` for its exact build comm
 For a MyST-based repository (like this one), that usually looks like:
 
 ```shell
-npm install -g mystmd
+pip install mystmd
 myst build --html
 ```
 

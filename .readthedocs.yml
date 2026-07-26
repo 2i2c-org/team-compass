@@ -7,9 +7,9 @@ version: 2
 build:
   os: ubuntu-lts-latest
   tools:
-    nodejs: "20"
+    python: "3.12"
   commands:
-    - npm install -g mystmd
+    - pip install mystmd
     - myst build --html
     # Copy the output to Read the Docs expected location
     - mkdir -p $READTHEDOCS_OUTPUT/html/
