@@ -136,16 +136,6 @@ rediraffe_redirects = {
 
 # -- Sphinx setup script ---------------------------------------------------
 def setup(app):
-    # Add a `role` domain that we can reference in our text.
-    # To add a new role, use the `role` directive just above the section where you describe it.
-    #
-    # ```{role} Some new role name
-    # ```
-    #
-    # And then document it like: {role}`Some new role name` to generate a link.
-    # ref: https://www.sphinx-doc.org/en/master/extdev/appapi.html#sphinx.application.Sphinx.add_crossref_type
-    app.add_crossref_type("role", "role")
-    app.add_crossref_type("team", "team")
     # Plausible.io tracking
     app.add_js_file("https://plausible.io/js/script.file-downloads.hash.outbound-links.js", **{"data-comain": "compass.2i2c.org", "defer": ""})
     app.add_js_file(filename=None, body="window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }")
