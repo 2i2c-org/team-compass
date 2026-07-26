@@ -13,3 +13,7 @@ This coordination work is typically estimated and included as part of a Statemen
 
 Dedicated delivery may be billed hourly, so report your time on delivery tasks accurately and consistently in [our activity log](#operations:activity-log).
 
+```{tableofcontents}
+:context: children
+```
+

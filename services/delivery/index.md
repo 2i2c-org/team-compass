@@ -42,3 +42,9 @@ On AWS, we set up Budget alerts to trigger actions (sent to support+<commuity>@2
 
 See the [RENEWAL AUTOMATION](https://docs.google.com/document/d/1T6kl8bOt6S0ltt5ICxlmX-CKSgkrL3e1qmvGYDI1JNM/edit?tab=t.0#bookmark=id.8g6iz0ikfn1v) in the [HubSpot and CRM guide](https://docs.google.com/document/d/1T6kl8bOt6S0ltt5ICxlmX-CKSgkrL3e1qmvGYDI1JNM/edit?usp=sharing) document for more information.
 
+## Engagement types
+
+```{tableofcontents}
+:context: children
+```
+

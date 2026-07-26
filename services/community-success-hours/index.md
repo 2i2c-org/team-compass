@@ -6,3 +6,7 @@ Community Success Hours (CSH) is a type of collaborative support that empowers c
 This is guidance, strategic partnership, and capacity-building beyond our
 standard [Technical Support Service](support:index).
 
+```{tableofcontents}
+:context: children
+```
+

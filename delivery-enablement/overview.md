@@ -32,3 +32,7 @@ Below is a list of the primary capabilities and capacity need for this team to b
 
 ## Key Roles
 
+```{tableofcontents}
+:context: children
+```
+

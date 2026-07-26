@@ -13,3 +13,7 @@ The Product and Services team is responsible for delivering our Technical Suppor
 processes that defines "support at 2i2c", and to advocate for the resources
 needed to fill those roles. 
 
+```{tableofcontents}
+:context: children
+```
+

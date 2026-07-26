@@ -20,3 +20,7 @@ See [](#external-documentation).
 
 ## Documentation sections
 
+```{tableofcontents}
+:context: children
+```
+

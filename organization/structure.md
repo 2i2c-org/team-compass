@@ -35,3 +35,9 @@ The Steering Council provides accountability to the Executive Director, and prov
 ## Fiscal sponsorship and non-profit status
 
 2i2c is a [fiscally sponsored project](https://en.wikipedia.org/wiki/Fiscal_sponsorship) of {term}`Code for Science and Society`, a US 501(c)(3) public charity.
+
+## Leadership roles
+
+```{tableofcontents}
+:context: children
+```

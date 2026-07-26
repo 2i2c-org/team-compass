@@ -17,3 +17,9 @@ Our strategy documents form a progression from **why we exist** to **how we exec
 
 
 ## Organizational structure
+
+How 2i2c is broken into functional groups and teams.
+
+```{tableofcontents}
+:context: children
+```

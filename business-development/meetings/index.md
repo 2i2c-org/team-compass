@@ -27,3 +27,7 @@ We have two, 15 minute synchronous checkins each week. These help us to:
 
 **Continuous improvement**
 We have a retrospective at the end of each iteration to provide opportunities to improve our way of working.
+
+```{tableofcontents}
+:context: children
+```
