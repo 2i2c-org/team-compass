@@ -30,6 +30,5 @@ site:
   options:
     folders: true
     analytics_plausible: compass.2i2c.org
-    style: ./_static/custom.css
     logo: ./_static/images/logo.png
     logo_text: compass
