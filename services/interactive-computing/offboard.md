@@ -11,10 +11,10 @@ Assuming an engagement has not been renewed, here is a process to gracefully off
 
 3. 2 weeks before the end of the engagement, email the Community Representatives (CRs) that 2i2c is planning process of shutting down their hub.
    - Use FreshDesk to send out email:
-     - Click {guilabel}`New ticket`.
+     - Click **`New ticket`**.
      - Choose at least one community representative as the **Contact**.
-     - Select the {guilabel}`Offboard a Community` ticket template.
-     - Click {guilabel}`Create`. This creates a ticket without notifying the community.
+     - Select the **`Offboard a Community`** ticket template.
+     - Click **`Create`**. This creates a ticket without notifying the community.
      - Follow the instructions in the body of the created ticket.
 
 4. 2 days before the date of decomissioning, a reminder email should be sent to the CRs confirming that we intended to shut down the hub. If we have not already received confirmation that the user data has been migrated off, we should seek that confirmation in this email.

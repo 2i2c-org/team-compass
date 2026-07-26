@@ -379,14 +379,14 @@ The Sprint Board is broken down into different columns that represent the team's
 
 The current queues of work represented by the board are:
 
-- {guilabel}`Upcoming P&S Initiatives` represents high level initiatives waiting to be picked up, with highest priority towards the top.
-- {guilabel}`P&S Initiatives in flight` represents high level initiatives that are actively being worked on, with highest priority towards the top.
-- {guilabel}`Refined` represents prioritized tasks ready to be worked, with the highest priority towards the top.
-- {guilabel}`Up Next` represents prioritized tasks that will be included into the upcoming sprint(s) with the highest priority towards the top.
-- {guilabel}`Committed` represents tasks we've committed to complete during the current sprint in the most recent sprint planning meeting. Each item should have at least one owner.
-- {guilabel}`In Progress` represents actively worked tasks.
-- {guilabel}`In Review/Blocked` represents tasks that need to be review before being marked as done or that cannot be completed without additional actions/support.
-- {guilabel}`Done` represents completed tasks to be celebrated and archived in the next sprint planning meeting.
+- **`Upcoming P&S Initiatives`** represents high level initiatives waiting to be picked up, with highest priority towards the top.
+- **`P&S Initiatives in flight`** represents high level initiatives that are actively being worked on, with highest priority towards the top.
+- **`Refined`** represents prioritized tasks ready to be worked, with the highest priority towards the top.
+- **`Up Next`** represents prioritized tasks that will be included into the upcoming sprint(s) with the highest priority towards the top.
+- **`Committed`** represents tasks we've committed to complete during the current sprint in the most recent sprint planning meeting. Each item should have at least one owner.
+- **`In Progress`** represents actively worked tasks.
+- **`In Review/Blocked`** represents tasks that need to be review before being marked as done or that cannot be completed without additional actions/support.
+- **`Done`** represents completed tasks to be celebrated and archived in the next sprint planning meeting.
 
 (coordination:deliverables)=
 ## Deliverables and work issues

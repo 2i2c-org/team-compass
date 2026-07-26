@@ -25,10 +25,7 @@ These are the steps that you need to follow:
 2. **Open an onboarding issue in the Team Compass**.
    This issue will track the onboarding process, and serves as the {term}`Source of Truth` for steps to take in order to onboard a new team member.
 
-   ```{button-link} https://github.com/2i2c-org/team-compass/issues/new?assignees=&labels=type%3A+onboard&template=new-team-member.md&title=Onboarding+%3Cname%3E
-   :color: primary
-   Open an onboarding issue
-   ```
+   {button}`Open an onboarding issue<https://github.com/2i2c-org/team-compass/issues/new?assignees=&labels=type%3A+onboard&template=new-team-member.md&title=Onboarding+%3Cname%3E>`
 ::::
 
 

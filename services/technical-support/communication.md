@@ -6,7 +6,7 @@ We use these channels for communicating with external stakeholders like Communit
 
 - **[support@2i2c.org](mailto:support@2i2c.org)** is our point-of-contact for all support-related external communication.
 - **[The 2i2c FreshDesk account](support:freshdesk)** is where we track all support requests and communication.
-- **{doc}`the "Get Support" page <docs:support>`** provides guidance that communities may follow to get support.
+- **[the "Get Support" page](xref:docs/support)** provides guidance that communities may follow to get support.
 
 To e-mail a consortium, a group of communities, or specific community representatives, see [](#hubspot:email).
 
@@ -22,15 +22,12 @@ Any emails sent to `support@2i2c.org` will be routed to this FreshDesk account, 
 
 [**Canned responses**](https://support.freshdesk.com/en/support/solutions/articles/37577-creating-common-reply-templates-with-canned-responses) allow us to pre-populate common responses for many kinds of support.
 
-```{button-link} https://2i2c.freshdesk.com/a/admin/canned_responses/folders
-:color: primary
-Our canned responses.
-```
+{button}`Our canned responses.<https://2i2c.freshdesk.com/a/admin/canned_responses/folders>`
 
 ## Internal communication
 
 We have a few channels for communicating around support requests:
 
-- Our [FreshDesk account](https://2i2c.freshdesk.com/a/) allows for internal team communication via the {guilabel}`Add Note` button. This can be useful for sharing quick internal updates.
+- Our [FreshDesk account](https://2i2c.freshdesk.com/a/) allows for internal team communication via the **`Add Note`** button. This can be useful for sharing quick internal updates.
 - The [Eng & Prod board that collects support-related issues](https://github.com/orgs/2i2c-org/projects/22/views/47) identified via metadata `type==support`.
-- (deprecated) [Issues with the {guilabel}`support` label](https://github.com/2i2c-org/infrastructure/issues?q=is%3Aopen+label%3Asupport+sort%3Aupdated-desc) were where we tracked support requests related to {term}`Change Requests` and {term}`Guidance Requests`.
+- (deprecated) [Issues with the **`support`** label](https://github.com/2i2c-org/infrastructure/issues?q=is%3Aopen+label%3Asupport+sort%3Aupdated-desc) were where we tracked support requests related to {term}`Change Requests` and {term}`Guidance Requests`.

@@ -28,7 +28,7 @@ For example, [here is the URL for the page you are currently reading](https://gi
 
 ### Trigger "Edit Mode" in the GitHub UI
 
-There is a little pencil icon ({fas}`pencil-alt`) in the the top-right of the page.
+There is a little pencil icon in the the top-right of the page.
 Click on it, and it will turn on "editing mode".
 
 ### Make your edits

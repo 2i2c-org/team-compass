@@ -18,10 +18,7 @@ It is called **`2i2c Team Drive`** and should be accessible on the left under **
 Google Drive doesn't let you link to a Shared Drive directly, so here's a link to the `Engineering` folder in the drive.
 Navigate up one folder to find the Share Drive root.
 
-```{button-link} https://drive.google.com/drive/folders/1a2VTtMubHRiY4yg0pP-FPC9C4nYJzbaT?usp=sharing
-:color: primary
-2i2c Team Drive
-```
+{button}`2i2c Team Drive<https://drive.google.com/drive/folders/1a2VTtMubHRiY4yg0pP-FPC9C4nYJzbaT?usp=sharing>`
 
 :::{note}
 There are still some files in the old team drive that we have not yet moved over.

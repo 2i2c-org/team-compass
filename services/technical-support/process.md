@@ -87,7 +87,7 @@ When a new ticket lands in Freshdesk under the support group and it is not an in
 
    **Open an issue in the 2i2c/infrastructure repository**. If this is an issue that cannot be resolved within 30 minutes, then open a GitHub issue for the team to discuss.
 
-   [{bdg-primary}`Open a "Freshdesk ticket tracker" type of issue`](https://github.com/2i2c-org/infrastructure/issues/new?assignees=&labels=&template=5_freshdesk-ticket.yml). Use this to describe the ticket and provide as many details as possible about the results obtained in the first 30m investigation (if any).
+   [**Open a "Freshdesk ticket tracker" type of issue**](https://github.com/2i2c-org/infrastructure/issues/new?assignees=&labels=&template=5_freshdesk-ticket.yml). Use this to describe the ticket and provide as many details as possible about the results obtained in the first 30m investigation (if any).
 
    This issue will then be automatically added to the **Product and Services** board by the existing automation alongside the the **type**: `support` and the **impact** level specified in the form project fields.
 
@@ -138,15 +138,15 @@ When a new ticket lands in Freshdesk under the support group and it is not an in
 
 10. `Who: Support Agent`
 
-   **Confirm resolution**. Once we have resolved a support request, send a message to the Community Representative to confirm that we believe it is resolved. In FreshDesk, mark the incident as {guilabel}`Resolved`.
+   **Confirm resolution**. Once we have resolved a support request, send a message to the Community Representative to confirm that we believe it is resolved. In FreshDesk, mark the incident as **`Resolved`**.
 
-   Marking a ticket as {guilabel}`Resolved` will automatically trigger a Freshdesk Satisfaction Survey. If sending out this survey is not applicable, mark the ticket as {guilabel}`Closed` instead.
+   Marking a ticket as **`Resolved`** will automatically trigger a Freshdesk Satisfaction Survey. If sending out this survey is not applicable, mark the ticket as **`Closed`** instead.
 
 11. `Who: Support Triager`
 
-    **Close the request**. If the Community Representative confirms that their request has been fulfilled, consider this request closed. In FreshDesk, mark the incident as {guilabel}`Closed`.
+    **Close the request**. If the Community Representative confirms that their request has been fulfilled, consider this request closed. In FreshDesk, mark the incident as **`Closed`**.
 
-    **Reopen the request**. If the Community Representative reports that their request has not be fulfilled, consider this request open and repeat the Support Procss. In FreshDesk, mark the incident as {guilabel}`Open`.
+    **Reopen the request**. If the Community Representative reports that their request has not be fulfilled, consider this request open and repeat the Support Procss. In FreshDesk, mark the incident as **`Open`**.
 
 (support:workshop-request)=
 ### Workshop Request

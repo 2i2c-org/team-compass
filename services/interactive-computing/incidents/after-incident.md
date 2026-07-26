@@ -23,14 +23,14 @@ These steps are encoded in three GitHub issues that are automatically opened in 
 
 We use [PagerDuty's postmortem feature](https://support.pagerduty.com/docs/postmortems) to create the Incident Report. This lets us use notes, status updates from PagerDuty as well as messages from Slack easily in the incident report!
 
-1. **Open the incident** in the PagerDuty web interface, and click the {guilabel}`New Postmortem Report` button on top. We do not need to populate the report at this stage.
+1. **Open the incident** in the PagerDuty web interface, and click the **`New Postmortem Report`** button on top. We do not need to populate the report at this stage.
 1. Copy the report URL for the next step.
 
 ## 2. Create post-incident action items
 
 After the incident is over, we _must_ prioritize any action items that prevent this kind of incident at the same level as a contract deliverable, and attempt to bring it into the next sprint. While we can't guarantee there shall be no outages, we must do everything we can to prevent known causes of outages from recurring.
 
-Use the {guilabel}`Incident Action Item` template to create an issue in the [infrastructure repository](https://github.com/2i2c-org/infrastructure/issues)
+Use the **`Incident Action Item`** template to create an issue in the [infrastructure repository](https://github.com/2i2c-org/infrastructure/issues)
 
 ### Responsibility
 

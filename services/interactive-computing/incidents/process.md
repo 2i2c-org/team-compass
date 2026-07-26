@@ -55,11 +55,7 @@ When an incident is identified via any of the above sources, the following steps
       - Using Slack by typing `/pd trigger` and hitting `enter` in `#pagerduty-notifications`
 
    2. Validate to the Community Representative, via the Freshdesk ticket, that there is indeed an incident happening. If you wish, use this canned response as a start for responding:
-      ```{button-link} https://2i2c.freshdesk.com/a/admin/canned_responses/folders/80000143608/responses/80000247490/edit
-      :color: primary
-
-      Incident first response template
-      ```
+      {button}`Incident first response template<https://2i2c.freshdesk.com/a/admin/canned_responses/folders/80000143608/responses/80000247490/edit>`
    ````
    `````
 
@@ -83,18 +79,14 @@ When an incident is identified via any of the above sources, the following steps
 
    They should provide periodic updates that describe the current state of the incident, what we have tried, and our intended next steps. Here is a canned response to get started:
 
-   ```{button-link} https://2i2c.freshdesk.com/a/admin/canned_responses/folders/80000143608/responses/80000247492/edit
-   :color: primary
-
-   Incident update template
-   ```
+   {button}`Incident update template<https://2i2c.freshdesk.com/a/admin/canned_responses/folders/80000143608/responses/80000247492/edit>`
 ### 6. Make sure the incident is resolved
    The [Technology Lead](#role:technology-lead) should be pulled in to validate and review the actions taken and suggested to be taken next.
 
 ### 7. Communicate when the incident is resolved
    When we believe the incident is resolved, communicate with the Community Representative that things should be back to normal.
-   - Mark the incident as {guilabel}`Resolved` in PagerDuty.
-   - Mark the FreshDesk ticket as {guilabel}`Resolved`
+   - Mark the incident as **`Resolved`** in PagerDuty.
+   - Mark the FreshDesk ticket as **`Resolved`**
 
 ### 8. Take follow-up actions
    See [](incidents:after) for more information.
