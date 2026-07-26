@@ -36,7 +36,7 @@ See [2i2c's service offering](https://sales.2i2c.org/service-description) for cu
 (pricing:cloud)=
 ### Pass-through cloud costs
 
-If we pay cloud bills on behalf of communities, we pass {external+docs:ref}`cloud infrastructure costs <costs:cloud>` directly to the communities we serve, without taking any percentage markup.
+If we pay cloud bills on behalf of communities, we pass [cloud infrastructure costs](xref:docs#costs:cloud) directly to the communities we serve, without taking any percentage markup.
 We do this for two reasons:
 
 1. We run infrastructure _on behalf of each community_, as if a member of that community were running it themselves.

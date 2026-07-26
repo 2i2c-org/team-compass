@@ -12,13 +12,13 @@ You can find all of the information about our infrastructure and how to access i
 Our [Engineering Team](engineering:structure) has access to all of the cloud infrastructure that we run for each community.
 In addition, some other team members may be given access in order to facilitate supporting and engaging with communities.
 
-The list of 2i2c staff that have access to our infrastructure is here: {external+infra:doc}`topic/access-creds`.
+The list of 2i2c staff that have access to our infrastructure is here: [](xref:infra/topic/access-creds).
 
 ## PagerDuty Account
 
 We have [a paid PagerDuty account at `2i2c-org.pagerduty.com`](https://2i2c-org.pagerduty.com/). 
 This is used for our uptime monitoring and reporting services.
-See {external+infra:doc}`topic/monitoring-alerting/alerting` for more details. All team members who play support roles have individual accounts, enabling them to serve as incident responders in the event of problems. 
+See [](xref:infra/topic/monitoring-alerting/alerting) for more details. All team members who play support roles have individual accounts, enabling them to serve as incident responders in the event of problems. 
 
 ## GitHub bot accounts
 

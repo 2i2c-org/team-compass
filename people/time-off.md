@@ -49,7 +49,7 @@ Just do the best you can, and try to balance your own constraints with respect f
 
 The **final 14 days and the first 3 days of the year are "expected time off" for all of 2i2c**.
 
-During this time our organization operates at a reduced capacity and with greatly diminished commitments to our {external+docs:ref}`service level objectives <objectives:stability>`.
+During this time our organization operates at a reduced capacity and with greatly diminished commitments to our [service level objectives](xref:docs#objectives:stability).
 
 Our support and operational roles are still staffed, but with greatly reduced expectations around responsiveness and resolution.
 Team members can use this time as they wish (including continuing to work), but we wish to set the _expectation_ with internal and external partners that we will be less responsive.
