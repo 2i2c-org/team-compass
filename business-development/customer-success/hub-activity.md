@@ -1,21 +1,4 @@
----
-jupyter:
-  jupytext:
-    custom_cell_magics: kql
-    text_representation:
-      extension: .md
-      format_name: markdown
-      format_version: '1.3'
-      jupytext_version: 1.11.2
-  kernelspec:
-    display_name: Python 3 (ipykernel)
-    language: python
-    name: python3
----
-
-<!-- #region editable=true slideshow={"slide_type": ""} -->
 # Track Hub Usage with Grafana
-<!-- #endregion -->
 
 ## Overview
 
