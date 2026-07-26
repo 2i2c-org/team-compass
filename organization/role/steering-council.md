@@ -1,8 +1,8 @@
 
 (role:steering-council)=
-(steerco:proposal-process)=
 # The steering council
 
+(steerco:proposal-process)=
 The steering council is the ultimate authority of 2i2c.
 It holds our [Executive Director](#role:executive-director) accountable, and provides major strategic guidance and oversight.
 

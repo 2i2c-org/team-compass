@@ -1,7 +1,7 @@
-(team:engineering-team)=
 (engineering:structure)=
 # Structure and roles
 
+(team:engineering-team)=
 Within the Product & Services team, Engineers are jointly led by our [Technology Lead](#role:technology-lead) and [Engineering Manager](#role:engineering-manager).
 
 
