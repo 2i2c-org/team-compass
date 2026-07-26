@@ -16,26 +16,18 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
-          python-version: "3.11"
+          python-version: "3.12"
 
-      - name: Install deps
-        run: |
-          pip install -r requirements.txt
+      - name: Install mystmd
+        run: pip install mystmd
 
-      # linkcheck is done separately from this in doc-links.yml, scheduled to
-      # run every day and open/update an issue
-      - name: make dirhtml
-        env:
-          GRAFANA_TOKEN: ${{ secrets.GRAFANA_TOKEN }}
-        run: |
-          make dirhtml SPHINXOPTS='--color -W --keep-going'
+      - name: Build the site
+        run: myst build --html --strict
 
-      - name: Upload Logs and Build
+      - name: Upload Build
         uses: actions/upload-artifact@v4
         with:
-          name: sphinx-logs
-          path: book/_build
+          name: myst-site
+          path: _build/html

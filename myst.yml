@@ -5,14 +5,30 @@ project:
   id: 2i2c-compass
   title: Team Compass
   github: https://github.com/2i2c-org/team-compass
+  exclude:
+    - README.md
   references:
     docs: https://docs.2i2c.org/
     infra: https://infrastructure.2i2c.org/
   plugins:
     - https://github.com/myst-contrib/myst-listing/releases/download/v0.1.4/plugin.mjs
+  error_rules:
+    - rule: link-resolves
+      severity: ignore
+      keys:
+        - 'https://github.com/issues**' # linkcheck doesn't work with github issue queries
+        - 'https://github.com/orgs/2i2c-org/projects**' # projects don't respond properly
+        - 'https://github.com/2i2c-org/meta**' # private repo
+        - 'https://github.com/2i2c-org/leads**' # private repo
+        - 'https://drive.google.com/**' # almost always private
+        - 'https://icsi.berkeley.edu/**' # broken often
+        - 'https://sociocracyforall.org/**' # raises a 403 but still works
+        - 'https://airtable.com/**' # returns a 403
+        - 'https://app.asana.com/**' # returns a 403
 site:
   template: book-theme
   options:
+    folders: true
     analytics_plausible: compass.2i2c.org
     style: ./_static/custom.css
     logo: ./_static/images/logo.png

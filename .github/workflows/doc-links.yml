@@ -7,9 +7,16 @@ on:
   - cron: '0 1 * * *'
 
 jobs:
-  # ref: https://github.com/2i2c-org/.github/blob/main/.github/workflows/documentation-link-check.yaml
   linkcheck:
-    uses: 2i2c-org/.github/.github/workflows/documentation-link-check.yaml@main
-    with:
-      docs_path: .
-      requirements_path: requirements.txt
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install mystmd
+        run: pip install mystmd
+
+      - name: Build the site and check links
+        run: myst build --html --check-links --strict
