@@ -34,7 +34,7 @@ Use the {guilabel}`Incident Action Item` template to create an issue in the [inf
 
 ### Responsibility
 
-It's the {role}`Technical Lead`'s responsibility to make sure that an absolute minimum sized task to mitigate the issue that caused this incident, exists and the responsibility of the {role}`Technical Lead` & {role}`Engineering Manager` to advocate for bringing it in during the next sprint.
+It's the [Technical Lead](#role:technology-lead)'s responsibility to make sure that an absolute minimum sized task to mitigate the issue that caused this incident, exists and the responsibility of the [Technical Lead](#role:technology-lead) & [Engineering Manager](#role:engineering-manager) to advocate for bringing it in during the next sprint.
 
 (incidents:create-report)=
 
@@ -57,7 +57,7 @@ The incident report goes through a few stages before it gets public:
 
 The Incident Responder and the incident team are responsible for **drafting the incident report process**, and **doing an initial review of the report and action items**
 
-Ultimately, {role}`Technical Lead` & {role}`Engineering Manager` are responsible for **making sure the Incident Resolution, Report and action items are completed, correct and public**.
+Ultimately, [Technical Lead](#role:technology-lead) & [Engineering Manager](#role:engineering-manager) are responsible for **making sure the Incident Resolution, Report and action items are completed, correct and public**.
 
 ### Steps
 
@@ -80,8 +80,8 @@ The [Oct 2025 UToronto Incident Report](https://github.com/2i2c-org/incident-rep
    - In particular, the `Action Items` should be a list with items linked out to GitHub issues created for follow-up.
 5. **Click "Save & View Report"** when you are done
    - Ask other members of the incident response team to review the incident report
-   - In particular, the {role}`Technical Lead` should review and approve the report before it is marked as "Reviewed".
-6. After sufficient review, and if the {role}`Technical Lead` is happy with its completeness, edit the report again, **mark the Status dropdown as "Reviewed"**, and then click "Save & View Report" again.
+   - In particular, the [Technical Lead](#role:technology-lead) should review and approve the report before it is marked as "Reviewed".
+6. After sufficient review, and if the [Technical Lead](#role:technology-lead) is happy with its completeness, edit the report again, **mark the Status dropdown as "Reviewed"**, and then click "Save & View Report" again.
 7. **Download the PDF**, and add it to the [`2i2c/incident-reports`](https://github.com/2i2c-org/incident-reports) repository
    - Given review is already completed in the pagerduty interface, you don't need to wait for review to add the report here.
 8. **Email** a link to the incident report to the community representative, ideally via the Freshdesk ticket used to communicate with them during the incident itself.

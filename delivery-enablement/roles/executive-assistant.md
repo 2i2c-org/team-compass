@@ -1,5 +1,4 @@
-```{role} Executive Assistant
-```
+(role:executive-assistant)=
 # Executive Assistant
 
 We partner with [VaVaVirtual](https://vavavirtual.com/) for Executive Assistant support.

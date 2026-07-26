@@ -1,9 +1,10 @@
 
+(role:steering-council)=
 (steerco:proposal-process)=
 # The steering council
 
 The steering council is the ultimate authority of 2i2c.
-It holds our {role}`Executive Director` accountable, and provides major strategic guidance and oversight.
+It holds our [Executive Director](#role:executive-director) accountable, and provides major strategic guidance and oversight.
 
 ## Membership
 
@@ -88,7 +89,7 @@ Here are some major decision areas that require a full steering council vote.
 - Defining salaries for Director-level positions within 2i2c.
 - Changes to the Code of Conduct.
 
-For other kinds of decisions, the {role}`Executive Director` is given authority to decide.
+For other kinds of decisions, the [Executive Director](#role:executive-director) is given authority to decide.
 
 ### Decisions that require notification, but not a vote
 

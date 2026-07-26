@@ -41,9 +41,7 @@ These are major roles that should be filled in any team meeting[^1].
 
 [^1]: See [this blog post on team meeting roles](https://cfe.unc.edu/facilitator-recorder-and-timekeeper-roles/) for more inspiration here.
 
-```{role} Meeting Facilitator
-```
-
+(role:meeting-facilitator)=
 ### Meeting Facilitator
 
 The meeting facilitator structures the agenda so that it is well-scoped, and guides conversation to be productive and inclusive.
@@ -62,9 +60,7 @@ They may delegate this role to others.
 
 - Run the meeting, ensuring that conversations are inclusive and productive
 
-```{role} meeting Recorder
-```
-
+(role:meeting-recorder)=
 ### Meeting Recorder
 
 The Meeting Recorder is responsible for encoding the discussion points and actionable items that came out of a meeting.

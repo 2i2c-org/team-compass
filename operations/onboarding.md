@@ -64,7 +64,7 @@ See [our documentation guide](../reference/documentation/overview.md) for an ove
 [Our team compass](https://compass.2i2c.org) is the source of truth for all of our practices.
 It is roughly divided into three sections:
 
-- **Organization-wide sections** cover information about 2i2c itself. They are generally managed by our {role}`Executive Director`.
+- **Organization-wide sections** cover information about 2i2c itself. They are generally managed by our [Executive Director](#role:executive-director).
 - **Functional areas** focus on particular aspects of our operation, and are usually managed by a functional lead.
 - **Managed JupyterHub Service** is a special section that has a lot of cross-area documentation focused around our hub service.
   It's in a dedicated section because it doesn't really belong in any one functional area.

@@ -1,5 +1,4 @@
-```{role} Head of Product and Services
-```
+(role:head-of-product-and-services)=
 # Head of Product and Services
 
 Primarily responsible for leading the [Product and Services](/product-and-services/index.md) group, ensuring the delivery of value for 2i2c in accordance with our KPIs, strategic direction, and Value Proposition. Additionally responsible for the Platform roadmap.

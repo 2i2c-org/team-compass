@@ -24,8 +24,7 @@ Find the [CS&S employee handbook here](https://drive.google.com/file/d/1bBBwWq_Q
 
 It describes all of the policies for their employees (which includes all of 2i2c's staff).
 
-```{role} CS&S Operations
-```
+(role:css-operations)=
 ## CS&S Operations
 
 To discuss invoices, contracting, etc.
@@ -35,8 +34,7 @@ To communicate, we should use the genercal CS&S intake e-mail.
 
 E-mail address: **`fsp@codeforsociety.org`**.
 
-```{role} CS&S FSP
-```
+(role:css-fsp)=
 
 ## Set up a new contract after a sale
 

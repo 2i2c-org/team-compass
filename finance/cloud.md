@@ -24,7 +24,7 @@ See [](reimburse:cloud).
 
 When a community has a dedicated cluster, it is straightforward to calculate their monthly cloud costs.
 
-In the cloud console, look for their monthly cloud fee, take a screenshot of this page, and notify {role}`CS&S Operations` with the name of the community and the amount to reimburse.
+In the cloud console, look for their monthly cloud fee, take a screenshot of this page, and notify [CS&S Operations](#role:css-operations) with the name of the community and the amount to reimburse.
 
 Here's an issue where we are refining this process:
 

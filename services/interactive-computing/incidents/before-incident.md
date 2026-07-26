@@ -60,4 +60,4 @@ Subject Matter Experts
 
 ### Accountability
 
-Each of the roles is accountable for their responsibilities, and the {role}`Technology Lead` and the {role}`Engineering Manager` are ultimately accountable for the success of the incident response and how well the process has been followed.
+Each of the roles is accountable for their responsibilities, and the [Technology Lead](#role:technology-lead) and the [Engineering Manager](#role:engineering-manager) are ultimately accountable for the success of the incident response and how well the process has been followed.

@@ -1,10 +1,6 @@
 (role:chief-of-staff)=
 # Chief of Staff Role
 
-```{role} Chief of Staff
-```
-
-
 **TL;DR;** The Chief of Staff (CoS) extends the capacity of the Executive Director (ED) by identifying the crucial challenges or opportunities across the org and closing those gaps. They work across all Flight Levels, prioritizing opportunities to ensure that strategic outcomes are operationalized.
 
 ## Areas of responsibility
