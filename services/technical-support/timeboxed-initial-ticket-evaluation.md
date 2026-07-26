@@ -29,7 +29,6 @@ If something is not working, you might be dealing with an incident, so depending
 
 ## Category 2: New feature requested
 ```{list-table}
-:widths: 30
 :header-rows: 1
 
 *   - Is the feature requested documented at [](xref:infra/topic/features)?
@@ -39,7 +38,6 @@ If something is not working, you might be dealing with an incident, so depending
 
 ## Category 3: Technical advice
 ```{list-table}
-:widths: 30
 :header-rows: 1
 
 *   - Is the question about an area where the support triager has insight into?

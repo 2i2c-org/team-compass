@@ -4,7 +4,6 @@
 
 ```{list-table} Key Performance Indicators
 :header-rows: 1
-:widths: 20 25 40 15
 :name: kpi-table
 
 * - Metric

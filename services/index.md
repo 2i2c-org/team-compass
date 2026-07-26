@@ -11,11 +11,9 @@ This section of the Team Compass documents the procedures and processes that 2i2
 ## Available Services
 
 ::::{grid} 2
-:gutter: 2
 
 :::{grid-item-card}
 :link: interactive-computing/index
-:link-type: doc
 
 🧩💻 **Interactive Computing**
 
@@ -24,7 +22,6 @@ Deploying and operating JupyterHub infrastructure for our communities.
 
 :::{grid-item-card}
 :link: technical-support/index
-:link-type: doc
 
 🧰📬 **Technical Support**
 
@@ -33,7 +30,6 @@ Email-based support for community hub issues via FreshDesk.
 
 :::{grid-item-card}
 :link: community-success-hours/index
-:link-type: doc
 
 🌱🤝 **Community Success Hours**
 
@@ -42,7 +38,6 @@ Direct collaboration with communities to co-create value.
 
 :::{grid-item-card}
 :link: open-source-development/index
-:link-type: doc
 
 ⚙️🌍 **Consortia for Open Source Development**
 
@@ -51,7 +46,6 @@ Groups of communities co-funding and co-designing shared open source solutions.
 
 :::{grid-item-card}
 :link: dedicated-delivery-management/index
-:link-type: doc
 
 👥🎯 **Dedicated Delivery Management**
 
