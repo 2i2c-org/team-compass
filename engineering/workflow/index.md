@@ -1,12 +1,5 @@
 # Workflow
 
-```{toctree}
-:hidden:
-
-default-workflow
-1-week-iteration-workflow
-task-sizing
-```
 
 This document outlines the delivery workflow for the engineering team.
 

@@ -20,17 +20,3 @@ See [](#external-documentation).
 
 ## Documentation sections
 
-```{toctree}
-:maxdepth: 2
-strategy
-workflow
-blog
-social
-mailinglist
-analytics
-design
-publishing
-talks
-stickers
-business-cards
-```

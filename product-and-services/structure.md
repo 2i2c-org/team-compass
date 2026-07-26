@@ -2,12 +2,6 @@
 
 ## Current roles
 
-```{toctree}
-:glob:
-:maxdepth: 1
-roles/*
-../engineering/roles/*
-```
 
 ## Membership
 

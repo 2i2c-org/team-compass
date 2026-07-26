@@ -1,4 +1,6 @@
 version: 1
+extends:
+  - ./_data/toc.yml
 project:
   id: 2i2c-compass
   title: Team Compass

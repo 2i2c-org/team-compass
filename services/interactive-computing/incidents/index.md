@@ -19,9 +19,3 @@ The content on this page might change over time, and we welcome suggested change
 :::
 
 
-```{toctree}
-before-incident
-process
-after-incident
-debt
-```

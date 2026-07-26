@@ -50,9 +50,6 @@ If we verify unwelcome, but non-abusive behavior, we will have a conversation wi
 
 [This is the protocol](response-protocol.md) that 2i2c Executive Director and Steering Council members will use to respond to reports of code of conduct violations.
 
-```{toctree}
-response-protocol
-```
 
 (coc:reporting)=
 ## Reporting
@@ -94,9 +91,6 @@ The enforcement provisions in this code of conduct do not apply to the social ru
 
 If you have any questions about any part of the code of conduct or social rules, please reach out to [any 2i2c team member](https://2i2c.org/organization).
 
-```{toctree}
-social-rules
-```
 
 ## How we developed the code of conduct
 

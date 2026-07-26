@@ -23,10 +23,6 @@ Each area has a top-level section in our team compass, and it is that team's res
 
 The Executive Director leads 2i2c's organization, and reports to the Steering Council.
 
-```{toctree}
-:maxdepth: 2
-role/executive-director.md
-```
 
 (structure:steerco)=
 (Steering Council)=
@@ -34,10 +30,6 @@ role/executive-director.md
 
 The Steering Council provides accountability to the Executive Director, and provides strategic oversight over 2i2c's mission.
 
-```{toctree}
-:maxdepth: 2
-role/steering-council.md
-```
 
 (structure:fiscal-sponsor)=
 ## Fiscal sponsorship and non-profit status

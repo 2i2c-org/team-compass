@@ -5,16 +5,3 @@
 See [](#external-documentation).
 :::
 
-```{toctree}
-overview.md
-strategy.md
-pricing-strategy.md
-kpis.md
-roles/index.md
-crm.md
-grants.md
-meetings/index.md
-customer-success/freshdesk.md
-customer-success/hub-activity.md
-customer-success/community-checkin.md
-```

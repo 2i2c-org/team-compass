@@ -15,20 +15,5 @@ Our strategy documents form a progression from **why we exist** to **how we exec
 6. **[Annual Plan for 2026](plan.md)** - An assessment of our financial reality, and the quarterly priorities we must achieve in order to follow our strategy in a sustainable way. (timeline: 1 year)
 
 
-```{toctree}
-:maxdepth: 2
-:caption: Core strategy
-:hidden:
-mission
-theory-of-impact
-strategy
-service-model
-value-proposition
-plan
-```
 
 ## Organizational structure
-```{toctree}
-structure
-kpis
-```

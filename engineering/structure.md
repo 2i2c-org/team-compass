@@ -8,11 +8,6 @@ Within the Product & Services team, Engineers are jointly led by our [Technology
 (engineering:roles)=
 ## Team roles
 
-```{toctree}
-:glob:
-:maxdepth: 2
-roles/*
-```
 
 ## Career Ladders
 
