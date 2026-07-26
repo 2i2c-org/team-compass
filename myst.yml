@@ -11,7 +11,8 @@ project:
     docs: https://docs.2i2c.org/
     infra: https://infrastructure.2i2c.org/
   plugins:
-    - https://github.com/myst-contrib/myst-listing/releases/download/v0.1.4/plugin.mjs
+    - https://github.com/myst-contrib/myst-listing/releases/latest/download/plugin.mjs
+    - https://github.com/myst-contrib/myst-github/releases/latest/download/index.mjs
   error_rules:
     - rule: link-resolves
       severity: ignore
