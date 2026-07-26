@@ -4,9 +4,7 @@ This page describes some common conventions and patterns that we follow in our G
 
 ## Documentation
 
-All of our team documentation is built with the [Sphinx documentation engine](https://www.sphinx-doc.org/en/master/).
-We use a [shared Sphinx theme](https://github.com/2i2c-org/sphinx-2i2c-theme/blob/main/docs/index.md) across all of our repositories, in order to standardize the look and feel of our docs, and to ensure we have cross-references and navigation links across various documentation sites.
-See [the Sphinx 2i2c theme documentation](https://github.com/2i2c-org/sphinx-2i2c-theme/blob/main/docs/index.md) for instructions about how to use and contribute to this theme.
+The Team Compass is built with [the MyST Document Engine](https://mystmd.org). Many other 2i2c repositories build their documentation with [the Sphinx documentation engine](https://www.sphinx-doc.org/en/master/) and a [shared Sphinx theme](https://github.com/2i2c-org/sphinx-2i2c-theme/blob/main/docs/index.md) instead, to standardize the look and feel of our docs and provide cross-references and navigation links across sites.
 
 ## Issue templates
 

@@ -1,6 +1,6 @@
 # Write content with MyST markdown
 
-Our documentation is written in [MyST Markdown](https://myst.tools), using a parser for Sphinx developed by the [Executable Books project](https://executablebooks.org).
+Our documentation is written in [MyST Markdown](https://myst.tools), built with [the MyST Document Engine](https://mystmd.org) developed by the [Jupyter Book project](https://executablebooks.org).
 
 ## MyST Markdown overview
 

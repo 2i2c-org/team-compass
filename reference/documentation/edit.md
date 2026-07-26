@@ -47,7 +47,7 @@ If they are more complex, ping a team member for a review.
 
 ## Edit documentation locally
 
-If you are comfortable with or interested in learning Sphinx-based documentation workflows, you can also make changes to documentation locally on your computer, push it to GitHub, and then propose a Pull Request.
+If you are comfortable with or interested in learning MyST-based documentation workflows, you can also make changes to documentation locally on your computer, push it to GitHub, and then propose a Pull Request.
 
 :::{admonition} Learn ahead of time
 This section assumes you have a basic knowledge of how to use `git`.
@@ -77,7 +77,7 @@ For guidance on how to write MyST Markdown, see [](content.md).
 
 To preview your documentation locally, [see the instructions on installing and using `nox`](docs:install:nox).
 
-This will build the book using Sphinx, and put HTML outputs in an output folder in `_build/`.
+This will build the site using MyST, and put HTML outputs in an output folder in `_build/`.
 You can then preview them by opening up one of the `.html` files in a web browser.
 
 ### Push your changes to GitHub and make a Pull Request
