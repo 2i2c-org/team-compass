@@ -8,6 +8,7 @@ build:
   os: ubuntu-lts-latest
   tools:
     python: "3.12"
+    nodejs: "20"
   commands:
     - pip install mystmd
     - myst build --html
