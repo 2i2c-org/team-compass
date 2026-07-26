@@ -6,16 +6,11 @@ from pathlib import Path
 nox.options.reuse_existing_virtualenvs = True
 nox.options.default_venv_backend = "uv"
 
-build_command = ["-b", "dirhtml", ".", "_build/dirhtml"]
-
 
 @nox.session
 def docs(session):
     """Build the documentation."""
-    session.install("-r", "requirements.txt")
-    cmd = ["sphinx-build"]
-    cmd.extend(build_command + session.posargs)
-    session.run(*cmd)
+    session.run("myst", "build", "--html", *session.posargs, external=True)
 
 
 @nox.session(name="docs-live")
