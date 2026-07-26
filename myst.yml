@@ -1,0 +1,15 @@
+version: 1
+project:
+  id: 2i2c-compass
+  title: Team Compass
+  github: https://github.com/2i2c-org/team-compass
+  references:
+    docs: https://docs.2i2c.org/
+    infra: https://infrastructure.2i2c.org/
+site:
+  template: book-theme
+  options:
+    analytics_plausible: compass.2i2c.org
+    style: ./_static/custom.css
+    logo: ./_static/images/logo.png
+    logo_text: compass

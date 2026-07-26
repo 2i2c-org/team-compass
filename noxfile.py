@@ -21,22 +21,7 @@ def docs(session):
 @nox.session(name="docs-live")
 def docs_live(session):
     """Build the documentation with live preview server."""
-    session.install("-r", "requirements.txt")
-    session.install("sphinx-autobuild")
-    # Add folders to ignore
-    AUTOBUILD_IGNORE = [
-        "_build",
-        "build_assets",
-        "tmp",
-    ]
-    cmd = ["sphinx-autobuild"]
-    for folder in AUTOBUILD_IGNORE:
-        cmd.extend(["--ignore", f"*/{folder}/*"])
-
-    # Find an open port to serve
-    cmd.extend(["--port", "0"])
-    cmd.extend(build_command + session.posargs)
-    session.run(*cmd)
+    session.run("myst", "start", *session.posargs, external=True)
 
 @nox.session
 def images(session):
