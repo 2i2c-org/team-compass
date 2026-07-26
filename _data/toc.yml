@@ -159,11 +159,6 @@ project:
         children:
         - file: product-and-services/roles/product-lead.md
         - file: product-and-services/roles/senior-product-manager.md
-        - file: engineering/roles/delivery-manager.md
-        - file: engineering/roles/engineering-manager.md
-        - file: engineering/roles/osae.md
-        - file: engineering/roles/osie.md
-        - file: engineering/roles/technology-lead.md
       - file: product-and-services/deliveryflow.md
       - file: product-and-services/documentation.md
       - file: product-and-services/prioritization.md
@@ -184,8 +179,6 @@ project:
       - file: engineering/workflow/index.md
         children:
         - file: engineering/workflow/default-workflow.md
-          hidden: true
-        - file: engineering/workflow/1-week-iteration-workflow.md
           hidden: true
         - file: engineering/workflow/task-sizing.md
           hidden: true
