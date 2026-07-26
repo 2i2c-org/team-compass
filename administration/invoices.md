@@ -7,7 +7,7 @@ This includes any team members that are paid off of fixed-term contracts and sub
 
 ## Invoicing process
 
-1. **Read the CS&S invoicing instructions**. CS&S periodically updates and sends [instructions to invoice here]([https://www.codeforsociety.org/resources/getting-paid-by-css](https://drive.google.com/file/d/1_nLXaEceI1Y9dhfqZvRHhJUvzMioTm5A/view?usp=drive_link).
+1. **Read the CS&S invoicing instructions**. CS&S periodically updates and sends [instructions to invoice here](https://drive.google.com/file/d/1_nLXaEceI1Y9dhfqZvRHhJUvzMioTm5A/view?usp=drive_link).
    This is what you'll follow.
 2. **Prepare an invoice**. If you do not have one, [here is a template to get you started](https://docs.google.com/document/d/17aTwJkmYFXwqHa2QjYsy81hEXq64yfmo5g1SCGE6aK4/edit?usp=sharing).
 3. **Confirm your grant code**. You will need to supply a **grant code** for your invoice.
