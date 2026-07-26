@@ -8,6 +8,8 @@ project:
   references:
     docs: https://docs.2i2c.org/
     infra: https://infrastructure.2i2c.org/
+  plugins:
+    - https://github.com/myst-contrib/myst-listing/releases/download/v0.1.4/plugin.mjs
 site:
   template: book-theme
   options:

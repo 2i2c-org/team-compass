@@ -1,19 +1,51 @@
 # This is the source of truth for "Key Upstream Communities".
 # For more information see: https://compass.2i2c.org/open-source/key-communities/
 # Issue discussing this: https://github.com/2i2c-org/meta/issues/830#issuecomment-1928854772
-communities = [
-  # Jupyter projects
-  "jupyter",
-  "jupyter-server",
-  "jupyterhub",
-  "jupyterlab",
-  "binder-examples",
-  "executablebooks",
-  # Other upstream communities
-  "cryptnono",  # Also used heavily by the Binder project
-  "dask",  # Largely dask-gateway and distributed
-  "pydata",  # Largely pydata-sphinx-theme
-  "rocker-org",  # Heavily used for supporting R environments
-  # Communities of practice
-  "pangeo-data",
-]
+# Rendered on that page via the myst-listing plugin's {listing} directive.
+
+# Jupyter projects
+[[communities]]
+title = "@jupyter"
+url = "https://github.com/jupyter"
+
+[[communities]]
+title = "@jupyter-server"
+url = "https://github.com/jupyter-server"
+
+[[communities]]
+title = "@jupyterhub"
+url = "https://github.com/jupyterhub"
+
+[[communities]]
+title = "@jupyterlab"
+url = "https://github.com/jupyterlab"
+
+[[communities]]
+title = "@binder-examples"
+url = "https://github.com/binder-examples"
+
+[[communities]]
+title = "@executablebooks"
+url = "https://github.com/executablebooks"
+
+# Other upstream communities
+[[communities]]
+title = "@cryptnono"
+url = "https://github.com/cryptnono"  # Also used heavily by the Binder project
+
+[[communities]]
+title = "@dask"
+url = "https://github.com/dask"  # Largely dask-gateway and distributed
+
+[[communities]]
+title = "@pydata"
+url = "https://github.com/pydata"  # Largely pydata-sphinx-theme
+
+[[communities]]
+title = "@rocker-org"
+url = "https://github.com/rocker-org"  # Heavily used for supporting R environments
+
+# Communities of practice
+[[communities]]
+title = "@pangeo-data"
+url = "https://github.com/pangeo-data"
