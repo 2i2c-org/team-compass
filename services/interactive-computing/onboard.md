@@ -4,7 +4,7 @@
 
 Scenario: A community is at the beginning of an Engagement with 2i2c for **Managed Interactive Computing hub**. This process assumes that the community is starting fresh with 2i2c but this process should also be used when a community is renewing a previous engagement.
 
-Onboarding assumes there is already a Deal in [HubSpot](hubspot:index) with with either the status of 'Contract Admin' or 'Closed Won'.
+Onboarding assumes there is already a Deal in [HubSpot](#hubspot:index) with with either the status of 'Contract Admin' or 'Closed Won'.
 
 :::{note} CRM Community and Contacts Object model definitions
 For the current HubSpot object model and association labels, see "Communities" and "Contacts" in the [Guide to the HubSpot CRM](https://docs.google.com/document/d/1T6kl8bOt6S0ltt5ICxlmX-CKSgkrL3e1qmvGYDI1JNM/edit?usp=sharing).

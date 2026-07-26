@@ -17,12 +17,12 @@ This section describes how our development team carries out its planning and day
 (coordination:decisions)=
 ## Pull request workflow
 
-See [](development:merge-policy).
+See [](#development:merge-policy).
 
 (coordination:sprints)=
 ## Team Iterations
 
-The 2i2c team uses Iterations to coordinate with one another in focused cycles of work (referred to as our [Iteration Cadence](coordination:iteration-cadence)). Our team works in **two-week iterations**.
+The 2i2c team uses Iterations to coordinate with one another in focused cycles of work (referred to as our [Iteration Cadence](#coordination:iteration-cadence)). Our team works in **two-week iterations**.
 
 We rely on 4 sub-processes to move work through the delivery workflow. Namely: 
 - _Refinement_
@@ -41,13 +41,13 @@ Before Iteration
 : Ensure the Refined column has ranked (prioritized and sequenced) work items 
 
 Beginning of Iteration
-: Iteration begins with our [Iteration planning meeting](meetings:sprint-planning).
+: Iteration begins with our [Iteration planning meeting](#meetings:sprint-planning).
 
   In this meeting we discuss major accomplishments in the previous iteration, review past capacity committments. We then size and assign the items that each team member will work on for the next iteration, and review items that require discussion and planning.
 
 During the Iteration
 : Team members work on the items assigned to them at the iteration planning meeting.
-  We use [the Iteration Board](coordination:sprint-board) to coordinate our activities during the iteration.
+  We use [the Iteration Board](#coordination:sprint-board) to coordinate our activities during the iteration.
   We provide updates about what we've been up to, what we're doing next, and where we need help via regular **asynchronous Slack stand-ups**.
 
 Last day of Iteration
@@ -212,7 +212,7 @@ Explicitly address these before moving to anything else:
 
 #### Planning Outcomes:
 At the end of this meeting, we will have:
-1. A [_sized_](eng:processes:task-sizing) list of team deliverables that the team commits to completing within the iteration time box. These deliverables will represent work from:
+1. A [_sized_](#eng:processes:task-sizing) list of team deliverables that the team commits to completing within the iteration time box. These deliverables will represent work from:
     - Grant/Funding
     - Partnerships
     - Product Roadmap
@@ -265,7 +265,7 @@ On rare occasions, when the team experiences duress or unpredictable and disrupt
 
 #### The Roster for Facilitating Retrospectives
 
-There is a [Google Sheet](https://docs.google.com/spreadsheets/d/1s0ZSAxwFzJ-_WgDkZeicfuUadSFEjkjS6ZcNk4N7Mmg/edit?usp=sharing) in the shared team drive that determines who will be facilitating each retrospective meeting (as well as [sprint planning](meetings:sprint-planning) and backlog refinement meetings).
+There is a [Google Sheet](https://docs.google.com/spreadsheets/d/1s0ZSAxwFzJ-_WgDkZeicfuUadSFEjkjS6ZcNk4N7Mmg/edit?usp=sharing) in the shared team drive that determines who will be facilitating each retrospective meeting (as well as [sprint planning](#meetings:sprint-planning) and backlog refinement meetings).
 Members of the engineering team are expected to self-nominate for this role because it is _their_ improvement process.
 
 #### Retrospective Tool
@@ -299,7 +299,7 @@ The retrospective meeting follows the below outline.
 
 1. _Set the context for the Iteration retrospective._
 
-   This involves explaining the period under observation, which process(es) we are trying to improve and what has been achieved by the current process. This could involve reviewing the 'Done' column in [](coordination:sprint-board).
+   This involves explaining the period under observation, which process(es) we are trying to improve and what has been achieved by the current process. This could involve reviewing the 'Done' column in [](#coordination:sprint-board).
 
 1. _Review the previous retrospective actions._
 
@@ -361,7 +361,7 @@ The _general rule_ is that actions are also work and should be refined and prior
 (coordination:sprint-board)=
 ### The Iteration Board
 
-The [Iteration Board](https://github.com/orgs/2i2c-org/projects/57/views/1) is a place to keep track of the [Deliverables and tasks](coordination:deliverables) our team intends to work on for a two week iteration.
+The [Iteration Board](https://github.com/orgs/2i2c-org/projects/57/views/1) is a place to keep track of the [Deliverables and tasks](#coordination:deliverables) our team intends to work on for a two week iteration.
 
 The board is a GitHub Projects board that is populated with tasks during the teams Iteration Planning activity.
 

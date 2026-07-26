@@ -5,7 +5,7 @@
 We use these channels for communicating with external stakeholders like Community Representatives:
 
 - **[support@2i2c.org](mailto:support@2i2c.org)** is our point-of-contact for all support-related external communication.
-- **[The 2i2c FreshDesk account](support:freshdesk)** is where we track all support requests and communication.
+- **[The 2i2c FreshDesk account](#support:freshdesk)** is where we track all support requests and communication.
 - **[the "Get Support" page](xref:docs#support)** provides guidance that communities may follow to get support.
 
 To e-mail a consortium, a group of communities, or specific community representatives, see [](#hubspot:email).

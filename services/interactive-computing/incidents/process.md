@@ -6,7 +6,7 @@ We prioritize the resolution of incidents above all other kinds of work, and hav
 ## Incident sources
 
 1. [Automated Pagerduty alerts](https://infrastructure.2i2c.org/topic/monitoring-alerting/alerting)
-2. [Support Freshdesk tickets](support:index)
+2. [Support Freshdesk tickets](#support:index)
 
 ## Steps
 When an incident is identified via any of the above sources, the following steps must be taken:
@@ -66,7 +66,7 @@ When an incident is identified via any of the above sources, the following steps
    :class: warning
 
    Do **NOT** use threads when communicating in this Slack channel.
-   When coming to write the [incident report](incidents:create-report) after the event, PagerDuty can import messages from the Slack channel in order to construct a timeline.
+   When coming to write the [incident report](#incidents:create-report) after the event, PagerDuty can import messages from the Slack channel in order to construct a timeline.
    However, it cannot import threaded messages, only those that are sent directly to the channel.
    Hence if the cause of an incident was established in a thread, this cannot be reflected automatically in the incident report.
    ```
@@ -89,7 +89,7 @@ When an incident is identified via any of the above sources, the following steps
    - Mark the FreshDesk ticket as **`Resolved`**
 
 ### 8. Take follow-up actions
-   See [](incidents:after) for more information.
+   See [](#incidents:after) for more information.
 
 [^note-on-delegation]: If you cannot find somebody to take on this work, or feel uncomfortable delegating, the [Technology Lead](#role:technology-lead) should help you, and is empowered to delegate on your behalf.
 

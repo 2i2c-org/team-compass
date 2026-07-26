@@ -1,7 +1,7 @@
 (eng:processes:task-sizing)=
 # Task Sizing
 
-During the [](meetings:sprint-planning) meeting, tasks are sized to estimate the amount of effort they will require to complete so that we can ensure that the team is not overwhelmed during an iteration.
+During the [](#meetings:sprint-planning) meeting, tasks are sized to estimate the amount of effort they will require to complete so that we can ensure that the team is not overwhelmed during an iteration.
 
 ## Method for sizing
 

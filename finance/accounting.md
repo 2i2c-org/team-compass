@@ -10,7 +10,7 @@ For visualizations of this data, see our [finance dashboards](#finance:dashboard
 (accounting:statements)=
 ## Monthly reports and accounting actuals
 
-Each month, CS&S closes the books and updates our [budget projections](accounting:projections) with the latest actuals.
+Each month, CS&S closes the books and updates our [budget projections](#accounting:projections) with the latest actuals.
 See [the monthly process](monthly-process.md) for how this works.
 
 ## Our custom accounting GL codes

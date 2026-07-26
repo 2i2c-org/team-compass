@@ -16,7 +16,7 @@ We currently only use social media for two things:
 
 Use this to post and schedule across [our social media channels](#social:accounts).
 
-**How to access**: See [](account:bitwarden).
+**How to access**: See [](#account:bitwarden).
 
 (social:accounts)=
 ## List of our social media accounts
@@ -29,7 +29,7 @@ We use the following accounts for social media.
 Our BlueSky handle is [@2i2c.org](https://bsky.app/profile/2i2c.org).
 Currently, there is nobody actively monitoring the BlueSky account.
 
-**How to access**: See [](account:bitwarden).
+**How to access**: See [](#account:bitwarden).
 
 (social:mastodon)=
 ### Mastodon
@@ -37,7 +37,7 @@ Currently, there is nobody actively monitoring the BlueSky account.
 Our Mastodon handle is ([@2i2c_org](https://hachyderm.io/@2i2c_org)).
 Currently, there is nobody actively monitoring the Mastodon account.
 
-**How to access**: See [](account:bitwarden).
+**How to access**: See [](#account:bitwarden).
 
 (social:linkedin)=
 ### LinkedIn
@@ -57,4 +57,4 @@ _We do not currently use Twitter/X, but leave this here for reference_
 Our Twitter handle is ([@2i2c_org](https://twitter.com/2i2c_org)).
 Currently, there is nobody actively monitoring the Twitter account.
 
-**How to access**: See [](account:bitwarden).
+**How to access**: See [](#account:bitwarden).

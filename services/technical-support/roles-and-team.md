@@ -11,9 +11,9 @@ Support Triager
 : The primary responsibilities of the Support Triager is to:
 
   - Ensure that we meet [our Support Service Level Objectives](xref:docs#objectives:support).
-  - Carry out [our support process](support:process).
+  - Carry out [our support process](#support:process).
   - Act as the initial point of contact with {term}`Community Representative`s.
-  - Trigger an [Incident Response](support:incident-response) if need be.
+  - Trigger an [Incident Response](#support:incident-response) if need be.
   - Assign {term}`Support Agent`s to incoming tickets.
 
   The `Support Triager` role is currently filled by the Engineering Manager or their delegate.

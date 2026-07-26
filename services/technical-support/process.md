@@ -20,9 +20,9 @@ Here's a brief overview of our support process[^github-support-issues]:
   - We will prioritize resolving it over everything else.
   - We will provide regular communication to the {term}`Community Representative` as we investigate and work to resolve the issue.
   - We will notify them once the incident is resolved.
-- If the issue is a {term}`Change Request`, {term}`Guidance Request`, or [](support:workshop-request)
+- If the issue is a {term}`Change Request`, {term}`Guidance Request`, or [](#support:workshop-request)
   - We will incorporate these requests into our work planning pipeline
-  - We will [prioritize with our other work](support:prioritize-requests) based on impact, complexity, and whether we have dedicated funding for this work.
+  - We will [prioritize with our other work](#support:prioritize-requests) based on impact, complexity, and whether we have dedicated funding for this work.
   - For these types of support, each community has a {term}`Support Budget` that defines the hours we can sustainably spend on non-incident support requests.
 - When any support issue is resolved, we will communicate with the {term}`Community Representative` to confirm with them.
 
@@ -42,7 +42,7 @@ This process is carried out in an ongoing basis by the {term}`Support Triager` a
    - Budget alerts from GCP and AWS: the {term}`Support Triager` should take action if there's a >20% increase in spend, which can include passing that email on to the {term}`Community Representative` or assigning a {term}`Support Agent` to research
    - PagerDuty emails can typically be closed
    - Service alerts, account closures and openings, etc. from AWS or GCP should be shared with all engineers via our Slack support-freshdesk channel
-3. **Associate Ticket with a Community**. Verify the support ticket is associated with the correct community. See [](support:community-association)
+3. **Associate Ticket with a Community**. Verify the support ticket is associated with the correct community. See [](#support:community-association)
 4. **Convert Ticket to Community Support Hours**. If a community is requesting a meeting or an obvious deeper dive, move to the workflow for Community Success Hours. 
 5. **Assign a Support Agent to the Ticket**. The Support Triager assigns the ticket to a {term}`Support Agent` based on the considerations:
    - Who has touched this hub most recently?
@@ -56,8 +56,8 @@ The ticket has now been assigned a {term}`Support Agent` who continues the proce
 5. **Read and understand**. Within one working day[^working-day], read the support request and try to understand what action would resolve it.
 6. **Decide if there is an incident**. Determine if a request meets {term}`the definition of an incident <Incident>`.
 7. **Categorize the Support Ticket** in FreshDesk.
-8. **If an Incident**, go to [](support:incident-response).
-9. **If not an Incident**, go to [](support:non-incident-response).
+8. **If an Incident**, go to [](#support:incident-response).
+9. **If not an Incident**, go to [](#support:non-incident-response).
 
 [^working-day]: We define a working day as a continuous 24 hour period of time from Monday through Friday. This is because our team and the communities we serve are distributed across many time zones, so there is no single "working day" for everyone.
 
@@ -81,7 +81,7 @@ When a new ticket lands in Freshdesk under the support group and it is not an in
    1. If you resolve the issue, then jump to the "Confirm resolution" step 10.
    2. If you don't believe you can resolve the issue (or you couldn't) in 30 minutes, jump to the next step.
 
-   Follow the guide at [](support:timeboxed-evaluation) to try and reach to a decision.
+   Follow the guide at [](#support:timeboxed-evaluation) to try and reach to a decision.
 
 3. `Who: Support Agent`
 
@@ -95,7 +95,7 @@ When a new ticket lands in Freshdesk under the support group and it is not an in
    
    :::{admonition} What does `critical` mean?
 
-   We recognize there might be some support-related issues that do not count as [incidents](incidents:what), but
+   We recognize there might be some support-related issues that do not count as [incidents](#incidents:what), but
    they need a quick resolution (inside the current sprint window) because they are impacting the execution of
    desired or existing workflows (degraded experience) for our communities.
    Examples of those sorts of issues (requests) are:
@@ -208,5 +208,5 @@ We cannot sustainably prioritize all support requests over our other work, so he
 :::{warning}
 ## Missing FreshDesk contact information?
 
-See [](technical-support:update-contacts).
+See [](#technical-support:update-contacts).
 :::

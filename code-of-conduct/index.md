@@ -20,7 +20,7 @@ The following types of behavior are unacceptable in 2i2c spaces, both online and
 (coc:unwelcoming-behavior)=
 ### Unwelcoming behavior
 
-**Blatant -isms**: saying things that assume negative characteristics in a blanket fashion because of identification with a particular group. This is especially true for -isms around traditionally marginalized groups (e.g., explicitly racist, sexist, homophobic, or transphobic statements) For example, arguing that some people are less intelligent because of their gender, race, religion. [Subtle -isms](social:subtle-isms) and small mistakes made in conversation are not code of conduct violations. However, repeating something after it has been pointed out to you that you broke a social rule, or antagonizing or arguing with someone who has pointed out your subtle -ism is considered unwelcoming behavior, and is not allowed at 2i2c.
+**Blatant -isms**: saying things that assume negative characteristics in a blanket fashion because of identification with a particular group. This is especially true for -isms around traditionally marginalized groups (e.g., explicitly racist, sexist, homophobic, or transphobic statements) For example, arguing that some people are less intelligent because of their gender, race, religion. [Subtle -isms](#social:subtle-isms) and small mistakes made in conversation are not code of conduct violations. However, repeating something after it has been pointed out to you that you broke a social rule, or antagonizing or arguing with someone who has pointed out your subtle -ism is considered unwelcoming behavior, and is not allowed at 2i2c.
 
 **Maliciousness towards other community members**: deliberately attempting to make others feel bad, name-calling, singling out others for derision or exclusion. For example, telling someone they’re not a real programmer or that they don’t belong at 2i2c. If somebody makes such a statement without malice, they may still be in violation of the Code of Conduct if their actions are deemed especially/repeatedly unpleasant (see below).
 
@@ -35,7 +35,7 @@ In addition, the 2i2c community and experience often extends outside those space
 The 2i2c Code of Conduct does not apply to interactions between users of a Managed JupyterHub, though we encourage leaders in those communities to adopt a Code of Conduct for their hub infrastructure. The Code of Conduct does apply to any interaction between a user of a Managed JupyterHub and a 2i2c Team Member.
 
 :::{important}
-When in doubt, please [report unacceptable behavior](coc:reporting) to us. If someone’s behavior outside of a 2i2c space makes you feel unsafe at 2i2c, that is absolutely relevant and actionable for us.
+When in doubt, please [report unacceptable behavior](#coc:reporting) to us. If someone’s behavior outside of a 2i2c space makes you feel unsafe at 2i2c, that is absolutely relevant and actionable for us.
 :::
 
 ## Enforcement

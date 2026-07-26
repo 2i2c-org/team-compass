@@ -17,7 +17,7 @@ Here are a few examples of this:
 - Perform ongoing maintenance as part of our 2i2c time (not nights and weekends).
 - Put extra time into doing community work and support, not just code.
 - Put extra time into reviewing pull requests from others, not just our own.
-- Seek funding that we can use to make improvements and give support (see [](open-source:funding))
+- Seek funding that we can use to make improvements and give support (see [](#open-source:funding))
 - Track our efforts in these communities and include them in our self-assessments about impact.
 
 ## List of key communities

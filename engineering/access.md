@@ -9,7 +9,7 @@ You can find all of the information about our infrastructure and how to access i
 
 ## Who has access to cloud infrastructure
 
-Our [Engineering Team](engineering:structure) has access to all of the cloud infrastructure that we run for each community.
+Our [Engineering Team](#engineering:structure) has access to all of the cloud infrastructure that we run for each community.
 In addition, some other team members may be given access in order to facilitate supporting and engaging with communities.
 
 The list of 2i2c staff that have access to our infrastructure is here: [](xref:infra/topic/access-creds).

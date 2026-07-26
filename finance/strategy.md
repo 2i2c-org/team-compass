@@ -9,7 +9,7 @@ Monthly recurring revenue
 : Revenue brought in through **recurring** service contracts.
   This is the primary non-confirmed revenue that we _project into the future_ in our financial modeling.
 
-  Our [budget projections model](accounting:projections) uses deal data from [HubSpot](hubspot:index) to project future revenue, which may include grant-funded service contracts alongside regular service contracts.
+  Our [budget projections model](#accounting:projections) uses deal data from [HubSpot](#hubspot:index) to project future revenue, which may include grant-funded service contracts alongside regular service contracts.
 
 Cash on hand
 : The amount of disposable funds that we have in our CS&S accounts.
@@ -18,7 +18,7 @@ Cash on hand
 
 Monthly burn rate
 : `monthly recurring revenue - monthly costs`. This is the amount by which our cash-on-hand changes each month.
-  See [our budget projections](accounting:projections) for how we project future revenue using HubSpot deal data.
+  See [our budget projections](#accounting:projections) for how we project future revenue using HubSpot deal data.
 
 Runway
 : How many months before we run out of funds. We look at this two complementary ways:

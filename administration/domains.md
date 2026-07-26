@@ -11,7 +11,7 @@ If you want access to do so, ask Jim to add you.
 
 We have a `2i2c Admin` NameCheap account but it's not used to manage any domains yet.
 It's there for a future attempt at centralizing control under one account.
-Credentials to access it are in our [BitWarden account](account:bitwarden).
+Credentials to access it are in our [BitWarden account](#account:bitwarden).
 
 **Other domains may be registered elsewhere** for historical reasons.
 For example, they might be in an individual's NameCheap account, or on another service.

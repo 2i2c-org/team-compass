@@ -4,7 +4,7 @@
 
 2i2c sometimes applies for grants, submits letters of inquiry (LOIs), or provides proposal support to funders.
 This page covers how to request support for that work.
-See [](finance:fundraising) for our broader fundraising strategy.
+See [](#finance:fundraising) for our broader fundraising strategy.
 
 ## Contact CS&S
 

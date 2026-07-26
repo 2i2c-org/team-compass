@@ -20,6 +20,6 @@ Monthly on last Thursday (45-minutes)
     - [Initiatives Board](https://github.com/orgs/2i2c-org/projects/46)
     - [P&S Team Board](https://github.com/orgs/2i2c-org/projects/57)
 
-- CRM: see [](hubspot:index)
+- CRM: see [](#hubspot:index)
 
 - [Notes - [Tentative] Operations Board Refinement](https://docs.google.com/document/d/1WvXamL-f-QNYUVFG2RJPE-9R7iNkn4QkRg9p-s_tFwU/edit?tab=t.0#heading=h.9krs5mief39g)

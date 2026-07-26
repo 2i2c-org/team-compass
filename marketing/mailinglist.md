@@ -11,7 +11,7 @@ To e-mail a consortium, a group of communities, or specific community representa
 ## Access Mailchimp
 
 We have a single Mailchimp account and share access to team members via a single `username`/`password`.
-See [](account:bitwarden) for access.
+See [](#account:bitwarden) for access.
 
 ## Send e-mails via Mailchimp
 

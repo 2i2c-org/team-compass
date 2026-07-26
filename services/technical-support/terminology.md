@@ -14,12 +14,12 @@ Support Requests
 Incident
 : An event that significantly degrades the JupyterHub service. Support requests that are related to incidents should be prioritized over all other work items.
 
-  [](incidents:what) defines the kind of incidents we respond to via PagerDuty and consider immediate issues to be resolved.
+  [](#incidents:what) defines the kind of incidents we respond to via PagerDuty and consider immediate issues to be resolved.
 
   We do not have a limit on the support time we provide related to incidents (as opposed to Change and Guidance requests, which have a {term}`Support Budget`).
 
   :::{seealso}
-  See [](incidents:index) for more information.
+  See [](#incidents:index) for more information.
   :::
 
 Incidents

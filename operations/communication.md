@@ -13,12 +13,12 @@ See below for details.
 ## GitHub Issues and Projects
 
 For most team communication, we use GitHub Issues and Pull Requests.
-See [](coordination:workflow) for more information.
+See [](#coordination:workflow) for more information.
 
 (communication:slack)=
 ## Slack
 
-Most of our synchronous communication [happens in Slack](communication:slack).
+Most of our synchronous communication [happens in Slack](#communication:slack).
 There are a combination of private and public channels for different kinds of communication.
 
 ### Public channels
@@ -67,7 +67,7 @@ We try not to publicly post this link to avoid the likelihood of abuse.
 
 To access the room, ask any team member for the URL and password to join.
 
-See [](zoom:access) for information about how to access the account.
+See [](#zoom:access) for information about how to access the account.
 
 ## Personal e-mail
 

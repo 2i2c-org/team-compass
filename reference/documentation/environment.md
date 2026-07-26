@@ -4,7 +4,7 @@ To create your documentation environment locally, you'll need **Nox** installed.
 If you wish to build the documentation by-hand without **Nox**, you'll also need to install the dependencies for a given repository.
 
 :::{note}
-The easiest way to edit our documentation is to [use GitHub's UI editor](documentation:edit:github).
+The easiest way to edit our documentation is to [use GitHub's UI editor](#documentation:edit:github).
 Setting up your documentation environment locally is not required.
 :::
 
@@ -31,7 +31,7 @@ Most of our documentation is buildable with [the `nox` automation tool](https://
 This is a lightway way to execute commands in an isolated environment.
 It will let you both install the dependencies for your documentation and build it with a single command.
 
-To install `nox`, first [confirm you have installed Python](docs:install:python) then type:
+To install `nox`, first [confirm you have installed Python](#docs:install:python) then type:
 
 ```shell
 pip install nox
@@ -69,7 +69,7 @@ rm -rf .nox
 
 ## Manually install the environment for documentation
 
-Normally, [Nox](docs:install:nox) will handle all of the environment installation for you.
+Normally, [Nox](#docs:install:nox) will handle all of the environment installation for you.
 However if you prefer to install the environment and run the documentation engine yourself, you may do so.
 This differs depending on the repository and which engine it uses.
 Check the repository's own `README.md` and `noxfile.py` for its exact build command.

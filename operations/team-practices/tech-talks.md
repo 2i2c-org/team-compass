@@ -29,7 +29,7 @@ Please turn up to these sessions when you are able to, and ready to learn someth
 It is intended that this meeting will happen monthly to begin with, and that schedule can changed as needed.
 For example, if the org grows and we have a larger pool of presenters to pull from, we may want to increase the frequency.
 
-Once the schedule has been established, it will be added to the [](calendars:team).
+Once the schedule has been established, it will be added to the [](#calendars:team).
 ```
 
 These Tech Talk sessions will be a 45min long video call, including the presentation and any questions from attendees.

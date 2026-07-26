@@ -16,7 +16,7 @@ Our salary policy should ensure that our team feels financially supported and re
 Team members should feel that 2i2c is a competitive workplace from a salary perspective, while recognizing that we do not have the financial resources of most tech companies.
 Below are a few guiding principles of our salary policy:
 
-- **Benchmarked to non-profit tech**. We should benchmark our salaries based on similar roles in our sector (non-profits that do technical or research work, depending on the role). See [](compensation:salaries:guidestar) for the current process we follow.
+- **Benchmarked to non-profit tech**. We should benchmark our salaries based on similar roles in our sector (non-profits that do technical or research work, depending on the role). See [](#compensation:salaries:guidestar) for the current process we follow.
   - If we determine that a sector is systemically under-paying a given role in a way that makes us uncompetitive, then we may increase the salary band for the role to be more aligned with the private sector.
 - **Explicit rationale**. All of our salaries must be tied to explicit roles, with consistent and transparent responsibilities and expectations for entering and advancing a role.
 - **Transparent compensation by role**. Our salaries, benefits, and the roles that they are attached to should be available to all.
@@ -58,7 +58,7 @@ Here are a few tips to understand the GuideStar reports:
 
 Current positions, roles, and salaries are tracked in our [AirTable Salaries base](#airtable:salaries).
 
-We recently developed an [internal Engineering-specific salary bands matrix](engineering:salary) as well.
+We recently developed an [internal Engineering-specific salary bands matrix](#engineering:salary) as well.
 
 (compensation:cost-of-living)=
 ## Cost of living adjustments (COLA)

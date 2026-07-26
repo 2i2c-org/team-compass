@@ -75,7 +75,7 @@ For guidance on how to write MyST Markdown, see [](content.md).
 
 ### Preview your changes (optional)
 
-To preview your documentation locally, [see the instructions on installing and using `nox`](docs:install:nox).
+To preview your documentation locally, [see the instructions on installing and using `nox`](#docs:install:nox).
 
 This will build the site using MyST, and put HTML outputs in an output folder in `_build/`.
 You can then preview them by opening up one of the `.html` files in a web browser.

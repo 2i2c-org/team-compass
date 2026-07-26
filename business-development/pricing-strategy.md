@@ -2,7 +2,7 @@
 # Pricing strategy
 
 This page describes our pricing rationale and numbers.
-Our service offering is described in [](mission:service-model).
+Our service offering is described in [](#mission:service-model).
 
 **Last Updated:** `2026-06-26`
 ## Guiding principles
@@ -21,7 +21,7 @@ Our prices should:
 
 ### Membership
 
-Membership covers all four [areas of our work](mission:service-model). Each tier is a fixed annual fee, capped at the listed amount, and is the member's entire required commitment.
+Membership covers all four [areas of our work](#mission:service-model). Each tier is a fixed annual fee, capped at the listed amount, and is the member's entire required commitment.
 
 - **General Membership** is $15,000 per year.
 - **Premier Membership** is $50,000 per year. It includes more service hours and strategic collaboration than General.
@@ -60,7 +60,7 @@ A single community's usage fee tops out at about `$14,050` per month (`$10x10 + 
 
 ## Directed engagements
 
-Beyond membership, a member can fund a [directed engagement](mission:service-model), such as a co-funded [project](https://2i2c.org/roadmap/about/) that follows our roadmap (consistent with the [Right to Replicate](https://2i2c.org/right-to-replicate/) and [Commitment to Open Technology](https://2i2c.org/open-technology/)).
+Beyond membership, a member can fund a [directed engagement](#mission:service-model), such as a co-funded [project](https://2i2c.org/roadmap/about/) that follows our roadmap (consistent with the [Right to Replicate](https://2i2c.org/right-to-replicate/) and [Commitment to Open Technology](https://2i2c.org/open-technology/)).
 
 A member raises a need, we scope it together into a rough size and set of deliverables, and we quote from our rate.
 

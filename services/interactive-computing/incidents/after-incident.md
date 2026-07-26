@@ -74,7 +74,7 @@ The [Oct 2025 UToronto Incident Report](https://github.com/2i2c-org/incident-rep
    - Link to the Slack channel we created for this incident, with an appropriate time to cover all the messages
 3. **Fill out the timeline**
    - The goal is to be concise but make it possible for someone reading it to answer "what happened, and when?".
-   - See [](incidents:postmortem-timeline) for more information.
+   - See [](#incidents:postmortem-timeline) for more information.
 4. **Fill out the "Analysis" section** to the extent possible.
    - Perfection is the enemy of the good here. Save as you go.
    - In particular, the `Action Items` should be a list with items linked out to GitHub issues created for follow-up.

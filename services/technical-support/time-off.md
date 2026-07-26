@@ -2,7 +2,7 @@
 # Expected time off and downtime
 
 There are some cases when we intentionally reduce our operations and support capacity.
-See [](time-off:annual-expected) for our broader policies and support commitments during this time.
+See [](#time-off:annual-expected) for our broader policies and support commitments during this time.
 
 (support:expected-time-off:policy)=
 ## Expected time off support policy

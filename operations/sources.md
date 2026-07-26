@@ -29,7 +29,7 @@ See [the old Drive folder](https://drive.google.com/drive/folders/1ABxxSFycGfCzQ
 ## Public GitHub Issues
 
 Most of our conversations, planning, and work tracking happens in GitHub.
-See [](coordination:workflow) for more information.
+See [](#coordination:workflow) for more information.
 
 ## Private GitHub Issues
 

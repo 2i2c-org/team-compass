@@ -17,7 +17,7 @@ These policies are detailed in the [CS&S Employee Handbook](https://drive.google
 - 2i2c does not have a limit on the number of days you may take off each year.
 - We recommend that all 2i2c team members take **at least 40 days** (8 weeks) annually (pro-rated if you started work mid-way through the year).[^time-off]
 - We do not treat national holidays differently from vacation days.
-- You must open an issue to tell others about your intention to take time off, and you must add your intended time off to the [Team Leave Calendar](calendars:time-off).
+- You must open an issue to tell others about your intention to take time off, and you must add your intended time off to the [Team Leave Calendar](#calendars:time-off).
 
 ### Guidelines for taking time off
 
@@ -57,7 +57,7 @@ Team members can use this time as they wish (including continuing to work), but 
 Here is our policy during this time:
 
 - All team meetings are cancelled during this time.
-- [](support:expected-time-off:policy) for our support policy during this time.
+- [](#support:expected-time-off:policy) for our support policy during this time.
 
 ## Unknowns to resolve
 

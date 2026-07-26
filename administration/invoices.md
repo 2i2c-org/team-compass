@@ -11,7 +11,7 @@ This includes any team members that are paid off of fixed-term contracts and sub
    This is what you'll follow.
 2. **Prepare an invoice**. If you do not have one, [here is a template to get you started](https://docs.google.com/document/d/17aTwJkmYFXwqHa2QjYsy81hEXq64yfmo5g1SCGE6aK4/edit?usp=sharing).
 3. **Confirm your grant code**. You will need to supply a **grant code** for your invoice.
-   See [](reimburse:grant-code).
+   See [](#reimburse:grant-code).
 4. **Send it to [`bills@codeforsociety.org`](mailto:bills@codeforsociety.org) and [`admin@2i2c.org`](#workspace:admin)**.
    These are both organizational accounts to track the invoices and ensure visibility across the organization.
    `admin@2i2c.org` is a [shared Google Group](#workspace:admin) that any 2i2c team member can join.

@@ -14,7 +14,7 @@ This page covers our AirTable account, how to access it, and what we use it for.
 [Here's a link to our primary AirTable workspace](https://airtable.com/invite/l?inviteId=inv3bBae7WUqQsehA&inviteToken=7689178d3e79af8956d1f5cd958d9d8e63160e86b70c74d2d8bb2502ce665e00&utm_medium=email&utm_source=product_team&utm_content=transactional-alerts).
 
 This is a read-only link, valid for any `@2i2c.org` address.
-If you need edit permissions, use the [shared AirTable account](airtable:shared).
+If you need edit permissions, use the [shared AirTable account](#airtable:shared).
 
 (airtable:shared)=
 ## Edit access to the AirTable
@@ -22,7 +22,7 @@ If you need edit permissions, use the [shared AirTable account](airtable:shared)
 We have a single account on the "Pro" plan of AirTable.
 It is the only account with edit permissions.
 
-To access this account, use our [shared passwords account](account:bitwarden) for credentials.
+To access this account, use our [shared passwords account](#account:bitwarden) for credentials.
 
 (airtable:salaries)=
 ## Salaries base

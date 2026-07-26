@@ -4,7 +4,7 @@
 This section describes our broad team practices for meetings.
 Its goal is to be relatively high-level and to provide guidelines that can be interpreted in different ways by team leads and meeting facilitators.
 
-The source of truth for team meetings is [the 2i2c Team calendar](calendars:team).
+The source of truth for team meetings is [the 2i2c Team calendar](#calendars:team).
 These may link to other sources of information such as meeting notes.
 
 ## Guidelines
@@ -82,7 +82,7 @@ Define a meeting recorder at the beginning of each meeting.
 ### Asynchronous team syncs
 
 A lightweight way to share what we've been up to and signal-boost items for other team members to pay attention to.
-These are managed by [an automated Geekbot questionnaire](https://geekbot.com/) in [our team slack](communication:slack).
+These are managed by [an automated Geekbot questionnaire](https://geekbot.com/) in [our team slack](#communication:slack).
 
 To manage the Geekbot in Slack, send the word `dashboard` as DM to the bot and it'll bring up the page with all of the 
 workflows.  For additional information on how use Geekbot from Slack, see this  

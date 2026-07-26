@@ -6,7 +6,7 @@ Our fiscal sponsor, {term}`CS&S`, use [a service called Ramp](https://ramp.com/)
 If you'd like access to our Ramp account or need to use it, reach out to one of these people.
 
 :::{admonition} You can use the organization credit card
-- We have an [organizational credit card](admin:credit-card) to purchase things directly with 2i2c funds if you do not wish to file a reimbursement yourself.
+- We have an [organizational credit card](#admin:credit-card) to purchase things directly with 2i2c funds if you do not wish to file a reimbursement yourself.
 To do this, contact the [Executive Director](#role:executive-director) or the [Business Development Lead](#role:business-development-lead).
 - If you attempt to use the card and it is blocked or declined, alert the team via the Slack #team-updates channel. That's a problem that needs immediate attention.
 :::
@@ -31,7 +31,7 @@ Currently, these are the expenses that we regularly reimburse:
 - Monthly / annual fees for online services that are used across the entire 2i2c team.
 - Cloud infrastructure costs incurred as part of our services.
 - Conference registration for conferences that we agree are in-scope for 2i2c's attendance.
-- Travel: see [](reimburse:travel).
+- Travel: see [](#reimburse:travel).
 - Personal development / books / training for skills that are directly related to team responsibilities.
 - Infrequent equipment purchases for team members (computers, desks, etc) provided they are within a reasonable spend amount.
 
