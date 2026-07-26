@@ -37,25 +37,28 @@ This team needs to fulfill three roles, which ideally are filled by different pe
 
 ```{glossary}
 Incident Responder
-  The Incident Responder has the authority to plan and delegate action to others on the team. 
+: The Incident Responder has the authority to plan and delegate action to others on the team. 
   Their **responsibility** is to:
     - solve or temporally mitigate the incident, either themselves or with the help of the available team members
     - be the {term}`Source of Truth` about the current state and action plan surrounding the incident
     - review the {term}`Incident Report` after the incident is resolved
 
 Communication Liaison
-  The person that communicates with external stakeholders about an Incident. This is typically the {term}`Support Triager`
+: The person that communicates with external stakeholders about an Incident. This is typically the {term}`Support Triager`
   Their **responsibility** is to:
     - communicate the status of the incident
     - send updates about our current thinking and what we have tried, and any expected changes coming
     - write the {term}`Incident Report` after the incident is resolved
 
-Subject Matter Expert
 Subject Matter Experts
-  A team member with expertise in an area of relevance to an Incident. They should be pulled in to the Response Team as-needed by the {term}`Incident Responder`. 
+: A team member with expertise in an area of relevance to an Incident. They should be pulled in to the Response Team as-needed by the {term}`Incident Responder`. 
   Their **responsibility** is to:
     - help resolve the incident by providing expertise and taking actions
-    - inform the {term}`Incident Responder` about their plan/actions/motivations either during or after the incident so they  can  actions as-directed by the {term}- - the Tech Lead must always be included as a Subject Matter Expert, as they have unique expertise in solving certain problems and are ultimately accountable for successful incident resolution.
+    - inform the {term}`Incident Responder` about their plan/actions/motivations either during or after the incident so they can take actions as-directed by the {term}`Incident Responder`
+    - the Tech Lead must always be included as a Subject Matter Expert, as they have unique expertise in solving certain problems and are ultimately accountable for successful incident resolution.
+
+Subject Matter Expert
+: See {term}`Subject Matter Experts`.
 ```
 
 ### Accountability

@@ -4,14 +4,15 @@ The following are important terms in the support process.
 
 ```{glossary}
 Support Request
-Support Requests
-  Any request that a community sends to us via `support@2i2c.org` or the FreshDesk Support widget.
+: Any request that a community sends to us via `support@2i2c.org` or the FreshDesk Support widget.
   Support requests are generally un-planned and happen in response to a community needing assistance with something unexpected.
   There are a few main categories of support that we consider, each is described below.
 
+Support Requests
+: See {term}`Support Request`.
+
 Incident
-Incidents
-  An event that significantly degrades the JupyterHub service. Support requests that are related to incidents should be prioritized over all other work items.
+: An event that significantly degrades the JupyterHub service. Support requests that are related to incidents should be prioritized over all other work items.
 
   [](incidents:what) defines the kind of incidents we respond to via PagerDuty and consider immediate issues to be resolved.
 
@@ -21,9 +22,11 @@ Incidents
   See [](incidents:index) for more information.
   :::
 
+Incidents
+: See {term}`Incident`.
+
 Change Request
-Change Requests
-  A request for a desired change to a hub's infrastructure that is not related to an incident. For example:
+: A request for a desired change to a hub's infrastructure that is not related to an incident. For example:
 
   - Changing the user's software environment.
   - Changing the resources available to users.
@@ -32,12 +35,17 @@ Change Requests
 
   Change Requests are generally non-urgent and should not be associated with significant diminished service. They are often things that communities _could_ carry out themselves with the proper guidance and infrastructure setup. We aim to make our hubs as configurable as possible _by the community_ so that we are not on the critical path for things like environment updates.
 
+Change Requests
+: See {term}`Change Request`.
+
 Guidance Request
+: A Support Request that is not tied directly to a change in infrastructure. Sometimes support requests are not tied to a specific change, but a desire to discuss and request guidance. In this case we may set up a meeting to discuss as a group, or have some back-and-forth via support channels.
+
 Guidance Requests
-  A Support Request that is not tied directly to a change in infrastructure. Sometimes support requests are not tied to a specific change, but a desire to discuss and request guidance. In this case we may set up a meeting to discuss as a group, or have some back-and-forth via support channels.
+: See {term}`Guidance Request`.
 
 Support Budget
-  A fixed amount of time that we can spend providing support for each community that we serve. This helps us ensure that we can sustainably serve many communities. Any support request that is **not tied to an {term}`Incident`** will draw from the support budget for that community. If a community requests support beyond their support budget, we may request extra funds to help cover our costs.
+: A fixed amount of time that we can spend providing support for each community that we serve. This helps us ensure that we can sustainably serve many communities. Any support request that is **not tied to an {term}`Incident`** will draw from the support budget for that community. If a community requests support beyond their support budget, we may request extra funds to help cover our costs.
 
   :::{note}
   We currently keep this term intentionally vague, and ask that communities are respectful of our time when making change requests.

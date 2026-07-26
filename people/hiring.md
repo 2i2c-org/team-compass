@@ -11,14 +11,18 @@ Here are its major roles:
 
 ```{glossary}
 Hiring Lead
-  The Hiring Lead oversees the hiring process for a candidate.
+: The Hiring Lead oversees the hiring process for a candidate.
   They are usually the direct supervisor of the person to be hired.
 
-Hiring Committee
 Hiring Team
-Hiring Team Members
-  Individuals that help out with various parts of the hiring process.
+: Individuals that help out with various parts of the hiring process.
   We aim to spread the load of serving on hiring committees across team members, and try to have committee members for individuals that will work closely with the new hire.
+
+Hiring Committee
+: See {term}`Hiring Team`.
+
+Hiring Team Members
+: See {term}`Hiring Team`.
 ```
 
 ## Create a new hire with Greenhouse
