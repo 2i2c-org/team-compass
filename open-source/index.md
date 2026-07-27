@@ -1,10 +1,8 @@
 # Open source strategy
 
-```{toctree}
-:maxdepth: 2
-overview
-strategy
-funding
-ip
-key-communities
+The open source communities and tools that 2i2c's services depend on, and how we invest in them.
+
+```{tableofcontents}
+:context: children
 ```
+

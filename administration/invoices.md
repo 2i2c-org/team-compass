@@ -7,11 +7,11 @@ This includes any team members that are paid off of fixed-term contracts and sub
 
 ## Invoicing process
 
-1. **Read the CS&S invoicing instructions**. CS&S periodically updates and sends [instructions to invoice here]([https://www.codeforsociety.org/resources/getting-paid-by-css](https://drive.google.com/file/d/1_nLXaEceI1Y9dhfqZvRHhJUvzMioTm5A/view?usp=drive_link).
+1. **Read the CS&S invoicing instructions**. CS&S periodically updates and sends [instructions to invoice here](https://drive.google.com/file/d/1_nLXaEceI1Y9dhfqZvRHhJUvzMioTm5A/view?usp=drive_link).
    This is what you'll follow.
 2. **Prepare an invoice**. If you do not have one, [here is a template to get you started](https://docs.google.com/document/d/17aTwJkmYFXwqHa2QjYsy81hEXq64yfmo5g1SCGE6aK4/edit?usp=sharing).
 3. **Confirm your grant code**. You will need to supply a **grant code** for your invoice.
-   See [](reimburse:grant-code).
+   See [](#reimburse:grant-code).
 4. **Send it to [`bills@codeforsociety.org`](mailto:bills@codeforsociety.org) and [`admin@2i2c.org`](#workspace:admin)**.
    These are both organizational accounts to track the invoices and ensure visibility across the organization.
    `admin@2i2c.org` is a [shared Google Group](#workspace:admin) that any 2i2c team member can join.
@@ -31,7 +31,7 @@ It includes all the information requested in the CS&S link above. Your invoice c
 
 Most reimbursements require a **grant code**.
 Each team member is paid from one or more grants so this helps CS&S know which account to draw from.
-The {role}`Executive Director` is the final say on which grant code is paying a given team member, but generally it is the same grant paying you over time.
+The [Executive Director](#role:executive-director) is the final say on which grant code is paying a given team member, but generally it is the same grant paying you over time.
 
 As new grants come in, CS&S and our team work together to allocate team members' time across grants. You will receive instructions from CS&S when you first start sending invoices and at any point when grant allocations need to change.
 

@@ -1,20 +1,13 @@
 # Business Development
 
+Strategy, processes, and roles for how 2i2c sells to and renews member communities.
+
 :::{admonition} External documentation sources
 :class: seealso
 See [](#external-documentation).
 :::
 
-```{toctree}
-overview.md
-strategy.md
-pricing-strategy.md
-kpis.md
-roles/index.md
-crm.md
-grants.md
-meetings/index.md
-customer-success/freshdesk.md
-customer-success/hub-activity.md
-customer-success/community-checkin.md
+```{tableofcontents}
+:context: children
 ```
+

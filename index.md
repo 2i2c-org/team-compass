@@ -21,17 +21,6 @@ Below is a brief overview of our top-level structure.
 
 These documents cover the whole organization and are relevant to everybody at 2i2c.
 
-```{toctree}
-:caption: Organization wide
-:maxdepth: 2
-
-organization/index
-people/index
-open-source/index
-finance/index
-administration/index
-operations/index
-```
 
 (index:functional-areas)=
 
@@ -39,16 +28,6 @@ operations/index
 
 Functional areas each have their own leads, goals, and structures.
 
-```{toctree}
-:caption: Areas of work
-:maxdepth: 2
-
-delivery-enablement/index
-business-development/index
-marketing/index
-product-and-services/index
-engineering/index
-```
 
 (index:services)=
 
@@ -60,19 +39,6 @@ We deliver on this effort through a collection of community facing services.
 We act as a cross-functional team around these services, and share many responsibilities and duties.
 Overviews and detailed 2i2c processes of our services are documented in the sections below.
 
-```{toctree}
-:caption: Services
-:maxdepth: 2
-:glob:
-services/index
-services/dedicated-delivery-management/index
-services/interactive-computing/index
-services/technical-support/index
-services/community-success-hours/index
-services/open-source-development/index
-services/delivery/index
-List of running hubs <https://infrastructure.2i2c.org/reference/hubs/>
-```
 
 (index:reference)=
 
@@ -80,12 +46,3 @@ List of running hubs <https://infrastructure.2i2c.org/reference/hubs/>
 
 Reference and archival information for our teams.
 
-```{toctree}
-:caption: Reference Material
-:maxdepth: 2
-reference/calendar.md
-reference/team.md
-reference/documentation/overview.md
-reference/terminology.md
-reference/inspiration.md
-```

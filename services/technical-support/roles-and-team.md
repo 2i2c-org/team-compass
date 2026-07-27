@@ -8,27 +8,34 @@ This consists of these main roles: {term}`Support Triager`, {term}`Support Agent
 
 ```{glossary}
 Support Triager
-Support Triagers
-  
-  The primary responsibilities of the Support Triager is to:
+: The primary responsibilities of the Support Triager is to:
 
-  - Ensure that we meet {external+docs:ref}`our Support Service Level Objectives <objectives:support>`.
-  - Carry out [our support process](support:process).
+  - Ensure that we meet [our Support Service Level Objectives](xref:docs#objectives:support).
+  - Carry out [our support process](#support:process).
   - Act as the initial point of contact with {term}`Community Representative`s.
-  - Trigger an [Incident Response](support:incident-response) if need be.
+  - Trigger an [Incident Response](#support:incident-response) if need be.
   - Assign {term}`Support Agent`s to incoming tickets.
 
   The `Support Triager` role is currently filled by the Engineering Manager or their delegate.
 
+Support Triagers
+: See {term}`Support Triager`.
+
 Support Agent
+: A `Support Agent` is tasked with performing the work related to a support request and communicating with the {term}`Community Representatives`.
+
 Support Agents
-  A `Support Agent` is tasked with performing the work related to a support request and communicating with the {term}`Community Representatives`.
+: See {term}`Support Agent`.
 
 Community Representative
+: See [the service documentation](https://docs.2i2c.org/about/service/shared-responsibility.html#std-role-Community-Representative).
+
 Community Representatives
-  See [the service documentation](https://docs.2i2c.org/about/service/shared-responsibility.html#std-role-Community-Representative).
+: See {term}`Community Representative`.
 
 Hub Administrator
+: See [the service documentation](https://docs.2i2c.org/about/service/shared-responsibility.html#std-role-Hub-Administrator).
+
 Hub Administrators
-  See [the service documentation](https://docs.2i2c.org/about/service/shared-responsibility.html#std-role-Hub-Administrator).
+: See {term}`Hub Administrator`.
 ```

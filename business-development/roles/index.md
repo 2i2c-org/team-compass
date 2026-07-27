@@ -14,7 +14,7 @@ We imagine these roles formalizing into something like the following:
 
 We're describing some of these in the pages below as well:
 
-```{toctree}
-bd-lead.md
-sales-account-executive.md
+```{tableofcontents}
+:context: children
 ```
+

@@ -54,7 +54,7 @@ This phase involves the following steps:
     3. Coordinating discounts with CS&S
 3. **Dispatch for invoicing**: Cloud costs are sent to CS&S for invoicing. 4. This is done by consolidating the CSV files from P&S to a google cloud sheet 5. P&S is notified on Asana that the cloud costs are ready for invoicing
 
-See [](contracts:invoice-cloud) for the invoicing process and reference documents.
+See [](#contracts:invoice-cloud) for the invoicing process and reference documents.
 
 ## Decommissioning hubs
 

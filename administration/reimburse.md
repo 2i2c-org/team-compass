@@ -6,8 +6,8 @@ Our fiscal sponsor, {term}`CS&S`, use [a service called Ramp](https://ramp.com/)
 If you'd like access to our Ramp account or need to use it, reach out to one of these people.
 
 :::{admonition} You can use the organization credit card
-- We have an [organizational credit card](admin:credit-card) to purchase things directly with 2i2c funds if you do not wish to file a reimbursement yourself.
-To do this, contact the {role}`Executive Director` or the {role}`Partnerships Lead`.
+- We have an [organizational credit card](#admin:credit-card) to purchase things directly with 2i2c funds if you do not wish to file a reimbursement yourself.
+To do this, contact the [Executive Director](#role:executive-director) or the [Business Development Lead](#role:business-development-lead).
 - If you attempt to use the card and it is blocked or declined, alert the team via the Slack #team-updates channel. That's a problem that needs immediate attention.
 :::
 
@@ -31,7 +31,7 @@ Currently, these are the expenses that we regularly reimburse:
 - Monthly / annual fees for online services that are used across the entire 2i2c team.
 - Cloud infrastructure costs incurred as part of our services.
 - Conference registration for conferences that we agree are in-scope for 2i2c's attendance.
-- Travel: see [](reimburse:travel).
+- Travel: see [](#reimburse:travel).
 - Personal development / books / training for skills that are directly related to team responsibilities.
 - Infrequent equipment purchases for team members (computers, desks, etc) provided they are within a reasonable spend amount.
 
@@ -53,7 +53,7 @@ A few notes to help clarify:
 - It is fine if you are arriving / leaving from two different locations (e.g., if you intend on making a side-trip after the event).
   In this case, 2i2c will only cover the trip to / from the event, not the third leg.
 - Try to find less-expensive tickets / housing if possible, but don't strongly inconvenience yourself as a result.
-- If it's important to stay earlier or later, ask the {role}`Executive Director` and we might be able to make an exception.
+- If it's important to stay earlier or later, ask the [Executive Director](#role:executive-director) and we might be able to make an exception.
 
 (reimbursements:employees)=
 ## Reimbursement for employees
@@ -84,7 +84,7 @@ Here are the instructions to follow.
 
 1. Make the purchase.
 2. E-mail the receipt (PDF or a forwarded e-mail) to `receipts@2i2c.org`.
-3. Our {role}`Executive Assistant` will check this address weekly and match new receipts with entries in Ramp.
+3. Our [Executive Assistant](#role:executive-assistant) will check this address weekly and match new receipts with entries in Ramp.
 4. Answer any questions that they ask you to help match the receipt to the right entry.
 
 ### Matching receipts to entries in Ramp
@@ -93,7 +93,7 @@ Here are the instructions to follow.
 These instructions are for someone with **Administrator privileges** in [our Ramp account](https://app.ramp.com/business-overview).
 ```
 
-This is generally done by our {role}`Executive Assistant` but may be done by anybody with these permissions in Ramp.
+This is generally done by our [Executive Assistant](#role:executive-assistant) but may be done by anybody with these permissions in Ramp.
 
 Here is the process that we follow:
 
@@ -209,4 +209,4 @@ We have a shared Google Group account at `receipts@2i2c.org`.
 We use this to collect receipts by team members that have used one of the 2i2c credit cards.
 By having all of our receipts in a centralized place, we can delegate the responsibility of matching receipts to Ramp entries.
 
-Currently, our {role}`Executive Assistant` checks all new Ramp entries each week and matches them with receipts that are in `receipts@2i2c.org`.
+Currently, our [Executive Assistant](#role:executive-assistant) checks all new Ramp entries each week and matches them with receipts that are in `receipts@2i2c.org`.

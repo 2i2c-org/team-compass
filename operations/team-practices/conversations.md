@@ -3,7 +3,6 @@
 It is critical for 2i2c's team to feel comfortable being honest with one another and engaging in potentially challenging or controversial conversations. Doing so productively requires thoughtfulness and skill. Here are some principles that can help.
 
 ```{contents}
-:local:
 ```
 
 ## Assume Positive Intent

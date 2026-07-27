@@ -6,37 +6,19 @@ from pathlib import Path
 nox.options.reuse_existing_virtualenvs = True
 nox.options.default_venv_backend = "uv"
 
-build_command = ["-b", "dirhtml", ".", "_build/dirhtml"]
-
 
 @nox.session
 def docs(session):
     """Build the documentation."""
-    session.install("-r", "requirements.txt")
-    cmd = ["sphinx-build"]
-    cmd.extend(build_command + session.posargs)
-    session.run(*cmd)
+    session.install("mystmd")
+    session.run("myst", "build", "--html", *session.posargs)
 
 
 @nox.session(name="docs-live")
 def docs_live(session):
     """Build the documentation with live preview server."""
-    session.install("-r", "requirements.txt")
-    session.install("sphinx-autobuild")
-    # Add folders to ignore
-    AUTOBUILD_IGNORE = [
-        "_build",
-        "build_assets",
-        "tmp",
-    ]
-    cmd = ["sphinx-autobuild"]
-    for folder in AUTOBUILD_IGNORE:
-        cmd.extend(["--ignore", f"*/{folder}/*"])
-
-    # Find an open port to serve
-    cmd.extend(["--port", "0"])
-    cmd.extend(build_command + session.posargs)
-    session.run(*cmd)
+    session.install("mystmd")
+    session.run("myst", "start", *session.posargs)
 
 @nox.session
 def images(session):

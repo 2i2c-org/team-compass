@@ -17,7 +17,7 @@ See the [Where are the original contracts for a deal?](https://docs.google.com/d
 ### What funds remain in a contract or grant?
 
 Each HubSpot deal has an **Amount Collected** field that tracks how much has been invoiced for that deal.
-Our [budget projections model](accounting:projections) subtracts this from the deal total to project remaining revenue.
+Our [budget projections model](#accounting:projections) subtracts this from the deal total to project remaining revenue.
 
 For actual transaction history, check the deal's invoices in SAGE Intacct.
 

@@ -3,18 +3,14 @@
 Accounting data describes the money that we **know** we have spent or that we **highly expect** to receive.
 Our accounting actuals come from **SAGE Intacct**, managed by our CS&S project accountant.
 
-```{button-link} https://docs.google.com/document/d/1iG2USbvccMGeobKpH52j37LZpmeNASKedJrb0mX8R8Y/edit?tab=t.3bpwr6d9dkbg
-:color: primary
-
-Accounting infrastructure guide (SAGE Intacct)
-```
+{button}`Accounting infrastructure guide (SAGE Intacct)<https://docs.google.com/document/d/1iG2USbvccMGeobKpH52j37LZpmeNASKedJrb0mX8R8Y/edit?tab=t.3bpwr6d9dkbg>`
 
 For visualizations of this data, see our [finance dashboards](#finance:dashboards).
 
 (accounting:statements)=
 ## Monthly reports and accounting actuals
 
-Each month, CS&S closes the books and updates our [budget projections](accounting:projections) with the latest actuals.
+Each month, CS&S closes the books and updates our [budget projections](#accounting:projections) with the latest actuals.
 See [the monthly process](monthly-process.md) for how this works.
 
 ## Our custom accounting GL codes

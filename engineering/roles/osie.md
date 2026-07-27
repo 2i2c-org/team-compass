@@ -1,10 +1,6 @@
 
 
-```{role} Open Source Infrastructure Engineer
-```
-```{role} Engineer
-```
-
+(role:open-source-infrastructure-engineer)=
 # Open Source Infrastructure Engineer
 
 An Open Source Infrastructure (OSIE) focuses on infrastructure that supports interactive computing.

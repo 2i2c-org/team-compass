@@ -1,20 +1,17 @@
-```{team} Engineering Team
-```
-
 (engineering:structure)=
 # Structure and roles
 
-Within the Product & Services team, Engineers are jointly led by our {role}`Technology Lead` and {role}`Engineering Manager`.
+(team:engineering-team)=
+Within the Product & Services team, Engineers are jointly led by our [Technology Lead](#role:technology-lead) and [Engineering Manager](#role:engineering-manager).
 
 
 (engineering:roles)=
 ## Team roles
 
-```{toctree}
-:glob:
-:maxdepth: 2
-roles/*
+```{tableofcontents}
+:context: children
 ```
+
 
 ## Career Ladders
 

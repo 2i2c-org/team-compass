@@ -3,7 +3,7 @@
 Product describes the services and technology that 2i2c provides, the value they are meant to provide, and the stakeholders and user archetypes that are meant for.
 
 This section is used to collect and share broad product-related information and strategy.
-It is maintained by the {role}`Product Lead <product-lead>`.
+It is maintained by the [Product Lead](#role:head-of-product-and-services).
 
 ## Background
 
@@ -15,7 +15,7 @@ As the organization is now more mature, and the breadth and complexity of its of
 
 A North Star is a core value, principle or goal that is used to help make decisions about what to do and when to do it. It starts with the organization’s mission, and is refined through a Value Proposition. Having a good understanding of what 2i2c’s North Star is will be key to ensuring that whatever we do is aligned with where we want the organization to be.
 
-[Our Value Proposition is defined here](mission:value-proposition).
+[Our Value Proposition is defined here](#mission:value-proposition).
 
 ## Becoming more intentional
 

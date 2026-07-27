@@ -51,7 +51,7 @@ Backseat driving is when you lob advice from across the room (or across the onli
 > 
 > **Bob**: No way. Windows is so easy to use that even my mom can use it.
 
-Subtle -isms are subtle expressions that assume negative characteristics in a blanket fashion because of identification with a particular group. This is especially true for -isms around traditionally marginalized groups (e.g., subtly racist, sexist, homophobic, or transphobic statements). They are not as blatant as [Blatant -isms](coc:unwelcoming-behavior), and may not be intentional. They are small things that make others feel unwelcome, things that we all sometimes do by mistake. Subtle -isms make people feel like they don’t belong in the 2i2c community.
+Subtle -isms are subtle expressions that assume negative characteristics in a blanket fashion because of identification with a particular group. This is especially true for -isms around traditionally marginalized groups (e.g., subtly racist, sexist, homophobic, or transphobic statements). They are not as blatant as [Blatant -isms](#coc:unwelcoming-behavior), and may not be intentional. They are small things that make others feel unwelcome, things that we all sometimes do by mistake. Subtle -isms make people feel like they don’t belong in the 2i2c community.
 
 Subtle -isms can also be things that you do instead of say. This includes things like boxing out the only woman at the whiteboard during a discussion or assuming someone isn’t a programmer because of their race or gender.
 

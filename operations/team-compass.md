@@ -44,8 +44,10 @@ Below is a quick definition of "Source of Truth":
 
 ```{glossary}
 Source of Truth
+: Distributed teams and open communities need to balance information across team members, and ensure that everyone is on the same page. For this reason, it is recommended to adopt a "single source of truth" for anything important. This is an authoritative source that everyone can look to in order to know the current status and plan for anything we do at 2i2c[^source-of-truth].
+
 Single Source of Truth
-  Distributed teams and open communities need to balance information across team members, and ensure that everyone is on the same page. For this reason, it is recommended to adopt a "single source of truth" for anything important. This is an authoritative source that everyone can look to in order to know the current status and plan for anything we do at 2i2c[^source-of-truth].
+: See {term}`Source of Truth`.
 ```
 
 [^source-of-truth]: **References for Single Source of Truth**: For a few examples, see [this Bitergia post](https://blog.bitergia.com/2020/08/25/why-ospo-teams-need-a-single-source-of-truth/) and [the GitLab SSOT section](https://about.gitlab.com/handbook/values/#single-source-of-truth).

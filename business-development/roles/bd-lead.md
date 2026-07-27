@@ -1,11 +1,6 @@
 (role:business-development-lead)=
 # Business Development Lead (BD Lead)
 
-```{role} Business Development Lead
-
-```
-
-
 **TL;DR;** Develops and leads 2i2c's business strategy, growth, and revenue operations.
 
 ## Areas of responsibility

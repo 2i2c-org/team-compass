@@ -1,6 +1,4 @@
-```{role} Engineering Manager
-```
-
+(role:engineering-manager)=
 # Engineering Manager
 
 The Engineering Manager focuses on creating a high functioning team. They work closely with the Technical Lead and Head of Products & Services to ensure that the engineering team is continuously improving and delivering. 

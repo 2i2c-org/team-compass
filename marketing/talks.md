@@ -6,7 +6,7 @@ We have a [shared folder with slides in our team drive](https://drive.google.com
 Its goal is to provide content that other team members can re-use and share with others.
 Team members are encouraged to add slides to this folder over time!
 
-If you publish your talk on Zenodo, please add it to [our Zenodo community](publishing:zenodo).
+If you publish your talk on Zenodo, please add it to [our Zenodo community](#publishing:zenodo).
 
 (talks:prioritize)=
 ## How to prioritize conference talks and sponsorship opportunities

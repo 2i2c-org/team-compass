@@ -1,8 +1,8 @@
 # Meetings in Delivery Enablement
 
-```{toctree}
-operations-planning.md
-operations-sync.md
-retrospective.md
-engagement-review.md
+Recurring meetings the Delivery Enablement team uses to plan and review its work.
+
+```{tableofcontents}
+:context: children
 ```
+

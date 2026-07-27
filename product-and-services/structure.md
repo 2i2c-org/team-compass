@@ -2,11 +2,10 @@
 
 ## Current roles
 
-```{toctree}
-:glob:
-:maxdepth: 1
-roles/*
-../engineering/roles/*
+See also the [Engineering team's roles](../engineering/structure.md) for roles that work closely with Product and Services.
+
+```{tableofcontents}
+:context: children
 ```
 
 ## Membership

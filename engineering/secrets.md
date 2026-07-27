@@ -63,7 +63,7 @@ To confirm that `sops` has been set up properly, try encrypting or decrypting a 
 
 ### Decrypt secrets with `sops`
 
-In order to decrypt an encrypted configuration file, you should first follow the instructions in [](secrets:sops:setup).
+In order to decrypt an encrypted configuration file, you should first follow the instructions in [](#secrets:sops:setup).
 Once you've completed those steps, do the following:
 
 1. **Navigate to the root of the repository**.
@@ -100,7 +100,7 @@ For more information about using `sops`, here are a few links to `sops` document
 
 ## 2i2c-wide passwords
 
-For information about 2i2c-wide passwords, see [](account:bitwarden).
+For information about 2i2c-wide passwords, see [](#account:bitwarden).
 
 ## Using sensitive credentials and tokens
 

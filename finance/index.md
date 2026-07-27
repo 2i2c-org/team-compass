@@ -1,19 +1,8 @@
 # Finance and accounting
 
-```{toctree}
-:maxdepth: 2
+How 2i2c manages accounting, contracts, spending, and financial reporting.
 
-overview
-strategy
-accounting
-contracts
-spending-money
-fundraising
-projections
-dashboards
-monthly-process
-payments
-cloud
-managing-ramp
-individual-ramp-cards
+```{tableofcontents}
+:context: children
 ```
+

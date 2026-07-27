@@ -18,10 +18,8 @@ We are currently working out our Incident Response process.
 The content on this page might change over time, and we welcome suggested changes and pull requests!
 :::
 
-
-```{toctree}
-before-incident
-process
-after-incident
-debt
+```{tableofcontents}
+:context: children
 ```
+
+

@@ -1,11 +1,11 @@
 # Cloud costs
 
-All of our cloud costs are paid via [our Ramp credit card](admin:credit-card) which is attached to cloud billing accounts that are connected to our infrastructure.
+All of our cloud costs are paid via [our Ramp credit card](#admin:credit-card) which is attached to cloud billing accounts that are connected to our infrastructure.
 
 These costs are recovered either by our central funds, or via reimbursement requests to our community partners.
 
 Below we describe how we recover these costs for various cloud infrastructure setups.
-See [](contracts:invoice-cloud) for how invoices for these costs are generated and dispatched.
+See [](#contracts:invoice-cloud) for how invoices for these costs are generated and dispatched.
 
 ## General principle
 
@@ -18,13 +18,13 @@ We may wish to charge a bit extra for the **staffing** costs of this service, bu
 
 ## Reimburse cloud costs
 
-See [](reimburse:cloud).
+See [](#reimburse:cloud).
 
 ## Dedicated clusters
 
 When a community has a dedicated cluster, it is straightforward to calculate their monthly cloud costs.
 
-In the cloud console, look for their monthly cloud fee, take a screenshot of this page, and notify {role}`CS&S Operations` with the name of the community and the amount to reimburse.
+In the cloud console, look for their monthly cloud fee, take a screenshot of this page, and notify [CS&S Operations](#role:css-operations) with the name of the community and the amount to reimburse.
 
 Here's an issue where we are refining this process:
 
@@ -51,7 +51,7 @@ When we are sub-awardees on a grant (e.g., when somebody is putting 2i2c as a li
 Instead, we include language in the contract to **reimburse** our cloud costs.
 We should include estimates of expected monthly cost, as well as monthly limits we will not exceed without approval.
 
-We should advise collaborators to budget their own expected cloud costs according to [these guidelines](costs:cloud:grants). 
+We should advise collaborators to budget their own expected cloud costs according to [these guidelines](#costs:cloud:grants). 
 
 (costs:cloud:grants)=
 ## Grants we apply for

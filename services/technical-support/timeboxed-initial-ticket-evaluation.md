@@ -29,17 +29,15 @@ If something is not working, you might be dealing with an incident, so depending
 
 ## Category 2: New feature requested
 ```{list-table}
-:widths: 30
 :header-rows: 1
 
-*   - Is the feature requested documented at {external+infra:doc}`topic/features`?
+*   - Is the feature requested documented at [](xref:infra/topic/features)?
 *   - ✅ Yes? Then enable it after checking it is in the scope of the contract.
 *   - ❌ No? Then open a GitHub tracking issue about it and continue following the non-incident process.
 ```
 
 ## Category 3: Technical advice
 ```{list-table}
-:widths: 30
 :header-rows: 1
 
 *   - Is the question about an area where the support triager has insight into?

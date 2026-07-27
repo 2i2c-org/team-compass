@@ -1,10 +1,10 @@
 # Set up a local documentation environment
 
-To create your documentation environment locally, you'll need a **Python environment** as well as **Nox** installed.
-If you wish to build Sphinx by-hand without **Nox**, you'll also need to install the dependencies for a given repository.
+To create your documentation environment locally, you'll need **Nox** installed.
+If you wish to build the documentation by-hand without **Nox**, you'll also need to install the dependencies for a given repository.
 
 :::{note}
-The easiest way to edit our documentation is to [use GitHub's UI editor](documentation:edit:github).
+The easiest way to edit our documentation is to [use GitHub's UI editor](#documentation:edit:github).
 Setting up your documentation environment locally is not required.
 :::
 
@@ -31,7 +31,7 @@ Most of our documentation is buildable with [the `nox` automation tool](https://
 This is a lightway way to execute commands in an isolated environment.
 It will let you both install the dependencies for your documentation and build it with a single command.
 
-To install `nox`, first [confirm you have installed Python](docs:install:python) then type:
+To install `nox`, first [confirm you have installed Python](#docs:install:python) then type:
 
 ```shell
 pip install nox
@@ -69,20 +69,16 @@ rm -rf .nox
 
 ## Manually install the environment for documentation
 
-Normally, [Nox](docs:install:nox) will handle all of the environment installation for you.
-However if you prefer to install the environment manually and runs Sphinx yourself, you may do so.
-This differs slightly depending on the repository, but it usually works like this:
+Normally, [Nox](#docs:install:nox) will handle all of the environment installation for you.
+However if you prefer to install the environment and run the documentation engine yourself, you may do so.
+This differs depending on the repository and which engine it uses.
+Check the repository's own `README.md` and `noxfile.py` for its exact build command.
 
-1. **Find the environment files for the repository documentation**. These define the dependencies needed to build the documentation. It is usually in a file called `requirements.txt` or `environment.yml`. It is sometimes in `docs/requirements.txt`.
-2. **Install the environment for the documentation**. Manually install the dependencies with `pip` or `conda`. For example:
+For a MyST-based repository (like this one), that usually looks like:
 
-   ```shell
-   pip install -r requirements.txt
-   ```
-3. **Build the documentation with Sphinx**. Finally, you can build the documentation locally with Sphinx using a command like so:
+```shell
+pip install mystmd
+myst build --html
+```
 
-   ```shell
-   sphinx-build -b dirhtml docs docs/_build/dirhtml
-   ```
-
-See [the Sphinx documentation](https://www.sphinx-doc.org/en/master/) for more details.
+See [the mystmd documentation](https://mystmd.org) for more details.

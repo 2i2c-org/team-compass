@@ -1,10 +1,6 @@
 (role:delivery-manager)=
 # Delivery Manager Role
 
-```{role} Delivery Manager
-
-```
-
 **_TL;DR;_** The Delivery Manager serves as a key facilitator and "change agent" ensuring that our systems of work are effective.
 
 ## Areas of responsibility

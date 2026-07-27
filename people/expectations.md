@@ -8,7 +8,7 @@ While these are not strict rules, they are things you should do in order to help
 ### Be respectful
 
 All 2i2c team members help create and sustain a welcoming, inclusive community. When interacting with 2i2c team members, or individuals outside of 2i2c, always be respectful. 
-We expect everyone on the team to follow, and help others to follow, the [2i2c Code of Conduct] (https://compass.2i2c.org/code-of-conduct/index.html). 
+We expect everyone on the team to follow, and help others to follow, the [2i2c Code of Conduct](../code-of-conduct/index.md). 
 
 ### Be communicative
 

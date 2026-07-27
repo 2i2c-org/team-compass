@@ -1,0 +1,258 @@
+version: 1
+project:
+  toc:
+  - file: index.md
+  - title: Organization wide
+    children:
+    - file: organization/index.md
+      children:
+      - file: organization/mission.md
+        hidden: true
+      - file: organization/theory-of-impact.md
+        hidden: true
+      - file: organization/strategy.md
+        hidden: true
+      - file: organization/service-model.md
+        hidden: true
+      - file: organization/value-proposition.md
+        hidden: true
+      - file: organization/plan.md
+        hidden: true
+      - file: organization/structure.md
+        children:
+        - file: organization/role/executive-director.md
+        - file: organization/role/steering-council.md
+      - file: organization/kpis.md
+    - file: people/index.md
+      children:
+      - file: people/overview.md
+      - file: people/kpis.md
+      - file: people/expectations.md
+      - file: people/hiring.md
+      - file: people/compensation.md
+      - file: people/managers.md
+      - file: people/development-process.md
+      - file: people/development.md
+      - file: people/titles.md
+      - file: people/time-off.md
+      - file: people/cost-reduction.md
+    - file: open-source/index.md
+      children:
+      - file: open-source/overview.md
+      - file: open-source/strategy.md
+      - file: open-source/funding.md
+      - file: open-source/ip.md
+      - file: open-source/key-communities.md
+    - file: finance/index.md
+      children:
+      - file: finance/overview.md
+      - file: finance/strategy.md
+      - file: finance/accounting.md
+      - file: finance/contracts.md
+      - file: finance/spending-money.md
+      - file: finance/fundraising.md
+      - file: finance/projections.md
+      - file: finance/dashboards.md
+      - file: finance/monthly-process.md
+      - file: finance/payments.md
+      - file: finance/cloud.md
+      - file: finance/managing-ramp.md
+      - file: finance/individual-ramp-cards.md
+    - file: administration/index.md
+      children:
+      - file: administration/overview.md
+      - file: administration/structure.md
+      - file: administration/css.md
+      - file: administration/reimburse.md
+      - file: administration/contractors.md
+      - file: administration/invoices.md
+      - file: administration/google-workspace.md
+      - file: administration/github.md
+      - file: administration/airtable.md
+      - file: administration/domains.md
+      - file: administration/authentication.md
+      - file: administration/passwords.md
+      - file: administration/zoom.md
+    - file: operations/index.md
+      children:
+      - file: operations/strategy.md
+      - file: code-of-conduct/index.md
+        children:
+        - file: code-of-conduct/response-protocol.md
+        - file: code-of-conduct/social-rules.md
+      - file: operations/workflow.md
+      - file: operations/activity-log.md
+      - file: operations/team-practices/overview.md
+        children:
+        - file: operations/team-practices/conversations.md
+        - file: operations/team-practices/decisions.md
+        - file: operations/team-practices/expectations.md
+        - file: operations/team-practices/feedback.md
+        - file: operations/team-practices/responsibility.md
+        - file: operations/team-practices/tech-talks.md
+      - file: operations/onboarding.md
+      - file: operations/sources.md
+      - file: operations/data-sync.md
+      - file: operations/meetings.md
+      - file: operations/communication.md
+      - file: operations/team-compass.md
+      - file: operations/documentation.md
+  - title: Areas of work
+    children:
+    - file: delivery-enablement/index.md
+      children:
+      - file: delivery-enablement/overview.md
+        children:
+        - file: delivery-enablement/roles/role-chief-of-staff.md
+        - file: delivery-enablement/roles/role-delivery-manager.md
+        - file: delivery-enablement/roles/role-operations-manager.md
+        - file: delivery-enablement/roles/role-people-lead.md
+        - file: delivery-enablement/roles/executive-assistant.md
+      - file: delivery-enablement/team-kpis.md
+      - file: delivery-enablement/coordination-ceremonies.md
+      - file: delivery-enablement/meetings/index.md
+        children:
+        - file: delivery-enablement/meetings/operations-planning.md
+        - file: delivery-enablement/meetings/operations-sync.md
+        - file: delivery-enablement/meetings/retrospective.md
+        - file: delivery-enablement/meetings/engagement-review.md
+      - file: delivery-enablement/processes/index.md
+        children:
+        - file: delivery-enablement/processes/cloud-cost-monitoring.md
+        - file: delivery-enablement/processes/mau-data.md
+    - file: business-development/index.md
+      children:
+      - file: business-development/overview.md
+      - file: business-development/strategy.md
+      - file: business-development/pricing-strategy.md
+      - file: business-development/kpis.md
+      - file: business-development/roles/index.md
+        children:
+        - file: business-development/roles/bd-lead.md
+        - file: business-development/roles/sales-account-executive.md
+      - file: business-development/crm.md
+      - file: business-development/grants.md
+      - file: business-development/meetings/index.md
+        children:
+        - file: business-development/meetings/sales-sync.md
+        - file: business-development/meetings/horizon-scanning.md
+      - file: business-development/customer-success/freshdesk.md
+      - file: business-development/customer-success/hub-activity.md
+      - file: business-development/customer-success/community-checkin.md
+    - file: marketing/index.md
+      children:
+      - file: marketing/strategy.md
+      - file: marketing/workflow.md
+      - file: marketing/blog.md
+      - file: marketing/social.md
+      - file: marketing/mailinglist.md
+      - file: marketing/analytics.md
+      - file: marketing/design.md
+      - file: marketing/publishing.md
+      - file: marketing/talks.md
+      - file: marketing/stickers.md
+      - file: marketing/business-cards.md
+    - file: product-and-services/index.md
+      children:
+      - file: product-and-services/overview.md
+      - file: product-and-services/structure.md
+        children:
+        - file: product-and-services/roles/product-lead.md
+        - file: product-and-services/roles/senior-product-manager.md
+      - file: product-and-services/deliveryflow.md
+      - file: product-and-services/documentation.md
+      - file: product-and-services/prioritization.md
+      - file: product-and-services/community-relations.md
+      - file: product-and-services/services.md
+      - file: product-and-services/cost-model.md
+      - file: product-and-services/kpis.md
+    - file: engineering/index.md
+      children:
+      - file: engineering/overview.md
+      - file: engineering/structure.md
+        children:
+        - file: engineering/roles/delivery-manager.md
+        - file: engineering/roles/engineering-manager.md
+        - file: engineering/roles/osae.md
+        - file: engineering/roles/osie.md
+        - file: engineering/roles/technology-lead.md
+      - file: engineering/workflow/index.md
+        children:
+        - file: engineering/workflow/default-workflow.md
+          hidden: true
+        - file: engineering/workflow/task-sizing.md
+          hidden: true
+      - file: engineering/definition-of-ready.md
+      - file: engineering/strategy.md
+      - file: engineering/access.md
+      - file: engineering/secrets.md
+      - file: engineering/reviewing.md
+      - file: engineering/github-conventions.md
+      - file: engineering/styleguide.md
+      - file: engineering/meetings/index.md
+        children:
+        - file: engineering/meetings/2022.md
+        - file: engineering/meetings/2021.md
+        - file: engineering/meetings/2020.md
+  - title: Services
+    children:
+    - file: services/index.md
+    - file: services/dedicated-delivery-management/index.md
+      children:
+      - file: services/dedicated-delivery-management/ceremonies.md
+    - file: services/interactive-computing/index.md
+      children:
+      - file: services/interactive-computing/hub-rollout-process.md
+      - file: services/interactive-computing/sales-engineer-guide.md
+      - file: services/interactive-computing/needs-assessment-guide.md
+      - file: services/interactive-computing/validation-guide.md
+      - file: services/interactive-computing/onboard.md
+      - file: services/interactive-computing/offboard.md
+      - file: services/interactive-computing/community-value.md
+      - file: services/interactive-computing/communicating-changes.md
+      - file: services/interactive-computing/multiple-hub-upgrades.md
+      - file: services/interactive-computing/addhub.md
+      - file: services/interactive-computing/clusters.md
+      - file: services/interactive-computing/budget-alerts.md
+      - file: services/interactive-computing/showcase-hub.md
+      - file: services/interactive-computing/incidents/index.md
+        children:
+        - file: services/interactive-computing/incidents/before-incident.md
+        - file: services/interactive-computing/incidents/process.md
+        - file: services/interactive-computing/incidents/after-incident.md
+        - file: services/interactive-computing/incidents/debt.md
+    - file: services/technical-support/index.md
+      children:
+      - file: services/technical-support/terminology.md
+      - file: services/technical-support/roles-and-team.md
+      - file: services/technical-support/process.md
+      - file: services/technical-support/update-contacts.md
+      - file: services/technical-support/timeboxed-initial-ticket-evaluation.md
+      - file: services/technical-support/communication.md
+      - file: services/technical-support/time-off.md
+      - file: services/technical-support/templates/index.md
+    - file: services/community-success-hours/index.md
+      children:
+      - file: services/community-success-hours/overview.md
+      - file: services/community-success-hours/delivery.md
+    - file: services/open-source-development/index.md
+    - file: services/delivery/index.md
+      children:
+      - file: services/delivery/engagement-management.md
+      - file: services/delivery/premier-membership.md
+      - file: services/delivery/general-membership.md
+      - file: services/delivery/starter-membership.md
+    - url: https://infrastructure.2i2c.org/reference/hubs/
+      title: List of running hubs
+  - title: Reference Material
+    children:
+    - file: reference/calendar.md
+    - file: reference/team.md
+    - file: reference/documentation/overview.md
+      children:
+      - file: reference/documentation/edit.md
+      - file: reference/documentation/content.md
+      - file: reference/documentation/environment.md
+      - file: reference/documentation/secrets.md
+    - file: reference/terminology.md
+    - file: reference/inspiration.md

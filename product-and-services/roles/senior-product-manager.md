@@ -1,5 +1,4 @@
-```{role} Senior Product Manager
-```
+(role:senior-product-manager)=
 # Senior Product Manager, Open Science Enablement
 
 Primarily responsible for the Services roadmap, leading the ideation, design and delivery of community-facing services aimed at enabling the creation of knowledge through Open Science.

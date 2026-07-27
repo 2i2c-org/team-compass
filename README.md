@@ -5,13 +5,13 @@ For more information, see [our Team Compass landing page](https://team-compass.2
 
 ## Build the team compass locally
 
-The Team Compass is built with [the Sphinx documentation engine](https://sphinx-doc.org).
+The Team Compass is built with [the MyST Document Engine](https://mystmd.org).
 The easiest way to build the documentation in this repository is to use [the `nox` automation tool](https://nox.thea.codes/), a tool for quickly building environments and running commands within them.
 This ensures that your environment has all the dependencies needed to build the documentation.
 
 To do so, follow these steps:
 
-1. Install `nox`
+1. Install `nox`:
 
    ```console
    $ pip install nox
@@ -22,7 +22,7 @@ To do so, follow these steps:
    $ nox -s docs
    ```
 
-This should create a local environment in a `.nox` folder, build the documentation (as specified in the `noxfile.py` configuration), and the output will be in `_build/dirhtml`.
+The output will be in `_build/html`.
 
 To build live documentation that updates when you update local files, run the following command:
 

@@ -57,7 +57,7 @@ There are two types of service we consider strategically important, but that we 
 
 ## Major actions to take
 
-Our 2026 actions are organized by the three [strategic priorities](strategic-priorities) defined in our strategy (quarterly estimates are rough, and not set in stone):
+Our 2026 actions are organized by the three [strategic priorities](#strategic-priorities) defined in our strategy (quarterly estimates are rough, and not set in stone):
 
 ### Platform and services
 

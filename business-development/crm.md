@@ -27,10 +27,10 @@ We track consortia and other subsets of contacts as [**Segments**](https://app-n
 To send an e-mail to a segment:
 
 1. Click a segment.
-2. Click {guilabel}`Use in`.
-3. Click {guilabel}`E-mail`.
+2. Click **`Use in`**.
+3. Click **`E-mail`**.
 
-Alternatively, copy a previous e-mail under {guilabel}`Marketing` -> {guilabel}`E-mail` and update its content.
+Alternatively, copy a previous e-mail under **`Marketing`** -> **`E-mail`** and update its content.
 
 When sending an e-mail, set the **from** address to `hello@2i2c.org` unless you have a reason to send from your personal 2i2c address.
 This keeps a consistent sender identity across our outbound communications and lets replies land in a shared inbox.

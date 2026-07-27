@@ -23,18 +23,18 @@ These steps are encoded in three GitHub issues that are automatically opened in 
 
 We use [PagerDuty's postmortem feature](https://support.pagerduty.com/docs/postmortems) to create the Incident Report. This lets us use notes, status updates from PagerDuty as well as messages from Slack easily in the incident report!
 
-1. **Open the incident** in the PagerDuty web interface, and click the {guilabel}`New Postmortem Report` button on top. We do not need to populate the report at this stage.
+1. **Open the incident** in the PagerDuty web interface, and click the **`New Postmortem Report`** button on top. We do not need to populate the report at this stage.
 1. Copy the report URL for the next step.
 
 ## 2. Create post-incident action items
 
 After the incident is over, we _must_ prioritize any action items that prevent this kind of incident at the same level as a contract deliverable, and attempt to bring it into the next sprint. While we can't guarantee there shall be no outages, we must do everything we can to prevent known causes of outages from recurring.
 
-Use the {guilabel}`Incident Action Item` template to create an issue in the [infrastructure repository](https://github.com/2i2c-org/infrastructure/issues)
+Use the **`Incident Action Item`** template to create an issue in the [infrastructure repository](https://github.com/2i2c-org/infrastructure/issues)
 
 ### Responsibility
 
-It's the {role}`Technical Lead`'s responsibility to make sure that an absolute minimum sized task to mitigate the issue that caused this incident, exists and the responsibility of the {role}`Technical Lead` & {role}`Engineering Manager` to advocate for bringing it in during the next sprint.
+It's the [Technical Lead](#role:technology-lead)'s responsibility to make sure that an absolute minimum sized task to mitigate the issue that caused this incident, exists and the responsibility of the [Technical Lead](#role:technology-lead) & [Engineering Manager](#role:engineering-manager) to advocate for bringing it in during the next sprint.
 
 (incidents:create-report)=
 
@@ -57,7 +57,7 @@ The incident report goes through a few stages before it gets public:
 
 The Incident Responder and the incident team are responsible for **drafting the incident report process**, and **doing an initial review of the report and action items**
 
-Ultimately, {role}`Technical Lead` & {role}`Engineering Manager` are responsible for **making sure the Incident Resolution, Report and action items are completed, correct and public**.
+Ultimately, [Technical Lead](#role:technology-lead) & [Engineering Manager](#role:engineering-manager) are responsible for **making sure the Incident Resolution, Report and action items are completed, correct and public**.
 
 ### Steps
 
@@ -74,14 +74,14 @@ The [Oct 2025 UToronto Incident Report](https://github.com/2i2c-org/incident-rep
    - Link to the Slack channel we created for this incident, with an appropriate time to cover all the messages
 3. **Fill out the timeline**
    - The goal is to be concise but make it possible for someone reading it to answer "what happened, and when?".
-   - See [](incidents:postmortem-timeline) for more information.
+   - See [](#incidents:postmortem-timeline) for more information.
 4. **Fill out the "Analysis" section** to the extent possible.
    - Perfection is the enemy of the good here. Save as you go.
    - In particular, the `Action Items` should be a list with items linked out to GitHub issues created for follow-up.
 5. **Click "Save & View Report"** when you are done
    - Ask other members of the incident response team to review the incident report
-   - In particular, the {role}`Technical Lead` should review and approve the report before it is marked as "Reviewed".
-6. After sufficient review, and if the {role}`Technical Lead` is happy with its completeness, edit the report again, **mark the Status dropdown as "Reviewed"**, and then click "Save & View Report" again.
+   - In particular, the [Technical Lead](#role:technology-lead) should review and approve the report before it is marked as "Reviewed".
+6. After sufficient review, and if the [Technical Lead](#role:technology-lead) is happy with its completeness, edit the report again, **mark the Status dropdown as "Reviewed"**, and then click "Save & View Report" again.
 7. **Download the PDF**, and add it to the [`2i2c/incident-reports`](https://github.com/2i2c-org/incident-reports) repository
    - Given review is already completed in the pagerduty interface, you don't need to wait for review to add the report here.
 8. **Email** a link to the incident report to the community representative, ideally via the Freshdesk ticket used to communicate with them during the incident itself.
@@ -121,12 +121,14 @@ The timeline should include:
 
 ```{glossary}
 Incident Report
-Incident Reports
-  A document that describes what went wrong during an incident and what we'll do to avoid it in the future. When we have an {term}`Incident`, we create an Incident Report issue.
+: A document that describes what went wrong during an incident and what we'll do to avoid it in the future. When we have an {term}`Incident`, we create an Incident Report issue.
 
   This helps us understand what went wrong, and how we can improve our systems to prevent a recurrance. Its goal is to identify improvements to process, technology, and team dynamics that can avoid incidents like this in the future. It is **not** meant to point fingers at anybody and care should be taken to avoid making it seem like any one person is at fault.
 
   This is a *very important* part of making our infrastructure and human processes more stable and stress-free over time, so we should do this after each incident.[^post-mortems].
+
+Incident Reports
+: See {term}`Incident Report`.
 ```
 
 [^post-mortems]: See the [Google SRE post-mortem culture](https://sre.google/sre-book/postmortem-culture/) and the [Blameless guide to post-mortems](https://www.blameless.com/sre/what-are-blameless-postmortems-do-they-work-how) for some guidelines.

@@ -1,7 +1,5 @@
 
-```{role} Executive Director
-```
-
+(role:executive-director)=
 # Executive Director
 
 ## Responsibilities
@@ -14,7 +12,7 @@ They make tie-breaking decisions if they are at an impasse in decision-making.
 
 ## Relationship to others
 
-The Executive Director reports to the {role}`Steering Council`.
+The Executive Director reports to the [Steering Council](#role:steering-council).
 
 Group leads of 2i2c report to this role.
 

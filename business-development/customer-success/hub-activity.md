@@ -1,21 +1,4 @@
----
-jupyter:
-  jupytext:
-    custom_cell_magics: kql
-    text_representation:
-      extension: .md
-      format_name: markdown
-      format_version: '1.3'
-      jupytext_version: 1.11.2
-  kernelspec:
-    display_name: Python 3 (ipykernel)
-    language: python
-    name: python3
----
-
-<!-- #region editable=true slideshow={"slide_type": ""} -->
 # Track Hub Usage with Grafana
-<!-- #endregion -->
 
 ## Overview
 
@@ -31,12 +14,12 @@ Grafana dashboard deployments for 2i2c hubs (k8s+JupyterHub) follow the template
 See [Grafana docs – Service Accounts](https://grafana.com/docs/grafana/latest/administration/service-accounts/) for more details.
 
 1. Navigate to the [2i2c Grafana](https://grafana.pilot.2i2c.cloud) website at `https://grafana.pilot.2i2c.cloud`.
-1. Open the *{octicon}`three-bars` Menu* and click on *{octicon}`gear` Administration > Users and access > Service accounts*.
-1. Click on the {guilabel}`Add service account` button on the top-right.
-1. Choose a descriptive *Display name*, e.g. `username-local-prometheus-access` and leave the role as *Viewer*. Click the {guilabel}`Create` button to confirm.
-1. You will see a new page with the details of the service account you have created. In the section *Tokens*, click the {guilabel}`Add service account token` button to generate a token to authenticate with the Grafana API.
+1. Open the **Menu** and click on **Administration > Users and access > Service accounts**.
+1. Click on the **`Add service account`** button on the top-right.
+1. Choose a descriptive *Display name*, e.g. `username-local-prometheus-access` and leave the role as *Viewer*. Click the **`Create`** button to confirm.
+1. You will see a new page with the details of the service account you have created. In the section *Tokens*, click the **`Add service account token`** button to generate a token to authenticate with the Grafana API.
 1. Choose a descriptive name for the token and then set a token expiry date. We recommend 1 month from now.[^token]
-1. Click the {guilabel}`Generate token button` to confirm.
+1. Click the **`Generate token button`** to confirm.
 1. **Important:** Copy the token and keep a copy somewhere safe. You will not be able to see it again. Losing a token requires creating a new one.
 
 [^token]: After the token expires, you will need to regenerate a new token and update its value in the local `.env` file, GitHub action secret and/or Read the Docs environment variable.

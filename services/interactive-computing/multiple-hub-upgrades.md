@@ -69,6 +69,6 @@ See [](communicating-changes) for specific steps.
 
 ## Celebrate and share our success
 
-In addition to the [directed communication](communicate-changes:index) with Community Representatives and Technical Contacts, the conclusion of a multi-hub deployment of a security fix, feature roll out, migration, or improve, is a reason to celebrate.
+In addition to the [directed communication](#communicate-changes:index) with Community Representatives and Technical Contacts, the conclusion of a multi-hub deployment of a security fix, feature roll out, migration, or improve, is a reason to celebrate.
 
-Create a [blog post](blog:index) to share this news with our network.
+Create a [blog post](#blog:index) to share this news with our network.

@@ -7,7 +7,7 @@ This section describes them.
 ## Credit cards
 
 ```{seealso}
-See [](admin:reimbursement) for our reimbursement processes.
+See [](#admin:reimbursement) for our reimbursement processes.
 ```
 
 ### General purpose card
@@ -16,7 +16,7 @@ Ends in `4164`.
 
 This is used for most purchases by 2i2c, including recurring service payments, travel payments on behalf of team members, etc.
 
-The information for this card can be found in our [BitWarden account](account:bitwarden).
+The information for this card can be found in our [BitWarden account](#account:bitwarden).
 
 ### Cloud credits card
 

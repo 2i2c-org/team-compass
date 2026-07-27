@@ -1,16 +1,3 @@
----
-jupytext:
-  text_representation:
-    extension: .md
-    format_name: myst
-    format_version: 0.13
-    jupytext_version: 1.13.8
-kernelspec:
-  display_name: Python 3 (ipykernel)
-  language: python
-  name: python3
----
-
 # Key open source communities
 
 Key open source communities are those that align with 2i2c's values and that are central to 2i2c's mission.
@@ -30,27 +17,20 @@ Here are a few examples of this:
 - Perform ongoing maintenance as part of our 2i2c time (not nights and weekends).
 - Put extra time into doing community work and support, not just code.
 - Put extra time into reviewing pull requests from others, not just our own.
-- Seek funding that we can use to make improvements and give support (see [](open-source:funding))
+- Seek funding that we can use to make improvements and give support (see [](#open-source:funding))
 - Track our efforts in these communities and include them in our self-assessments about impact.
 
 ## List of key communities
 
-Currently, the following communities are considered "key communities" for 2i2c.
-It is pulled from [this source of truth](data/key-communities.toml).
+Currently, the following communities are considered "key communities" for 2i2c.[^sot]
 
-```{code-cell} ipython3
----
-mystnb:
-  markdown_format: myst
-tags: [remove-input]
----
-from tomlkit import parse
-from pathlib import Path
-from IPython.display import Markdown
-with Path("data/key-communities.toml").open() as ff:
-  communities = parse(ff.read())["communities"]
+[^sot]: This is pulled directly from [the source of truth TOML file](data/key-communities.toml). Edit that file to update the list.
 
-communities = [f"- [@{cc}](https://github.com/{cc})" for cc in communities]
-communities = "\n".join(communities)
-Markdown(communities)
+```{listing}
+:source: toml
+:path: data/key-communities.toml
+:display: table
+:columns: title
+:sort: title-asc
+:limit: 20
 ```

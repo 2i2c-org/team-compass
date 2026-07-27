@@ -1,7 +1,5 @@
 
-```{role} Technology Lead
-```
-
+(role:technology-lead)=
 # Technology Lead
 
 The Tech Lead is the leadership team member responsible for our technology decisions. They work with other 2i2c leaders to make choices about overall organizational direction, then work with engineers and product team members to deliver a platform and services that make progress on our organizational direction. 

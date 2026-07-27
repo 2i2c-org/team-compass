@@ -1,10 +1,9 @@
 (delivery-enablement)=
 # Delivery Enablement
 
-```{toctree}
-overview.md
-team-kpis.md
-coordination-ceremonies.md
-meetings/index.md
-processes/index.md
+The Delivery Enablement team builds and maintains the systems 2i2c uses to coordinate, plan, and deliver work.
+
+```{tableofcontents}
+:context: children
 ```
+

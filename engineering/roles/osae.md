@@ -1,9 +1,6 @@
 
 
-```{role} Open Source Applications Engineer
-```
-
-
+(role:open-source-applications-engineer)=
 # Open Source Applications Engineer
 
 An Open Source Applications Engineer (OSAE) focuses on building features that are in the product roadmap, either by contributing to existing open source applications or when necessary, building new open source applications. 

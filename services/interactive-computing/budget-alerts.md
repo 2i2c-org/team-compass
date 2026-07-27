@@ -9,11 +9,11 @@ These alerts are being sent to the 2i2c freshdesk account.
 
 If the alert is about a higher than expected budget spend, then you should communicate that to the community representative.
 
-There is a template message to help you get started at [](support:templates:budget-alerts).
+There is a template message to help you get started at [](#support:templates:budget-alerts).
 
 ### Steps
 
 1. Create a new email from freshdesk at https://2i2c.freshdesk.com/a/tickets/compose-email
-2. Get the community contact's information from [HubSpot Communities](https://app-na2.hubspot.com/contacts/242496330/objects/0-410) (see [](hubspot:index))
-3. Copy the message template from [](support:templates:budget-alerts) and paste it into the email's body editing it where appropriate
+2. Get the community contact's information from [HubSpot Communities](https://app-na2.hubspot.com/contacts/242496330/objects/0-410) (see [](#hubspot:index))
+3. Copy the message template from [](#support:templates:budget-alerts) and paste it into the email's body editing it where appropriate
 4. Mark the original budget alert ticket as resolved.

@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Product and Services team at 2i2c tracks its value delivery and performance through a set of [Key Performance Indicators (KPIs)](overview.md#kpis). These KPIs help us measure our effectiveness in delivering products and services to meet the needs of our communities.
+The Product and Services team at 2i2c tracks its value delivery and performance through a set of [Key Performance Indicators (KPIs)](#product-and-services-kpis). These KPIs help us measure our effectiveness in delivering products and services to meet the needs of our communities.
 
 ## Primary KPIs
 

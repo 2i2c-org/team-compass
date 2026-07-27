@@ -17,18 +17,17 @@ This section describes how our development team carries out its planning and day
 (coordination:decisions)=
 ## Pull request workflow
 
-See [](development:merge-policy).
+See [](#development:merge-policy).
 
 (coordination:sprints)=
 ## Team Iterations
 
-The 2i2c team uses Iterations to coordinate with one another in focused cycles of work (referred to as our [Iteration Cadence](coordination:iteration-cadence)). Our team works in **two-week iterations**.
+The 2i2c team uses Iterations to coordinate with one another in focused cycles of work (referred to as our [Iteration Cadence](#coordination:iteration-cadence)). Our team works in **two-week iterations**.
 
-We rely on 5 sub-processes to move work through the delivery workflow. Namely: 
+We rely on 4 sub-processes to move work through the delivery workflow. Namely: 
 - _Refinement_
 - _Planning_
 - _Progress Update_
-- _Showcase_
 - _Retrospective_.
 
 These sub-processes are defined in more detail below.
@@ -42,13 +41,13 @@ Before Iteration
 : Ensure the Refined column has ranked (prioritized and sequenced) work items 
 
 Beginning of Iteration
-: Iteration begins with our [Iteration planning meeting](meetings:sprint-planning).
+: Iteration begins with our [Iteration planning meeting](#meetings:sprint-planning).
 
   In this meeting we discuss major accomplishments in the previous iteration, review past capacity committments. We then size and assign the items that each team member will work on for the next iteration, and review items that require discussion and planning.
 
 During the Iteration
 : Team members work on the items assigned to them at the iteration planning meeting.
-  We use [the Iteration Board](coordination:sprint-board) to coordinate our activities during the iteration.
+  We use [the Iteration Board](#coordination:sprint-board) to coordinate our activities during the iteration.
   We provide updates about what we've been up to, what we're doing next, and where we need help via regular **asynchronous Slack stand-ups**.
 
 Last day of Iteration
@@ -139,9 +138,6 @@ The Engineering Manager will:
   - ❌ Unplanned  
   to the previous sprint’s **Status Update**.
 
-#### 📆 At the Planning Session 
-
-
 #### 🔁 Sprint Review & Retrospective
 
 The Engineering Manager will:
@@ -216,7 +212,7 @@ Explicitly address these before moving to anything else:
 
 #### Planning Outcomes:
 At the end of this meeting, we will have:
-1. A [_sized_](eng:processes:task-sizing) list of team deliverables that the team commits to completing within the iteration time box. These deliverables will represent work from:
+1. A [_sized_](#eng:processes:task-sizing) list of team deliverables that the team commits to completing within the iteration time box. These deliverables will represent work from:
     - Grant/Funding
     - Partnerships
     - Product Roadmap
@@ -256,11 +252,8 @@ This is done in conjunction to using the board to identify:
 - People that need assistance (or ask for help)
 - Opportunities to pair/collaborate with team members to complete work.
 
-### 4. Demo/Showcase (NOT CURRENTLY IMPLEMENTED)
-To be implemented.
-
 (meetings:retrospective)=
-### 5.Retrospective/Continuous improvement
+### 4. Retrospective/Continuous improvement
 
 At the end of each iteration, the team holds a retrospective meeting to reflect and identify actions to improve the team's ways of working and delivery process. The retrospective is the process through which the team achieves continuous improvement for **all** their other processes. When done effectively, this event will enable us to make data-informed decisions regarding what key changes to adopt, amplify or discard from our processes.
 
@@ -272,7 +265,7 @@ On rare occasions, when the team experiences duress or unpredictable and disrupt
 
 #### The Roster for Facilitating Retrospectives
 
-There is a [Google Sheet](https://docs.google.com/spreadsheets/d/1s0ZSAxwFzJ-_WgDkZeicfuUadSFEjkjS6ZcNk4N7Mmg/edit?usp=sharing) in the shared team drive that determines who will be facilitating each retrospective meeting (as well as [sprint planning](meetings:sprint-planning) and backlog refinement meetings).
+There is a [Google Sheet](https://docs.google.com/spreadsheets/d/1s0ZSAxwFzJ-_WgDkZeicfuUadSFEjkjS6ZcNk4N7Mmg/edit?usp=sharing) in the shared team drive that determines who will be facilitating each retrospective meeting (as well as [sprint planning](#meetings:sprint-planning) and backlog refinement meetings).
 Members of the engineering team are expected to self-nominate for this role because it is _their_ improvement process.
 
 #### Retrospective Tool
@@ -306,7 +299,7 @@ The retrospective meeting follows the below outline.
 
 1. _Set the context for the Iteration retrospective._
 
-   This involves explaining the period under observation, which process(es) we are trying to improve and what has been achieved by the current process. This could involve reviewing the 'Done' column in [](coordination:sprint-board).
+   This involves explaining the period under observation, which process(es) we are trying to improve and what has been achieved by the current process. This could involve reviewing the 'Done' column in [](#coordination:sprint-board).
 
 1. _Review the previous retrospective actions._
 
@@ -368,7 +361,7 @@ The _general rule_ is that actions are also work and should be refined and prior
 (coordination:sprint-board)=
 ### The Iteration Board
 
-The [Iteration Board](https://github.com/orgs/2i2c-org/projects/57/views/1) is a place to keep track of the [Deliverables and tasks](coordination:deliverables) our team intends to work on for a two week iteration.
+The [Iteration Board](https://github.com/orgs/2i2c-org/projects/57/views/1) is a place to keep track of the [Deliverables and tasks](#coordination:deliverables) our team intends to work on for a two week iteration.
 
 The board is a GitHub Projects board that is populated with tasks during the teams Iteration Planning activity.
 
@@ -379,14 +372,14 @@ The Sprint Board is broken down into different columns that represent the team's
 
 The current queues of work represented by the board are:
 
-- {guilabel}`Upcoming P&S Initiatives` represents high level initiatives waiting to be picked up, with highest priority towards the top.
-- {guilabel}`P&S Initiatives in flight` represents high level initiatives that are actively being worked on, with highest priority towards the top.
-- {guilabel}`Refined` represents prioritized tasks ready to be worked, with the highest priority towards the top.
-- {guilabel}`Up Next` represents prioritized tasks that will be included into the upcoming sprint(s) with the highest priority towards the top.
-- {guilabel}`Committed` represents tasks we've committed to complete during the current sprint in the most recent sprint planning meeting. Each item should have at least one owner.
-- {guilabel}`In Progress` represents actively worked tasks.
-- {guilabel}`In Review/Blocked` represents tasks that need to be review before being marked as done or that cannot be completed without additional actions/support.
-- {guilabel}`Done` represents completed tasks to be celebrated and archived in the next sprint planning meeting.
+- **`Upcoming P&S Initiatives`** represents high level initiatives waiting to be picked up, with highest priority towards the top.
+- **`P&S Initiatives in flight`** represents high level initiatives that are actively being worked on, with highest priority towards the top.
+- **`Refined`** represents prioritized tasks ready to be worked, with the highest priority towards the top.
+- **`Up Next`** represents prioritized tasks that will be included into the upcoming sprint(s) with the highest priority towards the top.
+- **`Committed`** represents tasks we've committed to complete during the current sprint in the most recent sprint planning meeting. Each item should have at least one owner.
+- **`In Progress`** represents actively worked tasks.
+- **`In Review/Blocked`** represents tasks that need to be review before being marked as done or that cannot be completed without additional actions/support.
+- **`Done`** represents completed tasks to be celebrated and archived in the next sprint planning meeting.
 
 (coordination:deliverables)=
 ## Deliverables and work issues

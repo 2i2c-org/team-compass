@@ -1,10 +1,6 @@
 (role:operations-manager)=
 # Operations Manager Role
 
-```{role} Operations Manager
-
-```
-
 :::{note}
 (to be hired based on funding or revenue?)
 :::

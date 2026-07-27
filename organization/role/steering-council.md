@@ -1,9 +1,10 @@
 
-(steerco:proposal-process)=
+(role:steering-council)=
 # The steering council
 
+(steerco:proposal-process)=
 The steering council is the ultimate authority of 2i2c.
-It holds our {role}`Executive Director` accountable, and provides major strategic guidance and oversight.
+It holds our [Executive Director](#role:executive-director) accountable, and provides major strategic guidance and oversight.
 
 ## Membership
 
@@ -33,7 +34,7 @@ We use the [Steering Council group](mailto:steering-council@2i2c.org) to describ
 In addition:
 
 - The Executive Director of 2i2c should provide regular (e.g., weekly) updates to the Steering Council email about active proposals or proposals that are currently being discussed and/or voted on.
-- We maintain [a Steerco Calendar](calendars:steerco) that contains voting dates as well as Steerco meeting dates.
+- We maintain [a Steerco Calendar](#calendars:steerco) that contains voting dates as well as Steerco meeting dates.
 
 ### When does voting happen, and how long do we discuss?
 
@@ -65,7 +66,7 @@ For now, the proposal archive is only available to 2i2c team members.
 
 ### What kind of changes must follow this process?
 
-Policy changes that require a steering council vote or notification must follow this process. See the [Proposal Guidelines](proposal-guidelines) below.
+Policy changes that require a steering council vote or notification must follow this process. See the [Proposal Guidelines](#proposal-guidelines) below.
 
 (proposal-guidelines)=
 ## Policies and guidelines for consulting the Steering Council
@@ -76,7 +77,7 @@ In addition to generally consulting the Steering Council when it is helpful, the
 
 ### Decisions that require a full steering council vote
 
-The [Steering Council](structure:steerco) defines the strategy and major direction of 2i2c. It must vote on major decisions that have strong implications for 2i2c’s strategy or financial well-being. See [the proposal process section](steerco:proposal-process) for information about how it votes.
+The [Steering Council](#structure:steerco) defines the strategy and major direction of 2i2c. It must vote on major decisions that have strong implications for 2i2c’s strategy or financial well-being. See [the proposal process section](#steerco:proposal-process) for information about how it votes.
 
 Here are some major decision areas that require a full steering council vote.
 
@@ -88,7 +89,7 @@ Here are some major decision areas that require a full steering council vote.
 - Defining salaries for Director-level positions within 2i2c.
 - Changes to the Code of Conduct.
 
-For other kinds of decisions, the {role}`Executive Director` is given authority to decide.
+For other kinds of decisions, the [Executive Director](#role:executive-director) is given authority to decide.
 
 ### Decisions that require notification, but not a vote
 

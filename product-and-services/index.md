@@ -8,14 +8,7 @@ The engineering sub-team works as part of the broader Product and Services team 
 See [](#external-documentation).
 :::
 
-```{toctree}
-overview.md
-structure.md
-deliveryflow.md
-documentation.md
-prioritization.md
-community-relations.md
-services.md
-cost-model.md
-kpis.md
+```{tableofcontents}
+:context: children
 ```
+

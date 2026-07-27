@@ -11,55 +11,45 @@ This section of the Team Compass documents the procedures and processes that 2i2
 ## Available Services
 
 ::::{grid} 2
-:gutter: 2
 
 :::{grid-item-card}
 :link: interactive-computing/index
-:link-type: doc
 
 🧩💻 **Interactive Computing**
 
-Managed Interactive Computing Service (MICS) represents the deployment, development, maintainance, and upkeep of our [JupyterHub infrastructure service](https://docs.2i2c.org/) across multiple public cloud providers. 
-Leadership orientation
-
+Deploying and operating JupyterHub infrastructure for our communities.
 :::
 
 :::{grid-item-card}
 :link: technical-support/index
-:link-type: doc
 
 🧰📬 **Technical Support**
 
-2i2c provides email based [Technical Support](https://docs.2i2c.org/support/) using FreshDesk to our community members. Our service level objective is to respond to all ticket requests within one business day with the priority for resolution based on the number of users impacted and the community's membership status (if we have resource constraints, premier members are generally prioritized).
-
+Email-based support for community hub issues via FreshDesk.
 :::
 
 :::{grid-item-card}
 :link: community-success-hours/index
-:link-type: doc
 
 🌱🤝 **Community Success Hours**
 
-2i2c Team Members are available to work directly with communities through our [Community Success Hours Service](https://compass.2i2c.org/projects/community-success-hours/) to co-create value.
+Direct collaboration with communities to co-create value.
 :::
 
 :::{grid-item-card}
 :link: open-source-development/index
-:link-type: doc
 
-⚙️🌍 **Open Source Development via Consortia**
+⚙️🌍 **Consortia for Open Source Development**
 
-2i2c partners with our communities to create a virtuous cycle between open science communities that **create knowledge** and open source communities that **build the tools** to do so. We're exploring consortia - collecting groups of communities who are interested in solutions to similar problems - as a way to sustainably prioritize, fund, and design solutions together.  
+Groups of communities co-funding and co-designing shared open source solutions.
 :::
 
 :::{grid-item-card}
 :link: dedicated-delivery-management/index
-:link-type: doc
 
 👥🎯 **Dedicated Delivery Management**
 
-2i2c Team Members coordinate work via community-specific project management for complex community projects and strategic partnerships. 
-
+Community-specific project management for complex projects and strategic partnerships.
 :::
 
 
@@ -67,37 +57,6 @@ Leadership orientation
 
 ## Engagements and Sales Processes
 
-Our Services are normally bundled together into Engagements with membership which define the level of each service and the features and options available for hubs. 
+Our Services are bundled into **Engagements** based on a community's membership, following the [DOCS framework and membership tiers](#service-model:docs) described in our service model.
 
-Business Development is responsible for assembling services together into a Deal which represents the business arrangement that 2i2c has with a community.
-
-Services are delivered to communities as part of an Engagement. To make the components explicit for our cross-functional team, there are different Engagement life cycles for communities with different membership options and service mechanisms. Each Engagement represents a bundling of services together that provides value to a community.
-
-::::{grid} 1
-:gutter: 0
-
-:::{grid-item-card} General Membership
-:text-align: center
-:link: delivery/general-membership
-:link-type: doc
-:::
-
-:::{grid-item-card} Premier Membership
-:text-align: center
-:link: delivery/premier-membership
-:link-type: doc
-:::
-
-:::{grid-item-card} starter / Accessible Service (WIP)
-:text-align: center
-:link: delivery/starter-membership
-:link-type: doc
-:::
-
-::::
-
-:::{note}
-Membership engagements and service mechanisms are not a exhaustive list of the possible Engagements that 2i2c can offer. Special projects, grants, and multi-institutional partnerships are also possible that go beyond one of these standardized options.
-
-Business Development, in consultation with other functional areas of 2i2c, is responsible for defining these kind of **Special Engagements**.
-:::
+Business Development is responsible for assembling services together into a Deal, which represents the business arrangement 2i2c has with a community. See [Delivery](#delivery:index) for how Deals move from sales into ongoing service delivery, including General Membership, Premier Membership, and other engagement types.
