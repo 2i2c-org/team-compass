@@ -2,11 +2,13 @@ version: 1
 site:
   template: book-theme
   nav:
-    - title: Service Docs
+    - title: Service
       url: https://docs.2i2c.org
-    - title: Infrastructure Guide
+    - title: Infrastructure
       url: https://infrastructure.2i2c.org
-    - title: 2i2c Blog
+    - title: Compass
+      url: https://compass.2i2c.org
+    - title: Blog
       url: https://2i2c.org/blog
     - title: Mailing List
       url: https://2i2c.org/mailing-list
