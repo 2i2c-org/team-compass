@@ -196,6 +196,22 @@ Upload the PDF to the receipt section of this transaction.
 :width: 500
 ```
 
+#### Why GCP reimbursements often look "late"
+
+CS&S requires an **invoice** to reimburse cloud costs, not just a receipt of payment.
+We've asked whether a receipt would be acceptable instead (which we'd have immediately), and it isn't.
+
+GCP's statements lag two billing cycles behind the payment they need to document, for example:
+
+- We incur cloud costs in **Month A**.
+- On **Month B, Day 1**, GCP auto-charges our card for Month A's costs. This is the payment we need an invoice for.
+- On **Month B, Day 5**, GCP generates a statement, but it's the statement for Month A, which documents the payment *made during* Month A (i.e. the Month A Day 1 charge, which paid off Month A−1's costs). This is not the invoice we need.
+- On **Month C, Day 5**, GCP generates the statement for Month B, which documents the Month B Day 1 payment for Month A's costs. This is finally the invoice we need.
+
+So there's roughly a five-week gap between paying a cloud bill and having the GCP statement that documents it, well past CS&S's usual one-week-after-month-close reimbursement deadline.
+This is a structural limit of GCP's self-serve billing (each statement covers a calendar month's activity, including payments made *during* that month, not the payment that later settles that month's own balance) and isn't something we can work around.
+If a cloud reimbursement is submitted after the usual deadline for this reason, flag it as expected rather than a mistake.
+
 ### Amazon Web Services (AWS)
 
 AWS automatically e-mails cloud account admins a PDF of their monthly invoice.
