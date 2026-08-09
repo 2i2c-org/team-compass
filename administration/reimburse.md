@@ -198,19 +198,19 @@ Upload the PDF to the receipt section of this transaction.
 
 #### Why GCP reimbursements often look "late"
 
-CS&S requires an **invoice** to reimburse cloud costs, not just a receipt of payment.
-We've asked whether a receipt would be acceptable instead (which we'd have immediately), and it isn't.
+CS&S requires an **invoice**, not a receipt[^1], to reimburse cloud costs[^1]
+GCP statements lag two billing cycles behind the payment they document, something like this:
 
-GCP's statements lag two billing cycles behind the payment they need to document, for example:
+```{mermaid}
+flowchart LR
+    A["Month A<br/>Costs incurred"] --> B1["Month B, Day 1<br/>Card charged"]
+    B1 --> B5["Month B, Day 5<br/>Statement ❌<br/>(covers Month A−1)"]
+    B5 -.->|"~4 weeks later"| C5["Month C, Day 5<br/>Statement ✅<br/>(covers Month A)"]
+```
 
-- We incur cloud costs in **Month A**.
-- On **Month B, Day 1**, GCP auto-charges our card for Month A's costs. This is the payment we need an invoice for.
-- On **Month B, Day 5**, GCP generates a statement, but it's the statement for Month A, which documents the payment *made during* Month A (i.e. the Month A Day 1 charge, which paid off Month A−1's costs). This is not the invoice we need.
-- On **Month C, Day 5**, GCP generates the statement for Month B, which documents the Month B Day 1 payment for Month A's costs. This is finally the invoice we need.
+This is a structural limit of GCP's self-serve billing, not something we can change, and it creates a roughly five-week gap between paying a bill and getting its matching invoice — past CS&S's usual one-week-after-month-close deadline.
 
-So there's roughly a five-week gap between paying a cloud bill and having the GCP statement that documents it, well past CS&S's usual one-week-after-month-close reimbursement deadline.
-This is a structural limit of GCP's self-serve billing (each statement covers a calendar month's activity, including payments made *during* that month, not the payment that later settles that month's own balance) and isn't something we can work around.
-If a cloud reimbursement is submitted after the usual deadline for this reason, flag it as expected rather than a mistake.
+[^1]: We've asked and a receipt isn't enough, because we need itemized information about what was purchased, not just the credit card record.
 
 ### Amazon Web Services (AWS)
 
