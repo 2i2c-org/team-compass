@@ -210,6 +210,10 @@ flowchart LR
 
 This is a structural limit of GCP's self-serve billing, not something we can change, and it creates a roughly five-week gap between paying a bill and getting its matching invoice — past CS&S's usual one-week-after-month-close deadline.
 
+:::{tip} Action needed
+If a cloud reimbursement is submitted after the usual deadline for this reason, flag it as expected rather than a mistake.
+:::
+
 [^1]: We've asked and a receipt isn't enough, because we need itemized information about what was purchased, not just the credit card record.
 
 ### Amazon Web Services (AWS)
