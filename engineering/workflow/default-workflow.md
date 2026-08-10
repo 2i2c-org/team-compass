@@ -1,10 +1,5 @@
 (coordination:workflow)=
-# 2-week iterations - Our default process
-
-```{admonition} Out of date!
-
-Many of the sections below are out of date, particularly those related to the Engineering team's delivery workflow.
-```
+# 2-week iterations with "Accountable Kanban" - Our default process
 
 This section describes how our development team carries out its planning and day-to-day work.
 
@@ -27,8 +22,8 @@ The 2i2c team uses Iterations to coordinate with one another in focused cycles o
 We rely on 4 sub-processes to move work through the delivery workflow. Namely: 
 - _Refinement_
 - _Planning_
-- _Progress Update_
-- _Retrospective_.
+- _Standups_
+- _Retrospective_
 
 These sub-processes are defined in more detail below.
 
@@ -38,20 +33,21 @@ These sub-processes are defined in more detail below.
 Our team works in **two-week iterations**. Here is a brief overview of each Iteration.
 
 Before Iteration
-: Ensure the Refined column has ranked (prioritized and sequenced) work items 
+: Product Management takes in input from the team and the business at large and ensures the Up Next column has ranked (prioritized and sequenced) work items 
 
 Beginning of Iteration
 : Iteration begins with our [Iteration planning meeting](#meetings:sprint-planning).
 
-  In this meeting we discuss major accomplishments in the previous iteration, review past capacity committments. We then size and assign the items that each team member will work on for the next iteration, and review items that require discussion and planning.
+  In this meeting we discuss major accomplishments in the previous iteration, review past capacity commitments, and assess the velocity of the last iteration. We then size the items in the Up Next column which form the backlog of work for upcoming iterations, and review items that require discussion and planning.
 
 During the Iteration
-: Team members work on the items assigned to them at the iteration planning meeting.
-  We use [the Iteration Board](#coordination:sprint-board) to coordinate our activities during the iteration.
-  We provide updates about what we've been up to, what we're doing next, and where we need help via regular **asynchronous Slack stand-ups**.
+: Team members pick up the first item of work in the Up Next column that they can help with. It's up to each team member to judge how they can help, and to pick up work that matches their skills and expertise (The "Accountable" part of Accountable Kanban). 
+
+We use [the Iteration Board](#coordination:sprint-board) to coordinate our activities during the iteration.
+  We provide updates about what we've been up to, what we're doing next, and where we need help via regular twice-weekly **stand-ups**. as well as asynchronously through Slack. 
 
 Last day of Iteration
-: By the end of the day, team members should have completed all of their items for that iteration. The iteration is closed off with a Retrospective to identify improvement opportunities.
+: By the end of the day, team members should aim to have closed the majority of the tasks they had with the "in progress" status. The iteration is closed off with a Retrospective to identify improvement opportunities.
 
 :::{admonition} Iteration Cadence
 - Default: Two weeks.
@@ -62,29 +58,14 @@ Last day of Iteration
 
 ### 1. Pre-planning and refinement
 
-Tasks in the backlog are continually added and refined asynchronously by the whole team, ready for Iteration planning meetings, which rely on having sequenced and prioritized tasks to be available in the board's Up next column.
-The backlog is regularly culled of tasks that are stale, in a monthly Backlog refinement meeting 
-
-Backlog refinement meetings should aim to prepare our backlog for planning by
-- Gaining a shared understanding of work to be done
-- Estimating work
-- Identifying and removing tasks that are stale or obsolete
-- Adjusting tasks that are in the wrong status or priority on the board
-- Identifying tasks that need further asynchronous refinement
-
-Tasks should tie back to initiatives or contract deliverables, and the refined column should also function as a buffer of uncommitted work to pull from if needed. This also allows initiative owners to queue up more than one sprint worth of work when they have a solid understanding of an initiative.
-
-Attendees of the Refinement meeting should include representatives from the following teams:
-- Engineering: for technical decision-making
-- Product: for product decision-making
-
-Product Managers at the meeting should come prepared to represent and advocate for Business Development interests.
+Tasks in the backlog are continually added and refined asynchronously by the whole team. Product Management takes tasks from Refined and places them in order of priority in the Up Next column. Tasks that tie back to initiatives or contract deliverables are normally given priority.
+The backlog is regularly culled of tasks that are stale, a process that is mostly done asynchronously, with the occasional backlog refinement meeting called by Product Management as needed.
 
 (meetings:sprint-planning)=
 
 ### 2. Iteration Planning Guide
 
-#### 🗓️ Between Refinement and Planning
+#### 🗓️ Before Iteration Planning
 
 A Product Manager will:
 
@@ -98,7 +79,16 @@ A Product Manager will:
   If a card is intended for the upcoming sprint, team members let a Product Manager know and they will mark it with this sprint’s end date.
 
 - **Organize in 'Up Next'**  
-  A Product Manager manages and sorts cards in the ‘Up Next’ column for visibility.
+  A Product Manager manages and sorts cards in the ‘Up Next’ column in order of priority.
+
+- **Ensure coverage of key categories**  
+The PM will ensure the Up Next column explicitly addresses these types of cards with higher priority:
+  1. Contract Deliverables
+  2. BD requests
+  3. Incident Mitigation issues
+  4. Support Tickets (including workshop requests and support issues that can't be resolved in 30 minutes)  
+  5. Platform Initiatives
+  6. Service Initiatives
 
 The Team will:
 
@@ -126,8 +116,8 @@ The Product Manager will:
 The Team will:
 
 - **Ensure issues are current**  
-  - All team members should update and clean up any issues to which they are assigned prior to the planning session
-  - Ensure the use of the Standard Definition of Done available in the General Issue template where possible (See "How are Deliverabled Structured", below).
+  - All team members should update and clean up any issues to which they are contributing prior to the planning session
+  - Ensure the use of the Standard Definition of Done available in the General Issue template where possible (See "How are Deliverables Structured", below).
 
 The Engineering Manager will:
 
@@ -163,56 +153,14 @@ The Engineering Manager will:
   - Ask initiative owners to highlight the next demo reel or learning we're aiming for 
   - Invite input from the whole team for broader context
 
-The Team will:
-
-- **Identify a “1” (low-effort card)**  
-  Start with the easiest, quickest win for the sprint.
-
-#### 🃏 Committing Cards
-
-The Team will:
-
-- **Sort Board by date**  
-  - Focus first on items due or overdue before exploring the rest.
-  - Make sure to check dated items in the Up Next, Refined, Upcoming and In Flight columns are not being left behind
-
-- **Start from the top of ‘Up Next’**
-  - ✍️ Summarize each card for shared understanding  
-  - 🧠 Estimate effort using Planning Poker or expert judgment  
-  - 🙋 Assign responsible team member(s)  
-  - 🔖 Move card to **Committed** and tag with sprint iteration
-
-- **Prioritize initiative-linked and Contract Deliverable tasks**  
-  - Reinforce the importance of completing tasks tied to Initiatives in Flight and Contract Deliverables.
-
-- **Ensure coverage of key categories**  
-Explicitly address these before moving to anything else:
-  1. Contract Deliverables
-  2. BD requests
-  3. Incident Mitigation issues
-  4. Support Tickets (including workshop requests and support issues that can't be resolved in 30 minutes)  
-  5. Platform Initiatives
-  6. Service Initiatives
-
-- **Continue until reaching target velocity**  
-  Adjust as needed to fill capacity without overloading.
-
-- **Balance workloads**  
-  - Review assignments for each member  
-  - Shuffle cards to prevent burnout or neglect  
-  - Add or remove cards to ensure smooth sprint flow
-
 #### 📊 Final Sprint Setup
 
-- Ping anyone who was not able to attend the meeting and ensure they are aware of the tasks they have been assigned. 
-
 - **Update new sprint’s status dashboard**
-  - Include total points in **Committed**
-  - Ensure visibility across stakeholders
+- Ensure visibility across stakeholders
 
 #### Planning Outcomes:
 At the end of this meeting, we will have:
-1. A [_sized_](#eng:processes:task-sizing) list of team deliverables that the team commits to completing within the iteration time box. These deliverables will represent work from:
+1. A [_sized_](#eng:processes:task-sizing) list of team deliverables that are in order of priority in the Up Next column and are broadly understood by the team.
     - Grant/Funding
     - Partnerships
     - Product Roadmap
@@ -220,9 +168,9 @@ At the end of this meeting, we will have:
     - Internal Engineering
     - Upstream community
 
-1. Identified and shared the core risks impacting the deliverables. NB: The meeting will not be used to brainstorm solutions to resolve the risks.
+2. Identified and shared the core risks impacting the deliverables. NB: The meeting will not be used to brainstorm solutions to resolve the risks.
 
-1. Owners assigned to resolve the different risks. These individuals will create working sessions and coordinate the necessary domain experts who will be responsible for resolving the risks. NB: The owner is accountable to ensure the working sessions happen. They are not responsible for the actual solutions as this may belong to separate domain experts. A deliverable cannot be committed as part of the iteration if there are dependencies with other teams AND those other teams have not committed to completing the work within the current iteration or if the work was not previously completed in an earlier iteration.
+3. For specific high-effort or complext tasks, Owners may be assigned instead at planning instead of letting anyone pick those tasks up during the iteration. Owners are usually assigned to resolve different risks. These individuals will create working sessions and coordinate the necessary domain experts who will be responsible for resolving the risks. NB: The owner is accountable to ensure the working sessions happen. They are not responsible for the actual solutions as this may belong to separate domain experts. A deliverable cannot be committed as part of the iteration if there are dependencies with other teams AND those other teams have not committed to completing the work within the current iteration or if the work was not previously completed in an earlier iteration.
 
 ```{tip}
 This meeting provides us a golden opportunity to:
@@ -232,7 +180,7 @@ This meeting provides us a golden opportunity to:
 - Ensure that we are focused on delivering the highest value work (value optimisation).
 ```
 
-### 3. Progress Update (and blockers)
+### 3. Standups for progress updates (and blockers)
 
 This is a short, synchronous, alignment meeting (sometimes referred to as a "_Standup_"). It occurs on Tuesdays and Thursdays, and is designed to help us coordinate and realign ourselves around the work. 
 
@@ -376,7 +324,6 @@ The current queues of work represented by the board are:
 - **`P&S Initiatives in flight`** represents high level initiatives that are actively being worked on, with highest priority towards the top.
 - **`Refined`** represents prioritized tasks ready to be worked, with the highest priority towards the top.
 - **`Up Next`** represents prioritized tasks that will be included into the upcoming sprint(s) with the highest priority towards the top.
-- **`Committed`** represents tasks we've committed to complete during the current sprint in the most recent sprint planning meeting. Each item should have at least one owner.
 - **`In Progress`** represents actively worked tasks.
 - **`In Review/Blocked`** represents tasks that need to be review before being marked as done or that cannot be completed without additional actions/support.
 - **`Done`** represents completed tasks to be celebrated and archived in the next sprint planning meeting.
