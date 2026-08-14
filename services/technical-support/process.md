@@ -34,14 +34,15 @@ Here is the process that we follow when triaging and resolving support requests.
 
 The goal of the triage phase is to understand the Support Request, decide if it is related to an incident, and choose the appropriate resolution pathway.
 
-This process is carried out in an ongoing basis by the {term}`Support Triager` and {term}`Support Agents`.
+This process is carried out in an ongoing basis by the {term}`Support Triager` and {term}`Support Agents`. Currently one team member at a time serves as Triager and all engineers serve as Agents.
 
 1. **Monitor our support channels**. We use FreshDesk for all support requests, and the Support Triager should regularly keep an eye on this account for new requests.
    When a new support requests comes in, move to the next step.
 2. **Assess whether the Ticket needs action**. Emails from PagerDuty and our cloud providers pass through the FreshDesk channel. Not all of these tickets require action: 
-   - Budget alerts from GCP and AWS: the {term}`Support Triager` should take action if there's a >20% increase in spend, which can include passing that email on to the {term}`Community Representative` or assigning a {term}`Support Agent` to research
-   - PagerDuty emails can typically be closed
-   - Service alerts, account closures and openings, etc. from AWS or GCP should be shared with all engineers via our Slack support-freshdesk channel
+   - Skim budget alerts from GCP and AWS: the {term}`Support Triager` should take action if there's a >20% increase in spend, which can include passing that email on to the {term}`Community Representative` or assigning a {term}`Support Agent` to research; anything less than a 20% increase can be closed
+   - Close tickets generated from PagerDuty emails
+   - Share service alerts, account closures and openings, etc. from AWS or GCP with all engineers via our Slack support-freshdesk channel; then close the ticket
+   - We get occasional spam; this is usually obvious and can be closed as spam
 3. **Associate Ticket with a Community**. Verify the support ticket is associated with the correct community. See [](#support:community-association)
 4. **Convert Ticket to Community Support Hours**. If a community is requesting a meeting or an obvious deeper dive, move to the workflow for Community Success Hours. 
 5. **Assign a Support Agent to the Ticket**. The Support Triager assigns the ticket to a {term}`Support Agent` based on the considerations:
