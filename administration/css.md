@@ -39,7 +39,7 @@ E-mail address: **`fsp@codeforsociety.org`**.
 ## Set up a new contract after a sale
 
 Once BD has sent a quote or reached a verbal agreement, CS&S can draft a service agreement for the deal.
-See [How to set up a new contract with CS&S when we've made a sale](https://docs.google.com/document/d/1xGk93IiYM78BkLH6H9n-0uyV_cD5s4ByTs2T116GsBE/edit?tab=t.0#heading=h.mevwhl424168).
+See [](#bd:contracts) for the process.
 
 ## Google Group
 
