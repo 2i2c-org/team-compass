@@ -9,21 +9,13 @@ It is maintained by the [Product Lead](#role:head-of-product-and-services).
 
 Since its formation, 2i2c has been successful in acquiring and maintaining a good number of client organizations that have benefited from its open, replicable cloud infrastructure services. 2i2c has maintained the ability to remain responsive to the needs of the communities it serves, but in doing so it has taken a somewhat reactive, ad-hoc approach to answering community partner or other customer requests.
 
-As the organization is now more mature, and the breadth and complexity of its offerings and partnerships grow, it needs to shift to a more sustainable approach to the ongoing development of its products and services. This approach should allow it to make more effective use of its people and skills, and ensure that effort is always directed to the activities that are most valuable more closely aligned with its mission and value proposition.
+As the organization matured, and the breadth and complexity of its offerings and partnerships grew, it shifted to a more sustainable approach to the ongoing development of its products and services. This product-focused approach now allow it to make more effective use of its people and skills, and ensures that effort is always directed to the activities that are most valuable and more closely aligned with its mission and value proposition.
 
 ## Identifying a Value Proposition as our North Star
 
 A North Star is a core value, principle or goal that is used to help make decisions about what to do and when to do it. It starts with the organization’s mission, and is refined through a Value Proposition. Having a good understanding of what 2i2c’s North Star is will be key to ensuring that whatever we do is aligned with where we want the organization to be.
 
 [Our Value Proposition is defined here](#mission:value-proposition).
-
-## Becoming more intentional
-
-As 2i2c scales up to meet its strategic goals, the way we decide what to put our efforts into will have to shift from a partially reactive approach to product development to a more intentional, careful approach that will allow us to carve out the space for our team to research and deploy the right solutions for the most important problems our communities face.
-
-This will necessarily affect the interaction between Partnerships, Product and Engineering, to ensure that our external conversations with communities, both current and prospective, are carefully considered against what would deliver the most value for the most communities, and be most closely aligned with our strategic objectives as an organization.
-
-The product delivery flow outlined herein is meant to provide a framework whereby input from community stakeholders can be recorded, assessed, triaged and prioritized in alignment with what it is we want to achieve as an organization. 
 
 ## Principles of our Product function
 
@@ -65,12 +57,7 @@ The Product and Services team tracks its value delivery and performance through 
   - Untracked, as long as 3 months to deliver new features to our community network (was actually as long as 6 months)
   - Varies based on feature size, 2 weeks-4 months
   - < 2 weeks for a small feature or piece of a larger feature; predictable wait times for larger feature groups
-* - PRIMARY: Engagement
-  - A quantitative metric representing the level of engagement with our platform over time, across our entire user base.
-  - Tracked as Monthly Active Users
-  - Still not reliably tracked.
-  - ???
-* - SECONDARY: Velocity
+* - PRIMARY: Velocity
   - A measure of the volume of tasks delivered by the team within a single sprint, indicating the team’s delivery efficiency and predictability. Tracked [alongside our GitHub project board](https://github.com/orgs/2i2c-org/projects/57/insights/6). Our goal isn't to increase points but to becom more predictable.
   - Ranges 40-80pts
   - Ranges 60-80 pts
