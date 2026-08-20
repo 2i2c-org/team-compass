@@ -41,6 +41,16 @@ Only use this to reach people who already know us and expect to hear from us, su
 Do not use it for mass marketing or cold outreach to people who haven't opted in.
 :::
 
+(hubspot:segment:member-updates)=
+
+### Member Updates segment
+
+Use the [Member Updates segment](https://app-na2.hubspot.com/contacts/242496330/objectLists/79/filters) to reach all contacts that should get regular 2i2c member updates.
+It captures contacts associated with a community or deal in an active sales stage, plus contacts labeled as strategic contacts.
+
+Member updates are periodic e-mails to representatives of our member communities about 2i2c news that affects them, such as service changes, new capabilities, and organizational updates.
+They are distinct from [our public newsletter](../marketing/mailinglist.md), which goes to anyone who signs up.
+
 ## How to log into the HubSpot admin account
 
 We have an admin account that gives the whole team edit access to our HubSpot data.
