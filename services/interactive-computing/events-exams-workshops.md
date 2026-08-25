@@ -1,6 +1,6 @@
 # Handling events
 
-Sometimes, communities will want to run events like workshops, exams or even conferences on their hubs. The hubs might be specifically deployed to serve this purpose, or they might be their day to day hubs. In either case, there are infrastructure updates that need to happen to ensure that the hub can sustain the increased load and change in workflow.
+Many communities run events like workshops, exams or even conferences on their hubs. The hubs might be specifically deployed to serve this purpose, or they might be their day to day hubs. In either case, there are infrastructure updates that need to happen to ensure that the hub can sustain the increased load and change in workflow.
 
 ```{tip}
 The infrastructure guide for events is available at https://infrastructure.2i2c.org/howto/prepare-for-events/.
@@ -22,3 +22,5 @@ The event tracking issue must reference:
 - pull requests updating the infrastructure to support the event
 - any other external GitHub issues that are relevant to the event (e.g. an issue tracking the event on the community's side)
 - links to all Slack conversations about the event (e.g. conversations happening in the `#support-freshdesk` channel, or in the community's Slack workspace)
+- notes from meetings or offline conversations 
+
