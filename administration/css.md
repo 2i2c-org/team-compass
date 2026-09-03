@@ -24,6 +24,13 @@ Find the [CS&S employee handbook here](https://drive.google.com/file/d/1bBBwWq_Q
 
 It describes all of the policies for their employees (which includes all of 2i2c's staff).
 
+(css-services)=
+## What services does CS&S provide?
+
+CS&S maintains a document describing what their fiscal sponsorship fee covers and what projects must resource on their own.
+
+[CS&S Fiscal Sponsorship Fees: What's Covered and What's Not](https://drive.google.com/file/d/1OUgiVIuFPqpbHWbMngfLqB5A_9Us7Vh_/view?usp=drive_link) (updated August 2026)
+
 (role:css-operations)=
 ## CS&S Operations
 
