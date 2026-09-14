@@ -7,17 +7,11 @@ project:
     - file: organization/index.md
       children:
       - file: organization/mission.md
-        hidden: true
       - file: organization/theory-of-impact.md
-        hidden: true
       - file: organization/strategy.md
-        hidden: true
       - file: organization/service-model.md
-        hidden: true
       - file: organization/value-proposition.md
-        hidden: true
       - file: organization/plan.md
-        hidden: true
       - file: organization/structure.md
         children:
         - file: organization/role/executive-director.md
@@ -178,9 +172,7 @@ project:
       - file: engineering/workflow/index.md
         children:
         - file: engineering/workflow/default-workflow.md
-          hidden: true
         - file: engineering/workflow/task-sizing.md
-          hidden: true
       - file: engineering/definition-of-ready.md
       - file: engineering/strategy.md
       - file: engineering/access.md

@@ -14,6 +14,7 @@ def docs(session):
     session.run("myst", "build", "--html", *session.posargs)
 
 
+@nox.session(name="docs:live")
 @nox.session(name="docs-live")
 def docs_live(session):
     """Build the documentation with live preview server."""
