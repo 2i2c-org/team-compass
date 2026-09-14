@@ -161,7 +161,6 @@ project:
         - file: product-and-services/roles/senior-product-manager.md
       - file: product-and-services/deliveryflow.md
       - file: product-and-services/documentation.md
-      - file: product-and-services/prioritization.md
       - file: product-and-services/community-relations.md
       - file: product-and-services/services.md
       - file: product-and-services/cost-model.md
