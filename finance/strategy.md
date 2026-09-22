@@ -23,7 +23,7 @@ Monthly burn rate
 Runway
 : How many months before we run out of funds. We look at this two complementary ways:
 
-  - **Projected runway** [projects current numbers into the future](#accounting:projections) (for both committed and expected revenue) and sees when we hit `$0`. It tells us whether we can afford to grow.
+  - **Projected runway** [projects current numbers into the future](#accounting:projections) (for signed contracts and likely renewals) and sees when we hit `$0`. It tells us whether we can afford to grow.
   - **Cash reserve** is the simpler `cash on hand / monthly costs`: how long we'd last _if revenue stopped today_. It tells us how resilient we are to disruption.
 
   Both are tracked as [financial health indicators](#finance:financial-health-indicators) on our dashboard.
@@ -45,32 +45,28 @@ Here's what these cycles should look like:
 We track a handful of indicators to judge whether 2i2c is financially healthy and sustainable.
 Their live values, target thresholds, and color-coded bands live on the [financial health indicators](https://finance.2i2c.org/projections/) of our [finance dashboard](#finance:dashboards) - this section describes what each one asks and why it matters.
 
-Committed runway
-: How many months we can operate before cash runs out, **assuming we fully collect our on-the-books contracts**.
-  It tells us whether we can afford to grow or hire with committed revenue.
-  We measure it in sales cycles (the time it takes to close new revenue) rather than absolute months, so the target scales with how quickly we can respond.
-
-Estimated runway
-: How many months we can operate before cash runs out, **assuming our expected deals land as well**.
-  This is a more ambitious version of our "Committed" runway, with more assumptions being made.
-  It is our best estimate for what we think will happen, and generally our default definition of "our runway".
+Projected runway
+: How many months until we run out of cash, **counting signed contracts and likely renewals**.
+  It tells us whether we can afford to grow.
+  New sales don't count here until they're signed.
 
 Cash reserve
 : How many months we could operate **if revenue stopped today**.
-  Unlike projected runway it ignores future revenue, so it measures resilience to disruption.
+  It tells us how resilient we are to disruption (e.g. unpaid invoices, government shutdown, etc).
   Nonprofit best practice is to hold 3-6 months of operating costs in reserve[^reserves].
 
-Committed cost coverage
-: How much of our team's monthly cost is paid for by **already-signed** work.
-  This tells us whether our active contracts are covering our costs (ie, how quickly we're eating into our cash).
+Cost coverage (this and next sales cycle)
+: How much of our costs over the next two sales cycles (about six months each) we expect revenue to cover.
+  This cycle tells us whether the current team is paid for, and next cycle tells us what sales need to close now.
 
-Pipeline coverage
-: Whether our probability-weighted **pipeline** is large enough to fill the cost gap that signed work doesn't already cover.
-  This tells us whether we expect to cover our cost gap with new sales.
+### To decide whether we need to grow or cut costs
 
-Customer concentration
-: How much of our revenue depends on our largest few customers.
-  High concentration means losing a single relationship could threaten our solvency.
+Read both the runway and cost coverage together to decide whether to grow or shrink the team.
+
+- If our runway is getting short, but our sales pipeline suggests we have more than enough *estimated* revenue to cover that gap, we're probably OK.
+- If our runway is getting short and we're at a "break even" point, it suggests we might need to reduce costs.
+
+If we need to shrink, follow our [cost reduction plan](#finance:cost-reduction).
 
 [^reserves]: See [Nonprofit Operating Reserves: An Introduction](https://nonprofitaccountingbasics.org/sites/default/files/03-Nonprofit%20Operating%20Reserves-An%20Introduction_0.pdf) and [Nonprofit Operating Reserve: Policy, Ratios, and IRS Rules](https://legalclarity.org/nonprofit-operating-reserve-policy-ratios-and-irs-rules/) for the rationale and common benchmarks behind operating-reserve targets.
 
@@ -129,7 +125,7 @@ As an example of using the above principles in action, here are a few questions 
 - Will this role contribute to bringing in more revenue from 2i2c?[^revenue]
   If so, we may update our budget projections before deciding on the financial impact of the hire.
 - Can we afford the role, and does signed work fund it?
-  Check the [**projected runway** and **committed cost coverage** indicators](#finance:financial-health-indicators) - we should only hire when both look healthy (the dashboard spells out this "should we hire?" logic).
+  Check the [**projected runway** and **cost coverage** indicators](#finance:financial-health-indicators) - we should only hire when both look healthy (the dashboard spells out this "should we hire?" logic).
   Assume it will take about 3 months for a new hire to ramp up and contribute at full capacity.
 
 [^revenue]: For example:

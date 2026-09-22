@@ -29,7 +29,6 @@ project:
       - file: people/development.md
       - file: people/titles.md
       - file: people/time-off.md
-      - file: people/cost-reduction.md
     - file: open-source/index.md
       children:
       - file: open-source/overview.md
@@ -46,6 +45,7 @@ project:
       - file: finance/spending-money.md
       - file: finance/fundraising.md
       - file: finance/projections.md
+      - file: finance/cost-reduction.md
       - file: finance/dashboards.md
       - file: finance/monthly-process.md
       - file: finance/payments.md
