@@ -125,6 +125,7 @@ project:
         - file: business-development/roles/bd-lead.md
         - file: business-development/roles/sales-account-executive.md
       - file: business-development/crm.md
+      - file: business-development/contracts.md
       - file: business-development/grants.md
       - file: business-development/meetings/index.md
         children:
