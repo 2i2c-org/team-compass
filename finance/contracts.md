@@ -3,6 +3,11 @@
 A **contract** defines our formal relationship with any external organizations or people.
 We use **invoices** to exchange funds (incoming and outgoing) that are related to contracts.
 
+:::{seealso}
+To draft a new contract, see [](#bd:contracts).
+For guidance on contract language, see [](#bd:contract-language).
+:::
+
 (contracts:active)=
 ## Active contracts and deals
 
