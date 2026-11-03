@@ -43,4 +43,4 @@ This will give them Google Drive access as well as an `@2i2c.org` account.
 However, **we pay monthly for every person-specific e-mail address**.
 
 As a rule of thumb, **any team members of 2i2c get a workspace account**.
-In addition, Steering Council members may get an account as well if they wish and if they intend to actively use it.
+In addition, Advisory Committee members may get an account as well if they wish and if they intend to actively use it.

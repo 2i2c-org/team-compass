@@ -21,14 +21,14 @@ Each area has a top-level section in our team compass, and it is that team's res
 
 ## Executive Director
 
-The Executive Director leads 2i2c's organization, and reports to the Steering Council.
+The Executive Director leads 2i2c's organization, and reports to the [Advisory Committee](#role:steering-council).
 
 
 (structure:steerco)=
-(Steering Council)=
-## Steering Council
+(Advisory Committee)=
+## Advisory Committee
 
-The Steering Council provides accountability to the Executive Director, and provides strategic oversight over 2i2c's mission.
+The Advisory Committee provides accountability to the Executive Director, and provides strategic oversight over 2i2c's mission.
 
 
 (structure:fiscal-sponsor)=
