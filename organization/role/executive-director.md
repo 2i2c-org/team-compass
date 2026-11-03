@@ -5,14 +5,14 @@
 ## Responsibilities
 
 Ensures that 2i2c has the right strategy, structure, resources, and alignment to accomplish its mission.
-Oversees the creation of 2i2c's strategic planning and coordination, and actively engages the Steering Council and others at 2i2c in these efforts.
+Oversees the creation of 2i2c's strategic planning and coordination, and actively engages the Advisory Committee and others at 2i2c in these efforts.
 
 The Executive Director oversees organizational areas that do not have their own lead, and oversees team leads.
 They make tie-breaking decisions if they are at an impasse in decision-making.
 
 ## Relationship to others
 
-The Executive Director reports to the [Steering Council](#role:steering-council).
+The Executive Director reports to the [Advisory Committee](#role:steering-council).
 
 Group leads of 2i2c report to this role.
 
