@@ -74,6 +74,7 @@ project:
         children:
         - file: code-of-conduct/response-protocol.md
         - file: code-of-conduct/social-rules.md
+      - file: operations/security.md
       - file: operations/workflow.md
       - file: operations/activity-log.md
       - file: operations/team-practices/overview.md
