@@ -5,7 +5,7 @@ Our goal is to create one of the best communities in the world for learning, usi
 
 Accordingly, anyone who participates in a 2i2c space is expected to show respect and courtesy to others in all interactions, whether in GitHub repositories, our Slack channel, during in-person events, when representing 2i2c in public, or in events and spaces associated with {term}`CS&S`.
 
-To make sure that everyone has a common understanding of “show respect and courtesy to each other,” we have adopted the following code of conduct. The code of conduct is enforced by the [Executive Director](#role:executive-director) and the [Steering Council](#role:steering-council).
+To make sure that everyone has a common understanding of "show respect and courtesy to each other," we have adopted the following code of conduct. The code of conduct is enforced by the [Executive Director](#role:executive-director).
 
 ## Unacceptable behavior
 
@@ -30,7 +30,7 @@ The following types of behavior are unacceptable in 2i2c spaces, both online and
 
 2i2c community members are held to the standards outlined in this code of conduct when interacting in the 2i2c Slack or GitHub repositories, when interacting in-person at events where they could represent 2i2c (this is most professional events), in physical spaces with other 2i2c team members or collaborators, or in any {term}`CS&S` space.
 
-In addition, the 2i2c community and experience often extends outside those spaces—2i2c community members may go on walks together to get lunch, attend meetups or conferences as a group, communicate on social media, or interact with each other in other communities. Abusive or unwelcoming behavior between community members still has a profound impact on individuals and on the community when it happens beyond our walls. The 2i2c Executive Director and the Steering Council will use our discretion when deciding whether to enforce this code of conduct and potentially remove someone from the 2i2c community after reports of such behavior happening outside of 2i2c, taking into account the impact on the individual community members involved as well as the impact on the community at large.
+In addition, the 2i2c community and experience often extends outside those spaces—2i2c community members may go on walks together to get lunch, attend meetups or conferences as a group, communicate on social media, or interact with each other in other communities. Abusive or unwelcoming behavior between community members still has a profound impact on individuals and on the community when it happens beyond our walls. The 2i2c Executive Director will use their discretion when deciding whether to enforce this code of conduct and potentially remove someone from the 2i2c community after reports of such behavior happening outside of 2i2c, taking into account the impact on the individual community members involved as well as the impact on the community at large.
 
 The 2i2c Code of Conduct does not apply to interactions between users of a Managed JupyterHub, though we encourage leaders in those communities to adopt a Code of Conduct for their hub infrastructure. The Code of Conduct does apply to any interaction between a user of a Managed JupyterHub and a 2i2c Team Member.
 
@@ -48,7 +48,7 @@ If we verify abusive behavior, they will be removed from the 2i2c community and,
 
 If we verify unwelcome, but non-abusive behavior, we will have a conversation with the person so they understand the expectation that they not repeat the behavior or other behaviors that would violate the Code of Conduct a second time. See the follow-up protocol for more information.
 
-[This is the protocol](response-protocol.md) that 2i2c Executive Director and Steering Council members will use to respond to reports of code of conduct violations.
+[This is the protocol](response-protocol.md) that the 2i2c Executive Director will use to respond to reports of code of conduct violations.
 
 
 (coc:reporting)=
@@ -58,22 +58,18 @@ If you see a violation of our code of conduct, please [report it to the 2i2c Cod
 
 ### Why should I report?
 
-- You are responsible for making 2i2c a safe and comfortable space for everyone. Everyone in our community shares this responsibility. 2i2c Team and Steering Council members are not around the online spaces or at 2i2c events all the time, so we cannot enforce the code of conduct without your help.
-- The consequences for the 2i2c community of not reporting bad behavior outweigh the consequences for one person of reporting it. We sometimes hear “I don’t want X person to meet consequences because I told someone about their bad behavior.” Consider the impact on everyone else at 2i2c of letting their behavior continue unchecked.
+- You are responsible for making 2i2c a safe and comfortable space for everyone. Everyone in our community shares this responsibility. 2i2c Team members are not around the online spaces or at 2i2c events all the time, so we cannot enforce the code of conduct without your help.
+- The consequences for the 2i2c community of not reporting bad behavior outweigh the consequences for one person of reporting it. We sometimes hear "I don’t want X person to meet consequences because I told someone about their bad behavior.” Consider the impact on everyone else at 2i2c of letting their behavior continue unchecked.
 - 2i2c only works as an open, participatory, community-driven community because of shared trust between community members. Reporting code of conduct violations helps us identify when this trust is broken, to prevent that from happening in the future.
 
 ### Where and how to report
 
-Please report all code of conduct violations using [our reporting form](https://docs.google.com/forms/d/e/1FAIpQLSeKFuoghGzftqqgaa0xllZyocdUJsWZmoSaFFlerimg4n_Y8A/viewform?usp=sf_link). This is a short Google Form that will be sent to any Steering Council member acting as a Code of Conduct Steward (see below for details). Alternatively, if you wish to report to one of the Code of Conduct stewards specifically, email them directly.
+Please report all code of conduct violations using [our reporting form](https://docs.google.com/forms/d/e/1FAIpQLSeKFuoghGzftqqgaa0xllZyocdUJsWZmoSaFFlerimg4n_Y8A/viewform?usp=sf_link). This is a short Google Form that will be sent to the Code of Conduct Steward (see below for details). Alternatively, you can email the Executive Director directly.
 
 ### Who responds to violation reports
 
-Any Steering Council members with the "Code of Conduct steward" role must monitor this reporting form. The minimal set of people that serve in this role are
-
-- The Executive Director
-- At least one other Steering Council member
-
-The people serving in these roles will be listed on the 2i2c website’s Steering Council page. Anyone with this role must have training in violation response.
+The [Executive Director](#role:executive-director) is the Code of Conduct Steward, and monitors this reporting form.
+Anyone with this role must have training in violation response.
 
 ### Confidentiality
 
@@ -108,7 +104,7 @@ Instead of filling out a code of conduct violation report, please contact law en
 
 ### Getting help
 
-If you or someone else at 2i2c is struggling and needs help, don’t hesitate to reach out to the 2i2c Executive Director and [Steering Council members](https://2i2c.org/organization) in person or over email.
+If you or someone else at 2i2c is struggling and needs help, don’t hesitate to reach out to the 2i2c Executive Director in person or over email.
 
 ## License
 

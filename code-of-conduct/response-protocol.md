@@ -9,7 +9,7 @@ Within two business days of receiving an email alert, the Code of Conduct Stewar
 ## Read the report to determine whether there has been a code of conduct violation
 
 - If not, they will reply to the reporter, explain that our code of conduct was not violated, and suggest other remediation options (e.g., meeting to get advice on how to resolve an interpersonal conflict).
-- If yes, the Director will determine whether they are the best person to respond to the situation, or if it is more appropriate to hand off the report to another Director or Steering Council member (for example, if someone else already has a relationship with the reporter or the accused).
+- If yes, the Director will determine whether they are the best person to respond to the situation, or if it is more appropriate to hand off the report to another Director (for example, if someone else already has a relationship with the reporter or the accused).
 
 ## Follow up with the reporter
 
@@ -28,6 +28,6 @@ Within two business days of receiving an email alert, the Code of Conduct Stewar
   - We will explain how their behavior violates our code of conduct, and what we expect of them moving forward.
   - We will warn them that a second code of conduct violation will result in them being removed from the 2i2c community.
 
-If the Director or Steering Council member finds that someone reported a code of conduct violation somewhere other than our reporting form (e.g. on Slack, in an anonymous note, or in-person), that person will be asked to fill out the reporting form with all the information they can, and then the same process described above will be followed.
+If the Director finds that someone reported a code of conduct violation somewhere other than our reporting form (e.g. on Slack, in an anonymous note, or in-person), that person will be asked to fill out the reporting form with all the information they can, and then the same process described above will be followed.
 
 If a report is made anonymously without an email address provided for follow-up, or if the reporter indicates that they do not give us permission to act on their report, we will unfortunately not be able to take any action.

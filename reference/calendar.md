@@ -73,13 +73,13 @@ It is only accessible to team members.
 ```
 
 (calendars:steerco)=
-## Steering Council Calendar
+## Advisory Committee Calendar
 
-We have a Steering Council calendar to track important dates for our Steering Council.
+We have an Advisory Committee calendar to track important dates for our Advisory Committee.
 
 [Calendar link](https://calendar.google.com/calendar/embed?src=c_8fhk9pmflhqc79b6mf4vq0b9ps%40group.calendar.google.com).
 
-```{dropdown} Steering Council calendar (times in UTC)
+```{dropdown} Advisory Committee calendar (times in UTC)
 
 <iframe src="https://calendar.google.com/calendar/embed?src=c_8fhk9pmflhqc79b6mf4vq0b9ps%40group.calendar.google.com" style="border: 0; width:100%" height="600" frameborder="0" scrolling="no"></iframe>
 
