@@ -37,6 +37,30 @@ Initiatives that are related to the technical aspects of our platform are labell
 
 **All initiatives default to the status of "Candidate initiative."**  They only officially enter our roadmap when they are promoted to the **"Upcoming P&S Initatives"** status in the [P&S backlog](https://github.com/orgs/2i2c-org/projects/57/views/1).
 
+## Labelling initiatives
+
+Initiatives in [the initiatives repo](https://github.com/2i2c-org/initiatives/issues) use labels for **multi-valued** information.
+Single-valued information (Status, Level of Detail, T-shirt size, User visible) lives in **project fields**, not labels. Don't create a label for something that can only have one value at a time.
+
+Labels use the form `family:value`, all lowercase, with hyphens between words. Every initiative needs exactly one `type:` label and at least one `theme:` label before it's promoted out of "Candidate initiative".
+
+| Label family | How many | Meaning | Who applies it |
+|---|---|---|---|
+| `type:platform` | exactly one `type:` | Changes to the hub platform that admins or end users can see | Initiative author |
+| `type:service` | | Changes to a 2i2c service offering (support, training, onboarding), not software alone | Initiative author |
+| `type:foundational` | | Internal engineering work that strengthens the platform but isn't directly user-visible | Initiative author |
+| `type:other` | | Doesn't fit the above. Use rarely, and say why in the issue | Initiative author |
+| `theme:<roadmap-theme>` | one or more | The roadmap theme(s) the initiative advances. Use only the existing themes; adding a theme is a Product decision | Initiative author, checked by Product |
+| `interested:<community>` | any | That community has said it wants this | Whoever heard the interest (BD, Partnerships, Support) |
+| `funding:prospect` | 0 or 1 | Funding is being discussed in an open deal or proposal, but nothing is signed | BD |
+| `co-funded:<community>` | any | The community has a signed commitment (contract or equivalent) to fund this work. Keep the matching `interested:` label | BD, once the contract is signed |
+| `urgent:<community>` or `urgent:eol` | any | A time-bound need: a deadline, event, grant end or end-of-life | Whoever knows the deadline. Put the date in the issue body |
+| `Contract Deliverable` | 0 or 1 | Delivering this initiative is a contractual obligation | BD / Delivery |
+| `error:*`, `validation error` | — | Applied **automatically** by the initiatives linter. Never apply or remove these by hand; fix the issue body instead. An issue with an error label is hidden from the public roadmap | Automation only |
+| `asana-sync` | 0 or 1 | Mirror this issue into the Asana activity log (see [data sync](#operations:activity-log)) | Anyone |
+
+`<community>` must be the community's canonical slug: the same one used in HubSpot and the engagement-insights repo (for example `earthscope`, `cloudbank-classroom`, `veda`). If a label for a new community doesn't exist yet, create it with the family's color: `interested:` `#f6fd60`, `co-funded:` `#06d820`, `urgent:` `#d93f0b`.
+
 ## Scoping initiatives
 
 ### Goals
