@@ -73,8 +73,11 @@ A Product Manager will:
   A Product Manager will ensure that any issue with a contractual obligation or expected delivery has a clear due date.
 
 - **Mark contract deliverables with dates**  
-  Use labels to easily identify Contract Deliverables.
+  Use the `Contract Deliverable` label to identify Contract Deliverables.
 
+  Within each category, issues whose parent initiative carries an `urgent:` or `co-funded:` label go first.
+  See [Labelling initiatives](#initiatives:labels).
+  
 - **Assign preferred sprint-end dates**  
   If a card is intended for the upcoming sprint, team members let a Product Manager know and they will mark it with this sprint’s end date.
 
@@ -83,12 +86,15 @@ A Product Manager will:
 
 - **Ensure coverage of key categories**  
 The PM will ensure the Up Next column explicitly addresses these types of cards with higher priority:
-  1. Contract Deliverables
-  2. BD requests
-  3. Incident Mitigation issues
-  4. Support Tickets (including workshop requests and support issues that can't be resolved in 30 minutes)  
-  5. Platform Initiatives
-  6. Service Initiatives
+ 1. Contract Deliverables (`Contract Deliverable` label)
+ 2. BD requests (`bd-request` label)
+ 3. Incident Mitigation issues (`incident-response` label)
+ 4. Support Tickets (including workshop requests and support issues that can't be resolved in 30 minutes, labeled `support`)
+ 5. Issues parented to Platform Initiatives (`type:platform`, and `type:foundational` if it's on the roadmap)
+ 6. Issues parented to Service Initiatives (`type:service`)
+
+  Within each category, issues whose parent initiative carries an `urgent:` or `co-funded:` label go first.
+  See [Labelling initiatives](https://team-compass.2i2c.org/product-and-services/deliveryflow/#labelling-initiatives).
 
 The Team will:
 
