@@ -36,6 +36,12 @@ Look for the latest one to understand our current quarterly plan and process.
 
 ### What is an initiative?
 
+:::{note}
+This section covers **organizational initiatives** on the [Initiatives Board](https://github.com/orgs/2i2c-org/projects/46), which serve quarterly objectives.
+**Product initiatives** (fundable roadmap items in the [initiatives repo](https://github.com/2i2c-org/initiatives)) follow the [Delivery Flow](../product-and-services/deliveryflow.md) and its [labelling scheme](#initiatives:labels).
+An organizational initiative may link to one or more product initiatives as sub-issues.
+:::
+
 Initiatives represent significant progress towards a strategic goal. They are usually *accountable* to one area of 2i2c, but require action from many people across the organization to complete. Initiatives are not single actions, and often span multiple weeks of time. However, they should still be time-boxed and have a definition of “done”. A rule of thumb is that quarterly goals should take 2-5 initiatives to complete.
 
 An initiative IS:
