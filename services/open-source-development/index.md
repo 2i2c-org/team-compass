@@ -25,8 +25,8 @@ And a consortium's shared goals are to build better solutions for all communitie
 Each consortium starts with a shared problem or narrative, and a gathering of people. 
 
 1. **Propose a shared problem.** This can be proposed by a 2i2c team member, or one or more community members. It most often emerges through discussions of the [2i2c roadmap](https://2i2c.org/roadmap/), where we recognize that several related initiatives serve a common narrative.  
-   - **Initiatives:** Units of work that deliver value to open source communities, technology that 2i2c builds, or infrastructure for our services. Designed around a problem statement and a proposed solution. Resolved in weeks-\>months. These are how we plan and share the [2i2c roadmap](https://2i2c.org/roadmap/)  
-   - **Narratives:** Stories of ongoing need for a large class of users or communities. Forms the basis of a consortium. Useful for funding pitches and grant-writing. Designed as a thread that ties multiple initiatives. Resolved in months-\>years.           
+   - **Initiatives:** Units of work that deliver value to open source communities, technology that 2i2c builds, or infrastructure for our services. Designed around a problem statement and a proposed solution. Resolved in weeks-\>months. These are how we plan and share the [2i2c roadmap](https://2i2c.org/roadmap/) Filed as issues in the initiatives repo and labelled per Labelling initiatives.
+   - **Narratives:** Stories of ongoing need for a large class of users or communities. Forms the basis of a consortium. Useful for funding pitches and grant-writing. Designed as a thread that ties multiple initiatives. Resolved in months-\>years.         
 2. **Get critical mass.** Find enough other people who agree with the problem statement and are willing to participate in meetings about it.  
 3. **Meet to define goals.** Have a meeting with coalition members to refine the problem, and decide if there’s enough interest in moving forward.
 
