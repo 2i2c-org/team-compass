@@ -9,8 +9,8 @@ It runs scheduled GitHub Actions that read from each source and write changes in
 
 Here are a few examples, see [2i2c-org/data-sync](https://github.com/2i2c-org/data-sync) for the current list.
 
-- **Label a GitHub issue with a sync label**: a task is created in [our Asana activity log](#operations:activity-log) that mirrors fields like `GitHub Hours` (plus title and status) from GitHub -> Asana. The list of sync labels lives in the [data-sync repository](https://github.com/2i2c-org/data-sync).
-- **Add an 'Asana Engagement URL' to a HubSpot Deal**: the matching Asana engagement project will now be updated using HubSpot metadata.
+- **Tag a GitHub issue with an Activity Area** (a label or a project-board field): a task is created in [our Asana activity log](#operations:activity-log) that mirrors fields like {gui}`GitHub Hours` (plus title and status) from GitHub -> Asana. See [](#activity-log:how-to-log) for how to tag an issue.
+- **Add an {gui}`Asana Engagement URL` to a HubSpot Deal**: the matching Asana engagement project will now be updated using HubSpot metadata.
 - **Add a HubSpot Deal URL to a GitHub `Sales Issue`**: the issue URL will be added to the HubSpot deal, and HubSpot data will now be synced back to the issue body.
 
 See the [Create a GitHub Sales Issue to a HubSpot Deal?](https://docs.google.com/document/d/1T6kl8bOt6S0ltt5ICxlmX-CKSgkrL3e1qmvGYDI1JNM/edit?tab=t.0#bookmark=id.kpu3yimlioxu) section in the [HubSpot and CRM guide](https://docs.google.com/document/d/1T6kl8bOt6S0ltt5ICxlmX-CKSgkrL3e1qmvGYDI1JNM/edit?usp=sharing) document for the workflow details.

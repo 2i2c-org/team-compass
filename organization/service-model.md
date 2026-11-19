@@ -28,6 +28,8 @@ Memberships blend all four, while directed engagements usually emphasize a subse
 **Develop** covers member-driven contributions that address a specific member community's need.
 **Steward** covers [foundational contributions](https://2i2c.org/blog/good-citizen/) that keep the ecosystem healthy regardless of any one member's need, along with broader project leadership and community support.
 
+We track our effort in each area in the [activity log](#operations:activity-log), by tagging each task with its Activity Area.
+
 ## Membership and directed engagements
 
 There are two ways to support our work - **membership** is a common base for every contract, and **directed engagements** stack in addition.
