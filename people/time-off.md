@@ -17,7 +17,7 @@ These policies are detailed in the [CS&S Employee Handbook](https://drive.google
 - 2i2c does not have a limit on the number of days you may take off each year.
 - We recommend that all 2i2c team members take **at least 40 days** (8 weeks) annually (pro-rated if you started work mid-way through the year).[^time-off]
 - We do not treat national holidays differently from vacation days.
-- You must open an issue to tell others about your intention to take time off, and you must add your intended time off to the [Team Leave Calendar](#calendars:time-off).
+- You must open an issue to tell others about your intention to take time off, and you must [mark yourself out of office](#time-off:ooo-calendar) in your Google Calendar.
 
 ### Guidelines for taking time off
 
@@ -34,6 +34,25 @@ Follow the steps in that template.
 :::{admonition} Dates are inclusive
 When you're specifying an end date for your time off, it should be the _final day you're away_.
 Not the first day that you're back.
+:::
+
+(time-off:ooo-calendar)=
+### Mark yourself out of office
+
+When you're out, create an event in your own Google Calendar using the **Out of office** event type (not a regular event titled "Vacation").
+It will appear on the [2i2c Team Leave calendar](https://calendar.google.com/calendar/u/0?cid=Y19pNTJqZGNhbTZ0M3FsaDF1NTNqdG42MjNwY0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t) as `<Name> – OOO`.
+
+This calendar will show the OOO status for any member of the [`staff@2i2c.org`](#workspace:staff) Google Group. Adding or removing someone from the group will add or remove them from the calendar.
+
+:::{admonition} How the OOO calendar works
+:class: dropdown
+
+The calendar is filled hourly by the [`Team OOO sync` Google Apps Script](https://script.google.com/home/projects/1wYPT6dH5EQl4IHmNcH0V70sjfqvT0OusWy2J74fx4d8MfWsxjOyuHlJ6/edit), managed by the [`operations@2i2c.org`](#workspace:operations) Google account.
+
+A few debugging tips:
+
+- **Someone is missing**: run `checkMembers` in the script project and read the log.
+- **The calendar isn't updating**: check the latest run under {kbd}`Executions`.
 :::
 
 ## Sick and personal leave
