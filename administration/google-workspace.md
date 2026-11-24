@@ -23,6 +23,12 @@ To see a list of all Google Groups at 2i2c:
 - Go to [`groups.google.com`](https://groups.google.com/) with your 2i2c account.
 - Click on `All groups` to see all groups at 2i2c.
 
+(workspace:staff)=
+### `staff@2i2c.org` - 2i2c staff
+
+This Google Group contains all 2i2c staff.
+It is used for adding members to shared team resources like Google Drive or Calendar.
+
 (workspace:admin)=
 ### `admin@2i2c.org` - shared Admin account
 
@@ -35,6 +41,14 @@ This is a **shared Google Group inbox** that we use for administrative correspon
 3. Open the group and click `Join group`.
 
 Once you've joined, messages sent to `admin@2i2c.org` will be delivered to your `@2i2c.org` inbox, and the full archive is browsable at [`groups.google.com`](https://groups.google.com/).
+
+(workspace:operations)=
+## `operations@2i2c.org` - shared operations account
+
+This is a **shared Google account** (not a group) that runs team automations, so they don't depend on any one person's account.
+For example, it runs the script that fills the [OOO calendar](#time-off:ooo-calendar), which is why it must stay a member of [`staff@2i2c.org`](#workspace:staff).
+
+The password and passkey are in our [team Bitwarden](#account:bitwarden).
 
 ## Add new members
 
